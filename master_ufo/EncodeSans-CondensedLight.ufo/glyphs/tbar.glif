@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tbar" format="2">
+  <advance width="592.0"/>
+  <unicode hex="0167"/>
+  <guideline x="568.0" y="630.0" angle="90.0"/>
+  <anchor x="394.0" y="0.0" name="bottom"/>
+  <anchor x="468.0" y="1616.0" name="caronalt"/>
+  <anchor x="200.0" y="660.0" name="stroke"/>
+  <anchor x="234.0" y="1480.0" name="top"/>
+  <anchor x="568.0" y="1616.0" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="strokeshortcomb.t" xOffset="-400.0" yOffset="-420.0"/>
+  </outline>
+</glyph>

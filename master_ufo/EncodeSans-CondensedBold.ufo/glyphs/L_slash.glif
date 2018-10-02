@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="2">
+  <advance width="1074.0"/>
+  <unicode hex="0141"/>
+  <anchor x="598.0" y="0.0" name="bottom"/>
+  <anchor x="714.0" y="1616.0" name="caronalt"/>
+  <anchor x="834.0" y="894.0" name="periodcentered"/>
+  <anchor x="330.0" y="854.0" name="slash"/>
+  <anchor x="330.0" y="1520.0" name="top"/>
+  <outline>
+    <component base="L" xOffset="38.0"/>
+    <component base="slashshortcomb.case" xOffset="-70.0" yOffset="80.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

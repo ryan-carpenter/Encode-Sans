@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="2">
+  <advance width="542.0"/>
+  <unicode hex="013E"/>
+  <anchor x="272.0" y="0.0" name="bottom"/>
+  <anchor x="544.0" y="1616.0" name="caronalt"/>
+  <anchor x="704.0" y="794.0" name="periodcentered"/>
+  <anchor x="272.0" y="714.0" name="slash"/>
+  <anchor x="272.0" y="1616.0" name="top"/>
+  <outline>
+    <component base="l"/>
+    <component base="caroncomb.alt" xOffset="-56.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

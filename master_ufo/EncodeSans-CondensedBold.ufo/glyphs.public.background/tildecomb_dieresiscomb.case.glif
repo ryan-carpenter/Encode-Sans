@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb_dieresiscomb.case" format="2">
+  <outline>
+    <component base="tildecomb.case"/>
+    <component base="dieresiscomb.case"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohornhookabove.sc" format="2">
+  <advance width="1036.0"/>
+  <anchor x="518.0" y="0.0" name="bottom"/>
+  <anchor x="518.0" y="1230.0" name="top"/>
+  <outline>
+    <component base="ohorn.sc"/>
+    <component base="hookabovecomb.sc" xOffset="118.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

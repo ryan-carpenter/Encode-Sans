@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dz" format="2">
+  <advance width="1980.0"/>
+  <unicode hex="01F3"/>
+  <anchor x="562.0" y="0.0" name="bottom_1"/>
+  <anchor x="1550.0" y="0.0" name="bottom_2"/>
+  <anchor x="1106.0" y="1616.0" name="caronalt"/>
+  <anchor x="546.0" y="540.0" name="center"/>
+  <anchor x="1026.0" y="1350.0" name="stroke"/>
+  <anchor x="546.0" y="1200.0" name="top_1"/>
+  <anchor x="1550.0" y="1200.0" name="top_2"/>
+  <anchor x="1064.0" y="1100.0" name="topright"/>
+  <outline>
+    <component base="d"/>
+    <component base="z" xOffset="1104.0"/>
+  </outline>
+</glyph>

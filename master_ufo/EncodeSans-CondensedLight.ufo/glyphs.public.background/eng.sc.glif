@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eng.sc" format="2">
+  <outline>
+    <contour>
+      <point x="166.0" y="0.0" type="line"/>
+      <point x="232.0" y="0.0" type="line"/>
+      <point x="232.0" y="1118.0" type="line"/>
+      <point x="204.0" y="1118.0" type="line"/>
+      <point x="886.0" y="0.0" type="line"/>
+      <point x="960.0" y="0.0" type="line"/>
+      <point x="960.0" y="1190.0" type="line"/>
+      <point x="894.0" y="1190.0" type="line"/>
+      <point x="894.0" y="72.0" type="line"/>
+      <point x="922.0" y="72.0" type="line"/>
+      <point x="240.0" y="1190.0" type="line"/>
+      <point x="166.0" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1196.0" y="-274.0" type="line"/>
+      <point x="1310.0" y="-110.0"/>
+      <point x="1354.0" y="20.0"/>
+      <point x="1360.0" y="210.0" type="curve"/>
+      <point x="1360.0" y="1190.0" type="line"/>
+      <point x="1292.0" y="1190.0" type="line"/>
+      <point x="1292.0" y="230.0" type="line" smooth="yes"/>
+      <point x="1292.0" y="32.0"/>
+      <point x="1250.0" y="-88.0"/>
+      <point x="1148.0" y="-240.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

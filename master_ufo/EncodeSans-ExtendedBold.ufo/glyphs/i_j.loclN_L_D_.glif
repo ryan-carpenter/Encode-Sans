@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i_j.loclNLD" format="2">
+  <advance width="1392.0"/>
+  <anchor x="348.0" y="0.0" name="bottom"/>
+  <anchor x="580.0" y="0.0" name="ogonek"/>
+  <anchor x="348.0" y="1656.0" name="top_1"/>
+  <anchor x="1034.0" y="1656.0" name="top_2"/>
+  <outline>
+    <component base="i"/>
+    <component base="j" xOffset="696.0"/>
+  </outline>
+</glyph>
