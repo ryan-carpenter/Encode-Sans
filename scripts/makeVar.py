@@ -4,17 +4,23 @@ import fontmake
 from fontmake.font_project import FontProject
 from datetime import datetime
 
-# DS_PATH = 'recursive-mono-roman.designspace' # use for designspace
+######################################
+##### DEFINE THE VARIABLES BELOW #####
+ 
+familyName = 'EncodeSans'
+
+DS_PATH = 'master_ufo/EncodeSans-fixed.designspace' # use for a designspace
 GLYPHS_PATH = 'sources/Encode-Sans.glyphs' # use for glyphs file
 
-# make folder like SampleFont_2015-10-21-017_03
+##### DEFINE THE VARIABLES ABOVE #####
+######################################
 
+# make timestamped folder in dist, like `SampleFont_2015-10-21-017_03`
 currentDatetime = datetime.now().strftime('%Y-%m-%d-%H_%M')
-
 outputFolder = 'dist/' + GLYPHS_PATH.replace('sources/', '').replace('.glyphs', '-VF-') + currentDatetime + '/'
-
 if not os.path.exists(outputFolder):
     os.makedirs(outputFolder)
+
 
 # define run args
 def getRunArguments():
@@ -37,7 +43,8 @@ def getRunArguments():
         'use_afdko': False,
         'subroutinize': True,
         'output':['variable'],
-        'instance_dir': outputFolder
+        # 'designspace_path': 'master_ufo/' + familyName + '.designspace',
+        # 'instance_dir': outputFolder
     }
     return args
 
@@ -45,12 +52,22 @@ project = FontProject()
 
 args = getRunArguments()
 
-# TODO: is there a way to automatically export this to a specified folder? 
+# print(project.run_from_designspace(designspace_path=DS_PATH, **args))
 print(project.run_from_glyphs(glyphs_path=GLYPHS_PATH, **args))
 
-# TODO: get family name from glyphs file (?)
-# defaultFontPath = 'variable_ttf/' + GLYPHS_PATH.replace('sources/', '').replace('.glyphs', '-VF.ttf')
-# newFontPath = outputFolder + GLYPHS_PATH.replace('sources/', '').replace('.glyphs', '-VF.ttf')
-# shutil.move(defaultFontPath, newFontPath)
+# move font to the timestamped folder in dist
+defaultFontPath = 'variable_ttf/' + familyName + '-VF.ttf'
+newFontPath = outputFolder + familyName + '-VF.ttf'
+shutil.move(defaultFontPath, newFontPath)
 
-os.system('open %s' % fontPath)
+# remove now-empty default folder
+if os.path.exists('variable_ttf'):
+    os.rmdir('variable_ttf')
+
+# open varfont in FontView (or whatever is set as the default app to view varfont files)
+os.system('open %s' % newFontPath)
+
+# run fontbakery check on new font
+fontbakeryCommand = 'fontbakery check-googlefonts ' + newFontPath + ' --ghmarkdown ' + outputFolder + 'fontbakery-report.md'
+# print("fontbakeryCommand is " + fontbakeryCommand)
+print(os.system(fontbakeryCommand))

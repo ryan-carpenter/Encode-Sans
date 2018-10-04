@@ -45,7 +45,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-Thin.ufo" name="Encode Sans Condensed Thin" stylemapfamilyname="Encode Sans Condensed Thin" stylemapstylename="regular" stylename="Thin">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Thin.ufo" name="Encode Sans Condensed Thin" stylemapfamilyname="Encode Sans Condensed Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
                 <dimension name="Width" xvalue="0" />
@@ -53,7 +53,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-ExtraLight.ufo" name="Encode Sans Condensed ExtraLight" stylemapfamilyname="Encode Sans Condensed ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-ExtraLight.ufo" name="Encode Sans Condensed ExtraLight" stylemapfamilyname="Encode Sans Condensed ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="44" />
                 <dimension name="Width" xvalue="0" />
@@ -61,7 +61,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-Light.ufo" name="Encode Sans Condensed Light" stylemapfamilyname="Encode Sans Condensed Light" stylemapstylename="regular" stylename="Light">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Light.ufo" name="Encode Sans Condensed Light" stylemapfamilyname="Encode Sans Condensed Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="58" />
                 <dimension name="Width" xvalue="0" />
@@ -69,7 +69,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-Regular.ufo" name="Encode Sans Condensed Regular" stylemapfamilyname="Encode Sans Condensed" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Regular.ufo" name="Encode Sans Condensed Regular" stylemapfamilyname="Encode Sans Condensed" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="76" />
                 <dimension name="Width" xvalue="0" />
@@ -77,7 +77,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-Medium.ufo" name="Encode Sans Condensed Medium" stylemapfamilyname="Encode Sans Condensed Medium" stylemapstylename="regular" stylename="Medium">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Medium.ufo" name="Encode Sans Condensed Medium" stylemapfamilyname="Encode Sans Condensed Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="97" />
                 <dimension name="Width" xvalue="0" />
@@ -85,7 +85,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-SemiBold.ufo" name="Encode Sans Condensed SemiBold" stylemapfamilyname="Encode Sans Condensed SemiBold" stylemapstylename="regular" stylename="SemiBold">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-SemiBold.ufo" name="Encode Sans Condensed SemiBold" stylemapfamilyname="Encode Sans Condensed SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="121" />
                 <dimension name="Width" xvalue="0" />
@@ -93,7 +93,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-Bold.ufo" name="Encode Sans Condensed Bold" stylemapfamilyname="Encode Sans Condensed" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Bold.ufo" name="Encode Sans Condensed Bold" stylemapfamilyname="Encode Sans Condensed" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="146" />
                 <dimension name="Width" xvalue="0" />
@@ -101,7 +101,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-ExtraBold.ufo" name="Encode Sans Condensed ExtraBold" stylemapfamilyname="Encode Sans Condensed ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-ExtraBold.ufo" name="Encode Sans Condensed ExtraBold" stylemapfamilyname="Encode Sans Condensed ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="171" />
                 <dimension name="Width" xvalue="0" />
@@ -109,7 +109,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Condensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansCondensed-Black.ufo" name="Encode Sans Condensed Black" stylemapfamilyname="Encode Sans Condensed Black" stylemapstylename="regular" stylename="Black">
+        <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Black.ufo" name="Encode Sans Condensed Black" stylemapfamilyname="Encode Sans Condensed Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="193" />
                 <dimension name="Width" xvalue="0" />
@@ -117,7 +117,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-Thin.ufo" name="Encode Sans SemiCondensed Thin" stylemapfamilyname="Encode Sans SemiCondensed Thin" stylemapstylename="regular" stylename="Thin">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Thin.ufo" name="Encode Sans SemiCondensed Thin" stylemapfamilyname="Encode Sans SemiCondensed Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
                 <dimension name="Width" xvalue="250" />
@@ -125,7 +125,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-ExtraLight.ufo" name="Encode Sans SemiCondensed ExtraLight" stylemapfamilyname="Encode Sans SemiCondensed ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-ExtraLight.ufo" name="Encode Sans SemiCondensed ExtraLight" stylemapfamilyname="Encode Sans SemiCondensed ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="44" />
                 <dimension name="Width" xvalue="250" />
@@ -133,7 +133,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-Light.ufo" name="Encode Sans SemiCondensed Light" stylemapfamilyname="Encode Sans SemiCondensed Light" stylemapstylename="regular" stylename="Light">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Light.ufo" name="Encode Sans SemiCondensed Light" stylemapfamilyname="Encode Sans SemiCondensed Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="59" />
                 <dimension name="Width" xvalue="250" />
@@ -141,7 +141,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-Regular.ufo" name="Encode Sans SemiCondensed Regular" stylemapfamilyname="Encode Sans SemiCondensed" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Regular.ufo" name="Encode Sans SemiCondensed Regular" stylemapfamilyname="Encode Sans SemiCondensed" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="78" />
                 <dimension name="Width" xvalue="250" />
@@ -149,7 +149,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-Medium.ufo" name="Encode Sans SemiCondensed Medium" stylemapfamilyname="Encode Sans SemiCondensed Medium" stylemapstylename="regular" stylename="Medium">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Medium.ufo" name="Encode Sans SemiCondensed Medium" stylemapfamilyname="Encode Sans SemiCondensed Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="101" />
                 <dimension name="Width" xvalue="250" />
@@ -157,7 +157,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-SemiBold.ufo" name="Encode Sans SemiCondensed SemiBold" stylemapfamilyname="Encode Sans SemiCondensed SemiBold" stylemapstylename="regular" stylename="SemiBold">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-SemiBold.ufo" name="Encode Sans SemiCondensed SemiBold" stylemapfamilyname="Encode Sans SemiCondensed SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="126" />
                 <dimension name="Width" xvalue="250" />
@@ -165,7 +165,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-Bold.ufo" name="Encode Sans SemiCondensed Bold" stylemapfamilyname="Encode Sans SemiCondensed" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Bold.ufo" name="Encode Sans SemiCondensed Bold" stylemapfamilyname="Encode Sans SemiCondensed" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="153" />
                 <dimension name="Width" xvalue="250" />
@@ -173,7 +173,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-ExtraBold.ufo" name="Encode Sans SemiCondensed ExtraBold" stylemapfamilyname="Encode Sans SemiCondensed ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-ExtraBold.ufo" name="Encode Sans SemiCondensed ExtraBold" stylemapfamilyname="Encode Sans SemiCondensed ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="180" />
                 <dimension name="Width" xvalue="250" />
@@ -181,7 +181,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiCondensed" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiCondensed-Black.ufo" name="Encode Sans SemiCondensed Black" stylemapfamilyname="Encode Sans SemiCondensed Black" stylemapstylename="regular" stylename="Black">
+        <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Black.ufo" name="Encode Sans SemiCondensed Black" stylemapfamilyname="Encode Sans SemiCondensed Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="203" />
                 <dimension name="Width" xvalue="250" />
@@ -189,7 +189,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-Thin.ufo" name="Encode Sans Thin" stylemapfamilyname="Encode Sans Thin" stylemapstylename="regular" stylename="Thin">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Thin.ufo" name="Encode Sans Thin" stylemapfamilyname="Encode Sans Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
                 <dimension name="Width" xvalue="500" />
@@ -197,7 +197,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-ExtraLight.ufo" name="Encode Sans ExtraLight" stylemapfamilyname="Encode Sans ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-ExtraLight.ufo" name="Encode Sans ExtraLight" stylemapfamilyname="Encode Sans ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="44" />
                 <dimension name="Width" xvalue="500" />
@@ -205,7 +205,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-Light.ufo" name="Encode Sans Light" stylemapfamilyname="Encode Sans Light" stylemapstylename="regular" stylename="Light">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Light.ufo" name="Encode Sans Light" stylemapfamilyname="Encode Sans Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="60" />
                 <dimension name="Width" xvalue="500" />
@@ -213,7 +213,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-Regular.ufo" name="Encode Sans Regular" stylemapfamilyname="Encode Sans" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Regular.ufo" name="Encode Sans Regular" stylemapfamilyname="Encode Sans" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="80" />
                 <dimension name="Width" xvalue="500" />
@@ -221,7 +221,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-Medium.ufo" name="Encode Sans Medium" stylemapfamilyname="Encode Sans Medium" stylemapstylename="regular" stylename="Medium">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Medium.ufo" name="Encode Sans Medium" stylemapfamilyname="Encode Sans Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="104" />
                 <dimension name="Width" xvalue="500" />
@@ -229,7 +229,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-SemiBold.ufo" name="Encode Sans SemiBold" stylemapfamilyname="Encode Sans SemiBold" stylemapstylename="regular" stylename="SemiBold">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-SemiBold.ufo" name="Encode Sans SemiBold" stylemapfamilyname="Encode Sans SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="131" />
                 <dimension name="Width" xvalue="500" />
@@ -237,7 +237,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-Bold.ufo" name="Encode Sans Bold" stylemapfamilyname="Encode Sans" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Bold.ufo" name="Encode Sans Bold" stylemapfamilyname="Encode Sans" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="160" />
                 <dimension name="Width" xvalue="500" />
@@ -245,7 +245,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-ExtraBold.ufo" name="Encode Sans ExtraBold" stylemapfamilyname="Encode Sans ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-ExtraBold.ufo" name="Encode Sans ExtraBold" stylemapfamilyname="Encode Sans ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="188" />
                 <dimension name="Width" xvalue="500" />
@@ -253,7 +253,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSans-Black.ufo" name="Encode Sans Black" stylemapfamilyname="Encode Sans Black" stylemapstylename="regular" stylename="Black">
+        <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Black.ufo" name="Encode Sans Black" stylemapfamilyname="Encode Sans Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="213" />
                 <dimension name="Width" xvalue="500" />
@@ -261,7 +261,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-Thin.ufo" name="Encode Sans SemiExpanded Thin" stylemapfamilyname="Encode Sans SemiExpanded Thin" stylemapstylename="regular" stylename="Thin">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Thin.ufo" name="Encode Sans SemiExpanded Thin" stylemapfamilyname="Encode Sans SemiExpanded Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
                 <dimension name="Width" xvalue="750" />
@@ -269,7 +269,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-ExtraLight.ufo" name="Encode Sans SemiExpanded ExtraLight" stylemapfamilyname="Encode Sans SemiExpanded ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-ExtraLight.ufo" name="Encode Sans SemiExpanded ExtraLight" stylemapfamilyname="Encode Sans SemiExpanded ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="45" />
                 <dimension name="Width" xvalue="750" />
@@ -277,7 +277,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-Light.ufo" name="Encode Sans SemiExpanded Light" stylemapfamilyname="Encode Sans SemiExpanded Light" stylemapstylename="regular" stylename="Light">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Light.ufo" name="Encode Sans SemiExpanded Light" stylemapfamilyname="Encode Sans SemiExpanded Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="61" />
                 <dimension name="Width" xvalue="750" />
@@ -285,7 +285,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-Regular.ufo" name="Encode Sans SemiExpanded Regular" stylemapfamilyname="Encode Sans SemiExpanded" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Regular.ufo" name="Encode Sans SemiExpanded Regular" stylemapfamilyname="Encode Sans SemiExpanded" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="82" />
                 <dimension name="Width" xvalue="750" />
@@ -293,7 +293,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-Medium.ufo" name="Encode Sans SemiExpanded Medium" stylemapfamilyname="Encode Sans SemiExpanded Medium" stylemapstylename="regular" stylename="Medium">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Medium.ufo" name="Encode Sans SemiExpanded Medium" stylemapfamilyname="Encode Sans SemiExpanded Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="108" />
                 <dimension name="Width" xvalue="750" />
@@ -301,7 +301,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-SemiBold.ufo" name="Encode Sans SemiExpanded SemiBold" stylemapfamilyname="Encode Sans SemiExpanded SemiBold" stylemapstylename="regular" stylename="SemiBold">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-SemiBold.ufo" name="Encode Sans SemiExpanded SemiBold" stylemapfamilyname="Encode Sans SemiExpanded SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="136" />
                 <dimension name="Width" xvalue="750" />
@@ -309,7 +309,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-Bold.ufo" name="Encode Sans SemiExpanded Bold" stylemapfamilyname="Encode Sans SemiExpanded" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Bold.ufo" name="Encode Sans SemiExpanded Bold" stylemapfamilyname="Encode Sans SemiExpanded" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="167" />
                 <dimension name="Width" xvalue="750" />
@@ -317,7 +317,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-ExtraBold.ufo" name="Encode Sans SemiExpanded ExtraBold" stylemapfamilyname="Encode Sans SemiExpanded ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-ExtraBold.ufo" name="Encode Sans SemiExpanded ExtraBold" stylemapfamilyname="Encode Sans SemiExpanded ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="196" />
                 <dimension name="Width" xvalue="750" />
@@ -325,7 +325,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans SemiExpanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansSemiExpanded-Black.ufo" name="Encode Sans SemiExpanded Black" stylemapfamilyname="Encode Sans SemiExpanded Black" stylemapstylename="regular" stylename="Black">
+        <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Black.ufo" name="Encode Sans SemiExpanded Black" stylemapfamilyname="Encode Sans SemiExpanded Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="222" />
                 <dimension name="Width" xvalue="750" />
@@ -333,7 +333,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-Thin.ufo" name="Encode Sans Expanded Thin" stylemapfamilyname="Encode Sans Expanded Thin" stylemapstylename="regular" stylename="Thin">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Thin.ufo" name="Encode Sans Expanded Thin" stylemapfamilyname="Encode Sans Expanded Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
                 <dimension name="Width" xvalue="1000" />
@@ -341,7 +341,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-ExtraLight.ufo" name="Encode Sans Expanded ExtraLight" stylemapfamilyname="Encode Sans Expanded ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-ExtraLight.ufo" name="Encode Sans Expanded ExtraLight" stylemapfamilyname="Encode Sans Expanded ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="45" />
                 <dimension name="Width" xvalue="1000" />
@@ -349,7 +349,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-Light.ufo" name="Encode Sans Expanded Light" stylemapfamilyname="Encode Sans Expanded Light" stylemapstylename="regular" stylename="Light">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Light.ufo" name="Encode Sans Expanded Light" stylemapfamilyname="Encode Sans Expanded Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="62" />
                 <dimension name="Width" xvalue="1000" />
@@ -357,7 +357,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-Regular.ufo" name="Encode Sans Expanded Regular" stylemapfamilyname="Encode Sans Expanded" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Regular.ufo" name="Encode Sans Expanded Regular" stylemapfamilyname="Encode Sans Expanded" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="84" />
                 <dimension name="Width" xvalue="1000" />
@@ -365,7 +365,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-Medium.ufo" name="Encode Sans Expanded Medium" stylemapfamilyname="Encode Sans Expanded Medium" stylemapstylename="regular" stylename="Medium">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Medium.ufo" name="Encode Sans Expanded Medium" stylemapfamilyname="Encode Sans Expanded Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="111" />
                 <dimension name="Width" xvalue="1000" />
@@ -373,7 +373,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-SemiBold.ufo" name="Encode Sans Expanded SemiBold" stylemapfamilyname="Encode Sans Expanded SemiBold" stylemapstylename="regular" stylename="SemiBold">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-SemiBold.ufo" name="Encode Sans Expanded SemiBold" stylemapfamilyname="Encode Sans Expanded SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="141" />
                 <dimension name="Width" xvalue="1000" />
@@ -381,7 +381,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-Bold.ufo" name="Encode Sans Expanded Bold" stylemapfamilyname="Encode Sans Expanded" stylemapstylename="bold" stylename="Bold">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Bold.ufo" name="Encode Sans Expanded Bold" stylemapfamilyname="Encode Sans Expanded" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="173" />
                 <dimension name="Width" xvalue="1000" />
@@ -389,7 +389,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-ExtraBold.ufo" name="Encode Sans Expanded ExtraBold" stylemapfamilyname="Encode Sans Expanded ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-ExtraBold.ufo" name="Encode Sans Expanded ExtraBold" stylemapfamilyname="Encode Sans Expanded ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="204" />
                 <dimension name="Width" xvalue="1000" />
@@ -397,7 +397,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Encode Sans Expanded" filename="../dist/Encode-Sans-VF-2018-10-02-17_13/EncodeSansExpanded-Black.ufo" name="Encode Sans Expanded Black" stylemapfamilyname="Encode Sans Expanded Black" stylemapstylename="regular" stylename="Black">
+        <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Black.ufo" name="Encode Sans Expanded Black" stylemapfamilyname="Encode Sans Expanded Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="232" />
                 <dimension name="Width" xvalue="1000" />

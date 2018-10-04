@@ -1408,9 +1408,11 @@
       <dict/>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>965</string>
+    <string>1141</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
+    <array>
+      <string>/dieresiscomb_acutecomb/tildecomb_acutecomb</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
