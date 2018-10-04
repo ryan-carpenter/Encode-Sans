@@ -22,24 +22,28 @@
             <info copy="1" />
             <location>
                 <dimension name="Weight" xvalue="34" />
+                <!-- <dimension name="Weight" xvalue="100" /> -->
                 <dimension name="Width" xvalue="0" />
             </location>
         </source>
         <source familyname="Encode Sans" filename="EncodeSans-CondensedBold.ufo" name="Encode Sans Condensed Bold" stylename="Condensed Bold">
             <location>
                 <dimension name="Weight" xvalue="193" />
+                <!-- <dimension name="Weight" xvalue="900" /> -->
                 <dimension name="Width" xvalue="0" />
             </location>
         </source>
         <source familyname="Encode Sans" filename="EncodeSans-ExtendedLight.ufo" name="Encode Sans Extended Light" stylename="Extended Light">
             <location>
                 <dimension name="Weight" xvalue="34" />
+                <!-- <dimension name="Weight" xvalue="100" /> -->
                 <dimension name="Width" xvalue="1000" />
             </location>
         </source>
         <source familyname="Encode Sans" filename="EncodeSans-ExtendedBold.ufo" name="Encode Sans Extended Bold" stylename="Extended Bold">
             <location>
                 <dimension name="Weight" xvalue="232" />
+                <!-- <dimension name="Weight" xvalue="900" /> -->
                 <dimension name="Width" xvalue="1000" />
             </location>
         </source>

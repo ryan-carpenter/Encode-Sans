@@ -52,8 +52,8 @@ project = FontProject()
 
 args = getRunArguments()
 
-# print(project.run_from_designspace(designspace_path=DS_PATH, **args))
-print(project.run_from_glyphs(glyphs_path=GLYPHS_PATH, **args))
+print(project.run_from_designspace(designspace_path=DS_PATH, **args))
+# print(project.run_from_glyphs(glyphs_path=GLYPHS_PATH, **args))
 
 # move font to the timestamped folder in dist
 defaultFontPath = 'variable_ttf/' + familyName + '-VF.ttf'
