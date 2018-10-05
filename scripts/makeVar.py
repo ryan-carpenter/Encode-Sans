@@ -9,7 +9,7 @@ from datetime import datetime
  
 familyName = 'EncodeSans'
 
-DS_PATH = 'master_ufo/EncodeSans-fixed.designspace' # use for a designspace
+DS_PATH = 'master_ufo/EncodeSans-mathfix-ds_v3.designspace' # use for a designspace
 GLYPHS_PATH = 'sources/Encode-Sans.glyphs' # use for glyphs file
 
 ##### DEFINE THE VARIABLES ABOVE #####
