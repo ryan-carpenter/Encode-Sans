@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocircumflexgrave" format="2">
+  <advance width="1236.5858585858587"/>
+  <unicode hex="1ED3"/>
+  <anchor x="618.2929292929293" y="0.0" name="bottom"/>
+  <anchor x="618.2929292929293" y="548.5858585858585" name="center"/>
+  <anchor x="801.2323232323232" y="0.0" name="ogonek"/>
+  <anchor x="618.2929292929293" y="1200.0" name="top"/>
+  <anchor x="636.969696969697" y="1097.171717171717" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflexcomb_gravecomb" xOffset="32.43434343434342"/>
+  </outline>
+</glyph>

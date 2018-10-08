@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rdotbelow" format="2">
+  <advance width="1306.1515151515152"/>
+  <unicode hex="1E5A"/>
+  <anchor x="682.7272727272727" y="-443.5353535353535" name="bottom"/>
+  <anchor x="629.0202020202021" y="1520.0" name="top"/>
+  <outline>
+    <component base="R"/>
+    <component base="dotbelowcomb.case" xOffset="157.47474747474746"/>
+  </outline>
+</glyph>

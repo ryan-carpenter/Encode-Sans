@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="racute" format="2">
+  <advance width="840.4242424242425"/>
+  <unicode hex="0155"/>
+  <anchor x="295.01010101010104" y="0.0" name="bottom"/>
+  <anchor x="467.25252525252523" y="1641.858585858586" name="top"/>
+  <outline>
+    <component base="r"/>
+    <component base="acutecomb" xOffset="-118.60606060606061"/>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.tosf" format="2">
+  <advance width="1288.888888888889"/>
+  <outline>
+    <contour>
+      <point x="50.707070707070706" y="0.0" type="line"/>
+      <point x="1235.3232323232323" y="0.0" type="line"/>
+      <point x="1235.3232323232323" y="292.3838383838384" type="line"/>
+      <point x="382.4545454545455" y="292.3838383838384" type="line"/>
+      <point x="420.919191919192" y="207.14141414141415" type="line"/>
+      <point x="855.2121212121212" y="1097.171717171717" type="line"/>
+      <point x="493.30303030303025" y="1097.171717171717" type="line"/>
+      <point x="50.707070707070706" y="207.42424242424244" type="line"/>
+    </contour>
+    <contour>
+      <point x="727.7777777777778" y="-400.0" type="line"/>
+      <point x="1068.8080808080808" y="-400.0" type="line"/>
+      <point x="1068.8080808080808" y="693.0202020202021" type="line"/>
+      <point x="780.4242424242424" y="693.0202020202021" type="line"/>
+      <point x="727.7777777777778" y="292.3838383838384" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f.short" format="2">
+  <advance width="715.7373737373738"/>
+  <outline>
+    <contour>
+      <point x="223.38383838383837" y="0.0" type="line"/>
+      <point x="380.7777777777778" y="0.0" type="line"/>
+      <point x="380.7777777777778" y="1261.6565656565656" type="line" smooth="yes"/>
+      <point x="380.7777777777778" y="1434.1313131313132"/>
+      <point x="461.69696969696975" y="1502.8282828282827"/>
+      <point x="621.7777777777778" y="1502.8282828282827" type="curve" smooth="yes"/>
+      <point x="665.979797979798" y="1502.8282828282827"/>
+      <point x="707.929292929293" y="1498.5858585858587"/>
+      <point x="751.3838383838383" y="1489.5858585858587" type="curve"/>
+      <point x="751.3838383838383" y="1622.7373737373737" type="line"/>
+      <point x="705.3737373737374" y="1632.0"/>
+      <point x="654.3838383838385" y="1636.0"/>
+      <point x="606.8383838383838" y="1636.0" type="curve" smooth="yes"/>
+      <point x="357.34343434343435" y="1636.0"/>
+      <point x="223.38383838383837" y="1502.7878787878788"/>
+      <point x="223.38383838383837" y="1253.858585858586" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="18.535353535353536" y="953.8787878787879" type="line"/>
+      <point x="721.979797979798" y="953.8787878787879" type="line"/>
+      <point x="721.979797979798" y="1085.050505050505" type="line"/>
+      <point x="18.535353535353536" y="1085.050505050505" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

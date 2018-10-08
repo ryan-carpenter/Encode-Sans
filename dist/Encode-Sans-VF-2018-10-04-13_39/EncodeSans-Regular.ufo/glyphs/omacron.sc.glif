@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omacron.sc" format="2">
+  <advance width="1261.949494949495"/>
+  <anchor x="630.8484848484849" y="0.0" name="bottom"/>
+  <anchor x="630.8484848484849" y="594.0" name="center"/>
+  <anchor x="782.1616161616162" y="0.0" name="ogonek"/>
+  <anchor x="630.8484848484849" y="1230.0" name="top"/>
+  <anchor x="48.02020202020202" y="1190.0" name="topleft"/>
+  <anchor x="780.7171717171717" y="1190.0" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="macroncomb.sc" xOffset="105.59595959595961" yOffset="-290.0"/>
+  </outline>
+</glyph>

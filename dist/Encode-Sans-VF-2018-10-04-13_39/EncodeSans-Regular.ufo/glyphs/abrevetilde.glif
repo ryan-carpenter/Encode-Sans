@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevetilde" format="2">
+  <advance width="1028.7474747474748"/>
+  <unicode hex="1EB5"/>
+  <anchor x="520.7171717171717" y="0.0" name="bottom"/>
+  <anchor x="889.1616161616162" y="0.0" name="ogonek"/>
+  <anchor x="510.2525252525253" y="1200.0" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb_tildecomb" xOffset="-15.000000000000007"/>
+  </outline>
+</glyph>

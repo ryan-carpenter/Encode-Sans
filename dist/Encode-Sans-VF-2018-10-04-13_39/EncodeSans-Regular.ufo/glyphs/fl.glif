@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl" format="2">
+  <advance width="1177.020202020202"/>
+  <unicode hex="FB02"/>
+  <anchor x="946.2525252525253" y="0.0" name="bottom"/>
+  <anchor x="1137.878787878788" y="1616.0" name="caronalt"/>
+  <anchor x="1215.0101010101012" y="794.0" name="periodcentered"/>
+  <anchor x="946.5050505050506" y="714.0" name="slash"/>
+  <anchor x="946.5050505050506" y="1616.0" name="top"/>
+  <outline>
+    <component base="f.short"/>
+    <component base="l" xOffset="715.7373737373738"/>
+  </outline>
+</glyph>

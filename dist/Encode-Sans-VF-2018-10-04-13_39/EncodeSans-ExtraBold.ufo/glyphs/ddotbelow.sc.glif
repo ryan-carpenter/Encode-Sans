@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddotbelow.sc" format="2">
+  <advance width="1382.7474747474748"/>
+  <anchor x="646.1515151515152" y="0.0" name="bottom"/>
+  <anchor x="691.1414141414141" y="594.0" name="center"/>
+  <anchor x="122.45454545454544" y="608.0" name="stroke"/>
+  <anchor x="628.1212121212121" y="1230.0" name="top"/>
+  <outline>
+    <component base="d.sc"/>
+    <component base="dotbelowcomb.sc" xOffset="60.29292929292929"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="DZ" format="2">
+  <advance width="2502.3030303030305"/>
+  <unicode hex="01F1"/>
+  <anchor x="637.5151515151515" y="0.0" name="bottom_1"/>
+  <anchor x="1926.050505050505" y="0.0" name="bottom_2"/>
+  <anchor x="695.7474747474747" y="740.0" name="center"/>
+  <anchor x="169.54545454545453" y="762.0" name="stroke"/>
+  <anchor x="632.4646464646464" y="1520.0" name="top_1"/>
+  <anchor x="1927.060606060606" y="1520.0" name="top_2"/>
+  <outline>
+    <component base="D"/>
+    <component base="Z" xOffset="1350.3131313131314"/>
+  </outline>
+</glyph>

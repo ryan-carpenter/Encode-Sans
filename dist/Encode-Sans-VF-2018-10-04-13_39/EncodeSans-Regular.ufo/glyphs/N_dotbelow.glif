@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ndotbelow" format="2">
+  <advance width="1468.6666666666667"/>
+  <unicode hex="1E46"/>
+  <anchor x="734.7070707070707" y="-443.5353535353535" name="bottom"/>
+  <anchor x="734.7070707070707" y="1520.0" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="dotbelowcomb.case" xOffset="209.45454545454544"/>
+  </outline>
+</glyph>

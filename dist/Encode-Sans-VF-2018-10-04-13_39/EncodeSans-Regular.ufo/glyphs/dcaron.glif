@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="2">
+  <advance width="1128.0707070707072"/>
+  <unicode hex="010F"/>
+  <anchor x="565.3232323232323" y="0.0" name="bottom"/>
+  <anchor x="1088.929292929293" y="1616.0" name="caronalt"/>
+  <anchor x="561.2828282828283" y="541.2626262626262" name="center"/>
+  <anchor x="976.5050505050506" y="1355.2424242424242" name="stroke"/>
+  <anchor x="558.2525252525253" y="1200.0" name="top"/>
+  <anchor x="1079.0909090909092" y="1085.050505050505" name="topright"/>
+  <outline>
+    <component base="d"/>
+    <component base="caroncomb.alt" xOffset="563.6767676767677"/>
+  </outline>
+</glyph>

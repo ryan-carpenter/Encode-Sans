@@ -9,7 +9,7 @@ from datetime import datetime
  
 familyName = 'EncodeSans'
 
-# DS_PATH = 'master_ufo/EncodeSans-simplefix-normal_wdth.designspace' # use for a designspace
+DS_PATH = 'master_ufo/EncodeSans-simplefix-normal_wdth.designspace' # use for a designspace
 GLYPHS_PATH = 'sources/Encode-Sans.glyphs' # use for glyphs file
 
 ##### DEFINE THE VARIABLES ABOVE #####
@@ -34,7 +34,7 @@ def getRunArguments():
         'conversion_error': None,
         #'no_round': False,
         'masters_as_instances': False,
-        'interpolate': False,
+        'interpolate': True,
         'use_afdko': False,
         'subroutinize': True,
         # 'output':['variable'],
@@ -47,14 +47,17 @@ project = FontProject()
 
 args = getRunArguments()
 
-# print(project.run_from_designspace(designspace_path=DS_PATH, **args))
-print(project.run_from_glyphs(glyphs_path=GLYPHS_PATH, **args))
+print(project.run_from_designspace(designspace_path=DS_PATH, **args))
 
-defaultFontPath = 'variable_ttf/' + DS_PATH.replace('master_ufo/', '').replace('.designspace', '-VF.ttf')
-print(defaultFontPath)
+# print(project.run_from_glyphs(glyphs_path=GLYPHS_PATH, **args))
+
+# print(project.build_ttfs())
+
+# defaultFontPath = 'variable_ttf/' + DS_PATH.replace('master_ufo/', '').replace('.designspace', '-VF.ttf')  # if from a designspace file
+# print(defaultFontPath)
 # defaultFontPath = 'variable_ttf/' + familyName + '-VF.ttf' # if from a glyphs file
 
-os.system('open %s' % defaultFontPath)
+# os.system('open %s' % defaultFontPath)
 
 #### the following can move the font into a timestamped folder and fontbake it, if you want that ####
 

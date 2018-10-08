@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="1534.4646464646464"/>
+  <unicode hex="00D0"/>
+  <anchor x="701.1515151515152" y="0.0" name="bottom"/>
+  <anchor x="755.1414141414141" y="740.0" name="center"/>
+  <anchor x="120.45454545454544" y="762.0" name="stroke"/>
+  <anchor x="683.9797979797979" y="1520.0" name="top"/>
+  <outline>
+    <component base="D"/>
+    <component base="strokeshortcomb.D" xOffset="-228.2323232323232" yOffset="-335.17171717171715"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

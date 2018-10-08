@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdotbelow.sc" format="2">
+  <advance width="1018.4848484848485"/>
+  <anchor x="508.4848484848485" y="0.0" name="bottom"/>
+  <anchor x="509.49494949494954" y="1230.0" name="top"/>
+  <outline>
+    <component base="z.sc"/>
+    <component base="dotbelowcomb.sc" xOffset="-16.76767676767676"/>
+  </outline>
+</glyph>

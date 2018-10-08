@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslashacute" format="2">
+  <advance width="1110.5252525252527"/>
+  <unicode hex="01FF"/>
+  <anchor x="554.7575757575758" y="-27.777777777777793" name="bottom"/>
+  <anchor x="554.7575757575758" y="542.5252525252525" name="center"/>
+  <anchor x="685.7272727272727" y="13.636363636363644" name="ogonek"/>
+  <anchor x="550.2727272727273" y="1581.2525252525252" name="top"/>
+  <anchor x="786.0606060606061" y="1085.050505050505" name="topright"/>
+  <outline>
+    <component base="oslash"/>
+    <component base="acutecomb" xOffset="25.02020202020202"/>
+  </outline>
+</glyph>

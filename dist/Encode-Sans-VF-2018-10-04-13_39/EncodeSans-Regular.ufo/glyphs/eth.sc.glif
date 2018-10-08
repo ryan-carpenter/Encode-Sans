@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eth.sc" format="2">
+  <advance width="1248.8080808080808"/>
+  <anchor x="582.5151515151515" y="0.0" name="bottom"/>
+  <anchor x="631.7474747474747" y="594.0" name="center"/>
+  <anchor x="171.54545454545453" y="608.0" name="stroke"/>
+  <anchor x="577.2121212121212" y="1230.0" name="top"/>
+  <outline>
+    <component base="d.sc"/>
+    <component base="strokeshortcomb.dsc" xOffset="2.494949494949495" yOffset="-4.0"/>
+  </outline>
+</glyph>

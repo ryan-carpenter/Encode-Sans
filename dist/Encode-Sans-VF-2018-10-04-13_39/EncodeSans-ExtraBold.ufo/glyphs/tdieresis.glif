@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tdieresis" format="2">
+  <advance width="876.0202020202021"/>
+  <unicode hex="1E97"/>
+  <anchor x="511.2323232323232" y="0.0" name="bottom"/>
+  <anchor x="678.8787878787879" y="1616.0" name="caronalt"/>
+  <anchor x="187.5050505050505" y="571.5656565656566" name="stroke"/>
+  <anchor x="375.19191919191917" y="1921.858585858586" name="top"/>
+  <anchor x="787.7878787878788" y="1616.0" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="dieresiscomb" xOffset="-210.66666666666666" yOffset="314.34343434343435"/>
+  </outline>
+</glyph>
