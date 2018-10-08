@@ -1,9 +1,9 @@
-oldWght = 193 # update for each instance
+oldWght = 222 # update for each instance
 
 oldMin = 34
 newMin = 34
 
-oldMax = 193 # update for each width series
+oldMax = 222 # update for each width series
 newMax = 232
 
 newWght = (oldWght - oldMin) * (newMax - newMin) / (oldMax - oldMin) + newMin
