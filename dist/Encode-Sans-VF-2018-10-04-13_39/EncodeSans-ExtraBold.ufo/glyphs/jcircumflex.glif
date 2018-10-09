@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jcircumflex" format="2">
-  <advance width="590.0202020202021"/>
+  <advance width="590.3906666666667"/>
   <unicode hex="0135"/>
-  <anchor x="290.7171717171717" y="1668.3636363636365" name="top"/>
+  <anchor x="290.8936666666667" y="1668.458" name="top"/>
   <outline>
     <component base="jdotless"/>
-    <component base="circumflexcomb" xOffset="-295.14141414141415" yOffset="0.8484848484848477"/>
+    <component base="circumflexcomb" xOffset="-295.13966666666664" yOffset="0.8379999999999992"/>
   </outline>
 </glyph>

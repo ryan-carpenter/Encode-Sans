@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="LJ" format="2">
-  <advance width="1569.9494949494951"/>
+  <advance width="1571.626303030303"/>
   <unicode hex="01C7"/>
-  <anchor x="614.8686868686868" y="0.0" name="bottom_1"/>
-  <anchor x="1439.2727272727273" y="0.0" name="bottom_2"/>
-  <anchor x="698.8282828282829" y="1616.0" name="caronalt"/>
-  <anchor x="774.979797979798" y="808.8484848484849" name="periodcentered"/>
-  <anchor x="250.7676767676768" y="794.2020202020202" name="slash"/>
-  <anchor x="250.7676767676768" y="1520.0" name="top_1"/>
-  <anchor x="1320.4444444444443" y="1520.0" name="top_2"/>
+  <anchor x="615.0782878787879" y="0.0" name="bottom_1"/>
+  <anchor x="1441.0788636363636" y="0.0" name="bottom_2"/>
+  <anchor x="699.4080303030303" y="1616.0" name="caronalt"/>
+  <anchor x="775.8271212121213" y="809.463909090909" name="periodcentered"/>
+  <anchor x="251.24039393939393" y="794.5587878787878" name="slash"/>
+  <anchor x="251.24039393939393" y="1520.0" name="top_1"/>
+  <anchor x="1321.6708333333333" y="1520.0" name="top_2"/>
   <outline>
     <component base="L"/>
-    <component base="J" xOffset="1070.4343434343434"/>
+    <component base="J" xOffset="1071.201393939394"/>
   </outline>
 </glyph>

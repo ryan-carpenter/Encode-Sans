@@ -2,10 +2,10 @@
 <glyph name="macroncomb_gravecomb.case" format="2">
   <outline>
     <contour>
-      <point x="396.73737373737373" y="1971.5757575757575" type="line"/>
-      <point x="774.9797979797979" y="1971.5757575757575" type="line"/>
-      <point x="593.1111111111111" y="2203.5757575757575" type="line"/>
-      <point x="159.5151515151515" y="2203.5757575757575" type="line"/>
+      <point x="396.59233333333333" y="1971.754" type="line"/>
+      <point x="775.4743333333333" y="1971.754" type="line"/>
+      <point x="593.5916666666667" y="2203.754" type="line"/>
+      <point x="159.27399999999997" y="2203.754" type="line"/>
     </contour>
     <component base="macroncomb.case"/>
   </outline>

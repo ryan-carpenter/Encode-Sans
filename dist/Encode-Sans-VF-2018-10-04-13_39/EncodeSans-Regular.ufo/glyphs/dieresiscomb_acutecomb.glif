@@ -2,7 +2,7 @@
 <glyph name="dieresiscomb_acutecomb" format="2">
   <outline>
     <component base="dieresiscomb"/>
-    <component base="acutecomb.case" yOffset="9.292929292929308"/>
+    <component base="acutecomb.case" yOffset="9.810242424242425"/>
   </outline>
   <lib>
     <dict>

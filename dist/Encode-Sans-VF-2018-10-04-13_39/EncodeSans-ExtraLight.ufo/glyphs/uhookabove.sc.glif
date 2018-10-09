@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhookabove.sc" format="2">
+  <advance width="1247.6644090909092"/>
+  <anchor x="625.0277272727272" y="0.0" name="bottom"/>
+  <anchor x="744.0106818181819" y="1.888272727272727" name="ogonek"/>
+  <anchor x="625.0277272727272" y="1230.0" name="top"/>
+  <anchor x="984.9778181818182" y="1190.0" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="hookabovecomb.sc" xOffset="119.44136363636363" yOffset="-290.0"/>
+  </outline>
+</glyph>

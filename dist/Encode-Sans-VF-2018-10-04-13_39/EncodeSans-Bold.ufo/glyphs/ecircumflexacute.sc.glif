@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexacute.sc" format="2">
+  <advance width="1138.9661818181817"/>
+  <anchor x="615.4189090909091" y="0.0" name="bottom"/>
+  <anchor x="990.2231818181818" y="0.0" name="ogonek"/>
+  <anchor x="614.8267272727272" y="1230.0" name="top"/>
+  <anchor x="63.88827272727273" y="1190.0" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="circumflexcomb_acutecomb.sc" xOffset="44.43581818181818" yOffset="-290.0"/>
+  </outline>
+</glyph>

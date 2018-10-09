@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohornhookabove" format="2">
-  <advance width="1604.969696969697"/>
+  <advance width="1605.452"/>
   <unicode hex="1EDE"/>
-  <anchor x="802.4848484848485" y="0.0" name="bottom"/>
-  <anchor x="802.4848484848485" y="1901.3333333333333" name="top"/>
+  <anchor x="802.726" y="0.0" name="bottom"/>
+  <anchor x="802.726" y="1901.564" name="top"/>
   <outline>
     <component base="Ohorn"/>
-    <component base="hookabovecomb.case" xOffset="216.62626262626264"/>
+    <component base="hookabovecomb.case" xOffset="216.69266666666667"/>
   </outline>
 </glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tbar.sc" format="2">
+  <advance width="977.519"/>
+  <anchor x="488.81536363636366" y="0.0" name="bottom"/>
+  <anchor x="488.81536363636366" y="633.8046818181818" name="center"/>
+  <anchor x="488.81536363636366" y="1230.0" name="top"/>
+  <outline>
+    <component base="t.sc"/>
+    <component base="strokeshortcomb.sc" xOffset="3.0" yOffset="-0.9441363636363636"/>
+  </outline>
+</glyph>

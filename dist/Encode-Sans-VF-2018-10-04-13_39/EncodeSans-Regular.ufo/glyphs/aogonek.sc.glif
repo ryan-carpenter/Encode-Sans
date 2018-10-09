@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aogonek.sc" format="2">
-  <advance width="1181.858585858586"/>
-  <anchor x="591.3030303030303" y="0.0" name="bottom"/>
-  <anchor x="1151.1919191919192" y="0.0" name="ogonek"/>
-  <anchor x="591.0505050505051" y="1230.0" name="top"/>
+  <advance width="1182.9333484848485"/>
+  <anchor x="591.8381818181819" y="0.0" name="bottom"/>
+  <anchor x="1152.4138484848486" y="0.0" name="ogonek"/>
+  <anchor x="591.581196969697" y="1230.0" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ogonekcomb.sc" xOffset="647.1515151515152"/>
+    <component base="ogonekcomb.sc" xOffset="648.3020909090909"/>
   </outline>
 </glyph>

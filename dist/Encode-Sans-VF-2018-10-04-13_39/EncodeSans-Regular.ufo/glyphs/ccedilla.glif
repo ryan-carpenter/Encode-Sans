@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="2">
-  <advance width="874.7373737373738"/>
+  <advance width="875.5980757575758"/>
   <unicode hex="00E7"/>
-  <anchor x="517.2020202020202" y="0.0" name="bottom"/>
-  <anchor x="513.3838383838383" y="1200.0" name="top"/>
+  <anchor x="517.5587878787878" y="0.0" name="bottom"/>
+  <anchor x="513.620196969697" y="1200.0" name="top"/>
   <outline>
     <component base="c"/>
-    <component base="cedillacomb" xOffset="-8.050505050505045"/>
+    <component base="cedillacomb" xOffset="-8.13969696969697"/>
   </outline>
 </glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dlinebelow" format="2">
+  <advance width="1159.379696969697"/>
+  <unicode hex="1E0F"/>
+  <anchor x="583.0557575757575" y="-471.2848484848485" name="bottom"/>
+  <anchor x="1126.195303030303" y="1616.0" name="caronalt"/>
+  <anchor x="576.7987878787878" y="541.9553030303031" name="center"/>
+  <anchor x="1017.9271212121212" y="1354.8268181818182" name="stroke"/>
+  <anchor x="572.1060606060606" y="1200.0" name="top"/>
+  <anchor x="1111.5081818181818" y="1087.821212121212" name="topright"/>
+  <outline>
+    <component base="d"/>
+    <component base="macronbelowcomb" xOffset="43.94969696969697"/>
+  </outline>
+</glyph>

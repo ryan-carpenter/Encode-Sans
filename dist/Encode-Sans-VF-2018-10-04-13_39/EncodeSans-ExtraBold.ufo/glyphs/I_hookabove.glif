@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ihookabove" format="2">
-  <advance width="623.1515151515152"/>
+  <advance width="623.508"/>
   <unicode hex="1EC8"/>
-  <anchor x="310.7171717171717" y="0.0" name="bottom"/>
-  <anchor x="502.69696969696975" y="0.0" name="ogonek"/>
-  <anchor x="311.5757575757576" y="1901.3333333333333" name="top"/>
+  <anchor x="310.8936666666667" y="0.0" name="bottom"/>
+  <anchor x="503.19500000000005" y="0.0" name="ogonek"/>
+  <anchor x="311.754" y="1901.564" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="hookabovecomb.case" xOffset="-274.2828282828283"/>
+    <component base="hookabovecomb.case" xOffset="-274.27933333333334"/>
   </outline>
 </glyph>

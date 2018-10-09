@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcedilla.sc" format="2">
-  <advance width="1025.111111111111"/>
-  <anchor x="512.8080808080808" y="0.0" name="bottom"/>
-  <anchor x="512.8080808080808" y="615.5151515151515" name="center"/>
-  <anchor x="512.8080808080808" y="1230.0" name="top"/>
+  <advance width="1026.1903333333335"/>
+  <anchor x="513.3521515151515" y="0.0" name="bottom"/>
+  <anchor x="513.3521515151515" y="615.1004090909091" name="center"/>
+  <anchor x="513.3521515151515" y="1230.0" name="top"/>
   <outline>
     <component base="t.sc"/>
-    <component base="cedillacomb.sc" xOffset="-12.44444444444445"/>
+    <component base="cedillacomb.sc" xOffset="-12.346333333333327"/>
   </outline>
 </glyph>

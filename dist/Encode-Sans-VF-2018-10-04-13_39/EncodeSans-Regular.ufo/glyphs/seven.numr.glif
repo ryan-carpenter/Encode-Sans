@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.numr" format="2">
-  <advance width="787.1313131313132"/>
+  <advance width="787.8047121212121"/>
   <outline>
     <contour>
-      <point x="171.010101010101" y="616.0" type="line"/>
-      <point x="308.959595959596" y="616.0" type="line"/>
-      <point x="702.6060606060606" y="1543.4141414141413" type="line"/>
-      <point x="702.6060606060606" y="1616.0" type="line"/>
-      <point x="52.78787878787879" y="1616.0" type="line"/>
-      <point x="52.78787878787879" y="1503.4848484848485" type="line"/>
-      <point x="613.2121212121212" y="1503.4848484848485" type="line"/>
-      <point x="571.4444444444445" y="1544.1616161616162" type="line"/>
+      <point x="171.0279393939394" y="616.0" type="line"/>
+      <point x="310.21274242424244" y="616.0" type="line"/>
+      <point x="703.2348636363637" y="1542.8210151515152" type="line"/>
+      <point x="703.2348636363637" y="1616.0" type="line"/>
+      <point x="52.854772727272724" y="1616.0" type="line"/>
+      <point x="52.854772727272724" y="1502.575090909091" type="line"/>
+      <point x="613.1452272727273" y="1502.575090909091" type="line"/>
+      <point x="570.9048333333334" y="1543.5640303030302" type="line"/>
     </contour>
   </outline>
 </glyph>

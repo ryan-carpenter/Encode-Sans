@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohm" format="2">
-  <advance width="1437.6969696969697"/>
+  <advance width="1438.927818181818"/>
   <unicode hex="2126"/>
   <outline>
     <component base="Omega"/>

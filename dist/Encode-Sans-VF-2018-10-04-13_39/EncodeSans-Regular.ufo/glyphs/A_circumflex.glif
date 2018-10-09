@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflex" format="2">
-  <advance width="1347.6161616161617"/>
+  <advance width="1348.704303030303"/>
   <unicode hex="00C2"/>
-  <anchor x="674.5555555555555" y="0.0" name="bottom"/>
-  <anchor x="1318.949494949495" y="0.0" name="ogonek"/>
-  <anchor x="674.3030303030303" y="1866.1818181818182" name="top"/>
+  <anchor x="675.0951666666667" y="0.0" name="bottom"/>
+  <anchor x="1320.184803030303" y="0.0" name="ogonek"/>
+  <anchor x="674.8381818181819" y="1866.502909090909" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="circumflexcomb.case" xOffset="149.05050505050505"/>
+    <component base="circumflexcomb.case" xOffset="149.13969696969696"/>
   </outline>
 </glyph>

@@ -13,14 +13,14 @@ setFontSize = 16*resolution
 xPos, yPos = W/20,H/20 
 txtW, txtH =  W-(W/10),H-(H/10)
 
-testFont = "quickfix"
-varWght = 363.63 # adjusted weight needed for "quick fix" 400.0 #
+testFont = "simplefix"
+varWght = 400.0 # # 363.63  adjusted weight needed for "quick fix" 
 
 lineHeight(setLineHeight)
 
 # linking a specific font file for testing
-font("../google-fonts-static/Encode_Sans/EncodeSans-Regular.ttf", setFontSize)
-
+# font("../google-fonts-static/Encode_Sans/EncodeSans-Regular.ttf", setFontSize)
+font("./EncodeSans-Regular.ttf", setFontSize)
 fill(1,0,1)
  
 textBox(testString, (xPos, yPos, txtW, txtH))

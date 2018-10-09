@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="strokelongcomb.case" format="2">
+  <anchor x="708.0277272727272" y="1084.8042727272727" name="_center"/>
+  <outline>
+    <contour>
+      <point x="6.0" y="1049.2179090909092" type="line"/>
+      <point x="1409.9437272727273" y="1049.2179090909092" type="line"/>
+      <point x="1409.9437272727273" y="1120.3906363636363" type="line"/>
+      <point x="6.0" y="1120.3906363636363" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>1220.0</real>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

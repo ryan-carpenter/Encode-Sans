@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute" format="2">
-  <advance width="1174.3737373737374"/>
+  <advance width="1175.4752575757575"/>
   <unicode hex="00DD"/>
-  <anchor x="587.0606060606061" y="0.0" name="bottom"/>
-  <anchor x="587.3131313131313" y="1821.3333333333333" name="top"/>
-  <anchor x="6.171717171717168" y="1480.0" name="topleft"/>
+  <anchor x="587.6091363636364" y="0.0" name="bottom"/>
+  <anchor x="587.8661212121212" y="1821.922" name="top"/>
+  <anchor x="6.033469696969696" y="1480.0" name="topleft"/>
   <outline>
     <component base="Y"/>
-    <component base="acutecomb.case" xOffset="62.06060606060607"/>
+    <component base="acutecomb.case" xOffset="62.16763636363636"/>
   </outline>
 </glyph>

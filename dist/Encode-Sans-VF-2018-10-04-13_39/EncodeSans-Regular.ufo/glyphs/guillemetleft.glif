@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemetleft" format="2">
-  <advance width="1004.4848484848485"/>
+  <advance width="1006.665590909091"/>
   <unicode hex="00AB"/>
   <outline>
     <component base="guilsinglleft"/>
-    <component base="guilsinglleft" xOffset="401.9191919191919"/>
+    <component base="guilsinglleft" xOffset="403.1009848484848"/>
   </outline>
   <lib>
     <dict>

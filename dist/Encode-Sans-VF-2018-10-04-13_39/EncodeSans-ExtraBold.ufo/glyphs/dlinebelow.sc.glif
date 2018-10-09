@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dlinebelow.sc" format="2">
-  <advance width="1382.7474747474748"/>
-  <anchor x="646.1515151515152" y="0.0" name="bottom"/>
-  <anchor x="691.1414141414141" y="594.0" name="center"/>
-  <anchor x="122.45454545454544" y="608.0" name="stroke"/>
-  <anchor x="628.1212121212121" y="1230.0" name="top"/>
+  <advance width="1383.1336666666666"/>
+  <anchor x="646.335" y="0.0" name="bottom"/>
+  <anchor x="691.3126666666667" y="594.0" name="center"/>
+  <anchor x="122.31299999999999" y="608.0" name="stroke"/>
+  <anchor x="628.268" y="1230.0" name="top"/>
   <outline>
     <component base="d.sc"/>
-    <component base="macronbelowcomb.sc" xOffset="60.29292929292929"/>
+    <component base="macronbelowcomb.sc" xOffset="60.30166666666668"/>
   </outline>
 </glyph>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_gravecomb.case" format="2">
-  <anchor x="585.8585858585859" y="1520.0" name="_top"/>
+  <anchor x="586.0333333333333" y="1520.0" name="_top"/>
   <outline>
     <contour>
-      <point x="169.62626262626262" y="1590.2424242424242" type="line"/>
-      <point x="447.24242424242425" y="1590.2424242424242" type="line"/>
-      <point x="613.4545454545455" y="1776.5757575757575" type="line"/>
-      <point x="558.2626262626263" y="1776.5757575757575" type="line"/>
-      <point x="724.4747474747476" y="1590.2424242424242" type="line"/>
-      <point x="1002.0909090909091" y="1590.2424242424242" type="line"/>
-      <point x="743.2020202020202" y="1862.2424242424242" type="line"/>
-      <point x="428.5151515151515" y="1862.2424242424242" type="line"/>
+      <point x="169.51966666666664" y="1590.19" type="line"/>
+      <point x="447.536" y="1590.19" type="line"/>
+      <point x="613.6590000000001" y="1776.408" type="line"/>
+      <point x="558.4076666666667" y="1776.408" type="line"/>
+      <point x="724.5306666666667" y="1590.19" type="line"/>
+      <point x="1002.547" y="1590.19" type="line"/>
+      <point x="743.6196666666667" y="1862.19" type="line"/>
+      <point x="428.447" y="1862.19" type="line"/>
     </contour>
     <contour>
-      <point x="881.6767676767677" y="1822.909090909091" type="line"/>
-      <point x="1079.6161616161617" y="1822.909090909091" type="line"/>
-      <point x="972.4444444444446" y="2064.0" type="line"/>
-      <point x="724.3030303030303" y="2064.0" type="line"/>
+      <point x="881.9773333333333" y="1822.972" type="line"/>
+      <point x="1080.1893333333333" y="1822.972" type="line"/>
+      <point x="973.1556666666668" y="2064.0" type="line"/>
+      <point x="724.6700000000001" y="2064.0" type="line"/>
     </contour>
   </outline>
   <lib>

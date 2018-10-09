@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="udieresis" format="2">
+  <advance width="1213.5583636363635"/>
+  <unicode hex="00FC"/>
+  <anchor x="603.0948181818183" y="0.0" name="bottom"/>
+  <anchor x="1094.9437272727273" y="0.0" name="ogonek"/>
+  <anchor x="603.0948181818183" y="1598.2345454545455" name="top"/>
+  <anchor x="808.7319090909091" y="1094.0781818181817" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="dieresiscomb" xOffset="32.70390909090909"/>
+  </outline>
+</glyph>

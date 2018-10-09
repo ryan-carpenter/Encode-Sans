@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uring" format="2">
+  <advance width="1381.7761363636364"/>
+  <unicode hex="016E"/>
+  <anchor x="692.083590909091" y="0.0" name="bottom"/>
+  <anchor x="833.7872272727273" y="1.888272727272727" name="ogonek"/>
+  <anchor x="692.083590909091" y="1852.022181818182" name="top"/>
+  <anchor x="1119.9778181818183" y="1480.0" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="ringcomb.case" xOffset="186.4972272727273"/>
+  </outline>
+</glyph>

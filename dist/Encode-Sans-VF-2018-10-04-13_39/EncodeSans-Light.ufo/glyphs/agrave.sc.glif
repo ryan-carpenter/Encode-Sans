@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="agrave.sc" format="2">
+  <advance width="1156.0058585858587"/>
+  <anchor x="578.4303030303031" y="0.0" name="bottom"/>
+  <anchor x="1121.799191919192" y="0.0" name="ogonek"/>
+  <anchor x="578.2850505050505" y="1230.0" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="gravecomb.sc" xOffset="63.75979797979798" yOffset="-290.0"/>
+  </outline>
+</glyph>

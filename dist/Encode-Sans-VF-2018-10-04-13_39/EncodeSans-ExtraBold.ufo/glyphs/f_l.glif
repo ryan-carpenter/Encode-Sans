@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_l" format="2">
-  <advance width="1421.8686868686868"/>
-  <anchor x="1126.858585858586" y="0.0" name="bottom"/>
-  <anchor x="1408.787878787879" y="1616.0" name="caronalt"/>
-  <anchor x="1577.4343434343434" y="794.0" name="periodcentered"/>
-  <anchor x="1127.7171717171718" y="714.0" name="slash"/>
-  <anchor x="1127.7171717171718" y="1616.0" name="top"/>
+  <advance width="1422.5746666666669"/>
+  <anchor x="1127.3793333333333" y="0.0" name="bottom"/>
+  <anchor x="1409.569" y="1616.0" name="caronalt"/>
+  <anchor x="1578.4793333333334" y="794.0" name="periodcentered"/>
+  <anchor x="1128.2396666666666" y="714.0" name="slash"/>
+  <anchor x="1128.2396666666666" y="1616.0" name="top"/>
   <outline>
     <component base="f.short"/>
-    <component base="l" xOffset="832.7070707070707"/>
+    <component base="l" xOffset="833.0443333333334"/>
   </outline>
 </glyph>

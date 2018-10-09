@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="1050.5050505050506"/>
+  <advance width="1051.3969696969698"/>
   <unicode hex="02DD"/>
   <outline>
     <component base="hungarumlautcomb"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_i" format="2">
-  <advance width="1422.7272727272727"/>
-  <anchor x="1127.7171717171718" y="0.0" name="bottom"/>
-  <anchor x="1315.4040404040404" y="0.0" name="ogonek"/>
-  <anchor x="1127.7171717171718" y="1641.858585858586" name="top"/>
+  <advance width="1423.435"/>
+  <anchor x="1128.2396666666666" y="0.0" name="bottom"/>
+  <anchor x="1316.2393333333334" y="0.0" name="ogonek"/>
+  <anchor x="1128.2396666666666" y="1642.0333333333333" name="top"/>
   <outline>
     <component base="f.short"/>
-    <component base="i" xOffset="832.7070707070707"/>
+    <component base="i" xOffset="833.0443333333334"/>
   </outline>
 </glyph>

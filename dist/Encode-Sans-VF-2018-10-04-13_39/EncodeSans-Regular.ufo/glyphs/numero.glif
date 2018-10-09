@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numero" format="2">
-  <advance width="2410.5454545454545"/>
+  <advance width="2411.9502272727273"/>
   <unicode hex="2116"/>
-  <anchor x="734.7070707070707" y="0.0" name="bottom"/>
-  <anchor x="734.7070707070707" y="1520.0" name="top"/>
+  <anchor x="735.0727575757576" y="0.0" name="bottom"/>
+  <anchor x="735.0727575757576" y="1520.0" name="top"/>
   <outline>
     <component base="N"/>
-    <component base="ordmasculine" xOffset="1468.6666666666667"/>
+    <component base="ordmasculine" xOffset="1469.4025"/>
   </outline>
   <lib>
     <dict>

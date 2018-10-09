@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="strokelongcomb.hsc" format="2">
-  <anchor x="692.969696969697" y="975.8080808080808" name="_center"/>
+  <anchor x="693.106" y="975.9216666666666" name="_center"/>
   <outline>
     <contour>
-      <point x="-14.595959595959597" y="878.2626262626262" type="line"/>
-      <point x="1399.6767676767677" y="878.2626262626262" type="line"/>
-      <point x="1399.6767676767677" y="1073.3535353535353" type="line"/>
-      <point x="-14.595959595959597" y="1073.3535353535353" type="line"/>
+      <point x="-14.62566666666667" y="878.2346666666666" type="line"/>
+      <point x="1399.9773333333333" y="878.2346666666666" type="line"/>
+      <point x="1399.9773333333333" y="1073.6086666666667" type="line"/>
+      <point x="-14.62566666666667" y="1073.6086666666667" type="line"/>
     </contour>
   </outline>
   <lib>

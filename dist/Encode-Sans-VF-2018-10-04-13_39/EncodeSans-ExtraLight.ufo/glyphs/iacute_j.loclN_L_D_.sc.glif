@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iacute_j.loclNLD.sc" format="2">
+  <advance width="926.4571818181819"/>
+  <anchor x="231.58636363636364" y="0.0" name="bottom_1"/>
+  <anchor x="778.1889545454546" y="0.0" name="bottom_2"/>
+  <anchor x="275.7535454545455" y="0.0" name="ogonek"/>
+  <anchor x="231.6422272727273" y="1230.0" name="top_1"/>
+  <anchor x="694.8708181818182" y="1230.0" name="top_2"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="acutecomb.sc" xOffset="-273.94413636363635" yOffset="-290.0"/>
+    <component base="j.sc" xOffset="463.22859090909094"/>
+    <component base="acutecomb.sc" xOffset="189.28445454545457" yOffset="-290.0"/>
+  </outline>
+</glyph>

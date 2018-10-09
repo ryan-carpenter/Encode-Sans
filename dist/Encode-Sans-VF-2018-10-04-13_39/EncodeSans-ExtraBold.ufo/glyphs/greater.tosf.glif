@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greater.tosf" format="2">
-  <advance width="1288.888888888889"/>
+  <advance width="1289.2733333333333"/>
   <outline>
     <contour>
-      <point x="196.3030303030303" y="51.45454545454544" type="line"/>
-      <point x="1092.5858585858587" y="381.1717171717172" type="line"/>
-      <point x="1092.5858585858587" y="738.8282828282828" type="line"/>
-      <point x="196.3030303030303" y="1068.5454545454545" type="line"/>
-      <point x="196.3030303030303" y="783.6161616161617" type="line"/>
-      <point x="888.6363636363636" y="542.8484848484849" type="line"/>
-      <point x="888.6363636363636" y="581.4444444444445" type="line"/>
-      <point x="196.3030303030303" y="336.3838383838384" type="line"/>
+      <point x="196.324" y="51.13999999999996" type="line"/>
+      <point x="1092.9493333333335" y="380.86066666666665" type="line"/>
+      <point x="1092.9493333333335" y="739.1393333333333" type="line"/>
+      <point x="196.324" y="1068.8600000000001" type="line"/>
+      <point x="196.324" y="783.4973333333334" type="line"/>
+      <point x="888.715" y="542.838" type="line"/>
+      <point x="888.715" y="581.4636666666667" type="line"/>
+      <point x="196.324" y="336.5026666666667" type="line"/>
     </contour>
   </outline>
   <lib>

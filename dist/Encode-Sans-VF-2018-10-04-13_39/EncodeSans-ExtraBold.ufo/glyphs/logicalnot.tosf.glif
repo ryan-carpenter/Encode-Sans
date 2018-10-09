@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot.tosf" format="2">
-  <advance width="1288.888888888889"/>
+  <advance width="1289.2733333333333"/>
   <outline>
     <contour>
-      <point x="909.8787878787879" y="0.0" type="line"/>
-      <point x="1206.2626262626263" y="0.0" type="line"/>
-      <point x="1206.2626262626263" y="701.89898989899" type="line"/>
-      <point x="81.76767676767676" y="701.89898989899" type="line"/>
-      <point x="81.76767676767676" y="418.1010101010101" type="line"/>
-      <point x="909.8787878787879" y="418.1010101010101" type="line"/>
+      <point x="909.732" y="0.0" type="line"/>
+      <point x="1206.5806666666667" y="0.0" type="line"/>
+      <point x="1206.5806666666667" y="702.1226666666666" type="line"/>
+      <point x="81.83233333333335" y="702.1226666666666" type="line"/>
+      <point x="81.83233333333335" y="417.8773333333333" type="line"/>
+      <point x="909.732" y="417.8773333333333" type="line"/>
     </contour>
   </outline>
   <lib>

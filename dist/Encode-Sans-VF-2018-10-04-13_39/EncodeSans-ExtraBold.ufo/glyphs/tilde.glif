@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tilde" format="2">
-  <advance width="1171.7171717171718"/>
+  <advance width="1172.0666666666666"/>
   <unicode hex="02DC"/>
   <outline>
     <component base="tildecomb"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="strokeshortcomb.h" format="2">
-  <anchor x="570.7070707070707" y="1085.050505050505" name="_stroke"/>
+  <anchor x="570.1897575757575" y="1085.139696969697" name="_stroke"/>
   <outline>
     <contour>
-      <point x="427.6161616161616" y="1029.7979797979797" type="line"/>
-      <point x="1083.2626262626263" y="1029.7979797979797" type="line"/>
-      <point x="1083.2626262626263" y="1140.3030303030303" type="line"/>
-      <point x="427.6161616161616" y="1140.3030303030303" type="line"/>
+      <point x="427.37980303030304" y="1029.4412121212122" type="line"/>
+      <point x="1084.1679242424243" y="1029.4412121212122" type="line"/>
+      <point x="1084.1679242424243" y="1140.8381818181817" type="line"/>
+      <point x="427.37980303030304" y="1140.8381818181817" type="line"/>
     </contour>
   </outline>
   <lib>

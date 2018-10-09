@@ -38,6 +38,7 @@ def getRunArguments():
         'use_afdko': False,
         'subroutinize': True,
         # 'output':['variable'],
+        'output-dir': 'fonts',
         'output':['ttf'],
         # 'designspace_path': 'master_ufo/' + familyName + '.designspace', # sometimes useful when running from a glyphs file
     }

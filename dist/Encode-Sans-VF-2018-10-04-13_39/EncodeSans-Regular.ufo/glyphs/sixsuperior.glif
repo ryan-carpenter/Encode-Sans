@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sixsuperior" format="2">
-  <advance width="787.1313131313132"/>
+  <advance width="787.8047121212121"/>
   <unicode hex="2076"/>
   <outline>
     <component base="six.dnom"/>

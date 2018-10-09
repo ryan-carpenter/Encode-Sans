@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="2">
+  <advance width="1101.6925757575757"/>
+  <unicode hex="0141"/>
+  <anchor x="628.81" y="0.0" name="bottom"/>
+  <anchor x="724.2680303030303" y="1616.0" name="caronalt"/>
+  <anchor x="808.7316666666667" y="827.9663636363637" name="periodcentered"/>
+  <anchor x="272.88257575757575" y="805.2848484848485" name="slash"/>
+  <anchor x="272.88257575757575" y="1520.0" name="top"/>
+  <outline>
+    <component base="L" xOffset="7.430151515151517"/>
+    <component base="slashshortcomb.case" xOffset="-127.11742424242424" yOffset="31.284848484848492"/>
+  </outline>
+</glyph>

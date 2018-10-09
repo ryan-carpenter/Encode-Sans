@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldotbelow" format="2">
+  <advance width="1120.2066262626263"/>
+  <unicode hex="1E36"/>
+  <anchor x="628.4692525252525" y="-447.58658585858586" name="bottom"/>
+  <anchor x="736.4468686868687" y="1616.0" name="caronalt"/>
+  <anchor x="829.9608080808081" y="848.7820606060607" name="periodcentered"/>
+  <anchor x="281.44129292929296" y="817.3519191919193" name="slash"/>
+  <anchor x="281.44129292929296" y="1520.0" name="top"/>
+  <outline>
+    <component base="L"/>
+    <component base="dotbelowcomb.case" xOffset="74.27935353535352"/>
+  </outline>
+</glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lozenge.tosf" format="2">
-  <advance width="1155.5555555555557"/>
+  <advance width="1156.5366666666666"/>
   <outline>
     <component base="lozenge.osf"/>
   </outline>

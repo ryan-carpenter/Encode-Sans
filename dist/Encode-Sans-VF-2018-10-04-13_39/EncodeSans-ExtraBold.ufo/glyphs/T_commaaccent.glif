@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcommaaccent" format="2">
-  <advance width="1324.0707070707072"/>
+  <advance width="1324.5023333333334"/>
   <unicode hex="021A"/>
-  <anchor x="662.4646464646464" y="0.0" name="bottom"/>
-  <anchor x="662.4646464646464" y="714.1414141414141" name="center"/>
-  <anchor x="662.4646464646464" y="1520.0" name="top"/>
+  <anchor x="662.6813333333333" y="0.0" name="bottom"/>
+  <anchor x="662.6813333333333" y="713.9666666666667" name="center"/>
+  <anchor x="662.6813333333333" y="1520.0" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="commaaccentcomb.case" xOffset="76.60606060606061"/>
+    <component base="commaaccentcomb.case" xOffset="76.64800000000001"/>
   </outline>
 </glyph>

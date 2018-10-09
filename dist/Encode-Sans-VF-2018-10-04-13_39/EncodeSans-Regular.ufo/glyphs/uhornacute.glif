@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhornacute" format="2">
-  <advance width="1151.0404040404042"/>
+  <advance width="1151.9947575757576"/>
   <unicode hex="1EE9"/>
-  <anchor x="557.5050505050506" y="0.0" name="bottom"/>
-  <anchor x="974.4242424242425" y="0.0" name="ogonek"/>
-  <anchor x="557.5050505050506" y="1581.2525252525252" name="top"/>
+  <anchor x="557.9554696969697" y="0.0" name="bottom"/>
+  <anchor x="975.6149545454546" y="0.0" name="ogonek"/>
+  <anchor x="557.9554696969697" y="1581.698484848485" name="top"/>
   <outline>
     <component base="uhorn"/>
-    <component base="acutecomb" xOffset="32.25252525252525"/>
+    <component base="acutecomb" xOffset="32.25698484848485"/>
   </outline>
 </glyph>

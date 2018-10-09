@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emacronacute" format="2">
-  <advance width="1028.949494949495"/>
+  <advance width="1029.743303030303"/>
   <unicode hex="1E17"/>
-  <anchor x="530.7272727272727" y="0.0" name="bottom"/>
-  <anchor x="817.0202020202021" y="0.0" name="ogonek"/>
-  <anchor x="530.7272727272727" y="1200.0" name="top"/>
+  <anchor x="531.1286363636364" y="0.0" name="bottom"/>
+  <anchor x="818.3803787878787" y="0.0" name="ogonek"/>
+  <anchor x="531.1286363636364" y="1200.0" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="macroncomb_acutecomb" xOffset="5.474747474747474"/>
+    <component base="macroncomb_acutecomb" xOffset="5.430151515151518"/>
   </outline>
 </glyph>

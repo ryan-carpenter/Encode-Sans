@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nj.sc" format="2">
-  <advance width="1830.6666666666667"/>
-  <anchor x="663.4545454545455" y="0.0" name="bottom_1"/>
-  <anchor x="1688.4949494949497" y="0.0" name="bottom_2"/>
-  <anchor x="663.4545454545455" y="1230.0" name="top_1"/>
-  <anchor x="1579.4141414141413" y="1230.0" name="top_2"/>
+  <advance width="1832.2855"/>
+  <anchor x="663.8157727272727" y="0.0" name="bottom_1"/>
+  <anchor x="1690.2520303030303" y="0.0" name="bottom_2"/>
+  <anchor x="663.8157727272727" y="1230.0" name="top_1"/>
+  <anchor x="1580.587015151515" y="1230.0" name="top_2"/>
   <outline>
     <component base="n.sc"/>
-    <component base="j.sc" xOffset="1327.909090909091"/>
+    <component base="j.sc" xOffset="1328.6315454545454"/>
   </outline>
 </glyph>

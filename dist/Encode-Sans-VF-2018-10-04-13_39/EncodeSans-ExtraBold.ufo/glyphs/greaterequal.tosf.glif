@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greaterequal.tosf" format="2">
-  <advance width="1288.888888888889"/>
+  <advance width="1289.2733333333333"/>
   <outline>
     <contour>
-      <point x="196.3030303030303" y="345.0909090909091" type="line"/>
-      <point x="1092.5858585858587" y="591.5252525252525" type="line"/>
-      <point x="1092.5858585858587" y="844.4343434343434" type="line"/>
-      <point x="196.3030303030303" y="1090.8686868686868" type="line"/>
-      <point x="196.3030303030303" y="840.2828282828283" type="line"/>
-      <point x="888.6363636363636" y="658.7575757575758" type="line"/>
-      <point x="888.6363636363636" y="780.6363636363636" type="line"/>
-      <point x="196.3030303030303" y="595.6767676767677" type="line"/>
+      <point x="196.324" y="345.374" type="line"/>
+      <point x="1092.9493333333335" y="591.6423333333333" type="line"/>
+      <point x="1092.9493333333335" y="844.9603333333334" type="line"/>
+      <point x="196.324" y="1091.2286666666666" type="line"/>
+      <point x="196.324" y="840.2793333333333" type="line"/>
+      <point x="888.715" y="658.9830000000001" type="line"/>
+      <point x="888.715" y="781.061" type="line"/>
+      <point x="196.324" y="596.3233333333334" type="line"/>
     </contour>
     <contour>
-      <point x="196.3030303030303" y="0.0" type="line"/>
-      <point x="1092.5858585858587" y="0.0" type="line"/>
-      <point x="1092.5858585858587" y="263.19191919191917" type="line"/>
-      <point x="196.3030303030303" y="263.19191919191917" type="line"/>
+      <point x="196.324" y="0.0" type="line"/>
+      <point x="1092.9493333333335" y="0.0" type="line"/>
+      <point x="1092.9493333333335" y="263.5973333333334" type="line"/>
+      <point x="196.324" y="263.5973333333334" type="line"/>
     </contour>
   </outline>
   <lib>

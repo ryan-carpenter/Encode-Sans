@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dzcaron" format="2">
-  <advance width="2310.3434343434346"/>
+  <advance width="2311.1053333333334"/>
   <unicode hex="01C6"/>
-  <anchor x="642.89898989899" y="0.0" name="bottom_1"/>
-  <anchor x="1797.060606060606" y="0.0" name="bottom_2"/>
-  <anchor x="1251.9595959595958" y="1616.0" name="caronalt"/>
-  <anchor x="629.1616161616162" y="544.2929292929293" name="center"/>
-  <anchor x="1157.7171717171718" y="1353.4242424242425" name="stroke"/>
-  <anchor x="618.8585858585859" y="1200.0" name="top_1"/>
-  <anchor x="1797.060606060606" y="1200.0" name="top_2"/>
-  <anchor x="1220.909090909091" y="1097.171717171717" name="topright"/>
+  <anchor x="643.1226666666666" y="0.0" name="bottom_1"/>
+  <anchor x="1797.653" y="0.0" name="bottom_2"/>
+  <anchor x="1252.4296666666667" y="1616.0" name="caronalt"/>
+  <anchor x="629.3573333333334" y="544.3016666666666" name="center"/>
+  <anchor x="1158.2396666666668" y="1353.419" name="stroke"/>
+  <anchor x="619.0333333333333" y="1200.0" name="top_1"/>
+  <anchor x="1797.653" y="1200.0" name="top_2"/>
+  <anchor x="1221.3180000000002" y="1097.2066666666667" name="topright"/>
   <outline>
     <component base="dz"/>
-    <component base="caroncomb" xOffset="1211.2020202020203"/>
+    <component base="caroncomb" xOffset="1211.6196666666667"/>
   </outline>
 </glyph>

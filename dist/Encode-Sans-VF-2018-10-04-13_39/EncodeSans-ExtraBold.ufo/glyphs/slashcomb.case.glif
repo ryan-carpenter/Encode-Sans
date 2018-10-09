@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashcomb.case" format="2">
-  <advance width="1535.6565656565656"/>
-  <anchor x="742.929292929293" y="740.0" name="_center"/>
+  <advance width="1535.9326666666666"/>
+  <anchor x="743.0166666666667" y="740.0" name="_center"/>
   <outline>
     <contour>
-      <point x="239.22222222222223" y="-55.4949494949495" type="line"/>
-      <point x="1398.949494949495" y="1415.3535353535353" type="line"/>
-      <point x="1246.6363636363637" y="1535.4949494949494" type="line"/>
-      <point x="86.9090909090909" y="64.64646464646465" type="line"/>
+      <point x="239.31833333333333" y="-55.57533333333334" type="line"/>
+      <point x="1399.2343333333333" y="1415.2626666666667" type="line"/>
+      <point x="1246.7150000000001" y="1535.5753333333334" type="line"/>
+      <point x="86.79899999999999" y="64.73733333333334" type="line"/>
     </contour>
   </outline>
   <lib>

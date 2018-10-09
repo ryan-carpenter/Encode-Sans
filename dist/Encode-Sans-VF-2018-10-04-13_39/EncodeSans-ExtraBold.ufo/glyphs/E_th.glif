@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="2">
-  <advance width="1534.4646464646464"/>
+  <advance width="1534.8543333333334"/>
   <unicode hex="00D0"/>
-  <anchor x="701.1515151515152" y="0.0" name="bottom"/>
-  <anchor x="755.1414141414141" y="740.0" name="center"/>
-  <anchor x="120.45454545454544" y="762.0" name="stroke"/>
-  <anchor x="683.9797979797979" y="1520.0" name="top"/>
+  <anchor x="701.335" y="0.0" name="bottom"/>
+  <anchor x="755.3126666666667" y="740.0" name="center"/>
+  <anchor x="120.31299999999999" y="762.0" name="stroke"/>
+  <anchor x="684.1283333333333" y="1520.0" name="top"/>
   <outline>
     <component base="D"/>
-    <component base="strokeshortcomb.D" xOffset="-228.2323232323232" yOffset="-335.17171717171715"/>
+    <component base="strokeshortcomb.D" xOffset="-228.16766666666666" yOffset="-335.20666666666665"/>
   </outline>
   <lib>
     <dict>

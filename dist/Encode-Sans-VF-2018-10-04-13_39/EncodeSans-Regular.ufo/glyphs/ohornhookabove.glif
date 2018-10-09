@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornhookabove" format="2">
-  <advance width="1110.5252525252527"/>
+  <advance width="1111.4528484848486"/>
   <unicode hex="1EDF"/>
-  <anchor x="553.0202020202021" y="0.0" name="bottom"/>
-  <anchor x="555.2626262626263" y="542.5252525252525" name="center"/>
-  <anchor x="703.6565656565657" y="0.0" name="ogonek"/>
-  <anchor x="550.4949494949495" y="1626.1010101010102" name="top"/>
+  <anchor x="553.4973787878788" y="0.0" name="bottom"/>
+  <anchor x="555.7264242424243" y="542.5698484848485" name="center"/>
+  <anchor x="704.3745606060606" y="0.0" name="ogonek"/>
+  <anchor x="550.9275303030303" y="1626.279393939394" name="top"/>
   <outline>
     <component base="ohorn"/>
-    <component base="hookabovecomb" xOffset="25.242424242424235"/>
+    <component base="hookabovecomb" xOffset="25.229045454545464"/>
   </outline>
 </glyph>

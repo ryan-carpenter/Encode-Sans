@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Umacrondieresis" format="2">
-  <advance width="1416.1919191919192"/>
+  <advance width="1416.9723484848485"/>
   <unicode hex="1E7A"/>
-  <anchor x="709.979797979798" y="0.0" name="bottom"/>
-  <anchor x="875.2828282828283" y="1.4949494949494948" name="ogonek"/>
-  <anchor x="709.979797979798" y="1520.0" name="top"/>
-  <anchor x="1105.8181818181818" y="1480.0" name="topright"/>
+  <anchor x="710.3856212121212" y="0.0" name="bottom"/>
+  <anchor x="876.2238030303031" y="1.486030303030303" name="ogonek"/>
+  <anchor x="710.3856212121212" y="1520.0" name="top"/>
+  <anchor x="1105.497090909091" y="1480.0" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="macroncomb_dieresiscomb.case" xOffset="184.72727272727272"/>
+    <component base="macroncomb_dieresiscomb.case" xOffset="184.68713636363637"/>
   </outline>
 </glyph>

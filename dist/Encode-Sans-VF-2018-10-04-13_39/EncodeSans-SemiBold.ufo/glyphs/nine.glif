@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine" format="2">
+  <advance width="1214.3853737373738"/>
+  <unicode hex="0039"/>
+  <outline>
+    <component base="six" xScale="-1.0" yScale="-1.0" xOffset="1214.3853737373738" yOffset="1480.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

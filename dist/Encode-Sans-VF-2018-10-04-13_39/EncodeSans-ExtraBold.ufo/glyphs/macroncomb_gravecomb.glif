@@ -2,7 +2,7 @@
 <glyph name="macroncomb_gravecomb" format="2">
   <outline>
     <component base="macroncomb"/>
-    <component base="gravecomb.case" yOffset="79.59595959595961"/>
+    <component base="gravecomb.case" yOffset="79.79866666666669"/>
   </outline>
   <lib>
     <dict>

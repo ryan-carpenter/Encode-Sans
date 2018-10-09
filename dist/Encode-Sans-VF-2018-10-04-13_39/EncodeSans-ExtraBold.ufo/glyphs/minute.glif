@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minute" format="2">
-  <advance width="495.8989898989899"/>
+  <advance width="496.12266666666665"/>
   <unicode hex="2032"/>
   <outline>
     <component base="quotesingle"/>

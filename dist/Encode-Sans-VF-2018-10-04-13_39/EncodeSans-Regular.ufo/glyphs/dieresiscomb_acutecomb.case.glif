@@ -2,10 +2,10 @@
 <glyph name="dieresiscomb_acutecomb.case" format="2">
   <outline>
     <contour>
-      <point x="447.04040404040404" y="1909.7575757575758" type="line"/>
-      <point x="604.2121212121212" y="1909.7575757575758" type="line"/>
-      <point x="807.3535353535353" y="2141.757575757576" type="line"/>
-      <point x="623.3131313131313" y="2141.757575757576" type="line"/>
+      <point x="446.67025757575755" y="1910.2124545454546" type="line"/>
+      <point x="605.4697272727273" y="1910.2124545454546" type="line"/>
+      <point x="808.8608787878788" y="2142.2124545454544" type="line"/>
+      <point x="622.9831212121212" y="2142.2124545454544" type="line"/>
     </contour>
     <component base="dieresiscomb.case"/>
   </outline>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Rlinebelow" format="2">
-  <advance width="1402.5151515151515"/>
+  <advance width="1402.7930000000001"/>
   <unicode hex="1E5E"/>
-  <anchor x="737.2727272727273" y="-452.020202020202" name="bottom"/>
-  <anchor x="693.8686868686868" y="1520.0" name="top"/>
+  <anchor x="737.4300000000001" y="-452.04466666666667" name="bottom"/>
+  <anchor x="694.0556666666666" y="1520.0" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="macronbelowcomb.case" xOffset="151.41414141414143"/>
+    <component base="macronbelowcomb.case" xOffset="151.39666666666665"/>
   </outline>
 </glyph>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="divisionslash.tf" format="2">
-  <advance width="1288.888888888889"/>
+  <advance width="1289.2733333333333"/>
   <outline>
     <contour>
-      <point x="268.17171717171715" y="0.0" type="line"/>
-      <point x="636.8181818181819" y="0.0" type="line"/>
-      <point x="1019.5757575757576" y="1480.0" type="line"/>
-      <point x="650.929292929293" y="1480.0" type="line"/>
+      <point x="268.03366666666665" y="0.0" type="line"/>
+      <point x="637.2900000000001" y="0.0" type="line"/>
+      <point x="1020.1" y="1480.0" type="line"/>
+      <point x="650.8436666666666" y="1480.0" type="line"/>
     </contour>
   </outline>
   <lib>

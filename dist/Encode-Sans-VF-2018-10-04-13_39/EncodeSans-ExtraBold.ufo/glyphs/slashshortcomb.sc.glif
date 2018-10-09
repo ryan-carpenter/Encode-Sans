@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashshortcomb.sc" format="2">
-  <anchor x="300.4646464646465" y="689.5353535353536" name="_slash"/>
+  <anchor x="300.6813333333334" y="689.6646666666667" name="_slash"/>
   <outline>
     <contour>
-      <point x="24.868686868686872" y="449.7171717171717" type="line"/>
-      <point x="804.6262626262627" y="796.3434343434343" type="line"/>
-      <point x="713.9595959595961" y="999.040404040404" type="line"/>
-      <point x="-66.7979797979798" y="652.5555555555555" type="line"/>
+      <point x="24.882666666666665" y="449.72066666666666" type="line"/>
+      <point x="805.2116666666667" y="796.2403333333333" type="line"/>
+      <point x="714.4296666666667" y="999.2623333333333" type="line"/>
+      <point x="-66.89933333333335" y="652.8823333333333" type="line"/>
     </contour>
   </outline>
   <lib>

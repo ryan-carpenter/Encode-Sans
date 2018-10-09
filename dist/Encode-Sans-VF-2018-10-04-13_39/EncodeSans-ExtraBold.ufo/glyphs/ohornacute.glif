@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornacute" format="2">
-  <advance width="1236.5858585858587"/>
+  <advance width="1236.9493333333335"/>
   <unicode hex="1EDB"/>
-  <anchor x="617.8686868686868" y="0.0" name="bottom"/>
-  <anchor x="618.2929292929293" y="548.5858585858585" name="center"/>
-  <anchor x="801.2323232323232" y="0.0" name="ogonek"/>
-  <anchor x="609.2828282828283" y="1641.858585858586" name="top"/>
+  <anchor x="618.0556666666666" y="0.0" name="bottom"/>
+  <anchor x="618.4746666666667" y="548.6033333333334" name="center"/>
+  <anchor x="801.5136666666667" y="0.0" name="ogonek"/>
+  <anchor x="609.4523333333334" y="1642.0333333333333" name="top"/>
   <outline>
     <component base="ohorn"/>
-    <component base="acutecomb" xScale="0.9356060606060606" xOffset="62.06060606060606"/>
+    <component base="acutecomb" xScale="0.935475" xOffset="62.134000000000015"/>
   </outline>
 </glyph>

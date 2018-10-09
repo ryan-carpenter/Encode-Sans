@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron.sc" format="2">
+  <advance width="927.4968181818182"/>
+  <anchor x="550.5697272727273" y="0.0" name="bottom"/>
+  <anchor x="610.2622727272727" y="1190.0" name="caronalt"/>
+  <anchor x="668.5023636363637" y="635.1505454545455" name="periodcentered"/>
+  <anchor x="231.86568181818183" y="630.1339090909091" name="slash"/>
+  <anchor x="231.86568181818183" y="1230.0" name="top"/>
+  <outline>
+    <component base="l.sc"/>
+    <component base="caroncomb.alt.sc" xOffset="104.6759090909091" yOffset="-426.0"/>
+  </outline>
+</glyph>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nacute" format="2">
-  <advance width="1252.7070707070707"/>
+  <advance width="1253.0443333333333"/>
   <unicode hex="0144"/>
-  <anchor x="11.282828282828282" y="1200.0" name="apostrophe"/>
-  <anchor x="630.8484848484849" y="0.0" name="bottom"/>
-  <anchor x="630.8484848484849" y="1641.858585858586" name="top"/>
+  <anchor x="11.279333333333334" y="1200.0" name="apostrophe"/>
+  <anchor x="631.011" y="0.0" name="bottom"/>
+  <anchor x="631.011" y="1642.0333333333333" name="top"/>
   <outline>
     <component base="n"/>
-    <component base="acutecomb" xOffset="44.98989898989899"/>
+    <component base="acutecomb" xOffset="44.977666666666664"/>
   </outline>
 </glyph>

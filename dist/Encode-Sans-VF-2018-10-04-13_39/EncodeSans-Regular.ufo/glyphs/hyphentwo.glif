@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphentwo" format="2">
-  <advance width="837.89898989899"/>
+  <advance width="838.6036060606061"/>
   <unicode hex="2010"/>
   <outline>
     <component base="hyphen"/>

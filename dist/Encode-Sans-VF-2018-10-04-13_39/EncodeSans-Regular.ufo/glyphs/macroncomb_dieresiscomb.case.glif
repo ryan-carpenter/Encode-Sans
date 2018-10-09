@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb_dieresiscomb.case" format="2">
-  <advance width="1050.5050505050506"/>
+  <advance width="1051.3969696969698"/>
   <outline>
     <component base="macroncomb.case"/>
-    <component base="dieresiscomb.case" yOffset="271.4343434343435"/>
+    <component base="dieresiscomb.case" yOffset="272.20139393939394"/>
   </outline>
   <lib>
     <dict>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelowcomb" format="2">
+  <unicode hex="0323"/>
+  <anchor x="539.1060606060606" y="0.0" name="_bottom"/>
+  <anchor x="539.1060606060606" y="-471.2848484848485" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="539.1060606060606" y="-384.30151515151516" type="curve" smooth="yes"/>
+      <point x="616.9495454545455" y="-384.30151515151516"/>
+      <point x="662.5025757575758" y="-339.96636363636367"/>
+      <point x="662.5025757575758" y="-269.11727272727273" type="curve" smooth="yes"/>
+      <point x="662.5025757575758" y="-198.2681818181818"/>
+      <point x="616.9495454545455" y="-152.71515151515152"/>
+      <point x="539.1060606060606" y="-152.71515151515152" type="curve" smooth="yes"/>
+      <point x="461.26257575757575" y="-152.71515151515152"/>
+      <point x="415.70954545454543" y="-198.2681818181818"/>
+      <point x="415.70954545454543" y="-269.11727272727273" type="curve" smooth="yes"/>
+      <point x="415.70954545454543" y="-339.96636363636367"/>
+      <point x="461.26257575757575" y="-384.30151515151516"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+    </dict>
+  </lib>
+</glyph>

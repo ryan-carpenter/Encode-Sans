@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_j" format="2">
-  <advance width="1422.7272727272727"/>
-  <anchor x="1123.4242424242425" y="1642.7070707070707" name="top"/>
+  <advance width="1423.435"/>
+  <anchor x="1123.938" y="1642.8713333333333" name="top"/>
   <outline>
     <component base="f.short"/>
-    <component base="j" xOffset="832.7070707070707"/>
+    <component base="j" xOffset="833.0443333333334"/>
   </outline>
 </glyph>

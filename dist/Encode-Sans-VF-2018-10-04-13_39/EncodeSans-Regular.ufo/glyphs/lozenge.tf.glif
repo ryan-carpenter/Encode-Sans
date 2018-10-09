@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lozenge.tf" format="2">
-  <advance width="1155.5555555555557"/>
+  <advance width="1156.5366666666666"/>
   <outline>
     <contour>
-      <point x="492.65656565656565" y="0.0" type="line"/>
-      <point x="661.4040404040404" y="0.0" type="line"/>
-      <point x="1059.2323232323233" y="740.0" type="line"/>
-      <point x="661.4040404040404" y="1480.0" type="line"/>
-      <point x="492.65656565656565" y="1480.0" type="line"/>
-      <point x="96.32323232323232" y="740.0" type="line"/>
+      <point x="492.4915606060606" y="0.0" type="line"/>
+      <point x="662.5590757575758" y="0.0" type="line"/>
+      <point x="1060.5256060606062" y="740.0" type="line"/>
+      <point x="662.5590757575758" y="1480.0" type="line"/>
+      <point x="492.4915606060606" y="1480.0" type="line"/>
+      <point x="96.01106060606061" y="740.0" type="line"/>
     </contour>
     <contour>
-      <point x="551.8080808080808" y="84.15151515151517" type="line"/>
-      <point x="603.7474747474748" y="84.15151515151517" type="line"/>
-      <point x="242.15151515151518" y="770.0" type="line"/>
-      <point x="242.15151515151518" y="710.0" type="line"/>
-      <point x="603.7474747474748" y="1395.8484848484848" type="line"/>
-      <point x="551.8080808080808" y="1395.8484848484848" type="line"/>
-      <point x="913.4040404040404" y="710.0" type="line"/>
-      <point x="913.4040404040404" y="770.0" type="line"/>
+      <point x="551.9106515151515" y="84.86059090909092" type="line"/>
+      <point x="604.6260151515152" y="84.86059090909092" type="line"/>
+      <point x="243.3020909090909" y="770.0" type="line"/>
+      <point x="243.3020909090909" y="710.0" type="line"/>
+      <point x="604.6260151515152" y="1395.139409090909" type="line"/>
+      <point x="551.9106515151515" y="1395.139409090909" type="line"/>
+      <point x="913.2345757575757" y="710.0" type="line"/>
+      <point x="913.2345757575757" y="770.0" type="line"/>
     </contour>
   </outline>
   <lib>

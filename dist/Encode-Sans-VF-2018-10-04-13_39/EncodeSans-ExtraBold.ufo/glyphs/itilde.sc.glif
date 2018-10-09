@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="itilde.sc" format="2">
-  <advance width="624.5757575757576"/>
-  <anchor x="311.85858585858585" y="0.0" name="bottom"/>
-  <anchor x="502.1212121212122" y="0.0" name="ogonek"/>
-  <anchor x="312.7171717171717" y="1230.0" name="top"/>
+  <advance width="624.927"/>
+  <anchor x="312.03333333333336" y="0.0" name="bottom"/>
+  <anchor x="502.61400000000003" y="0.0" name="ogonek"/>
+  <anchor x="312.8936666666667" y="1230.0" name="top"/>
   <outline>
     <component base="i.sc"/>
-    <component base="tildecomb.sc" xOffset="-273.14141414141415" yOffset="-290.0"/>
+    <component base="tildecomb.sc" xOffset="-273.1396666666667" yOffset="-290.0"/>
   </outline>
 </glyph>

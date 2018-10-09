@@ -51,7 +51,7 @@
     <key>openTypeOS2VendorID</key>
     <string>IMPA</string>
     <key>openTypeOS2WeightClass</key>
-    <integer>800</integer>
+    <integer>801</integer>
     <key>openTypeOS2WidthClass</key>
     <integer>9</integer>
     <key>openTypeOS2WinAscent</key>
@@ -62,8 +62,8 @@
     <array>
       <integer>-40</integer>
       <integer>0</integer>
-      <real>1097.171717171717</real>
-      <real>1137.171717171717</real>
+      <real>1097.2066666666667</real>
+      <real>1137.2066666666667</real>
       <integer>1190</integer>
       <integer>1230</integer>
       <integer>1480</integer>
@@ -82,15 +82,15 @@
     </array>
     <key>postscriptStemSnapH</key>
     <array>
-      <real>306.4040404040404</real>
-      <real>280.64646464646466</real>
+      <real>306.8933333333334</real>
+      <real>281.08333333333337</real>
     </array>
     <key>postscriptStemSnapV</key>
     <array>
-      <real>382.24242424242425</real>
-      <real>374.51515151515156</real>
-      <real>391.39393939393943</real>
-      <real>375.93939393939394</real>
+      <real>382.88200000000006</real>
+      <real>375.13900000000007</real>
+      <real>392.0440000000001</real>
+      <real>376.55800000000005</real>
     </array>
     <key>postscriptUnderlinePosition</key>
     <integer>-100</integer>
@@ -109,6 +109,6 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>
-    <real>1097.171717171717</real>
+    <real>1097.2066666666667</real>
   </dict>
 </plist>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl.tf" format="2">
-  <advance width="577.7777777777778"/>
+  <advance width="578.2683333333333"/>
   <outline>
     <contour>
-      <point x="122.88888888888889" y="916.10101010101" type="line"/>
-      <point x="194.2020202020202" y="916.10101010101" type="line"/>
-      <point x="221.27272727272728" y="1616.0" type="line"/>
-      <point x="95.81818181818181" y="1616.0" type="line"/>
+      <point x="122.69266666666667" y="915.396393939394" type="line"/>
+      <point x="194.55878787878788" y="915.396393939394" type="line"/>
+      <point x="221.75436363636362" y="1616.0" type="line"/>
+      <point x="95.49709090909091" y="1616.0" type="line"/>
     </contour>
     <contour>
-      <point x="381.57575757575756" y="916.10101010101" type="line"/>
-      <point x="452.8888888888889" y="916.10101010101" type="line"/>
-      <point x="479.95959595959596" y="1616.0" type="line"/>
-      <point x="354.5050505050505" y="1616.0" type="line"/>
+      <point x="381.70954545454543" y="915.396393939394" type="line"/>
+      <point x="453.5756666666667" y="915.396393939394" type="line"/>
+      <point x="480.7712424242424" y="1616.0" type="line"/>
+      <point x="354.5139696969697" y="1616.0" type="line"/>
     </contour>
   </outline>
   <lib>

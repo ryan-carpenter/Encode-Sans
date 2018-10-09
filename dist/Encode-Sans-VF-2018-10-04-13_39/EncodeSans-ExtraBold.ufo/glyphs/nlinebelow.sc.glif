@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nlinebelow.sc" format="2">
-  <advance width="1426.090909090909"/>
-  <anchor x="712.5454545454545" y="0.0" name="bottom"/>
-  <anchor x="712.5454545454545" y="1230.0" name="top"/>
+  <advance width="1426.374"/>
+  <anchor x="712.687" y="0.0" name="bottom"/>
+  <anchor x="712.687" y="1230.0" name="top"/>
   <outline>
     <component base="n.sc"/>
-    <component base="macronbelowcomb.sc" xOffset="126.68686868686866"/>
+    <component base="macronbelowcomb.sc" xOffset="126.65366666666667"/>
   </outline>
 </glyph>

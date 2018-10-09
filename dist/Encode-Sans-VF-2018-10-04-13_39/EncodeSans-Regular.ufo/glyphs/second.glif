@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="second" format="2">
-  <advance width="753.8787878787879"/>
+  <advance width="755.4307272727273"/>
   <unicode hex="2033"/>
   <outline>
     <component base="quotedbl"/>

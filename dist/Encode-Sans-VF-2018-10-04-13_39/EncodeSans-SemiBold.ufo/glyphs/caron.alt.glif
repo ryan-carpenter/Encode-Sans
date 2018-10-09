@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.alt" format="2">
+  <advance width="1108.379797979798"/>
+  <outline>
+    <component base="caroncomb.alt"/>
+  </outline>
+</glyph>

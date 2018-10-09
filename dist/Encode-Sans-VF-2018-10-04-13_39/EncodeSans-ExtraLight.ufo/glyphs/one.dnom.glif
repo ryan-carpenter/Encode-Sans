@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.dnom" format="2">
+  <advance width="757.4354090909092"/>
+  <outline>
+    <contour>
+      <point x="381.5923181818182" y="-115.44136363636363" type="line"/>
+      <point x="460.73136363636365" y="-115.44136363636363" type="line"/>
+      <point x="460.73136363636365" y="868.0" type="line"/>
+      <point x="409.89936363636366" y="868.0" type="line"/>
+      <point x="139.5530909090909" y="669.6145" type="line"/>
+      <point x="139.5530909090909" y="585.7155454545455" type="line"/>
+      <point x="409.89936363636366" y="784.1010454545454" type="line"/>
+      <point x="381.5923181818182" y="800.5198181818182" type="line"/>
+    </contour>
+    <contour>
+      <point x="143.88272727272727" y="-136.0" type="line"/>
+      <point x="686.4968181818182" y="-136.0" type="line"/>
+      <point x="686.4968181818182" y="-62.659681818181795" type="line"/>
+      <point x="143.88272727272727" y="-62.659681818181795" type="line"/>
+    </contour>
+  </outline>
+</glyph>

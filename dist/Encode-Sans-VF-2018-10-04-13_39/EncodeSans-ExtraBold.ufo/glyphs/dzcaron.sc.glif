@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dzcaron.sc" format="2">
-  <advance width="2468.5959595959594"/>
-  <anchor x="646.1515151515152" y="0.0" name="bottom_1"/>
-  <anchor x="1898.5959595959596" y="0.0" name="bottom_2"/>
-  <anchor x="691.1414141414141" y="594.0" name="center"/>
-  <anchor x="122.45454545454544" y="608.0" name="stroke"/>
-  <anchor x="628.1212121212121" y="1230.0" name="top_1"/>
-  <anchor x="1902.030303030303" y="1230.0" name="top_2"/>
+  <advance width="2469.317666666667"/>
+  <anchor x="646.335" y="0.0" name="bottom_1"/>
+  <anchor x="1899.1446666666668" y="0.0" name="bottom_2"/>
+  <anchor x="691.3126666666667" y="594.0" name="center"/>
+  <anchor x="122.31299999999999" y="608.0" name="stroke"/>
+  <anchor x="628.268" y="1230.0" name="top_1"/>
+  <anchor x="1902.586" y="1230.0" name="top_2"/>
   <outline>
     <component base="dz.sc"/>
-    <component base="caroncomb.sc" xOffset="1316.1717171717173" yOffset="-290.0"/>
+    <component base="caroncomb.sc" xOffset="1316.5526666666667" yOffset="-290.0"/>
   </outline>
 </glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Delta.tf" format="2">
+  <advance width="1131.9555555555555"/>
+  <outline>
+    <contour>
+      <point x="30.804444444444442" y="0.0" type="line"/>
+      <point x="1101.151111111111" y="0.0" type="line"/>
+      <point x="637.2573737373738" y="1480.0" type="line"/>
+      <point x="494.6981818181818" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="160.93333333333337" y="54.7208080808081" type="line"/>
+      <point x="584.9163636363637" y="1417.8266666666666" type="line"/>
+      <point x="546.1676767676768" y="1417.8266666666666" type="line"/>
+      <point x="969.7317171717172" y="54.7208080808081" type="line"/>
+      <point x="995.2513131313132" y="105.79919191919194" type="line"/>
+      <point x="134.4137373737374" y="105.79919191919194" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

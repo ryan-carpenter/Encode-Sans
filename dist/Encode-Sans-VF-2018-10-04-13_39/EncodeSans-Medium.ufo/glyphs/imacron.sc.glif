@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron.sc" format="2">
+  <advance width="530.6031818181818"/>
+  <anchor x="265.1060606060606" y="0.0" name="bottom"/>
+  <anchor x="370.27909090909094" y="0.0" name="ogonek"/>
+  <anchor x="265.4971212121212" y="1230.0" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="macroncomb.sc" xOffset="-273.6089393939394" yOffset="-290.0"/>
+  </outline>
+</glyph>

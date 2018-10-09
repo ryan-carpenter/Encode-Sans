@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Delta.tf" format="2">
-  <advance width="1155.5555555555557"/>
+  <advance width="1156.5366666666666"/>
   <outline>
     <contour>
-      <point x="28.444444444444443" y="0.0" type="line"/>
-      <point x="1127.111111111111" y="0.0" type="line"/>
-      <point x="674.3737373737374" y="1480.0" type="line"/>
-      <point x="481.1818181818182" y="1480.0" type="line"/>
+      <point x="28.346333333333334" y="0.0" type="line"/>
+      <point x="1128.1903333333335" y="0.0" type="line"/>
+      <point x="675.9167575757576" y="1480.0" type="line"/>
+      <point x="480.6199090909091" y="1480.0" type="line"/>
     </contour>
     <contour>
-      <point x="196.33333333333337" y="67.80808080808083" type="line"/>
-      <point x="600.3636363636364" y="1403.6666666666667" type="line"/>
-      <point x="553.6767676767677" y="1403.6666666666667" type="line"/>
-      <point x="957.7171717171717" y="67.80808080808083" type="line"/>
-      <point x="987.3131313131313" y="135.19191919191923" type="line"/>
-      <point x="165.7373737373738" y="135.19191919191923" type="line"/>
+      <point x="197.805" y="68.35215151515152" type="line"/>
+      <point x="601.0058181818182" y="1403.078" type="line"/>
+      <point x="553.9889393939394" y="1403.078" type="line"/>
+      <point x="957.2176969696969" y="68.35215151515152" type="line"/>
+      <point x="986.9831212121212" y="136.41384848484847" type="line"/>
+      <point x="167.03957575757576" y="136.41384848484847" type="line"/>
     </contour>
   </outline>
   <lib>

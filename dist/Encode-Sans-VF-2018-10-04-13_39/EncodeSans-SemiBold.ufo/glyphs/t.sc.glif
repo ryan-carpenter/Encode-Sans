@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t.sc" format="2">
+  <advance width="1095.1395555555555"/>
+  <anchor x="548.1116767676767" y="0.0" name="bottom"/>
+  <anchor x="548.1116767676767" y="588.603393939394" name="center"/>
+  <anchor x="548.1116767676767" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="414.94416161616164" y="0.0" type="line"/>
+      <point x="680.195393939394" y="0.0" type="line"/>
+      <point x="680.195393939394" y="981.3129696969697" type="line"/>
+      <point x="1080.7652525252524" y="981.3129696969697" type="line"/>
+      <point x="1080.7652525252524" y="1190.0" type="line"/>
+      <point x="14.37430303030303" y="1190.0" type="line"/>
+      <point x="14.37430303030303" y="981.3129696969697" type="line"/>
+      <point x="414.94416161616164" y="981.3129696969697" type="line"/>
+    </contour>
+  </outline>
+</glyph>

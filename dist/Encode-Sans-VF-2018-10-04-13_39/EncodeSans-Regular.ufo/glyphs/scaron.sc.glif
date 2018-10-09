@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scaron.sc" format="2">
-  <advance width="949.2525252525253"/>
-  <anchor x="476.21212121212125" y="0.0" name="bottom"/>
-  <anchor x="476.21212121212125" y="1230.0" name="top"/>
+  <advance width="950.1399848484848"/>
+  <anchor x="476.5867272727273" y="0.0" name="bottom"/>
+  <anchor x="476.5867272727273" y="1230.0" name="top"/>
   <outline>
     <component base="s.sc"/>
-    <component base="caroncomb.sc" xOffset="-49.040404040404034" yOffset="-290.0"/>
+    <component base="caroncomb.sc" xOffset="-49.11175757575758" yOffset="-290.0"/>
   </outline>
 </glyph>

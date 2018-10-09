@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iacute_j.loclNLD.sc" format="2">
-  <advance width="1005.5151515151516"/>
-  <anchor x="251.25252525252526" y="0.0" name="bottom_1"/>
-  <anchor x="863.3434343434344" y="0.0" name="bottom_2"/>
-  <anchor x="331.21212121212125" y="0.0" name="ogonek"/>
-  <anchor x="251.50505050505052" y="1230.0" name="top_1"/>
-  <anchor x="754.2626262626263" y="1230.0" name="top_2"/>
+  <advance width="1007.3079090909091"/>
+  <anchor x="251.69848484848484" y="0.0" name="bottom_1"/>
+  <anchor x="865.2744393939394" y="0.0" name="bottom_2"/>
+  <anchor x="332.46972727272725" y="0.0" name="ogonek"/>
+  <anchor x="251.9554696969697" y="1230.0" name="top_1"/>
+  <anchor x="755.6094242424242" y="1230.0" name="top_2"/>
   <outline>
     <component base="i.sc"/>
-    <component base="acutecomb.sc" xOffset="-273.74747474747477" yOffset="-290.0"/>
-    <component base="j.sc" xOffset="502.7575757575758"/>
-    <component base="acutecomb.sc" xOffset="229.01010101010104" yOffset="-290.0"/>
+    <component base="acutecomb.sc" xOffset="-273.7430151515151" yOffset="-290.0"/>
+    <component base="j.sc" xOffset="503.65395454545455"/>
+    <component base="acutecomb.sc" xOffset="229.9109393939394" yOffset="-290.0"/>
   </outline>
 </glyph>
