@@ -1,3 +1,5 @@
+# Just a very simple script to calculate the warping of a trapezoidal designspace into a rectangular designspace
+
 oldWght = 222 # update for each instance
 
 oldMin = 34
