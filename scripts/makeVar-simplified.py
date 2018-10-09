@@ -5,14 +5,11 @@ from fontmake.font_project import FontProject
 from datetime import datetime
 
 ######################################
-##### DEFINE THE VARIABLES BELOW #####
- 
-familyName = 'EncodeSans'
+##### DEFINE THE VARIABLE BELOW #####
 
-DS_PATH = 'master_ufo/EncodeSans-simplefix-normal_wdth.designspace' # use for a designspace
-GLYPHS_PATH = 'sources/Encode-Sans.glyphs' # use for glyphs file
+DS_PATH = 'master_ufo/EncodeSans-mathfix-normal_wdth.designspace' # use for a designspace
 
-##### DEFINE THE VARIABLES ABOVE #####
+##### DEFINE THE VARIABLE ABOVE #####
 ######################################
 
 
@@ -34,13 +31,9 @@ def getRunArguments():
         'conversion_error': None,
         #'no_round': False,
         'masters_as_instances': False,
-        'interpolate': True,
         'use_afdko': False,
         'subroutinize': True,
-        # 'output':['variable'],
-        'output-dir': 'fonts',
-        'output':['ttf'],
-        # 'designspace_path': 'master_ufo/' + familyName + '.designspace', # sometimes useful when running from a glyphs file
+        'output':['variable'],
     }
     return args
 
@@ -49,37 +42,3 @@ project = FontProject()
 args = getRunArguments()
 
 print(project.run_from_designspace(designspace_path=DS_PATH, **args))
-
-# print(project.run_from_glyphs(glyphs_path=GLYPHS_PATH, **args))
-
-# print(project.build_ttfs())
-
-# defaultFontPath = 'variable_ttf/' + DS_PATH.replace('master_ufo/', '').replace('.designspace', '-VF.ttf')  # if from a designspace file
-# print(defaultFontPath)
-# defaultFontPath = 'variable_ttf/' + familyName + '-VF.ttf' # if from a glyphs file
-
-# os.system('open %s' % defaultFontPath)
-
-#### the following can move the font into a timestamped folder and fontbake it, if you want that ####
-
-
-## make timestamped folder in dist, like `SampleFont_2015-10-21-017_03`
-# currentDatetime = datetime.now().strftime('%Y-%m-%d-%H_%M')
-# outputFolder = 'dist/' + GLYPHS_PATH.replace('sources/', '').replace('.glyphs', '-VF-') + currentDatetime + '/'
-# if not os.path.exists(outputFolder):
-#     os.makedirs(outputFolder)
-
-# newFontPath = outputFolder + familyName + '-VF.ttf'
-# shutil.move(defaultFontPath, newFontPath)
-
-# # # remove now-empty default folder
-# if os.path.exists('variable_ttf'):
-#     os.rmdir('variable_ttf')
-
-# # # open varfont in FontView (or whatever is set as the default app to view varfont files)
-# os.system('open %s' % newFontPath)
-
-# # # run fontbakery check on new font
-# fontbakeryCommand = 'fontbakery check-googlefonts ' + newFontPath + ' --ghmarkdown ' + outputFolder + 'fontbakery-report.md'
-# # print("fontbakeryCommand is " + fontbakeryCommand)
-# print(os.system(fontbakeryCommand))
