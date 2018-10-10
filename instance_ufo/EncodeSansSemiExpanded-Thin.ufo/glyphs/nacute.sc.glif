@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nacute.sc" format="2">
+  <advance width="1367.5"/>
+  <anchor x="683.5" y="0.0" name="bottom"/>
+  <anchor x="683.5" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="205.0" y="0.0" type="line"/>
+      <point x="271.0" y="0.0" type="line"/>
+      <point x="271.0" y="1121.0" type="line"/>
+      <point x="246.0" y="1121.0" type="line"/>
+      <point x="1088.5" y="0.0" type="line"/>
+      <point x="1162.5" y="0.0" type="line"/>
+      <point x="1162.5" y="1190.0" type="line"/>
+      <point x="1096.5" y="1190.0" type="line"/>
+      <point x="1096.5" y="69.0" type="line"/>
+      <point x="1120.0" y="69.0" type="line"/>
+      <point x="277.5" y="1190.0" type="line"/>
+      <point x="205.0" y="1190.0" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="133.5" yOffset="-290.0"/>
+  </outline>
+</glyph>

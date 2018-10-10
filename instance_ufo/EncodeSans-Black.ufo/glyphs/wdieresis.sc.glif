@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdieresis.sc" format="2">
+  <advance width="2124.0"/>
+  <anchor x="1062.0" y="0.0" name="bottom"/>
+  <anchor x="1062.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="324.0" y="0.0" type="line"/>
+      <point x="872.0" y="0.0" type="line"/>
+      <point x="1128.0" y="958.0" type="line"/>
+      <point x="1016.0" y="958.0" type="line"/>
+      <point x="1253.0" y="0.0" type="line"/>
+      <point x="1801.0" y="0.0" type="line"/>
+      <point x="2109.0" y="1190.0" type="line"/>
+      <point x="1707.0" y="1190.0" type="line"/>
+      <point x="1456.0" y="168.0" type="line"/>
+      <point x="1555.0" y="168.0" type="line"/>
+      <point x="1308.0" y="1190.0" type="line"/>
+      <point x="842.0" y="1190.0" type="line"/>
+      <point x="575.0" y="168.0" type="line"/>
+      <point x="684.0" y="168.0" type="line"/>
+      <point x="445.0" y="1190.0" type="line"/>
+      <point x="15.0" y="1190.0" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="462.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

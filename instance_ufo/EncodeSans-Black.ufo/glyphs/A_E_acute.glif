@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AEacute" format="2">
+  <advance width="2112.0"/>
+  <unicode hex="01FC"/>
+  <anchor x="1095.0" y="1520.0" name="_top"/>
+  <anchor x="1095.0" y="0.0" name="bottom"/>
+  <anchor x="1095.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="4.0" y="0.0" type="line"/>
+      <point x="427.0" y="0.0" type="line"/>
+      <point x="742.0" y="1138.0" type="line"/>
+      <point x="1085.0" y="1138.0" type="line"/>
+      <point x="1085.0" y="1480.0" type="line"/>
+      <point x="446.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="373.0" y="338.0" type="line"/>
+      <point x="1076.0" y="338.0" type="line"/>
+      <point x="1076.0" y="680.0" type="line"/>
+      <point x="464.0" y="680.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1003.0" y="0.0" type="line"/>
+      <point x="2040.0" y="0.0" type="line"/>
+      <point x="2040.0" y="342.0" type="line"/>
+      <point x="1403.0" y="342.0" type="line"/>
+      <point x="1329.0" y="1138.0" type="line"/>
+      <point x="2030.0" y="1138.0" type="line"/>
+      <point x="2030.0" y="1480.0" type="line"/>
+      <point x="885.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1160.0" y="584.0" type="line"/>
+      <point x="1925.0" y="584.0" type="line"/>
+      <point x="1925.0" y="926.0" type="line"/>
+      <point x="1160.0" y="926.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="902.0" y="1586.0" type="line"/>
+      <point x="1284.0" y="1586.0" type="line"/>
+      <point x="1529.0" y="1902.0" type="line"/>
+      <point x="1085.0" y="1902.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde" format="2">
+  <advance width="422.0"/>
+  <unicode hex="0128"/>
+  <anchor x="211.0" y="1520.0" name="_top"/>
+  <anchor x="211.0" y="0.0" name="bottom"/>
+  <anchor x="245.0" y="0.0" name="ogonek"/>
+  <anchor x="211.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="177.0" y="0.0" type="line"/>
+      <point x="245.0" y="0.0" type="line"/>
+      <point x="245.0" y="1480.0" type="line"/>
+      <point x="177.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="1696.5" type="curve" smooth="yes"/>
+      <point x="410.5" y="1696.5"/>
+      <point x="459.0" y="1719.5"/>
+      <point x="491.5" y="1758.0" type="curve"/>
+      <point x="491.5" y="1824.5" type="line"/>
+      <point x="451.0" y="1776.5"/>
+      <point x="408.0" y="1753.0"/>
+      <point x="347.0" y="1753.0" type="curve" smooth="yes"/>
+      <point x="260.0" y="1753.0"/>
+      <point x="181.0" y="1830.0"/>
+      <point x="75.0" y="1830.0" type="curve" smooth="yes"/>
+      <point x="11.5" y="1830.0"/>
+      <point x="-37.0" y="1807.0"/>
+      <point x="-69.5" y="1768.5" type="curve"/>
+      <point x="-69.5" y="1702.0" type="line"/>
+      <point x="-29.0" y="1750.0"/>
+      <point x="14.0" y="1773.5"/>
+      <point x="75.0" y="1773.5" type="curve" smooth="yes"/>
+      <point x="162.0" y="1773.5"/>
+      <point x="241.0" y="1696.5"/>
+    </contour>
+  </outline>
+</glyph>

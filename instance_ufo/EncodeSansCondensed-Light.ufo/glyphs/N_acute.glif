@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nacute" format="2">
+  <advance width="1268.0"/>
+  <unicode hex="0143"/>
+  <anchor x="634.0" y="1520.0" name="_top"/>
+  <anchor x="634.0" y="0.0" name="bottom"/>
+  <anchor x="634.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="152.4848484848485" y="0.0" type="line"/>
+      <point x="263.93939393939394" y="0.0" type="line"/>
+      <point x="263.93939393939394" y="1345.7575757575758" type="line"/>
+      <point x="228.0" y="1345.7575757575758" type="line"/>
+      <point x="991.939393939394" y="0.0" type="line"/>
+      <point x="1115.5151515151515" y="0.0" type="line"/>
+      <point x="1115.5151515151515" y="1480.0" type="line"/>
+      <point x="1004.060606060606" y="1480.0" type="line"/>
+      <point x="1004.060606060606" y="134.24242424242425" type="line"/>
+      <point x="1040.0" y="134.24242424242425" type="line"/>
+      <point x="276.06060606060606" y="1480.0" type="line"/>
+      <point x="152.4848484848485" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="584.1818181818181" y="1611.4545454545455" type="line"/>
+      <point x="683.8181818181819" y="1611.4545454545455" type="line"/>
+      <point x="839.030303030303" y="1890.121212121212" type="line"/>
+      <point x="717.3333333333334" y="1890.121212121212" type="line"/>
+    </contour>
+  </outline>
+</glyph>

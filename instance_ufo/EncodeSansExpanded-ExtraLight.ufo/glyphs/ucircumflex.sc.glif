@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ucircumflex.sc" format="2">
+  <advance width="1405.5555555555557"/>
+  <anchor x="704.0" y="0.0" name="bottom"/>
+  <anchor x="838.0" y="3.777777777777777" name="ogonek"/>
+  <anchor x="704.0" y="1230.0" name="top"/>
+  <anchor x="1112.111111111111" y="1190.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="704.0" y="-14.11111111111111" type="curve" smooth="yes"/>
+      <point x="1042.0" y="-14.11111111111111"/>
+      <point x="1200.2222222222222" y="132.66666666666669"/>
+      <point x="1200.2222222222222" y="466.55555555555554" type="curve" smooth="yes"/>
+      <point x="1200.2222222222222" y="1190.0" type="line"/>
+      <point x="1112.111111111111" y="1190.0" type="line"/>
+      <point x="1112.111111111111" y="457.55555555555554" type="line" smooth="yes"/>
+      <point x="1112.111111111111" y="183.11111111111114"/>
+      <point x="983.5555555555555" y="65.88888888888894"/>
+      <point x="704.0" y="65.88888888888894" type="curve" smooth="yes"/>
+      <point x="426.33333333333337" y="65.88888888888894"/>
+      <point x="295.88888888888897" y="183.11111111111114"/>
+      <point x="295.88888888888897" y="457.55555555555554" type="curve" smooth="yes"/>
+      <point x="295.88888888888897" y="1190.0" type="line"/>
+      <point x="205.44444444444443" y="1190.0" type="line"/>
+      <point x="205.44444444444443" y="466.55555555555554" type="line" smooth="yes"/>
+      <point x="205.44444444444443" y="132.66666666666669"/>
+      <point x="365.3333333333333" y="-14.11111111111111"/>
+    </contour>
+    <component base="circumflexcomb.case" xOffset="104.00000000000003" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot.sc" format="2">
+  <advance width="927.4444444444445"/>
+  <anchor x="550.5555555555555" y="0.0" name="bottom"/>
+  <anchor x="610.2222222222223" y="1190.0" name="caronalt"/>
+  <anchor x="668.4444444444445" y="635.1111111111111" name="periodcentered"/>
+  <anchor x="231.83333333333334" y="630.1111111111111" name="slash"/>
+  <anchor x="231.83333333333334" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="187.5" y="0.0" type="line"/>
+      <point x="912.7222222222223" y="0.0" type="line"/>
+      <point x="912.7222222222223" y="78.83333333333339" type="line"/>
+      <point x="275.66666666666674" y="78.83333333333339" type="line"/>
+      <point x="275.66666666666674" y="1190.0" type="line"/>
+      <point x="187.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="668.4444444444445" y="563.5833333333334" type="curve" smooth="yes"/>
+      <point x="711.7777777777778" y="563.5833333333334"/>
+      <point x="740.4722222222223" y="590.25"/>
+      <point x="740.4722222222223" y="633.2222222222223" type="curve" smooth="yes"/>
+      <point x="740.4722222222223" y="676.1944444444445"/>
+      <point x="711.7777777777778" y="704.75"/>
+      <point x="668.4444444444445" y="704.75" type="curve" smooth="yes"/>
+      <point x="625.1111111111111" y="704.75"/>
+      <point x="596.4166666666666" y="676.1944444444445"/>
+      <point x="596.4166666666666" y="633.2222222222223" type="curve" smooth="yes"/>
+      <point x="596.4166666666666" y="590.25"/>
+      <point x="625.1111111111111" y="563.5833333333334"/>
+    </contour>
+  </outline>
+</glyph>

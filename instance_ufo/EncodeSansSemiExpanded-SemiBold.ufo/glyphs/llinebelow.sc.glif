@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="llinebelow.sc" format="2">
+  <advance width="1077.8939393939395"/>
+  <anchor x="611.1010101010102" y="0.0" name="bottom"/>
+  <anchor x="721.3989898989898" y="1190.0" name="caronalt"/>
+  <anchor x="807.7828282828283" y="701.4949494949495" name="periodcentered"/>
+  <anchor x="298.7146464646465" y="665.989898989899" name="slash"/>
+  <anchor x="298.7146464646465" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="159.87626262626262" y="0.0" type="line"/>
+      <point x="1062.4469696969697" y="0.0" type="line"/>
+      <point x="1062.4469696969697" y="210.719696969697" type="line"/>
+      <point x="435.1212121212121" y="210.719696969697" type="line"/>
+      <point x="435.1212121212121" y="1190.0" type="line"/>
+      <point x="159.87626262626262" y="1190.0" type="line"/>
+    </contour>
+    <component base="macronbelowcomb.case" xOffset="34.08080808080808"/>
+  </outline>
+</glyph>

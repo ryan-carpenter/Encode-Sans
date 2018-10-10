@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etilde.sc" format="2">
+  <advance width="1011.8888888888889"/>
+  <anchor x="579.1111111111111" y="0.0" name="bottom"/>
+  <anchor x="870.2777777777778" y="0.0" name="ogonek"/>
+  <anchor x="577.2222222222222" y="1230.0" name="top"/>
+  <anchor x="65.83333333333333" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="187.5" y="0.0" type="line"/>
+      <point x="939.7777777777778" y="0.0" type="line"/>
+      <point x="939.7777777777778" y="77.5555555555556" type="line"/>
+      <point x="275.11111111111114" y="77.5555555555556" type="line"/>
+      <point x="275.11111111111114" y="1112.4444444444443" type="line"/>
+      <point x="930.8333333333334" y="1112.4444444444443" type="line"/>
+      <point x="930.8333333333334" y="1190.0" type="line"/>
+      <point x="187.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="246.72222222222223" y="571.7777777777777" type="line"/>
+      <point x="849.2777777777778" y="571.7777777777777" type="line"/>
+      <point x="849.2777777777778" y="649.3333333333334" type="line"/>
+      <point x="246.72222222222223" y="649.3333333333334" type="line"/>
+    </contour>
+    <component base="tildecomb.case" xOffset="71.66666666666666" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb_acutecomb" format="2">
+  <anchor x="555.3030303030303" y="1200.0" name="_top"/>
+  <anchor x="555.3030303030303" y="1598.121212121212" name="top"/>
+  <outline>
+    <contour>
+      <point x="215.44191919191917" y="1324.8510101010102" type="line"/>
+      <point x="895.1641414141413" y="1324.8510101010102" type="line"/>
+      <point x="895.1641414141413" y="1515.6818181818182" type="line"/>
+      <point x="215.44191919191917" y="1515.6818181818182" type="line"/>
+    </contour>
+    <contour>
+      <point x="418.2449494949495" y="1656.3737373737374" type="line"/>
+      <point x="690.9570707070707" y="1656.3737373737374" type="line"/>
+      <point x="903.2373737373737" y="1959.2626262626263" type="line"/>
+      <point x="584.4873737373737" y="1959.2626262626263" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdieresis.sc" format="2">
+  <advance width="1894.3333333333333"/>
+  <anchor x="949.0151515151515" y="0.0" name="bottom"/>
+  <anchor x="949.0151515151515" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="461.8636363636364" y="0.0" type="line"/>
+      <point x="583.3636363636364" y="0.0" type="line"/>
+      <point x="960.2424242424242" y="1135.969696969697" type="line"/>
+      <point x="935.5909090909091" y="1135.969696969697" type="line"/>
+      <point x="1311.469696969697" y="0.0" type="line"/>
+      <point x="1433.909090909091" y="0.0" type="line"/>
+      <point x="1821.2878787878788" y="1190.0" type="line"/>
+      <point x="1732.3030303030303" y="1190.0" type="line"/>
+      <point x="1363.1060606060605" y="48.74242424242424" type="line"/>
+      <point x="1379.6969696969697" y="48.74242424242424" type="line"/>
+      <point x="1005.9848484848485" y="1190.0" type="line"/>
+      <point x="891.7424242424242" y="1190.0" type="line"/>
+      <point x="515.469696969697" y="48.74242424242424" type="line"/>
+      <point x="537.4242424242424" y="48.74242424242424" type="line"/>
+      <point x="167.54545454545456" y="1190.0" type="line"/>
+      <point x="73.04545454545455" y="1190.0" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="395.9848484848485" yOffset="-290.0"/>
+  </outline>
+</glyph>

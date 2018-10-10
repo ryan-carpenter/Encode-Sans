@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldot" format="2">
+  <advance width="1280.5"/>
+  <unicode hex="013F"/>
+  <anchor x="977.5" y="921.0" name="_periodcentered"/>
+  <anchor x="695.0" y="0.0" name="bottom"/>
+  <anchor x="856.0" y="1616.0" name="caronalt"/>
+  <anchor x="977.5" y="921.0" name="periodcentered"/>
+  <anchor x="349.0" y="854.0" name="slash"/>
+  <anchor x="349.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="119.5" y="0.0" type="line"/>
+      <point x="1270.5" y="0.0" type="line"/>
+      <point x="1270.5" y="362.5" type="line"/>
+      <point x="574.5" y="362.5" type="line"/>
+      <point x="574.5" y="1480.0" type="line"/>
+      <point x="119.5" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="977.5" y="710.0" type="curve" smooth="yes"/>
+      <point x="1160.5" y="710.0"/>
+      <point x="1241.5" y="785.0"/>
+      <point x="1241.5" y="921.0" type="curve" smooth="yes"/>
+      <point x="1241.5" y="1057.0"/>
+      <point x="1160.5" y="1132.0"/>
+      <point x="977.5" y="1132.0" type="curve" smooth="yes"/>
+      <point x="794.5" y="1132.0"/>
+      <point x="713.5" y="1057.0"/>
+      <point x="713.5" y="921.0" type="curve" smooth="yes"/>
+      <point x="713.5" y="785.0"/>
+      <point x="794.5" y="710.0"/>
+    </contour>
+  </outline>
+</glyph>

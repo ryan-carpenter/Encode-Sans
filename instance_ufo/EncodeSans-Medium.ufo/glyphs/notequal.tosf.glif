@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal.tosf" format="2">
+  <advance width="1185.5555555555557"/>
+  <outline>
+    <contour>
+      <point x="350.1111111111112" y="83.9444444444444" type="line"/>
+      <point x="972.0" y="955.8888888888889" type="line"/>
+      <point x="835.4444444444445" y="1036.0555555555557" type="line"/>
+      <point x="213.55555555555554" y="164.1111111111111" type="line"/>
+    </contour>
+    <contour>
+      <point x="190.66666666666666" y="273.66666666666663" type="line"/>
+      <point x="994.8888888888889" y="273.66666666666663" type="line"/>
+      <point x="994.8888888888889" y="437.22222222222223" type="line"/>
+      <point x="190.66666666666666" y="437.22222222222223" type="line"/>
+    </contour>
+    <contour>
+      <point x="190.66666666666666" y="682.7777777777777" type="line"/>
+      <point x="994.8888888888889" y="682.7777777777777" type="line"/>
+      <point x="994.8888888888889" y="846.3333333333334" type="line"/>
+      <point x="190.66666666666666" y="846.3333333333334" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yhookabove.sc" format="2">
+  <advance width="1020.0"/>
+  <anchor x="510.0" y="0.0" name="bottom"/>
+  <anchor x="510.0" y="1230.0" name="top"/>
+  <anchor x="15.0" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="476.0" y="0.0" type="line"/>
+      <point x="544.0" y="0.0" type="line"/>
+      <point x="544.0" y="570.5" type="line"/>
+      <point x="526.5" y="515.5" type="line"/>
+      <point x="1025.0" y="1190.0" type="line"/>
+      <point x="945.5" y="1190.0" type="line"/>
+      <point x="495.5" y="584.0" type="line"/>
+      <point x="528.0" y="584.0" type="line"/>
+      <point x="70.5" y="1190.0" type="line"/>
+      <point x="-13.0" y="1190.0" type="line"/>
+      <point x="493.5" y="515.5" type="line"/>
+      <point x="476.0" y="570.5" type="line"/>
+    </contour>
+    <component base="hookabovecomb.case" xOffset="-40.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

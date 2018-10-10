@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I_J.loclNLD" format="2">
+  <advance width="948.0"/>
+  <anchor x="237.0" y="0.0" name="bottom"/>
+  <anchor x="271.0" y="0.0" name="ogonek"/>
+  <anchor x="237.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="203.0" y="0.0" type="line"/>
+      <point x="271.0" y="0.0" type="line"/>
+      <point x="271.0" y="1480.0" type="line"/>
+      <point x="203.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="524.0" y="-340.0" type="line"/>
+      <point x="676.5" y="-145.0"/>
+      <point x="732.5" y="22.0"/>
+      <point x="745.0" y="251.5" type="curve"/>
+      <point x="745.0" y="1480.0" type="line"/>
+      <point x="677.0" y="1480.0" type="line"/>
+      <point x="677.0" y="286.0" type="line" smooth="yes"/>
+      <point x="677.0" y="51.0"/>
+      <point x="615.0" y="-125.0"/>
+      <point x="475.5" y="-304.5" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

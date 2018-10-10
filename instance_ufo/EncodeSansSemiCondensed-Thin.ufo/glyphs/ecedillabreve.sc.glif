@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecedillabreve.sc" format="2">
+  <advance width="924.5"/>
+  <anchor x="540.0" y="0.0" name="bottom"/>
+  <anchor x="802.0" y="0.0" name="ogonek"/>
+  <anchor x="539.0" y="1230.0" name="top"/>
+  <anchor x="62.0" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="179.0" y="0.0" type="line"/>
+      <point x="870.5" y="0.0" type="line"/>
+      <point x="870.5" y="64.0" type="line"/>
+      <point x="247.0" y="64.0" type="line"/>
+      <point x="247.0" y="1126.0" type="line"/>
+      <point x="862.0" y="1126.0" type="line"/>
+      <point x="862.0" y="1190.0" type="line"/>
+      <point x="179.0" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="232.0" y="578.5" type="line"/>
+      <point x="782.5" y="578.5" type="line"/>
+      <point x="782.5" y="642.5" type="line"/>
+      <point x="232.0" y="642.5" type="line"/>
+    </contour>
+    <component base="cedillacomb.case" xOffset="90.0"/>
+    <component base="brevecomb.case" xOffset="89.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

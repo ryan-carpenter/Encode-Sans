@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater.tosf" format="2">
+  <advance width="1156.6666666666667"/>
+  <outline>
+    <contour>
+      <point x="189.0909090909091" y="159.63636363636363" type="line"/>
+      <point x="967.5757575757575" y="488.1515151515151" type="line"/>
+      <point x="967.5757575757575" y="631.8484848484849" type="line"/>
+      <point x="189.0909090909091" y="960.3636363636364" type="line"/>
+      <point x="189.0909090909091" y="824.4848484848485" type="line"/>
+      <point x="861.5909090909091" y="546.4545454545455" type="line"/>
+      <point x="861.5909090909091" y="574.8333333333334" type="line"/>
+      <point x="189.0909090909091" y="295.5151515151515" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

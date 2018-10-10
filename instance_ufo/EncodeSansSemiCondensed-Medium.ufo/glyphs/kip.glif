@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kip" format="2">
+  <advance width="1324.6818181818182"/>
+  <unicode hex="20AD"/>
+  <outline>
+    <contour>
+      <point x="1130.1060606060605" y="0.0" type="line"/>
+      <point x="1355.030303030303" y="0.0" type="line"/>
+      <point x="788.8181818181818" y="790.1515151515151" type="line"/>
+      <point x="786.4545454545455" y="732.2727272727273" type="line"/>
+      <point x="1314.0151515151515" y="1480.0" type="line"/>
+      <point x="1095.621212121212" y="1480.0" type="line"/>
+      <point x="585.1515151515151" y="755.2424242424242" type="line"/>
+    </contour>
+    <contour>
+      <point x="269.0909090909091" y="0.0" type="line"/>
+      <point x="473.0" y="0.0" type="line"/>
+      <point x="473.0" y="1480.0" type="line"/>
+      <point x="269.0909090909091" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="68.18181818181819" y="678.9545454545455" type="line"/>
+      <point x="1225.2272727272727" y="678.9545454545455" type="line"/>
+      <point x="1225.2272727272727" y="837.8939393939394" type="line"/>
+      <point x="68.18181818181819" y="837.8939393939394" type="line"/>
+    </contour>
+  </outline>
+</glyph>

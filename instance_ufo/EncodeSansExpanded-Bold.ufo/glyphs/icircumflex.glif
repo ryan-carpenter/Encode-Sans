@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="icircumflex" format="2">
+  <advance width="625.6767676767677"/>
+  <unicode hex="00EE"/>
+  <anchor x="312.83838383838383" y="1200.0" name="_top"/>
+  <anchor x="312.83838383838383" y="0.0" name="bottom"/>
+  <anchor x="485.8383838383838" y="0.0" name="ogonek"/>
+  <anchor x="312.83838383838383" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="139.83838383838386" y="0.0" type="line"/>
+      <point x="485.8383838383838" y="0.0" type="line"/>
+      <point x="485.8383838383838" y="1094.040404040404" type="line"/>
+      <point x="139.83838383838386" y="1094.040404040404" type="line"/>
+    </contour>
+    <contour>
+      <point x="-101.69696969696969" y="1233.111111111111" type="line"/>
+      <point x="156.020202020202" y="1233.111111111111" type="line"/>
+      <point x="342.07070707070704" y="1496.5252525252527" type="line"/>
+      <point x="283.6060606060606" y="1496.5252525252527" type="line"/>
+      <point x="469.65656565656565" y="1233.111111111111" type="line"/>
+      <point x="727.3737373737374" y="1233.111111111111" type="line"/>
+      <point x="449.1212121212121" y="1616.0" type="line"/>
+      <point x="176.55555555555554" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

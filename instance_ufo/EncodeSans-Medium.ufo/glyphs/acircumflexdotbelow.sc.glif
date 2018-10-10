@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexdotbelow.sc" format="2">
+  <advance width="1214.7222222222222"/>
+  <anchor x="607.6666666666667" y="0.0" name="bottom"/>
+  <anchor x="1188.5555555555557" y="0.0" name="ogonek"/>
+  <anchor x="607.2777777777778" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="26.16666666666666" y="0.0" type="line"/>
+      <point x="231.3333333333334" y="0.0" type="line"/>
+      <point x="618.3888888888889" y="1103.611111111111" type="line"/>
+      <point x="592.1666666666667" y="1103.611111111111" type="line"/>
+      <point x="980.0" y="0.0" type="line"/>
+      <point x="1188.5555555555557" y="0.0" type="line"/>
+      <point x="757.6111111111112" y="1190.0" type="line"/>
+      <point x="455.88888888888886" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="286.22222222222223" y="348.3333333333333" type="line"/>
+      <point x="926.1111111111111" y="348.3333333333333" type="line"/>
+      <point x="880.5" y="508.0" type="line"/>
+      <point x="332.44444444444446" y="508.0" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="68.77777777777779"/>
+    <component base="circumflexcomb.case" xOffset="68.38888888888889" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1412,6 +1412,7 @@
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <array>
       <string>/dieresiscomb_acutecomb/tildecomb_acutecomb</string>
+      <string>A</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
     <integer>1</integer>
@@ -1437,7 +1438,7 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <real>193.0</real>
+    <real>232.0</real>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <real>0.0</real>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -1449,7 +1450,7 @@
     <key>com.schriftgestaltung.weight</key>
     <string>Bold</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <real>193.0</real>
+    <real>232.0</real>
     <key>com.schriftgestaltung.width</key>
     <string>Condensed</string>
     <key>public.glyphOrder</key>

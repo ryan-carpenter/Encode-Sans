@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcedilla.sc" format="2">
+  <advance width="1024.7272727272727"/>
+  <anchor x="514.0909090909091" y="0.0" name="bottom"/>
+  <anchor x="514.0909090909091" y="558.5454545454545" name="center"/>
+  <anchor x="514.0909090909091" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="338.45454545454544" y="0.0" type="line"/>
+      <point x="686.2727272727273" y="0.0" type="line"/>
+      <point x="686.2727272727273" y="903.1818181818182" type="line"/>
+      <point x="1019.6363636363636" y="903.1818181818182" type="line"/>
+      <point x="1019.6363636363636" y="1190.0" type="line"/>
+      <point x="5.090909090909091" y="1190.0" type="line"/>
+      <point x="5.090909090909091" y="903.1818181818182" type="line"/>
+      <point x="338.45454545454544" y="903.1818181818182" type="line"/>
+    </contour>
+    <component base="cedillacomb.case" xOffset="-58.63636363636364"/>
+  </outline>
+</glyph>

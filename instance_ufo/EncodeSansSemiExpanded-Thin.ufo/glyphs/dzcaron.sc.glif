@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dzcaron.sc" format="2">
+  <advance width="2253.0"/>
+  <anchor x="598.0" y="0.0" name="bottom"/>
+  <anchor x="648.5" y="594.0" name="center"/>
+  <anchor x="205.0" y="608.0" name="stroke"/>
+  <anchor x="598.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="504.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="933.5" y="-8.0"/>
+      <point x="1158.5" y="184.0"/>
+      <point x="1158.5" y="594.0" type="curve" smooth="yes"/>
+      <point x="1158.5" y="1003.0"/>
+      <point x="939.0" y="1202.0"/>
+      <point x="525.0" y="1202.0" type="curve" smooth="yes"/>
+      <point x="425.0" y="1202.0"/>
+      <point x="309.0" y="1192.0"/>
+      <point x="205.0" y="1171.0" type="curve"/>
+      <point x="205.0" y="10.0" type="line"/>
+      <point x="310.0" y="-3.0"/>
+      <point x="406.0" y="-8.0"/>
+    </contour>
+    <contour>
+      <point x="513.5" y="56.0" type="curve" smooth="yes"/>
+      <point x="421.5" y="56.0"/>
+      <point x="341.0" y="60.5"/>
+      <point x="273.0" y="70.0" type="curve"/>
+      <point x="273.0" y="1116.5" type="line"/>
+      <point x="340.0" y="1129.0"/>
+      <point x="436.0" y="1138.0"/>
+      <point x="522.0" y="1138.0" type="curve" smooth="yes"/>
+      <point x="899.5" y="1138.0"/>
+      <point x="1086.5" y="967.0"/>
+      <point x="1086.5" y="595.5" type="curve" smooth="yes"/>
+      <point x="1086.5" y="221.0"/>
+      <point x="895.5" y="56.0"/>
+    </contour>
+    <contour>
+      <point x="1285.5" y="0.0" type="line"/>
+      <point x="2184.5" y="0.0" type="line"/>
+      <point x="2184.5" y="64.0" type="line"/>
+      <point x="1353.0" y="64.0" type="line"/>
+      <point x="1365.0" y="42.5" type="line"/>
+      <point x="2173.5" y="1149.5" type="line"/>
+      <point x="2173.5" y="1190.0" type="line"/>
+      <point x="1295.0" y="1190.0" type="line"/>
+      <point x="1295.0" y="1126.0" type="line"/>
+      <point x="2104.0" y="1126.0" type="line"/>
+      <point x="2092.0" y="1147.5" type="line"/>
+      <point x="1285.5" y="40.5" type="line"/>
+    </contour>
+    <component base="caroncomb.case" xOffset="1184.5" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron" format="2">
+  <advance width="518.3636363636364"/>
+  <unicode hex="012B"/>
+  <anchor x="259.1818181818182" y="1200.0" name="_top"/>
+  <anchor x="259.1818181818182" y="0.0" name="bottom"/>
+  <anchor x="431.3636363636364" y="0.0" name="ogonek"/>
+  <anchor x="259.1818181818182" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="87.0" y="0.0" type="line"/>
+      <point x="431.3636363636364" y="0.0" type="line"/>
+      <point x="431.3636363636364" y="1097.2727272727273" type="line"/>
+      <point x="87.0" y="1097.2727272727273" type="line"/>
+    </contour>
+    <contour>
+      <point x="-82.36363636363636" y="1309.3636363636363" type="line"/>
+      <point x="600.7272727272727" y="1309.3636363636363" type="line"/>
+      <point x="600.7272727272727" y="1529.7272727272727" type="line"/>
+      <point x="-82.36363636363636" y="1529.7272727272727" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tdotbelow.sc" format="2">
+  <advance width="966.040404040404"/>
+  <anchor x="483.4141414141414" y="0.0" name="bottom"/>
+  <anchor x="483.4141414141414" y="614.2070707070707" name="center"/>
+  <anchor x="483.4141414141414" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="403.8484848484849" y="0.0" type="line"/>
+      <point x="562.1919191919192" y="0.0" type="line"/>
+      <point x="562.1919191919192" y="1057.060606060606" type="line"/>
+      <point x="953.4848484848485" y="1057.060606060606" type="line"/>
+      <point x="953.4848484848485" y="1190.0" type="line"/>
+      <point x="12.555555555555557" y="1190.0" type="line"/>
+      <point x="12.555555555555557" y="1057.060606060606" type="line"/>
+      <point x="403.8484848484849" y="1057.060606060606" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="-5.979797979797972"/>
+  </outline>
+</glyph>

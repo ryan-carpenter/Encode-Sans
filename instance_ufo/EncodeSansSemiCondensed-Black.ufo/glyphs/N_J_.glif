@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NJ" format="2">
+  <advance width="2096.0"/>
+  <unicode hex="01CA"/>
+  <anchor x="743.0" y="0.0" name="bottom"/>
+  <anchor x="743.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="98.5" y="0.0" type="line"/>
+      <point x="485.0" y="0.0" type="line"/>
+      <point x="485.0" y="931.0" type="line"/>
+      <point x="423.0" y="931.0" type="line"/>
+      <point x="976.0" y="0.0" type="line"/>
+      <point x="1387.5" y="0.0" type="line"/>
+      <point x="1387.5" y="1480.0" type="line"/>
+      <point x="1001.0" y="1480.0" type="line"/>
+      <point x="1001.0" y="549.0" type="line"/>
+      <point x="1063.0" y="549.0" type="line"/>
+      <point x="510.0" y="1480.0" type="line"/>
+      <point x="98.5" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1710.5" y="-352.0" type="line"/>
+      <point x="1924.5" y="-134.0"/>
+      <point x="1997.5" y="71.0"/>
+      <point x="1997.5" y="321.0" type="curve"/>
+      <point x="1997.5" y="1480.0" type="line"/>
+      <point x="1585.5" y="1480.0" type="line"/>
+      <point x="1585.5" y="305.0" type="line" smooth="yes"/>
+      <point x="1585.5" y="99.0"/>
+      <point x="1554.0" y="-27.0"/>
+      <point x="1445.5" y="-177.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

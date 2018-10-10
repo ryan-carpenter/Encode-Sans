@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ibreve" format="2">
+  <advance width="582.0"/>
+  <unicode hex="012D"/>
+  <anchor x="291.0" y="1200.0" name="_top"/>
+  <anchor x="291.0" y="0.0" name="bottom"/>
+  <anchor x="494.5" y="0.0" name="ogonek"/>
+  <anchor x="291.0" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="87.5" y="0.0" type="line"/>
+      <point x="494.5" y="0.0" type="line"/>
+      <point x="494.5" y="1100.0" type="line"/>
+      <point x="87.5" y="1100.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="291.0" y="1230.0" type="curve" smooth="yes"/>
+      <point x="513.5" y="1230.0"/>
+      <point x="657.5" y="1345.0"/>
+      <point x="671.5" y="1596.0" type="curve"/>
+      <point x="430.0" y="1596.0" type="line"/>
+      <point x="422.5" y="1480.0"/>
+      <point x="374.0" y="1431.5"/>
+      <point x="291.0" y="1431.5" type="curve" smooth="yes"/>
+      <point x="208.0" y="1431.5"/>
+      <point x="159.5" y="1480.0"/>
+      <point x="152.0" y="1596.0" type="curve"/>
+      <point x="-89.5" y="1596.0" type="line"/>
+      <point x="-75.5" y="1345.0"/>
+      <point x="68.5" y="1230.0"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron.sc" format="2">
+  <advance width="453.169191919192"/>
+  <anchor x="226.62121212121212" y="0.0" name="bottom"/>
+  <anchor x="285.66666666666674" y="0.0" name="ogonek"/>
+  <anchor x="226.69444444444446" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="167.50252525252523" y="0.0" type="line"/>
+      <point x="285.66666666666674" y="0.0" type="line"/>
+      <point x="285.66666666666674" y="1190.0" type="line"/>
+      <point x="167.50252525252523" y="1190.0" type="line"/>
+    </contour>
+    <component base="macroncomb.case" xOffset="-245.27525252525254" yOffset="-290.0"/>
+  </outline>
+</glyph>

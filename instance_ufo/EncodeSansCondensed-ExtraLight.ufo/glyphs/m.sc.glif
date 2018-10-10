@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="m.sc" format="2">
+  <advance width="1371.2121212121212"/>
+  <anchor x="688.1212121212121" y="0.0" name="bottom"/>
+  <anchor x="688.1212121212121" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="165.3939393939394" y="0.0" type="line"/>
+      <point x="247.21212121212122" y="0.0" type="line"/>
+      <point x="247.21212121212122" y="1109.6969696969697" type="line"/>
+      <point x="212.9090909090909" y="1109.6969696969697" type="line"/>
+      <point x="642.0" y="163.0909090909091" type="line"/>
+      <point x="727.3333333333334" y="163.0909090909091" type="line"/>
+      <point x="1153.6969696969697" y="1111.5757575757575" type="line"/>
+      <point x="1122.121212121212" y="1111.5757575757575" type="line"/>
+      <point x="1122.121212121212" y="0.0" type="line"/>
+      <point x="1205.8181818181818" y="0.0" type="line"/>
+      <point x="1205.8181818181818" y="1190.0" type="line"/>
+      <point x="1103.8181818181818" y="1190.0" type="line"/>
+      <point x="673.030303030303" y="221.6969696969697" type="line"/>
+      <point x="699.030303030303" y="221.6969696969697" type="line"/>
+      <point x="265.5151515151515" y="1190.0" type="line"/>
+      <point x="165.3939393939394" y="1190.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

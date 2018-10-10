@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LJ" format="2">
+  <advance width="1974.5"/>
+  <unicode hex="01C7"/>
+  <anchor x="695.0" y="0.0" name="bottom"/>
+  <anchor x="856.0" y="1616.0" name="caronalt"/>
+  <anchor x="977.5" y="921.0" name="periodcentered"/>
+  <anchor x="349.0" y="854.0" name="slash"/>
+  <anchor x="349.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="119.5" y="0.0" type="line"/>
+      <point x="1270.5" y="0.0" type="line"/>
+      <point x="1270.5" y="362.5" type="line"/>
+      <point x="574.5" y="362.5" type="line"/>
+      <point x="574.5" y="1480.0" type="line"/>
+      <point x="119.5" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1542.0" y="-356.0" type="line"/>
+      <point x="1776.0" y="-138.0"/>
+      <point x="1855.0" y="69.0"/>
+      <point x="1855.0" y="319.0" type="curve"/>
+      <point x="1855.0" y="1480.0" type="line"/>
+      <point x="1403.0" y="1480.0" type="line"/>
+      <point x="1403.0" y="303.0" type="line" smooth="yes"/>
+      <point x="1403.0" y="97.0"/>
+      <point x="1368.5" y="-29.0"/>
+      <point x="1259.0" y="-167.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

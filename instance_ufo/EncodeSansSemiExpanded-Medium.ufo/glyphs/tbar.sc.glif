@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tbar.sc" format="2">
+  <advance width="1123.6060606060605"/>
+  <anchor x="562.0" y="602.6666666666666" name="_center"/>
+  <anchor x="562.0" y="0.0" name="bottom"/>
+  <anchor x="562.0" y="602.6666666666666" name="center"/>
+  <anchor x="562.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="452.1666666666667" y="0.0" type="line"/>
+      <point x="671.4393939393939" y="0.0" type="line"/>
+      <point x="671.4393939393939" y="1019.0454545454545" type="line"/>
+      <point x="1105.8030303030303" y="1019.0454545454545" type="line"/>
+      <point x="1105.8030303030303" y="1190.0" type="line"/>
+      <point x="17.803030303030305" y="1190.0" type="line"/>
+      <point x="17.803030303030305" y="1019.0454545454545" type="line"/>
+      <point x="452.1666666666667" y="1019.0454545454545" type="line"/>
+    </contour>
+    <contour>
+      <point x="168.15151515151516" y="532.1212121212121" type="line"/>
+      <point x="954.5454545454545" y="532.1212121212121" type="line"/>
+      <point x="954.5454545454545" y="673.2121212121212" type="line"/>
+      <point x="168.15151515151516" y="673.2121212121212" type="line"/>
+    </contour>
+  </outline>
+</glyph>

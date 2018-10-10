@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ibreve.sc" format="2">
+  <advance width="530.1666666666667"/>
+  <anchor x="264.8888888888889" y="0.0" name="bottom"/>
+  <anchor x="369.66666666666674" y="0.0" name="ogonek"/>
+  <anchor x="265.2777777777778" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="160.5" y="0.0" type="line"/>
+      <point x="369.66666666666674" y="0.0" type="line"/>
+      <point x="369.66666666666674" y="1190.0" type="line"/>
+      <point x="160.5" y="1190.0" type="line"/>
+    </contour>
+    <component base="brevecomb.case" xOffset="-273.6111111111111" yOffset="-290.0"/>
+  </outline>
+</glyph>

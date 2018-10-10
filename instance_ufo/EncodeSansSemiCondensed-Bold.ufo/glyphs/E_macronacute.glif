@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacronacute" format="2">
+  <advance width="1163.8838383838383"/>
+  <unicode hex="1E16"/>
+  <anchor x="629.6969696969697" y="0.0" name="bottom"/>
+  <anchor x="1019.0984848484849" y="0.0" name="ogonek"/>
+  <anchor x="629.3989898989898" y="1520.0" name="top"/>
+  <anchor x="37.446969696969695" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="121.89141414141415" y="0.0" type="line"/>
+      <point x="1102.608585858586" y="0.0" type="line"/>
+      <point x="1102.608585858586" y="256.9494949494949" type="line"/>
+      <point x="427.8762626262626" y="256.9494949494949" type="line"/>
+      <point x="427.8762626262626" y="1223.050505050505" type="line"/>
+      <point x="1092.608585858586" y="1223.050505050505" type="line"/>
+      <point x="1092.608585858586" y="1480.0" type="line"/>
+      <point x="121.89141414141415" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="324.66666666666663" y="628.3131313131313" type="line"/>
+      <point x="991.6843434343434" y="628.3131313131313" type="line"/>
+      <point x="991.6843434343434" y="885.2626262626262" type="line"/>
+      <point x="324.66666666666663" y="885.2626262626262" type="line"/>
+    </contour>
+    <contour>
+      <point x="478.3005050505051" y="1955.6060606060605" type="line"/>
+      <point x="780.6464646464647" y="1955.6060606060605" type="line"/>
+      <point x="992.7777777777778" y="2187.6060606060605" type="line"/>
+      <point x="644.3939393939394" y="2187.6060606060605" type="line"/>
+    </contour>
+    <component base="macroncomb.case" xOffset="74.09595959595961"/>
+  </outline>
+</glyph>

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macronbelowcomb.sc" format="2">
+  <anchor x="600.0" y="0.0" name="_bottom"/>
+  <anchor x="600.0" y="-454.0" name="bottom"/>
   <outline>
-    <component base="macronbelowcomb.case"/>
+    <contour>
+      <point x="224.0" y="-396.0" type="line"/>
+      <point x="976.0" y="-396.0" type="line"/>
+      <point x="976.0" y="-150.0" type="line"/>
+      <point x="224.0" y="-150.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

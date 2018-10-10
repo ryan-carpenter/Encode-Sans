@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb_dotaccentcomb.case" format="2">
+  <anchor x="514.6464646464647" y="1520.0" name="_top"/>
+  <anchor x="514.6464646464647" y="1807.3333333333333" name="top"/>
+  <outline>
+    <contour>
+      <point x="436.5656565656565" y="1850.050505050505" type="curve" smooth="yes"/>
+      <point x="487.0656565656566" y="1850.050505050505"/>
+      <point x="518.9242424242424" y="1878.29797979798"/>
+      <point x="518.9242424242424" y="1924.060606060606" type="curve" smooth="yes"/>
+      <point x="518.9242424242424" y="1969.8232323232323"/>
+      <point x="487.0656565656566" y="1999.7777777777778"/>
+      <point x="436.5656565656565" y="1999.7777777777778" type="curve" smooth="yes"/>
+      <point x="386.0656565656565" y="1999.7777777777778"/>
+      <point x="354.20707070707067" y="1969.8232323232323"/>
+      <point x="354.20707070707067" y="1924.060606060606" type="curve" smooth="yes"/>
+      <point x="354.20707070707067" y="1878.29797979798"/>
+      <point x="386.0656565656565" y="1850.050505050505"/>
+    </contour>
+    <contour>
+      <point x="459.0656565656566" y="1611.6060606060605" type="line"/>
+      <point x="569.6414141414142" y="1611.6060606060605" type="line"/>
+      <point x="767.6969696969697" y="1890.050505050505" type="line"/>
+      <point x="635.2373737373737" y="1890.050505050505" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

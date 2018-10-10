@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashcomb.sc" format="2">
+  <advance width="1425.3661616161617"/>
+  <anchor x="712.2777777777778" y="594.0" name="_center"/>
+  <outline>
+    <contour>
+      <point x="205.96212121212122" y="-38.007575757575765" type="line"/>
+      <point x="1320.6868686868688" y="1129.7121212121212" type="line"/>
+      <point x="1217.9040404040404" y="1226.9267676767677" type="line"/>
+      <point x="103.17929292929293" y="59.20707070707071" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

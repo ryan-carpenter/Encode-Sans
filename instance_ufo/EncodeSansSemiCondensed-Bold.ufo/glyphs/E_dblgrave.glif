@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edblgrave" format="2">
+  <advance width="1163.8838383838383"/>
+  <unicode hex="0204"/>
+  <anchor x="629.3989898989898" y="1520.0" name="_top"/>
+  <anchor x="629.6969696969697" y="0.0" name="bottom"/>
+  <anchor x="1019.0984848484849" y="0.0" name="ogonek"/>
+  <anchor x="629.3989898989898" y="1520.0" name="top"/>
+  <anchor x="37.446969696969695" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="121.89141414141415" y="0.0" type="line"/>
+      <point x="1102.608585858586" y="0.0" type="line"/>
+      <point x="1102.608585858586" y="256.9494949494949" type="line"/>
+      <point x="427.8762626262626" y="256.9494949494949" type="line"/>
+      <point x="427.8762626262626" y="1223.050505050505" type="line"/>
+      <point x="1092.608585858586" y="1223.050505050505" type="line"/>
+      <point x="1092.608585858586" y="1480.0" type="line"/>
+      <point x="121.89141414141415" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="324.66666666666663" y="628.3131313131313" type="line"/>
+      <point x="991.6843434343434" y="628.3131313131313" type="line"/>
+      <point x="991.6843434343434" y="885.2626262626262" type="line"/>
+      <point x="324.66666666666663" y="885.2626262626262" type="line"/>
+    </contour>
+    <contour>
+      <point x="710.520202020202" y="1594.939393939394" type="line"/>
+      <point x="940.3661616161615" y="1594.939393939394" type="line"/>
+      <point x="817.2626262626262" y="1897.828282828283" type="line"/>
+      <point x="572.2474747474747" y="1897.828282828283" type="line"/>
+    </contour>
+    <contour>
+      <point x="318.4318181818182" y="1594.939393939394" type="line"/>
+      <point x="548.2777777777777" y="1594.939393939394" type="line"/>
+      <point x="425.1742424242424" y="1897.828282828283" type="line"/>
+      <point x="180.15909090909093" y="1897.828282828283" type="line"/>
+    </contour>
+  </outline>
+</glyph>

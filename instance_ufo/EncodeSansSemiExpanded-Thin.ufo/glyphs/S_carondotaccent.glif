@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Scarondotaccent" format="2">
+  <advance width="1082.0"/>
+  <unicode hex="1E66"/>
+  <anchor x="548.0" y="0.0" name="bottom"/>
+  <anchor x="548.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="475.0" y="-18.0" type="curve" smooth="yes"/>
+      <point x="804.0" y="-18.0"/>
+      <point x="988.5" y="123.5"/>
+      <point x="988.5" y="382.0" type="curve" smooth="yes"/>
+      <point x="988.5" y="589.5"/>
+      <point x="864.5" y="708.0"/>
+      <point x="572.5" y="773.0" type="curve" smooth="yes"/>
+      <point x="505.5" y="788.0" type="line" smooth="yes"/>
+      <point x="257.5" y="844.5"/>
+      <point x="165.5" y="931.5"/>
+      <point x="165.5" y="1112.0" type="curve" smooth="yes"/>
+      <point x="165.5" y="1317.5"/>
+      <point x="307.0" y="1432.0"/>
+      <point x="588.5" y="1432.0" type="curve" smooth="yes"/>
+      <point x="702.5" y="1432.0"/>
+      <point x="814.0" y="1416.0"/>
+      <point x="928.5" y="1380.5" type="curve"/>
+      <point x="928.5" y="1448.5" type="line"/>
+      <point x="826.0" y="1481.5"/>
+      <point x="706.5" y="1498.0"/>
+      <point x="592.5" y="1498.0" type="curve" smooth="yes"/>
+      <point x="261.5" y="1498.0"/>
+      <point x="93.5" y="1347.0"/>
+      <point x="93.5" y="1108.0" type="curve" smooth="yes"/>
+      <point x="93.5" y="900.0"/>
+      <point x="218.5" y="778.0"/>
+      <point x="486.0" y="718.0" type="curve" smooth="yes"/>
+      <point x="553.0" y="703.0" type="line" smooth="yes"/>
+      <point x="810.0" y="644.5"/>
+      <point x="916.5" y="563.5"/>
+      <point x="916.5" y="379.5" type="curve" smooth="yes"/>
+      <point x="916.5" y="162.0"/>
+      <point x="770.0" y="48.0"/>
+      <point x="478.0" y="48.0" type="curve" smooth="yes"/>
+      <point x="368.5" y="48.0"/>
+      <point x="244.5" y="65.5"/>
+      <point x="110.5" y="110.5" type="curve"/>
+      <point x="110.5" y="42.5" type="line"/>
+      <point x="230.0" y="1.0"/>
+      <point x="362.5" y="-18.0"/>
+    </contour>
+    <contour>
+      <point x="548.0" y="1888.0" type="curve" smooth="yes"/>
+      <point x="584.0" y="1888.0"/>
+      <point x="610.0" y="1912.0"/>
+      <point x="610.0" y="1950.0" type="curve" smooth="yes"/>
+      <point x="610.0" y="1988.0"/>
+      <point x="584.0" y="2014.0"/>
+      <point x="548.0" y="2014.0" type="curve" smooth="yes"/>
+      <point x="512.0" y="2014.0"/>
+      <point x="486.0" y="1988.0"/>
+      <point x="486.0" y="1950.0" type="curve" smooth="yes"/>
+      <point x="486.0" y="1912.0"/>
+      <point x="512.0" y="1888.0"/>
+    </contour>
+    <component base="caroncomb.case" xOffset="-2.0"/>
+  </outline>
+</glyph>

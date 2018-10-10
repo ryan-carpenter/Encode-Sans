@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldotbelow" format="2">
+  <advance width="457.45454545454544"/>
+  <unicode hex="1E37"/>
+  <anchor x="229.27272727272725" y="0.0" name="_bottom"/>
+  <anchor x="229.27272727272725" y="0.0" name="bottom"/>
+  <anchor x="438.5454545454545" y="1616.0" name="caronalt"/>
+  <anchor x="543.090909090909" y="794.0" name="periodcentered"/>
+  <anchor x="229.27272727272725" y="714.0" name="slash"/>
+  <anchor x="229.27272727272725" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="108.0" y="0.0" type="line"/>
+      <point x="349.45454545454544" y="0.0" type="line"/>
+      <point x="349.45454545454544" y="1616.0" type="line"/>
+      <point x="108.0" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="229.27272727272725" y="-413.6363636363636" type="curve" smooth="yes"/>
+      <point x="313.27272727272725" y="-413.6363636363636"/>
+      <point x="368.72727272727275" y="-362.3636363636364"/>
+      <point x="368.72727272727275" y="-277.45454545454544" type="curve" smooth="yes"/>
+      <point x="368.72727272727275" y="-192.54545454545456"/>
+      <point x="313.27272727272725" y="-140.36363636363637"/>
+      <point x="229.27272727272725" y="-140.36363636363637" type="curve" smooth="yes"/>
+      <point x="145.27272727272728" y="-140.36363636363637"/>
+      <point x="89.81818181818181" y="-192.54545454545456"/>
+      <point x="89.81818181818181" y="-277.45454545454544" type="curve" smooth="yes"/>
+      <point x="89.81818181818181" y="-362.3636363636364"/>
+      <point x="145.27272727272728" y="-413.6363636363636"/>
+    </contour>
+  </outline>
+</glyph>

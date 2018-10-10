@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+  <advance width="935.4242424242425"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="149.54545454545453" y="474.22727272727275" type="line"/>
+      <point x="785.8787878787879" y="474.22727272727275" type="line"/>
+      <point x="785.8787878787879" y="653.6515151515151" type="line"/>
+      <point x="149.54545454545453" y="653.6515151515151" type="line"/>
+    </contour>
+  </outline>
+</glyph>

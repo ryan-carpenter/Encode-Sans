@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="2">
+  <advance width="1283.378787878788"/>
+  <unicode hex="0166"/>
+  <anchor x="641.7878787878788" y="760.6060606060606" name="_center"/>
+  <anchor x="641.7878787878788" y="0.0" name="bottom"/>
+  <anchor x="641.7878787878788" y="760.6060606060606" name="center"/>
+  <anchor x="641.7878787878788" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="531.3636363636364" y="0.0" type="line"/>
+      <point x="752.0151515151515" y="0.0" type="line"/>
+      <point x="752.0151515151515" y="1297.1969696969697" type="line"/>
+      <point x="1266.1818181818182" y="1297.1969696969697" type="line"/>
+      <point x="1266.1818181818182" y="1480.0" type="line"/>
+      <point x="17.196969696969695" y="1480.0" type="line"/>
+      <point x="17.196969696969695" y="1297.1969696969697" type="line"/>
+      <point x="531.3636363636364" y="1297.1969696969697" type="line"/>
+    </contour>
+    <contour>
+      <point x="194.24242424242425" y="688.2575757575758" type="line"/>
+      <point x="1089.3333333333333" y="688.2575757575758" type="line"/>
+      <point x="1089.3333333333333" y="832.9545454545455" type="line"/>
+      <point x="194.24242424242425" y="832.9545454545455" type="line"/>
+    </contour>
+  </outline>
+</glyph>

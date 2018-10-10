@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="2">
+  <advance width="657.5"/>
+  <unicode hex="013E"/>
+  <anchor x="646.0" y="1616.0" name="_caronalt"/>
+  <anchor x="327.5" y="0.0" name="bottom"/>
+  <anchor x="646.0" y="1616.0" name="caronalt"/>
+  <anchor x="851.0" y="794.0" name="periodcentered"/>
+  <anchor x="329.0" y="714.0" name="slash"/>
+  <anchor x="329.0" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="106.5" y="0.0" type="line"/>
+      <point x="551.0" y="0.0" type="line"/>
+      <point x="551.0" y="1616.0" type="line"/>
+      <point x="106.5" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="611.0" y="1180.0" type="curve"/>
+      <point x="844.0" y="1180.0" type="line"/>
+      <point x="896.5" y="1290.0"/>
+      <point x="931.0" y="1446.0"/>
+      <point x="931.0" y="1616.0" type="curve"/>
+      <point x="646.0" y="1616.0" type="line"/>
+      <point x="646.0" y="1452.0"/>
+      <point x="636.5" y="1334.0"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute" format="2">
+  <advance width="627.0227272727273"/>
+  <unicode hex="013A"/>
+  <anchor x="313.72727272727275" y="1616.0" name="_top"/>
+  <anchor x="312.4318181818182" y="0.0" name="bottom"/>
+  <anchor x="609.8636363636364" y="1616.0" name="caronalt"/>
+  <anchor x="792.2954545454545" y="794.0" name="periodcentered"/>
+  <anchor x="313.72727272727275" y="714.0" name="slash"/>
+  <anchor x="313.72727272727275" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="116.93181818181819" y="0.0" type="line"/>
+      <point x="510.09090909090907" y="0.0" type="line"/>
+      <point x="510.09090909090907" y="1616.0" type="line"/>
+      <point x="116.93181818181819" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="133.3409090909091" y="1686.090909090909" type="line"/>
+      <point x="488.9318181818182" y="1686.090909090909" type="line"/>
+      <point x="741.2272727272727" y="1996.090909090909" type="line"/>
+      <point x="327.52272727272725" y="1996.090909090909" type="line"/>
+    </contour>
+  </outline>
+</glyph>

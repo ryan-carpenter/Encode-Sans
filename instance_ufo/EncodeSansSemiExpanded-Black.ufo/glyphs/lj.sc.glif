@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lj.sc" format="2">
+  <advance width="1856.5"/>
+  <anchor x="635.0" y="0.0" name="bottom"/>
+  <anchor x="788.5" y="1190.0" name="caronalt"/>
+  <anchor x="902.0" y="764.0" name="periodcentered"/>
+  <anchor x="349.5" y="700.0" name="slash"/>
+  <anchor x="349.5" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="121.5" y="0.0" type="line"/>
+      <point x="1150.0" y="0.0" type="line"/>
+      <point x="1150.0" y="335.5" type="line"/>
+      <point x="573.0" y="335.5" type="line"/>
+      <point x="573.0" y="1190.0" type="line"/>
+      <point x="121.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1452.5" y="-288.5" type="line"/>
+      <point x="1665.5" y="-110.5"/>
+      <point x="1737.0" y="63.0"/>
+      <point x="1735.0" y="267.0" type="curve"/>
+      <point x="1735.0" y="1190.0" type="line"/>
+      <point x="1283.5" y="1190.0" type="line"/>
+      <point x="1283.5" y="247.0" type="line" smooth="yes"/>
+      <point x="1283.5" y="86.0"/>
+      <point x="1260.0" y="-7.5"/>
+      <point x="1173.0" y="-112.5" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

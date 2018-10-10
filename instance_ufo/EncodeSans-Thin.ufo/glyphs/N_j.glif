@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nj" format="2">
+  <advance width="1835.0"/>
+  <unicode hex="01CB"/>
+  <anchor x="714.0" y="0.0" name="bottom"/>
+  <anchor x="714.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="190.0" y="0.0" type="line"/>
+      <point x="256.0" y="0.0" type="line"/>
+      <point x="256.0" y="1420.0" type="line"/>
+      <point x="225.0" y="1420.0" type="line"/>
+      <point x="1162.0" y="0.0" type="line"/>
+      <point x="1237.0" y="0.0" type="line"/>
+      <point x="1237.0" y="1480.0" type="line"/>
+      <point x="1171.0" y="1480.0" type="line"/>
+      <point x="1171.0" y="60.0" type="line"/>
+      <point x="1202.0" y="60.0" type="line"/>
+      <point x="265.0" y="1480.0" type="line"/>
+      <point x="190.0" y="1480.0" type="line"/>
+    </contour>
+    <component base="jdotless" xOffset="1427.0"/>
+    <component base="dotaccentcomb" xOffset="1131.0" yOffset="6.0"/>
+  </outline>
+</glyph>

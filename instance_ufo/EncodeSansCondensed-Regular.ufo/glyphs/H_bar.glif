@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="2">
+  <advance width="1258.3434343434344"/>
+  <unicode hex="0126"/>
+  <anchor x="629.4343434343434" y="1155.7575757575758" name="_center"/>
+  <anchor x="629.4343434343434" y="0.0" name="bottom"/>
+  <anchor x="629.4343434343434" y="1155.7575757575758" name="center"/>
+  <anchor x="629.4343434343434" y="1520.0" name="top"/>
+  <anchor x="33.8989898989899" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="144.04040404040404" y="0.0" type="line"/>
+      <point x="297.13131313131305" y="0.0" type="line"/>
+      <point x="297.13131313131305" y="688.0808080808081" type="line"/>
+      <point x="961.2121212121212" y="688.0808080808081" type="line"/>
+      <point x="961.2121212121212" y="0.0" type="line"/>
+      <point x="1114.3030303030303" y="0.0" type="line"/>
+      <point x="1114.3030303030303" y="1480.0" type="line"/>
+      <point x="961.2121212121212" y="1480.0" type="line"/>
+      <point x="961.2121212121212" y="830.7676767676768" type="line"/>
+      <point x="297.13131313131305" y="830.7676767676768" type="line"/>
+      <point x="297.13131313131305" y="1480.0" type="line"/>
+      <point x="144.04040404040404" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-2.9494949494949503" y="1102.1212121212122" type="line"/>
+      <point x="1261.2929292929293" y="1102.1212121212122" type="line"/>
+      <point x="1261.2929292929293" y="1209.3939393939393" type="line"/>
+      <point x="-2.9494949494949503" y="1209.3939393939393" type="line"/>
+    </contour>
+  </outline>
+</glyph>

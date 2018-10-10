@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacron" format="2">
+  <advance width="1399.6464646464647"/>
+  <unicode hex="0112"/>
+  <anchor x="753.0707070707072" y="1520.0" name="_top"/>
+  <anchor x="754.909090909091" y="0.0" name="bottom"/>
+  <anchor x="1212.7272727272727" y="0.0" name="ogonek"/>
+  <anchor x="753.0707070707072" y="1520.0" name="top"/>
+  <anchor x="42.75757575757576" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="169.5252525252525" y="0.0" type="line"/>
+      <point x="1303.5353535353536" y="0.0" type="line"/>
+      <point x="1303.5353535353536" y="219.47474747474752" type="line"/>
+      <point x="454.7676767676768" y="219.47474747474752" type="line"/>
+      <point x="454.7676767676768" y="1260.5252525252524" type="line"/>
+      <point x="1293.5353535353536" y="1260.5252525252524" type="line"/>
+      <point x="1293.5353535353536" y="1480.0" type="line"/>
+      <point x="169.5252525252525" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="311.1212121212121" y="648.020202020202" type="line"/>
+      <point x="1190.2929292929293" y="648.020202020202" type="line"/>
+      <point x="1190.2929292929293" y="867.4949494949495" type="line"/>
+      <point x="311.1212121212121" y="867.4949494949495" type="line"/>
+    </contour>
+    <contour>
+      <point x="375.25252525252523" y="1666.8787878787878" type="line"/>
+      <point x="1130.888888888889" y="1666.8787878787878" type="line"/>
+      <point x="1130.888888888889" y="1829.5555555555557" type="line"/>
+      <point x="375.25252525252523" y="1829.5555555555557" type="line"/>
+    </contour>
+  </outline>
+</glyph>

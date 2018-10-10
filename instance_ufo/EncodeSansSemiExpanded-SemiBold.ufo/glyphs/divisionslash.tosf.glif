@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash.tosf" format="2">
+  <advance width="1274.2929292929293"/>
+  <outline>
+    <contour>
+      <point x="293.7146464646465" y="0.0" type="line"/>
+      <point x="564.0555555555557" y="0.0" type="line"/>
+      <point x="978.848484848485" y="1480.0" type="line"/>
+      <point x="708.5075757575758" y="1480.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

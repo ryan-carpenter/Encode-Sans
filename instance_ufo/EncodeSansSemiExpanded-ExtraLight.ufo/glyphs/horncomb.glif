@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncomb" format="2">
+  <unicode hex="031B"/>
+  <anchor x="540.9090909090909" y="1480.0" name="_topright"/>
+  <anchor x="587.8787878787879" y="1480.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="540.9090909090909" y="1404.9242424242425" type="line"/>
+      <point x="589.0454545454545" y="1404.9242424242425" type="line" smooth="yes"/>
+      <point x="765.6969696969697" y="1404.9242424242425"/>
+      <point x="868.030303030303" y="1493.4242424242425"/>
+      <point x="868.030303030303" y="1644.621212121212" type="curve" smooth="yes"/>
+      <point x="868.030303030303" y="1703.7424242424242"/>
+      <point x="860.3636363636364" y="1742.3484848484848"/>
+      <point x="842.9545454545455" y="1789.2272727272727" type="curve"/>
+      <point x="764.8636363636364" y="1789.2272727272727" type="line"/>
+      <point x="780.060606060606" y="1742.2272727272727"/>
+      <point x="789.6060606060606" y="1702.2272727272727"/>
+      <point x="789.6060606060606" y="1647.409090909091" type="curve" smooth="yes"/>
+      <point x="789.6060606060606" y="1531.621212121212"/>
+      <point x="712.3636363636364" y="1480.0"/>
+      <point x="581.5909090909091" y="1480.0" type="curve" smooth="yes"/>
+      <point x="540.9090909090909" y="1480.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+    </dict>
+  </lib>
+</glyph>

@@ -12,6 +12,8 @@ This script fixes several errors in variable fonts generated via FontMake from a
 import os
 import shutil
 from shutil import copyfile
+import glyphsLib
+from glyphsLib import GSFont
 
 ######################################
 ##### DEFINE THE VARIABLE BELOW #####
@@ -21,14 +23,40 @@ glyphsSourcePath = "sources/Encode-Sans.glyphs"
 ##### DEFINE THE VARIABLE ABOVE #####
 ######################################
 
-def makeTempCopy(glyphsSourcePath):
-    copyfile(glyphsSourcePath, glyphsSourcePath.replace(".glyphs", "-temp.glyphs"))
+tempGlyphsPath = glyphsSourcePath.replace(".glyphs", "-temp.glyphs")
 
-def deleteTempCopy(tempSourcePath):
-    if os.path.isfile(tempSourcePath):
-        os.remove(tempSourcePath)
+def makeTempCopy(glyphsSourcePath, tempGlyphsPath):
+    
+    copyfile(glyphsSourcePath, tempGlyphsPath)
+    return(tempGlyphsPath)
+
+def deleteTempCopy(tempGlyphsPath):
+    if os.path.isfile(tempGlyphsPath):
+        os.remove(tempGlyphsPath)
     else:    ## Show an error ##
-        print("Error: %s file not found" % tempSourcePath)
+        print("Error: %s file not found" % tempGlyphsPath)
 
 # makeTempCopy(glyphsSourcePath)
-deleteTempCopy(glyphsSourcePath.replace(".glyphs", "-temp.glyphs"))
+# deleteTempCopy(glyphsSourcePath.replace(".glyphs", "-temp.glyphs"))
+
+def loadGlyphsFile(glyphsFile):
+    font = GSFont(glyphsFile)
+
+    font.save(glyphsFile)
+
+def decomposeAllGlyphs(glyphsFile):
+    font = GSFont(glyphsFile)
+    for glyph in font.glyphs:
+        for layer in glyph.layers:
+            if len(layer.components) >= 0:
+                # layer.decomposeComponents()
+                print(".", end='')
+                for component in layer.components:
+                    component.decompose() # not available in glyphsLib?
+                    print(".", end='')
+                    print(glyph.name, component)
+
+decomposeAllGlyphs(makeTempCopy(glyphsSourcePath, tempGlyphsPath))
+deleteTempCopy(tempGlyphsPath)
+
+# 

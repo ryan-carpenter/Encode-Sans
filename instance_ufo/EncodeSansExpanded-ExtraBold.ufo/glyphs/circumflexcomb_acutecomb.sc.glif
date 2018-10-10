@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb_acutecomb.sc" format="2">
+  <anchor x="600.0" y="1520.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="104.56565656565664" y="1590.2424242424242" type="line"/>
+      <point x="430.10101010101005" y="1590.2424242424242" type="line"/>
+      <point x="635.1717171717172" y="1767.2727272727273" type="line"/>
+      <point x="564.8282828282828" y="1767.2727272727273" type="line"/>
+      <point x="769.89898989899" y="1590.2424242424242" type="line"/>
+      <point x="1095.4343434343432" y="1590.2424242424242" type="line"/>
+      <point x="770.2222222222222" y="1862.2424242424242" type="line"/>
+      <point x="429.7777777777778" y="1862.2424242424242" type="line"/>
+    </contour>
+    <contour>
+      <point x="882.6262626262626" y="1822.909090909091" type="line"/>
+      <point x="1116.0404040404042" y="1822.909090909091" type="line"/>
+      <point x="1288.5050505050503" y="2064.0" type="line"/>
+      <point x="1005.030303030303" y="2064.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

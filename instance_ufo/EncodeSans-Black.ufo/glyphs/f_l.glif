@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_l" format="2">
+  <advance width="1479.0"/>
+  <anchor x="1169.0" y="0.0" name="bottom"/>
+  <anchor x="1472.0" y="1616.0" name="caronalt"/>
+  <anchor x="1662.0" y="794.0" name="periodcentered"/>
+  <anchor x="1170.0" y="714.0" name="slash"/>
+  <anchor x="1170.0" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="189.0" y="0.0" type="line"/>
+      <point x="611.0" y="0.0" type="line"/>
+      <point x="611.0" y="1160.0" type="line" smooth="yes"/>
+      <point x="611.0" y="1251.0"/>
+      <point x="668.0" y="1304.0"/>
+      <point x="778.0" y="1304.0" type="curve" smooth="yes"/>
+      <point x="808.0" y="1304.0"/>
+      <point x="835.0" y="1302.0"/>
+      <point x="865.0" y="1293.0" type="curve"/>
+      <point x="865.0" y="1619.0" type="line"/>
+      <point x="816.0" y="1632.0"/>
+      <point x="768.0" y="1636.0"/>
+      <point x="707.0" y="1636.0" type="curve" smooth="yes"/>
+      <point x="385.0" y="1636.0"/>
+      <point x="189.0" y="1440.0"/>
+      <point x="189.0" y="1138.0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="29.0" y="770.0" type="line"/>
+      <point x="864.0" y="770.0" type="line"/>
+      <point x="864.0" y="1100.0" type="line"/>
+      <point x="29.0" y="1100.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="957.0" y="0.0" type="line"/>
+      <point x="1382.0" y="0.0" type="line"/>
+      <point x="1382.0" y="1616.0" type="line"/>
+      <point x="957.0" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

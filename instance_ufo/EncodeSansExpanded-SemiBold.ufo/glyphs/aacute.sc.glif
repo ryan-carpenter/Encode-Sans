@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aacute.sc" format="2">
+  <advance width="1427.6868686868688"/>
+  <anchor x="714.3030303030303" y="0.0" name="bottom"/>
+  <anchor x="1394.9797979797981" y="0.0" name="ogonek"/>
+  <anchor x="713.2222222222222" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="32.707070707070706" y="0.0" type="line"/>
+      <point x="312.2222222222223" y="0.0" type="line"/>
+      <point x="727.7070707070707" y="1084.6666666666667" type="line"/>
+      <point x="696.8989898989898" y="1084.6666666666667" type="line"/>
+      <point x="1112.3838383838383" y="0.0" type="line"/>
+      <point x="1394.9797979797981" y="0.0" type="line"/>
+      <point x="918.4242424242425" y="1190.0" type="line"/>
+      <point x="508.3434343434343" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="383.11111111111114" y="319.8080808080808" type="line"/>
+      <point x="1041.4949494949497" y="319.8080808080808" type="line"/>
+      <point x="975.939393939394" y="521.070707070707" type="line"/>
+      <point x="450.6666666666667" y="521.070707070707" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="113.22222222222226" yOffset="-290.0"/>
+  </outline>
+</glyph>

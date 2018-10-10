@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb_hookabovecomb.sc" format="2">
+  <anchor x="505.55555555555554" y="1520.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="218.6111111111111" y="1614.3333333333333" type="line"/>
+      <point x="312.33333333333337" y="1614.3333333333333" type="line"/>
+      <point x="519.5" y="1853.6666666666667" type="line"/>
+      <point x="491.61111111111114" y="1853.6666666666667" type="line"/>
+      <point x="698.7777777777778" y="1614.3333333333333" type="line"/>
+      <point x="792.5" y="1614.3333333333333" type="line"/>
+      <point x="551.2777777777778" y="1886.3333333333333" type="line"/>
+      <point x="459.8333333333333" y="1886.3333333333333" type="line"/>
+    </contour>
+    <contour>
+      <point x="722.3888888888889" y="1794.0" type="curve"/>
+      <point x="793.1111111111112" y="1794.0" type="line"/>
+      <point x="801.2777777777778" y="1873.0"/>
+      <point x="957.9444444444446" y="1852.7777777777778"/>
+      <point x="957.9444444444446" y="1960.1666666666667" type="curve" smooth="yes"/>
+      <point x="957.9444444444446" y="2021.611111111111"/>
+      <point x="901.1111111111111" y="2067.3333333333335"/>
+      <point x="772.0555555555557" y="2067.3333333333335" type="curve" smooth="yes"/>
+      <point x="694.6111111111112" y="2067.3333333333335"/>
+      <point x="625.0" y="2053.6666666666665"/>
+      <point x="573.5" y="2032.2222222222222" type="curve"/>
+      <point x="573.5" y="1973.3333333333333" type="line"/>
+      <point x="641.4444444444445" y="1998.5555555555557"/>
+      <point x="700.7777777777778" y="2009.2222222222222"/>
+      <point x="770.1666666666667" y="2009.2222222222222" type="curve" smooth="yes"/>
+      <point x="864.7222222222223" y="2009.2222222222222"/>
+      <point x="890.2777777777778" y="1988.0"/>
+      <point x="890.2777777777778" y="1957.7222222222222" type="curve" smooth="yes"/>
+      <point x="890.2777777777778" y="1886.7222222222222"/>
+      <point x="728.4444444444445" y="1905.2222222222222"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

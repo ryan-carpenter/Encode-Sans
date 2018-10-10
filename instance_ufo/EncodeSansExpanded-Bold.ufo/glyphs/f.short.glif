@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f.short" format="2">
+  <advance width="918.0202020202021"/>
+  <outline>
+    <contour>
+      <point x="239.53535353535355" y="0.0" type="line"/>
+      <point x="585.5353535353535" y="0.0" type="line"/>
+      <point x="585.5353535353535" y="1157.7575757575758" type="line" smooth="yes"/>
+      <point x="585.5353535353535" y="1300.0707070707072"/>
+      <point x="662.8585858585858" y="1367.818181818182"/>
+      <point x="820.4848484848485" y="1367.818181818182" type="curve" smooth="yes"/>
+      <point x="859.2525252525252" y="1367.818181818182"/>
+      <point x="898.1919191919192" y="1364.6262626262626"/>
+      <point x="939.5555555555555" y="1354.6262626262626" type="curve"/>
+      <point x="939.5555555555555" y="1619.1919191919192" type="line"/>
+      <point x="881.1313131313132" y="1631.4040404040404"/>
+      <point x="832.959595959596" y="1636.0"/>
+      <point x="765.5151515151515" y="1636.0" type="curve" smooth="yes"/>
+      <point x="438.3333333333333" y="1636.0"/>
+      <point x="239.53535353535355" y="1449.030303030303"/>
+      <point x="239.53535353535355" y="1145.5454545454545" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="41.656565656565654" y="822.2424242424242" type="line"/>
+      <point x="911.0" y="822.2424242424242" type="line"/>
+      <point x="911.0" y="1094.040404040404" type="line"/>
+      <point x="41.656565656565654" y="1094.040404040404" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

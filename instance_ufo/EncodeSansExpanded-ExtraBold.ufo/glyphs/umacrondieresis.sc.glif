@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacrondieresis.sc" format="2">
+  <advance width="1572.5858585858587"/>
+  <anchor x="790.7272727272727" y="0.0" name="bottom"/>
+  <anchor x="1011.4545454545454" y="0.5656565656565671" name="ogonek"/>
+  <anchor x="790.7272727272727" y="1230.0" name="top"/>
+  <anchor x="1026.989898989899" y="1190.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="790.7272727272727" y="-15.717171717171716" type="curve" smooth="yes"/>
+      <point x="1244.3636363636363" y="-15.717171717171716"/>
+      <point x="1434.7070707070707" y="200.1212121212121"/>
+      <point x="1434.7070707070707" y="561.3131313131313" type="curve" smooth="yes"/>
+      <point x="1434.7070707070707" y="1190.0" type="line"/>
+      <point x="1026.989898989899" y="1190.0" type="line"/>
+      <point x="1026.989898989899" y="537.8585858585858" type="line" smooth="yes"/>
+      <point x="1026.989898989899" y="372.62626262626253"/>
+      <point x="948.2222222222222" y="295.55555555555543"/>
+      <point x="790.7272727272727" y="295.55555555555543" type="curve" smooth="yes"/>
+      <point x="633.5151515151515" y="295.55555555555543"/>
+      <point x="554.4646464646464" y="372.62626262626253"/>
+      <point x="554.4646464646464" y="537.8585858585858" type="curve" smooth="yes"/>
+      <point x="554.4646464646464" y="1190.0" type="line"/>
+      <point x="139.59595959595964" y="1190.0" type="line"/>
+      <point x="139.59595959595964" y="561.3131313131313" type="line" smooth="yes"/>
+      <point x="139.59595959595964" y="200.1212121212121"/>
+      <point x="326.7878787878788" y="-15.717171717171716"/>
+    </contour>
+    <component base="macroncomb_dieresiscomb.case" xOffset="190.7272727272727" yOffset="-290.0"/>
+  </outline>
+</glyph>

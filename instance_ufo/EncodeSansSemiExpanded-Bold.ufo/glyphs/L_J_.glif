@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LJ" format="2">
+  <advance width="1855.8636363636363"/>
+  <unicode hex="01C7"/>
+  <anchor x="679.3282828282828" y="0.0" name="bottom"/>
+  <anchor x="813.2323232323232" y="1616.0" name="caronalt"/>
+  <anchor x="916.8636363636363" y="877.9393939393939" name="periodcentered"/>
+  <anchor x="316.19191919191917" y="830.5656565656566" name="slash"/>
+  <anchor x="316.19191919191917" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="143.959595959596" y="0.0" type="line"/>
+      <point x="1214.111111111111" y="0.0" type="line"/>
+      <point x="1214.111111111111" y="275.64646464646455" type="line"/>
+      <point x="485.59595959595947" y="275.64646464646455" type="line"/>
+      <point x="485.59595959595947" y="1480.0" type="line"/>
+      <point x="143.959595959596" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1425.8535353535353" y="-351.3131313131313" type="line"/>
+      <point x="1635.9797979797977" y="-140.05050505050505"/>
+      <point x="1708.242424242424" y="55.23232323232322"/>
+      <point x="1711.9040404040402" y="299.2272727272727" type="curve"/>
+      <point x="1711.9040404040402" y="1480.0" type="line"/>
+      <point x="1372.388888888889" y="1480.0" type="line"/>
+      <point x="1372.388888888889" y="298.020202020202" type="line" smooth="yes"/>
+      <point x="1372.388888888889" y="83.52525252525251"/>
+      <point x="1329.8333333333333" y="-57.12121212121215"/>
+      <point x="1211.5454545454545" y="-207.27777777777783" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

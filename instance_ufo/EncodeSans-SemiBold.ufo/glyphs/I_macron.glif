@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron" format="2">
+  <advance width="558.2424242424242"/>
+  <unicode hex="012A"/>
+  <anchor x="279.1212121212121" y="1520.0" name="_top"/>
+  <anchor x="278.5808080808081" y="0.0" name="bottom"/>
+  <anchor x="412.01515151515156" y="0.0" name="ogonek"/>
+  <anchor x="279.1212121212121" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="146.22727272727272" y="0.0" type="line"/>
+      <point x="412.01515151515156" y="0.0" type="line"/>
+      <point x="412.01515151515156" y="1480.0" type="line"/>
+      <point x="146.22727272727272" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-66.53535353535355" y="1667.8787878787878" type="line"/>
+      <point x="624.7777777777778" y="1667.8787878787878" type="line"/>
+      <point x="624.7777777777778" y="1829.0151515151515" type="line"/>
+      <point x="-66.53535353535355" y="1829.0151515151515" type="line"/>
+    </contour>
+  </outline>
+</glyph>

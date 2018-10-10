@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="itilde.sc" format="2">
+  <advance width="463.1666666666667"/>
+  <anchor x="231.55555555555557" y="0.0" name="bottom"/>
+  <anchor x="275.66666666666674" y="0.0" name="ogonek"/>
+  <anchor x="231.61111111111114" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="187.5" y="0.0" type="line"/>
+      <point x="275.66666666666674" y="0.0" type="line"/>
+      <point x="275.66666666666674" y="1190.0" type="line"/>
+      <point x="187.5" y="1190.0" type="line"/>
+    </contour>
+    <component base="tildecomb.case" xOffset="-273.94444444444446" yOffset="-290.0"/>
+  </outline>
+</glyph>

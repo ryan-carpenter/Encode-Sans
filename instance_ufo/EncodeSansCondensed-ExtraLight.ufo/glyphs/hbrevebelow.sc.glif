@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbrevebelow.sc" format="2">
+  <advance width="1110.8484848484848"/>
+  <anchor x="556.3636363636364" y="0.0" name="bottom"/>
+  <anchor x="556.3636363636364" y="923.2727272727273" name="center"/>
+  <anchor x="556.3636363636364" y="1230.0" name="top"/>
+  <anchor x="57.515151515151516" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="161.3939393939394" y="0.0" type="line"/>
+      <point x="248.9090909090909" y="0.0" type="line"/>
+      <point x="248.9090909090909" y="571.5151515151515" type="line"/>
+      <point x="861.939393939394" y="571.5151515151515" type="line"/>
+      <point x="861.939393939394" y="0.0" type="line"/>
+      <point x="949.4545454545455" y="0.0" type="line"/>
+      <point x="949.4545454545455" y="1190.0" type="line"/>
+      <point x="861.939393939394" y="1190.0" type="line"/>
+      <point x="861.939393939394" y="651.8787878787879" type="line"/>
+      <point x="248.9090909090909" y="651.8787878787879" type="line"/>
+      <point x="248.9090909090909" y="1190.0" type="line"/>
+      <point x="161.3939393939394" y="1190.0" type="line"/>
+    </contour>
+    <component base="brevebelowcomb.case" xOffset="144.24242424242425"/>
+  </outline>
+</glyph>

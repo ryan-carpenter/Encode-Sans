@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nj.sc" format="2">
+  <advance width="1813.3181818181818"/>
+  <anchor x="642.5909090909091" y="0.0" name="bottom"/>
+  <anchor x="642.5909090909091" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="136.1818181818182" y="0.0" type="line"/>
+      <point x="372.6363636363636" y="0.0" type="line"/>
+      <point x="372.6363636363636" y="872.4545454545455" type="line"/>
+      <point x="331.72727272727275" y="872.4545454545455" type="line"/>
+      <point x="898.6818181818181" y="0.0" type="line"/>
+      <point x="1149.9545454545455" y="0.0" type="line"/>
+      <point x="1149.9545454545455" y="1190.0" type="line"/>
+      <point x="913.5" y="1190.0" type="line"/>
+      <point x="913.5" y="317.5454545454545" type="line"/>
+      <point x="955.0" y="317.5454545454545" type="line"/>
+      <point x="387.5" y="1190.0" type="line"/>
+      <point x="136.1818181818182" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1456.9545454545455" y="-280.27272727272725" type="line"/>
+      <point x="1617.8636363636363" y="-109.54545454545455"/>
+      <point x="1674.8181818181818" y="44.54545454545455"/>
+      <point x="1677.1363636363635" y="241.5" type="curve"/>
+      <point x="1677.1363636363635" y="1190.0" type="line"/>
+      <point x="1422.3181818181818" y="1190.0" type="line"/>
+      <point x="1422.3181818181818" y="240.36363636363637" type="line" smooth="yes"/>
+      <point x="1422.3181818181818" y="65.22727272727272"/>
+      <point x="1389.3636363636365" y="-44.90909090909091"/>
+      <point x="1291.9545454545455" y="-175.13636363636363" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

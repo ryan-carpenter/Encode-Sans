@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wacute.sc" format="2">
+  <advance width="1723.5050505050503"/>
+  <anchor x="863.0505050505051" y="0.0" name="bottom"/>
+  <anchor x="863.0505050505051" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="291.54545454545456" y="0.0" type="line"/>
+      <point x="671.969696969697" y="0.0" type="line"/>
+      <point x="906.959595959596" y="1001.8080808080808" type="line"/>
+      <point x="835.3939393939394" y="1001.8080808080808" type="line"/>
+      <point x="1053.5353535353536" y="0.0" type="line"/>
+      <point x="1433.3636363636363" y="0.0" type="line"/>
+      <point x="1701.4141414141413" y="1190.0" type="line"/>
+      <point x="1427.6161616161617" y="1190.0" type="line"/>
+      <point x="1188.4141414141413" y="95.56565656565655" type="line"/>
+      <point x="1267.5959595959596" y="95.56565656565655" type="line"/>
+      <point x="1032.010101010101" y="1190.0" type="line"/>
+      <point x="711.7474747474747" y="1190.0" type="line"/>
+      <point x="460.7171717171717" y="95.56565656565655" type="line"/>
+      <point x="546.1111111111111" y="95.56565656565655" type="line"/>
+      <point x="315.33333333333326" y="1190.0" type="line"/>
+      <point x="22.0909090909091" y="1190.0" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="322.64646464646466" yOffset="-290.0"/>
+  </outline>
+</glyph>

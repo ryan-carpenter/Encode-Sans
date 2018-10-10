@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uinvertedbreve.sc" format="2">
+  <advance width="1315.5"/>
+  <anchor x="662.0" y="0.0" name="bottom"/>
+  <anchor x="899.5" y="0.0" name="ogonek"/>
+  <anchor x="662.0" y="1230.0" name="top"/>
+  <anchor x="869.5" y="1190.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="662.0" y="-16.0" type="curve" smooth="yes"/>
+      <point x="1047.5" y="-16.0"/>
+      <point x="1221.0" y="162.5"/>
+      <point x="1221.0" y="522.5" type="curve" smooth="yes"/>
+      <point x="1221.0" y="1190.0" type="line"/>
+      <point x="818.5" y="1190.0" type="line"/>
+      <point x="818.5" y="483.0" type="line" smooth="yes"/>
+      <point x="818.5" y="358.0"/>
+      <point x="765.0" y="303.0"/>
+      <point x="662.0" y="303.0" type="curve" smooth="yes"/>
+      <point x="559.0" y="303.0"/>
+      <point x="505.5" y="358.0"/>
+      <point x="505.5" y="483.0" type="curve" smooth="yes"/>
+      <point x="505.5" y="1190.0" type="line"/>
+      <point x="95.0" y="1190.0" type="line"/>
+      <point x="95.0" y="522.5" type="line" smooth="yes"/>
+      <point x="95.0" y="162.5"/>
+      <point x="273.5" y="-16.0"/>
+    </contour>
+    <component base="breveinvertedcomb.case" xOffset="62.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

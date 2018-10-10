@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbrevebelow" format="2">
+  <advance width="1687.0"/>
+  <unicode hex="1E2A"/>
+  <anchor x="844.5" y="0.0" name="_bottom"/>
+  <anchor x="844.5" y="0.0" name="bottom"/>
+  <anchor x="844.5" y="1216.5" name="center"/>
+  <anchor x="844.5" y="1520.0" name="top"/>
+  <anchor x="40.0" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="119.5" y="0.0" type="line"/>
+      <point x="574.5" y="0.0" type="line"/>
+      <point x="574.5" y="559.5" type="line"/>
+      <point x="1112.5" y="559.5" type="line"/>
+      <point x="1112.5" y="0.0" type="line"/>
+      <point x="1567.5" y="0.0" type="line"/>
+      <point x="1567.5" y="1480.0" type="line"/>
+      <point x="1112.5" y="1480.0" type="line"/>
+      <point x="1112.5" y="950.5" type="line"/>
+      <point x="574.5" y="950.5" type="line"/>
+      <point x="574.5" y="1480.0" type="line"/>
+      <point x="119.5" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="844.5" y="-451.5" type="curve" smooth="yes"/>
+      <point x="1132.0" y="-451.5"/>
+      <point x="1271.5" y="-318.5"/>
+      <point x="1299.0" y="-135.5" type="curve"/>
+      <point x="1035.5" y="-135.5" type="line"/>
+      <point x="1017.5" y="-205.5"/>
+      <point x="960.0" y="-249.0"/>
+      <point x="844.5" y="-249.0" type="curve" smooth="yes"/>
+      <point x="729.0" y="-249.0"/>
+      <point x="671.5" y="-205.5"/>
+      <point x="653.5" y="-135.5" type="curve"/>
+      <point x="390.0" y="-135.5" type="line"/>
+      <point x="417.5" y="-318.5"/>
+      <point x="557.0" y="-451.5"/>
+    </contour>
+  </outline>
+</glyph>

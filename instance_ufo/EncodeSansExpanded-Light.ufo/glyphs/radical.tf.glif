@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical.tf" format="2">
+  <advance width="1233.939393939394"/>
+  <outline>
+    <contour>
+      <point x="577.4141414141413" y="0.0" type="line"/>
+      <point x="743.2525252525253" y="0.0" type="line"/>
+      <point x="1202.7474747474748" y="1480.0" type="line"/>
+      <point x="1080.969696969697" y="1480.0" type="line"/>
+      <point x="648.2424242424242" y="62.06060606060608" type="line"/>
+      <point x="675.2727272727273" y="62.06060606060608" type="line"/>
+      <point x="377.13131313131316" y="1082.828282828283" type="line"/>
+      <point x="29.47474747474747" y="1082.828282828283" type="line"/>
+      <point x="29.47474747474747" y="979.7979797979798" type="line"/>
+      <point x="288.66666666666663" y="979.7979797979798" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

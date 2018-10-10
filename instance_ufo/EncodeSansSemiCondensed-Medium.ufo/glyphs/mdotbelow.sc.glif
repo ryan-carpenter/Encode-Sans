@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mdotbelow.sc" format="2">
+  <advance width="1531.6515151515152"/>
+  <anchor x="777.5151515151515" y="0.0" name="bottom"/>
+  <anchor x="777.5151515151515" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="152.07575757575756" y="0.0" type="line"/>
+      <point x="339.4848484848485" y="0.0" type="line"/>
+      <point x="339.4848484848485" y="1010.030303030303" type="line"/>
+      <point x="288.56060606060606" y="1010.030303030303" type="line"/>
+      <point x="681.8030303030303" y="169.0909090909091" type="line"/>
+      <point x="848.939393939394" y="169.0909090909091" type="line"/>
+      <point x="1233.8636363636363" y="1010.939393939394" type="line"/>
+      <point x="1191.2575757575758" y="1010.939393939394" type="line"/>
+      <point x="1191.2575757575758" y="0.0" type="line"/>
+      <point x="1379.5757575757575" y="0.0" type="line"/>
+      <point x="1379.5757575757575" y="1190.0" type="line"/>
+      <point x="1137.0151515151515" y="1190.0" type="line"/>
+      <point x="754.4545454545455" y="340.030303030303" type="line"/>
+      <point x="783.1212121212121" y="340.030303030303" type="line"/>
+      <point x="393.72727272727275" y="1190.0" type="line"/>
+      <point x="152.07575757575756" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="268.42424242424244"/>
+  </outline>
+</glyph>

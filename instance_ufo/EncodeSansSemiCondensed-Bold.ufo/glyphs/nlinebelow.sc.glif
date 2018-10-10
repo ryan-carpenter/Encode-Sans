@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nlinebelow.sc" format="2">
+  <advance width="1308.9949494949494"/>
+  <anchor x="654.0984848484849" y="0.0" name="bottom"/>
+  <anchor x="654.0984848484849" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="123.89141414141415" y="0.0" type="line"/>
+      <point x="409.27272727272725" y="0.0" type="line"/>
+      <point x="409.27272727272725" y="801.6868686868688" type="line"/>
+      <point x="364.37121212121207" y="801.6868686868688" type="line"/>
+      <point x="882.9469696969697" y="0.0" type="line"/>
+      <point x="1185.1035353535353" y="0.0" type="line"/>
+      <point x="1185.1035353535353" y="1190.0" type="line"/>
+      <point x="899.7222222222223" y="1190.0" type="line"/>
+      <point x="899.7222222222223" y="388.31313131313124" type="line"/>
+      <point x="945.5277777777778" y="388.31313131313124" type="line"/>
+      <point x="426.25" y="1190.0" type="line"/>
+      <point x="123.89141414141415" y="1190.0" type="line"/>
+    </contour>
+    <component base="macronbelowcomb.case" xOffset="98.79545454545455"/>
+  </outline>
+</glyph>

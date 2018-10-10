@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_l" format="2">
+  <advance width="1013.5959595959596"/>
+  <anchor x="811.4343434343434" y="0.0" name="bottom"/>
+  <anchor x="981.6767676767676" y="1616.0" name="caronalt"/>
+  <anchor x="1051.7171717171716" y="794.0" name="periodcentered"/>
+  <anchor x="811.4343434343434" y="714.0" name="slash"/>
+  <anchor x="811.4343434343434" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="192.24242424242425" y="0.0" type="line"/>
+      <point x="342.18181818181813" y="0.0" type="line"/>
+      <point x="342.18181818181813" y="1310.080808080808" type="line" smooth="yes"/>
+      <point x="342.18181818181813" y="1448.1212121212122"/>
+      <point x="409.35353535353534" y="1505.919191919192"/>
+      <point x="532.7474747474747" y="1505.919191919192" type="curve" smooth="yes"/>
+      <point x="574.969696969697" y="1505.919191919192"/>
+      <point x="606.3434343434343" y="1502.4444444444446"/>
+      <point x="643.6161616161615" y="1494.4444444444446" type="curve"/>
+      <point x="643.6161616161615" y="1624.4242424242425" type="line"/>
+      <point x="604.6666666666666" y="1633.4747474747476"/>
+      <point x="557.090909090909" y="1636.0"/>
+      <point x="519.4141414141413" y="1636.0" type="curve" smooth="yes"/>
+      <point x="306.1010101010101" y="1636.0"/>
+      <point x="192.24242424242425" y="1517.939393939394"/>
+      <point x="192.24242424242425" y="1303.6767676767677" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="8.0" y="959.2727272727274" type="line"/>
+      <point x="623.7979797979798" y="959.2727272727274" type="line"/>
+      <point x="623.7979797979798" y="1085.2525252525252" type="line"/>
+      <point x="8.0" y="1085.2525252525252" type="line"/>
+    </contour>
+    <contour>
+      <point x="735.4141414141413" y="0.0" type="line"/>
+      <point x="886.9292929292928" y="0.0" type="line"/>
+      <point x="886.9292929292928" y="1616.0" type="line"/>
+      <point x="735.4141414141413" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

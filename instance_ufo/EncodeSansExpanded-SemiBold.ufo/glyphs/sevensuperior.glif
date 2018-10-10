@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sevensuperior" format="2">
+  <advance width="905.5454545454545"/>
+  <unicode hex="2077"/>
+  <outline>
+    <contour>
+      <point x="194.21212121212122" y="-136.0" type="line"/>
+      <point x="429.5757575757576" y="-136.0" type="line"/>
+      <point x="825.5454545454545" y="749.2626262626262" type="line"/>
+      <point x="825.5454545454545" y="864.0" type="line"/>
+      <point x="50.484848484848484" y="864.0" type="line"/>
+      <point x="50.484848484848484" y="688.3535353535353" type="line"/>
+      <point x="680.4343434343434" y="688.3535353535353" type="line"/>
+      <point x="601.9090909090909" y="749.2626262626262" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

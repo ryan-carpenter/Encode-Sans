@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecaron" format="2">
+  <advance width="1280.651515151515"/>
+  <unicode hex="011A"/>
+  <anchor x="699.3939393939394" y="1520.0" name="_top"/>
+  <anchor x="701.2121212121212" y="0.0" name="bottom"/>
+  <anchor x="1109.378787878788" y="0.0" name="ogonek"/>
+  <anchor x="699.3939393939394" y="1520.0" name="top"/>
+  <anchor x="41.72727272727273" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="170.1060606060606" y="0.0" type="line"/>
+      <point x="1195.2878787878788" y="0.0" type="line"/>
+      <point x="1195.2878787878788" y="176.3030303030303" type="line"/>
+      <point x="388.1969696969697" y="176.3030303030303" type="line"/>
+      <point x="388.1969696969697" y="1303.6969696969697" type="line"/>
+      <point x="1185.2878787878788" y="1303.6969696969697" type="line"/>
+      <point x="1185.2878787878788" y="1480.0" type="line"/>
+      <point x="170.1060606060606" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="292.1212121212121" y="670.4848484848485" type="line"/>
+      <point x="1084.6363636363635" y="670.4848484848485" type="line"/>
+      <point x="1084.6363636363635" y="846.7878787878788" type="line"/>
+      <point x="292.1212121212121" y="846.7878787878788" type="line"/>
+    </contour>
+    <contour>
+      <point x="603.6818181818181" y="1604.1818181818182" type="line"/>
+      <point x="795.1060606060606" y="1604.1818181818182" type="line"/>
+      <point x="1070.8939393939395" y="1893.5151515151515" type="line"/>
+      <point x="885.7121212121212" y="1893.5151515151515" type="line"/>
+      <point x="676.6060606060606" y="1667.7424242424242" type="line"/>
+      <point x="722.1818181818182" y="1667.7424242424242" type="line"/>
+      <point x="513.0757575757575" y="1893.5151515151515" type="line"/>
+      <point x="327.8939393939394" y="1893.5151515151515" type="line"/>
+    </contour>
+  </outline>
+</glyph>

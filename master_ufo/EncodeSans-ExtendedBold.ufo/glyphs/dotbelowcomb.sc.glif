@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb.sc" format="2">
+  <anchor x="600.0" y="0.0" name="_bottom"/>
+  <anchor x="600.0" y="-454.0" name="bottom"/>
   <outline>
-    <component base="dotbelowcomb.case"/>
+    <contour>
+      <point x="600.0" y="-464.0" type="curve" smooth="yes"/>
+      <point x="792.0" y="-464.0"/>
+      <point x="868.0" y="-390.0"/>
+      <point x="868.0" y="-284.0" type="curve" smooth="yes"/>
+      <point x="868.0" y="-178.0"/>
+      <point x="792.0" y="-104.0"/>
+      <point x="600.0" y="-104.0" type="curve" smooth="yes"/>
+      <point x="408.0" y="-104.0"/>
+      <point x="332.0" y="-178.0"/>
+      <point x="332.0" y="-284.0" type="curve" smooth="yes"/>
+      <point x="332.0" y="-390.0"/>
+      <point x="408.0" y="-464.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>

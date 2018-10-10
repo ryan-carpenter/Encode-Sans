@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uring.sc" format="2">
+  <advance width="1102.909090909091"/>
+  <anchor x="552.9090909090909" y="0.0" name="bottom"/>
+  <anchor x="670.4242424242424" y="0.0" name="ogonek"/>
+  <anchor x="552.9090909090909" y="1230.0" name="top"/>
+  <anchor x="854.2424242424242" y="1190.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="552.9090909090909" y="-14.303030303030303" type="curve" smooth="yes"/>
+      <point x="832.5454545454545" y="-14.303030303030303"/>
+      <point x="956.1212121212121" y="120.54545454545455"/>
+      <point x="956.1212121212121" y="417.45454545454544" type="curve" smooth="yes"/>
+      <point x="956.1212121212121" y="1190.0" type="line"/>
+      <point x="842.2424242424242" y="1190.0" type="line"/>
+      <point x="842.2424242424242" y="402.3030303030303" type="line" smooth="yes"/>
+      <point x="842.2424242424242" y="184.1818181818182"/>
+      <point x="758.6060606060606" y="86.66666666666666"/>
+      <point x="552.9090909090909" y="86.66666666666666" type="curve" smooth="yes"/>
+      <point x="347.2121212121212" y="86.66666666666666"/>
+      <point x="263.57575757575756" y="184.1818181818182"/>
+      <point x="263.57575757575756" y="402.3030303030303" type="curve" smooth="yes"/>
+      <point x="263.57575757575756" y="1190.0" type="line"/>
+      <point x="146.78787878787878" y="1190.0" type="line"/>
+      <point x="146.78787878787878" y="417.45454545454544" type="line" smooth="yes"/>
+      <point x="146.78787878787878" y="120.54545454545455"/>
+      <point x="273.27272727272725" y="-14.303030303030303"/>
+    </contour>
+    <component base="ringcomb.case" xOffset="122.60606060606061" yOffset="-290.0"/>
+  </outline>
+</glyph>

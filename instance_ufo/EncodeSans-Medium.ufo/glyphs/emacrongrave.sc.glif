@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emacrongrave.sc" format="2">
+  <advance width="1077.2222222222222"/>
+  <anchor x="597.7777777777778" y="0.0" name="bottom"/>
+  <anchor x="931.9444444444445" y="0.0" name="ogonek"/>
+  <anchor x="596.5555555555555" y="1230.0" name="top"/>
+  <anchor x="64.83333333333333" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="160.5" y="0.0" type="line"/>
+      <point x="1004.4444444444445" y="0.0" type="line"/>
+      <point x="1004.4444444444445" y="158.8888888888889" type="line"/>
+      <point x="365.7777777777778" y="158.8888888888889" type="line"/>
+      <point x="365.7777777777778" y="1031.111111111111" type="line"/>
+      <point x="995.8333333333334" y="1031.111111111111" type="line"/>
+      <point x="995.8333333333334" y="1190.0" type="line"/>
+      <point x="160.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="287.0555555555556" y="528.4444444444445" type="line"/>
+      <point x="910.9444444444445" y="528.4444444444445" type="line"/>
+      <point x="910.9444444444445" y="687.3333333333334" type="line"/>
+      <point x="287.0555555555556" y="687.3333333333334" type="line"/>
+    </contour>
+    <component base="macroncomb_gravecomb.case" xOffset="57.66666666666665" yOffset="-290.0"/>
+  </outline>
+</glyph>

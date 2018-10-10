@@ -7,7 +7,8 @@ from datetime import datetime
 ######################################
 ##### DEFINE THE VARIABLE BELOW #####
 
-DS_PATH = 'master_ufo/EncodeSans-mathfix-normal_wdth.designspace' # use for a designspace
+# DS_PATH = 'master_ufo/EncodeSans-mathfix-normal_wdth.designspace' # use for a designspace
+glyphs_path = 'sources/Encode-Sans copy-decomposed.glyphs'
 
 ##### DEFINE THE VARIABLE ABOVE #####
 ######################################
@@ -41,4 +42,5 @@ project = FontProject()
 
 args = getRunArguments()
 
-print(project.run_from_designspace(designspace_path=DS_PATH, **args))
+# print(project.run_from_designspace(designspace_path=DS_PATH, **args))
+print(project.run_from_glyphs(glyphs_path=glyphs_path, **args))

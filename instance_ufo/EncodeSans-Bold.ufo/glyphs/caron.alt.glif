@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.alt" format="2">
+  <advance width="1140.4040404040404"/>
+  <anchor x="570.2020202020202" y="1616.0" name="_caronalt"/>
+  <outline>
+    <contour>
+      <point x="540.969696969697" y="1180.0" type="curve"/>
+      <point x="713.3333333333333" y="1180.0" type="line"/>
+      <point x="757.4797979797979" y="1299.5353535353536"/>
+      <point x="783.030303030303" y="1457.919191919192"/>
+      <point x="783.030303030303" y="1616.0" type="curve"/>
+      <point x="570.2020202020202" y="1616.0" type="line"/>
+      <point x="570.2020202020202" y="1463.919191919192"/>
+      <point x="563.2878787878788" y="1329.828282828283"/>
+    </contour>
+  </outline>
+</glyph>

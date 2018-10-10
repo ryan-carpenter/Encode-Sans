@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uring.sc" format="2">
+  <advance width="1305.2777777777778"/>
+  <anchor x="655.0" y="0.0" name="bottom"/>
+  <anchor x="815.6111111111111" y="1.2222222222222219" name="ogonek"/>
+  <anchor x="655.0" y="1230.0" name="top"/>
+  <anchor x="961.0" y="1190.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="655.0" y="-14.777777777777779" type="curve" smooth="yes"/>
+      <point x="998.5" y="-14.777777777777779"/>
+      <point x="1152.0" y="144.16666666666669"/>
+      <point x="1152.0" y="473.7777777777778" type="curve" smooth="yes"/>
+      <point x="1152.0" y="1190.0" type="line"/>
+      <point x="947.1666666666666" y="1190.0" type="line"/>
+      <point x="947.1666666666666" y="454.6666666666667" type="line" smooth="yes"/>
+      <point x="947.1666666666666" y="245.0555555555556"/>
+      <point x="856.3888888888889" y="152.6666666666667"/>
+      <point x="655.0" y="152.6666666666667" type="curve" smooth="yes"/>
+      <point x="454.2222222222223" y="152.6666666666667"/>
+      <point x="362.83333333333337" y="245.0555555555556"/>
+      <point x="362.83333333333337" y="454.6666666666667" type="curve" smooth="yes"/>
+      <point x="362.83333333333337" y="1190.0" type="line"/>
+      <point x="153.66666666666666" y="1190.0" type="line"/>
+      <point x="153.66666666666666" y="473.7777777777778" type="line" smooth="yes"/>
+      <point x="153.66666666666666" y="144.16666666666669"/>
+      <point x="309.1666666666667" y="-14.777777777777779"/>
+    </contour>
+    <component base="ringcomb.case" xOffset="116.11111111111111" yOffset="-290.0"/>
+  </outline>
+</glyph>

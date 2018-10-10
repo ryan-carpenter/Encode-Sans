@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexgrave.sc" format="2">
+  <advance width="1157.8636363636363"/>
+  <anchor x="637.2121212121212" y="0.0" name="bottom"/>
+  <anchor x="996.590909090909" y="0.0" name="ogonek"/>
+  <anchor x="635.3939393939394" y="1230.0" name="top"/>
+  <anchor x="68.22727272727272" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="172.1060606060606" y="0.0" type="line"/>
+      <point x="1071.409090909091" y="0.0" type="line"/>
+      <point x="1071.409090909091" y="161.3030303030303" type="line"/>
+      <point x="386.4545454545455" y="161.3030303030303" type="line"/>
+      <point x="386.4545454545455" y="1028.6969696969697" type="line"/>
+      <point x="1062.5" y="1028.6969696969697" type="line"/>
+      <point x="1062.5" y="1190.0" type="line"/>
+      <point x="172.1060606060606" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="291.92424242424244" y="527.5" type="line"/>
+      <point x="976.4545454545455" y="527.5" type="line"/>
+      <point x="976.4545454545455" y="688.8030303030303" type="line"/>
+      <point x="291.92424242424244" y="688.8030303030303" type="line"/>
+    </contour>
+    <component base="circumflexcomb_gravecomb.case" xOffset="65.69696969696969" yOffset="-290.0"/>
+  </outline>
+</glyph>

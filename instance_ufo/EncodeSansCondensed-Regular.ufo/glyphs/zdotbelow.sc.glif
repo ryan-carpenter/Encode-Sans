@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdotbelow.sc" format="2">
+  <advance width="880.020202020202"/>
+  <anchor x="438.9090909090909" y="0.0" name="bottom"/>
+  <anchor x="441.010101010101" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="51.6969696969697" y="0.0" type="line"/>
+      <point x="828.3232323232323" y="0.0" type="line"/>
+      <point x="828.3232323232323" y="131.7575757575757" type="line"/>
+      <point x="217.79797979797974" y="131.7575757575757" type="line"/>
+      <point x="226.12121212121207" y="102.30303030303025" type="line"/>
+      <point x="820.3232323232323" y="1104.4040404040404" type="line"/>
+      <point x="820.3232323232323" y="1190.0" type="line"/>
+      <point x="59.6969696969697" y="1190.0" type="line"/>
+      <point x="59.6969696969697" y="1058.2424242424242" type="line"/>
+      <point x="652.7474747474748" y="1058.2424242424242" type="line"/>
+      <point x="644.4242424242425" y="1087.6969696969697" type="line"/>
+      <point x="51.6969696969697" y="85.59595959595956" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="-13.616161616161591"/>
+  </outline>
+</glyph>

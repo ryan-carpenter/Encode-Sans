@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i_j.loclNLD.sc" format="2">
+  <advance width="1329.9545454545455"/>
+  <anchor x="331.4090909090909" y="0.0" name="bottom"/>
+  <anchor x="532.0909090909091" y="0.0" name="ogonek"/>
+  <anchor x="332.7045454545455" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="132.88636363636363" y="0.0" type="line"/>
+      <point x="532.0909090909091" y="0.0" type="line"/>
+      <point x="532.0909090909091" y="1190.0" type="line"/>
+      <point x="132.88636363636363" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="927.0454545454545" y="-286.52272727272725" type="line"/>
+      <point x="1129.0" y="-111.25"/>
+      <point x="1197.3636363636365" y="57.13636363636363"/>
+      <point x="1197.0681818181818" y="258.6136363636364" type="curve"/>
+      <point x="1197.0681818181818" y="1190.0" type="line"/>
+      <point x="797.8636363636364" y="1190.0" type="line"/>
+      <point x="797.8636363636364" y="244.6818181818182" type="line" smooth="yes"/>
+      <point x="797.8636363636364" y="80.06818181818181"/>
+      <point x="770.4090909090909" y="-19.704545454545467"/>
+      <point x="679.1136363636364" y="-129.6818181818182" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

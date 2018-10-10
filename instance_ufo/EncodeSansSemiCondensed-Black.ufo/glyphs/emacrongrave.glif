@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emacrongrave" format="2">
+  <advance width="1080.0"/>
+  <unicode hex="1E15"/>
+  <anchor x="556.0" y="0.0" name="bottom"/>
+  <anchor x="975.5" y="0.0" name="ogonek"/>
+  <anchor x="556.0" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="663.0" y="-22.0" type="curve" smooth="yes"/>
+      <point x="769.5" y="-22.0"/>
+      <point x="867.5" y="-11.5"/>
+      <point x="984.0" y="12.5" type="curve"/>
+      <point x="984.0" y="320.0" type="line"/>
+      <point x="896.0" y="301.5"/>
+      <point x="803.5" y="288.5"/>
+      <point x="719.0" y="288.5" type="curve" smooth="yes"/>
+      <point x="499.5" y="288.5"/>
+      <point x="452.5" y="333.0"/>
+      <point x="452.5" y="473.0" type="curve" smooth="yes"/>
+      <point x="452.5" y="647.5" type="line" smooth="yes"/>
+      <point x="452.5" y="819.0"/>
+      <point x="484.5" y="864.0"/>
+      <point x="562.0" y="864.0" type="curve" smooth="yes"/>
+      <point x="638.0" y="864.0"/>
+      <point x="668.5" y="818.5"/>
+      <point x="668.5" y="647.0" type="curve"/>
+      <point x="726.0" y="663.5" type="line"/>
+      <point x="310.5" y="663.5" type="line"/>
+      <point x="310.5" y="432.5" type="line"/>
+      <point x="1043.5" y="432.5" type="line"/>
+      <point x="1043.5" y="540.5" type="line" smooth="yes"/>
+      <point x="1043.5" y="905.5"/>
+      <point x="883.5" y="1118.0"/>
+      <point x="565.5" y="1118.0" type="curve" smooth="yes"/>
+      <point x="227.0" y="1118.0"/>
+      <point x="46.5" y="905.5"/>
+      <point x="46.5" y="553.5" type="curve" smooth="yes"/>
+      <point x="46.5" y="151.5"/>
+      <point x="227.5" y="-22.0"/>
+    </contour>
+    <component base="macroncomb" xOffset="-44.0"/>
+    <component base="gravecomb.case" xOffset="-44.0" yOffset="96.0"/>
+  </outline>
+</glyph>

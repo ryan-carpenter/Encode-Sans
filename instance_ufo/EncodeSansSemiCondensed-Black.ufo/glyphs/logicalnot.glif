@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="2">
+  <advance width="1286.0"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="880.5" y="195.0" type="line"/>
+      <point x="1203.5" y="195.0" type="line"/>
+      <point x="1203.5" y="915.0" type="line"/>
+      <point x="87.0" y="915.0" type="line"/>
+      <point x="87.0" y="605.0" type="line"/>
+      <point x="880.5" y="605.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

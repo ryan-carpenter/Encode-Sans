@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jcircumflex.sc" format="2">
+  <advance width="437.24242424242425"/>
+  <anchor x="297.3333333333333" y="0.0" name="bottom"/>
+  <anchor x="218.66666666666666" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="84.75757575757575" y="-274.6969696969697" type="line"/>
+      <point x="209.3030303030303" y="-111.72727272727273"/>
+      <point x="256.07575757575756" y="22.727272727272727"/>
+      <point x="263.0" y="212.16666666666666" type="curve"/>
+      <point x="263.0" y="1190.0" type="line"/>
+      <point x="174.24242424242425" y="1190.0" type="line"/>
+      <point x="174.24242424242425" y="231.15151515151516" type="line" smooth="yes"/>
+      <point x="174.24242424242425" y="38.803030303030305"/>
+      <point x="130.13636363636363" y="-85.87878787878788"/>
+      <point x="23.757575757575758" y="-232.34848484848484" type="curve"/>
+    </contour>
+    <component base="circumflexcomb.case" xOffset="-240.42424242424244" yOffset="-290.0"/>
+  </outline>
+</glyph>

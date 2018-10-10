@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less.osf" format="2">
+  <advance width="1108.3636363636363"/>
+  <outline>
+    <contour>
+      <point x="1002.3232323232323" y="51.454545454545524" type="line"/>
+      <point x="1002.3232323232323" y="336.38383838383834" type="line"/>
+      <point x="309.98989898989896" y="581.4444444444445" type="line"/>
+      <point x="309.98989898989896" y="542.8484848484849" type="line"/>
+      <point x="1002.3232323232323" y="783.6161616161617" type="line"/>
+      <point x="1002.3232323232323" y="1068.5454545454545" type="line"/>
+      <point x="106.04040404040407" y="738.8282828282828" type="line"/>
+      <point x="106.04040404040407" y="381.1717171717172" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

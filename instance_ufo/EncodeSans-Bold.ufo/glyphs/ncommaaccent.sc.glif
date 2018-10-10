@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ncommaaccent.sc" format="2">
+  <advance width="1400.7272727272727"/>
+  <anchor x="699.8636363636364" y="0.0" name="bottom"/>
+  <anchor x="699.8636363636364" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="135.13636363636365" y="0.0" type="line"/>
+      <point x="433.50505050505046" y="0.0" type="line"/>
+      <point x="433.50505050505046" y="801.2828282828284" type="line"/>
+      <point x="387.1464646464646" y="801.2828282828284" type="line"/>
+      <point x="948.6919191919192" y="0.0" type="line"/>
+      <point x="1265.590909090909" y="0.0" type="line"/>
+      <point x="1265.590909090909" y="1190.0" type="line"/>
+      <point x="967.2222222222222" y="1190.0" type="line"/>
+      <point x="967.2222222222222" y="388.71717171717165" type="line"/>
+      <point x="1013.9848484848485" y="388.71717171717165" type="line"/>
+      <point x="452.4393939393939" y="1190.0" type="line"/>
+      <point x="135.13636363636365" y="1190.0" type="line"/>
+    </contour>
+    <component base="commaaccentcomb.case" xOffset="129.66161616161617"/>
+  </outline>
+</glyph>

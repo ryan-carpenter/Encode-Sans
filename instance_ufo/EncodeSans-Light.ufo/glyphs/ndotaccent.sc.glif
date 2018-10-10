@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ndotaccent.sc" format="2">
+  <advance width="1310.7272727272727"/>
+  <anchor x="654.8636363636364" y="0.0" name="bottom"/>
+  <anchor x="654.8636363636364" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="180.13636363636363" y="0.0" type="line"/>
+      <point x="294.61616161616166" y="0.0" type="line"/>
+      <point x="294.61616161616166" y="1053.5050505050503" type="line"/>
+      <point x="264.3686868686869" y="1053.5050505050503" type="line"/>
+      <point x="1005.9141414141413" y="0.0" type="line"/>
+      <point x="1130.590909090909" y="0.0" type="line"/>
+      <point x="1130.590909090909" y="1190.0" type="line"/>
+      <point x="1016.1111111111111" y="1190.0" type="line"/>
+      <point x="1016.1111111111111" y="136.4949494949496" type="line"/>
+      <point x="1045.6515151515152" y="136.4949494949496" type="line"/>
+      <point x="304.1060606060607" y="1190.0" type="line"/>
+      <point x="180.13636363636363" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotaccentcomb.case" xOffset="140.2171717171717" yOffset="-290.0"/>
+  </outline>
+</glyph>

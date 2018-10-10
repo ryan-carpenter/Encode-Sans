@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ygrave.sc" format="2">
+  <advance width="1162.1262626262626"/>
+  <anchor x="580.2525252525253" y="0.0" name="bottom"/>
+  <anchor x="580.2525252525253" y="1230.0" name="top"/>
+  <anchor x="5.272727272727266" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="444.92676767676767" y="0.0" type="line"/>
+      <point x="720.4419191919192" y="0.0" type="line"/>
+      <point x="720.4419191919192" y="605.0858585858585" type="line"/>
+      <point x="665.1136363636364" y="422.82070707070704" type="line"/>
+      <point x="1187.9318181818182" y="1190.0" type="line"/>
+      <point x="914.4267676767677" y="1190.0" type="line"/>
+      <point x="546.5681818181819" y="659.9267676767677" type="line"/>
+      <point x="628.5151515151515" y="659.9267676767677" type="line"/>
+      <point x="255.31818181818187" y="1190.0" type="line"/>
+      <point x="-37.58838383838385" y="1190.0" type="line"/>
+      <point x="500.52525252525254" y="422.82070707070704" type="line"/>
+      <point x="444.92676767676767" y="607.5176767676768" type="line"/>
+    </contour>
+    <component base="gravecomb.case" xOffset="3.232323232323239" yOffset="-290.0"/>
+  </outline>
+</glyph>

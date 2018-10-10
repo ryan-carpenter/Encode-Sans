@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wcircumflex.sc" format="2">
+  <advance width="1919.2727272727273"/>
+  <anchor x="960.3409090909091" y="0.0" name="bottom"/>
+  <anchor x="960.3409090909091" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="305.4318181818182" y="0.0" type="line"/>
+      <point x="771.5909090909091" y="0.0" type="line"/>
+      <point x="1015.6363636363636" y="976.9090909090909" type="line"/>
+      <point x="923.7045454545455" y="976.9090909090909" type="line"/>
+      <point x="1149.1818181818182" y="0.0" type="line"/>
+      <point x="1615.2045454545455" y="0.0" type="line"/>
+      <point x="1901.2727272727273" y="1190.0" type="line"/>
+      <point x="1562.2954545454545" y="1190.0" type="line"/>
+      <point x="1318.159090909091" y="129.61363636363637" type="line"/>
+      <point x="1408.659090909091" y="129.61363636363637" type="line"/>
+      <point x="1168.4318181818182" y="1190.0" type="line"/>
+      <point x="774.4318181818182" y="1190.0" type="line"/>
+      <point x="516.0" y="129.61363636363637" type="line"/>
+      <point x="614.6818181818182" y="129.61363636363637" type="line"/>
+      <point x="380.8409090909091" y="1190.0" type="line"/>
+      <point x="17.999999999999993" y="1190.0" type="line"/>
+    </contour>
+    <component base="circumflexcomb.case" xOffset="380.79545454545456" yOffset="-290.0"/>
+  </outline>
+</glyph>

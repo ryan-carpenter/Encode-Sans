@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yacute.sc" format="2">
+  <advance width="964.0"/>
+  <anchor x="482.0" y="0.0" name="bottom"/>
+  <anchor x="482.0" y="1230.0" name="top"/>
+  <anchor x="14.0" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="448.0" y="0.0" type="line"/>
+      <point x="516.0" y="0.0" type="line"/>
+      <point x="516.0" y="571.0" type="line"/>
+      <point x="499.0" y="515.0" type="line"/>
+      <point x="970.0" y="1190.0" type="line"/>
+      <point x="893.0" y="1190.0" type="line"/>
+      <point x="469.0" y="586.0" type="line"/>
+      <point x="498.0" y="586.0" type="line"/>
+      <point x="67.0" y="1190.0" type="line"/>
+      <point x="-14.0" y="1190.0" type="line"/>
+      <point x="465.0" y="515.0" type="line"/>
+      <point x="448.0" y="571.0" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="-18.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

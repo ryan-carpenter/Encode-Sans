@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="llinebelow" format="2">
+  <advance width="486.5757575757575"/>
+  <unicode hex="1E3B"/>
+  <anchor x="243.98989898989896" y="0.0" name="_bottom"/>
+  <anchor x="243.98989898989896" y="0.0" name="bottom"/>
+  <anchor x="474.86868686868684" y="1616.0" name="caronalt"/>
+  <anchor x="598.5151515151515" y="794.0" name="periodcentered"/>
+  <anchor x="243.98989898989896" y="714.0" name="slash"/>
+  <anchor x="243.98989898989896" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="97.66666666666669" y="0.0" type="line"/>
+      <point x="388.9090909090909" y="0.0" type="line"/>
+      <point x="388.9090909090909" y="1616.0" type="line"/>
+      <point x="97.66666666666669" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-71.48484848484847" y="-377.09090909090907" type="line"/>
+      <point x="559.4646464646464" y="-377.09090909090907" type="line"/>
+      <point x="559.4646464646464" y="-188.51515151515153" type="line"/>
+      <point x="-71.48484848484847" y="-188.51515151515153" type="line"/>
+    </contour>
+  </outline>
+</glyph>

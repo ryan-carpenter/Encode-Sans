@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idblgrave" format="2">
+  <advance width="460.78787878787875"/>
+  <unicode hex="0209"/>
+  <anchor x="230.39393939393938" y="1200.0" name="_top"/>
+  <anchor x="230.39393939393938" y="0.0" name="bottom"/>
+  <anchor x="331.1666666666667" y="0.0" name="ogonek"/>
+  <anchor x="230.39393939393938" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="129.62121212121212" y="0.0" type="line"/>
+      <point x="331.1666666666667" y="0.0" type="line"/>
+      <point x="331.1666666666667" y="1087.878787878788" type="line"/>
+      <point x="129.62121212121212" y="1087.878787878788" type="line"/>
+    </contour>
+    <contour>
+      <point x="323.530303030303" y="1246.6666666666667" type="line"/>
+      <point x="477.74242424242425" y="1246.6666666666667" type="line"/>
+      <point x="354.46969696969694" y="1616.0" type="line"/>
+      <point x="186.8030303030303" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-16.954545454545453" y="1246.6666666666667" type="line"/>
+      <point x="137.25757575757575" y="1246.6666666666667" type="line"/>
+      <point x="13.984848484848484" y="1616.0" type="line"/>
+      <point x="-153.6818181818182" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb_dotaccentcomb" format="2">
+  <anchor x="600.0" y="1200.0" name="_top"/>
+  <anchor x="600.0" y="1656.0" name="top"/>
   <outline>
     <contour>
       <point x="400.0" y="1576.0" type="curve" smooth="yes"/>
@@ -15,7 +17,12 @@
       <point x="212.0" y="1622.0"/>
       <point x="284.0" y="1576.0"/>
     </contour>
-    <component base="acutecomb"/>
+    <contour>
+      <point x="432.0" y="1220.0" type="line"/>
+      <point x="768.0" y="1220.0" type="line"/>
+      <point x="1028.0" y="1616.0" type="line"/>
+      <point x="640.0" y="1616.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

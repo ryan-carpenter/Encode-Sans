@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ymacron" format="2">
+  <advance width="958.5025252525253"/>
+  <unicode hex="0233"/>
+  <anchor x="480.3181818181818" y="1200.0" name="_top"/>
+  <anchor x="728.9318181818182" y="0.0" name="bottom"/>
+  <anchor x="480.3181818181818" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="280.30808080808083" y="-440.0" type="line"/>
+      <point x="399.61616161616166" y="-440.0" type="line"/>
+      <point x="944.3232323232323" y="1082.9292929292928" type="line"/>
+      <point x="822.4419191919192" y="1082.9292929292928" type="line"/>
+      <point x="470.9166666666667" y="78.3535353535354" type="line"/>
+      <point x="438.84090909090907" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="401.63383838383834" y="0.0" type="line"/>
+      <point x="514.8409090909091" y="0.0" type="line"/>
+      <point x="140.41666666666674" y="1082.9292929292928" type="line"/>
+      <point x="14.179292929292924" y="1082.9292929292928" type="line"/>
+    </contour>
+    <contour>
+      <point x="198.51262626262627" y="1379.5732323232323" type="line"/>
+      <point x="762.1237373737374" y="1379.5732323232323" type="line"/>
+      <point x="762.1237373737374" y="1465.6818181818182" type="line"/>
+      <point x="198.51262626262627" y="1465.6818181818182" type="line"/>
+    </contour>
+  </outline>
+</glyph>

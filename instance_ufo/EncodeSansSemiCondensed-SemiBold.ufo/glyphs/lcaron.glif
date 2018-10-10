@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="2">
+  <advance width="490.27272727272725"/>
+  <unicode hex="013E"/>
+  <anchor x="467.5454545454545" y="1616.0" name="_caronalt"/>
+  <anchor x="245.27272727272725" y="0.0" name="bottom"/>
+  <anchor x="467.5454545454545" y="1616.0" name="caronalt"/>
+  <anchor x="580.5" y="794.0" name="periodcentered"/>
+  <anchor x="245.54545454545453" y="714.0" name="slash"/>
+  <anchor x="245.54545454545453" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="119.0909090909091" y="0.0" type="line"/>
+      <point x="371.18181818181813" y="0.0" type="line"/>
+      <point x="371.18181818181813" y="1616.0" type="line"/>
+      <point x="119.0909090909091" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="441.3636363636364" y="1180.0" type="curve"/>
+      <point x="581.7272727272727" y="1180.0" type="line"/>
+      <point x="621.4545454545455" y="1304.5454545454545"/>
+      <point x="642.2727272727273" y="1464.1818181818182"/>
+      <point x="642.2727272727273" y="1616.0" type="curve"/>
+      <point x="467.5454545454545" y="1616.0" type="line"/>
+      <point x="467.5454545454545" y="1470.1818181818182"/>
+      <point x="462.0" y="1327.6363636363637"/>
+    </contour>
+  </outline>
+</glyph>

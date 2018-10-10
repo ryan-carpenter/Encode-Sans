@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave" format="2">
+  <advance width="1434.2323232323233"/>
+  <unicode hex="00C8"/>
+  <anchor x="765.3535353535353" y="1520.0" name="_top"/>
+  <anchor x="766.5454545454545" y="0.0" name="bottom"/>
+  <anchor x="1247.6363636363635" y="0.0" name="ogonek"/>
+  <anchor x="765.3535353535353" y="1520.0" name="top"/>
+  <anchor x="41.78787878787879" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="155.62626262626264" y="0.0" type="line"/>
+      <point x="1341.6767676767677" y="0.0" type="line"/>
+      <point x="1341.6767676767677" y="265.37373737373736" type="line"/>
+      <point x="505.8383838383838" y="265.37373737373736" type="line"/>
+      <point x="505.8383838383838" y="1214.6262626262626" type="line"/>
+      <point x="1331.6767676767677" y="1214.6262626262626" type="line"/>
+      <point x="1331.6767676767677" y="1480.0" type="line"/>
+      <point x="155.62626262626264" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="327.60606060606057" y="624.1010101010102" type="line"/>
+      <point x="1227.4646464646464" y="624.1010101010102" type="line"/>
+      <point x="1227.4646464646464" y="889.4747474747475" type="line"/>
+      <point x="327.60606060606057" y="889.4747474747475" type="line"/>
+    </contour>
+    <contour>
+      <point x="607.2020202020202" y="1594.939393939394" type="line"/>
+      <point x="923.5050505050505" y="1594.939393939394" type="line"/>
+      <point x="714.1414141414141" y="1897.828282828283" type="line"/>
+      <point x="345.92929292929296" y="1897.828282828283" type="line"/>
+    </contour>
+  </outline>
+</glyph>

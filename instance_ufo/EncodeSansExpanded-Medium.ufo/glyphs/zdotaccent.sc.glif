@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdotaccent.sc" format="2">
+  <advance width="1189.111111111111"/>
+  <anchor x="594.3333333333334" y="0.0" name="bottom"/>
+  <anchor x="594.3333333333334" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="77.44444444444444" y="0.0" type="line"/>
+      <point x="1111.6666666666667" y="0.0" type="line"/>
+      <point x="1111.6666666666667" y="171.33333333333337" type="line"/>
+      <point x="331.0000000000001" y="171.33333333333337" type="line"/>
+      <point x="337.55555555555566" y="128.33333333333337" type="line"/>
+      <point x="1101.2222222222222" y="1073.0" type="line"/>
+      <point x="1101.2222222222222" y="1190.0" type="line"/>
+      <point x="86.66666666666667" y="1190.0" type="line"/>
+      <point x="86.66666666666667" y="1018.6666666666666" type="line"/>
+      <point x="847.2222222222222" y="1018.6666666666666" type="line"/>
+      <point x="840.6666666666666" y="1061.6666666666665" type="line"/>
+      <point x="77.44444444444444" y="117.00000000000003" type="line"/>
+    </contour>
+    <component base="dotaccentcomb.case" xOffset="-5.666666666666643" yOffset="-290.0"/>
+  </outline>
+</glyph>

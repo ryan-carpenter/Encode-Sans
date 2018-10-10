@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedbl.tf" format="2">
+  <advance width="552.5757575757575"/>
+  <outline>
+    <contour>
+      <point x="118.23232323232324" y="916.3434343434344" type="line"/>
+      <point x="188.6969696969697" y="916.3434343434344" type="line"/>
+      <point x="215.78787878787875" y="1616.0" type="line"/>
+      <point x="91.14141414141416" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="361.8787878787879" y="916.3434343434344" type="line"/>
+      <point x="432.3434343434343" y="916.3434343434344" type="line"/>
+      <point x="459.4343434343434" y="1616.0" type="line"/>
+      <point x="334.7878787878788" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

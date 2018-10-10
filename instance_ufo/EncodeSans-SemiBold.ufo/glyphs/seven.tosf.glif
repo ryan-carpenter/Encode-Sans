@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.tosf" format="2">
+  <advance width="1218.888888888889"/>
+  <outline>
+    <contour>
+      <point x="257.32323232323233" y="-400.0" type="line"/>
+      <point x="532.4343434343434" y="-400.0" type="line"/>
+      <point x="1087.7020202020203" y="947.590909090909" type="line"/>
+      <point x="1087.7020202020203" y="1090.8080808080808" type="line"/>
+      <point x="82.34848484848484" y="1090.8080808080808" type="line"/>
+      <point x="82.34848484848484" y="869.550505050505" type="line"/>
+      <point x="914.7575757575758" y="869.550505050505" type="line"/>
+      <point x="828.6414141414141" y="948.5101010101009" type="line"/>
+    </contour>
+  </outline>
+</glyph>

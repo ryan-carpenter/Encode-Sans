@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashcomb" format="2">
+  <advance width="1422.7272727272727"/>
+  <anchor x="711.3636363636364" y="542.5757575757576" name="_center"/>
+  <outline>
+    <contour>
+      <point x="341.4015151515152" y="-33.25757575757576" type="line"/>
+      <point x="439.97727272727275" y="97.87878787878788" type="line"/>
+      <point x="478.6439393939394" y="156.2651515151515" type="line"/>
+      <point x="1015.9924242424242" y="874.4015151515151" type="line"/>
+      <point x="1060.840909090909" y="926.6060606060606" type="line"/>
+      <point x="1159.4166666666667" y="1057.7424242424242" type="line"/>
+      <point x="1081.3257575757575" y="1118.409090909091" type="line"/>
+      <point x="982.75" y="987.2727272727273" type="line"/>
+      <point x="944.0833333333333" y="928.8863636363636" type="line"/>
+      <point x="406.7348484848485" y="210.75" type="line"/>
+      <point x="361.8863636363636" y="158.54545454545456" type="line"/>
+      <point x="263.31060606060606" y="27.40909090909091" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

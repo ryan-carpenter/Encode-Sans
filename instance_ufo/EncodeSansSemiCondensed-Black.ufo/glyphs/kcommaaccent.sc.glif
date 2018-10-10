@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kcommaaccent.sc" format="2">
+  <advance width="1185.5"/>
+  <anchor x="635.5" y="0.0" name="bottom"/>
+  <anchor x="623.5" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="812.0" y="0.0" type="line"/>
+      <point x="1249.5" y="0.0" type="line"/>
+      <point x="859.5" y="663.0" type="line"/>
+      <point x="853.5" y="559.0" type="line"/>
+      <point x="1216.0" y="1190.0" type="line"/>
+      <point x="793.5" y="1190.0" type="line"/>
+      <point x="455.5" y="603.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="100.5" y="0.0" type="line"/>
+      <point x="511.0" y="0.0" type="line"/>
+      <point x="511.0" y="1190.0" type="line"/>
+      <point x="100.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="458.0" y="433.0" type="line"/>
+      <point x="602.0" y="433.0" type="line"/>
+      <point x="602.0" y="777.0" type="line"/>
+      <point x="458.0" y="777.0" type="line"/>
+    </contour>
+    <component base="commaaccentcomb.case" xOffset="35.5"/>
+  </outline>
+</glyph>

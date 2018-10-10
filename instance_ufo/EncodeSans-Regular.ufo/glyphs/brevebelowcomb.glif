@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevebelowcomb" format="2">
+  <unicode hex="032E"/>
+  <anchor x="525.7575757575758" y="0.0" name="_bottom"/>
+  <anchor x="525.7575757575758" y="-460.6060606060606" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="527.2424242424242" y="-420.8636363636364" type="curve" smooth="yes"/>
+      <point x="715.6515151515152" y="-420.8636363636364"/>
+      <point x="821.560606060606" y="-318.3636363636364"/>
+      <point x="825.1060606060606" y="-154.5909090909091" type="curve"/>
+      <point x="717.3939393939394" y="-154.5909090909091" type="line"/>
+      <point x="713.1363636363636" y="-263.92424242424244"/>
+      <point x="653.2272727272727" y="-324.5151515151515"/>
+      <point x="527.2424242424242" y="-324.5151515151515" type="curve" smooth="yes"/>
+      <point x="401.0" y="-324.5151515151515"/>
+      <point x="339.6060606060606" y="-263.92424242424244"/>
+      <point x="334.1212121212121" y="-154.5909090909091" type="curve"/>
+      <point x="226.4090909090909" y="-154.5909090909091" type="line"/>
+      <point x="229.95454545454544" y="-316.8787878787879"/>
+      <point x="338.8333333333333" y="-420.8636363636364"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+    </dict>
+  </lib>
+</glyph>

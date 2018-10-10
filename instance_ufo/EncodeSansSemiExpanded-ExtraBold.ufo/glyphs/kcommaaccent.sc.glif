@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kcommaaccent.sc" format="2">
+  <advance width="1295.9318181818182"/>
+  <anchor x="697.3181818181819" y="0.0" name="bottom"/>
+  <anchor x="690.4090909090909" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="913.25" y="0.0" type="line"/>
+      <point x="1343.4772727272727" y="0.0" type="line"/>
+      <point x="893.8636363636364" y="655.9545454545455" type="line"/>
+      <point x="885.2272727272727" y="563.0681818181819" type="line"/>
+      <point x="1303.590909090909" y="1190.0" type="line"/>
+      <point x="888.3181818181818" y="1190.0" type="line"/>
+      <point x="496.5909090909091" y="605.4772727272727" type="line"/>
+    </contour>
+    <contour>
+      <point x="132.88636363636363" y="0.0" type="line"/>
+      <point x="532.0909090909091" y="0.0" type="line"/>
+      <point x="532.0909090909091" y="1190.0" type="line"/>
+      <point x="132.88636363636363" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="478.95454545454544" y="444.4090909090909" type="line"/>
+      <point x="647.3181818181819" y="444.4090909090909" type="line"/>
+      <point x="647.3181818181819" y="767.5" type="line"/>
+      <point x="478.95454545454544" y="767.5" type="line"/>
+    </contour>
+    <component base="commaaccentcomb.case" xOffset="104.13636363636363"/>
+  </outline>
+</glyph>

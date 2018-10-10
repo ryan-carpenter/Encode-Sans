@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresismacron" format="2">
+  <advance width="1404.5454545454545"/>
+  <unicode hex="022A"/>
+  <anchor x="702.2727272727273" y="0.0" name="bottom"/>
+  <anchor x="702.2727272727273" y="740.0" name="center"/>
+  <anchor x="870.5454545454545" y="0.0" name="ogonek"/>
+  <anchor x="702.2727272727273" y="1520.0" name="top"/>
+  <anchor x="44.0" y="1480.0" name="topleft"/>
+  <anchor x="876.8636363636364" y="1480.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="702.2727272727273" y="-19.09090909090909" type="curve" smooth="yes"/>
+      <point x="1074.1818181818182" y="-19.09090909090909"/>
+      <point x="1321.909090909091" y="206.5"/>
+      <point x="1321.909090909091" y="740.0" type="curve" smooth="yes"/>
+      <point x="1321.909090909091" y="1273.5"/>
+      <point x="1075.1363636363635" y="1499.090909090909"/>
+      <point x="702.2727272727273" y="1499.090909090909" type="curve" smooth="yes"/>
+      <point x="330.0909090909091" y="1499.090909090909"/>
+      <point x="82.63636363636364" y="1274.0454545454545"/>
+      <point x="82.63636363636364" y="740.0" type="curve" smooth="yes"/>
+      <point x="82.63636363636364" y="205.95454545454544"/>
+      <point x="329.6818181818182" y="-19.09090909090909"/>
+    </contour>
+    <contour>
+      <point x="702.2727272727273" y="193.86363636363635" type="curve" smooth="yes"/>
+      <point x="482.5454545454545" y="193.86363636363635"/>
+      <point x="346.6363636363636" y="332.5454545454545"/>
+      <point x="346.6363636363636" y="746.1818181818181" type="curve" smooth="yes"/>
+      <point x="346.6363636363636" y="1147.4545454545455"/>
+      <point x="483.3636363636364" y="1286.1363636363637"/>
+      <point x="702.2727272727273" y="1286.1363636363637" type="curve" smooth="yes"/>
+      <point x="921.1818181818182" y="1286.1363636363637"/>
+      <point x="1057.909090909091" y="1146.6363636363637"/>
+      <point x="1057.909090909091" y="733.8181818181819" type="curve" smooth="yes"/>
+      <point x="1057.909090909091" y="333.3636363636364"/>
+      <point x="922.0" y="193.86363636363635"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="170.45454545454547"/>
+    <component base="macroncomb.case" xOffset="170.45454545454547" yOffset="321.8181818181818"/>
+  </outline>
+</glyph>

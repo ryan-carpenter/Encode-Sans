@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb_acutecomb.sc" format="2">
+  <anchor x="600.0" y="1520.0" name="_top"/>
+  <anchor x="600.0" y="1920.0" name="top"/>
   <outline>
-    <component base="macroncomb_acutecomb.case"/>
+    <contour>
+      <point x="410.0" y="1986.0" type="line"/>
+      <point x="790.0" y="1986.0" type="line"/>
+      <point x="1008.0" y="2218.0" type="line"/>
+      <point x="572.0" y="2218.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="224.0" y="1622.0" type="line"/>
+      <point x="976.0" y="1622.0" type="line"/>
+      <point x="976.0" y="1868.0" type="line"/>
+      <point x="224.0" y="1868.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

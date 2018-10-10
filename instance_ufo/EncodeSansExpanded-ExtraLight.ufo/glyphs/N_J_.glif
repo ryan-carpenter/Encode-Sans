@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="NJ" format="2">
+  <advance width="2130.1111111111113"/>
+  <unicode hex="01CA"/>
+  <anchor x="809.4444444444445" y="0.0" name="bottom"/>
+  <anchor x="809.4444444444445" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="211.2222222222222" y="0.0" type="line"/>
+      <point x="298.4444444444445" y="0.0" type="line"/>
+      <point x="298.4444444444445" y="1393.0" type="line"/>
+      <point x="266.00000000000006" y="1393.0" type="line"/>
+      <point x="1309.4444444444443" y="0.0" type="line"/>
+      <point x="1405.7777777777778" y="0.0" type="line"/>
+      <point x="1405.7777777777778" y="1480.0" type="line"/>
+      <point x="1318.5555555555557" y="1480.0" type="line"/>
+      <point x="1318.5555555555557" y="87.0000000000001" type="line"/>
+      <point x="1351.0" y="87.0000000000001" type="line"/>
+      <point x="307.5555555555556" y="1480.0" type="line"/>
+      <point x="211.2222222222222" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1681.6666666666667" y="-341.0" type="line"/>
+      <point x="1846.3333333333335" y="-147.55555555555554"/>
+      <point x="1905.6666666666667" y="24.555555555555564"/>
+      <point x="1918.8888888888891" y="253.7777777777778" type="curve"/>
+      <point x="1918.8888888888891" y="1480.0" type="line"/>
+      <point x="1828.4444444444446" y="1480.0" type="line"/>
+      <point x="1828.4444444444446" y="286.8888888888889" type="line" smooth="yes"/>
+      <point x="1828.4444444444446" y="58.22222222222223"/>
+      <point x="1764.111111111111" y="-122.55555555555554"/>
+      <point x="1620.111111111111" y="-296.1111111111111" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

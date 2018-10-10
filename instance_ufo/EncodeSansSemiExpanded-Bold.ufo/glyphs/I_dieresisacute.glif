@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idieresisacute" format="2">
+  <advance width="629.5555555555554"/>
+  <unicode hex="1E2E"/>
+  <anchor x="313.7171717171717" y="0.0" name="bottom"/>
+  <anchor x="485.59595959595947" y="0.0" name="ogonek"/>
+  <anchor x="314.7777777777777" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="143.959595959596" y="0.0" type="line"/>
+      <point x="485.59595959595947" y="0.0" type="line"/>
+      <point x="485.59595959595947" y="1480.0" type="line"/>
+      <point x="143.959595959596" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="143.959595959596" y="1956.121212121212" type="line"/>
+      <point x="486.03535353535347" y="1956.121212121212" type="line"/>
+      <point x="730.7676767676767" y="2188.121212121212" type="line"/>
+      <point x="338.4848484848485" y="2188.121212121212" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="-270.5757575757576"/>
+  </outline>
+</glyph>
