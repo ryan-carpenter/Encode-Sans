@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macroncomb_gravecomb" format="2">
-  <outline>
-    <component base="macroncomb"/>
-    <component base="gravecomb"/>
-  </outline>
-</glyph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="scircumflex" format="2">
-  <outline>
-    <component base="s"/>
-    <component base="circumflex" xOffset="47.0" yOffset="5.0"/>
-  </outline>
-</glyph>

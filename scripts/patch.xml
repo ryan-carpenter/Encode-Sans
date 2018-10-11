@@ -1,21 +1,21 @@
 <name>
     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Libre Clarendon
+      Encode Sans
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Light Condensed
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      1.000;IMPA;LibreClarendon-LightCondensed
+      1.000;IMPA;EncodeSans-LightCondensed
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Libre Clarendon Light Condensed
+      Encode Sans Light Condensed
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Version 1.000
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      LibreClarendon-LightCondensed
+      EncodeSans-LightCondensed
     </namerecord>
     <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Weight
@@ -84,28 +84,28 @@
       Black Wide
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Copyright (c) 2014, Impallari Type (www.impallari.com), with Reserved Font Name Libre Clarendon.
+      Copyright (c) 2014, Impallari Type (www.impallari.com), with Reserved Font Name Encode Sans.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Libre Clarendon
+      Encode Sans
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.000;IMPA;LibreClarendon-Regular
+      1.000;IMPA;EncodeSans-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Libre Clarendon Regular
+      Encode Sans Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version 1.000
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      LibreClarendon-Regular
+      EncodeSans-Regular
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
-      Libre Clarendon is a trademark of Impallari Type.
+      Encode Sans is a trademark of Impallari Type.
     </namerecord>
     <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
       Impallari Type

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="idblgrave" format="2">
-  <outline>
-    <component base="dblgravecomb" xOffset="-180.0"/>
-    <component base="idotless" xOffset="1.0"/>
-  </outline>
-</glyph>

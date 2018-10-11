@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dcroat" format="2">
-  <outline>
-    <component base="d"/>
-    <component base="strokeshortcomb.d" xOffset="213.0" yOffset="138.0"/>
-  </outline>
-</glyph>
