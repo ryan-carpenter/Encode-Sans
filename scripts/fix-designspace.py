@@ -1,3 +1,6 @@
+# set up for Encode Sans
+
+import math
 import sys
 import re
 from glyphsLib.glyphdata import get_glyph
@@ -17,34 +20,37 @@ def evenRound(number):
 nonDestructive = False
 
 # Width coordinates
-wdthMax = 400.0
-wdthMin = 100.0
+wdthMax = 1000.0
+wdthMin = 0.0
 
 # Bold Extended and Bold Condensed original values
-wghtWideMax = 230.0
-wghtCondMax = 176.0
-
-# Light Extended and Light Condensed original values
-wghtWideMin = 44.0
-wghtCondMin = 40.0
-
-# Light Extended master index + Condensed Bold master index (starts from 0)
-wideLightIndex = 3
-condBoldIndex = 2
+wghtWideMax = 232.0
+wghtCondMax = 193.0
 
 # Set this if using a 6 master setup with equal middle masters
-wghtMid = 130.0
-wghtMidNew = wghtCondMin + ((wghtMid - wghtCondMin) / (wghtCondMax - wghtCondMin)) * (wghtWideMax - wghtCondMin)
+wghtMid = 0.0
 
-widthDict = {100.0 : 70.0, 200.0 : 85.0, 300.0 : 100.0, 400.0 : 115.0}
+# Light Extended and Light Condensed original values
+wghtWideMin = 34.0
+wghtCondMin = 34.0
+
+# Light Extended master index + Condensed Bold master index (starts from 0)
+wideLightIndex = 2
+condBoldIndex = 1
+
+# Set this if using a 6 master setup with equal middle masters
+# wghtMid = 130.0
+# wghtMidNew = wghtCondMin + ((wghtMid - wghtCondMin) / (wghtCondMax - wghtCondMin)) * (wghtWideMax - wghtCondMin)
+
+widthDict = {0.0 : 70.0, 250.0 : 85.0, 500.0 : 100.0, 750.0 : 115.0, 1000.0 : 130.0}
 
 for instance in font.instances:
 	if instance.active == True:
 		# Find max weight at this width
-		wghtIntrMax = evenRound(wghtCondMax + ( ((instance.widthValue - wdthMin) / (wdthMax - wdthMin)) * (wghtWideMax - wghtCondMax) ))
+		wghtIntrMax = round(wghtCondMax + ( ((instance.widthValue - wdthMin) / (wdthMax - wdthMin)) * (wghtWideMax - wghtCondMax) ))
 		
 		# Find min width at this width
-		wghtIntrMin = evenRound(wghtCondMin + ( ((instance.widthValue - wdthMin) / (wdthMax - wdthMin)) * (wghtWideMin - wghtCondMin) ))
+		wghtIntrMin = round(wghtCondMin + ( ((instance.widthValue - wdthMin) / (wdthMax - wdthMin)) * (wghtWideMin - wghtCondMin) ))
 		
 		# Original weight
 		oldWght = instance.weightValue
@@ -53,9 +59,10 @@ for instance in font.instances:
 
 		font.masters[wideLightIndex].weightValue = wghtCondMin
 		font.masters[condBoldIndex].weightValue = wghtWideMax
-		font.masters[1].weightValue = wghtMidNew
+		# font.masters[1].weightValue = wghtMidNew
 
 		instance.weightValue = newWght
+		# TODO: insert customParameter weightClass, value = 250 for thin instances
 		instance.widthValue = widthDict[instance.widthValue]
 
 		instance.name = re.sub("^\d* ", "", instance.name)
@@ -69,14 +76,14 @@ for master in font.masters:
 if nonDestructive == False:		
 	print "\nScaled file to a rectangular designspace"
 
-for instance in font.instances:
-	if instance.active:
-		if instance.weightValue < 71.0 + 5 and instance.weightValue > 71.0 - 5:
-			instance.weightValue = 71.0
-		elif instance.weightValue < 120.0 + 5 and instance.weightValue > 120.0 - 5:
-			instance.weightValue = 120.0
-		elif instance.weightValue < 177.0 + 5 and instance.weightValue > 177.0 - 5:
-			instance.weightValue = 177.0
+# for instance in font.instances:
+# 	if instance.active:
+# 		if instance.weightValue < 71.0 + 5 and instance.weightValue > 71.0 - 5:
+# 			instance.weightValue = 71.0
+# 		elif instance.weightValue < 120.0 + 5 and instance.weightValue > 120.0 - 5:
+# 			instance.weightValue = 120.0
+# 		elif instance.weightValue < 177.0 + 5 and instance.weightValue > 177.0 - 5:
+# 			instance.weightValue = 177.0
 
 
 font.save(filename)
