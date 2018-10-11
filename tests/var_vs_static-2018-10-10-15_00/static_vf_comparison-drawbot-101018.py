@@ -12,9 +12,11 @@ __doc__= """
         - `tests` dictionary of test conditions – add some!
         - `setFontSize` to change the font size
     
-    Sometimes,DrawBot gives unexpected results (e.g. it shows a 
+    Sometimes, DrawBot gives unexpected results (e.g. it shows a 
     Condensed font when a normal-width font has been called). If 
-    this happens, quit and reopen DrawBot. 
+    this happens, quit and reopen DrawBot. This may be due to 
+    font metadata issues, and I will know more once I work through
+    open issues reported by fontbakery QA.
     
 """
 
