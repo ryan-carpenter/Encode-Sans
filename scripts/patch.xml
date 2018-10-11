@@ -3,19 +3,19 @@
       Encode Sans
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Light Condensed
+      Thin Condensed
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      1.000;IMPA;EncodeSans-LightCondensed
+      1.000;IMPA;EncodeSans-ThinCondensed
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Encode Sans Light Condensed
+      Encode Sans Thin Condensed
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Version 1.000
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      EncodeSans-LightCondensed
+      EncodeSans-ThinCondensed
     </namerecord>
     <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Weight
@@ -26,136 +26,136 @@
     <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Thin Condensed
     </namerecord>
-    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraLight Condensed
     </namerecord>
-    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Light Condensed
     </namerecord>
-    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular Condensed
     </namerecord>
-    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Medium Condensed
     </namerecord>
-    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SemiBold Condensed
     </namerecord>
-    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Bold Condensed
     </namerecord>
-    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="265" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraBold Condensed
     </namerecord>
-    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Black Condensed
     </namerecord>
-    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="267" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Thin SemiCondensed
     </namerecord>
-    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraLight SemiCondensed
     </namerecord>
-    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="269" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Light SemiCondensed
     </namerecord>
-    <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="270" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular SemiCondensed
     </namerecord>
-    <namerecord nameID="265" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Medium SemiCondensed
     </namerecord>
-    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="272" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SemiBold SemiCondensed
     </namerecord>
-    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Bold SemiCondensed
     </namerecord>
-    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="274" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraBold SemiCondensed
     </namerecord>
-    <namerecord nameID="267" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="275" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Black SemiCondensed
     </namerecord>
-    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Thin
     </namerecord>
-    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="277" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraLight
     </namerecord>
-    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="278" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Light
     </namerecord>
-    <namerecord nameID="269" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="279" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular
     </namerecord>
-    <namerecord nameID="270" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="280" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Medium
     </namerecord>
-    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="281" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SemiBold
     </namerecord>
-    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="281" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Bold
     </namerecord>
-    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="281" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraBold
     </namerecord>
-    <namerecord nameID="272" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="282" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Black
     </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="283" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Thin SemiExpanded
     </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="284" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraLight SemiExpanded
     </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="284" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Light SemiExpanded
     </namerecord>
-    <namerecord nameID="274" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="285" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular SemiExpanded
     </namerecord>
-    <namerecord nameID="275" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="286" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Medium SemiExpanded
     </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="287" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SemiBold SemiExpanded
     </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="288" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Bold SemiExpanded
     </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="289" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraBold SemiExpanded
     </namerecord>
-    <namerecord nameID="277" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="290" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Black SemiExpanded
     </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="291" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Thin Expanded
     </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="292" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraLight Expanded
     </namerecord>
-    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="293" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Light Expanded
     </namerecord>
-    <namerecord nameID="274" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="294" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular Expanded
     </namerecord>
-    <namerecord nameID="275" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="295" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Medium Expanded
     </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="296" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SemiBold Expanded
     </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="297" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Bold Expanded
     </namerecord>
-    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="298" platformID="1" platEncID="0" langID="0x0" unicode="True">
       ExtraBold Expanded
     </namerecord>
-    <namerecord nameID="277" platformID="1" platEncID="0" langID="0x0" unicode="True">
+    <namerecord nameID="299" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Black Expanded
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
@@ -200,82 +200,155 @@
     <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
       http://scripts.sil.org/OFL
     </namerecord>
-    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
-      Weight
-    </namerecord>
-    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
-      Width
-    </namerecord>
+    <!-- <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409"> -->
     <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
-      Light Condensed
+      Thin Condensed
     </namerecord>
     <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
-      Regular Condensed
+      ExtraLight Condensed
     </namerecord>
     <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
-      Medium Condensed
+      Light Condensed
     </namerecord>
     <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
-      Bold Condensed
+      Regular Condensed
     </namerecord>
     <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
-      Black Condensed
+      Medium Condensed
     </namerecord>
     <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
-      Light Narrow
+      SemiBold Condensed
     </namerecord>
     <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
-      Regular Narrow
+      Bold Condensed
     </namerecord>
     <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
-      Medium Narrow
+      ExtraBold Condensed
     </namerecord>
     <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
-      Bold Narrow
+      Black Condensed
     </namerecord>
     <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
-      Black Narrow
+      Thin SemiCondensed
     </namerecord>
     <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
-      Light
+      ExtraLight SemiCondensed
     </namerecord>
     <namerecord nameID="269" platformID="3" platEncID="1" langID="0x409">
-      Regular
+      Light SemiCondensed
     </namerecord>
     <namerecord nameID="270" platformID="3" platEncID="1" langID="0x409">
-      Medium
+      Regular SemiCondensed
     </namerecord>
     <namerecord nameID="271" platformID="3" platEncID="1" langID="0x409">
-      Bold
+      Medium SemiCondensed
     </namerecord>
     <namerecord nameID="272" platformID="3" platEncID="1" langID="0x409">
-      Black
+      SemiBold SemiCondensed
     </namerecord>
     <namerecord nameID="273" platformID="3" platEncID="1" langID="0x409">
-      Light Wide
+      Bold SemiCondensed
     </namerecord>
     <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
-      Regular Wide
+      ExtraBold SemiCondensed
     </namerecord>
     <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
-      Medium Wide
+      Black SemiCondensed
     </namerecord>
     <namerecord nameID="276" platformID="3" platEncID="1" langID="0x409">
-      Bold Wide
+      Thin
     </namerecord>
     <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
-      Black Wide
+      ExtraLight
     </namerecord>
     <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
-      Condensed
+      Light
     </namerecord>
     <namerecord nameID="279" platformID="3" platEncID="1" langID="0x409">
-      Narrow
+      Regular
     </namerecord>
     <namerecord nameID="280" platformID="3" platEncID="1" langID="0x409">
-      Normal
+      Medium
     </namerecord>
     <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
-      Wide
+      SemiBold
+    </namerecord>
+    <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
+      Bold
+    </namerecord>
+    <namerecord nameID="281" platformID="3" platEncID="1" langID="0x409">
+      ExtraBold
+    </namerecord>
+    <namerecord nameID="282" platformID="3" platEncID="1" langID="0x409">
+      Black
+    </namerecord>
+    <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
+      Thin SemiExpanded
+    </namerecord>
+    <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
+      ExtraLight SemiExpanded
+    </namerecord>
+    <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
+      Light SemiExpanded
+    </namerecord>
+    <namerecord nameID="285" platformID="3" platEncID="1" langID="0x409">
+      Regular SemiExpanded
+    </namerecord>
+    <namerecord nameID="286" platformID="3" platEncID="1" langID="0x409">
+      Medium SemiExpanded
+    </namerecord>
+    <namerecord nameID="287" platformID="3" platEncID="1" langID="0x409">
+      SemiBold SemiExpanded
+    </namerecord>
+    <namerecord nameID="288" platformID="3" platEncID="1" langID="0x409">
+      Bold SemiExpanded
+    </namerecord>
+    <namerecord nameID="289" platformID="3" platEncID="1" langID="0x409">
+      ExtraBold SemiExpanded
+    </namerecord>
+    <namerecord nameID="290" platformID="3" platEncID="1" langID="0x409">
+      Black SemiExpanded
+    </namerecord>
+    <namerecord nameID="291" platformID="3" platEncID="1" langID="0x409">
+      Thin Expanded
+    </namerecord>
+    <namerecord nameID="292" platformID="3" platEncID="1" langID="0x409">
+      ExtraLight Expanded
+    </namerecord>
+    <namerecord nameID="293" platformID="3" platEncID="1" langID="0x409">
+      Light Expanded
+    </namerecord>
+    <namerecord nameID="294" platformID="3" platEncID="1" langID="0x409">
+      Regular Expanded
+    </namerecord>
+    <namerecord nameID="295" platformID="3" platEncID="1" langID="0x409">
+      Medium Expanded
+    </namerecord>
+    <namerecord nameID="296" platformID="3" platEncID="1" langID="0x409">
+      SemiBold Expanded
+    </namerecord>
+    <namerecord nameID="297" platformID="3" platEncID="1" langID="0x409">
+      Bold Expanded
+    </namerecord>
+    <namerecord nameID="298" platformID="3" platEncID="1" langID="0x409">
+      ExtraBold Expanded
+    </namerecord>
+    <namerecord nameID="299" platformID="3" platEncID="1" langID="0x409">
+      Black Expanded
+    </namerecord>
+    <namerecord nameID="300" platformID="3" platEncID="1" langID="0x409">
+      Condensed
+    </namerecord>
+    <namerecord nameID="301" platformID="3" platEncID="1" langID="0x409">
+      SemiCondensed
+    </namerecord>
+    <namerecord nameID="302" platformID="3" platEncID="1" langID="0x409">
+      Normal
+    </namerecord>
+    <namerecord nameID="303" platformID="3" platEncID="1" langID="0x409">
+      SemiExpanded
+    </namerecord>
+    <namerecord nameID="304" platformID="3" platEncID="1" langID="0x409">
+      Expanded
     </namerecord>
 </name>
