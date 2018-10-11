@@ -1,3 +1,23 @@
+__doc__= """
+    This is a simple tester to overlap two fonts in order 
+    to check whether they share the same outlines and metrics.
+    
+    It is meant to be used in DrawBot (http://www.drawbot.com),
+    and to pull fonts from its same or parent folder, 
+    in order to keep font versions in sync with testing. 
+    
+    Edit the variables to test different things: 
+        - `testString` for your test string
+        - `currentTest` to choose from test conditions 
+        - `tests` dictionary of test conditions – add some!
+        - `setFontSize` to change the font size
+    
+    Sometimes,DrawBot gives unexpected results (e.g. it shows a 
+    Condensed font when a normal-width font has been called). If 
+    this happens, quit and reopen DrawBot. 
+    
+"""
+
 resolution = 2
 W,H = 860*resolution, 340*resolution
 
@@ -21,7 +41,7 @@ testString = "In statistical modeling, regression analysis is a set of statistic
 # """
 
 
-currentTest = "test1"
+currentTest = "test5"
 
 tests = {
     "test1": {
@@ -121,4 +141,4 @@ text(tests[currentTest]['testName'].replace("_", " "), (H-(H/17), -(W/32)), alig
 #### Save image             ####
 ################################
 
-saveImage(f"image-exports/encode-diff_test-{font(tests[currentTest]['testName'])}-2018_10_10.png")
+# saveImage(f"image-exports/encode-diff_test-{font(tests[currentTest]['testName'])}-2018_10_10.png")
