@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ycircumflex" format="2">
+  <advance width="934.4242424242424"/>
+  <unicode hex="0177"/>
+  <anchor x="467.8181818181818" y="1200.0" name="_top"/>
+  <anchor x="761.2727272727273" y="0.0" name="bottom"/>
+  <anchor x="467.8181818181818" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="265.8181818181818" y="-440.0" type="line"/>
+      <point x="457.57575757575756" y="-440.0" type="line"/>
+      <point x="931.0909090909091" y="1087.878787878788" type="line"/>
+      <point x="735.3333333333334" y="1087.878787878788" type="line"/>
+      <point x="458.1818181818182" y="145.87878787878788" type="line"/>
+      <point x="403.6363636363636" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="340.24242424242425" y="0.0" type="line"/>
+      <point x="515.8181818181818" y="0.0" type="line"/>
+      <point x="205.39393939393938" y="1087.878787878788" type="line"/>
+      <point x="3.333333333333334" y="1087.878787878788" type="line"/>
+    </contour>
+    <contour>
+      <point x="198.66666666666666" y="1246.6666666666667" type="line"/>
+      <point x="338.3030303030303" y="1246.6666666666667" type="line"/>
+      <point x="481.3333333333333" y="1551.3939393939395" type="line"/>
+      <point x="454.3030303030303" y="1551.3939393939395" type="line"/>
+      <point x="597.3333333333334" y="1246.6666666666667" type="line"/>
+      <point x="736.969696969697" y="1246.6666666666667" type="line"/>
+      <point x="554.6666666666666" y="1616.0" type="line"/>
+      <point x="380.969696969697" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

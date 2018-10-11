@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aeacute.sc" format="2">
+  <advance width="1712.0"/>
+  <anchor x="910.0" y="0.0" name="bottom"/>
+  <anchor x="810.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="50.0" y="0.0" type="line"/>
+      <point x="122.0" y="0.0" type="line"/>
+      <point x="634.0" y="1126.0" type="line"/>
+      <point x="798.0" y="1126.0" type="line"/>
+      <point x="802.0" y="1190.0" type="line"/>
+      <point x="592.0" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="296.0" y="416.0" type="line"/>
+      <point x="880.0" y="416.0" type="line"/>
+      <point x="880.0" y="480.0" type="line"/>
+      <point x="316.0" y="480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="880.0" y="0.0" type="line"/>
+      <point x="1604.0" y="0.0" type="line"/>
+      <point x="1604.0" y="64.0" type="line"/>
+      <point x="942.0" y="64.0" type="line"/>
+      <point x="846.0" y="1126.0" type="line"/>
+      <point x="1596.0" y="1126.0" type="line"/>
+      <point x="1596.0" y="1190.0" type="line"/>
+      <point x="774.0" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="874.0" y="580.0" type="line"/>
+      <point x="1510.0" y="580.0" type="line"/>
+      <point x="1510.0" y="644.0" type="line"/>
+      <point x="874.0" y="644.0" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="210.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

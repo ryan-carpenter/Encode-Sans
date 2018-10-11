@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igrave.sc" format="2">
+  <advance width="703.1919191919192"/>
+  <anchor x="349.8787878787879" y="0.0" name="bottom"/>
+  <anchor x="559.030303030303" y="0.0" name="ogonek"/>
+  <anchor x="351.5959595959596" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="144.1616161616162" y="0.0" type="line"/>
+      <point x="559.030303030303" y="0.0" type="line"/>
+      <point x="559.030303030303" y="1190.0" type="line"/>
+      <point x="144.1616161616162" y="1190.0" type="line"/>
+    </contour>
+    <component base="gravecomb.case" xOffset="-248.40404040404042" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore.tf" format="2">
+  <advance width="1289.2733333333333"/>
+  <outline>
+    <contour>
+      <point x="86.39666666666666" y="-293.70900000000006" type="line"/>
+      <point x="1202.8766666666668" y="-293.70900000000006" type="line"/>
+      <point x="1202.8766666666668" y="-0.8603333333333335" type="line"/>
+      <point x="86.39666666666666" y="-0.8603333333333335" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

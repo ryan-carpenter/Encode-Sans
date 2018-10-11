@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute_J.loclNLD" format="2">
+  <advance width="896.0"/>
+  <anchor x="224.0" y="1520.0" name="_top"/>
+  <anchor x="224.0" y="0.0" name="bottom"/>
+  <anchor x="258.0" y="0.0" name="ogonek"/>
+  <anchor x="224.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="190.0" y="0.0" type="line"/>
+      <point x="258.0" y="0.0" type="line"/>
+      <point x="258.0" y="1480.0" type="line"/>
+      <point x="190.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="192.0" y="1616.0" type="line"/>
+      <point x="256.0" y="1616.0" type="line"/>
+      <point x="446.0" y="1888.0" type="line"/>
+      <point x="367.0" y="1888.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="496.0" y="-340.0" type="line"/>
+      <point x="641.0" y="-142.0"/>
+      <point x="695.0" y="22.0"/>
+      <point x="706.0" y="253.0" type="curve"/>
+      <point x="706.0" y="1480.0" type="line"/>
+      <point x="638.0" y="1480.0" type="line"/>
+      <point x="638.0" y="286.0" type="line" smooth="yes"/>
+      <point x="638.0" y="46.0"/>
+      <point x="580.0" y="-122.0"/>
+      <point x="447.0" y="-305.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="640.0" y="1616.0" type="line"/>
+      <point x="704.0" y="1616.0" type="line"/>
+      <point x="894.0" y="1888.0" type="line"/>
+      <point x="815.0" y="1888.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

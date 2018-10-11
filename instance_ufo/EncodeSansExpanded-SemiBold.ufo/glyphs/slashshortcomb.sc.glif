@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashshortcomb.sc" format="2">
+  <anchor x="276.8484848484849" y="665.989898989899" name="_slash"/>
+  <outline>
+    <contour>
+      <point x="0.9191919191919169" y="430.5959595959596" type="line"/>
+      <point x="763.89898989899" y="831.3030303030303" type="line"/>
+      <point x="691.909090909091" y="976.89898989899" type="line"/>
+      <point x="-73.07070707070707" y="578.1919191919192" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>778.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

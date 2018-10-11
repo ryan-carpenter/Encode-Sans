@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexacute" format="2">
+  <advance width="1760.0"/>
+  <unicode hex="1EA4"/>
+  <anchor x="878.0" y="1520.0" name="_top"/>
+  <anchor x="880.0" y="0.0" name="bottom"/>
+  <anchor x="1744.0" y="0.0" name="ogonek"/>
+  <anchor x="878.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="16.0" y="0.0" type="line"/>
+      <point x="476.0" y="0.0" type="line"/>
+      <point x="898.0" y="1284.0" type="line"/>
+      <point x="858.0" y="1284.0" type="line"/>
+      <point x="1280.0" y="0.0" type="line"/>
+      <point x="1744.0" y="0.0" type="line"/>
+      <point x="1224.0" y="1480.0" type="line"/>
+      <point x="536.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="500.0" y="334.0" type="line"/>
+      <point x="1256.0" y="334.0" type="line"/>
+      <point x="1148.0" y="684.0" type="line"/>
+      <point x="610.0" y="684.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="354.0" y="1586.0" type="line"/>
+      <point x="718.0" y="1586.0" type="line"/>
+      <point x="916.0" y="1752.0" type="line"/>
+      <point x="840.0" y="1752.0" type="line"/>
+      <point x="1038.0" y="1586.0" type="line"/>
+      <point x="1402.0" y="1586.0" type="line"/>
+      <point x="1070.0" y="1858.0" type="line"/>
+      <point x="686.0" y="1858.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1166.0" y="1828.0" type="line"/>
+      <point x="1426.0" y="1828.0" type="line"/>
+      <point x="1588.0" y="2064.0" type="line"/>
+      <point x="1272.0" y="2064.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

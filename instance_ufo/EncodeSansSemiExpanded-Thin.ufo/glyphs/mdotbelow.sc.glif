@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mdotbelow.sc" format="2">
+  <advance width="1596.5"/>
+  <anchor x="800.0" y="0.0" name="bottom"/>
+  <anchor x="800.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="209.0" y="0.0" type="line"/>
+      <point x="274.5" y="0.0" type="line"/>
+      <point x="274.5" y="1131.0" type="line"/>
+      <point x="239.5" y="1131.0" type="line"/>
+      <point x="762.0" y="162.0" type="line"/>
+      <point x="834.0" y="162.0" type="line"/>
+      <point x="1351.5" y="1131.5" type="line"/>
+      <point x="1321.5" y="1131.5" type="line"/>
+      <point x="1321.5" y="0.0" type="line"/>
+      <point x="1387.5" y="0.0" type="line"/>
+      <point x="1387.5" y="1190.0" type="line"/>
+      <point x="1311.0" y="1190.0" type="line"/>
+      <point x="786.0" y="197.0" type="line"/>
+      <point x="813.5" y="197.0" type="line"/>
+      <point x="285.0" y="1190.0" type="line"/>
+      <point x="209.0" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="250.0"/>
+  </outline>
+</glyph>

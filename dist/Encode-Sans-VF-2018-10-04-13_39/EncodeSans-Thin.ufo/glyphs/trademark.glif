@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="2">
+  <advance width="1931.0"/>
+  <unicode hex="2122"/>
+  <outline>
+    <contour>
+      <point x="352.0" y="480.0" type="line"/>
+      <point x="416.0" y="480.0" type="line"/>
+      <point x="416.0" y="1417.0" type="line"/>
+      <point x="754.0" y="1417.0" type="line"/>
+      <point x="754.0" y="1480.0" type="line"/>
+      <point x="14.0" y="1480.0" type="line"/>
+      <point x="14.0" y="1417.0" type="line"/>
+      <point x="352.0" y="1417.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="854.0" y="480.0" type="line"/>
+      <point x="916.0" y="480.0" type="line"/>
+      <point x="916.0" y="1419.0" type="line"/>
+      <point x="887.0" y="1419.0" type="line"/>
+      <point x="1270.0" y="616.0" type="line"/>
+      <point x="1335.0" y="616.0" type="line"/>
+      <point x="1716.0" y="1419.0" type="line"/>
+      <point x="1689.0" y="1419.0" type="line"/>
+      <point x="1689.0" y="480.0" type="line"/>
+      <point x="1751.0" y="480.0" type="line"/>
+      <point x="1751.0" y="1480.0" type="line"/>
+      <point x="1678.0" y="1480.0" type="line"/>
+      <point x="1293.0" y="662.0" type="line"/>
+      <point x="1315.0" y="662.0" type="line"/>
+      <point x="928.0" y="1480.0" type="line"/>
+      <point x="854.0" y="1480.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

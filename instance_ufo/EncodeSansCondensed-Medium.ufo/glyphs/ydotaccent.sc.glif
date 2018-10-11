@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydotaccent.sc" format="2">
+  <advance width="930.7878787878788"/>
+  <anchor x="465.3939393939394" y="0.0" name="bottom"/>
+  <anchor x="465.3939393939394" y="1230.0" name="top"/>
+  <anchor x="-11.636363636363637" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="367.57575757575756" y="0.0" type="line"/>
+      <point x="563.2121212121212" y="0.0" type="line"/>
+      <point x="563.2121212121212" y="594.8484848484849" type="line"/>
+      <point x="522.0" y="447.030303030303" type="line"/>
+      <point x="961.6363636363636" y="1190.0" type="line"/>
+      <point x="770.6666666666666" y="1190.0" type="line"/>
+      <point x="444.3636363636364" y="641.2121212121212" type="line"/>
+      <point x="497.09090909090907" y="641.2121212121212" type="line"/>
+      <point x="171.09090909090907" y="1190.0" type="line"/>
+      <point x="-35.696969696969695" y="1190.0" type="line"/>
+      <point x="409.57575757575756" y="447.030303030303" type="line"/>
+      <point x="367.57575757575756" y="597.2121212121212" type="line"/>
+    </contour>
+    <component base="dotaccentcomb.case" xOffset="-13.393939393939391" yOffset="-290.0"/>
+  </outline>
+</glyph>

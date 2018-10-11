@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ygrave" format="2">
+  <advance width="1205.0075757575758"/>
+  <unicode hex="1EF2"/>
+  <anchor x="603.7323232323232" y="1520.0" name="_top"/>
+  <anchor x="602.679292929293" y="0.0" name="bottom"/>
+  <anchor x="603.7323232323232" y="1520.0" name="top"/>
+  <anchor x="-18.239898989898983" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="448.6338383838384" y="0.0" type="line"/>
+      <point x="758.8308080808081" y="0.0" type="line"/>
+      <point x="758.8308080808081" y="752.429292929293" type="line"/>
+      <point x="695.4974747474747" y="518.2651515151515" type="line"/>
+      <point x="1250.5025252525252" y="1480.0" type="line"/>
+      <point x="947.1540404040404" y="1480.0" type="line"/>
+      <point x="569.0757575757575" y="826.25" type="line"/>
+      <point x="654.1313131313132" y="826.25" type="line"/>
+      <point x="273.41414141414134" y="1480.0" type="line"/>
+      <point x="-54.54797979797979" y="1480.0" type="line"/>
+      <point x="511.9671717171717" y="518.2651515151515" type="line"/>
+      <point x="448.6338383838384" y="756.6414141414141" type="line"/>
+    </contour>
+    <contour>
+      <point x="467.37626262626264" y="1594.939393939394" type="line"/>
+      <point x="740.0883838383838" y="1594.939393939394" type="line"/>
+      <point x="573.8459595959596" y="1897.828282828283" type="line"/>
+      <point x="255.0959595959596" y="1897.828282828283" type="line"/>
+    </contour>
+  </outline>
+</glyph>

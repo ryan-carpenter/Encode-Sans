@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftArrow" format="2">
+  <advance width="1548.7676767676767"/>
+  <unicode hex="2190"/>
+  <outline>
+    <contour>
+      <point x="736.3030303030303" y="148.44444444444449" type="line"/>
+      <point x="924.5454545454545" y="336.68686868686865" type="line"/>
+      <point x="651.9999999999999" y="609.2323232323233" type="line"/>
+      <point x="1424.0202020202019" y="609.2323232323233" type="line"/>
+      <point x="1424.0202020202019" y="910.7676767676767" type="line"/>
+      <point x="651.9999999999999" y="910.7676767676767" type="line"/>
+      <point x="924.5454545454545" y="1183.3131313131314" type="line"/>
+      <point x="736.3030303030303" y="1371.5555555555554" type="line"/>
+      <point x="124.74747474747477" y="760.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

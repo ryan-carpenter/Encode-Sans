@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb_dotaccentcomb.case" format="2">
+  <advance width="1108.379797979798"/>
+  <outline>
+    <contour>
+      <point x="554.189898989899" y="1917.2625454545455" type="curve" smooth="yes"/>
+      <point x="643.837898989899" y="1917.2625454545455"/>
+      <point x="691.5138585858585" y="1956.9776161616162"/>
+      <point x="691.5138585858585" y="2023.6982626262627" type="curve" smooth="yes"/>
+      <point x="691.5138585858585" y="2090.418909090909"/>
+      <point x="643.837898989899" y="2131.050181818182"/>
+      <point x="554.189898989899" y="2131.050181818182" type="curve" smooth="yes"/>
+      <point x="464.541898989899" y="2131.050181818182"/>
+      <point x="416.86593939393936" y="2090.418909090909"/>
+      <point x="416.86593939393936" y="2023.6982626262627" type="curve" smooth="yes"/>
+      <point x="416.86593939393936" y="1956.9776161616162"/>
+      <point x="464.541898989899" y="1917.2625454545455"/>
+    </contour>
+    <component base="caroncomb.case"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

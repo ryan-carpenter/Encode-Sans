@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aring.sc" format="2">
+  <advance width="1009.4545454545455"/>
+  <anchor x="504.72727272727275" y="0.0" name="bottom"/>
+  <anchor x="986.6060606060606" y="0.0" name="ogonek"/>
+  <anchor x="504.72727272727275" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="22.848484848484848" y="0.0" type="line"/>
+      <point x="139.21212121212122" y="0.0" type="line"/>
+      <point x="513.3333333333334" y="1131.5151515151515" type="line"/>
+      <point x="491.5151515151515" y="1131.5151515151515" type="line"/>
+      <point x="866.2424242424242" y="0.0" type="line"/>
+      <point x="986.6060606060606" y="0.0" type="line"/>
+      <point x="586.6060606060606" y="1190.0" type="line"/>
+      <point x="421.1515151515151" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="216.0" y="390.24242424242425" type="line"/>
+      <point x="791.4545454545455" y="390.24242424242425" type="line"/>
+      <point x="765.2727272727273" y="490.3030303030303" type="line"/>
+      <point x="241.87878787878788" y="490.3030303030303" type="line"/>
+    </contour>
+    <component base="ringcomb.case" xOffset="74.42424242424242" yOffset="-290.0"/>
+  </outline>
+</glyph>

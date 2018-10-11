@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydieresis.sc" format="2">
+  <advance width="1319.8383838383838"/>
+  <anchor x="658.2020202020201" y="0.0" name="bottom"/>
+  <anchor x="658.2020202020201" y="1230.0" name="top"/>
+  <anchor x="12.565656565656568" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="455.9191919191919" y="0.0" type="line"/>
+      <point x="870.7878787878786" y="0.0" type="line"/>
+      <point x="870.7878787878786" y="626.6666666666666" type="line"/>
+      <point x="790.9696969696969" y="368.3232323232324" type="line"/>
+      <point x="1351.3131313131312" y="1190.0" type="line"/>
+      <point x="944.7676767676768" y="1190.0" type="line"/>
+      <point x="609.5757575757575" y="705.6363636363636" type="line"/>
+      <point x="728.0" y="705.6363636363636" type="line"/>
+      <point x="384.80808080808066" y="1190.0" type="line"/>
+      <point x="-49.777777777777764" y="1190.0" type="line"/>
+      <point x="535.7373737373737" y="368.3232323232324" type="line"/>
+      <point x="455.9191919191919" y="630.10101010101" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="58.20202020202015" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minus.tosf" format="2">
+  <advance width="1274.2929292929293"/>
+  <outline>
+    <contour>
+      <point x="214.24242424242425" y="456.1262626262626" type="line"/>
+      <point x="1060.050505050505" y="456.1262626262626" type="line"/>
+      <point x="1060.050505050505" y="663.8737373737374" type="line"/>
+      <point x="214.24242424242425" y="663.8737373737374" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

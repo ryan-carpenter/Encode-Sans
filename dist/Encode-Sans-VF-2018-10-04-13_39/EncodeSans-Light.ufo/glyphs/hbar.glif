@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar" format="2">
+  <advance width="1115.0337373737375"/>
+  <unicode hex="0127"/>
+  <anchor x="564.5084848484848" y="0.0" name="bottom"/>
+  <anchor x="564.5084848484848" y="541.4525252525252" name="center"/>
+  <anchor x="159.39656565656566" y="1355.128484848485" name="stroke"/>
+  <anchor x="564.5084848484848" y="1616.0" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="strokeshortcomb.h" xOffset="-423.75414141414143" yOffset="272.22343434343435"/>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="2">
+  <advance width="1074.0"/>
+  <unicode hex="0141"/>
+  <anchor x="330.0" y="854.0" name="_slash"/>
+  <anchor x="598.0" y="0.0" name="bottom"/>
+  <anchor x="714.0" y="1616.0" name="caronalt"/>
+  <anchor x="834.0" y="894.0" name="periodcentered"/>
+  <anchor x="330.0" y="854.0" name="slash"/>
+  <anchor x="330.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="126.0" y="0.0" type="line"/>
+      <point x="1070.0" y="0.0" type="line"/>
+      <point x="1070.0" y="346.0" type="line"/>
+      <point x="518.0" y="346.0" type="line"/>
+      <point x="518.0" y="1480.0" type="line"/>
+      <point x="126.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="78.0" y="586.0" type="line"/>
+      <point x="868.0" y="966.0" type="line"/>
+      <point x="750.0" y="1204.0" type="line"/>
+      <point x="-40.0" y="824.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

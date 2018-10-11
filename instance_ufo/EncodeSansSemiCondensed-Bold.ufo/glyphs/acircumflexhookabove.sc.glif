@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexhookabove.sc" format="2">
+  <advance width="1196.0631313131312"/>
+  <anchor x="598.1060606060606" y="0.0" name="bottom"/>
+  <anchor x="1186.080808080808" y="0.0" name="ogonek"/>
+  <anchor x="597.7550505050505" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="9.982323232323235" y="0.0" type="line"/>
+      <point x="308.98989898989896" y="0.0" type="line"/>
+      <point x="609.9671717171717" y="1064.098484848485" type="line"/>
+      <point x="580.1388888888889" y="1064.098484848485" type="line"/>
+      <point x="883.2222222222223" y="0.0" type="line"/>
+      <point x="1186.080808080808" y="0.0" type="line"/>
+      <point x="825.8863636363636" y="1190.0" type="line"/>
+      <point x="369.5808080808081" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="264.8888888888889" y="295.2525252525253" type="line"/>
+      <point x="928.8232323232323" y="295.2525252525253" type="line"/>
+      <point x="866.9469696969696" y="529.1414141414141" type="line"/>
+      <point x="326.2121212121212" y="529.1414141414141" type="line"/>
+    </contour>
+    <component base="circumflexcomb_hookabovecomb.case" xOffset="42.45202020202021" yOffset="-290.0"/>
+  </outline>
+</glyph>

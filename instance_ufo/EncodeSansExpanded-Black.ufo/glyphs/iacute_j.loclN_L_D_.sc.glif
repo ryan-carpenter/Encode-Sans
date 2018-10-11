@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iacute_j.loclNLD.sc" format="2">
+  <advance width="1472.0"/>
+  <anchor x="366.0" y="0.0" name="bottom"/>
+  <anchor x="604.0" y="0.0" name="ogonek"/>
+  <anchor x="368.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="132.0" y="0.0" type="line"/>
+      <point x="604.0" y="0.0" type="line"/>
+      <point x="604.0" y="1190.0" type="line"/>
+      <point x="132.0" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1046.0" y="-290.0" type="line"/>
+      <point x="1268.0" y="-112.0"/>
+      <point x="1342.0" y="62.0"/>
+      <point x="1340.0" y="266.0" type="curve"/>
+      <point x="1340.0" y="1190.0" type="line"/>
+      <point x="868.0" y="1190.0" type="line"/>
+      <point x="868.0" y="246.0" type="line" smooth="yes"/>
+      <point x="868.0" y="84.0"/>
+      <point x="844.0" y="-8.0"/>
+      <point x="758.0" y="-108.0" type="curve"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="-232.0" yOffset="-290.0"/>
+    <component base="acutecomb.case" xOffset="504.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

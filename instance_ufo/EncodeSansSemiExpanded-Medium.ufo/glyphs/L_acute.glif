@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lacute" format="2">
+  <advance width="1168.378787878788"/>
+  <unicode hex="0139"/>
+  <anchor x="281.1212121212121" y="1520.0" name="_top"/>
+  <anchor x="662.5757575757576" y="0.0" name="bottom"/>
+  <anchor x="767.5151515151515" y="1616.0" name="caronalt"/>
+  <anchor x="852.0454545454545" y="831.9090909090909" name="periodcentered"/>
+  <anchor x="281.1212121212121" y="805.5151515151515" name="slash"/>
+  <anchor x="281.1212121212121" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="170.1060606060606" y="0.0" type="line"/>
+      <point x="1153.8333333333333" y="0.0" type="line"/>
+      <point x="1153.8333333333333" y="182.8030303030303" type="line"/>
+      <point x="390.56060606060606" y="182.8030303030303" type="line"/>
+      <point x="390.56060606060606" y="1480.0" type="line"/>
+      <point x="170.1060606060606" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="180.34848484848484" y="1604.1818181818182" type="line"/>
+      <point x="379.530303030303" y="1604.1818181818182" type="line"/>
+      <point x="610.4545454545455" y="1893.5151515151515" type="line"/>
+      <point x="376.8787878787879" y="1893.5151515151515" type="line"/>
+    </contour>
+  </outline>
+</glyph>

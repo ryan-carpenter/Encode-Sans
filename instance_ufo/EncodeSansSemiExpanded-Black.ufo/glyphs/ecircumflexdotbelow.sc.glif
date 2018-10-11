@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexdotbelow.sc" format="2">
+  <advance width="1281.5"/>
+  <anchor x="676.0" y="0.0" name="bottom"/>
+  <anchor x="1117.5" y="0.0" name="ogonek"/>
+  <anchor x="676.0" y="1230.0" name="top"/>
+  <anchor x="65.5" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="121.5" y="0.0" type="line"/>
+      <point x="1200.5" y="0.0" type="line"/>
+      <point x="1200.5" y="311.0" type="line"/>
+      <point x="561.0" y="311.0" type="line"/>
+      <point x="561.0" y="879.0" type="line"/>
+      <point x="1192.5" y="879.0" type="line"/>
+      <point x="1192.5" y="1190.0" type="line"/>
+      <point x="121.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="359.5" y="447.5" type="line"/>
+      <point x="1101.0" y="447.5" type="line"/>
+      <point x="1101.0" y="758.5" type="line"/>
+      <point x="359.5" y="758.5" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="76.0"/>
+    <component base="circumflexcomb.case" xOffset="76.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

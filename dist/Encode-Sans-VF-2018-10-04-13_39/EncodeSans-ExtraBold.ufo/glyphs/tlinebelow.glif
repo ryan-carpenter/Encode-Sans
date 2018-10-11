@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tlinebelow" format="2">
+  <advance width="876.3906666666667"/>
+  <unicode hex="1E6F"/>
+  <anchor x="511.34066666666666" y="-508.8266666666667" name="bottom"/>
+  <anchor x="679.251" y="1616.0" name="caronalt"/>
+  <anchor x="187.42466666666667" y="571.3856666666667" name="stroke"/>
+  <anchor x="375.4243333333334" y="1514.4133333333334" name="top"/>
+  <anchor x="788.0500000000001" y="1616.0" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="macronbelowcomb" xOffset="-74.69266666666667"/>
+  </outline>
+</glyph>

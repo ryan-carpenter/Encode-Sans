@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotaccent.sc" format="2">
+  <advance width="664.9772727272727"/>
+  <anchor x="331.4090909090909" y="0.0" name="bottom"/>
+  <anchor x="532.0909090909091" y="0.0" name="ogonek"/>
+  <anchor x="332.7045454545455" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="132.88636363636363" y="0.0" type="line"/>
+      <point x="532.0909090909091" y="0.0" type="line"/>
+      <point x="532.0909090909091" y="1190.0" type="line"/>
+      <point x="132.88636363636363" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotaccentcomb.case" xOffset="-260.47727272727275" yOffset="-290.0"/>
+  </outline>
+</glyph>

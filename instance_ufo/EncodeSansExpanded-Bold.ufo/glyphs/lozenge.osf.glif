@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lozenge.osf" format="2">
+  <advance width="1368.4848484848485"/>
+  <outline>
+    <contour>
+      <point x="507.0707070707071" y="0.0" type="line"/>
+      <point x="860.8181818181818" y="0.0" type="line"/>
+      <point x="1310.6464646464647" y="547.020202020202" type="line"/>
+      <point x="860.8181818181818" y="1094.040404040404" type="line"/>
+      <point x="507.0707070707071" y="1094.040404040404" type="line"/>
+      <point x="57.83838383838385" y="547.020202020202" type="line"/>
+    </contour>
+    <contour>
+      <point x="605.8282828282828" y="126.07070707070704" type="line"/>
+      <point x="762.6565656565656" y="126.07070707070704" type="line"/>
+      <point x="381.41414141414134" y="585.4444444444445" type="line"/>
+      <point x="381.41414141414134" y="508.5959595959596" type="line"/>
+      <point x="762.6565656565656" y="967.969696969697" type="line"/>
+      <point x="605.8282828282828" y="967.969696969697" type="line"/>
+      <point x="988.4747474747475" y="508.5959595959596" type="line"/>
+      <point x="988.4747474747475" y="585.4444444444445" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

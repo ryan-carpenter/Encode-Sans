@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="edotbelow" format="2">
+  <advance width="1137.1393333333335"/>
+  <unicode hex="1EB9"/>
+  <anchor x="585.4300000000001" y="-508.8266666666667" name="bottom"/>
+  <anchor x="1002.4016666666668" y="0.0" name="ogonek"/>
+  <anchor x="585.4300000000001" y="1200.0" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="dotbelowcomb" xOffset="-0.6033333333333246"/>
+  </outline>
+</glyph>

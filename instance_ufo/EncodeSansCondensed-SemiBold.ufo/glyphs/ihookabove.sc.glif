@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ihookabove.sc" format="2">
+  <advance width="492.72727272727275"/>
+  <anchor x="246.9090909090909" y="0.0" name="bottom"/>
+  <anchor x="368.18181818181813" y="0.0" name="ogonek"/>
+  <anchor x="246.9090909090909" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="124.54545454545455" y="0.0" type="line"/>
+      <point x="368.18181818181813" y="0.0" type="line"/>
+      <point x="368.18181818181813" y="1190.0" type="line"/>
+      <point x="124.54545454545455" y="1190.0" type="line"/>
+    </contour>
+    <component base="hookabovecomb.case" xOffset="-262.1818181818182" yOffset="-290.0"/>
+  </outline>
+</glyph>

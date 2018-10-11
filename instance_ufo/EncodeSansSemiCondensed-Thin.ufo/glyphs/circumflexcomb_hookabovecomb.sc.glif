@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb_hookabovecomb.sc" format="2">
+  <anchor x="450.0" y="1520.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="194.0" y="1616.0" type="line"/>
+      <point x="269.5" y="1616.0" type="line"/>
+      <point x="460.5" y="1858.5" type="line"/>
+      <point x="439.5" y="1858.5" type="line"/>
+      <point x="630.5" y="1616.0" type="line"/>
+      <point x="706.0" y="1616.0" type="line"/>
+      <point x="488.0" y="1888.0" type="line"/>
+      <point x="412.0" y="1888.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="645.0" y="1792.0" type="curve"/>
+      <point x="706.5" y="1792.0" type="line"/>
+      <point x="714.5" y="1871.0"/>
+      <point x="864.5" y="1851.0"/>
+      <point x="864.5" y="1959.0" type="curve" smooth="yes"/>
+      <point x="864.5" y="2018.0"/>
+      <point x="809.0" y="2064.0"/>
+      <point x="688.5" y="2064.0" type="curve" smooth="yes"/>
+      <point x="617.5" y="2064.0"/>
+      <point x="549.5" y="2050.0"/>
+      <point x="501.0" y="2028.0" type="curve"/>
+      <point x="501.0" y="1972.5" type="line"/>
+      <point x="564.0" y="1998.5"/>
+      <point x="625.5" y="2010.0"/>
+      <point x="688.5" y="2010.0" type="curve" smooth="yes"/>
+      <point x="781.5" y="2010.0"/>
+      <point x="805.0" y="1988.0"/>
+      <point x="805.0" y="1957.5" type="curve" smooth="yes"/>
+      <point x="805.0" y="1884.0"/>
+      <point x="651.0" y="1904.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

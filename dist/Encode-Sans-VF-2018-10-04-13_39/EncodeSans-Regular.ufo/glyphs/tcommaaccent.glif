@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcommaaccent" format="2">
+  <advance width="748.4807878787879"/>
+  <unicode hex="021B"/>
+  <anchor x="473.9330606060606" y="0.0" name="bottom"/>
+  <anchor x="550.7377727272727" y="1616.0" name="caronalt"/>
+  <anchor x="215.17869696969697" y="633.5305606060606" name="stroke"/>
+  <anchor x="295.17898484848484" y="1490.279393939394" name="top"/>
+  <anchor x="697.5477272727273" y="1616.0" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="commaaccentcomb" xOffset="-51.765424242424245"/>
+  </outline>
+</glyph>

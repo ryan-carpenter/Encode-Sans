@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar" format="2">
+  <outline>
+    <component base="h"/>
+    <component base="strokeshortcomb.h" xOffset="-205.0" yOffset="138.0"/>
+  </outline>
+</glyph>

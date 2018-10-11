@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi.tf" format="2">
+  <advance width="1289.2733333333333"/>
+  <outline>
+    <contour>
+      <point x="1072.0556666666666" y="-20.581" type="curve" smooth="yes"/>
+      <point x="1158.2343333333333" y="-20.581"/>
+      <point x="1232.6253333333334" y="-9.419"/>
+      <point x="1289.2733333333333" y="3.743000000000001" type="curve"/>
+      <point x="1289.2733333333333" y="297.1503333333334" type="line"/>
+      <point x="1247.5526666666667" y="290.5916666666667"/>
+      <point x="1215.2956666666666" y="286.3123333333334"/>
+      <point x="1183.5973333333334" y="286.3123333333334" type="curve" smooth="yes"/>
+      <point x="1100.29" y="286.3123333333334"/>
+      <point x="1059.357" y="327.38500000000005"/>
+      <point x="1059.357" y="428.5136666666667" type="curve" smooth="yes"/>
+      <point x="1059.357" y="927.274" type="line"/>
+      <point x="700.866" y="927.274" type="line"/>
+      <point x="701.4246666666667" y="361.45233333333334" type="line" smooth="yes"/>
+      <point x="701.704" y="109.59766666666667"/>
+      <point x="834.0" y="-20.581"/>
+    </contour>
+    <contour>
+      <point x="146.98333333333332" y="-0.279333333333333" type="line"/>
+      <point x="504.9156666666667" y="-0.279333333333333" type="line"/>
+      <point x="504.9156666666667" y="929.855" type="line"/>
+      <point x="146.98333333333332" y="929.855" type="line"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="804.358" type="line"/>
+      <point x="1206.48" y="804.358" type="line"/>
+      <point x="1206.48" y="1097.2066666666667" type="line"/>
+      <point x="0.0" y="1097.2066666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

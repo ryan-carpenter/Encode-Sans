@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute" format="2">
+  <advance width="559.5959595959596"/>
+  <unicode hex="00CD"/>
+  <anchor x="279.7979797979798" y="1520.0" name="_top"/>
+  <anchor x="279.29292929292933" y="0.0" name="bottom"/>
+  <anchor x="365.3131313131314" y="0.0" name="ogonek"/>
+  <anchor x="279.7979797979798" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="194.28282828282826" y="0.0" type="line"/>
+      <point x="365.3131313131314" y="0.0" type="line"/>
+      <point x="365.3131313131314" y="1480.0" type="line"/>
+      <point x="194.28282828282826" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="198.84848484848484" y="1608.4242424242425" type="line"/>
+      <point x="358.72727272727275" y="1608.4242424242425" type="line"/>
+      <point x="603.8181818181819" y="1891.5353535353536" type="line"/>
+      <point x="416.3030303030303" y="1891.5353535353536" type="line"/>
+    </contour>
+  </outline>
+</glyph>

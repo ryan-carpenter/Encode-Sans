@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb_gravecomb.sc" format="2">
+  <anchor x="585.8585858585858" y="1520.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="585.7171717171717" y="1591.939393939394" type="curve" smooth="yes"/>
+      <point x="822.9595959595958" y="1591.939393939394"/>
+      <point x="944.2929292929292" y="1698.3939393939395"/>
+      <point x="969.1717171717171" y="1858.2828282828282" type="curve"/>
+      <point x="773.7979797979798" y="1858.2828282828282" type="line"/>
+      <point x="756.2222222222222" y="1784.7777777777778"/>
+      <point x="715.3939393939394" y="1741.949494949495"/>
+      <point x="585.7171717171717" y="1741.949494949495" type="curve" smooth="yes"/>
+      <point x="456.040404040404" y="1741.949494949495"/>
+      <point x="415.21212121212113" y="1784.7777777777778"/>
+      <point x="389.33333333333326" y="1858.2828282828282" type="curve"/>
+      <point x="202.54545454545456" y="1858.2828282828282" type="line"/>
+      <point x="227.42424242424244" y="1698.111111111111"/>
+      <point x="348.19191919191917" y="1591.939393939394"/>
+    </contour>
+    <contour>
+      <point x="486.8888888888889" y="1830.5454545454545" type="line"/>
+      <point x="684.8282828282828" y="1830.5454545454545" type="line"/>
+      <point x="577.6565656565656" y="2068.808080808081" type="line"/>
+      <point x="329.5151515151515" y="2068.808080808081" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

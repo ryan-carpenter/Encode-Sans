@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcommaaccent.sc" format="2">
+  <advance width="1037.3434343434344"/>
+  <anchor x="580.2929292929293" y="0.0" name="bottom"/>
+  <anchor x="694.2626262626262" y="1190.0" name="caronalt"/>
+  <anchor x="789.9797979797979" y="717.8585858585858" name="periodcentered"/>
+  <anchor x="299.7121212121212" y="677.9494949494949" name="slash"/>
+  <anchor x="299.7121212121212" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="135.13636363636365" y="0.0" type="line"/>
+      <point x="1025.8535353535353" y="0.0" type="line"/>
+      <point x="1025.8535353535353" y="251.4393939393939" type="line"/>
+      <point x="457.96969696969694" y="251.4393939393939" type="line"/>
+      <point x="457.96969696969694" y="1190.0" type="line"/>
+      <point x="135.13636363636365" y="1190.0" type="line"/>
+    </contour>
+    <component base="commaaccentcomb.case" xOffset="10.090909090909093"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abreveacute.sc" format="2">
+  <advance width="1251.5976565656565"/>
+  <anchor x="626.0278787878788" y="0.0" name="bottom"/>
+  <anchor x="1230.4803232323234" y="0.0" name="ogonek"/>
+  <anchor x="625.4859797979798" y="1230.0" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="brevecomb_acutecomb.sc" xOffset="71.29608080808082" yOffset="-290.0"/>
+  </outline>
+</glyph>

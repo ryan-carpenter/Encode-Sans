@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lj" format="2">
+  <advance width="1392.0"/>
+  <unicode hex="01C9"/>
+  <anchor x="1034.0" y="1200.0" name="_top"/>
+  <anchor x="346.0" y="0.0" name="bottom"/>
+  <anchor x="680.0" y="1616.0" name="caronalt"/>
+  <anchor x="900.0" y="794.0" name="periodcentered"/>
+  <anchor x="348.0" y="714.0" name="slash"/>
+  <anchor x="348.0" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="116.0" y="0.0" type="line"/>
+      <point x="580.0" y="0.0" type="line"/>
+      <point x="580.0" y="1616.0" type="line"/>
+      <point x="116.0" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="954.0" y="-476.0" type="line"/>
+      <point x="1194.0" y="-258.0"/>
+      <point x="1276.0" y="-54.0"/>
+      <point x="1276.0" y="196.0" type="curve" smooth="yes"/>
+      <point x="1276.0" y="1100.0" type="line"/>
+      <point x="812.0" y="1100.0" type="line"/>
+      <point x="812.0" y="180.0" type="line" smooth="yes"/>
+      <point x="812.0" y="-26.0"/>
+      <point x="776.0" y="-152.0"/>
+      <point x="666.0" y="-284.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1034.0" y="1206.0" type="curve" smooth="yes"/>
+      <point x="1224.0" y="1206.0"/>
+      <point x="1308.0" y="1280.0"/>
+      <point x="1308.0" y="1418.0" type="curve" smooth="yes"/>
+      <point x="1308.0" y="1556.0"/>
+      <point x="1224.0" y="1630.0"/>
+      <point x="1034.0" y="1630.0" type="curve" smooth="yes"/>
+      <point x="844.0" y="1630.0"/>
+      <point x="760.0" y="1556.0"/>
+      <point x="760.0" y="1418.0" type="curve" smooth="yes"/>
+      <point x="760.0" y="1280.0"/>
+      <point x="844.0" y="1206.0"/>
+    </contour>
+  </outline>
+</glyph>

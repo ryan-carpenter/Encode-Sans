@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emacron.sc" format="2">
+  <advance width="1268.5656565656566"/>
+  <anchor x="686.909090909091" y="0.0" name="bottom"/>
+  <anchor x="1091.6464646464647" y="0.0" name="ogonek"/>
+  <anchor x="685.0707070707072" y="1230.0" name="top"/>
+  <anchor x="70.75757575757575" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="171.5252525252525" y="0.0" type="line"/>
+      <point x="1171.3737373737374" y="0.0" type="line"/>
+      <point x="1171.3737373737374" y="199.10101010101016" type="line"/>
+      <point x="450.28282828282835" y="199.10101010101016" type="line"/>
+      <point x="450.28282828282835" y="990.8989898989898" type="line"/>
+      <point x="1162.4545454545455" y="990.8989898989898" type="line"/>
+      <point x="1162.4545454545455" y="1190.0" type="line"/>
+      <point x="171.5252525252525" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="311.1212121212121" y="507.58585858585855" type="line"/>
+      <point x="1074.1313131313132" y="507.58585858585855" type="line"/>
+      <point x="1074.1313131313132" y="706.6868686868687" type="line"/>
+      <point x="311.1212121212121" y="706.6868686868687" type="line"/>
+    </contour>
+    <component base="macroncomb.case" xOffset="85.07070707070709" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron.sc" format="2">
+  <advance width="1147.7171717171718"/>
+  <anchor x="573.8585858585859" y="0.0" name="bottom"/>
+  <anchor x="573.8585858585859" y="616.2626262626262" name="center"/>
+  <anchor x="573.8585858585859" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="488.8484848484848" y="0.0" type="line"/>
+      <point x="658.868686868687" y="0.0" type="line"/>
+      <point x="658.868686868687" y="1056.3030303030303" type="line"/>
+      <point x="1127.2121212121212" y="1056.3030303030303" type="line"/>
+      <point x="1127.2121212121212" y="1190.0" type="line"/>
+      <point x="20.505050505050505" y="1190.0" type="line"/>
+      <point x="20.505050505050505" y="1056.3030303030303" type="line"/>
+      <point x="488.8484848484848" y="1056.3030303030303" type="line"/>
+    </contour>
+    <component base="caroncomb.case" xOffset="-26.141414141414117" yOffset="-290.0"/>
+  </outline>
+</glyph>

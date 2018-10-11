@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb_acutecomb" format="2">
+  <anchor x="586.0333333333333" y="1200.0" name="_top"/>
+  <outline>
+    <contour>
+      <point x="586.0333333333333" y="1220.4246666666666" type="curve" smooth="yes"/>
+      <point x="714.402" y="1220.4246666666666"/>
+      <point x="807.8879999999999" y="1310.4693333333332"/>
+      <point x="807.8879999999999" y="1435.3966666666668" type="curve" smooth="yes"/>
+      <point x="807.8879999999999" y="1560.324"/>
+      <point x="714.402" y="1650.3686666666667"/>
+      <point x="586.0333333333333" y="1650.3686666666667" type="curve" smooth="yes"/>
+      <point x="457.6646666666667" y="1650.3686666666667"/>
+      <point x="364.1786666666667" y="1560.324"/>
+      <point x="364.1786666666667" y="1435.3966666666668" type="curve" smooth="yes"/>
+      <point x="364.1786666666667" y="1310.4693333333332"/>
+      <point x="457.6646666666667" y="1220.4246666666666"/>
+    </contour>
+    <contour>
+      <point x="586.0333333333333" y="1346.4133333333334" type="curve" smooth="yes"/>
+      <point x="535.8433333333332" y="1346.4133333333334"/>
+      <point x="500.77066666666667" y="1380.9273333333333"/>
+      <point x="500.77066666666667" y="1435.3966666666668" type="curve" smooth="yes"/>
+      <point x="500.77066666666667" y="1489.866"/>
+      <point x="535.8433333333332" y="1524.3799999999999"/>
+      <point x="586.0333333333333" y="1524.3799999999999" type="curve" smooth="yes"/>
+      <point x="636.2233333333334" y="1524.3799999999999"/>
+      <point x="671.296" y="1489.866"/>
+      <point x="671.296" y="1435.3966666666668" type="curve" smooth="yes"/>
+      <point x="671.296" y="1380.9273333333333"/>
+      <point x="636.2233333333334" y="1346.4133333333334"/>
+    </contour>
+    <contour>
+      <point x="743.145" y="1497.7766666666666" type="line"/>
+      <point x="987.3236666666667" y="1780.0" type="line"/>
+      <point x="721.771" y="1780.0" type="line"/>
+      <point x="581.581" y="1599.2066666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+    </dict>
+  </lib>
+</glyph>

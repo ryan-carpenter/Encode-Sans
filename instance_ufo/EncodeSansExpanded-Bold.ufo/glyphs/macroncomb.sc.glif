@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb.sc" format="2">
+  <anchor x="600.0" y="1520.0" name="_top"/>
+  <anchor x="600.0" y="1880.6666666666667" name="top"/>
+  <outline>
+    <contour>
+      <point x="198.90909090909093" y="1650.3939393939395" type="line"/>
+      <point x="1001.090909090909" y="1650.3939393939395" type="line"/>
+      <point x="1001.090909090909" y="1843.7777777777778" type="line"/>
+      <point x="198.90909090909093" y="1843.7777777777778" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

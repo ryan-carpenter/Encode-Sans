@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlautcomb.sc" format="2">
+  <anchor x="514.6464646464647" y="1520.0" name="_top"/>
+  <anchor x="514.6464646464647" y="1858.5454545454545" name="top"/>
+  <outline>
+    <contour>
+      <point x="624.9090909090909" y="1611.6060606060605" type="line"/>
+      <point x="722.378787878788" y="1611.6060606060605" type="line"/>
+      <point x="857.0656565656566" y="1890.050505050505" type="line"/>
+      <point x="750.6919191919192" y="1890.050505050505" type="line"/>
+    </contour>
+    <contour>
+      <point x="306.9141414141414" y="1611.6060606060605" type="line"/>
+      <point x="404.3838383838384" y="1611.6060606060605" type="line"/>
+      <point x="539.0707070707072" y="1890.050505050505" type="line"/>
+      <point x="432.6969696969697" y="1890.050505050505" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

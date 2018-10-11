@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wgrave.sc" format="2">
+  <advance width="2230.0"/>
+  <anchor x="1114.840909090909" y="0.0" name="bottom"/>
+  <anchor x="1114.840909090909" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="373.9318181818182" y="0.0" type="line"/>
+      <point x="879.6818181818182" y="0.0" type="line"/>
+      <point x="1175.4545454545455" y="989.8181818181818" type="line"/>
+      <point x="1069.2954545454545" y="989.8181818181818" type="line"/>
+      <point x="1350.8181818181818" y="0.0" type="line"/>
+      <point x="1856.7045454545455" y="0.0" type="line"/>
+      <point x="2202.727272727273" y="1190.0" type="line"/>
+      <point x="1829.068181818182" y="1190.0" type="line"/>
+      <point x="1543.3863636363635" y="171.20454545454544" type="line"/>
+      <point x="1627.431818181818" y="171.20454545454544" type="line"/>
+      <point x="1343.659090909091" y="1190.0" type="line"/>
+      <point x="908.2045454545455" y="1190.0" type="line"/>
+      <point x="607.8181818181818" y="171.20454545454544" type="line"/>
+      <point x="702.0454545454545" y="171.20454545454544" type="line"/>
+      <point x="426.52272727272725" y="1190.0" type="line"/>
+      <point x="27.272727272727266" y="1190.0" type="line"/>
+    </contour>
+    <component base="gravecomb.case" xOffset="521.6590909090909" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_l" format="2">
+  <advance width="1359.3792727272726"/>
+  <anchor x="1080.764909090909" y="0.0" name="bottom"/>
+  <anchor x="1339.6473636363637" y="1616.0" name="caronalt"/>
+  <anchor x="1484.9376363636363" y="794.0" name="periodcentered"/>
+  <anchor x="1081.4688181818183" y="714.0" name="slash"/>
+  <anchor x="1081.4688181818183" y="1616.0" name="top"/>
+  <outline>
+    <component base="f.short"/>
+    <component base="l" xOffset="802.8544545454546"/>
+  </outline>
+</glyph>

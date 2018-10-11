@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexgrave.sc" format="2">
+  <advance width="1029.469494949495"/>
+  <anchor x="584.1341414141414" y="0.0" name="bottom"/>
+  <anchor x="886.8717171717171" y="0.0" name="ogonek"/>
+  <anchor x="582.4246464646465" y="1230.0" name="top"/>
+  <anchor x="65.56424242424242" y="1190.0" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="circumflexcomb_gravecomb.sc" xOffset="67.89939393939393" yOffset="-290.0"/>
+  </outline>
+</glyph>

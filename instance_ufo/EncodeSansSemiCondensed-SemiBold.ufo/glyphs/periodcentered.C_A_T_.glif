@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered.CAT" format="2">
+  <advance width="473.8636363636364"/>
+  <anchor x="237.04545454545453" y="658.1818181818181" name="_periodcentered"/>
+  <outline>
+    <contour>
+      <point x="237.04545454545453" y="515.0909090909091" type="curve" smooth="yes"/>
+      <point x="345.5909090909091" y="515.0909090909091"/>
+      <point x="398.3181818181818" y="568.0"/>
+      <point x="398.3181818181818" y="657.2727272727273" type="curve" smooth="yes"/>
+      <point x="398.3181818181818" y="746.5454545454545"/>
+      <point x="345.5909090909091" y="800.3636363636364"/>
+      <point x="237.04545454545453" y="800.3636363636364" type="curve" smooth="yes"/>
+      <point x="128.5" y="800.3636363636364"/>
+      <point x="75.77272727272728" y="746.5454545454545"/>
+      <point x="75.77272727272728" y="657.2727272727273" type="curve" smooth="yes"/>
+      <point x="75.77272727272728" y="568.0"/>
+      <point x="128.5" y="515.0909090909091"/>
+    </contour>
+  </outline>
+</glyph>

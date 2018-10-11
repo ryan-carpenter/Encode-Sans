@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Otildemacron" format="2">
+  <advance width="1727.3636363636365"/>
+  <unicode hex="022C"/>
+  <anchor x="863.6818181818182" y="0.0" name="bottom"/>
+  <anchor x="863.6818181818182" y="740.0" name="center"/>
+  <anchor x="1030.659090909091" y="0.0" name="ogonek"/>
+  <anchor x="863.6818181818182" y="1520.0" name="top"/>
+  <anchor x="54.34090909090909" y="1480.0" name="topleft"/>
+  <anchor x="1075.3636363636365" y="1480.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="863.6818181818182" y="-19.727272727272727" type="curve" smooth="yes"/>
+      <point x="1340.159090909091" y="-19.727272727272727"/>
+      <point x="1643.840909090909" y="249.0"/>
+      <point x="1643.840909090909" y="740.0" type="curve" smooth="yes"/>
+      <point x="1643.840909090909" y="1231.0"/>
+      <point x="1342.068181818182" y="1499.7272727272727"/>
+      <point x="863.6818181818182" y="1499.7272727272727" type="curve" smooth="yes"/>
+      <point x="385.9090909090909" y="1499.7272727272727"/>
+      <point x="83.52272727272728" y="1233.590909090909"/>
+      <point x="83.52272727272728" y="740.0" type="curve" smooth="yes"/>
+      <point x="83.52272727272728" y="246.4090909090909"/>
+      <point x="386.5909090909091" y="-19.727272727272727"/>
+    </contour>
+    <contour>
+      <point x="863.6818181818182" y="297.79545454545456" type="curve" smooth="yes"/>
+      <point x="627.8636363636364" y="297.79545454545456"/>
+      <point x="494.0681818181818" y="432.0681818181818"/>
+      <point x="494.0681818181818" y="747.4545454545455" type="curve" smooth="yes"/>
+      <point x="494.0681818181818" y="1047.9318181818182"/>
+      <point x="631.75" y="1182.2045454545455"/>
+      <point x="863.6818181818182" y="1182.2045454545455" type="curve" smooth="yes"/>
+      <point x="1095.6136363636365" y="1182.2045454545455"/>
+      <point x="1233.2954545454545" y="1044.0454545454545"/>
+      <point x="1233.2954545454545" y="732.5454545454545" type="curve" smooth="yes"/>
+      <point x="1233.2954545454545" y="435.95454545454544"/>
+      <point x="1099.5" y="297.79545454545456"/>
+    </contour>
+    <component base="tildecomb.case" xOffset="270.5"/>
+    <component base="macroncomb.case" xOffset="270.5" yOffset="376.54545454545456"/>
+  </outline>
+</glyph>

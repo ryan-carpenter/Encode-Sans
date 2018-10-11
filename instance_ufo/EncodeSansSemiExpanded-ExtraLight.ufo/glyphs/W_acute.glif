@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wacute" format="2">
+  <advance width="2171.1060606060605"/>
+  <unicode hex="1E82"/>
+  <anchor x="1086.7272727272727" y="1520.0" name="_top"/>
+  <anchor x="1086.7272727272727" y="0.0" name="bottom"/>
+  <anchor x="1086.7272727272727" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="529.3636363636364" y="0.0" type="line"/>
+      <point x="652.6363636363636" y="0.0" type="line"/>
+      <point x="1097.9848484848485" y="1420.5151515151515" type="line"/>
+      <point x="1073.1818181818182" y="1420.5151515151515" type="line"/>
+      <point x="1518.469696969697" y="0.0" type="line"/>
+      <point x="1641.7424242424242" y="0.0" type="line"/>
+      <point x="2097.621212121212" y="1480.0" type="line"/>
+      <point x="2006.2424242424242" y="1480.0" type="line"/>
+      <point x="1569.439393939394" y="50.39393939393939" type="line"/>
+      <point x="1590.2575757575758" y="50.39393939393939" type="line"/>
+      <point x="1145.7272727272727" y="1480.0" type="line"/>
+      <point x="1027.3636363636363" y="1480.0" type="line"/>
+      <point x="583.1212121212121" y="50.39393939393939" type="line"/>
+      <point x="604.6969696969697" y="50.39393939393939" type="line"/>
+      <point x="168.9090909090909" y="1480.0" type="line"/>
+      <point x="72.07575757575758" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1042.4545454545455" y="1614.1818181818182" type="line"/>
+      <point x="1130.6363636363637" y="1614.1818181818182" type="line"/>
+      <point x="1346.3939393939395" y="1888.8484848484848" type="line"/>
+      <point x="1240.6515151515152" y="1888.8484848484848" type="line"/>
+    </contour>
+  </outline>
+</glyph>

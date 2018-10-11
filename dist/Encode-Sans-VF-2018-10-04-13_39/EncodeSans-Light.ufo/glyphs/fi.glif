@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi" format="2">
+  <advance width="1133.8272727272727"/>
+  <unicode hex="FB01"/>
+  <anchor x="914.4305050505051" y="0.0" name="bottom"/>
+  <anchor x="974.4307070707072" y="0.0" name="ogonek"/>
+  <anchor x="914.4305050505051" y="1570.5252525252524" name="top"/>
+  <outline>
+    <component base="f.short"/>
+    <component base="i" xOffset="695.0337373737374"/>
+  </outline>
+</glyph>

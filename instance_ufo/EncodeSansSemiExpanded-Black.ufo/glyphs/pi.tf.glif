@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi.tf" format="2">
+  <advance width="1380.0"/>
+  <outline>
+    <contour>
+      <point x="1137.5" y="-21.5" type="curve" smooth="yes"/>
+      <point x="1236.5" y="-21.5"/>
+      <point x="1317.0" y="-8.5"/>
+      <point x="1380.0" y="5.5" type="curve"/>
+      <point x="1380.0" y="344.5" type="line"/>
+      <point x="1336.0" y="337.5"/>
+      <point x="1303.5" y="333.5"/>
+      <point x="1271.0" y="333.5" type="curve" smooth="yes"/>
+      <point x="1193.0" y="333.5"/>
+      <point x="1152.0" y="371.5"/>
+      <point x="1152.0" y="461.5" type="curve" smooth="yes"/>
+      <point x="1152.0" y="912.0" type="line"/>
+      <point x="727.5" y="912.0" type="line"/>
+      <point x="727.5" y="389.5" type="line" smooth="yes"/>
+      <point x="727.5" y="121.5"/>
+      <point x="871.0" y="-21.5"/>
+    </contour>
+    <contour>
+      <point x="150.0" y="0.0" type="line"/>
+      <point x="574.5" y="0.0" type="line"/>
+      <point x="574.5" y="913.5" type="line"/>
+      <point x="150.0" y="913.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="755.0" type="line"/>
+      <point x="1302.0" y="755.0" type="line"/>
+      <point x="1302.0" y="1100.0" type="line"/>
+      <point x="0.0" y="1100.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

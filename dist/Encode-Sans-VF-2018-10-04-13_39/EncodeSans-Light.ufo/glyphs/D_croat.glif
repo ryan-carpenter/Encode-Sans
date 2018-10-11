@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat" format="2">
+  <advance width="1375.3913131313132"/>
+  <unicode hex="0110"/>
+  <anchor x="626.2515151515152" y="0.0" name="bottom"/>
+  <anchor x="685.2347474747475" y="740.0" name="center"/>
+  <anchor x="178.23454545454544" y="762.0" name="stroke"/>
+  <anchor x="623.3464646464647" y="1520.0" name="top"/>
+  <outline>
+    <component base="Eth"/>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="strokeshortcomb.d" format="2">
+  <anchor x="705.5863636363637" y="1087.821212121212" name="_stroke"/>
+  <outline>
+    <contour>
+      <point x="148.8380303030303" y="1018.7151515151515" type="line"/>
+      <point x="839.9495454545455" y="1018.7151515151515" type="line"/>
+      <point x="839.9495454545455" y="1156.9272727272728" type="line"/>
+      <point x="148.8380303030303" y="1156.9272727272728" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>1200.0</real>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

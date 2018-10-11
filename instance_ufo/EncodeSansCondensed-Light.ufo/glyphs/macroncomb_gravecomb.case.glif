@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb_gravecomb.case" format="2">
+  <anchor x="430.3030303030303" y="1520.0" name="_top"/>
+  <anchor x="430.3030303030303" y="1808.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="377.75757575757575" y="1899.4545454545455" type="line"/>
+      <point x="482.8484848484849" y="1899.4545454545455" type="line"/>
+      <point x="349.6969696969697" y="2131.4545454545455" type="line"/>
+      <point x="222.54545454545453" y="2131.4545454545455" type="line"/>
+    </contour>
+    <contour>
+      <point x="169.6969696969697" y="1708.5454545454545" type="line"/>
+      <point x="690.9090909090909" y="1708.5454545454545" type="line"/>
+      <point x="690.9090909090909" y="1795.030303030303" type="line"/>
+      <point x="169.6969696969697" y="1795.030303030303" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

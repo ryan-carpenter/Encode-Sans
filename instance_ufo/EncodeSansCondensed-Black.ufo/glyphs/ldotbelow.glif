@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldotbelow" format="2">
+  <advance width="542.0"/>
+  <unicode hex="1E37"/>
+  <anchor x="272.0" y="0.0" name="_bottom"/>
+  <anchor x="272.0" y="0.0" name="bottom"/>
+  <anchor x="544.0" y="1616.0" name="caronalt"/>
+  <anchor x="704.0" y="794.0" name="periodcentered"/>
+  <anchor x="272.0" y="714.0" name="slash"/>
+  <anchor x="272.0" y="1616.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="78.0" y="0.0" type="line"/>
+      <point x="464.0" y="0.0" type="line"/>
+      <point x="464.0" y="1616.0" type="line"/>
+      <point x="78.0" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="272.0" y="-500.0" type="curve" smooth="yes"/>
+      <point x="396.0" y="-500.0"/>
+      <point x="476.0" y="-426.0"/>
+      <point x="476.0" y="-302.0" type="curve" smooth="yes"/>
+      <point x="476.0" y="-178.0"/>
+      <point x="396.0" y="-104.0"/>
+      <point x="272.0" y="-104.0" type="curve" smooth="yes"/>
+      <point x="148.0" y="-104.0"/>
+      <point x="68.0" y="-178.0"/>
+      <point x="68.0" y="-302.0" type="curve" smooth="yes"/>
+      <point x="68.0" y="-426.0"/>
+      <point x="148.0" y="-500.0"/>
+    </contour>
+  </outline>
+</glyph>

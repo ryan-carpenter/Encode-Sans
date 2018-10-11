@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yen.tf" format="2">
+  <advance width="1156.5366666666666"/>
+  <outline>
+    <contour>
+      <point x="495.1842272727273" y="0.0" type="line"/>
+      <point x="657.2406818181818" y="0.0" type="line"/>
+      <point x="657.2406818181818" y="723.961" type="line"/>
+      <point x="621.7657121212121" y="603.4298636363636" type="line"/>
+      <point x="1158.045106060606" y="1480.0" type="line"/>
+      <point x="992.1842272727273" y="1480.0" type="line"/>
+      <point x="552.7319545454545" y="758.8047121212121" type="line"/>
+      <point x="606.3186818181819" y="758.8047121212121" type="line"/>
+      <point x="166.58148484848485" y="1480.0" type="line"/>
+      <point x="-10.245924242424241" y="1480.0" type="line"/>
+      <point x="530.659196969697" y="603.4298636363636" type="line"/>
+      <point x="495.1842272727273" y="725.502909090909" type="line"/>
+    </contour>
+    <contour>
+      <point x="203.67025757575757" y="298.67025757575755" type="line"/>
+      <point x="948.7546515151515" y="298.67025757575755" type="line"/>
+      <point x="948.7546515151515" y="408.4135606060606" type="line"/>
+      <point x="203.67025757575757" y="408.4135606060606" type="line"/>
+    </contour>
+    <contour>
+      <point x="203.67025757575757" y="639.5864393939394" type="line"/>
+      <point x="948.7546515151515" y="639.5864393939394" type="line"/>
+      <point x="948.7546515151515" y="749.3297424242425" type="line"/>
+      <point x="203.67025757575757" y="749.3297424242425" type="line"/>
+    </contour>
+  </outline>
+</glyph>

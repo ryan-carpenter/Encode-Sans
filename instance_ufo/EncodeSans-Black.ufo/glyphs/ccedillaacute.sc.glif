@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedillaacute.sc" format="2">
+  <advance width="1154.0"/>
+  <anchor x="694.0" y="0.0" name="bottom"/>
+  <anchor x="697.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="815.0" y="-16.0" type="curve" smooth="yes"/>
+      <point x="911.0" y="-16.0"/>
+      <point x="1022.0" y="-3.0"/>
+      <point x="1099.0" y="17.0" type="curve"/>
+      <point x="1099.0" y="346.0" type="line"/>
+      <point x="1028.0" y="329.0"/>
+      <point x="939.0" y="315.0"/>
+      <point x="861.0" y="315.0" type="curve" smooth="yes"/>
+      <point x="609.0" y="315.0"/>
+      <point x="512.0" y="403.0"/>
+      <point x="512.0" y="594.0" type="curve" smooth="yes"/>
+      <point x="512.0" y="785.0"/>
+      <point x="614.0" y="875.0"/>
+      <point x="870.0" y="875.0" type="curve" smooth="yes"/>
+      <point x="952.0" y="875.0"/>
+      <point x="1029.0" y="866.0"/>
+      <point x="1099.0" y="855.0" type="curve"/>
+      <point x="1099.0" y="1184.0" type="line"/>
+      <point x="1016.0" y="1199.0"/>
+      <point x="921.0" y="1206.0"/>
+      <point x="829.0" y="1206.0" type="curve" smooth="yes"/>
+      <point x="329.0" y="1206.0"/>
+      <point x="60.0" y="976.0"/>
+      <point x="60.0" y="592.0" type="curve" smooth="yes"/>
+      <point x="60.0" y="187.0"/>
+      <point x="319.0" y="-16.0"/>
+    </contour>
+    <component base="cedillacomb.case" xOffset="94.0"/>
+    <component base="acutecomb.case" xOffset="97.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

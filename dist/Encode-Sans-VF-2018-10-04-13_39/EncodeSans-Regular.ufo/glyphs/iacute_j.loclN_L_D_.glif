@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iacute_j.loclNLD" format="2">
+  <advance width="924.9615757575757"/>
+  <anchor x="231.24039393939393" y="0.0" name="bottom"/>
+  <anchor x="311.2406818181818" y="0.0" name="ogonek"/>
+  <anchor x="231.24039393939393" y="1200.0" name="top_1"/>
+  <anchor x="692.4362575757575" y="1204.458090909091" name="top_2"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="acutecomb" xOffset="-294.4580909090909"/>
+    <component base="jdotless" xOffset="462.48078787878785"/>
+    <component base="acutecomb" xOffset="166.73777272727273" yOffset="4.4580909090909095"/>
+  </outline>
+</glyph>

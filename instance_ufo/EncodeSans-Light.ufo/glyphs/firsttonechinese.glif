@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="firsttonechinese" format="2">
+  <advance width="1029.2929292929293"/>
+  <unicode hex="02C9"/>
+  <anchor x="514.6464646464647" y="1200.0" name="_top"/>
+  <anchor x="514.6464646464647" y="1577.090909090909" name="top"/>
+  <outline>
+    <contour>
+      <point x="216.56060606060606" y="1379.5" type="line"/>
+      <point x="812.7323232323233" y="1379.5" type="line"/>
+      <point x="812.7323232323233" y="1466.1818181818182" type="line"/>
+      <point x="216.56060606060606" y="1466.1818181818182" type="line"/>
+    </contour>
+  </outline>
+</glyph>

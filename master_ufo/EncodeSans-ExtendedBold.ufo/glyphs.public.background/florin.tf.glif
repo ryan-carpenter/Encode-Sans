@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="florin.tf" format="2">
+  <outline>
+    <contour>
+      <point x="556.0" y="698.0" type="line"/>
+      <point x="556.0" y="-438.0" type="line"/>
+      <point x="1016.0" y="-322.0" type="line"/>
+      <point x="1016.0" y="698.0" type="line"/>
+      <point x="1328.0" y="698.0" type="line"/>
+      <point x="1328.0" y="1080.0" type="line"/>
+      <point x="1016.0" y="1080.0" type="line"/>
+      <point x="1016.0" y="1132.0" type="line" smooth="yes"/>
+      <point x="1016.0" y="1254.0"/>
+      <point x="1120.0" y="1308.0"/>
+      <point x="1358.0" y="1308.0" type="curve"/>
+      <point x="1338.0" y="1632.0" type="line"/>
+      <point x="778.0" y="1632.0"/>
+      <point x="558.0" y="1494.0"/>
+      <point x="558.0" y="1126.0" type="curve" smooth="yes"/>
+      <point x="558.0" y="1080.0" type="line"/>
+      <point x="294.0" y="1080.0" type="line"/>
+      <point x="294.0" y="698.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

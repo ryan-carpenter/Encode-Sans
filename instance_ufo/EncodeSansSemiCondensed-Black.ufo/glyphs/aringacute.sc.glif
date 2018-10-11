@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aringacute.sc" format="2">
+  <advance width="1257.0"/>
+  <anchor x="628.5" y="0.0" name="bottom"/>
+  <anchor x="1257.0" y="0.0" name="ogonek"/>
+  <anchor x="628.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="396.0" y="0.0" type="line"/>
+      <point x="642.0" y="1027.0" type="line"/>
+      <point x="608.0" y="1027.0" type="line"/>
+      <point x="857.0" y="0.0" type="line"/>
+      <point x="1257.0" y="0.0" type="line"/>
+      <point x="934.5" y="1190.0" type="line"/>
+      <point x="322.5" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="278.0" y="244.0" type="line"/>
+      <point x="976.5" y="244.0" type="line"/>
+      <point x="896.0" y="550.0" type="line"/>
+      <point x="357.5" y="550.0" type="line"/>
+    </contour>
+    <component base="ringcomb_acutecomb.case" xOffset="28.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

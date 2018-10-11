@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tlinebelow" format="2">
+  <advance width="1059.7272727272727"/>
+  <unicode hex="1E6E"/>
+  <anchor x="529.9090909090909" y="0.0" name="_bottom"/>
+  <anchor x="529.9090909090909" y="0.0" name="bottom"/>
+  <anchor x="529.9090909090909" y="793.939393939394" name="center"/>
+  <anchor x="529.9090909090909" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="485.3636363636364" y="0.0" type="line"/>
+      <point x="574.3636363636364" y="0.0" type="line"/>
+      <point x="574.3636363636364" y="1396.6969696969697" type="line"/>
+      <point x="1048.878787878788" y="1396.6969696969697" type="line"/>
+      <point x="1048.878787878788" y="1480.0" type="line"/>
+      <point x="10.848484848484848" y="1480.0" type="line"/>
+      <point x="10.848484848484848" y="1396.6969696969697" type="line"/>
+      <point x="485.3636363636364" y="1396.6969696969697" type="line"/>
+    </contour>
+    <contour>
+      <point x="266.54545454545456" y="-284.24242424242425" type="line"/>
+      <point x="793.2727272727273" y="-284.24242424242425" type="line"/>
+      <point x="793.2727272727273" y="-214.3181818181818" type="line"/>
+      <point x="266.54545454545456" y="-214.3181818181818" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <outline>
+    <component base="D"/>
+    <component base="strokeshortcomb.h" xOffset="-192.0" yOffset="-158.0"/>
+  </outline>
+</glyph>

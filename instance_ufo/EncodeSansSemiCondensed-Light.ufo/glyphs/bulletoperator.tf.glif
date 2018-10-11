@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bulletoperator.tf" format="2">
+  <advance width="1080.7575757575758"/>
+  <anchor x="540.3787878787879" y="760.0" name="_periodcentered"/>
+  <outline>
+    <contour>
+      <point x="540.3787878787879" y="669.4166666666666" type="curve" smooth="yes"/>
+      <point x="593.5883838383838" y="669.4166666666666"/>
+      <point x="630.939393939394" y="704.1818181818181"/>
+      <point x="630.939393939394" y="758.2929292929293" type="curve" smooth="yes"/>
+      <point x="630.939393939394" y="812.4040404040404"/>
+      <point x="594.1742424242425" y="848.8762626262627"/>
+      <point x="540.3787878787879" y="848.8762626262627" type="curve" smooth="yes"/>
+      <point x="486.5833333333333" y="848.8762626262627"/>
+      <point x="449.8181818181818" y="812.989898989899"/>
+      <point x="449.8181818181818" y="758.2929292929293" type="curve" smooth="yes"/>
+      <point x="449.8181818181818" y="703.5959595959596"/>
+      <point x="487.1691919191919" y="669.4166666666666"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

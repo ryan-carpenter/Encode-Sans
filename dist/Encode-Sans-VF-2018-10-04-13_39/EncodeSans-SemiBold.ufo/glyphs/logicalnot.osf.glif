@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot.osf" format="2">
+  <advance width="1327.8770909090908"/>
+  <outline>
+    <contour>
+      <point x="994.955393939394" y="0.0" type="line"/>
+      <point x="1207.1005252525254" y="0.0" type="line"/>
+      <point x="1207.1005252525254" y="661.3630707070707" type="line"/>
+      <point x="128.5251717171717" y="661.3630707070707" type="line"/>
+      <point x="128.5251717171717" y="458.63692929292927" type="line"/>
+      <point x="994.955393939394" y="458.63692929292927" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

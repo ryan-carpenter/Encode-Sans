@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hdotbelow.sc" format="2">
+  <advance width="1392.7424242424242"/>
+  <anchor x="696.3863636363636" y="0.0" name="bottom"/>
+  <anchor x="696.3863636363636" y="938.1590909090909" name="center"/>
+  <anchor x="696.3863636363636" y="1230.0" name="top"/>
+  <anchor x="69.09848484848484" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="183.49242424242425" y="0.0" type="line"/>
+      <point x="350.27272727272725" y="0.0" type="line"/>
+      <point x="350.27272727272725" y="540.0757575757576" type="line"/>
+      <point x="1042.469696969697" y="540.0757575757576" type="line"/>
+      <point x="1042.469696969697" y="0.0" type="line"/>
+      <point x="1209.25" y="0.0" type="line"/>
+      <point x="1209.25" y="1190.0" type="line"/>
+      <point x="1042.469696969697" y="1190.0" type="line"/>
+      <point x="1042.469696969697" y="681.3484848484849" type="line"/>
+      <point x="350.27272727272725" y="681.3484848484849" type="line"/>
+      <point x="350.27272727272725" y="1190.0" type="line"/>
+      <point x="183.49242424242425" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="133.50757575757575"/>
+  </outline>
+</glyph>

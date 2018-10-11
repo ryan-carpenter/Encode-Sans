@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tlinebelow" format="2">
+  <advance width="1285.8655454545456"/>
+  <unicode hex="1E6E"/>
+  <anchor x="643.2847272727272" y="-449.85472727272725" name="bottom"/>
+  <anchor x="643.2847272727272" y="729.6090909090909" name="center"/>
+  <anchor x="643.2847272727272" y="1520.0" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="macronbelowcomb.case" xOffset="72.89381818181818"/>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="600.0" y="1200.0" name="_top"/>
+  <anchor x="600.0" y="1656.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="499.0" y="1220.0" type="curve"/>
+      <point x="701.0" y="1220.0" type="line"/>
+      <point x="715.0" y="1328.0"/>
+      <point x="860.0" y="1322.0"/>
+      <point x="860.0" y="1466.0" type="curve" smooth="yes"/>
+      <point x="860.0" y="1578.0"/>
+      <point x="775.0" y="1628.0"/>
+      <point x="594.0" y="1628.0" type="curve" smooth="yes"/>
+      <point x="532.0" y="1628.0"/>
+      <point x="445.0" y="1619.0"/>
+      <point x="389.0" y="1602.0" type="curve"/>
+      <point x="389.0" y="1451.0" type="line"/>
+      <point x="452.0" y="1468.0"/>
+      <point x="507.0" y="1475.0"/>
+      <point x="560.0" y="1475.0" type="curve" smooth="yes"/>
+      <point x="620.0" y="1475.0"/>
+      <point x="645.0" y="1464.0"/>
+      <point x="645.0" y="1438.0" type="curve" smooth="yes"/>
+      <point x="645.0" y="1380.0"/>
+      <point x="507.0" y="1368.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

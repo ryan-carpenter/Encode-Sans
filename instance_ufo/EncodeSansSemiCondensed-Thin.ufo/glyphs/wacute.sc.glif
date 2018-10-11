@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wacute.sc" format="2">
+  <advance width="1655.0"/>
+  <anchor x="829.5" y="0.0" name="bottom"/>
+  <anchor x="829.5" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="409.5" y="0.0" type="line"/>
+      <point x="503.0" y="0.0" type="line"/>
+      <point x="836.0" y="1141.0" type="line"/>
+      <point x="820.5" y="1141.0" type="line"/>
+      <point x="1153.5" y="0.0" type="line"/>
+      <point x="1246.0" y="0.0" type="line"/>
+      <point x="1589.5" y="1190.0" type="line"/>
+      <point x="1523.0" y="1190.0" type="line"/>
+      <point x="1192.5" y="38.5" type="line"/>
+      <point x="1207.0" y="38.5" type="line"/>
+      <point x="873.5" y="1190.0" type="line"/>
+      <point x="783.5" y="1190.0" type="line"/>
+      <point x="449.5" y="38.5" type="line"/>
+      <point x="467.0" y="38.5" type="line"/>
+      <point x="136.0" y="1190.0" type="line"/>
+      <point x="65.5" y="1190.0" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="379.5" yOffset="-290.0"/>
+  </outline>
+</glyph>

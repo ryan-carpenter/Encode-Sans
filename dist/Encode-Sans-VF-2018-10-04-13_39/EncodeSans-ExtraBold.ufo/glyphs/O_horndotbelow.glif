@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorndotbelow" format="2">
+  <advance width="1605.452"/>
+  <unicode hex="1EE2"/>
+  <anchor x="802.726" y="-452.04466666666667" name="bottom"/>
+  <anchor x="802.726" y="1520.0" name="top"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="dotbelowcomb.case" xOffset="216.69266666666667"/>
+  </outline>
+</glyph>

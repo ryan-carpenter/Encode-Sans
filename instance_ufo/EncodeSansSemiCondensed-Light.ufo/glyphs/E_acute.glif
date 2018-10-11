@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eacute" format="2">
+  <advance width="1058.328282828283"/>
+  <unicode hex="00C9"/>
+  <anchor x="602.1767676767677" y="1520.0" name="_top"/>
+  <anchor x="603.030303030303" y="0.0" name="bottom"/>
+  <anchor x="923.2651515151515" y="0.0" name="ogonek"/>
+  <anchor x="602.1767676767677" y="1520.0" name="top"/>
+  <anchor x="38.28030303030303" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="165.50252525252523" y="0.0" type="line"/>
+      <point x="1003.9974747474748" y="0.0" type="line"/>
+      <point x="1003.9974747474748" y="105.83838383838389" type="line"/>
+      <point x="283.1540404040405" y="105.83838383838389" type="line"/>
+      <point x="283.1540404040405" y="1374.1616161616162" type="line"/>
+      <point x="993.9974747474748" y="1374.1616161616162" type="line"/>
+      <point x="993.9974747474748" y="1480.0" type="line"/>
+      <point x="165.50252525252523" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="251.33333333333337" y="707.2020202020202" type="line"/>
+      <point x="899.7398989898991" y="707.2020202020202" type="line"/>
+      <point x="899.7398989898991" y="813.040404040404" type="line"/>
+      <point x="251.33333333333337" y="813.040404040404" type="line"/>
+    </contour>
+    <contour>
+      <point x="549.8409090909091" y="1611.6060606060605" type="line"/>
+      <point x="654.219696969697" y="1611.6060606060605" type="line"/>
+      <point x="830.6666666666667" y="1890.050505050505" type="line"/>
+      <point x="704.4166666666666" y="1890.050505050505" type="line"/>
+    </contour>
+  </outline>
+</glyph>

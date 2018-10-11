@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abreveacute.sc" format="2">
+  <advance width="1101.939393939394"/>
+  <anchor x="550.969696969697" y="0.0" name="bottom"/>
+  <anchor x="1097.8080808080808" y="0.0" name="ogonek"/>
+  <anchor x="550.969696969697" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="4.131313131313135" y="0.0" type="line"/>
+      <point x="288.9494949494949" y="0.0" type="line"/>
+      <point x="561.7777777777777" y="1064.3535353535353" type="line"/>
+      <point x="533.3535353535353" y="1064.3535353535353" type="line"/>
+      <point x="808.989898989899" y="0.0" type="line"/>
+      <point x="1097.8080808080808" y="0.0" type="line"/>
+      <point x="770.4747474747475" y="1190.0" type="line"/>
+      <point x="330.8686868686869" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="216.0" y="296.6565656565657" type="line"/>
+      <point x="883.9393939393939" y="296.6565656565657" type="line"/>
+      <point x="828.030303030303" y="527.7373737373737" type="line"/>
+      <point x="270.5050505050505" y="527.7373737373737" type="line"/>
+    </contour>
+    <component base="brevecomb_acutecomb.case" xOffset="10.565656565656582" yOffset="-290.0"/>
+  </outline>
+</glyph>

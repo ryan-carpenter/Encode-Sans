@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron" format="2">
+  <advance width="490.9048484848485"/>
+  <unicode hex="012B"/>
+  <anchor x="245.45242424242426" y="0.0" name="bottom"/>
+  <anchor x="349.45227272727277" y="0.0" name="ogonek"/>
+  <anchor x="245.45242424242426" y="1579.4636363636364" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="macroncomb" xOffset="-293.65363636363634"/>
+  </outline>
+</glyph>

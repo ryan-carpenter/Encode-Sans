@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idotbelow" format="2">
+  <advance width="736.0"/>
+  <unicode hex="1ECA"/>
+  <anchor x="366.0" y="0.0" name="_bottom"/>
+  <anchor x="366.0" y="0.0" name="bottom"/>
+  <anchor x="606.0" y="0.0" name="ogonek"/>
+  <anchor x="368.0" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="130.0" y="0.0" type="line"/>
+      <point x="606.0" y="0.0" type="line"/>
+      <point x="606.0" y="1480.0" type="line"/>
+      <point x="130.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="366.0" y="-464.0" type="curve" smooth="yes"/>
+      <point x="558.0" y="-464.0"/>
+      <point x="634.0" y="-390.0"/>
+      <point x="634.0" y="-284.0" type="curve" smooth="yes"/>
+      <point x="634.0" y="-178.0"/>
+      <point x="558.0" y="-104.0"/>
+      <point x="366.0" y="-104.0" type="curve" smooth="yes"/>
+      <point x="174.0" y="-104.0"/>
+      <point x="98.0" y="-178.0"/>
+      <point x="98.0" y="-284.0" type="curve" smooth="yes"/>
+      <point x="98.0" y="-390.0"/>
+      <point x="174.0" y="-464.0"/>
+    </contour>
+  </outline>
+</glyph>

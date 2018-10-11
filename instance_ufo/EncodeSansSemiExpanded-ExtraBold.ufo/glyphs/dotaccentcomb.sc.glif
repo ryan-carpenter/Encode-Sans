@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccentcomb.sc" format="2">
+  <anchor x="593.1818181818182" y="1520.0" name="_top"/>
+  <anchor x="593.1818181818182" y="1902.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="593.1818181818182" y="1586.3636363636363" type="curve" smooth="yes"/>
+      <point x="753.9772727272727" y="1586.3636363636363"/>
+      <point x="826.1818181818182" y="1650.090909090909"/>
+      <point x="826.1818181818182" y="1750.2727272727273" type="curve" smooth="yes"/>
+      <point x="826.1818181818182" y="1850.4545454545455"/>
+      <point x="753.9772727272727" y="1914.4545454545455"/>
+      <point x="593.1818181818182" y="1914.4545454545455" type="curve" smooth="yes"/>
+      <point x="432.3863636363636" y="1914.4545454545455"/>
+      <point x="360.18181818181813" y="1850.4545454545455"/>
+      <point x="360.18181818181813" y="1750.2727272727273" type="curve" smooth="yes"/>
+      <point x="360.18181818181813" y="1650.090909090909"/>
+      <point x="432.3863636363636" y="1586.3636363636363"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

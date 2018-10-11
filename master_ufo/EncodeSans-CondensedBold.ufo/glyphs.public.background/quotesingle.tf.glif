@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesingle.tf" format="2">
+  <outline>
+    <contour>
+      <point x="240.0" y="960.0" type="line"/>
+      <point x="454.0" y="960.0" type="line"/>
+      <point x="558.0" y="1608.0" type="line"/>
+      <point x="558.0" y="1616.0" type="line"/>
+      <point x="240.0" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

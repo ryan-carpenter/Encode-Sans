@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idblgrave" format="2">
+  <advance width="490.44444444444446"/>
+  <unicode hex="0209"/>
+  <anchor x="245.22222222222223" y="1200.0" name="_top"/>
+  <anchor x="245.22222222222223" y="0.0" name="bottom"/>
+  <anchor x="348.83333333333337" y="0.0" name="ogonek"/>
+  <anchor x="245.22222222222223" y="1200.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="141.6111111111111" y="0.0" type="line"/>
+      <point x="348.83333333333337" y="0.0" type="line"/>
+      <point x="348.83333333333337" y="1087.7777777777778" type="line"/>
+      <point x="141.6111111111111" y="1087.7777777777778" type="line"/>
+    </contour>
+    <contour>
+      <point x="344.33333333333337" y="1246.888888888889" type="line"/>
+      <point x="502.16666666666674" y="1246.888888888889" type="line"/>
+      <point x="361.7777777777778" y="1616.0" type="line"/>
+      <point x="190.66666666666669" y="1616.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-11.722222222222236" y="1246.888888888889" type="line"/>
+      <point x="146.11111111111114" y="1246.888888888889" type="line"/>
+      <point x="5.722222222222246" y="1616.0" type="line"/>
+      <point x="-165.3888888888889" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

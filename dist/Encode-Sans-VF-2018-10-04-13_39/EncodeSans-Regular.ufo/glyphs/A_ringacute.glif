@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aringacute" format="2">
+  <advance width="1348.704303030303"/>
+  <unicode hex="01FA"/>
+  <anchor x="675.0951666666667" y="0.0" name="bottom"/>
+  <anchor x="1320.184803030303" y="0.0" name="ogonek"/>
+  <anchor x="674.8381818181819" y="1520.0" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb_acutecomb.case" xOffset="151.36874242424244" yOffset="-133.74272727272728"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

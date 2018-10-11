@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ycircumflex.sc" format="2">
+  <advance width="1058.111111111111"/>
+  <anchor x="528.6666666666667" y="0.0" name="bottom"/>
+  <anchor x="528.6666666666667" y="1230.0" name="top"/>
+  <anchor x="1.55555555555555" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="425.05555555555554" y="0.0" type="line"/>
+      <point x="634.6111111111111" y="0.0" type="line"/>
+      <point x="634.6111111111111" y="595.1111111111111" type="line"/>
+      <point x="591.1666666666667" y="448.5" type="line"/>
+      <point x="1081.611111111111" y="1190.0" type="line"/>
+      <point x="872.3888888888889" y="1190.0" type="line"/>
+      <point x="502.83333333333337" y="639.2777777777778" type="line"/>
+      <point x="565.6666666666667" y="639.2777777777778" type="line"/>
+      <point x="192.22222222222229" y="1190.0" type="line"/>
+      <point x="-32.277777777777786" y="1190.0" type="line"/>
+      <point x="468.8888888888889" y="448.5" type="line"/>
+      <point x="425.05555555555554" y="597.0555555555555" type="line"/>
+    </contour>
+    <component base="circumflexcomb.case" xOffset="-10.222222222222229" yOffset="-290.0"/>
+  </outline>
+</glyph>

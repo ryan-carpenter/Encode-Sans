@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ndotbelow.sc" format="2">
+  <advance width="1206.5"/>
+  <anchor x="602.5" y="0.0" name="bottom"/>
+  <anchor x="602.5" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="179.0" y="0.0" type="line"/>
+      <point x="245.0" y="0.0" type="line"/>
+      <point x="245.0" y="1119.0" type="line"/>
+      <point x="218.0" y="1119.0" type="line"/>
+      <point x="953.5" y="0.0" type="line"/>
+      <point x="1027.5" y="0.0" type="line"/>
+      <point x="1027.5" y="1190.0" type="line"/>
+      <point x="961.5" y="1190.0" type="line"/>
+      <point x="961.5" y="71.0" type="line"/>
+      <point x="988.0" y="71.0" type="line"/>
+      <point x="252.5" y="1190.0" type="line"/>
+      <point x="179.0" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="152.5"/>
+  </outline>
+</glyph>

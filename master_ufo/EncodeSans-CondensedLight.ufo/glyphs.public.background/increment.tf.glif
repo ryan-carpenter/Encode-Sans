@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="increment.tf" format="2">
+  <outline>
+    <contour>
+      <point x="42.0" y="0.0" type="line"/>
+      <point x="1048.0" y="0.0" type="line"/>
+      <point x="590.0" y="1480.0" type="line"/>
+      <point x="500.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="134.0" y="68.0" type="line"/>
+      <point x="544.0" y="1392.0" type="line"/>
+      <point x="954.0" y="68.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

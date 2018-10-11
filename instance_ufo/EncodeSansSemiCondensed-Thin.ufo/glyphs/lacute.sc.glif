@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute.sc" format="2">
+  <advance width="857.0"/>
+  <anchor x="513.0" y="0.0" name="bottom"/>
+  <anchor x="563.5" y="1190.0" name="caronalt"/>
+  <anchor x="619.0" y="628.0" name="periodcentered"/>
+  <anchor x="213.0" y="626.0" name="slash"/>
+  <anchor x="213.0" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="179.0" y="0.0" type="line"/>
+      <point x="846.5" y="0.0" type="line"/>
+      <point x="846.5" y="64.0" type="line"/>
+      <point x="247.0" y="64.0" type="line"/>
+      <point x="247.0" y="1190.0" type="line"/>
+      <point x="179.0" y="1190.0" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="-237.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

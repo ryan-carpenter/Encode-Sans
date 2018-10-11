@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="2">
+  <advance width="1687.0"/>
+  <unicode hex="0126"/>
+  <anchor x="844.5" y="1216.5" name="_center"/>
+  <anchor x="844.5" y="0.0" name="bottom"/>
+  <anchor x="844.5" y="1216.5" name="center"/>
+  <anchor x="844.5" y="1520.0" name="top"/>
+  <anchor x="40.0" y="1480.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="119.5" y="0.0" type="line"/>
+      <point x="574.5" y="0.0" type="line"/>
+      <point x="574.5" y="559.5" type="line"/>
+      <point x="1112.5" y="559.5" type="line"/>
+      <point x="1112.5" y="0.0" type="line"/>
+      <point x="1567.5" y="0.0" type="line"/>
+      <point x="1567.5" y="1480.0" type="line"/>
+      <point x="1112.5" y="1480.0" type="line"/>
+      <point x="1112.5" y="950.5" type="line"/>
+      <point x="574.5" y="950.5" type="line"/>
+      <point x="574.5" y="1480.0" type="line"/>
+      <point x="119.5" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="6.0" y="1081.5" type="line"/>
+      <point x="1681.0" y="1081.5" type="line"/>
+      <point x="1681.0" y="1351.5" type="line"/>
+      <point x="6.0" y="1351.5" type="line"/>
+    </contour>
+  </outline>
+</glyph>

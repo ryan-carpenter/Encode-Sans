@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U" format="2">
+  <anchor x="876.0" y="-220.0" name="bottom"/>
+  <anchor x="876.0" y="108.0" name="ogonek"/>
+  <anchor x="882.0" y="1770.0" name="topUC"/>
+  <outline>
+    <contour>
+      <point x="114.0" y="0.0" type="line"/>
+      <point x="590.0" y="0.0" type="line"/>
+      <point x="590.0" y="554.0" type="line"/>
+      <point x="1172.0" y="554.0" type="line"/>
+      <point x="1172.0" y="0.0" type="line"/>
+      <point x="1648.0" y="0.0" type="line"/>
+      <point x="1648.0" y="1480.0" type="line"/>
+      <point x="1172.0" y="1480.0" type="line"/>
+      <point x="1172.0" y="956.0" type="line"/>
+      <point x="590.0" y="956.0" type="line"/>
+      <point x="590.0" y="1480.0" type="line"/>
+      <point x="114.0" y="1480.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

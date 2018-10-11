@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesingle.tf" format="2">
+  <advance width="591.2626262626263"/>
+  <outline>
+    <contour>
+      <point x="259.36868686868684" y="932.6666666666666" type="line"/>
+      <point x="331.89393939393943" y="932.6666666666666" type="line"/>
+      <point x="360.1666666666667" y="1616.0" type="line"/>
+      <point x="231.09595959595958" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

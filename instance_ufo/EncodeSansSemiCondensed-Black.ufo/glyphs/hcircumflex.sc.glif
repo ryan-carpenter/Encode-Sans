@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hcircumflex.sc" format="2">
+  <advance width="1345.0"/>
+  <anchor x="673.0" y="0.0" name="bottom"/>
+  <anchor x="673.0" y="979.5" name="center"/>
+  <anchor x="673.0" y="1230.0" name="top"/>
+  <anchor x="55.5" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="100.5" y="0.0" type="line"/>
+      <point x="511.0" y="0.0" type="line"/>
+      <point x="511.0" y="435.0" type="line"/>
+      <point x="834.0" y="435.0" type="line"/>
+      <point x="834.0" y="0.0" type="line"/>
+      <point x="1244.5" y="0.0" type="line"/>
+      <point x="1244.5" y="1190.0" type="line"/>
+      <point x="834.0" y="1190.0" type="line"/>
+      <point x="834.0" y="779.0" type="line"/>
+      <point x="511.0" y="779.0" type="line"/>
+      <point x="511.0" y="1190.0" type="line"/>
+      <point x="100.5" y="1190.0" type="line"/>
+    </contour>
+    <component base="circumflexcomb.case" xOffset="73.0" yOffset="-290.0"/>
+  </outline>
+</glyph>

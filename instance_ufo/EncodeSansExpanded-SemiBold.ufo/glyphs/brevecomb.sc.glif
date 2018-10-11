@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb.sc" format="2">
+  <anchor x="600.0" y="1520.0" name="_top"/>
+  <anchor x="600.0" y="1859.3333333333333" name="top"/>
+  <outline>
+    <contour>
+      <point x="600.9191919191919" y="1605.3030303030303" type="curve" smooth="yes"/>
+      <point x="866.9595959595961" y="1605.3030303030303"/>
+      <point x="986.8989898989898" y="1727.8383838383838"/>
+      <point x="1009.5454545454545" y="1882.6969696969697" type="curve"/>
+      <point x="833.89898989899" y="1882.6969696969697" type="line"/>
+      <point x="815.7373737373738" y="1802.3131313131314"/>
+      <point x="753.7373737373737" y="1745.2828282828284"/>
+      <point x="600.9191919191919" y="1745.2828282828284" type="curve" smooth="yes"/>
+      <point x="448.1010101010101" y="1745.2828282828284"/>
+      <point x="384.2626262626263" y="1802.3131313131314"/>
+      <point x="366.10101010101016" y="1882.6969696969697" type="curve"/>
+      <point x="190.4545454545454" y="1882.6969696969697" type="line"/>
+      <point x="213.10101010101008" y="1728.7575757575758"/>
+      <point x="334.8787878787879" y="1605.3030303030303"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

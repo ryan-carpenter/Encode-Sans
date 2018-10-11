@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mdotbelow.sc" format="2">
+  <advance width="1793.4444444444446"/>
+  <anchor x="910.7777777777778" y="0.0" name="bottom"/>
+  <anchor x="910.7777777777778" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="188.55555555555554" y="0.0" type="line"/>
+      <point x="396.8888888888889" y="0.0" type="line"/>
+      <point x="396.8888888888889" y="1014.5555555555555" type="line"/>
+      <point x="334.44444444444446" y="1014.5555555555555" type="line"/>
+      <point x="801.2222222222222" y="169.0" type="line"/>
+      <point x="992.2222222222223" y="169.0" type="line"/>
+      <point x="1446.0" y="1014.5555555555555" type="line"/>
+      <point x="1396.5555555555557" y="1014.5555555555555" type="line"/>
+      <point x="1396.5555555555557" y="0.0" type="line"/>
+      <point x="1604.888888888889" y="0.0" type="line"/>
+      <point x="1604.888888888889" y="1190.0" type="line"/>
+      <point x="1339.111111111111" y="1190.0" type="line"/>
+      <point x="882.0" y="335.2222222222223" type="line"/>
+      <point x="918.5555555555557" y="335.2222222222223" type="line"/>
+      <point x="454.33333333333337" y="1190.0" type="line"/>
+      <point x="188.55555555555554" y="1190.0" type="line"/>
+    </contour>
+    <component base="dotbelowcomb.case" xOffset="310.7777777777778"/>
+  </outline>
+</glyph>

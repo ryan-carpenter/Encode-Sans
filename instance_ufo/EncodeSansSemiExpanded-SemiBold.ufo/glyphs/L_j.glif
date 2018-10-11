@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lj" format="2">
+  <advance width="1750.5252525252527"/>
+  <unicode hex="01C8"/>
+  <anchor x="670.4116161616162" y="0.0" name="bottom"/>
+  <anchor x="788.8989898989898" y="1616.0" name="caronalt"/>
+  <anchor x="882.3636363636364" y="853.439393939394" name="periodcentered"/>
+  <anchor x="297.52525252525254" y="817.2323232323232" name="slash"/>
+  <anchor x="297.52525252525254" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="157.87626262626262" y="0.0" type="line"/>
+      <point x="1182.0277777777778" y="0.0" type="line"/>
+      <point x="1182.0277777777778" y="226.229797979798" type="line"/>
+      <point x="435.0126262626263" y="226.229797979798" type="line"/>
+      <point x="435.0126262626263" y="1480.0" type="line"/>
+      <point x="157.87626262626262" y="1480.0" type="line"/>
+    </contour>
+    <component base="jdotless" xOffset="1195.4747474747476"/>
+    <component base="dotaccentcomb" xOffset="891.9267676767677" yOffset="4.136363636363635"/>
+  </outline>
+</glyph>

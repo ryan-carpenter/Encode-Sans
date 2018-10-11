@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcommaaccent.sc" format="2">
+  <advance width="1057.1919191919192"/>
+  <anchor x="528.6666666666667" y="0.0" name="bottom"/>
+  <anchor x="528.6666666666667" y="626.2777777777777" name="center"/>
+  <anchor x="528.6666666666667" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="467.44444444444446" y="0.0" type="line"/>
+      <point x="589.7474747474748" y="0.0" type="line"/>
+      <point x="589.7474747474748" y="1087.6060606060605" type="line"/>
+      <point x="1039.2626262626263" y="1087.6060606060605" type="line"/>
+      <point x="1039.2626262626263" y="1190.0" type="line"/>
+      <point x="17.929292929292927" y="1190.0" type="line"/>
+      <point x="17.929292929292927" y="1087.6060606060605" type="line"/>
+      <point x="467.44444444444446" y="1087.6060606060605" type="line"/>
+    </contour>
+    <component base="commaaccentcomb.case" xOffset="-28.4040404040404"/>
+  </outline>
+</glyph>

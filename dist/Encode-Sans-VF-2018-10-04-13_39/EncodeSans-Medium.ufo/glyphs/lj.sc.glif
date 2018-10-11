@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lj.sc" format="2">
+  <advance width="1515.0834848484849"/>
+  <anchor x="565.9887878787879" y="0.0" name="bottom_1"/>
+  <anchor x="1377.2063636363637" y="0.0" name="bottom_2"/>
+  <anchor x="653.8378787878788" y="1190.0" name="caronalt"/>
+  <anchor x="731.5193939393939" y="678.0557575757576" name="periodcentered"/>
+  <anchor x="267.06136363636364" y="654.9384848484849" name="slash"/>
+  <anchor x="267.06136363636364" y="1230.0" name="top_1"/>
+  <anchor x="1249.9774242424241" y="1230.0" name="top_2"/>
+  <outline>
+    <component base="l.sc"/>
+    <component base="j.sc" xOffset="984.480303030303"/>
+  </outline>
+</glyph>

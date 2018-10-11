@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.tf" format="2">
+  <advance width="1156.5366666666666"/>
+  <outline>
+    <contour>
+      <point x="558.9831212121212" y="0.0" type="line"/>
+      <point x="721.0395757575758" y="0.0" type="line"/>
+      <point x="721.0395757575758" y="1484.5139696969698" type="line"/>
+      <point x="617.8771818181818" y="1484.5139696969698" type="line"/>
+      <point x="206.20110606060607" y="1187.9161818181817" type="line"/>
+      <point x="206.20110606060607" y="1027.9100757575757" type="line"/>
+      <point x="617.8771818181818" y="1323.0218333333332" type="line"/>
+      <point x="558.9831212121212" y="1367.340515151515" type="line"/>
+    </contour>
+    <contour>
+      <point x="211.83236363636362" y="0.0" type="line"/>
+      <point x="1053.1903333333335" y="0.0" type="line"/>
+      <point x="1053.1903333333335" y="139.03957575757576" type="line"/>
+      <point x="211.83236363636362" y="139.03957575757576" type="line"/>
+    </contour>
+  </outline>
+</glyph>

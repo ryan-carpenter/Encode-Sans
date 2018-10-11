@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="2">
+  <advance width="1324.5023333333334"/>
+  <unicode hex="0166"/>
+  <anchor x="662.6813333333333" y="0.0" name="bottom"/>
+  <anchor x="662.6813333333333" y="713.9666666666667" name="center"/>
+  <anchor x="662.6813333333333" y="1520.0" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="strokeshortcomb.case" xOffset="49.21799999999999" yOffset="-366.03333333333336"/>
+  </outline>
+</glyph>

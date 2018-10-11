@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zacute" format="2">
+  <advance width="1313.0707070707072"/>
+  <unicode hex="0179"/>
+  <anchor x="656.7878787878788" y="1520.0" name="_top"/>
+  <anchor x="656.7878787878788" y="0.0" name="bottom"/>
+  <anchor x="656.7878787878788" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="73.53535353535354" y="0.0" type="line"/>
+      <point x="1239.5353535353536" y="0.0" type="line"/>
+      <point x="1239.5353535353536" y="140.76767676767682" type="line"/>
+      <point x="263.2323232323233" y="140.76767676767682" type="line"/>
+      <point x="272.2020202020203" y="100.60606060606065" type="line"/>
+      <point x="1226.5454545454545" y="1385.9595959595958" type="line"/>
+      <point x="1226.5454545454545" y="1480.0" type="line"/>
+      <point x="86.52525252525253" y="1480.0" type="line"/>
+      <point x="86.52525252525253" y="1339.232323232323" type="line"/>
+      <point x="1036.8484848484848" y="1339.232323232323" type="line"/>
+      <point x="1027.8787878787878" y="1379.3939393939393" type="line"/>
+      <point x="73.53535353535354" y="94.04040404040408" type="line"/>
+    </contour>
+    <contour>
+      <point x="575.8383838383838" y="1608.4242424242425" type="line"/>
+      <point x="735.7171717171718" y="1608.4242424242425" type="line"/>
+      <point x="980.8080808080808" y="1891.5353535353536" type="line"/>
+      <point x="793.2929292929293" y="1891.5353535353536" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccentcomb_macroncomb.case" format="2">
+  <outline>
+    <component base="dotaccentcomb.case"/>
+    <component base="macroncomb.case"/>
+  </outline>
+</glyph>

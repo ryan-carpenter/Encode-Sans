@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash.tf" format="2">
+  <outline>
+    <contour>
+      <point x="280.0" y="-240.0" type="line"/>
+      <point x="350.0" y="-240.0" type="line"/>
+      <point x="698.0" y="1616.0" type="line"/>
+      <point x="628.0" y="1616.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

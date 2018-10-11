@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira.tf" format="2">
+  <advance width="1380.0"/>
+  <outline>
+    <contour>
+      <point x="260.0" y="0.0" type="line"/>
+      <point x="584.0" y="0.0" type="line"/>
+      <point x="584.0" y="930.0" type="line"/>
+      <point x="491.0" y="930.0" type="line"/>
+      <point x="794.5" y="0.0" type="line"/>
+      <point x="1120.0" y="0.0" type="line"/>
+      <point x="1121.0" y="1480.0" type="line"/>
+      <point x="797.0" y="1480.0" type="line"/>
+      <point x="797.0" y="550.0" type="line"/>
+      <point x="886.0" y="550.0" type="line"/>
+      <point x="584.5" y="1480.0" type="line"/>
+      <point x="260.0" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="70.0" y="455.5" type="line"/>
+      <point x="393.0" y="455.5" type="line"/>
+      <point x="393.0" y="701.5" type="line"/>
+      <point x="70.0" y="701.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="70.0" y="798.5" type="line"/>
+      <point x="393.0" y="798.5" type="line"/>
+      <point x="393.0" y="1044.5" type="line"/>
+      <point x="70.0" y="1044.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="972.0" y="455.5" type="line"/>
+      <point x="1310.0" y="455.5" type="line"/>
+      <point x="1310.0" y="701.5" type="line"/>
+      <point x="972.0" y="701.5" type="line"/>
+    </contour>
+    <contour>
+      <point x="972.0" y="798.5" type="line"/>
+      <point x="1310.0" y="798.5" type="line"/>
+      <point x="1310.0" y="1044.5" type="line"/>
+      <point x="972.0" y="1044.5" type="line"/>
+    </contour>
+  </outline>
+</glyph>

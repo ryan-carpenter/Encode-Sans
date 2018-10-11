@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblgravecomb.sc" format="2">
+  <anchor x="593.1818181818182" y="1520.0" name="_top"/>
+  <anchor x="593.1818181818182" y="1910.1818181818182" name="top"/>
+  <outline>
+    <contour>
+      <point x="672.909090909091" y="1590.090909090909" type="line"/>
+      <point x="955.4772727272727" y="1590.090909090909" type="line"/>
+      <point x="804.0454545454545" y="1900.090909090909" type="line"/>
+      <point x="501.72727272727275" y="1900.090909090909" type="line"/>
+    </contour>
+    <contour>
+      <point x="230.88636363636363" y="1590.090909090909" type="line"/>
+      <point x="513.4545454545455" y="1590.090909090909" type="line"/>
+      <point x="362.02272727272725" y="1900.090909090909" type="line"/>
+      <point x="59.70454545454547" y="1900.090909090909" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>800.0</real>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

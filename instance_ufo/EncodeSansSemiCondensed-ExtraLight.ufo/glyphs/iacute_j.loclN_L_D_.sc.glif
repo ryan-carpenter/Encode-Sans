@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iacute_j.loclNLD.sc" format="2">
+  <advance width="874.4848484848485"/>
+  <anchor x="218.63636363636363" y="0.0" name="bottom"/>
+  <anchor x="263.0" y="0.0" name="ogonek"/>
+  <anchor x="218.66666666666666" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="174.24242424242425" y="0.0" type="line"/>
+      <point x="263.0" y="0.0" type="line"/>
+      <point x="263.0" y="1190.0" type="line"/>
+      <point x="174.24242424242425" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="522.0" y="-274.6969696969697" type="line"/>
+      <point x="646.5454545454545" y="-111.72727272727273"/>
+      <point x="693.3181818181819" y="22.727272727272727"/>
+      <point x="700.2424242424242" y="212.16666666666666" type="curve"/>
+      <point x="700.2424242424242" y="1190.0" type="line"/>
+      <point x="611.4848484848485" y="1190.0" type="line"/>
+      <point x="611.4848484848485" y="231.15151515151516" type="line" smooth="yes"/>
+      <point x="611.4848484848485" y="38.803030303030305"/>
+      <point x="567.3787878787879" y="-85.87878787878788"/>
+      <point x="461.0" y="-232.34848484848484" type="curve"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="-240.42424242424244" yOffset="-290.0"/>
+    <component base="acutecomb.case" xOffset="196.8181818181818" yOffset="-290.0"/>
+  </outline>
+</glyph>

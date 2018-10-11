@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ytilde.sc" format="2">
+  <advance width="1087.7424242424242"/>
+  <anchor x="543.4848484848485" y="0.0" name="bottom"/>
+  <anchor x="543.4848484848485" y="1230.0" name="top"/>
+  <anchor x="10.363636363636365" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="461.18939393939394" y="0.0" type="line"/>
+      <point x="628.0984848484849" y="0.0" type="line"/>
+      <point x="628.0984848484849" y="586.9848484848485" type="line"/>
+      <point x="592.5681818181818" y="471.32575757575756" type="line"/>
+      <point x="1102.659090909091" y="1190.0" type="line"/>
+      <point x="930.689393939394" y="1190.0" type="line"/>
+      <point x="519.8409090909091" y="620.189393939394" type="line"/>
+      <point x="575.9090909090909" y="620.189393939394" type="line"/>
+      <point x="158.5909090909091" y="1190.0" type="line"/>
+      <point x="-24.71969696969697" y="1190.0" type="line"/>
+      <point x="496.8484848484849" y="471.32575757575756" type="line"/>
+      <point x="461.18939393939394" y="588.1439393939394" type="line"/>
+    </contour>
+    <component base="tildecomb.case" xOffset="-19.39393939393939" yOffset="-290.0"/>
+  </outline>
+</glyph>

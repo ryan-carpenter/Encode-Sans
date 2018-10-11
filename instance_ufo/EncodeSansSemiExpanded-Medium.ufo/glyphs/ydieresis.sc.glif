@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydieresis.sc" format="2">
+  <advance width="1123.6060606060605"/>
+  <anchor x="561.2121212121212" y="0.0" name="bottom"/>
+  <anchor x="561.2121212121212" y="1230.0" name="top"/>
+  <anchor x="7.9090909090909065" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="453.3484848484849" y="0.0" type="line"/>
+      <point x="672.6212121212121" y="0.0" type="line"/>
+      <point x="672.6212121212121" y="595.7121212121212" type="line"/>
+      <point x="627.5454545454545" y="447.93939393939394" type="line"/>
+      <point x="1143.7727272727273" y="1190.0" type="line"/>
+      <point x="922.8484848484849" y="1190.0" type="line"/>
+      <point x="532.7272727272727" y="639.3484848484849" type="line"/>
+      <point x="601.2727272727273" y="639.3484848484849" type="line"/>
+      <point x="205.22727272727272" y="1190.0" type="line"/>
+      <point x="-30.924242424242422" y="1190.0" type="line"/>
+      <point x="498.6212121212121" y="447.93939393939394" type="line"/>
+      <point x="453.3484848484849" y="597.4848484848485" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="-8.484848484848484" yOffset="-290.0"/>
+  </outline>
+</glyph>

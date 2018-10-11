@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K" format="2">
+  <advance width="1118.0"/>
+  <unicode hex="004B"/>
+  <anchor x="591.4545454545455" y="0.0" name="bottom"/>
+  <anchor x="586.7272727272727" y="1480.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="954.2424242424242" y="0.0" type="line"/>
+      <point x="1168.6060606060605" y="0.0" type="line"/>
+      <point x="620.1212121212121" y="790.5454545454545" type="line"/>
+      <point x="618.5454545454545" y="732.6666666666666" type="line"/>
+      <point x="1128.969696969697" y="1480.0" type="line"/>
+      <point x="920.5454545454545" y="1480.0" type="line"/>
+      <point x="426.42424242424244" y="754.8484848484849" type="line"/>
+    </contour>
+    <contour>
+      <point x="134.06060606060606" y="0.0" type="line"/>
+      <point x="329.6969696969697" y="0.0" type="line"/>
+      <point x="329.6969696969697" y="1480.0" type="line"/>
+      <point x="134.06060606060606" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="299.5151515151515" y="668.1212121212121" type="line"/>
+      <point x="506.24242424242425" y="668.1212121212121" type="line"/>
+      <point x="506.24242424242425" y="847.939393939394" type="line"/>
+      <point x="299.5151515151515" y="847.939393939394" type="line"/>
+    </contour>
+  </outline>
+</glyph>

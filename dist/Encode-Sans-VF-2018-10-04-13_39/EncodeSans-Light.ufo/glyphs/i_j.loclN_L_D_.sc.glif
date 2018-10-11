@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i_j.loclNLD.sc" format="2">
+  <advance width="962.3915151515153"/>
+  <anchor x="240.52525252525254" y="0.0" name="bottom_1"/>
+  <anchor x="816.8943434343435" y="0.0" name="bottom_2"/>
+  <anchor x="300.96121212121216" y="0.0" name="ogonek"/>
+  <anchor x="240.67050505050506" y="1230.0" name="top_1"/>
+  <anchor x="721.8662626262626" y="1230.0" name="top_2"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="j.sc" xOffset="481.1957575757576"/>
+  </outline>
+</glyph>

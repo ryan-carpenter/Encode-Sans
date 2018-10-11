@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered.tf" format="2">
+  <anchor x="214.0" y="740.0" name="_periodcentered"/>
+  <outline>
+    <contour>
+      <point x="328.0" y="540.0" type="curve" smooth="yes"/>
+      <point x="472.0" y="540.0"/>
+      <point x="536.0" y="598.0"/>
+      <point x="536.0" y="740.0" type="curve" smooth="yes"/>
+      <point x="536.0" y="882.0"/>
+      <point x="472.0" y="940.0"/>
+      <point x="328.0" y="940.0" type="curve" smooth="yes"/>
+      <point x="178.0" y="940.0"/>
+      <point x="120.0" y="880.0"/>
+      <point x="120.0" y="740.0" type="curve" smooth="yes"/>
+      <point x="120.0" y="600.0"/>
+      <point x="178.0" y="540.0"/>
+    </contour>
+  </outline>
+</glyph>

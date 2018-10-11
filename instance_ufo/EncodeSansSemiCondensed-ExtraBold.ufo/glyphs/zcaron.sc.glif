@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zcaron.sc" format="2">
+  <advance width="1056.0"/>
+  <anchor x="523.75" y="0.0" name="bottom"/>
+  <anchor x="528.9318181818182" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="48.97727272727273" y="0.0" type="line"/>
+      <point x="1007.0227272727273" y="0.0" type="line"/>
+      <point x="1007.0227272727273" y="290.70454545454544" type="line"/>
+      <point x="475.0681818181818" y="290.70454545454544" type="line"/>
+      <point x="474.97727272727275" y="235.22727272727272" type="line"/>
+      <point x="998.8863636363636" y="998.2272727272727" type="line"/>
+      <point x="998.8863636363636" y="1190.0" type="line"/>
+      <point x="57.04545454545455" y="1190.0" type="line"/>
+      <point x="57.04545454545455" y="899.2954545454545" type="line"/>
+      <point x="572.9545454545455" y="899.2954545454545" type="line"/>
+      <point x="573.0454545454545" y="954.7727272727273" type="line"/>
+      <point x="48.97727272727273" y="191.77272727272728" type="line"/>
+    </contour>
+    <component base="caroncomb.case" xOffset="-50.613636363636374" yOffset="-290.0"/>
+  </outline>
+</glyph>

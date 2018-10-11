@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum.osf" format="2">
+  <advance width="1030.3030303030303"/>
+  <outline>
+    <contour>
+      <point x="104.9090909090909" y="343.030303030303" type="line"/>
+      <point x="223.03030303030303" y="343.030303030303" type="line"/>
+      <point x="529.4545454545455" y="1015.5757575757576" type="line"/>
+      <point x="500.8484848484849" y="1015.5757575757576" type="line"/>
+      <point x="807.2727272727273" y="343.030303030303" type="line"/>
+      <point x="925.3939393939394" y="343.030303030303" type="line"/>
+      <point x="578.1212121212121" y="1083.030303030303" type="line"/>
+      <point x="450.4848484848485" y="1083.030303030303" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

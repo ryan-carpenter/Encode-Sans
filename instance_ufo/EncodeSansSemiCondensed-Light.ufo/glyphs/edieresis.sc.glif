@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="edieresis.sc" format="2">
+  <advance width="952.0353535353536"/>
+  <anchor x="547.030303030303" y="0.0" name="bottom"/>
+  <anchor x="826.9722222222223" y="0.0" name="ogonek"/>
+  <anchor x="546.1767676767677" y="1230.0" name="top"/>
+  <anchor x="61.78030303030303" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="167.50252525252523" y="0.0" type="line"/>
+      <point x="896.1313131313132" y="0.0" type="line"/>
+      <point x="896.1313131313132" y="99.29797979797985" type="line"/>
+      <point x="284.49494949494954" y="99.29797979797985" type="line"/>
+      <point x="284.49494949494954" y="1090.70202020202" type="line"/>
+      <point x="887.7045454545455" y="1090.70202020202" type="line"/>
+      <point x="887.7045454545455" y="1190.0" type="line"/>
+      <point x="167.50252525252523" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="251.1136363636364" y="559.7525252525252" type="line"/>
+      <point x="806.5934343434344" y="559.7525252525252" type="line"/>
+      <point x="806.5934343434344" y="659.0505050505051" type="line"/>
+      <point x="251.1136363636364" y="659.0505050505051" type="line"/>
+    </contour>
+    <component base="dieresiscomb.case" xOffset="74.2070707070707" yOffset="-290.0"/>
+  </outline>
+</glyph>

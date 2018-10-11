@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb_dotaccentcomb.sc" format="2">
+  <advance width="1200.0"/>
+  <anchor x="600.0" y="1520.0" name="_top"/>
+  <anchor x="600.0" y="1788.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="600.0" y="1888.0" type="curve" smooth="yes"/>
+      <point x="636.0" y="1888.0"/>
+      <point x="662.0" y="1912.0"/>
+      <point x="662.0" y="1950.0" type="curve" smooth="yes"/>
+      <point x="662.0" y="1988.0"/>
+      <point x="636.0" y="2014.0"/>
+      <point x="600.0" y="2014.0" type="curve" smooth="yes"/>
+      <point x="564.0" y="2014.0"/>
+      <point x="538.0" y="1988.0"/>
+      <point x="538.0" y="1950.0" type="curve" smooth="yes"/>
+      <point x="538.0" y="1912.0"/>
+      <point x="564.0" y="1888.0"/>
+    </contour>
+    <contour>
+      <point x="562.0" y="1616.0" type="line"/>
+      <point x="638.0" y="1616.0" type="line"/>
+      <point x="922.0" y="1888.0" type="line"/>
+      <point x="830.0" y="1888.0" type="line"/>
+      <point x="582.0" y="1644.0" type="line"/>
+      <point x="618.0" y="1644.0" type="line"/>
+      <point x="370.0" y="1888.0" type="line"/>
+      <point x="278.0" y="1888.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

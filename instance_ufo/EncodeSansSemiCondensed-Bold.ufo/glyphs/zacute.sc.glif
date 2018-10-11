@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zacute.sc" format="2">
+  <advance width="1027.5555555555557"/>
+  <anchor x="510.41666666666663" y="0.0" name="bottom"/>
+  <anchor x="514.6287878787879" y="1230.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="51.32070707070707" y="0.0" type="line"/>
+      <point x="976.2348484848485" y="0.0" type="line"/>
+      <point x="976.2348484848485" y="248.280303030303" type="line"/>
+      <point x="409.37121212121207" y="248.280303030303" type="line"/>
+      <point x="411.5429292929292" y="199.34848484848482" type="line"/>
+      <point x="967.9368686868686" y="1026.348484848485" type="line"/>
+      <point x="967.9368686868686" y="1190.0" type="line"/>
+      <point x="59.46969696969697" y="1190.0" type="line"/>
+      <point x="59.46969696969697" y="941.719696969697" type="line"/>
+      <point x="609.6414141414142" y="941.719696969697" type="line"/>
+      <point x="607.469696969697" y="990.6515151515152" type="line"/>
+      <point x="51.32070707070707" y="163.65151515151513" type="line"/>
+    </contour>
+    <component base="acutecomb.case" xOffset="-40.67424242424241" yOffset="-290.0"/>
+  </outline>
+</glyph>

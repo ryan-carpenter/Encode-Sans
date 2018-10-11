@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb_dotaccentcomb" format="2">
+  <advance width="1108.379797979798"/>
+  <outline>
+    <contour>
+      <point x="554.189898989899" y="1636.7597575757575" type="curve" smooth="yes"/>
+      <point x="643.837898989899" y="1636.7597575757575"/>
+      <point x="691.5138585858585" y="1676.4748282828282"/>
+      <point x="691.5138585858585" y="1743.1954747474747" type="curve" smooth="yes"/>
+      <point x="691.5138585858585" y="1809.9161212121212"/>
+      <point x="643.837898989899" y="1850.547393939394"/>
+      <point x="554.189898989899" y="1850.547393939394" type="curve" smooth="yes"/>
+      <point x="464.541898989899" y="1850.547393939394"/>
+      <point x="416.86593939393936" y="1809.9161212121212"/>
+      <point x="416.86593939393936" y="1743.1954747474747" type="curve" smooth="yes"/>
+      <point x="416.86593939393936" y="1676.4748282828282"/>
+      <point x="464.541898989899" y="1636.7597575757575"/>
+    </contour>
+    <component base="caroncomb"/>
+  </outline>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adblgrave" format="2">
+  <advance width="1155.7575757575758"/>
+  <unicode hex="0200"/>
+  <anchor x="578.7272727272727" y="1520.0" name="_top"/>
+  <anchor x="578.7272727272727" y="0.0" name="bottom"/>
+  <anchor x="1134.909090909091" y="0.0" name="ogonek"/>
+  <anchor x="578.7272727272727" y="1520.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="20.848484848484848" y="0.0" type="line"/>
+      <point x="139.5151515151515" y="0.0" type="line"/>
+      <point x="589.3333333333334" y="1419.6969696969697" type="line"/>
+      <point x="563.5151515151515" y="1419.6969696969697" type="line"/>
+      <point x="1013.939393939394" y="0.0" type="line"/>
+      <point x="1134.909090909091" y="0.0" type="line"/>
+      <point x="658.9090909090909" y="1480.0" type="line"/>
+      <point x="496.8484848484849" y="1480.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="246.0" y="500.1212121212121" type="line"/>
+      <point x="909.4545454545455" y="500.1212121212121" type="line"/>
+      <point x="881.5757575757576" y="606.1212121212121" type="line"/>
+      <point x="273.8787878787879" y="606.1212121212121" type="line"/>
+    </contour>
+    <contour>
+      <point x="673.8787878787879" y="1611.4545454545455" type="line"/>
+      <point x="764.5454545454545" y="1611.4545454545455" type="line"/>
+      <point x="673.3939393939394" y="1890.121212121212" type="line"/>
+      <point x="571.8181818181819" y="1890.121212121212" type="line"/>
+    </contour>
+    <contour>
+      <point x="392.90909090909093" y="1611.4545454545455" type="line"/>
+      <point x="483.57575757575756" y="1611.4545454545455" type="line"/>
+      <point x="392.42424242424244" y="1890.121212121212" type="line"/>
+      <point x="290.8484848484849" y="1890.121212121212" type="line"/>
+    </contour>
+  </outline>
+</glyph>

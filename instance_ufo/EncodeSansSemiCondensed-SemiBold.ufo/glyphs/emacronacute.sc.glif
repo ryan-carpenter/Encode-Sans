@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emacronacute.sc" format="2">
+  <advance width="1027.0454545454545"/>
+  <anchor x="566.1818181818181" y="0.0" name="bottom"/>
+  <anchor x="895.0" y="0.0" name="ogonek"/>
+  <anchor x="565.7272727272727" y="1230.0" name="top"/>
+  <anchor x="61.18181818181818" y="1190.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="136.1818181818182" y="0.0" type="line"/>
+      <point x="965.9545454545455" y="0.0" type="line"/>
+      <point x="965.9545454545455" y="195.45454545454544" type="line"/>
+      <point x="386.6363636363636" y="195.45454545454544" type="line"/>
+      <point x="386.6363636363636" y="994.5454545454545" type="line"/>
+      <point x="957.7272727272727" y="994.5454545454545" type="line"/>
+      <point x="957.7272727272727" y="1190.0" type="line"/>
+      <point x="136.1818181818182" y="1190.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="303.1818181818182" y="508.6818181818182" type="line"/>
+      <point x="872.2272727272727" y="508.6818181818182" type="line"/>
+      <point x="872.2272727272727" y="704.1363636363636" type="line"/>
+      <point x="303.1818181818182" y="704.1363636363636" type="line"/>
+    </contour>
+    <component base="macroncomb_acutecomb.case" xOffset="33.90909090909091" yOffset="-290.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus.tf" format="2">
+  <advance width="1233.939393939394"/>
+  <outline>
+    <contour>
+      <point x="562.6060606060606" y="362.7272727272727" type="line"/>
+      <point x="671.3333333333334" y="362.7272727272727" type="line"/>
+      <point x="671.3333333333334" y="708.4848484848485" type="line"/>
+      <point x="997.939393939394" y="708.4848484848485" type="line"/>
+      <point x="997.939393939394" y="811.5151515151515" type="line"/>
+      <point x="671.3333333333334" y="811.5151515151515" type="line"/>
+      <point x="671.3333333333334" y="1157.2727272727273" type="line"/>
+      <point x="562.6060606060606" y="1157.2727272727273" type="line"/>
+      <point x="562.6060606060606" y="811.5151515151515" type="line"/>
+      <point x="236.0" y="811.5151515151515" type="line"/>
+      <point x="236.0" y="708.4848484848485" type="line"/>
+      <point x="562.6060606060606" y="708.4848484848485" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

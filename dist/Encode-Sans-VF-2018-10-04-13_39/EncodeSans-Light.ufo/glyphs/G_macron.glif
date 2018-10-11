@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gmacron" format="2">
+  <advance width="1326.8549494949496"/>
+  <unicode hex="1E20"/>
+  <anchor x="728.7543434343435" y="0.0" name="bottom"/>
+  <anchor x="728.7543434343435" y="1807.1733333333334" name="top"/>
+  <outline>
+    <component base="G"/>
+    <component base="macroncomb.case" xOffset="214.22909090909093"/>
+  </outline>
+</glyph>
