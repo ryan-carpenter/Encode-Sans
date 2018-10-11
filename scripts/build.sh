@@ -7,7 +7,7 @@ python2 scripts/fix-designspace.py sources/Encode-Sans-Build.glyphs
 fontmake -o variable -g sources/Encode-Sans-Build.glyphs
 
 rm -rf master_ufo
-# rm -rf sources/Encode-Sans-Build.glyphs
+rm -rf sources/Encode-Sans-Build.glyphs
 
 cd variable_ttf
 

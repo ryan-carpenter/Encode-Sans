@@ -62,7 +62,11 @@ for instance in font.instances:
 		# font.masters[1].weightValue = wghtMidNew
 
 		instance.weightValue = newWght
-		# TODO: insert customParameter weightClass, value = 250 for thin instances
+
+		# insert customParameter weightClass 250 for thin instances, to support actual range of standard CSS
+		if instance.weightValue == wghtCondMin:
+			instance.customParameters['weightClass'] = 250
+			
 		instance.widthValue = widthDict[instance.widthValue]
 
 		instance.name = re.sub("^\d* ", "", instance.name)
