@@ -23,54 +23,56 @@ cp $glyphsSource $tempGlyphsSource
 # call the designspace fixing script
 python2 scripts/fix-designspace.py $tempGlyphsSource
 
-# call fontmake to make a varfont
-fontmake -o variable -g $tempGlyphsSource
+# # call fontmake to make a varfont
+# fontmake -o variable -g $tempGlyphsSource
 
-# keep designspace file if you want to look at values later
-if [ $keepDesignspace == true ]
-then
-    ## move font into dist, with timestamp – probably with a python script and datetime
-    ## and fontbake the font
-    echo "designspace in master_ufo folder"
-else
-    rm -rf master_ufo
-fi
+# # keep designspace file if you want to look at values later
+# if [ $keepDesignspace == true ]
+# then
+#     ## move font into dist, with timestamp – probably with a python script and datetime
+#     ## and fontbake the font
+#     echo "designspace in master_ufo folder"
+# else
+#     rm -rf master_ufo
+# fi
 
-# clean up temp glyphs file
-rm -rf $tempGlyphsSource
+# # clean up temp glyphs file
+# rm -rf $tempGlyphsSource
 
-cd variable_ttf
+# cd variable_ttf
 
-# fix file metadata with gftools
-gftools fix-nonhinting EncodeSans-VF.ttf EncodeSans-VF.ttf
-gftools fix-dsig --autofix EncodeSans-VF.ttf
-gftools fix-gasp EncodeSans-VF.ttf
+# # fix file metadata with gftools
+# gftools fix-nonhinting EncodeSans-VF.ttf EncodeSans-VF.ttf
+# gftools fix-dsig --autofix EncodeSans-VF.ttf
+# gftools fix-gasp EncodeSans-VF.ttf
 
-ttx EncodeSans-VF.ttf
+# ttx EncodeSans-VF.ttf
 
-rm -rf EncodeSans-VF.ttf
-rm -rf EncodeSans-VF-backup-fonttools-prep-gasp.ttf
+# rm -rf EncodeSans-VF.ttf
+# rm -rf EncodeSans-VF-backup-fonttools-prep-gasp.ttf
 
-cd ..
+# cd ..
 
-ttxPath="variable_ttf/EncodeSans-VF.ttx"
+# ttxPath="variable_ttf/EncodeSans-VF.ttx"
+# ttfPath=${ttxPath/".ttx"/".ttf"}
 
-cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/EncodeSans-VF-name.ttx
-cat variable_ttf/EncodeSans-VF-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+# cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/EncodeSans-VF-name.ttx
+# cat variable_ttf/EncodeSans-VF-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 
-rm -rf variable_ttf/EncodeSans-VF-name.ttx
+# rm -rf variable_ttf/EncodeSans-VF-name.ttx
 
-ttx $ttxPath
+# ttx $ttxPath
 
-rm -rf $ttxPath
+# rm -rf $ttxPath
 
-if [ $timestampInDist == true ]
-then
-    ## move font into dist, with timestamp – probably with a python script and datetime
-    ## and fontbake the font
-    python3 scripts/distdate-and-fontbake.py variable_ttf/EncodeSans-VF.ttf
+# if [ $timestampInDist == true ]
+# then
+#     ## move font into dist, with timestamp – probably with a python script and datetime
+#     ## and fontbake the font
+#     python3 scripts/distdate-and-fontbake.py $ttfPath
 
-    rm -rf variable_ttf
-else
-   echo "font in variable_ttf folder"
-fi
+#     rm -rf variable_ttf
+# else
+#     ttx $ttfPath
+#     echo "font and ttx in variable_ttf folder"
+# fi

@@ -44,7 +44,6 @@ condBoldIndex = 1
 
 widthDict = {0.0 : 70.0, 250.0 : 85.0, 500.0 : 100.0, 750.0 : 115.0, 1000.0 : 130.0}
 
-###### TODO: should this make a dictionary of weight values, so it can find the mean/median/mode value, and apply that to all instances to make a proper grid?
 
 for instance in font.instances:
 	if instance.active == True:
@@ -75,6 +74,15 @@ for instance in font.instances:
 
 		print "Interp Values:", str(wghtIntrMax) + ", " + str(wghtIntrMin), "     Original Weight", oldWght, "scaled to", newWght
 		# print "Renamed as", instance.name, "\n"
+
+###### TODO: should this make a dictionary of weight values, so it can find the mean/median/mode value, and apply that to all instances to make a proper grid?
+
+# wghtDict = {}
+
+for instance in font.instances:
+	print(instance.weightValue)
+
+
 
 for master in font.masters:
 	master.widthValue = widthDict[master.widthValue]
