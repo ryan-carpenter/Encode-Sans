@@ -44,6 +44,8 @@ condBoldIndex = 1
 
 widthDict = {0.0 : 70.0, 250.0 : 85.0, 500.0 : 100.0, 750.0 : 115.0, 1000.0 : 130.0}
 
+###### TODO: should this make a dictionary of weight values, so it can find the mean/median/mode value, and apply that to all instances to make a proper grid?
+
 for instance in font.instances:
 	if instance.active == True:
 		# Find max weight at this width
