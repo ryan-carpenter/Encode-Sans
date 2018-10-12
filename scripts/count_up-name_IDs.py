@@ -8,112 +8,152 @@ __doc__="""
     2. Make the first nameID correct, and the rest will count up properly.
 """
 
-XMLpropToIterate="ValueNameID value"
+XMLpropToIterate="namerecord nameID"
 
 countFrom=256
 
 xmlString="""  
-  <AxisValueArray>
-        <AxisValue index="0" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="498"/>
-            <!-- Thin -->
-            <Value value="250.0"/>
-        </AxisValue>
-        <AxisValue index="0" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="259"/>
-            <!-- ExtraLight -->
-            <Value value="275.0"/>
-        </AxisValue>
-        <AxisValue index="0" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="260"/>
-            <!-- Light -->
-            <Value value="300.0"/>
-        </AxisValue>
-        <AxisValue index="1" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="261"/>
-            <!-- Regular -->
-            <Value value="400.0"/>
-        </AxisValue>
-        <AxisValue index="2" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="262"/>
-            <!-- Medium -->
-            <Value value="500.0"/>
-        </AxisValue>
-        <AxisValue index="3" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="263"/>
-            <!-- SemiBold -->
-            <Value value="600.0"/>
-        </AxisValue>
-        <AxisValue index="3" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="264"/>
-            <!-- Bold -->
-            <Value value="700.0"/>
-        </AxisValue>
-        <AxisValue index="3" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="265"/>
-            <!-- ExtraBold -->
-            <Value value="800.0"/>
-        </AxisValue>
-        <AxisValue index="4" Format="1">
-            <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="266"/>
-            <!-- Black -->
-            <Value value="900.0"/>
-        </AxisValue>
-
-        <AxisValue index="5" Format="1">
-            <AxisIndex value="1"/>
-            <Flags value="0"/>
-            <ValueNameID value="267"/>
-            <!-- Condensed -->
-            <Value value="70.0"/>
-        </AxisValue>
-        <AxisValue index="6" Format="1">
-            <AxisIndex value="1"/>
-            <Flags value="0"/>
-            <ValueNameID value="268"/>
-            <!-- SemiCondensed -->
-            <Value value="85.0"/>
-        </AxisValue>
-        <AxisValue index="7" Format="1">
-            <AxisIndex value="1"/>
-            <Flags value="2"/>
-            <ValueNameID value="269"/>
-            <!-- Normal -->
-            <Value value="100.0"/>
-        </AxisValue>
-        <AxisValue index="8" Format="1">
-            <AxisIndex value="1"/>
-            <Flags value="0"/>
-            <ValueNameID value="270"/>
-            <!-- SemiExpanded -->
-            <Value value="115.0"/>
-        </AxisValue>
-        <AxisValue index="8" Format="1">
-            <AxisIndex value="1"/>
-            <Flags value="0"/>
-            <ValueNameID value="271"/>
-            <!-- Expanded -->
-            <Value value="130.0"/>
-        </AxisValue>
-    </AxisValueArray>
+  <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Weight
+    </namerecord>
+    <namerecord nameID="257" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Width
+    </namerecord>
+    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Thin Condensed
+    </namerecord>
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight Condensed
+    </namerecord>
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light Condensed
+    </namerecord>
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular Condensed
+    </namerecord>
+    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium Condensed
+    </namerecord>
+    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold Condensed
+    </namerecord>
+    <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold Condensed
+    </namerecord>
+    <namerecord nameID="265" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold Condensed
+    </namerecord>
+    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black Condensed
+    </namerecord>
+    <namerecord nameID="267" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Thin SemiCondensed
+    </namerecord>
+    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight SemiCondensed
+    </namerecord>
+    <namerecord nameID="269" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light SemiCondensed
+    </namerecord>
+    <namerecord nameID="270" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular SemiCondensed
+    </namerecord>
+    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium SemiCondensed
+    </namerecord>
+    <namerecord nameID="272" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold SemiCondensed
+    </namerecord>
+    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold SemiCondensed
+    </namerecord>
+    <namerecord nameID="274" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold SemiCondensed
+    </namerecord>
+    <namerecord nameID="275" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black SemiCondensed
+    </namerecord>
+    <namerecord nameID="276" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Thin
+    </namerecord>
+    <namerecord nameID="277" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight
+    </namerecord>
+    <namerecord nameID="278" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light
+    </namerecord>
+    <namerecord nameID="279" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="280" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium
+    </namerecord>
+    <namerecord nameID="281" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold
+    </namerecord>
+    <namerecord nameID="282" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold
+    </namerecord>
+    <namerecord nameID="283" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold
+    </namerecord>
+    <namerecord nameID="284" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black
+    </namerecord>
+    <namerecord nameID="285" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Thin SemiExpanded
+    </namerecord>
+    <namerecord nameID="286" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight SemiExpanded
+    </namerecord>
+    <namerecord nameID="287" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light SemiExpanded
+    </namerecord>
+    <namerecord nameID="288" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular SemiExpanded
+    </namerecord>
+    <namerecord nameID="289" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium SemiExpanded
+    </namerecord>
+    <namerecord nameID="290" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold SemiExpanded
+    </namerecord>
+    <namerecord nameID="290" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold SemiExpanded
+    </namerecord>
+    <namerecord nameID="291" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold SemiExpanded
+    </namerecord>
+    <namerecord nameID="292" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black SemiExpanded
+    </namerecord>
+    <namerecord nameID="293" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Thin Expanded
+    </namerecord>
+    <namerecord nameID="294" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraLight Expanded
+    </namerecord>
+    <namerecord nameID="295" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Light Expanded
+    </namerecord>
+    <namerecord nameID="296" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular Expanded
+    </namerecord>
+    <namerecord nameID="297" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Medium Expanded
+    </namerecord>
+    <namerecord nameID="298" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      SemiBold Expanded
+    </namerecord>
+    <namerecord nameID="299" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold Expanded
+    </namerecord>
+    <namerecord nameID="300" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      ExtraBold Expanded
+    </namerecord>
+    <namerecord nameID="301" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Black Expanded
+    </namerecord>
 """
    
 def editLines(inputString, xmlProp, countFrom): 

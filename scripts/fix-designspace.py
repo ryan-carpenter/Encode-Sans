@@ -64,7 +64,8 @@ for instance in font.instances:
 
 		instance.weightValue = newWght
 
-		# insert customParameter weightClass 250 for thin instances, to support actual range of standard CSS
+		# insert customParameter weightClass 250 for thin instances, to support some software
+		# this only work properly for Encode for now
 		if instance.weightValue == wghtCondMin:
 			instance.customParameters['weightClass'] = 250
 			
