@@ -24,7 +24,7 @@ cp $glyphsSource $tempGlyphsSource
 python2 scripts/fix-designspace.py $tempGlyphsSource
 
 # # call fontmake to make a varfont
-# fontmake -o variable -g $tempGlyphsSource
+fontmake -o variable -g $tempGlyphsSource
 
 # # keep designspace file if you want to look at values later
 # if [ $keepDesignspace == true ]

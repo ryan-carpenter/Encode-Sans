@@ -218581,7 +218581,7 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 64;
+interpolationWeight = 62;
 interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.15094;
@@ -218598,7 +218598,7 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 86;
+interpolationWeight = 85;
 interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.26415;
@@ -218631,7 +218631,7 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 142;
+interpolationWeight = 141;
 interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.54717;
@@ -218743,7 +218743,7 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 63;
+interpolationWeight = 62;
 interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.05443;
@@ -218762,7 +218762,7 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 86;
+interpolationWeight = 85;
 interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.0958;
@@ -218799,7 +218799,7 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 142;
+interpolationWeight = 141;
 interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.12099;
@@ -218890,7 +218890,7 @@ name = weightClass;
 value = 275;
 }
 );
-interpolationWeight = 45;
+interpolationWeight = 46;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.02617;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.0303;
@@ -218901,7 +218901,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 63;
+interpolationWeight = 62;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.06805;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.07878;
@@ -218922,7 +218922,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-interpolationWeight = 111;
+interpolationWeight = 112;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.1832;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.21211;
@@ -218956,7 +218956,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 204;
+interpolationWeight = 205;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.43588;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.42576;
@@ -219102,7 +219102,7 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 174;
+interpolationWeight = 173;
 interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.57892;
@@ -219182,7 +219182,7 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 45;
+interpolationWeight = 46;
 interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.05556;
@@ -219216,7 +219216,7 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 84;
+interpolationWeight = 85;
 interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.25253;
@@ -219232,7 +219232,7 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 111;
+interpolationWeight = 112;
 interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.38889;
@@ -219284,7 +219284,7 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 204;
+interpolationWeight = 205;
 interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.85859;

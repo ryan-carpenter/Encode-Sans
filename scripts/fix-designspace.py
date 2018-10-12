@@ -75,14 +75,26 @@ for instance in font.instances:
 		print "Interp Values:", str(wghtIntrMax) + ", " + str(wghtIntrMin), "     Original Weight", oldWght, "scaled to", newWght
 		# print "Renamed as", instance.name, "\n"
 
-###### TODO: should this make a dictionary of weight values, so it can find the mean/median/mode value, and apply that to all instances to make a proper grid?
+## makes a dictionary of morphed designspace weight values, so it can find the mode value, then apply that to all instances to make an aligned grid
+## assumes that weights instances have same names across different widths
 
-# wghtDict = {}
+wghtDict = {}
+for instance in font.instances:
+	wghtDict[instance.name] = []
 
 for instance in font.instances:
-	print(instance.weightValue)
+	# print(instance.weightValue)
+	wghtDict[instance.name].append(instance.weightValue)
 
+# reduce weightDict entries down to mode value of each list
+for key, val in wghtDict.items():
+    modeVal = max(set(val), key=val.count)
+    print(str(modeVal) + " set as normalized value fot " + key)
+    wghtDict[key] = modeVal
 
+# set instance wght values to the standardized values
+for instance in font.instances:
+	instance.weightValue = wghtDict[instance.name]
 
 for master in font.masters:
 	master.widthValue = widthDict[master.widthValue]
