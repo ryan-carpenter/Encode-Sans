@@ -6,7 +6,7 @@
 
 glyphsSource="sources/Encode-Sans.glyphs"
 
-timestampAndFontbakeInDist=true
+timestampAndFontbakeInDist=false
 
 keepDesignspace=true
 
@@ -57,17 +57,17 @@ cd ..
 ttxPath="variable_ttf/EncodeSans-VF.ttx"
 
 
-## inserts patch files into new temp naming ttx
-cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/EncodeSans-VF-name.ttx
-cat variable_ttf/EncodeSans-VF-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+# ## inserts patch files into new temp naming ttx
+# cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/EncodeSans-VF-name.ttx
+# cat variable_ttf/EncodeSans-VF-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 
-rm -rf variable_ttf/EncodeSans-VF-name.ttx
+# rm -rf variable_ttf/EncodeSans-VF-name.ttx
 
 ## copies temp ttx file back into a new ttf file
 ttx $ttxPath
 
 ## removes temp ttx file
-rm -rf $ttxPath
+# rm -rf $ttxPath
 
 ttfPath=${ttxPath/".ttx"/".ttf"}
 
