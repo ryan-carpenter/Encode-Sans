@@ -38,7 +38,7 @@ else
 fi
 
 ## clean up temp glyphs file
-# rm -rf $tempGlyphsSource
+rm -rf $tempGlyphsSource
 
 cd variable_ttf
 
