@@ -6,9 +6,9 @@
 
 glyphsSource="sources/Encode-Sans.glyphs"
 
-timestampAndFontbakeInDist=false
+timestampAndFontbakeInDist=true
 
-keepDesignspace=true
+keepDesignspace=false
 
 ###### set vars ######
 

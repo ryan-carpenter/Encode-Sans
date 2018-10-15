@@ -44,7 +44,7 @@ dididididi
 
 ########### Set Test ###########
 
-currentTest = "test1"
+currentTest = "test3"
 
 ################################
 
@@ -58,6 +58,11 @@ tests = {
         "testName": "fontmake_VF_glyphs_VF",
         "font1": "./EncodeSans-VF.ttf", # magenta
         "font2": "./glyphs-generated/EncodeSansGX.ttf" # green
+        },
+    "test3": {
+        "testName": "fontmake_VF2inst_vs_gfonts_static",
+        "font1": "./EncodeSans-VF-instance-wght_900-wdth_75.ttf", # magenta
+        "font2": "../google-fonts-static/Encode_Sans/EncodeSans-Regular.ttf" # green
         },
     }
     
@@ -82,7 +87,7 @@ for axis, data in listFontVariations().items():
     print((axis, data))
     
 # when I set the fontVariations, the following text() method fails with NSInvalidArgumentException
-fontVariations(wght=400,wdth=100.0)
+fontVariations(wght=300.0,wdth=100.0)
 
 fill(1,0,1) # magenta
  
