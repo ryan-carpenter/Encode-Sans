@@ -90,7 +90,7 @@ for instance in font.instances:
 # reduce weightDict entries down to mode value of each list
 for key, val in wghtDict.items():
     modeVal = max(set(val), key=val.count)
-    print(str(modeVal) + " set as normalized value fot " + key)
+    print(str(modeVal) + " set as normalized value for " + key)
     wghtDict[key] = modeVal
 
 # set instance wght values to the standardized values
