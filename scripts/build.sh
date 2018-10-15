@@ -6,7 +6,7 @@
 
 glyphsSource="sources/Encode-Sans.glyphs"
 
-timestampAndFontbakeInDist=true
+timestampAndFontbakeInDist=false
 
 keepDesignspace=true
 
@@ -23,6 +23,7 @@ cp $glyphsSource $tempGlyphsSource
 ## call the designspace fixing script
 python2 scripts/fix-designspace.py $tempGlyphsSource
 
+
 ## call fontmake to make a varfont
 fontmake -o variable -g $tempGlyphsSource
 
@@ -37,7 +38,7 @@ else
 fi
 
 ## clean up temp glyphs file
-rm -rf $tempGlyphsSource
+# rm -rf $tempGlyphsSource
 
 cd variable_ttf
 
