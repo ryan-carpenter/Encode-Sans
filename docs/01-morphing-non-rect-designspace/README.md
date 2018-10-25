@@ -6,9 +6,9 @@ It would be useful for FontMake to provide a way to automatically morph designsp
 
 ## The problem
 
-If a type family has multiple axes and is designed in such a way that axes don’t form a rectangular designspace, FontMake will still export the variable font**\***, but the variable font will have weird failures when the axes are adjusted.
+If a type family has multiple axes and is designed in such a way that axes don’t form a rectangular designspace, FontMake will still export the variable font\*, but the variable font will have weird failures when the axes are adjusted.
 
-\***\*\*\*\*\***Sometimes it won’t export. There is a related issue in the non-rectangular designspace of Clarendon, where the minimum weights don’t line up between widths. This doesn’t export, but that will be written about separately. This document will focus on a cliff beyond uneven maximum weight values.\*
+_\*Sometimes it won’t export. There is a related issue in the non-rectangular designspace of Clarendon, where the minimum weights don’t line up between widths. This doesn’t export, but that will be written about separately. This document will focus on a cliff beyond uneven maximum weight values._
 
 ## One symptom of the problem: a “weight cliff” in an exported variable font.
 
@@ -36,11 +36,15 @@ Let’s visualize the issue in Superpolator. To do so, we must:
 
 If the `wght` values are different between different masters in the family, the weight cliff issue is present. In Superpolator, the family and instances have a distribution that looks like a trapezoid:
 
-![This trapezoidal grid shows masters (in the corners) and instances (other nodes) from Encode, arranged spatially by weight and width values](assets/trap-ds.png)
+_This trapezoidal grid shows masters (in the corners) and instances (other nodes) from Encode, arranged spatially by weight and width values_:
+
+![](assets/trap-ds.png)
 
 In the narrow-heavy corner, then, weight issues start to come up: it is an extrapolation area. This extrapolation somewhat works in Superpolator, but is shown as the “weight cliff” in Encode VF.
 
-![A variable font won’t extrapolate, but this does show that things “break” in the non-covered corner](assets/trap-ds.gif)
+_A variable font won’t extrapolate, but this does show that things “break” in the non-covered corner_:
+
+![](assets/trap-ds.gif)
 
 **What’s causing the “cliff” in the exported version?**
 The exported version would require extrapolation to show anything at narrow-width & full-weight (or anything in that triangle of dead space). However, “**_extrapolation_** **beyond the values defined by the masters is not supported in variable fonts**” ([Erik van Blokland](https://github.com/fonttools/fonttools/issues/671)).
@@ -143,19 +147,31 @@ To properly compare outputs, one must make sure that:
   - (I’m not sure whether it’s my error or not, but I can only seem to export a variable font via fontmake if I have the “default” axis values set to the same values as one of my input masters – however, this leads gfregression to just use the default font width. Maybe this will change once font width values are more formalized?)
 - (currently) that kerning is turned off in both fonts
   - I’m not sure why yet, but the kerning is different between the current static font and the exported variable font
-    ![When the varfont is set to the correct wght and wdth values and kerning is removed, the outlines seem to be almost exactly the same as the static font, though maybe there is a “wiggle” between them.](assets/gf_reg-before_after.gif)
+    _When the varfont is set to the correct wght and wdth values and kerning is removed, the outlines seem to be almost exactly the same as the static font, though maybe there is a “wiggle” between them._:
+
+![](assets/gf_reg-before_after.gif)
 
 I am currently working to test this in Drawbot (here’s my [test code](https://github.com/thundernixon/Encode-Sans/blob/6dbccf8a021976e17a4410ccc5abf8772621b6c4/tests/var_vs_static-2018-10-08-18_15/static_vf_comparison-drawbot-100818.py)). Despite one [odd error](https://github.com/typemytype/drawbot/issues/230), it is showing useful results. I have made the static font magenta and the variable font green, then used a blend mode of “screen” to show overlap in white and differences in color. (Click to enlarge)
 
-![With the “math fix” and “simple fix,” letters are extremely close to the original static instances](assets/845.png)
+_With the “math fix” and “simple fix,” letters are extremely close to the original static instances_:
 
-![“quick fix” causes the worst text reflow, partly because the “regular” weight doesn’t fall at 400 here, as Font Bakery QA checks will point out (it falls at 363.63 for the normal width)](assets/quickfix-compare.png)
+![](assets/845.png)
 
-![Even in the corrected wght value, text reflow is still a big problem. Maybe it needs its wdth value corrected, as well?](assets/quickfix-compare-2.png)
+_“quick fix” causes the worst text reflow, partly because the “regular” weight doesn’t fall at 400 here, as Font Bakery QA checks will point out (it falls at 363.63 for the normal width)_:
 
-![The “math fix” is much closer to the original static instance](assets/mathfix-compare.png)
+![](assets/quickfix-compare.png)
 
-![The “simple fix” is also quite close to the original static instance, which is not too surprising, because it is very similar to the “mathfix,” but just rounded by just 0.883 out of 198](assets/simplefix-compare.png)
+_Even in the corrected wght value, text reflow is still a big problem. Maybe it needs its wdth value corrected, as well?_:
+
+![](assets/quickfix-compare-2.png)
+
+_The “math fix” is much closer to the original static instance_:
+
+![](assets/mathfix-compare.png)
+
+_The “simple fix” is also quite close to the original static instance, which is not too surprising, because it is very similar to the “mathfix,” but just rounded by just 0.883 out of 198_:
+
+![](assets/simplefix-compare.png)
 
 The “math fix” and “simple fix” of the designspace result in lettershapes that are within just a unit or two of the original static fonts. In areas of type are misaligned, it appears to be due to kerning differences, rather than lettershapes or widths (this is partially confirmed because removing kerning in CSS solved much of this, on the gfregressions app). This is a separate issue filed at https://github.com/googlei18n/fontmake/issues/470f.
 
