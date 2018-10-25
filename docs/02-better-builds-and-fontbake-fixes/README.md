@@ -44,7 +44,7 @@ To fix: Set the instances to a common weight value in [the script which morphs t
 
 This probably doesn't have a final solution, because fontvalidator seems to be undergoing some changes. However, I've gotten past this error and received QA from Font Validator by:
 
-1. Installing the latest osx release from https://github.com/HinTak/Font-Validator/releases, then unzip
+1. Installing the latest osX release from https://github.com/HinTak/Font-Validator/releases, then unzip
 2. Change the unzipped binary's permissions, `chmod 755 FontValidator`
 3. Moving the downloaded file into the same directory I use for my Python environment (for me, that's just `~/Environments/gfonts/bin`).
 
@@ -56,3 +56,5 @@ This probably doesn't have a final solution, because fontvalidator seems to be u
 Update: the latest FontBakery just has this working, so now I've simply run `pip3 install --upgrade fontbakery`.
 
 And now, I'm getting a bunch of FontValidator errors reporting! I'll next need to understand which to fix, and which to accept (assuming some might be fine).
+
+- :fire: **FAIL** MS-FonVal: The version number is neither 0x00010000 nor 0x0001002 DETAILS: 0x00010003
