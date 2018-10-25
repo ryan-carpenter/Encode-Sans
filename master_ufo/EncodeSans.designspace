@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
     <axes>
-        <axis default="250" maximum="900" minimum="250" name="Weight" tag="wght">
-            <map input="250" output="34" />
-            <map input="275" output="46" />
+        <axis default="100" maximum="900" minimum="100" name="Weight" tag="wght">
+            <map input="100" output="34" />
+            <map input="275" output="45" />
             <map input="300" output="62" />
-            <map input="400" output="85" />
-            <map input="500" output="112" />
+            <map input="400" output="84" />
+            <map input="500" output="111" />
             <map input="600" output="141" />
             <map input="700" output="173" />
-            <map input="800" output="205" />
+            <map input="800" output="204" />
             <map input="900" output="232" />
         </axis>
-        <axis default="70" maximum="130" minimum="70" name="Width" tag="wdth" />
+        <axis default="0" maximum="1000" minimum="0" name="Width" tag="wdth" />
     </axes>
     <sources>
         <source familyname="Encode Sans" filename="EncodeSans-CondensedLight.ufo" name="Encode Sans Condensed Light" stylename="Condensed Light">
@@ -22,25 +22,25 @@
             <info copy="1" />
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
         </source>
         <source familyname="Encode Sans" filename="EncodeSans-CondensedBold.ufo" name="Encode Sans Condensed Bold" stylename="Condensed Bold">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
         </source>
         <source familyname="Encode Sans" filename="EncodeSans-ExtendedLight.ufo" name="Encode Sans Extended Light" stylename="Extended Light">
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
         </source>
         <source familyname="Encode Sans" filename="EncodeSans-ExtendedBold.ufo" name="Encode Sans Extended Bold" stylename="Extended Bold">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
         </source>
     </sources>
@@ -48,7 +48,7 @@
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Thin.ufo" name="Encode Sans Condensed Thin" stylemapfamilyname="Encode Sans Condensed Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -56,23 +56,23 @@
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-ExtraLight.ufo" name="Encode Sans Condensed ExtraLight" stylemapfamilyname="Encode Sans Condensed ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="46" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Light.ufo" name="Encode Sans Condensed Light" stylemapfamilyname="Encode Sans Condensed Light" stylemapstylename="regular" stylename="Light">
             <location>
-                <dimension name="Weight" xvalue="62" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Weight" xvalue="64" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Regular.ufo" name="Encode Sans Condensed Regular" stylemapfamilyname="Encode Sans Condensed" stylemapstylename="regular" stylename="Regular">
             <location>
-                <dimension name="Weight" xvalue="85" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Weight" xvalue="86" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -80,15 +80,15 @@
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Medium.ufo" name="Encode Sans Condensed Medium" stylemapfamilyname="Encode Sans Condensed Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="112" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-SemiBold.ufo" name="Encode Sans Condensed SemiBold" stylemapfamilyname="Encode Sans Condensed SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
-                <dimension name="Weight" xvalue="141" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Weight" xvalue="142" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -96,7 +96,7 @@
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Bold.ufo" name="Encode Sans Condensed Bold" stylemapfamilyname="Encode Sans Condensed" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="173" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -104,7 +104,7 @@
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-ExtraBold.ufo" name="Encode Sans Condensed ExtraBold" stylemapfamilyname="Encode Sans Condensed ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="205" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -112,7 +112,7 @@
         <instance familyname="Encode Sans Condensed" filename="../instance_ufo/EncodeSansCondensed-Black.ufo" name="Encode Sans Condensed Black" stylemapfamilyname="Encode Sans Condensed Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="70" />
+                <dimension name="Width" xvalue="0" />
             </location>
             <kerning />
             <info />
@@ -120,7 +120,7 @@
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Thin.ufo" name="Encode Sans SemiCondensed Thin" stylemapfamilyname="Encode Sans SemiCondensed Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
@@ -128,23 +128,23 @@
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-ExtraLight.ufo" name="Encode Sans SemiCondensed ExtraLight" stylemapfamilyname="Encode Sans SemiCondensed ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="46" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Light.ufo" name="Encode Sans SemiCondensed Light" stylemapfamilyname="Encode Sans SemiCondensed Light" stylemapstylename="regular" stylename="Light">
             <location>
-                <dimension name="Weight" xvalue="62" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Weight" xvalue="63" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Regular.ufo" name="Encode Sans SemiCondensed Regular" stylemapfamilyname="Encode Sans SemiCondensed" stylemapstylename="regular" stylename="Regular">
             <location>
-                <dimension name="Weight" xvalue="85" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Weight" xvalue="86" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
@@ -152,15 +152,15 @@
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Medium.ufo" name="Encode Sans SemiCondensed Medium" stylemapfamilyname="Encode Sans SemiCondensed Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="112" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-SemiBold.ufo" name="Encode Sans SemiCondensed SemiBold" stylemapfamilyname="Encode Sans SemiCondensed SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
-                <dimension name="Weight" xvalue="141" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Weight" xvalue="142" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
@@ -168,7 +168,7 @@
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Bold.ufo" name="Encode Sans SemiCondensed Bold" stylemapfamilyname="Encode Sans SemiCondensed" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="173" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
@@ -176,7 +176,7 @@
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-ExtraBold.ufo" name="Encode Sans SemiCondensed ExtraBold" stylemapfamilyname="Encode Sans SemiCondensed ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="205" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
@@ -184,7 +184,7 @@
         <instance familyname="Encode Sans SemiCondensed" filename="../instance_ufo/EncodeSansSemiCondensed-Black.ufo" name="Encode Sans SemiCondensed Black" stylemapfamilyname="Encode Sans SemiCondensed Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="85" />
+                <dimension name="Width" xvalue="250" />
             </location>
             <kerning />
             <info />
@@ -192,23 +192,23 @@
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Thin.ufo" name="Encode Sans Thin" stylemapfamilyname="Encode Sans Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-ExtraLight.ufo" name="Encode Sans ExtraLight" stylemapfamilyname="Encode Sans ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
-                <dimension name="Weight" xvalue="46" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Weight" xvalue="45" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Light.ufo" name="Encode Sans Light" stylemapfamilyname="Encode Sans Light" stylemapstylename="regular" stylename="Light">
             <location>
-                <dimension name="Weight" xvalue="62" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Weight" xvalue="63" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
@@ -216,15 +216,15 @@
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Regular.ufo" name="Encode Sans Regular" stylemapfamilyname="Encode Sans" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="85" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Medium.ufo" name="Encode Sans Medium" stylemapfamilyname="Encode Sans Medium" stylemapstylename="regular" stylename="Medium">
             <location>
-                <dimension name="Weight" xvalue="112" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Weight" xvalue="111" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
@@ -232,7 +232,7 @@
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-SemiBold.ufo" name="Encode Sans SemiBold" stylemapfamilyname="Encode Sans SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="141" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
@@ -240,15 +240,15 @@
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Bold.ufo" name="Encode Sans Bold" stylemapfamilyname="Encode Sans" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="173" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-ExtraBold.ufo" name="Encode Sans ExtraBold" stylemapfamilyname="Encode Sans ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
-                <dimension name="Weight" xvalue="205" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Weight" xvalue="204" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
@@ -256,7 +256,7 @@
         <instance familyname="Encode Sans" filename="../instance_ufo/EncodeSans-Black.ufo" name="Encode Sans Black" stylemapfamilyname="Encode Sans Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="100" />
+                <dimension name="Width" xvalue="500" />
             </location>
             <kerning />
             <info />
@@ -264,7 +264,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Thin.ufo" name="Encode Sans SemiExpanded Thin" stylemapfamilyname="Encode Sans SemiExpanded Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -272,7 +272,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-ExtraLight.ufo" name="Encode Sans SemiExpanded ExtraLight" stylemapfamilyname="Encode Sans SemiExpanded ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
                 <dimension name="Weight" xvalue="46" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -280,7 +280,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Light.ufo" name="Encode Sans SemiExpanded Light" stylemapfamilyname="Encode Sans SemiExpanded Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="62" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -288,7 +288,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Regular.ufo" name="Encode Sans SemiExpanded Regular" stylemapfamilyname="Encode Sans SemiExpanded" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="Weight" xvalue="85" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -296,7 +296,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Medium.ufo" name="Encode Sans SemiExpanded Medium" stylemapfamilyname="Encode Sans SemiExpanded Medium" stylemapstylename="regular" stylename="Medium">
             <location>
                 <dimension name="Weight" xvalue="112" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -304,15 +304,15 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-SemiBold.ufo" name="Encode Sans SemiExpanded SemiBold" stylemapfamilyname="Encode Sans SemiExpanded SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="141" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Bold.ufo" name="Encode Sans SemiExpanded Bold" stylemapfamilyname="Encode Sans SemiExpanded" stylemapstylename="bold" stylename="Bold">
             <location>
-                <dimension name="Weight" xvalue="173" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Weight" xvalue="174" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -320,7 +320,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-ExtraBold.ufo" name="Encode Sans SemiExpanded ExtraBold" stylemapfamilyname="Encode Sans SemiExpanded ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
                 <dimension name="Weight" xvalue="205" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -328,7 +328,7 @@
         <instance familyname="Encode Sans SemiExpanded" filename="../instance_ufo/EncodeSansSemiExpanded-Black.ufo" name="Encode Sans SemiExpanded Black" stylemapfamilyname="Encode Sans SemiExpanded Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="115" />
+                <dimension name="Width" xvalue="750" />
             </location>
             <kerning />
             <info />
@@ -336,15 +336,15 @@
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Thin.ufo" name="Encode Sans Expanded Thin" stylemapfamilyname="Encode Sans Expanded Thin" stylemapstylename="regular" stylename="Thin">
             <location>
                 <dimension name="Weight" xvalue="34" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-ExtraLight.ufo" name="Encode Sans Expanded ExtraLight" stylemapfamilyname="Encode Sans Expanded ExtraLight" stylemapstylename="regular" stylename="ExtraLight">
             <location>
-                <dimension name="Weight" xvalue="46" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Weight" xvalue="45" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
@@ -352,23 +352,23 @@
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Light.ufo" name="Encode Sans Expanded Light" stylemapfamilyname="Encode Sans Expanded Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="62" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Regular.ufo" name="Encode Sans Expanded Regular" stylemapfamilyname="Encode Sans Expanded" stylemapstylename="regular" stylename="Regular">
             <location>
-                <dimension name="Weight" xvalue="85" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Weight" xvalue="84" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Medium.ufo" name="Encode Sans Expanded Medium" stylemapfamilyname="Encode Sans Expanded Medium" stylemapstylename="regular" stylename="Medium">
             <location>
-                <dimension name="Weight" xvalue="112" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Weight" xvalue="111" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
@@ -376,7 +376,7 @@
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-SemiBold.ufo" name="Encode Sans Expanded SemiBold" stylemapfamilyname="Encode Sans Expanded SemiBold" stylemapstylename="regular" stylename="SemiBold">
             <location>
                 <dimension name="Weight" xvalue="141" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
@@ -384,15 +384,15 @@
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Bold.ufo" name="Encode Sans Expanded Bold" stylemapfamilyname="Encode Sans Expanded" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="173" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-ExtraBold.ufo" name="Encode Sans Expanded ExtraBold" stylemapfamilyname="Encode Sans Expanded ExtraBold" stylemapstylename="regular" stylename="ExtraBold">
             <location>
-                <dimension name="Weight" xvalue="205" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Weight" xvalue="204" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
@@ -400,7 +400,7 @@
         <instance familyname="Encode Sans Expanded" filename="../instance_ufo/EncodeSansExpanded-Black.ufo" name="Encode Sans Expanded Black" stylemapfamilyname="Encode Sans Expanded Black" stylemapstylename="regular" stylename="Black">
             <location>
                 <dimension name="Weight" xvalue="232" />
-                <dimension name="Width" xvalue="130" />
+                <dimension name="Width" xvalue="1000" />
             </location>
             <kerning />
             <info />
@@ -420,8 +420,7 @@
                 <real>0.7</real>
             </array>
             <key>com.typemytype.robofont.layerOrder</key>
-            <array>
-	</array>
+            <array />
             <key>com.typemytype.robofont.segmentType</key>
             <string>curve</string>
             <key>com.typemytype.robofont.sort</key>
