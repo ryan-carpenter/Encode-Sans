@@ -48,20 +48,11 @@ This probably doesn't have a final solution, because fontvalidator seems to be u
 2. Change the unzipped binary's permissions, `chmod 755 FontValidator`
 3. Moving the downloaded file into the same directory I use for my Python environment (for me, that's just `~/Environments/gfonts/bin`).
 
-~~Find `general.py` in the FontBakery code, then find lines 160–166. Change:
+~~Find `general.py` in the FontBakery code, then find lines 160–166. Change:~~
 
-1. Change `FontValidator.exe` to `FontValidator`
-2. Change `+` to `-no-raster-tests`
+~~1. Change `FontValidator.exe` to `FontValidator`~~
+~~2. Change `+` to `-no-raster-tests`~~
 
-When done, the code this will look like this:
+Update: the latest FontBakery just has this working, so now I've simply run `pip3 install --upgrade fontbakery`.
 
-```
-  try:
-    import subprocess
-    fval_cmd = [
-       "FontValidator", "-file", font, "-all-tables",
-       "-report-in-font-dir", "-no-raster-tests"
-    ]
-    subprocess.check_output(fval_cmd, stderr=subprocess.STDOUT)
-```
-~~
+And now, I'm getting a bunch of FontValidator errors reporting! I'll next need to understand which to fix, and which to accept (assuming some might be fine).
