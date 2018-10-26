@@ -9,7 +9,6 @@ Problems:
 
 ```
 # Bold Extended and Bold Condensed original values
-# TODO: make these read from the file rather than relying on user entry
 wghtWideMax = 232.0
 wghtCondMax = 193.0
 ```
@@ -17,5 +16,10 @@ wghtCondMax = 193.0
 Steps
 
 - [x] pull in the previous / original Encode Sans file
-- [ ] re-evaluated math being done to instance weight in the `fix-designspace.py` script. This shouldn't cause problems if it gets a GlyphsApp source with correct values ... but it is.
-- [ ] Make `fix-designspace.py` detect min and max instance weight values, rather than relying on variables to be manually set
+- [x] re-evaluate math being done to instance weight in the `fix-designspace.py` script. This shouldn't cause problems if it gets a GlyphsApp source with correct values ... but it is.
+- [x] Make `fix-designspace.py` detect initial values from glyphs source, rather than relying on variables to be manually set
+- [ ] hopefully make the code simpler? It has become pretty long and strung-together...
+
+Result
+
+The font is now once again building from the original source file. It is detecting values, to prevent future error and be more flexible for other designs.
