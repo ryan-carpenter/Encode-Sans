@@ -20,6 +20,8 @@ Steps
 - [x] Make `fix-designspace.py` detect initial values from glyphs source, rather than relying on variables to be manually set
 - [ ] hopefully make the code simpler? It has become pretty long and strung-together...
 
-Result
+Results
 
-The font is now once again building from the original source file. It is detecting values, to prevent future error and be more flexible for other designs.
+- The font is now once again building from the original source file.
+- The `fix-designspace.py` script is detecting values, to prevent future error and be more flexible for other designs.
+- The correct width values are now being placed into the file.
