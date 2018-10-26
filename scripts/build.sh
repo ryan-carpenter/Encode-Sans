@@ -14,7 +14,7 @@ VFname="EncodeSans-VF"
 fixGlyphsDesignspace=true
 
 ## move VF into new folder of dist/ with timestamp and fontbake
-timestampAndFontbakeInDist=false
+timestampAndFontbakeInDist=true
 
 ## keep designspace file if you want to check values later
 keepDesignspace=true
@@ -49,7 +49,7 @@ else
 fi
 
 ## clean up temp glyphs file
-# rm -rf $tempGlyphsSource
+rm -rf $tempGlyphsSource
 
 cd variable_ttf
 
