@@ -5,7 +5,7 @@
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/Encode-Sans.glyphs"
+glyphsSource="sources/Encode-Sans-original.glyphs"
 
 ## Set this. It's probably your font name without spaces, then "-VF"
 VFname="EncodeSans-VF"
@@ -14,7 +14,7 @@ VFname="EncodeSans-VF"
 fixGlyphsDesignspace=true
 
 ## move VF into new folder of dist/ with timestamp and fontbake
-timestampAndFontbakeInDist=true
+timestampAndFontbakeInDist=false
 
 ## keep designspace file if you want to check values later
 keepDesignspace=true
@@ -49,7 +49,7 @@ else
 fi
 
 ## clean up temp glyphs file
-rm -rf $tempGlyphsSource
+# rm -rf $tempGlyphsSource
 
 cd variable_ttf
 

@@ -3,18 +3,18 @@
 import math
 import sys
 import re
-from glyphsLib.glyphdata import get_glyph
+from glyphsLib import glyphdata
 from glyphsLib import GSFont
-import objc
+# import objc
 
 filename = sys.argv[-1]
 font = GSFont(filename)
 
-def evenRound(number):
-	if int(number) % 2 == 0:
-		return int(number)
-	else:
-		return int(number) + 1
+# def evenRound(number):
+# 	if int(number) % 2 == 0:
+# 		return int(number)
+# 	else:
+# 		return int(number) + 1
 
 # If set to false, the files master locations and instance values will all be changed
 nonDestructive = False
@@ -24,6 +24,7 @@ wdthMax = 1000.0
 wdthMin = 0.0
 
 # Bold Extended and Bold Condensed original values
+# TODO: make these read from the file rather than relying on user entry
 wghtWideMax = 232.0
 wghtCondMax = 193.0
 
@@ -34,7 +35,7 @@ wghtMid = 0.0
 wghtWideMin = 34.0
 wghtCondMin = 34.0
 
-# Light Extended master index + Condensed Bold master index (starts from 0)
+# Light Extended master index + Condensed Bold master index (starts from 0). Find these values in the GlyphsApp font.masters list.
 wideLightIndex = 2
 condBoldIndex = 1
 
@@ -50,17 +51,23 @@ for instance in font.instances:
 		# Find max weight at this width
 		wghtIntrMax = round(wghtCondMax + ( ((instance.widthValue - wdthMin) / (wdthMax - wdthMin)) * (wghtWideMax - wghtCondMax) ))
 		
-		# Find min width at this width
+		# Find min weight at this width
 		wghtIntrMin = round(wghtCondMin + ( ((instance.widthValue - wdthMin) / (wdthMax - wdthMin)) * (wghtWideMin - wghtCondMin) ))
 		
 		# Original weight
 		oldWght = instance.weightValue
 
+		print(oldWght)
+
 		newWght = round( wghtCondMin + ( ((instance.weightValue - wghtIntrMin) / (wghtIntrMax - wghtIntrMin)) * (wghtWideMax - wghtCondMin)))
 
+		# If the font's master light weights don't match, this will match them
 		font.masters[wideLightIndex].weightValue = wghtCondMin
+
+		# In Encode Sans, the Condensed Bold has a lighter weight than the Extended Bold. This sets it as the same max.
 		font.masters[condBoldIndex].weightValue = wghtWideMax
-		# font.masters[1].weightValue = wghtMidNew
+		
+		# font.masters[1].weightValue = wghtMidNew # used in a 6-master setup
 
 		instance.weightValue = newWght
 
@@ -89,9 +96,12 @@ for instance in font.instances:
 
 # reduce weightDict entries down to mode value of each list
 for key, val in wghtDict.items():
-    modeVal = max(set(val), key=val.count)
-    print(str(modeVal) + " set as normalized value for " + key)
-    wghtDict[key] = modeVal
+	print("weight values for " + key + " across widths: " + str(val))
+	modeVal = max(set(val), key=val.count)
+	print(str(modeVal) + " set as normalized value for " + key + "\n")
+	wghtDict[key] = modeVal
+
+# print(wghtDict)
 
 # set instance wght values to the standardized values
 for instance in font.instances:

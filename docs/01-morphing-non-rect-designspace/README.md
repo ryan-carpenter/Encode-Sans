@@ -104,7 +104,7 @@ For an initial test, I’ll make some calculations to place instances for each w
 
     ### BUT, this would only be accurate if the min weight were 0
 
-To be accurate, we also need to take into account the `min` wght of 34? We can determine this with some simple Python:
+To be accurate, we also need to take into account the `min` wght of 34. We can determine this with some simple Python:
 
     oldWght = 193 # update for each instance
 
