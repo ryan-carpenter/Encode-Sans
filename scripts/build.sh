@@ -5,7 +5,7 @@
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/Encode-Sans-original.glyphs"
+glyphsSource="sources/Encode-Sans.glyphs"
 
 ## Set this. It's probably your font name without spaces, then "-VF"
 VFname="EncodeSans-VF"

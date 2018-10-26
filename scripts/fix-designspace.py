@@ -57,8 +57,6 @@ for instance in font.instances:
 		# Original weight
 		oldWght = instance.weightValue
 
-		print(oldWght)
-
 		newWght = round( wghtCondMin + ( ((instance.weightValue - wghtIntrMin) / (wghtIntrMax - wghtIntrMin)) * (wghtWideMax - wghtCondMin)))
 
 		# If the font's master light weights don't match, this will match them
