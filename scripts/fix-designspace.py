@@ -58,10 +58,43 @@ maxWdthMaxWght = maxWdthWghts[max(maxWdthWghts, key=lambda key: maxWdthWghts[key
 
 print(minWdthMinWght,maxWdthMinWght, minWdthMaxWght, maxWdthMaxWght)
 
-#### set manually
-# Light Extended master index + Condensed Bold master index (starts from 0). Find these values in the GlyphsApp font.masters list.
-wideLightIndex = 2
-condBoldIndex = 1
+# make dict ? of masters
+# find master with max width, min weight
+# find master with min width, max weight
+
+########## Find and define "Wide Light" and "Condensed Bold"  master indexes ###########
+
+mastersWdthList = []
+mastersWdthWghtDict = {}
+
+for master in font.masters:
+	mastersWdthWghtDict[str(master.widthValue)] = []
+	mastersWdthList.append(master.widthValue)
+
+mastersWdthList = set(mastersWdthList)
+
+for master in font.masters:
+	mastersWdthWghtDict[str(master.widthValue)].append(master.weightValue)
+
+
+masterMaxWdth = max(mastersWdthList)
+masterMinWdth = min(mastersWdthList)
+
+# condensed bold master weight
+masterMinWdthMaxWght = max(mastersWdthWghtDict[str(masterMinWdth)])
+
+# wide light master weight
+masterMaxWdthMinWght = min(mastersWdthWghtDict[str(masterMaxWdth)])
+
+print(masterMinWdthMaxWght, masterMaxWdthMinWght)
+ 
+for idx,master in enumerate(font.masters):	
+	# get wide light master index
+	if master.widthValue == masterMaxWdth and master.weightValue == masterMaxWdthMinWght:
+		wideLightIndex = idx
+	# get condensed bold master index.
+	if master.widthValue == masterMinWdth and master.weightValue == masterMinWdthMaxWght:
+		condBoldIndex = idx
 
 # Set this if using a 6 master setup with equal middle masters
 # wghtMid = 0.0
