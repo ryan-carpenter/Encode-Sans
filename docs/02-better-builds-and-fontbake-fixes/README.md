@@ -61,43 +61,4 @@ And now, I'm getting a bunch of FontValidator errors reporting! I'll next need t
 
 ### FontVal errors
 
-MS FontVal duplicates errors a lot, because it reports them for every glyph checked. I literally have 11,000+ lines of errors from it, but they boil down to these:
-
-- :fire: **FAIL** MS-FonVal: The version number is neither 0x00010000 nor 0x0001002 DETAILS: 0x00010003
-
-**A ton of these:**
-
-- :fire: **FAIL** MS-FonVal: The device table's DeltaFormat value is invalid DETAILS: LookupList, Lookup[0], SubTable[0](PairPos, fmt 1), PairSet[0], PairValueRecord[0], Value1, XAdvDeviceTable, DeltaFormat = 32768- 
-* :fire: **FAIL** MS-FonVal: Intersecting contours DETAILS: Glyph index 1
-
-* :fire: **FAIL** MS-FonVal: The Mac PostScript string does not match the Microsoft PostScript string DETAILS: mac postscript = EncodeSans-ThinCondensed, MS postscript = EncodeSans-Regular
-* :information_source: **INFO** Microsoft Font Validator returned an error code. Output follows :
-
-- :information_source: **INFO** MS-FonVal: The MarkSetCount of the GDEF table DETAILS: MarkGlyphSetsDef: MarkSetCount=3
-
-- :information_source: **INFO** MS-FonVal: Not an OpenType table, contents not validated
-
--  :information_source: **INFO** MS-FonVal: Not an OpenType table, contents not validated DETAILS: This table type is defined in the Apple TrueType spec.
-
-**A bunch of these:**
-
-* :information_source: **INFO** MS-FonVal: Unable to perform test due to previously detected errors DETAILS: Glyph index 1 Test: ValidateSimpContMisor 
-
-**Plus:**
-
-- :information_source: **INFO** MS-FonVal: Loca references a zero-length entry in the glyf table DETAILS: Number of glyphs that are empty = 9
-
-- :information_source: **INFO** MS-FonVal: maxSizeOfInstructions via method #1 DETAILS: maxSizeOfInstructions=0, computed from the glyf table
-
-- :information_source: **INFO** MS-FonVal: No string for Typographic Family name (Name ID 16)
-
-- :information_source: **INFO** MS-FonVal: No string for Typographic Subfamily name (Name ID 17)
-
-- :information_source: **INFO** MS-FonVal: The post name has an unexpected value DETAILS: glyph = 1120, char = U+FFFF, name = uni0337
-
-- :information_source: **INFO** MS-FonVal: The post name isn't in uniXXXX or uXXXXX format and there is no Adobe Glyph List entry DETAILS: glyph = 1217, char = U+000D, name = CR
-
-- :information_source: **INFO** MS-FonVal: The post name isn't in uniXXXX or uXXXXX format and there is no Adobe Glyph List entry DETAILS: glyph = 1218, char = U+0000, name = NULL
-
-* :information_source: **INFO** MS-FonVal: Rasterization not selected for validation
-
+I have some Font Validator errors and info pieces to fix and check. These were documented here initially, but I've moved them into https://github.com/thundernixon/Encode-Sans/issues/1.
