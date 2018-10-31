@@ -33,10 +33,10 @@ The biggest problem so far in Encode is the output VF having unexpected kerning.
 With help from @mjlagattuta and @anthrotype, the issue is starting to be narrowed down. In my words from that issue:
 
 > It seems that the values from the `/dcaron` kern1 kerning group are being moved to the normal `/d` kern1 side. Things with straight kern1 sides should be in the `/l` kern1 group, but are moved into the /d kern1 group, gaining the kerning values that should only be in the `/dcaron`.
-
+> 
 > Meanwhile, things in the `/l` kern2 group are changed to a `/b` group. I can't find any cases where this causes problems, but it's unexpected.
 
-I wanted to try to diff the `PairPos` tables from the VF and an Extended Bold instance. 
+If static TTFs are exported, the kerning (appears to be) correct. So, I wanted to try to diff the `PairPos` tables from a static Extended Bold instance generated from the Glyphs source and an Extended Bold instance generated from the VF. 
 
 First, I generated an Extended Bold instance from the VF with:
 
@@ -56,4 +56,9 @@ and
 xmlstarlet sel -t -c '//PairSet' dist/EncodeSans-VF-2018-10-26-17_31/EncodeSans-ExtendedBold.ttx > dist/EncodeSans-VF-2018-10-26-17_31/EncodeSans-ExtendedBold-PairSet.ttx
 ```
 
-Finally, I diffed the two files with VSCode's "Compare Selected" function. It complicates matters that many of the friendly glyph names are in unicodes in the VF-generated instance. 
+Finally, I diffed the two files with VSCode's "Compare Selected" function. It complicates matters that many of the friendly glyph names are in unicodes in the VF-generated instance. As I have also said in the issue:
+
+> There are definitely quite a few differences, but lines referring to `/dcaron`, `/d`, `/b`, `/l`, and `/i` seem to be similar aside from their index (even though these files come from TTFs with clearly different kerning in those glyphs). So, I'm not sure if I'm comparing the right or wrong table, but if someone knows of a better ttx table to compare, please let me know. Here are those files, if it's useful:
+> 
+> - [59464ae/EncodeSans-VF-instance-ExtendedBold-PairSet.xml](https://github.com/thundernixon/Encode-Sans/blob/59464aed27534fee3b08752303584c539f94471d/dist/EncodeSans-VF-2018-10-26-17_31/EncodeSans-VF-instance-ExtendedBold-PairSet.xml)
+> - [59464ae/EncodeSans-ExtendedBold-PairSet.xml](https://github.com/thundernixon/Encode-Sans/blob/59464aed27534fee3b08752303584c539f94471d/dist/EncodeSans-VF-2018-10-26-17_31/EncodeSans-ExtendedBold-PairSet.xml)
