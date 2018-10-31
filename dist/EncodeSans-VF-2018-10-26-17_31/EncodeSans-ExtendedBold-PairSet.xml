@@ -1,0 +1,2371 @@
+<PairSet index="0">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="1">
+  <!-- PairValueCount=38 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="T"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="Tbar"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="Tcaron"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="Tcedilla"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="Tcommaaccent"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="Tdotbelow"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="6">
+    <SecondGlyph value="Tlinebelow"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="7">
+    <SecondGlyph value="V"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="8">
+    <SecondGlyph value="W"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="9">
+    <SecondGlyph value="Wacute"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="10">
+    <SecondGlyph value="Wcircumflex"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="11">
+    <SecondGlyph value="Wdieresis"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="12">
+    <SecondGlyph value="Wgrave"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="13">
+    <SecondGlyph value="Y"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="14">
+    <SecondGlyph value="Yacute"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="15">
+    <SecondGlyph value="Ycircumflex"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="16">
+    <SecondGlyph value="Ydieresis"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="17">
+    <SecondGlyph value="Ydotaccent"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="18">
+    <SecondGlyph value="Ydotbelow"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="19">
+    <SecondGlyph value="Ygrave"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="20">
+    <SecondGlyph value="Yhookabove"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="21">
+    <SecondGlyph value="Ymacron"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="22">
+    <SecondGlyph value="Ytilde"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="23">
+    <SecondGlyph value="y.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="24">
+    <SecondGlyph value="yacute.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="25">
+    <SecondGlyph value="ycircumflex.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="26">
+    <SecondGlyph value="ydieresis.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="27">
+    <SecondGlyph value="ydotaccent.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="28">
+    <SecondGlyph value="ydotbelow.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="29">
+    <SecondGlyph value="ygrave.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="30">
+    <SecondGlyph value="yhookabove.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="31">
+    <SecondGlyph value="ymacron.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="32">
+    <SecondGlyph value="ytilde.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="33">
+    <SecondGlyph value="asterisk"/>
+    <Value1 XAdvance="-101"/>
+  </PairValueRecord>
+  <PairValueRecord index="34">
+    <SecondGlyph value="quotedblleft"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="35">
+    <SecondGlyph value="quotedblright"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="36">
+    <SecondGlyph value="quoteleft"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="37">
+    <SecondGlyph value="quoteright"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="2">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="3">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="4">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="5">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="6">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="7">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="8">
+  <!-- PairValueCount=6 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="adieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="rcaron"/>
+    <Value1 XAdvance="-94"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-54"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="9">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="10">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="11">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="12">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="13">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="14">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="15">
+  <!-- PairValueCount=5 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="iacute"/>
+    <Value1 XAdvance="-10"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="icircumflex"/>
+    <Value1 XAdvance="140"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="idieresis"/>
+    <Value1 XAdvance="260"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="idieresisacute"/>
+    <Value1 XAdvance="260"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="16">
+  <!-- PairValueCount=28 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="t.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="tbar.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="tcaron.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="tcedilla.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="tcommaaccent.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="tdotbelow.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="6">
+    <SecondGlyph value="tlinebelow.sc"/>
+    <Value1 XAdvance="15"/>
+  </PairValueRecord>
+  <PairValueRecord index="7">
+    <SecondGlyph value="v.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="8">
+    <SecondGlyph value="w.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="9">
+    <SecondGlyph value="wacute.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="10">
+    <SecondGlyph value="wcircumflex.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="11">
+    <SecondGlyph value="wdieresis.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="12">
+    <SecondGlyph value="wgrave.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="13">
+    <SecondGlyph value="y.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="14">
+    <SecondGlyph value="yacute.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="15">
+    <SecondGlyph value="ycircumflex.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="16">
+    <SecondGlyph value="ydieresis.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="17">
+    <SecondGlyph value="ydotaccent.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="18">
+    <SecondGlyph value="ydotbelow.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="19">
+    <SecondGlyph value="ygrave.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="20">
+    <SecondGlyph value="yhookabove.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="21">
+    <SecondGlyph value="ymacron.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="22">
+    <SecondGlyph value="ytilde.sc"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="23">
+    <SecondGlyph value="asterisk"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+  <PairValueRecord index="24">
+    <SecondGlyph value="quotedblleft"/>
+    <Value1 XAdvance="44"/>
+  </PairValueRecord>
+  <PairValueRecord index="25">
+    <SecondGlyph value="quotedblright"/>
+    <Value1 XAdvance="44"/>
+  </PairValueRecord>
+  <PairValueRecord index="26">
+    <SecondGlyph value="quoteleft"/>
+    <Value1 XAdvance="44"/>
+  </PairValueRecord>
+  <PairValueRecord index="27">
+    <SecondGlyph value="quoteright"/>
+    <Value1 XAdvance="44"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="17">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-261"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="18">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-261"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="19">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="rdblgrave"/>
+    <Value1 XAdvance="-8"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="rinvertedbreve"/>
+    <Value1 XAdvance="-48"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="20">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="21">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="22">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="23">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="24">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="25">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="26">
+  <!-- PairValueCount=354 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="C"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="Cacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="Ccaron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="Ccedilla"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="Ccedillaacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="5">
+    <SecondGlyph value="Ccircumflex"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="6">
+    <SecondGlyph value="Cdotaccent"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="7">
+    <SecondGlyph value="G"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="8">
+    <SecondGlyph value="Gacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="9">
+    <SecondGlyph value="Gbreve"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="10">
+    <SecondGlyph value="Gcaron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="11">
+    <SecondGlyph value="Gcircumflex"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="12">
+    <SecondGlyph value="Gcommaaccent"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="13">
+    <SecondGlyph value="Gdotaccent"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="14">
+    <SecondGlyph value="Gmacron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="15">
+    <SecondGlyph value="J"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="16">
+    <SecondGlyph value="Jcircumflex"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="17">
+    <SecondGlyph value="O"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="18">
+    <SecondGlyph value="Oacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="19">
+    <SecondGlyph value="Obreve"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="20">
+    <SecondGlyph value="Ocircumflex"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="21">
+    <SecondGlyph value="Ocircumflexacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="22">
+    <SecondGlyph value="Ocircumflexdotbelow"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="23">
+    <SecondGlyph value="Ocircumflexgrave"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="24">
+    <SecondGlyph value="Ocircumflexhookabove"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="25">
+    <SecondGlyph value="Ocircumflextilde"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="26">
+    <SecondGlyph value="Odblgrave"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="27">
+    <SecondGlyph value="Odieresis"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="28">
+    <SecondGlyph value="Odieresismacron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="29">
+    <SecondGlyph value="Odotaccentmacron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="30">
+    <SecondGlyph value="Odotbelow"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="31">
+    <SecondGlyph value="Ograve"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="32">
+    <SecondGlyph value="Ohookabove"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="33">
+    <SecondGlyph value="Ohorn"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="34">
+    <SecondGlyph value="Ohornacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="35">
+    <SecondGlyph value="Ohorndotbelow"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="36">
+    <SecondGlyph value="Ohorngrave"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="37">
+    <SecondGlyph value="Ohornhookabove"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="38">
+    <SecondGlyph value="Ohorntilde"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="39">
+    <SecondGlyph value="Ohungarumlaut"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="40">
+    <SecondGlyph value="Oinvertedbreve"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="41">
+    <SecondGlyph value="Omacron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="42">
+    <SecondGlyph value="Omacronacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="43">
+    <SecondGlyph value="Omacrongrave"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="44">
+    <SecondGlyph value="Oogonek"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="45">
+    <SecondGlyph value="Oslash"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="46">
+    <SecondGlyph value="Oslashacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="47">
+    <SecondGlyph value="Otilde"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="48">
+    <SecondGlyph value="Otildeacute"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="49">
+    <SecondGlyph value="Otildedieresis"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="50">
+    <SecondGlyph value="Otildemacron"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="51">
+    <SecondGlyph value="OE"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="52">
+    <SecondGlyph value="Q"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="53">
+    <SecondGlyph value="Schwa"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="54">
+    <SecondGlyph value="T"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="55">
+    <SecondGlyph value="Tbar"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="56">
+    <SecondGlyph value="Tcaron"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="57">
+    <SecondGlyph value="Tcedilla"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="58">
+    <SecondGlyph value="Tcommaaccent"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="59">
+    <SecondGlyph value="Tdotbelow"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="60">
+    <SecondGlyph value="Tlinebelow"/>
+    <Value1 XAdvance="-116"/>
+  </PairValueRecord>
+  <PairValueRecord index="61">
+    <SecondGlyph value="V"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="62">
+    <SecondGlyph value="W"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="63">
+    <SecondGlyph value="Wacute"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="64">
+    <SecondGlyph value="Wcircumflex"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="65">
+    <SecondGlyph value="Wdieresis"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="66">
+    <SecondGlyph value="Wgrave"/>
+    <Value1 XAdvance="-80"/>
+  </PairValueRecord>
+  <PairValueRecord index="67">
+    <SecondGlyph value="Y"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="68">
+    <SecondGlyph value="Yacute"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="69">
+    <SecondGlyph value="Ycircumflex"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="70">
+    <SecondGlyph value="Ydieresis"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="71">
+    <SecondGlyph value="Ydotaccent"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="72">
+    <SecondGlyph value="Ydotbelow"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="73">
+    <SecondGlyph value="Ygrave"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="74">
+    <SecondGlyph value="Yhookabove"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="75">
+    <SecondGlyph value="Ymacron"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="76">
+    <SecondGlyph value="Ytilde"/>
+    <Value1 XAdvance="-118"/>
+  </PairValueRecord>
+  <PairValueRecord index="77">
+    <SecondGlyph value="b"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="78">
+    <SecondGlyph value="c"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="79">
+    <SecondGlyph value="cacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="80">
+    <SecondGlyph value="ccaron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="81">
+    <SecondGlyph value="ccedilla"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="82">
+    <SecondGlyph value="ccedillaacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="83">
+    <SecondGlyph value="ccircumflex"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="84">
+    <SecondGlyph value="cdotaccent"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="85">
+    <SecondGlyph value="d"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="86">
+    <SecondGlyph value="eth"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="87">
+    <SecondGlyph value="dcaron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="88">
+    <SecondGlyph value="dcroat"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="89">
+    <SecondGlyph value="ddotbelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="90">
+    <SecondGlyph value="dlinebelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="91">
+    <SecondGlyph value="dz"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="92">
+    <SecondGlyph value="dzcaron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="93">
+    <SecondGlyph value="e"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="94">
+    <SecondGlyph value="eacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="95">
+    <SecondGlyph value="ebreve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="96">
+    <SecondGlyph value="ecaron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="97">
+    <SecondGlyph value="ecedillabreve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="98">
+    <SecondGlyph value="ecircumflex"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="99">
+    <SecondGlyph value="ecircumflexacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="100">
+    <SecondGlyph value="ecircumflexdotbelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="101">
+    <SecondGlyph value="ecircumflexgrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="102">
+    <SecondGlyph value="ecircumflexhookabove"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="103">
+    <SecondGlyph value="ecircumflextilde"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="104">
+    <SecondGlyph value="edblgrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="105">
+    <SecondGlyph value="edieresis"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="106">
+    <SecondGlyph value="edotaccent"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="107">
+    <SecondGlyph value="edotbelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="108">
+    <SecondGlyph value="egrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="109">
+    <SecondGlyph value="ehookabove"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="110">
+    <SecondGlyph value="einvertedbreve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="111">
+    <SecondGlyph value="emacron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="112">
+    <SecondGlyph value="emacronacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="113">
+    <SecondGlyph value="emacrongrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="114">
+    <SecondGlyph value="eogonek"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="115">
+    <SecondGlyph value="etilde"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="116">
+    <SecondGlyph value="schwa"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="117">
+    <SecondGlyph value="g"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="118">
+    <SecondGlyph value="gacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="119">
+    <SecondGlyph value="gbreve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="120">
+    <SecondGlyph value="gcaron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="121">
+    <SecondGlyph value="gcircumflex"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="122">
+    <SecondGlyph value="gcommaaccent"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="123">
+    <SecondGlyph value="gdotaccent"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="124">
+    <SecondGlyph value="gmacron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="125">
+    <SecondGlyph value="h"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="126">
+    <SecondGlyph value="hbar"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="127">
+    <SecondGlyph value="hbrevebelow"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="128">
+    <SecondGlyph value="hcircumflex"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="129">
+    <SecondGlyph value="hdotbelow"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="130">
+    <SecondGlyph value="i"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="131">
+    <SecondGlyph value="iacute"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="132">
+    <SecondGlyph value="idotaccent"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="133">
+    <SecondGlyph value="idotbelow"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="134">
+    <SecondGlyph value="iogonek"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="135">
+    <SecondGlyph value="j"/>
+    <Value1 XAdvance="106"/>
+  </PairValueRecord>
+  <PairValueRecord index="136">
+    <SecondGlyph value="jdotless"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="137">
+    <SecondGlyph value="jcircumflex"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="138">
+    <SecondGlyph value="k"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="139">
+    <SecondGlyph value="kcommaaccent"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="140">
+    <SecondGlyph value="l"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="141">
+    <SecondGlyph value="lacute"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="142">
+    <SecondGlyph value="lcaron"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="143">
+    <SecondGlyph value="lcommaaccent"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="144">
+    <SecondGlyph value="ldot"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="145">
+    <SecondGlyph value="ldotbelow"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="146">
+    <SecondGlyph value="lj"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="147">
+    <SecondGlyph value="llinebelow"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="148">
+    <SecondGlyph value="lslash"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="149">
+    <SecondGlyph value="o"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="150">
+    <SecondGlyph value="oacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="151">
+    <SecondGlyph value="obreve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="152">
+    <SecondGlyph value="ocircumflex"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="153">
+    <SecondGlyph value="ocircumflexacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="154">
+    <SecondGlyph value="ocircumflexdotbelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="155">
+    <SecondGlyph value="ocircumflexgrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="156">
+    <SecondGlyph value="ocircumflexhookabove"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="157">
+    <SecondGlyph value="ocircumflextilde"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="158">
+    <SecondGlyph value="odblgrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="159">
+    <SecondGlyph value="odieresis"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="160">
+    <SecondGlyph value="odieresismacron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="161">
+    <SecondGlyph value="odotaccentmacron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="162">
+    <SecondGlyph value="odotbelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="163">
+    <SecondGlyph value="ograve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="164">
+    <SecondGlyph value="ohookabove"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="165">
+    <SecondGlyph value="ohorn"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="166">
+    <SecondGlyph value="ohornacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="167">
+    <SecondGlyph value="ohorndotbelow"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="168">
+    <SecondGlyph value="ohorngrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="169">
+    <SecondGlyph value="ohornhookabove"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="170">
+    <SecondGlyph value="ohorntilde"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="171">
+    <SecondGlyph value="ohungarumlaut"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="172">
+    <SecondGlyph value="oinvertedbreve"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="173">
+    <SecondGlyph value="omacron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="174">
+    <SecondGlyph value="omacronacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="175">
+    <SecondGlyph value="omacrongrave"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="176">
+    <SecondGlyph value="oogonek"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="177">
+    <SecondGlyph value="oslash"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="178">
+    <SecondGlyph value="oslashacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="179">
+    <SecondGlyph value="otilde"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="180">
+    <SecondGlyph value="otildeacute"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="181">
+    <SecondGlyph value="otildedieresis"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="182">
+    <SecondGlyph value="otildemacron"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="183">
+    <SecondGlyph value="oe"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="184">
+    <SecondGlyph value="q"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="185">
+    <SecondGlyph value="i_j.loclNLD"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="186">
+    <SecondGlyph value="c.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="187">
+    <SecondGlyph value="cacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="188">
+    <SecondGlyph value="ccaron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="189">
+    <SecondGlyph value="ccedilla.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="190">
+    <SecondGlyph value="ccedillaacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="191">
+    <SecondGlyph value="ccircumflex.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="192">
+    <SecondGlyph value="cdotaccent.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="193">
+    <SecondGlyph value="schwa.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="194">
+    <SecondGlyph value="g.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="195">
+    <SecondGlyph value="gacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="196">
+    <SecondGlyph value="gbreve.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="197">
+    <SecondGlyph value="gcaron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="198">
+    <SecondGlyph value="gcircumflex.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="199">
+    <SecondGlyph value="gcommaaccent.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="200">
+    <SecondGlyph value="gdotaccent.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="201">
+    <SecondGlyph value="gmacron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="202">
+    <SecondGlyph value="j.sc"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="203">
+    <SecondGlyph value="jcircumflex.sc"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="204">
+    <SecondGlyph value="o.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="205">
+    <SecondGlyph value="oacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="206">
+    <SecondGlyph value="obreve.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="207">
+    <SecondGlyph value="ocircumflex.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="208">
+    <SecondGlyph value="ocircumflexacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="209">
+    <SecondGlyph value="ocircumflexdotbelow.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="210">
+    <SecondGlyph value="ocircumflexgrave.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="211">
+    <SecondGlyph value="ocircumflexhookabove.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="212">
+    <SecondGlyph value="ocircumflextilde.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="213">
+    <SecondGlyph value="odblgrave.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="214">
+    <SecondGlyph value="odieresis.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="215">
+    <SecondGlyph value="odieresismacron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="216">
+    <SecondGlyph value="odotaccentmacron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="217">
+    <SecondGlyph value="odotbelow.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="218">
+    <SecondGlyph value="ograve.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="219">
+    <SecondGlyph value="ohookabove.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="220">
+    <SecondGlyph value="ohorn.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="221">
+    <SecondGlyph value="ohornacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="222">
+    <SecondGlyph value="ohorndotbelow.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="223">
+    <SecondGlyph value="ohorngrave.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="224">
+    <SecondGlyph value="ohornhookabove.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="225">
+    <SecondGlyph value="ohorntilde.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="226">
+    <SecondGlyph value="ohungarumlaut.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="227">
+    <SecondGlyph value="oinvertedbreve.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="228">
+    <SecondGlyph value="omacron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="229">
+    <SecondGlyph value="omacronacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="230">
+    <SecondGlyph value="omacrongrave.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="231">
+    <SecondGlyph value="oogonek.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="232">
+    <SecondGlyph value="oslash.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="233">
+    <SecondGlyph value="oslashacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="234">
+    <SecondGlyph value="otilde.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="235">
+    <SecondGlyph value="otildeacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="236">
+    <SecondGlyph value="otildedieresis.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="237">
+    <SecondGlyph value="otildemacron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="238">
+    <SecondGlyph value="oe.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="239">
+    <SecondGlyph value="q.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="240">
+    <SecondGlyph value="t.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="241">
+    <SecondGlyph value="tbar.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="242">
+    <SecondGlyph value="tcaron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="243">
+    <SecondGlyph value="tcedilla.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="244">
+    <SecondGlyph value="tcommaaccent.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="245">
+    <SecondGlyph value="tdotbelow.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="246">
+    <SecondGlyph value="tlinebelow.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="247">
+    <SecondGlyph value="u.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="248">
+    <SecondGlyph value="uacute.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="249">
+    <SecondGlyph value="ubreve.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="250">
+    <SecondGlyph value="ucircumflex.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="251">
+    <SecondGlyph value="udblgrave.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="252">
+    <SecondGlyph value="udieresis.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="253">
+    <SecondGlyph value="udotbelow.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="254">
+    <SecondGlyph value="ugrave.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="255">
+    <SecondGlyph value="uhookabove.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="256">
+    <SecondGlyph value="uhorn.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="257">
+    <SecondGlyph value="uhornacute.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="258">
+    <SecondGlyph value="uhorndotbelow.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="259">
+    <SecondGlyph value="uhorngrave.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="260">
+    <SecondGlyph value="uhornhookabove.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="261">
+    <SecondGlyph value="uhorntilde.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="262">
+    <SecondGlyph value="uhungarumlaut.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="263">
+    <SecondGlyph value="uinvertedbreve.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="264">
+    <SecondGlyph value="umacron.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="265">
+    <SecondGlyph value="umacrondieresis.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="266">
+    <SecondGlyph value="uogonek.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="267">
+    <SecondGlyph value="uring.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="268">
+    <SecondGlyph value="utilde.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="269">
+    <SecondGlyph value="utildeacute.sc"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="270">
+    <SecondGlyph value="v.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="271">
+    <SecondGlyph value="w.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="272">
+    <SecondGlyph value="wacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="273">
+    <SecondGlyph value="wcircumflex.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="274">
+    <SecondGlyph value="wdieresis.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="275">
+    <SecondGlyph value="wgrave.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="276">
+    <SecondGlyph value="y.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="277">
+    <SecondGlyph value="yacute.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="278">
+    <SecondGlyph value="ycircumflex.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="279">
+    <SecondGlyph value="ydieresis.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="280">
+    <SecondGlyph value="ydotaccent.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="281">
+    <SecondGlyph value="ydotbelow.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="282">
+    <SecondGlyph value="ygrave.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="283">
+    <SecondGlyph value="yhookabove.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="284">
+    <SecondGlyph value="ymacron.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="285">
+    <SecondGlyph value="ytilde.sc"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="286">
+    <SecondGlyph value="ordfeminine"/>
+    <Value1 XAdvance="-87"/>
+  </PairValueRecord>
+  <PairValueRecord index="287">
+    <SecondGlyph value="ordmasculine"/>
+    <Value1 XAdvance="-87"/>
+  </PairValueRecord>
+  <PairValueRecord index="288">
+    <SecondGlyph value="zero"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="289">
+    <SecondGlyph value="one"/>
+    <Value1 XAdvance="-98"/>
+  </PairValueRecord>
+  <PairValueRecord index="290">
+    <SecondGlyph value="four"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="291">
+    <SecondGlyph value="five"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="292">
+    <SecondGlyph value="six"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="293">
+    <SecondGlyph value="seven"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="294">
+    <SecondGlyph value="eight"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="295">
+    <SecondGlyph value="zero.osf"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="296">
+    <SecondGlyph value="one.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="297">
+    <SecondGlyph value="three.osf"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="298">
+    <SecondGlyph value="four.osf"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+  <PairValueRecord index="299">
+    <SecondGlyph value="five.osf"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+  <PairValueRecord index="300">
+    <SecondGlyph value="six.osf"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="301">
+    <SecondGlyph value="eight.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="302">
+    <SecondGlyph value="nine.osf"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="303">
+    <SecondGlyph value="asterisk"/>
+    <Value1 XAdvance="-188"/>
+  </PairValueRecord>
+  <PairValueRecord index="304">
+    <SecondGlyph value="periodcentered"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="305">
+    <SecondGlyph value="bullet"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="306">
+    <SecondGlyph value="comma"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="307">
+    <SecondGlyph value="ellipsis"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="308">
+    <SecondGlyph value="exclam"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="309">
+    <SecondGlyph value="period"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="310">
+    <SecondGlyph value="question"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="311">
+    <SecondGlyph value="slash"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="312">
+    <SecondGlyph value="underscore"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="313">
+    <SecondGlyph value="braceright"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="314">
+    <SecondGlyph value="bracketright"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="315">
+    <SecondGlyph value="parenleft"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="316">
+    <SecondGlyph value="parenright"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="317">
+    <SecondGlyph value="emdash"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="318">
+    <SecondGlyph value="endash"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="319">
+    <SecondGlyph value="figuredash"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="320">
+    <SecondGlyph value="horizontalbar"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="321">
+    <SecondGlyph value="hyphen"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="322">
+    <SecondGlyph value="hyphentwo"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="323">
+    <SecondGlyph value="softhyphen"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="324">
+    <SecondGlyph value="guillemetleft"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="325">
+    <SecondGlyph value="guilsinglleft"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="326">
+    <SecondGlyph value="quotedblbase"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="327">
+    <SecondGlyph value="quotedblleft"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="328">
+    <SecondGlyph value="quotedblright"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="329">
+    <SecondGlyph value="quoteleft"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="330">
+    <SecondGlyph value="quoteright"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="331">
+    <SecondGlyph value="quotesinglbase"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+  <PairValueRecord index="332">
+    <SecondGlyph value="parenleft.sc"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="333">
+    <SecondGlyph value="cedi"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="334">
+    <SecondGlyph value="cent"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="335">
+    <SecondGlyph value="colonsign"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="336">
+    <SecondGlyph value="dong"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="337">
+    <SecondGlyph value="guarani"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="338">
+    <SecondGlyph value="divisionslash"/>
+    <Value1 XAdvance="116"/>
+  </PairValueRecord>
+  <PairValueRecord index="339">
+    <SecondGlyph value="bulletoperator.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="340">
+    <SecondGlyph value="plus.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="341">
+    <SecondGlyph value="minus.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="342">
+    <SecondGlyph value="divide.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="343">
+    <SecondGlyph value="less.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="344">
+    <SecondGlyph value="asciitilde.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="345">
+    <SecondGlyph value="logicalnot.osf"/>
+    <Value1 XAdvance="-29"/>
+  </PairValueRecord>
+  <PairValueRecord index="346">
+    <SecondGlyph value="infinity.osf"/>
+    <Value1 XAdvance="-30"/>
+  </PairValueRecord>
+  <PairValueRecord index="347">
+    <SecondGlyph value="at"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="348">
+    <SecondGlyph value="copyright"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+  <PairValueRecord index="349">
+    <SecondGlyph value="registered"/>
+    <Value1 XAdvance="-87"/>
+  </PairValueRecord>
+  <PairValueRecord index="350">
+    <SecondGlyph value="degree"/>
+    <Value1 XAdvance="-87"/>
+  </PairValueRecord>
+  <PairValueRecord index="351">
+    <SecondGlyph value="dagger"/>
+    <Value1 XAdvance="-87"/>
+  </PairValueRecord>
+  <PairValueRecord index="352">
+    <SecondGlyph value="daggerdbl"/>
+    <Value1 XAdvance="-87"/>
+  </PairValueRecord>
+  <PairValueRecord index="353">
+    <SecondGlyph value="estimated"/>
+    <Value1 XAdvance="-90"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="27">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="28">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="29">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-145"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="30">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="31">
+  <!-- PairValueCount=4 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="J"/>
+    <Value1 XAdvance="174"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="Jcircumflex"/>
+    <Value1 XAdvance="174"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="j"/>
+    <Value1 XAdvance="104"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="jdotless"/>
+    <Value1 XAdvance="203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="32">
+  <!-- PairValueCount=4 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="J"/>
+    <Value1 XAdvance="174"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="Jcircumflex"/>
+    <Value1 XAdvance="174"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="j"/>
+    <Value1 XAdvance="104"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="jdotless"/>
+    <Value1 XAdvance="203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="33">
+  <!-- PairValueCount=4 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="J"/>
+    <Value1 XAdvance="174"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="Jcircumflex"/>
+    <Value1 XAdvance="174"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="j"/>
+    <Value1 XAdvance="104"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="jdotless"/>
+    <Value1 XAdvance="203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="34">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="35">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="36">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="37">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="38">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="39">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="40">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="41">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="42">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="43">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="44">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-232"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="45">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-232"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="46">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-232"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="47">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-232"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="48">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="49">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="j.sc"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="jcircumflex.sc"/>
+    <Value1 XAdvance="261"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="50">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="j.sc"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="jcircumflex.sc"/>
+    <Value1 XAdvance="261"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="51">
+  <!-- PairValueCount=2 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="j.sc"/>
+    <Value1 XAdvance="145"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="jcircumflex.sc"/>
+    <Value1 XAdvance="261"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="52">
+  <!-- PairValueCount=5 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="iacute"/>
+    <Value1 XAdvance="-10"/>
+  </PairValueRecord>
+  <PairValueRecord index="1">
+    <SecondGlyph value="icircumflex"/>
+    <Value1 XAdvance="140"/>
+  </PairValueRecord>
+  <PairValueRecord index="2">
+    <SecondGlyph value="idieresis"/>
+    <Value1 XAdvance="260"/>
+  </PairValueRecord>
+  <PairValueRecord index="3">
+    <SecondGlyph value="idieresisacute"/>
+    <Value1 XAdvance="260"/>
+  </PairValueRecord>
+  <PairValueRecord index="4">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="0"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="53">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="ihookabove"/>
+    <Value1 XAdvance="2"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="54">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-145"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="55">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="56">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="57">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="58">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="59">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="60">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-58"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="61">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-232"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="62">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="63">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-203"/>
+  </PairValueRecord>
+</PairSet>
+<PairSet index="64">
+  <!-- PairValueCount=1 -->
+  <PairValueRecord index="0">
+    <SecondGlyph value="questiondown"/>
+    <Value1 XAdvance="-261"/>
+  </PairValueRecord>
+</PairSet>
