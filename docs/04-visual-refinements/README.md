@@ -30,3 +30,6 @@ I started to see that I could keep the left part of Encode's original `/Germandb
 ![New Germandbls in Encode Sans](assets/2018-11-01-15-31-24.png)
 
 ![New Germandbls in Encode Sans, across styles](assets/Germandbls.gif)
+
+## Making diagonal accents match the sharpness of other diagonals in typeface
+
