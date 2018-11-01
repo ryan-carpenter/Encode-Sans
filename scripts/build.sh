@@ -8,7 +8,7 @@
 glyphsSource="sources/Encode-Sans.glyphs"
 
 ## Set this. It's probably your font name without spaces, then "-VF"
-VFname="EncodeSans-VF"
+# VFname="EncodeSans-VF"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
 fixGlyphsDesignspace=true
@@ -25,7 +25,10 @@ keepDesignspace=true
 ## make temp glyphs filename with "-build" suffix
 tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
 
-## TODO: grab name from Glyphs source via python & glyphsLib?
+# get font name from glyphs source
+VFname=`python2 scripts/helpers/get-font-name.py ${glyphsSource}`
+# checking that the name has been pulled out of the source file
+echo "VF Name: ${VFname}"
 
 ## copy Glyphs file into temp file
 cp $glyphsSource $tempGlyphsSource
