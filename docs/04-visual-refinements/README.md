@@ -31,5 +31,14 @@ I started to see that I could keep the left part of Encode's original `/Germandb
 
 ![New Germandbls in Encode Sans, across styles](assets/Germandbls.gif)
 
+I've used [RMX Tools](https://remix-tools.com) to convert these into small caps, as well.
+
+- [ ] still to do: check kerning, probably add against `/W /Y /V` and punctuation
+
 ## Making diagonal accents match the sharpness of other diagonals in typeface
 
+Encode Sans has a sharp and precise aesthetic, with (almost) all terminals and diagonals ending in vertical or horizontal terminations. This links it to classic humanist typefaces like Gill Sans, Frutiger, and Verdana. However, the diagonal accents in letters like `/Oslash` and `/lslash` end in angled, "square capped" terminals. 
+
+Jacques tried to change it quickly, and showed that in order to change this well, it will be necessary to also consider changing the angle of these strokes.
+
+To be continued...
