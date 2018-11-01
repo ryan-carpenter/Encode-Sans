@@ -2,7 +2,7 @@
 .appVersion = "1176";
 DisplayStrings = (
 "R/Germandbls Kßàâ/lslash/guilsinglleft ñt",
-"RBtzZS  /Germandbls B",
+"/r.sc RBtzZS  /Germandbls B",
 "/cedi ¢/colonsign ¤$/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/cedi.tf/cent.tf/colonsign.tf/currency.tf/dollar.tf/dong.tf/euro.tf/florin.tf/franc.tf/guarani.tf/kip.tf Q"
 );
 classes = (
@@ -25141,8 +25141,8 @@ closed = 1;
 nodes = (
 "1080 0 LINE",
 "578 698 LINE",
-"500 698 LINE",
-"1000 0 LINE"
+"495 698 LINE",
+"994 0 LINE"
 );
 },
 {
@@ -25381,8 +25381,8 @@ closed = 1;
 nodes = (
 "1314 0 LINE",
 "714 708 LINE",
-"630 708 LINE",
-"1228 0 LINE"
+"627 708 LINE",
+"1225 0 LINE"
 );
 },
 {
@@ -95184,8 +95184,8 @@ closed = 1;
 nodes = (
 "956 0 LINE",
 "530 560 LINE",
-"454 560 LINE",
-"878 0 LINE"
+"447 560 LINE",
+"869 0 LINE"
 );
 },
 {
@@ -95434,8 +95434,8 @@ closed = 1;
 nodes = (
 "1164 0 LINE",
 "654 568 LINE",
-"572 568 LINE",
-"1080 0 LINE"
+"568 568 LINE",
+"1076 0 LINE"
 );
 },
 {
