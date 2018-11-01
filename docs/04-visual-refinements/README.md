@@ -33,12 +33,41 @@ I started to see that I could keep the left part of Encode's original `/Germandb
 
 I've used [RMX Tools](https://remix-tools.com) to convert these into small caps, as well.
 
-- [ ] still to do: check kerning, probably add against `/W /Y /V` and punctuation
+
+## Fixing the thin `/Enj.sc`
+
+The `/Enj.sc` had a couple of interpolation errors, which were simple to fix.
+
+![](assets/Enj-narrow.png)
+![](assets/Enj-wide.png)
+
+Fixed: 
+
+![](assets/Enj-narrow-fixed.png)
+![](assets/Enj-wide-fixed.png)
+
+## Making ogoneks connect a bit more smoothly
+
+The ogonek doesn't connect with the bottom-right of the `/E` as well as it should. It also creates an odd little "kink" in the `/a` and `/u`.
+
+![](assets/2018-11-01-17-27-53.png)
+
+![](assets/2018-11-01-17-28-07.png)
+
+The `/Eogonek` was easily fixed by moving the `ogonek` anchor to the corner. The `/aogonek` and `/uogonek` were resolved by decomposing the base letters, then moving their points down into the ogonek slightly. 
+
+![](assets/2018-11-01-17-31-08.png)
+
+![](assets/2018-11-01-17-31-17.png)
 
 ## Making diagonal accents match the sharpness of other diagonals in typeface
 
-Encode Sans has a sharp and precise aesthetic, with (almost) all terminals and diagonals ending in vertical or horizontal terminations. This links it to classic humanist typefaces like Gill Sans, Frutiger, and Verdana. However, the diagonal accents in letters like `/Oslash` and `/lslash` end in angled, "square capped" terminals. 
+Encode Sans has a sharp and precise aesthetic, with (almost) all terminals and diagonals ending in vertical or horizontal terminations, in letters (like `/a /c /e /s`) and in other marks (like `/slash /fraction`). This links it to classic humanist typefaces like Gill Sans, Frutiger, and Verdana. However, the diagonal accents in letters like `/Oslash` and `/lslash` end in angled, "square capped" terminals. 
 
 Jacques tried to change it quickly, and showed that in order to change this well, it will be necessary to also consider changing the angle of these strokes.
 
-To be continued...
+
+## Still to be completed
+
+- [ ] `/Germandbls`: check kerning, probably add against `/W /Y /V` and punctuation
+- [ ] fix diagonal accent terminals
