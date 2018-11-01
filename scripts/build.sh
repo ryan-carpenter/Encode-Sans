@@ -26,7 +26,7 @@ keepDesignspace=true
 tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
 
 # get font name from glyphs source
-VFname=`python2 scripts/helpers/get-font-name.py ${glyphsSource}`
+VFname=`python scripts/helpers/get-font-name.py ${glyphsSource}`
 # checking that the name has been pulled out of the source file
 echo "VF Name: ${VFname}"
 
@@ -36,7 +36,7 @@ cp $glyphsSource $tempGlyphsSource
 if [ $fixGlyphsDesignspace == true ]
 then
     ## call the designspace fixing script
-    python2 scripts/fix-designspace.py $tempGlyphsSource
+    python scripts/fix-designspace.py $tempGlyphsSource
 else
     echo "not morphing designspace"
 fi

@@ -138,7 +138,7 @@ for instance in font.instances:
 
 		instance.name = re.sub("^\d* ", "", instance.name)
 
-		print "Interp Values:", str(wghtIntrMax) + ", " + str(wghtIntrMin), "     Original Weight", oldWght, "scaled to", newWght
+		print("Interp Values:", str(wghtIntrMax) + ", " + str(wghtIntrMin), "     Original Weight", oldWght, "scaled to", newWght)
 		# print "Renamed as", instance.name, "\n"
 
 ## makes a dictionary of morphed designspace weight values, so it can find the mode value, then apply that to all instances to make an aligned grid
@@ -169,7 +169,7 @@ for master in font.masters:
 	master.widthValue = widthDict[master.widthValue]
 			
 if nonDestructive == False:		
-	print "\nScaled file to a rectangular designspace"
+	print("\nScaled file to a rectangular designspace")
 
 # for instance in font.instances:
 # 	if instance.active:
