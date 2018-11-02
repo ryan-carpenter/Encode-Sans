@@ -77,6 +77,15 @@ Potentially, a few other diagonals might be better with sharp terminals, as well
 
 Jacques tried to change it quickly, and showed that in order to change this well, it will be necessary to also consider changing the angle of these strokes.
 
+**`/Lslash` and `/lslash`**
+
+For the `/Lslash` and `/lslash`, I kept the angle of the slash and kept the overall location of the slash on the `L`s. 
+
+![](assets/lslash-narrow_light.png)
+![](assets/lslash-wide_light.png)
+![](assets/lslash-narrow_bold.png)
+![](assets/lslash-wide_bold.png)
+
 
 ## Still to be completed
 
