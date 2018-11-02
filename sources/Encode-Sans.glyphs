@@ -3,7 +3,7 @@
 DisplayStrings = (
 "ã/ecaron xs/oneeighth \012/Lslash/lslash Øø/upArrow/notequal \012\012t",
 "35ß/Germandbls/germandbls.sc \012\01253R/Germandbls/three.osf/r.sc/germandbls.sc/b.sc \012\012NNCANN\012OO/Placeholder AOO\012ii/Placeholder Aii\012",
-"/slashshortcomb.case/Lslash/slashshortcomb.sc/lslash.sc/slashshortcomb/lslash \012OOAOO\012ØØAØØ\012/a.sc/a.sc/oslash.sc/a.sc/a.sc \012/a.sc/a.sc/o.sc/a.sc/a.sc \012/slashcomb.case Ø  /slashcomb ø /slashcomb.sc/oslash.sc/Placeholder"
+"/slashshortcomb.case/Lslash/slashshortcomb.sc/lslash.sc/slashshortcomb/lslash \012OOAOO\012ØØAØØ\012/a.sc/a.sc/oslash.sc/a.sc/a.sc \012/a.sc/a.sc/o.sc/a.sc/a.sc \012\012Øø/oslash.sc"
 );
 classes = (
 {

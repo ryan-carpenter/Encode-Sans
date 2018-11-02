@@ -86,6 +86,16 @@ For the `/Lslash` and `/lslash`, I kept the angle of the slash and kept the over
 ![](assets/lslash-narrow_bold.png)
 ![](assets/lslash-wide_bold.png)
 
+**`/Oslash`, `/Oslash.sc`, and `/oslash`**
+
+![](assets/oslash-nl.png)
+![](assets/oslash-wl.png)
+![](assets/oslash-nb.png)
+![](assets/oslash-wb.png)
+
+For a few of the more difficult slashes (especially in the `/oslash`, which has a more-complex structure), I made use of GlyphsApp's ability to place guides against two selected points, with the midpoint marked. This kept the slashes centered against the `o`s, and allowed control of the terminal locations.
+
+![](assets/oslash-guides.gif)
 
 ## Still to be completed
 
