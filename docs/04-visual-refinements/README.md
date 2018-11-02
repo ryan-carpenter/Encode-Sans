@@ -33,6 +33,13 @@ I started to see that I could keep the left part of Encode's original `/Germandb
 
 I've used [RMX Tools](https://remix-tools.com) to convert these into small caps, as well.
 
+Later, I did a second round to combine the separate contours (keeping inner corners open), and refine the curves. I paid special attention to matching the smoothness and subtle bounce of glyphs like `/three /five /R /B`.
+
+![](assets/SS-narrow_light.png)
+![](assets/SS-wide_light.png)
+![](assets/SS-narrow_bold.png)
+![](assets/SS-wide_bold.png)
+
 
 ## Fixing the thin `/Enj.sc`
 
