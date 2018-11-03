@@ -100,4 +100,5 @@ For a few of the more difficult slashes (especially in the `/oslash`, which has 
 ## Still to be completed
 
 - [ ] `/Germandbls`: check kerning, probably add against `/W /Y /V` and punctuation
-- [ ] fix diagonal accent terminals
+- [x] fix diagonal accent terminals
+- [ ] double-check kerning in slash accents
