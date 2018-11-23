@@ -1,5 +1,5 @@
 {
-.appVersion = "1176";
+.appVersion = "1181";
 DisplayStrings = (
 "ã/ecaron xs/oneeighth \012/Lslash/lslash Øø/upArrow/notequal \012\012t",
 "35ß/Germandbls/germandbls.sc \012\01253R/Germandbls/three.osf/r.sc/germandbls.sc/b.sc \012\012NNCANN\012OO/Placeholder AOO\012ii/Placeholder Aii\012",
@@ -12,7 +12,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2012 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name \"Encode Sans\".";
+copyright = "Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)";
 customParameters = (
 {
 name = note;
@@ -49,7 +49,7 @@ value = 1;
 },
 {
 name = vendorID;
-value = IMPA;
+value = GOOG;
 }
 );
 date = "2016-12-23 10:14:22 +0000";
@@ -95112,6 +95112,16 @@ rightKerningGroup = o.sc;
 glyphname = oslash.sc;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{518, 0}";
+},
+{
+name = top;
+position = "{518, 1080}";
+}
+);
 background = {
 anchors = (
 {
@@ -95490,7 +95500,7 @@ name = oslash.sc;
 },
 {
 name = acutecomb.sc;
-transform = "{1, 0, 0, 1, 118, -290}";
+transform = "{1, 0, 0, 1, 118, -440}";
 }
 );
 layerId = "ECFF4977-BDCC-4836-B4AC-1801CF0EB460";

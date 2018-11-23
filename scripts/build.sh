@@ -56,10 +56,9 @@ rm -rf $tempGlyphsSource
 
 cd variable_ttf
 
+
 ## fix file metadata with gftools
-gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
 gftools fix-dsig --autofix ${VFname}.ttf
-gftools fix-gasp ${VFname}.ttf
 
 ## sets up temp ttx file to insert correct values into tables
 ttx ${VFname}.ttf

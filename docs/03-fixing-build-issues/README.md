@@ -26,6 +26,8 @@ Results
 - The `fix-designspace.py` script is detecting values, to prevent future error and be more flexible for other designs.
 - The correct width values are now being placed into the file.
 
+
+
 ## Investigating kerning issue
 
 The biggest problem so far in Encode is the output VF having unexpected kerning. An issue about this is filed at [fontmake/issues/470](https://github.com/googlei18n/fontmake/issues/470). 
@@ -62,3 +64,12 @@ Finally, I diffed the two files with VSCode's "Compare Selected" function. It co
 > 
 > - [59464ae/EncodeSans-VF-instance-ExtendedBold-PairSet.xml](https://github.com/thundernixon/Encode-Sans/blob/59464aed27534fee3b08752303584c539f94471d/dist/EncodeSans-VF-2018-10-26-17_31/EncodeSans-VF-instance-ExtendedBold-PairSet.xml)
 > - [59464ae/EncodeSans-ExtendedBold-PairSet.xml](https://github.com/thundernixon/Encode-Sans/blob/59464aed27534fee3b08752303584c539f94471d/dist/EncodeSans-VF-2018-10-26-17_31/EncodeSans-ExtendedBold-PairSet.xml)
+
+
+## Kerning issue, solved
+
+Behdad was able to code a fix in fonttools for the kerning mixup, and Cosimo helpfully provided advice on how to install the latest fonttools code directly from the fonttools/fonttools GitHub repo. 
+
+After installing the latest fonttools code in my virtualenv, the build process works as I want, without any further changes!
+
+![](assets/2018-11-21-17-04-05.png)

@@ -69,7 +69,7 @@ The `/Eogonek` was easily fixed by moving the `ogonek` anchor to the corner. The
 
 ## Making diagonal accents match the sharpness of other diagonals in typeface
 
-Encode Sans has a sharp and precise aesthetic, with (almost) all terminals and diagonals ending in vertical or horizontal terminations, in letters (like `/a /c /e /s`) and in other marks (like `/slash /fraction`). This links it to classic humanist typefaces like Gill Sans, Frutiger, and Verdana. However, the diagonal accents in letters like `/Oslash` and `/lslash` end in angled, "square capped" terminals. 
+Encode Sans has a sharp and precise aesthetic, with (almost) all terminals and diagonals ending in vertical or horizontal terminations, in letters (like `/a /c /e /s`) and in other marks (like `/slash /fraction`). This links it to classic humanist typefaces like Gill Sans, Frutiger, and Verdana. However, the diagonal accents in letters like `/Oslash` and `/lslash` end in angled, "square capped" terminals.
 
 Potentially, a few other diagonals might be better with sharp terminals, as well. Likely arrows. I'm less certain about math symbols like `/notequal`, as `/multiply` obviously shouldn't have flat terminals.
 
