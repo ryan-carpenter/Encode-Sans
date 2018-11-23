@@ -19,6 +19,9 @@ timestampAndFontbakeInDist=true
 ## keep designspace file if you want to check values later
 keepDesignspace=true
 
+## build static instances, not just the variable font.
+buildStaticInstances=true
+
 ################# set vars #################
 ############################################
 
@@ -38,11 +41,19 @@ then
     ## call the designspace fixing script
     python scripts/fix-designspace.py $tempGlyphsSource
 else
-    echo "not morphing designspace"
+    echo "Not morphing designspace."
 fi
 
 ## call fontmake to make a varfont
 fontmake -o variable -g $tempGlyphsSource
+
+if [ $buildStaticInstances == true ]
+then
+    # TODO: optimize with a variable name rather than the exact path
+    fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "ExtraLight" --autohint
+else
+    echo "Building only variable font, not static instances."
+fi
 
 if [ $keepDesignspace == true ]
 then

@@ -63,1282 +63,94 @@ familyName = "Encode Sans";
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem latn NLD;
-languagesystem latn CAT;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn CRT;
-languagesystem latn AZE;
-";
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn NLD;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012";
 name = Languagesystems;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature locl;
-feature subs;
-feature sups;
-feature numr;
-feature dnom;
-feature frac;
-feature ordn;
-feature lnum;
-feature pnum;
-feature tnum;
-feature onum;
-feature smcp;
-feature case;
-feature ccmp;
-feature c2sc;
-";
+code = "feature locl;\012feature subs;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature smcp;\012feature case;\012feature ccmp;\012feature c2sc;\012";
 name = aalt;
 },
 {
 automatic = 1;
-code = "script latn;
-language NLD;
-sub I J by I_J.loclNLD;
-sub i j by i_j.loclNLD;
-sub iacute j by iacute_j.loclNLD;
-sub Iacute J by Iacute_J.loclNLD;
-language CAT;
-sub  l' periodcentered' l by ldot;
-sub  L' periodcentered' L by Ldot;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language KAZ;
-sub i by idotaccent;
-language TAT;
-sub i by idotaccent;
-language TRK;
-sub i by idotaccent;
-language CRT;
-sub i by idotaccent;
-language AZE;
-sub i by idotaccent;
-";
+code = "script latn;\012language NLD;\012sub I J by I_J.loclNLD;\012sub i j by i_j.loclNLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012";
 name = locl;
 },
 {
 automatic = 1;
-code = "sub zero by zeroinferior;
-sub one by oneinferior;
-sub two by twoinferior;
-sub three by threeinferior;
-sub four by fourinferior;
-sub five by fiveinferior;
-sub six by sixinferior;
-sub seven by seveninferior;
-sub eight by eightinferior;
-sub nine by nineinferior;
-";
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
 name = subs;
 },
 {
 automatic = 1;
-code = "sub zero by zerosuperior;
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub four by foursuperior;
-sub five by fivesuperior;
-sub six by sixsuperior;
-sub seven by sevensuperior;
-sub eight by eightsuperior;
-sub nine by ninesuperior;
-";
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
 name = sups;
 },
 {
 automatic = 1;
-code = "sub zero by zero.numr;
-sub one by one.numr;
-sub two by two.numr;
-sub three by three.numr;
-sub four by four.numr;
-sub five by five.numr;
-sub six by six.numr;
-sub seven by seven.numr;
-sub eight by eight.numr;
-sub nine by nine.numr;
-";
+code = "sub zero by zero.numr;\012sub one by one.numr;\012sub two by two.numr;\012sub three by three.numr;\012sub four by four.numr;\012sub five by five.numr;\012sub six by six.numr;\012sub seven by seven.numr;\012sub eight by eight.numr;\012sub nine by nine.numr;\012";
 name = numr;
 },
 {
 automatic = 1;
-code = "sub zero by zero.dnom;
-sub one by one.dnom;
-sub two by two.dnom;
-sub three by three.dnom;
-sub four by four.dnom;
-sub five by five.dnom;
-sub six by six.dnom;
-sub seven by seven.dnom;
-sub eight by eight.dnom;
-sub nine by nine.dnom;
-";
+code = "sub zero by zero.dnom;\012sub one by one.dnom;\012sub two by two.dnom;\012sub three by three.dnom;\012sub four by four.dnom;\012sub five by five.dnom;\012sub six by six.dnom;\012sub seven by seven.dnom;\012sub eight by eight.dnom;\012sub nine by nine.dnom;\012";
 name = dnom;
 },
 {
 automatic = 1;
-code = "lookup FRAC {
-	sub slash by fraction;
-} FRAC;
-lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} UP;
-lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} DOWN;
-";
+code = "lookup FRAC {\012	sub slash by fraction;\012} FRAC;\012lookup UP {\012	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];\012} UP;\012lookup DOWN {\012	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012} DOWN;\012";
 name = frac;
 },
 {
 automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-sub N o period by numero;
-";
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
 name = ordn;
 },
 {
-code = "sub zero.osf by zero;
-sub one.osf by one;
-sub two.osf by two;
-sub three.osf by three;
-sub four.osf by four;
-sub five.osf by five;
-sub six.osf by six;
-sub seven.osf by seven;
-sub eight.osf by eight;
-sub nine.osf by nine;
-
-sub bulletoperator.osf by bulletoperator;
-sub plus.osf by plus;
-sub minus.osf by minus;
-sub multiply.osf by multiply;
-sub divide.osf by divide;
-sub equal.osf by equal;
-sub notequal.osf by notequal;
-sub greater.osf by greater;
-sub less.osf by less;
-sub greaterequal.osf by greaterequal;
-sub lessequal.osf by lessequal;
-sub plusminus.osf by plusminus;
-sub approxequal.osf by approxequal;
-sub asciitilde.osf by asciitilde;
-sub logicalnot.osf by logicalnot;
-sub infinity.osf by infinity;
-sub lozenge.osf by lozenge;
-sub asciicircum.osf by asciicircum;
-";
+code = "sub zero.osf by zero;\012sub one.osf by one;\012sub two.osf by two;\012sub three.osf by three;\012sub four.osf by four;\012sub five.osf by five;\012sub six.osf by six;\012sub seven.osf by seven;\012sub eight.osf by eight;\012sub nine.osf by nine;\012\012sub bulletoperator.osf by bulletoperator;\012sub plus.osf by plus;\012sub minus.osf by minus;\012sub multiply.osf by multiply;\012sub divide.osf by divide;\012sub equal.osf by equal;\012sub notequal.osf by notequal;\012sub greater.osf by greater;\012sub less.osf by less;\012sub greaterequal.osf by greaterequal;\012sub lessequal.osf by lessequal;\012sub plusminus.osf by plusminus;\012sub approxequal.osf by approxequal;\012sub asciitilde.osf by asciitilde;\012sub logicalnot.osf by logicalnot;\012sub infinity.osf by infinity;\012sub lozenge.osf by lozenge;\012sub asciicircum.osf by asciicircum;\012";
 name = lnum;
 },
 {
-code = "sub zero.tf by zero;
-sub one.tf by one;
-sub two.tf by two;
-sub three.tf by three;
-sub four.tf by four;
-sub five.tf by five;
-sub six.tf by six;
-sub seven.tf by seven;
-sub eight.tf by eight;
-sub nine.tf by nine;
-
-sub zero.tosf by zero.osf;
-sub one.tosf by one.osf;
-sub two.tosf by two.osf;
-sub three.tosf by three.osf;
-sub four.tosf by four.osf;
-sub five.tosf by five.osf;
-sub six.tosf by six.osf;
-sub seven.tosf by seven.osf;
-sub eight.tosf by eight.osf;
-sub nine.tosf by nine.osf;
-
-sub Delta.tf by Delta;
-sub Omega.tf by Omega;
-sub mu.tf by mu;
-sub pi.tf by pi;
-sub periodcentered.tf by periodcentered;
-sub colon.tf by colon;
-sub comma.tf by comma;
-sub numbersign.tf by numbersign;
-sub period.tf by period;
-sub quotedbl.tf by quotedbl;
-sub quotesingle.tf by quotesingle;
-sub semicolon.tf by semicolon;
-sub slash.tf by slash;
-sub underscore.tf by underscore;
-sub cedi.tf by cedi;
-sub cent.tf by cent;
-sub colonsign.tf by colonsign;
-sub currency.tf by currency;
-sub dollar.tf by dollar;
-sub dong.tf by dong;
-sub euro.tf by euro;
-sub florin.tf by florin;
-sub franc.tf by franc;
-sub guarani.tf by guarani;
-sub kip.tf by kip;
-sub lira.tf by lira;
-sub liraTurkish.tf by liraTurkish;
-sub manat.tf by manat;
-sub naira.tf by naira;
-sub peseta.tf by peseta;
-sub peso.tf by peso;
-sub ruble.tf by ruble;
-sub rupeeIndian.tf by rupeeIndian;
-sub sterling.tf by sterling;
-sub won.tf by won;
-sub yen.tf by yen;
-sub bulletoperator.tf by bulletoperator;
-sub divisionslash.tf by divisionslash;
-sub plus.tf by plus;
-sub minus.tf by minus;
-sub multiply.tf by multiply;
-sub divide.tf by divide;
-sub equal.tf by equal;
-sub notequal.tf by notequal;
-sub greater.tf by greater;
-sub less.tf by less;
-sub greaterequal.tf by greaterequal;
-sub lessequal.tf by lessequal;
-sub plusminus.tf by plusminus;
-sub approxequal.tf by approxequal;
-sub asciitilde.tf by asciitilde;
-sub logicalnot.tf by logicalnot;
-sub infinity.tf by infinity;
-sub integral.tf by integral;
-sub Ohm.tf by Ohm;
-sub increment.tf by increment;
-sub product.tf by product;
-sub summation.tf by summation;
-sub radical.tf by radical;
-sub micro.tf by micro;
-sub partialdiff.tf by partialdiff;
-sub percent.tf by percent;
-sub perthousand.tf by perthousand;
-sub lozenge.tf by lozenge;
-sub degree.tf by degree;
-sub bar.tf by bar;
-sub brokenbar.tf by brokenbar;
-sub asciicircum.tf by asciicircum;
-sub uni20BF.tf by uni20BF;
-
-sub bulletoperator.tosf by bulletoperator.osf;
-sub plus.tosf by plus.osf;
-sub minus.tosf by minus.osf;
-sub multiply.tosf by multiply.osf;
-sub divide.tosf by divide.osf;
-sub equal.tosf by equal.osf;
-sub notequal.tosf by notequal.osf;
-sub greater.tosf by greater.osf;
-sub less.tosf by less.osf;
-sub greaterequal.tosf by greaterequal.osf;
-sub lessequal.tosf by lessequal.osf;
-sub plusminus.tosf by plusminus.osf;
-sub approxequal.tosf by approxequal.osf;
-sub asciitilde.tosf by asciitilde.osf;
-sub logicalnot.tosf by logicalnot.osf;
-sub infinity.tosf by infinity.osf;
-sub lozenge.tosf by lozenge.osf;
-sub asciicircum.tosf by asciicircum.osf;
-";
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012\012sub zero.tosf by zero.osf;\012sub one.tosf by one.osf;\012sub two.tosf by two.osf;\012sub three.tosf by three.osf;\012sub four.tosf by four.osf;\012sub five.tosf by five.osf;\012sub six.tosf by six.osf;\012sub seven.tosf by seven.osf;\012sub eight.tosf by eight.osf;\012sub nine.tosf by nine.osf;\012\012sub Delta.tf by Delta;\012sub Omega.tf by Omega;\012sub mu.tf by mu;\012sub pi.tf by pi;\012sub periodcentered.tf by periodcentered;\012sub colon.tf by colon;\012sub comma.tf by comma;\012sub numbersign.tf by numbersign;\012sub period.tf by period;\012sub quotedbl.tf by quotedbl;\012sub quotesingle.tf by quotesingle;\012sub semicolon.tf by semicolon;\012sub slash.tf by slash;\012sub underscore.tf by underscore;\012sub cedi.tf by cedi;\012sub cent.tf by cent;\012sub colonsign.tf by colonsign;\012sub currency.tf by currency;\012sub dollar.tf by dollar;\012sub dong.tf by dong;\012sub euro.tf by euro;\012sub florin.tf by florin;\012sub franc.tf by franc;\012sub guarani.tf by guarani;\012sub kip.tf by kip;\012sub lira.tf by lira;\012sub liraTurkish.tf by liraTurkish;\012sub manat.tf by manat;\012sub naira.tf by naira;\012sub peseta.tf by peseta;\012sub peso.tf by peso;\012sub ruble.tf by ruble;\012sub rupeeIndian.tf by rupeeIndian;\012sub sterling.tf by sterling;\012sub won.tf by won;\012sub yen.tf by yen;\012sub bulletoperator.tf by bulletoperator;\012sub divisionslash.tf by divisionslash;\012sub plus.tf by plus;\012sub minus.tf by minus;\012sub multiply.tf by multiply;\012sub divide.tf by divide;\012sub equal.tf by equal;\012sub notequal.tf by notequal;\012sub greater.tf by greater;\012sub less.tf by less;\012sub greaterequal.tf by greaterequal;\012sub lessequal.tf by lessequal;\012sub plusminus.tf by plusminus;\012sub approxequal.tf by approxequal;\012sub asciitilde.tf by asciitilde;\012sub logicalnot.tf by logicalnot;\012sub infinity.tf by infinity;\012sub integral.tf by integral;\012sub Ohm.tf by Ohm;\012sub increment.tf by increment;\012sub product.tf by product;\012sub summation.tf by summation;\012sub radical.tf by radical;\012sub micro.tf by micro;\012sub partialdiff.tf by partialdiff;\012sub percent.tf by percent;\012sub perthousand.tf by perthousand;\012sub lozenge.tf by lozenge;\012sub degree.tf by degree;\012sub bar.tf by bar;\012sub brokenbar.tf by brokenbar;\012sub asciicircum.tf by asciicircum;\012sub uni20BF.tf by uni20BF;\012\012sub bulletoperator.tosf by bulletoperator.osf;\012sub plus.tosf by plus.osf;\012sub minus.tosf by minus.osf;\012sub multiply.tosf by multiply.osf;\012sub divide.tosf by divide.osf;\012sub equal.tosf by equal.osf;\012sub notequal.tosf by notequal.osf;\012sub greater.tosf by greater.osf;\012sub less.tosf by less.osf;\012sub greaterequal.tosf by greaterequal.osf;\012sub lessequal.tosf by lessequal.osf;\012sub plusminus.tosf by plusminus.osf;\012sub approxequal.tosf by approxequal.osf;\012sub asciitilde.tosf by asciitilde.osf;\012sub logicalnot.tosf by logicalnot.osf;\012sub infinity.tosf by infinity.osf;\012sub lozenge.tosf by lozenge.osf;\012sub asciicircum.tosf by asciicircum.osf;\012";
 name = pnum;
 },
 {
-code = "sub zero by zero.tf;
-sub one by one.tf;
-sub two by two.tf;
-sub three by three.tf;
-sub four by four.tf;
-sub five by five.tf;
-sub six by six.tf;
-sub seven by seven.tf;
-sub eight by eight.tf;
-sub nine by nine.tf;
-
-sub zero.osf by zero.tosf;
-sub one.osf by one.tosf;
-sub two.osf by two.tosf;
-sub three.osf by three.tosf;
-sub four.osf by four.tosf;
-sub five.osf by five.tosf;
-sub six.osf by six.tosf;
-sub seven.osf by seven.tosf;
-sub eight.osf by eight.tosf;
-sub nine.osf by nine.tosf;
-
-sub Delta by Delta.tf;
-sub Omega by Omega.tf;
-sub mu by mu.tf;
-sub pi by pi.tf;
-sub periodcentered by periodcentered.tf;
-sub colon by colon.tf;
-sub comma by comma.tf;
-sub numbersign by numbersign.tf;
-sub period by period.tf;
-sub quotedbl by quotedbl.tf;
-sub quotesingle by quotesingle.tf;
-sub semicolon by semicolon.tf;
-sub slash by slash.tf;
-sub underscore by underscore.tf;
-sub cedi by cedi.tf;
-sub cent by cent.tf;
-sub colonsign by colonsign.tf;
-sub currency by currency.tf;
-sub dollar by dollar.tf;
-sub dong by dong.tf;
-sub euro by euro.tf;
-sub florin by florin.tf;
-sub franc by franc.tf;
-sub guarani by guarani.tf;
-sub kip by kip.tf;
-sub lira by lira.tf;
-sub liraTurkish by liraTurkish.tf;
-sub manat by manat.tf;
-sub naira by naira.tf;
-sub peseta by peseta.tf;
-sub peso by peso.tf;
-sub ruble by ruble.tf;
-sub rupeeIndian by rupeeIndian.tf;
-sub sterling by sterling.tf;
-sub won by won.tf;
-sub yen by yen.tf;
-sub bulletoperator by bulletoperator.tf;
-sub divisionslash by divisionslash.tf;
-sub plus by plus.tf;
-sub minus by minus.tf;
-sub multiply by multiply.tf;
-sub divide by divide.tf;
-sub equal by equal.tf;
-sub notequal by notequal.tf;
-sub greater by greater.tf;
-sub less by less.tf;
-sub greaterequal by greaterequal.tf;
-sub lessequal by lessequal.tf;
-sub plusminus by plusminus.tf;
-sub approxequal by approxequal.tf;
-sub asciitilde by asciitilde.tf;
-sub logicalnot by logicalnot.tf;
-sub infinity by infinity.tf;
-sub integral by integral.tf;
-sub Ohm by Ohm.tf;
-sub increment by increment.tf;
-sub product by product.tf;
-sub summation by summation.tf;
-sub radical by radical.tf;
-sub micro by micro.tf;
-sub partialdiff by partialdiff.tf;
-sub percent by percent.tf;
-sub perthousand by perthousand.tf;
-sub lozenge by lozenge.tf;
-sub degree by degree.tf;
-sub bar by bar.tf;
-sub brokenbar by brokenbar.tf;
-sub asciicircum by asciicircum.tf;
-sub uni20BF by uni20BF.tf;
-
-sub bulletoperator.osf by bulletoperator.tosf;
-sub plus.osf by plus.tosf;
-sub minus.osf by minus.tosf;
-sub multiply.osf by multiply.tosf;
-sub divide.osf by divide.tosf;
-sub equal.osf by equal.tosf;
-sub notequal.osf by notequal.tosf;
-sub greater.osf by greater.tosf;
-sub less.osf by less.tosf;
-sub greaterequal.osf by greaterequal.tosf;
-sub lessequal.osf by lessequal.tosf;
-sub plusminus.osf by plusminus.tosf;
-sub approxequal.osf by approxequal.tosf;
-sub asciitilde.osf by asciitilde.tosf;
-sub logicalnot.osf by logicalnot.tosf;
-sub infinity.osf by infinity.tosf;
-sub lozenge.osf by lozenge.tosf;
-sub asciicircum.osf by asciicircum.tosf;
-";
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012\012sub zero.osf by zero.tosf;\012sub one.osf by one.tosf;\012sub two.osf by two.tosf;\012sub three.osf by three.tosf;\012sub four.osf by four.tosf;\012sub five.osf by five.tosf;\012sub six.osf by six.tosf;\012sub seven.osf by seven.tosf;\012sub eight.osf by eight.tosf;\012sub nine.osf by nine.tosf;\012\012sub Delta by Delta.tf;\012sub Omega by Omega.tf;\012sub mu by mu.tf;\012sub pi by pi.tf;\012sub periodcentered by periodcentered.tf;\012sub colon by colon.tf;\012sub comma by comma.tf;\012sub numbersign by numbersign.tf;\012sub period by period.tf;\012sub quotedbl by quotedbl.tf;\012sub quotesingle by quotesingle.tf;\012sub semicolon by semicolon.tf;\012sub slash by slash.tf;\012sub underscore by underscore.tf;\012sub cedi by cedi.tf;\012sub cent by cent.tf;\012sub colonsign by colonsign.tf;\012sub currency by currency.tf;\012sub dollar by dollar.tf;\012sub dong by dong.tf;\012sub euro by euro.tf;\012sub florin by florin.tf;\012sub franc by franc.tf;\012sub guarani by guarani.tf;\012sub kip by kip.tf;\012sub lira by lira.tf;\012sub liraTurkish by liraTurkish.tf;\012sub manat by manat.tf;\012sub naira by naira.tf;\012sub peseta by peseta.tf;\012sub peso by peso.tf;\012sub ruble by ruble.tf;\012sub rupeeIndian by rupeeIndian.tf;\012sub sterling by sterling.tf;\012sub won by won.tf;\012sub yen by yen.tf;\012sub bulletoperator by bulletoperator.tf;\012sub divisionslash by divisionslash.tf;\012sub plus by plus.tf;\012sub minus by minus.tf;\012sub multiply by multiply.tf;\012sub divide by divide.tf;\012sub equal by equal.tf;\012sub notequal by notequal.tf;\012sub greater by greater.tf;\012sub less by less.tf;\012sub greaterequal by greaterequal.tf;\012sub lessequal by lessequal.tf;\012sub plusminus by plusminus.tf;\012sub approxequal by approxequal.tf;\012sub asciitilde by asciitilde.tf;\012sub logicalnot by logicalnot.tf;\012sub infinity by infinity.tf;\012sub integral by integral.tf;\012sub Ohm by Ohm.tf;\012sub increment by increment.tf;\012sub product by product.tf;\012sub summation by summation.tf;\012sub radical by radical.tf;\012sub micro by micro.tf;\012sub partialdiff by partialdiff.tf;\012sub percent by percent.tf;\012sub perthousand by perthousand.tf;\012sub lozenge by lozenge.tf;\012sub degree by degree.tf;\012sub bar by bar.tf;\012sub brokenbar by brokenbar.tf;\012sub asciicircum by asciicircum.tf;\012sub uni20BF by uni20BF.tf;\012\012sub bulletoperator.osf by bulletoperator.tosf;\012sub plus.osf by plus.tosf;\012sub minus.osf by minus.tosf;\012sub multiply.osf by multiply.tosf;\012sub divide.osf by divide.tosf;\012sub equal.osf by equal.tosf;\012sub notequal.osf by notequal.tosf;\012sub greater.osf by greater.tosf;\012sub less.osf by less.tosf;\012sub greaterequal.osf by greaterequal.tosf;\012sub lessequal.osf by lessequal.tosf;\012sub plusminus.osf by plusminus.tosf;\012sub approxequal.osf by approxequal.tosf;\012sub asciitilde.osf by asciitilde.tosf;\012sub logicalnot.osf by logicalnot.tosf;\012sub infinity.osf by infinity.tosf;\012sub lozenge.osf by lozenge.tosf;\012sub asciicircum.osf by asciicircum.tosf;\012";
 name = tnum;
 },
 {
-code = "sub zero.tf by zero.tosf;
-sub one.tf by one.tosf;
-sub two.tf by two.tosf;
-sub three.tf by three.tosf;
-sub four.tf by four.tosf;
-sub five.tf by five.tosf;
-sub six.tf by six.tosf;
-sub seven.tf by seven.tosf;
-sub eight.tf by eight.tosf;
-sub nine.tf by nine.tosf;
-
-sub zero by zero.osf;
-sub one by one.osf;
-sub two by two.osf;
-sub three by three.osf;
-sub four by four.osf;
-sub five by five.osf;
-sub six by six.osf;
-sub seven by seven.osf;
-sub eight by eight.osf;
-sub nine by nine.osf;
-
-sub bulletoperator.tf by bulletoperator.tosf;
-sub divisionslash.tf by divisionslash.tosf;
-sub plus.tf by plus.tosf;
-sub minus.tf by minus.tosf;
-sub multiply.tf by multiply.tosf;
-sub divide.tf by divide.tosf;
-sub equal.tf by equal.tosf;
-sub notequal.tf by notequal.tosf;
-sub greater.tf by greater.tosf;
-sub less.tf by less.tosf;
-sub greaterequal.tf by greaterequal.tosf;
-sub lessequal.tf by lessequal.tosf;
-sub plusminus.tf by plusminus.tosf;
-sub approxequal.tf by approxequal.tosf;
-sub asciitilde.tf by asciitilde.tosf;
-sub logicalnot.tf by logicalnot.tosf;
-sub infinity.tf by infinity.tosf;
-sub lozenge.tf by lozenge.tosf;
-sub asciicircum.tf by asciicircum.tosf;
-
-sub bulletoperator by bulletoperator.osf;
-sub plus by plus.osf;
-sub minus by minus.osf;
-sub multiply by multiply.osf;
-sub divide by divide.osf;
-sub equal by equal.osf;
-sub notequal by notequal.osf;
-sub greater by greater.osf;
-sub less by less.osf;
-sub greaterequal by greaterequal.osf;
-sub lessequal by lessequal.osf;
-sub plusminus by plusminus.osf;
-sub approxequal by approxequal.osf;
-sub asciitilde by asciitilde.osf;
-sub logicalnot by logicalnot.osf;
-sub infinity by infinity.osf;
-sub lozenge by lozenge.osf;
-sub asciicircum by asciicircum.osf;
-";
+code = "sub zero.tf by zero.tosf;\012sub one.tf by one.tosf;\012sub two.tf by two.tosf;\012sub three.tf by three.tosf;\012sub four.tf by four.tosf;\012sub five.tf by five.tosf;\012sub six.tf by six.tosf;\012sub seven.tf by seven.tosf;\012sub eight.tf by eight.tosf;\012sub nine.tf by nine.tosf;\012\012sub zero by zero.osf;\012sub one by one.osf;\012sub two by two.osf;\012sub three by three.osf;\012sub four by four.osf;\012sub five by five.osf;\012sub six by six.osf;\012sub seven by seven.osf;\012sub eight by eight.osf;\012sub nine by nine.osf;\012\012sub bulletoperator.tf by bulletoperator.tosf;\012sub divisionslash.tf by divisionslash.tosf;\012sub plus.tf by plus.tosf;\012sub minus.tf by minus.tosf;\012sub multiply.tf by multiply.tosf;\012sub divide.tf by divide.tosf;\012sub equal.tf by equal.tosf;\012sub notequal.tf by notequal.tosf;\012sub greater.tf by greater.tosf;\012sub less.tf by less.tosf;\012sub greaterequal.tf by greaterequal.tosf;\012sub lessequal.tf by lessequal.tosf;\012sub plusminus.tf by plusminus.tosf;\012sub approxequal.tf by approxequal.tosf;\012sub asciitilde.tf by asciitilde.tosf;\012sub logicalnot.tf by logicalnot.tosf;\012sub infinity.tf by infinity.tosf;\012sub lozenge.tf by lozenge.tosf;\012sub asciicircum.tf by asciicircum.tosf;\012\012sub bulletoperator by bulletoperator.osf;\012sub plus by plus.osf;\012sub minus by minus.osf;\012sub multiply by multiply.osf;\012sub divide by divide.osf;\012sub equal by equal.osf;\012sub notequal by notequal.osf;\012sub greater by greater.osf;\012sub less by less.osf;\012sub greaterequal by greaterequal.osf;\012sub lessequal by lessequal.osf;\012sub plusminus by plusminus.osf;\012sub approxequal by approxequal.osf;\012sub asciitilde by asciitilde.osf;\012sub logicalnot by logicalnot.osf;\012sub infinity by infinity.osf;\012sub lozenge by lozenge.osf;\012sub asciicircum by asciicircum.osf;\012";
 name = onum;
 },
 {
 automatic = 1;
-code = "sub a by a.sc;
-sub aacute by aacute.sc;
-sub abreve by abreve.sc;
-sub abreveacute by abreveacute.sc;
-sub abrevedotbelow by abrevedotbelow.sc;
-sub abrevegrave by abrevegrave.sc;
-sub abrevehookabove by abrevehookabove.sc;
-sub abrevetilde by abrevetilde.sc;
-sub acircumflex by acircumflex.sc;
-sub acircumflexacute by acircumflexacute.sc;
-sub acircumflexdotbelow by acircumflexdotbelow.sc;
-sub acircumflexgrave by acircumflexgrave.sc;
-sub acircumflexhookabove by acircumflexhookabove.sc;
-sub acircumflextilde by acircumflextilde.sc;
-sub adblgrave by adblgrave.sc;
-sub adieresis by adieresis.sc;
-sub adotbelow by adotbelow.sc;
-sub agrave by agrave.sc;
-sub ahookabove by ahookabove.sc;
-sub ainvertedbreve by ainvertedbreve.sc;
-sub amacron by amacron.sc;
-sub aogonek by aogonek.sc;
-sub aring by aring.sc;
-sub aringacute by aringacute.sc;
-sub atilde by atilde.sc;
-sub ae by ae.sc;
-sub aeacute by aeacute.sc;
-sub b by b.sc;
-sub c by c.sc;
-sub cacute by cacute.sc;
-sub ccaron by ccaron.sc;
-sub ccedilla by ccedilla.sc;
-sub ccedillaacute by ccedillaacute.sc;
-sub ccircumflex by ccircumflex.sc;
-sub cdotaccent by cdotaccent.sc;
-sub d by d.sc;
-sub eth by eth.sc;
-sub dcaron by dcaron.sc;
-sub dcroat by dcroat.sc;
-sub ddotbelow by ddotbelow.sc;
-sub dlinebelow by dlinebelow.sc;
-sub dz by dz.sc;
-sub dzcaron by dzcaron.sc;
-sub e by e.sc;
-sub eacute by eacute.sc;
-sub ebreve by ebreve.sc;
-sub ecaron by ecaron.sc;
-sub ecedillabreve by ecedillabreve.sc;
-sub ecircumflex by ecircumflex.sc;
-sub ecircumflexacute by ecircumflexacute.sc;
-sub ecircumflexdotbelow by ecircumflexdotbelow.sc;
-sub ecircumflexgrave by ecircumflexgrave.sc;
-sub ecircumflexhookabove by ecircumflexhookabove.sc;
-sub ecircumflextilde by ecircumflextilde.sc;
-sub edblgrave by edblgrave.sc;
-sub edieresis by edieresis.sc;
-sub edotaccent by edotaccent.sc;
-sub edotbelow by edotbelow.sc;
-sub egrave by egrave.sc;
-sub ehookabove by ehookabove.sc;
-sub einvertedbreve by einvertedbreve.sc;
-sub emacron by emacron.sc;
-sub emacronacute by emacronacute.sc;
-sub emacrongrave by emacrongrave.sc;
-sub eogonek by eogonek.sc;
-sub etilde by etilde.sc;
-sub schwa by schwa.sc;
-sub f by f.sc;
-sub g by g.sc;
-sub gacute by gacute.sc;
-sub gbreve by gbreve.sc;
-sub gcaron by gcaron.sc;
-sub gcircumflex by gcircumflex.sc;
-sub gcommaaccent by gcommaaccent.sc;
-sub gdotaccent by gdotaccent.sc;
-sub gmacron by gmacron.sc;
-sub h by h.sc;
-sub hbar by hbar.sc;
-sub hbrevebelow by hbrevebelow.sc;
-sub hcircumflex by hcircumflex.sc;
-sub hdotbelow by hdotbelow.sc;
-sub i by i.sc;
-sub iacute by iacute.sc;
-sub ibreve by ibreve.sc;
-sub icircumflex by icircumflex.sc;
-sub idblgrave by idblgrave.sc;
-sub idieresis by idieresis.sc;
-sub idieresisacute by idieresisacute.sc;
-sub idotaccent by idotaccent.sc;
-sub idotbelow by idotbelow.sc;
-sub igrave by igrave.sc;
-sub ihookabove by ihookabove.sc;
-sub iinvertedbreve by iinvertedbreve.sc;
-sub imacron by imacron.sc;
-sub iogonek by iogonek.sc;
-sub itilde by itilde.sc;
-sub j by j.sc;
-sub jcircumflex by jcircumflex.sc;
-sub k by k.sc;
-sub kcommaaccent by kcommaaccent.sc;
-sub l by l.sc;
-sub lacute by lacute.sc;
-sub lcaron by lcaron.sc;
-sub lcommaaccent by lcommaaccent.sc;
-sub ldot by ldot.sc;
-sub ldotbelow by ldotbelow.sc;
-sub lj by lj.sc;
-sub llinebelow by llinebelow.sc;
-sub lslash by lslash.sc;
-sub m by m.sc;
-sub mdotbelow by mdotbelow.sc;
-sub n by n.sc;
-sub nacute by nacute.sc;
-sub ncaron by ncaron.sc;
-sub ncommaaccent by ncommaaccent.sc;
-sub ndotaccent by ndotaccent.sc;
-sub ndotbelow by ndotbelow.sc;
-sub eng by eng.sc;
-sub nj by nj.sc;
-sub nlinebelow by nlinebelow.sc;
-sub ntilde by ntilde.sc;
-sub o by o.sc;
-sub oacute by oacute.sc;
-sub obreve by obreve.sc;
-sub ocircumflex by ocircumflex.sc;
-sub ocircumflexacute by ocircumflexacute.sc;
-sub ocircumflexdotbelow by ocircumflexdotbelow.sc;
-sub ocircumflexgrave by ocircumflexgrave.sc;
-sub ocircumflexhookabove by ocircumflexhookabove.sc;
-sub ocircumflextilde by ocircumflextilde.sc;
-sub odblgrave by odblgrave.sc;
-sub odieresis by odieresis.sc;
-sub odieresismacron by odieresismacron.sc;
-sub odotaccentmacron by odotaccentmacron.sc;
-sub odotbelow by odotbelow.sc;
-sub ograve by ograve.sc;
-sub ohookabove by ohookabove.sc;
-sub ohorn by ohorn.sc;
-sub ohornacute by ohornacute.sc;
-sub ohorndotbelow by ohorndotbelow.sc;
-sub ohorngrave by ohorngrave.sc;
-sub ohornhookabove by ohornhookabove.sc;
-sub ohorntilde by ohorntilde.sc;
-sub ohungarumlaut by ohungarumlaut.sc;
-sub oinvertedbreve by oinvertedbreve.sc;
-sub omacron by omacron.sc;
-sub omacronacute by omacronacute.sc;
-sub omacrongrave by omacrongrave.sc;
-sub oogonek by oogonek.sc;
-sub oslash by oslash.sc;
-sub oslashacute by oslashacute.sc;
-sub otilde by otilde.sc;
-sub otildeacute by otildeacute.sc;
-sub otildedieresis by otildedieresis.sc;
-sub otildemacron by otildemacron.sc;
-sub oe by oe.sc;
-sub p by p.sc;
-sub thorn by thorn.sc;
-sub q by q.sc;
-sub r by r.sc;
-sub racute by racute.sc;
-sub rcaron by rcaron.sc;
-sub rcommaaccent by rcommaaccent.sc;
-sub rdblgrave by rdblgrave.sc;
-sub rdotbelow by rdotbelow.sc;
-sub rinvertedbreve by rinvertedbreve.sc;
-sub rlinebelow by rlinebelow.sc;
-sub s by s.sc;
-sub sacute by sacute.sc;
-sub sacutedotaccent by sacutedotaccent.sc;
-sub scaron by scaron.sc;
-sub scarondotaccent by scarondotaccent.sc;
-sub scedilla by scedilla.sc;
-sub scircumflex by scircumflex.sc;
-sub scommaaccent by scommaaccent.sc;
-sub sdotaccent by sdotaccent.sc;
-sub sdotbelow by sdotbelow.sc;
-sub sdotbelowdotaccent by sdotbelowdotaccent.sc;
-sub germandbls by germandbls.sc;
-sub t by t.sc;
-sub tbar by tbar.sc;
-sub tcaron by tcaron.sc;
-sub tcedilla by tcedilla.sc;
-sub tcommaaccent by tcommaaccent.sc;
-sub tdotbelow by tdotbelow.sc;
-sub tlinebelow by tlinebelow.sc;
-sub u by u.sc;
-sub uacute by uacute.sc;
-sub ubreve by ubreve.sc;
-sub ucircumflex by ucircumflex.sc;
-sub udblgrave by udblgrave.sc;
-sub udieresis by udieresis.sc;
-sub udotbelow by udotbelow.sc;
-sub ugrave by ugrave.sc;
-sub uhookabove by uhookabove.sc;
-sub uhorn by uhorn.sc;
-sub uhornacute by uhornacute.sc;
-sub uhorndotbelow by uhorndotbelow.sc;
-sub uhorngrave by uhorngrave.sc;
-sub uhornhookabove by uhornhookabove.sc;
-sub uhorntilde by uhorntilde.sc;
-sub uhungarumlaut by uhungarumlaut.sc;
-sub uinvertedbreve by uinvertedbreve.sc;
-sub umacron by umacron.sc;
-sub umacrondieresis by umacrondieresis.sc;
-sub uogonek by uogonek.sc;
-sub uring by uring.sc;
-sub utilde by utilde.sc;
-sub utildeacute by utildeacute.sc;
-sub v by v.sc;
-sub w by w.sc;
-sub wacute by wacute.sc;
-sub wcircumflex by wcircumflex.sc;
-sub wdieresis by wdieresis.sc;
-sub wgrave by wgrave.sc;
-sub x by x.sc;
-sub y by y.sc;
-sub yacute by yacute.sc;
-sub ycircumflex by ycircumflex.sc;
-sub ydieresis by ydieresis.sc;
-sub ydotaccent by ydotaccent.sc;
-sub ydotbelow by ydotbelow.sc;
-sub ygrave by ygrave.sc;
-sub yhookabove by yhookabove.sc;
-sub ymacron by ymacron.sc;
-sub ytilde by ytilde.sc;
-sub z by z.sc;
-sub zacute by zacute.sc;
-sub zcaron by zcaron.sc;
-sub zdotaccent by zdotaccent.sc;
-sub zdotbelow by zdotbelow.sc;
-sub iacute_j.loclNLD by iacute_j.loclNLD.sc;
-sub i_j.loclNLD by i_j.loclNLD.sc;
-sub braceleft by braceleft.sc;
-sub braceright by braceright.sc;
-sub bracketleft by bracketleft.sc;
-sub bracketright by bracketright.sc;
-sub parenleft by parenleft.sc;
-sub parenright by parenright.sc;
-sub ampersand by ampersand.sc;
-sub dieresiscomb by dieresiscomb.sc;
-sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.sc;
-sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.sc;
-sub dotaccentcomb by dotaccentcomb.sc;
-sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.sc;
-sub gravecomb by gravecomb.sc;
-sub acutecomb by acutecomb.sc;
-sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.sc;
-sub hungarumlautcomb by hungarumlautcomb.sc;
-sub caroncomb.alt by caroncomb.alt.sc;
-sub circumflexcomb by circumflexcomb.sc;
-sub caroncomb by caroncomb.sc;
-sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.sc;
-sub brevecomb by brevecomb.sc;
-sub ringcomb by ringcomb.sc;
-sub tildecomb by tildecomb.sc;
-sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.sc;
-sub tildecomb_acutecomb by tildecomb_acutecomb.sc;
-sub tildecomb_macroncomb by tildecomb_macroncomb.sc;
-sub macroncomb by macroncomb.sc;
-sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.sc;
-sub macroncomb_gravecomb by macroncomb_gravecomb.sc;
-sub macroncomb_acutecomb by macroncomb_acutecomb.sc;
-sub hookabovecomb by hookabovecomb.sc;
-sub dblgravecomb by dblgravecomb.sc;
-sub breveinvertedcomb by breveinvertedcomb.sc;
-sub commaturnedabovecomb by commaturnedabovecomb.sc;
-sub dotbelowcomb by dotbelowcomb.sc;
-sub dieresisbelowcomb by dieresisbelowcomb.sc;
-sub commaaccentcomb by commaaccentcomb.sc;
-sub cedillacomb by cedillacomb.sc;
-sub ogonekcomb by ogonekcomb.sc;
-sub brevebelowcomb by brevebelowcomb.sc;
-sub macronbelowcomb by macronbelowcomb.sc;
-sub ringcomb_acutecomb.case by ringcomb_acutecomb.case.sc;
-sub brevecomb_acutecomb by brevecomb_acutecomb.sc;
-sub brevecomb_gravecomb by brevecomb_gravecomb.sc;
-sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.sc;
-sub brevecomb_tildecomb by brevecomb_tildecomb.sc;
-sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.sc;
-sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.sc;
-sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.sc;
-sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.sc;
-";
+code = "sub a by a.sc;\012sub aacute by aacute.sc;\012sub abreve by abreve.sc;\012sub abreveacute by abreveacute.sc;\012sub abrevedotbelow by abrevedotbelow.sc;\012sub abrevegrave by abrevegrave.sc;\012sub abrevehookabove by abrevehookabove.sc;\012sub abrevetilde by abrevetilde.sc;\012sub acircumflex by acircumflex.sc;\012sub acircumflexacute by acircumflexacute.sc;\012sub acircumflexdotbelow by acircumflexdotbelow.sc;\012sub acircumflexgrave by acircumflexgrave.sc;\012sub acircumflexhookabove by acircumflexhookabove.sc;\012sub acircumflextilde by acircumflextilde.sc;\012sub adblgrave by adblgrave.sc;\012sub adieresis by adieresis.sc;\012sub adotbelow by adotbelow.sc;\012sub agrave by agrave.sc;\012sub ahookabove by ahookabove.sc;\012sub ainvertedbreve by ainvertedbreve.sc;\012sub amacron by amacron.sc;\012sub aogonek by aogonek.sc;\012sub aring by aring.sc;\012sub aringacute by aringacute.sc;\012sub atilde by atilde.sc;\012sub ae by ae.sc;\012sub aeacute by aeacute.sc;\012sub b by b.sc;\012sub c by c.sc;\012sub cacute by cacute.sc;\012sub ccaron by ccaron.sc;\012sub ccedilla by ccedilla.sc;\012sub ccedillaacute by ccedillaacute.sc;\012sub ccircumflex by ccircumflex.sc;\012sub cdotaccent by cdotaccent.sc;\012sub d by d.sc;\012sub eth by eth.sc;\012sub dcaron by dcaron.sc;\012sub dcroat by dcroat.sc;\012sub ddotbelow by ddotbelow.sc;\012sub dlinebelow by dlinebelow.sc;\012sub dz by dz.sc;\012sub dzcaron by dzcaron.sc;\012sub e by e.sc;\012sub eacute by eacute.sc;\012sub ebreve by ebreve.sc;\012sub ecaron by ecaron.sc;\012sub ecedillabreve by ecedillabreve.sc;\012sub ecircumflex by ecircumflex.sc;\012sub ecircumflexacute by ecircumflexacute.sc;\012sub ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub ecircumflexgrave by ecircumflexgrave.sc;\012sub ecircumflexhookabove by ecircumflexhookabove.sc;\012sub ecircumflextilde by ecircumflextilde.sc;\012sub edblgrave by edblgrave.sc;\012sub edieresis by edieresis.sc;\012sub edotaccent by edotaccent.sc;\012sub edotbelow by edotbelow.sc;\012sub egrave by egrave.sc;\012sub ehookabove by ehookabove.sc;\012sub einvertedbreve by einvertedbreve.sc;\012sub emacron by emacron.sc;\012sub emacronacute by emacronacute.sc;\012sub emacrongrave by emacrongrave.sc;\012sub eogonek by eogonek.sc;\012sub etilde by etilde.sc;\012sub schwa by schwa.sc;\012sub f by f.sc;\012sub g by g.sc;\012sub gacute by gacute.sc;\012sub gbreve by gbreve.sc;\012sub gcaron by gcaron.sc;\012sub gcircumflex by gcircumflex.sc;\012sub gcommaaccent by gcommaaccent.sc;\012sub gdotaccent by gdotaccent.sc;\012sub gmacron by gmacron.sc;\012sub h by h.sc;\012sub hbar by hbar.sc;\012sub hbrevebelow by hbrevebelow.sc;\012sub hcircumflex by hcircumflex.sc;\012sub hdotbelow by hdotbelow.sc;\012sub i by i.sc;\012sub iacute by iacute.sc;\012sub ibreve by ibreve.sc;\012sub icircumflex by icircumflex.sc;\012sub idblgrave by idblgrave.sc;\012sub idieresis by idieresis.sc;\012sub idieresisacute by idieresisacute.sc;\012sub idotaccent by idotaccent.sc;\012sub idotbelow by idotbelow.sc;\012sub igrave by igrave.sc;\012sub ihookabove by ihookabove.sc;\012sub iinvertedbreve by iinvertedbreve.sc;\012sub imacron by imacron.sc;\012sub iogonek by iogonek.sc;\012sub itilde by itilde.sc;\012sub j by j.sc;\012sub jcircumflex by jcircumflex.sc;\012sub k by k.sc;\012sub kcommaaccent by kcommaaccent.sc;\012sub l by l.sc;\012sub lacute by lacute.sc;\012sub lcaron by lcaron.sc;\012sub lcommaaccent by lcommaaccent.sc;\012sub ldot by ldot.sc;\012sub ldotbelow by ldotbelow.sc;\012sub lj by lj.sc;\012sub llinebelow by llinebelow.sc;\012sub lslash by lslash.sc;\012sub m by m.sc;\012sub mdotbelow by mdotbelow.sc;\012sub n by n.sc;\012sub nacute by nacute.sc;\012sub ncaron by ncaron.sc;\012sub ncommaaccent by ncommaaccent.sc;\012sub ndotaccent by ndotaccent.sc;\012sub ndotbelow by ndotbelow.sc;\012sub eng by eng.sc;\012sub nj by nj.sc;\012sub nlinebelow by nlinebelow.sc;\012sub ntilde by ntilde.sc;\012sub o by o.sc;\012sub oacute by oacute.sc;\012sub obreve by obreve.sc;\012sub ocircumflex by ocircumflex.sc;\012sub ocircumflexacute by ocircumflexacute.sc;\012sub ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub ocircumflexgrave by ocircumflexgrave.sc;\012sub ocircumflexhookabove by ocircumflexhookabove.sc;\012sub ocircumflextilde by ocircumflextilde.sc;\012sub odblgrave by odblgrave.sc;\012sub odieresis by odieresis.sc;\012sub odieresismacron by odieresismacron.sc;\012sub odotaccentmacron by odotaccentmacron.sc;\012sub odotbelow by odotbelow.sc;\012sub ograve by ograve.sc;\012sub ohookabove by ohookabove.sc;\012sub ohorn by ohorn.sc;\012sub ohornacute by ohornacute.sc;\012sub ohorndotbelow by ohorndotbelow.sc;\012sub ohorngrave by ohorngrave.sc;\012sub ohornhookabove by ohornhookabove.sc;\012sub ohorntilde by ohorntilde.sc;\012sub ohungarumlaut by ohungarumlaut.sc;\012sub oinvertedbreve by oinvertedbreve.sc;\012sub omacron by omacron.sc;\012sub omacronacute by omacronacute.sc;\012sub omacrongrave by omacrongrave.sc;\012sub oogonek by oogonek.sc;\012sub oslash by oslash.sc;\012sub oslashacute by oslashacute.sc;\012sub otilde by otilde.sc;\012sub otildeacute by otildeacute.sc;\012sub otildedieresis by otildedieresis.sc;\012sub otildemacron by otildemacron.sc;\012sub oe by oe.sc;\012sub p by p.sc;\012sub thorn by thorn.sc;\012sub q by q.sc;\012sub r by r.sc;\012sub racute by racute.sc;\012sub rcaron by rcaron.sc;\012sub rcommaaccent by rcommaaccent.sc;\012sub rdblgrave by rdblgrave.sc;\012sub rdotbelow by rdotbelow.sc;\012sub rinvertedbreve by rinvertedbreve.sc;\012sub rlinebelow by rlinebelow.sc;\012sub s by s.sc;\012sub sacute by sacute.sc;\012sub sacutedotaccent by sacutedotaccent.sc;\012sub scaron by scaron.sc;\012sub scarondotaccent by scarondotaccent.sc;\012sub scedilla by scedilla.sc;\012sub scircumflex by scircumflex.sc;\012sub scommaaccent by scommaaccent.sc;\012sub sdotaccent by sdotaccent.sc;\012sub sdotbelow by sdotbelow.sc;\012sub sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub germandbls by germandbls.sc;\012sub t by t.sc;\012sub tbar by tbar.sc;\012sub tcaron by tcaron.sc;\012sub tcedilla by tcedilla.sc;\012sub tcommaaccent by tcommaaccent.sc;\012sub tdotbelow by tdotbelow.sc;\012sub tlinebelow by tlinebelow.sc;\012sub u by u.sc;\012sub uacute by uacute.sc;\012sub ubreve by ubreve.sc;\012sub ucircumflex by ucircumflex.sc;\012sub udblgrave by udblgrave.sc;\012sub udieresis by udieresis.sc;\012sub udotbelow by udotbelow.sc;\012sub ugrave by ugrave.sc;\012sub uhookabove by uhookabove.sc;\012sub uhorn by uhorn.sc;\012sub uhornacute by uhornacute.sc;\012sub uhorndotbelow by uhorndotbelow.sc;\012sub uhorngrave by uhorngrave.sc;\012sub uhornhookabove by uhornhookabove.sc;\012sub uhorntilde by uhorntilde.sc;\012sub uhungarumlaut by uhungarumlaut.sc;\012sub uinvertedbreve by uinvertedbreve.sc;\012sub umacron by umacron.sc;\012sub umacrondieresis by umacrondieresis.sc;\012sub uogonek by uogonek.sc;\012sub uring by uring.sc;\012sub utilde by utilde.sc;\012sub utildeacute by utildeacute.sc;\012sub v by v.sc;\012sub w by w.sc;\012sub wacute by wacute.sc;\012sub wcircumflex by wcircumflex.sc;\012sub wdieresis by wdieresis.sc;\012sub wgrave by wgrave.sc;\012sub x by x.sc;\012sub y by y.sc;\012sub yacute by yacute.sc;\012sub ycircumflex by ycircumflex.sc;\012sub ydieresis by ydieresis.sc;\012sub ydotaccent by ydotaccent.sc;\012sub ydotbelow by ydotbelow.sc;\012sub ygrave by ygrave.sc;\012sub yhookabove by yhookabove.sc;\012sub ymacron by ymacron.sc;\012sub ytilde by ytilde.sc;\012sub z by z.sc;\012sub zacute by zacute.sc;\012sub zcaron by zcaron.sc;\012sub zdotaccent by zdotaccent.sc;\012sub zdotbelow by zdotbelow.sc;\012sub iacute_j.loclNLD by iacute_j.loclNLD.sc;\012sub i_j.loclNLD by i_j.loclNLD.sc;\012sub braceleft by braceleft.sc;\012sub braceright by braceright.sc;\012sub bracketleft by bracketleft.sc;\012sub bracketright by bracketright.sc;\012sub parenleft by parenleft.sc;\012sub parenright by parenright.sc;\012sub ampersand by ampersand.sc;\012sub dieresiscomb by dieresiscomb.sc;\012sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.sc;\012sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.sc;\012sub dotaccentcomb by dotaccentcomb.sc;\012sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.sc;\012sub gravecomb by gravecomb.sc;\012sub acutecomb by acutecomb.sc;\012sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.sc;\012sub hungarumlautcomb by hungarumlautcomb.sc;\012sub caroncomb.alt by caroncomb.alt.sc;\012sub circumflexcomb by circumflexcomb.sc;\012sub caroncomb by caroncomb.sc;\012sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.sc;\012sub brevecomb by brevecomb.sc;\012sub ringcomb by ringcomb.sc;\012sub tildecomb by tildecomb.sc;\012sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.sc;\012sub tildecomb_acutecomb by tildecomb_acutecomb.sc;\012sub tildecomb_macroncomb by tildecomb_macroncomb.sc;\012sub macroncomb by macroncomb.sc;\012sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.sc;\012sub macroncomb_gravecomb by macroncomb_gravecomb.sc;\012sub macroncomb_acutecomb by macroncomb_acutecomb.sc;\012sub hookabovecomb by hookabovecomb.sc;\012sub dblgravecomb by dblgravecomb.sc;\012sub breveinvertedcomb by breveinvertedcomb.sc;\012sub commaturnedabovecomb by commaturnedabovecomb.sc;\012sub dotbelowcomb by dotbelowcomb.sc;\012sub dieresisbelowcomb by dieresisbelowcomb.sc;\012sub commaaccentcomb by commaaccentcomb.sc;\012sub cedillacomb by cedillacomb.sc;\012sub ogonekcomb by ogonekcomb.sc;\012sub brevebelowcomb by brevebelowcomb.sc;\012sub macronbelowcomb by macronbelowcomb.sc;\012sub ringcomb_acutecomb.case by ringcomb_acutecomb.case.sc;\012sub brevecomb_acutecomb by brevecomb_acutecomb.sc;\012sub brevecomb_gravecomb by brevecomb_gravecomb.sc;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.sc;\012sub brevecomb_tildecomb by brevecomb_tildecomb.sc;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.sc;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.sc;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.sc;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.sc;\012";
 name = smcp;
 },
 {
 automatic = 1;
-code = "sub dieresiscomb by dieresiscomb.case;
-sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;
-sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;
-sub dotaccentcomb by dotaccentcomb.case;
-sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;
-sub gravecomb by gravecomb.case;
-sub acutecomb by acutecomb.case;
-sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.case;
-sub hungarumlautcomb by hungarumlautcomb.case;
-sub caroncomb.alt by caroncomb.alt.case;
-sub circumflexcomb by circumflexcomb.case;
-sub caroncomb by caroncomb.case;
-sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.case;
-sub brevecomb by brevecomb.case;
-sub ringcomb by ringcomb.case;
-sub ringcomb_acutecomb by ringcomb_acutecomb.case;
-sub tildecomb by tildecomb.case;
-sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.case;
-sub tildecomb_acutecomb by tildecomb_acutecomb.case;
-sub tildecomb_macroncomb by tildecomb_macroncomb.case;
-sub macroncomb by macroncomb.case;
-sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.case;
-sub macroncomb_gravecomb by macroncomb_gravecomb.case;
-sub macroncomb_acutecomb by macroncomb_acutecomb.case;
-sub hookabovecomb by hookabovecomb.case;
-sub dblgravecomb by dblgravecomb.case;
-sub breveinvertedcomb by breveinvertedcomb.case;
-sub commaturnedabovecomb by commaturnedabovecomb.case;
-sub dotbelowcomb by dotbelowcomb.case;
-sub dieresisbelowcomb by dieresisbelowcomb.case;
-sub commaaccentcomb by commaaccentcomb.case;
-sub cedillacomb by cedillacomb.case;
-sub ogonekcomb by ogonekcomb.case;
-sub brevebelowcomb by brevebelowcomb.case;
-sub macronbelowcomb by macronbelowcomb.case;
-sub brevecomb_acutecomb by brevecomb_acutecomb.case;
-sub brevecomb_gravecomb by brevecomb_gravecomb.case;
-sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;
-sub brevecomb_tildecomb by brevecomb_tildecomb.case;
-sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;
-sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;
-sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;
-sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
-";
+code = "sub dieresiscomb by dieresiscomb.case;\012sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;\012sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;\012sub gravecomb by gravecomb.case;\012sub acutecomb by acutecomb.case;\012sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub caroncomb.alt by caroncomb.alt.case;\012sub circumflexcomb by circumflexcomb.case;\012sub caroncomb by caroncomb.case;\012sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.case;\012sub brevecomb by brevecomb.case;\012sub ringcomb by ringcomb.case;\012sub ringcomb_acutecomb by ringcomb_acutecomb.case;\012sub tildecomb by tildecomb.case;\012sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.case;\012sub tildecomb_acutecomb by tildecomb_acutecomb.case;\012sub tildecomb_macroncomb by tildecomb_macroncomb.case;\012sub macroncomb by macroncomb.case;\012sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.case;\012sub macroncomb_gravecomb by macroncomb_gravecomb.case;\012sub macroncomb_acutecomb by macroncomb_acutecomb.case;\012sub hookabovecomb by hookabovecomb.case;\012sub dblgravecomb by dblgravecomb.case;\012sub breveinvertedcomb by breveinvertedcomb.case;\012sub commaturnedabovecomb by commaturnedabovecomb.case;\012sub dotbelowcomb by dotbelowcomb.case;\012sub dieresisbelowcomb by dieresisbelowcomb.case;\012sub commaaccentcomb by commaaccentcomb.case;\012sub cedillacomb by cedillacomb.case;\012sub ogonekcomb by ogonekcomb.case;\012sub brevebelowcomb by brevebelowcomb.case;\012sub macronbelowcomb by macronbelowcomb.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012";
 name = case;
 },
 {
 automatic = 1;
-code = "sub f i by f_i;
-sub f j by f_j;
-sub f l by f_l;
-";
+code = "sub f i by f_i;\012sub f j by f_j;\012sub f l by f_l;\012";
 name = dlig;
 },
 {
-code = "sub f i by fi;
-sub f l by fl;
-sub f j by f_j;
-
-";
+code = "sub f i by fi;\012sub f l by fl;\012sub f j by f_j;\012\012";
 name = liga;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-	@Markscomb = [dieresiscomb dieresiscomb_acutecomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb acutecomb_dotaccentcomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb caroncomb_dotaccentcomb brevecomb ringcomb ringcomb_acutecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];
-	@MarkscombCase = [dieresiscomb.case dieresiscomb_acutecomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case acutecomb.case acutecomb_dotaccentcomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case caroncomb_dotaccentcomb.case brevecomb.case ringcomb.case ringcomb_acutecomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_dieresiscomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];
-	sub @Markscomb @Markscomb' by @MarkscombCase;
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	sub @Markscomb' @MarkscombCase by @MarkscombCase;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
-
-lookup ccmp_Other_3 {
-	lookupflag 0;
-	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
-	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
-	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
-	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
-	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;
-	sub ringcomb acutecomb by ringcomb_acutecomb;
-	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
-	sub tildecomb acutecomb by tildecomb_acutecomb;
-	sub tildecomb macroncomb by tildecomb_macroncomb;
-	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;
-	sub macroncomb gravecomb by macroncomb_gravecomb;
-	sub macroncomb acutecomb by macroncomb_acutecomb;
-	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;
-	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;
-	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;
-	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;
-	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;
-	sub ringcomb.case acutecomb.case by ringcomb_acutecomb.case;
-	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;
-	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;
-	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
-	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;
-	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
-	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;
-	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;
-	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;
-	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;
-	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;
-	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;
-	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;
-	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;
-	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;
-	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;
-	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;
-	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;
-} ccmp_Other_3;
-
-lookup ccmp_Other_4 {
-	lookupflag 0;
-	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
-	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
-	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
-	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
-	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;
-	sub ringcomb acutecomb by ringcomb_acutecomb;
-	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
-	sub tildecomb acutecomb by tildecomb_acutecomb;
-	sub tildecomb macroncomb by tildecomb_macroncomb;
-	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;
-	sub macroncomb gravecomb by macroncomb_gravecomb;
-	sub macroncomb acutecomb by macroncomb_acutecomb;
-	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;
-	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;
-	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;
-	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;
-	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;
-	sub ringcomb.case acutecomb.case by ringcomb_acutecomb.case;
-	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;
-	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;
-	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
-	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;
-	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
-	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;
-	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;
-	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;
-	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;
-	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;
-	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;
-	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;
-	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;
-	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;
-	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;
-	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;
-	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;
-} ccmp_Other_4;
-
-lookup ccmp_latn_1 {
-	script latn;
-	lookupflag 0;
-	sub brevecomb acutecomb by brevecomb_acutecomb;
-	sub brevecomb gravecomb by brevecomb_gravecomb;
-	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
-	sub brevecomb tildecomb by brevecomb_tildecomb;
-	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
-	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;
-	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;
-	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;
-	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;
-	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;
-	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;
-	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;
-	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
-	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;
-	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;
-	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;
-	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;
-	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;
-	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;
-	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;
-	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;
-} ccmp_latn_1;
-
-lookup ccmp_latn_2 {
-	script latn;
-	lookupflag 0;
-	sub brevecomb acutecomb by brevecomb_acutecomb;
-	sub brevecomb gravecomb by brevecomb_gravecomb;
-	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
-	sub brevecomb tildecomb by brevecomb_tildecomb;
-	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
-	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;
-	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;
-	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;
-	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;
-	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;
-	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;
-	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;
-	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
-	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;
-	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;
-	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;
-	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;
-	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;
-	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;
-	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;
-	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;
-} ccmp_latn_2;
-";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dieresiscomb_acutecomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb acutecomb_dotaccentcomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb caroncomb_dotaccentcomb brevecomb ringcomb ringcomb_acutecomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_dieresiscomb macroncomb_gravecomb macroncomb_acutecomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb dotbelowcomb dieresisbelowcomb commaaccentcomb cedillacomb ogonekcomb brevebelowcomb macronbelowcomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dieresiscomb_acutecomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case acutecomb.case acutecomb_dotaccentcomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case caroncomb_dotaccentcomb.case brevecomb.case ringcomb.case ringcomb_acutecomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_dieresiscomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case dotbelowcomb.case dieresisbelowcomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case brevebelowcomb.case macronbelowcomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;\012	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;\012	sub ringcomb.case acutecomb.case by ringcomb_acutecomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;\012	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;\012	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;\012	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;\012	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;\012	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;\012	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;\012	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;\012	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;\012	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;\012	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;\012	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;\012	sub ringcomb acutecomb by ringcomb_acutecomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub acutecomb.case dotaccentcomb.case by acutecomb_dotaccentcomb.case;\012	sub caroncomb.case dotaccentcomb.case by caroncomb_dotaccentcomb.case;\012	sub ringcomb.case acutecomb.case by ringcomb_acutecomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case dieresiscomb.case by macroncomb_dieresiscomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012	sub dieresiscomb.sc acutecomb.sc by dieresiscomb_acutecomb.sc;\012	sub dieresiscomb.sc macroncomb.sc by dieresiscomb_macroncomb.sc;\012	sub dotaccentcomb.sc macroncomb.sc by dotaccentcomb_macroncomb.sc;\012	sub acutecomb.sc dotaccentcomb.sc by acutecomb_dotaccentcomb.sc;\012	sub caroncomb.sc dotaccentcomb.sc by caroncomb_dotaccentcomb.sc;\012	sub tildecomb.sc dieresiscomb.sc by tildecomb_dieresiscomb.sc;\012	sub tildecomb.sc acutecomb.sc by tildecomb_acutecomb.sc;\012	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;\012	sub macroncomb.sc dieresiscomb.sc by macroncomb_dieresiscomb.sc;\012	sub macroncomb.sc gravecomb.sc by macroncomb_gravecomb.sc;\012	sub macroncomb.sc acutecomb.sc by macroncomb_acutecomb.sc;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;\012	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;\012	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;\012	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;\012	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;\012	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;\012	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;\012	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012	sub brevecomb.sc acutecomb.sc by brevecomb_acutecomb.sc;\012	sub brevecomb.sc gravecomb.sc by brevecomb_gravecomb.sc;\012	sub brevecomb.sc hookabovecomb.sc by brevecomb_hookabovecomb.sc;\012	sub brevecomb.sc tildecomb.sc by brevecomb_tildecomb.sc;\012	sub circumflexcomb.sc acutecomb.sc by circumflexcomb_acutecomb.sc;\012	sub circumflexcomb.sc gravecomb.sc by circumflexcomb_gravecomb.sc;\012	sub circumflexcomb.sc hookabovecomb.sc by circumflexcomb_hookabovecomb.sc;\012	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;\012} ccmp_latn_2;\012";
 name = ccmp;
 },
 {
 automatic = 1;
-code = "sub A by a.sc;
-sub Aacute by aacute.sc;
-sub Abreve by abreve.sc;
-sub Abreveacute by abreveacute.sc;
-sub Abrevedotbelow by abrevedotbelow.sc;
-sub Abrevegrave by abrevegrave.sc;
-sub Abrevehookabove by abrevehookabove.sc;
-sub Abrevetilde by abrevetilde.sc;
-sub Acircumflex by acircumflex.sc;
-sub Acircumflexacute by acircumflexacute.sc;
-sub Acircumflexdotbelow by acircumflexdotbelow.sc;
-sub Acircumflexgrave by acircumflexgrave.sc;
-sub Acircumflexhookabove by acircumflexhookabove.sc;
-sub Acircumflextilde by acircumflextilde.sc;
-sub Adblgrave by adblgrave.sc;
-sub Adieresis by adieresis.sc;
-sub Adotbelow by adotbelow.sc;
-sub Agrave by agrave.sc;
-sub Ahookabove by ahookabove.sc;
-sub Ainvertedbreve by ainvertedbreve.sc;
-sub Amacron by amacron.sc;
-sub Aogonek by aogonek.sc;
-sub Aring by aring.sc;
-sub Aringacute by aringacute.sc;
-sub Atilde by atilde.sc;
-sub AE by ae.sc;
-sub AEacute by aeacute.sc;
-sub B by b.sc;
-sub C by c.sc;
-sub Cacute by cacute.sc;
-sub Ccaron by ccaron.sc;
-sub Ccedilla by ccedilla.sc;
-sub Ccedillaacute by ccedillaacute.sc;
-sub Ccircumflex by ccircumflex.sc;
-sub Cdotaccent by cdotaccent.sc;
-sub D by d.sc;
-sub DZ by dz.sc;
-sub DZcaron by dzcaron.sc;
-sub Eth by eth.sc;
-sub Dcaron by dcaron.sc;
-sub Dcroat by dcroat.sc;
-sub Ddotbelow by ddotbelow.sc;
-sub Dlinebelow by dlinebelow.sc;
-sub Dz by dz.sc;
-sub Dzcaron by dzcaron.sc;
-sub E by e.sc;
-sub Eacute by eacute.sc;
-sub Ebreve by ebreve.sc;
-sub Ecaron by ecaron.sc;
-sub Ecedillabreve by ecedillabreve.sc;
-sub Ecircumflex by ecircumflex.sc;
-sub Ecircumflexacute by ecircumflexacute.sc;
-sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;
-sub Ecircumflexgrave by ecircumflexgrave.sc;
-sub Ecircumflexhookabove by ecircumflexhookabove.sc;
-sub Ecircumflextilde by ecircumflextilde.sc;
-sub Edblgrave by edblgrave.sc;
-sub Edieresis by edieresis.sc;
-sub Edotaccent by edotaccent.sc;
-sub Edotbelow by edotbelow.sc;
-sub Egrave by egrave.sc;
-sub Ehookabove by ehookabove.sc;
-sub Einvertedbreve by einvertedbreve.sc;
-sub Emacron by emacron.sc;
-sub Emacronacute by emacronacute.sc;
-sub Emacrongrave by emacrongrave.sc;
-sub Eogonek by eogonek.sc;
-sub Etilde by etilde.sc;
-sub F by f.sc;
-sub G by g.sc;
-sub Gacute by gacute.sc;
-sub Gbreve by gbreve.sc;
-sub Gcaron by gcaron.sc;
-sub Gcircumflex by gcircumflex.sc;
-sub Gcommaaccent by gcommaaccent.sc;
-sub Gdotaccent by gdotaccent.sc;
-sub Gmacron by gmacron.sc;
-sub H by h.sc;
-sub Hbar by hbar.sc;
-sub Hbrevebelow by hbrevebelow.sc;
-sub Hcircumflex by hcircumflex.sc;
-sub Hdotbelow by hdotbelow.sc;
-sub I by i.sc;
-sub Iacute by iacute.sc;
-sub Ibreve by ibreve.sc;
-sub Icircumflex by icircumflex.sc;
-sub Idblgrave by idblgrave.sc;
-sub Idieresis by idieresis.sc;
-sub Idieresisacute by idieresisacute.sc;
-sub Idotaccent by idotaccent.sc;
-sub Idotbelow by idotbelow.sc;
-sub Igrave by igrave.sc;
-sub Ihookabove by ihookabove.sc;
-sub Iinvertedbreve by iinvertedbreve.sc;
-sub Imacron by imacron.sc;
-sub Iogonek by iogonek.sc;
-sub Itilde by itilde.sc;
-sub J by j.sc;
-sub Jcircumflex by jcircumflex.sc;
-sub K by k.sc;
-sub Kcommaaccent by kcommaaccent.sc;
-sub L by l.sc;
-sub LJ by lj.sc;
-sub Lacute by lacute.sc;
-sub Lcaron by lcaron.sc;
-sub Lcommaaccent by lcommaaccent.sc;
-sub Ldot by ldot.sc;
-sub Ldotbelow by ldotbelow.sc;
-sub Lj by lj.sc;
-sub Llinebelow by llinebelow.sc;
-sub Lslash by lslash.sc;
-sub M by m.sc;
-sub Mdotbelow by mdotbelow.sc;
-sub N by n.sc;
-sub NJ by nj.sc;
-sub Nacute by nacute.sc;
-sub Ncaron by ncaron.sc;
-sub Ncommaaccent by ncommaaccent.sc;
-sub Ndotaccent by ndotaccent.sc;
-sub Ndotbelow by ndotbelow.sc;
-sub Eng by eng.sc;
-sub Nj by nj.sc;
-sub Nlinebelow by nlinebelow.sc;
-sub Ntilde by ntilde.sc;
-sub O by o.sc;
-sub Oacute by oacute.sc;
-sub Obreve by obreve.sc;
-sub Ocircumflex by ocircumflex.sc;
-sub Ocircumflexacute by ocircumflexacute.sc;
-sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;
-sub Ocircumflexgrave by ocircumflexgrave.sc;
-sub Ocircumflexhookabove by ocircumflexhookabove.sc;
-sub Ocircumflextilde by ocircumflextilde.sc;
-sub Odblgrave by odblgrave.sc;
-sub Odieresis by odieresis.sc;
-sub Odieresismacron by odieresismacron.sc;
-sub Odotaccentmacron by odotaccentmacron.sc;
-sub Odotbelow by odotbelow.sc;
-sub Ograve by ograve.sc;
-sub Ohookabove by ohookabove.sc;
-sub Ohorn by ohorn.sc;
-sub Ohornacute by ohornacute.sc;
-sub Ohorndotbelow by ohorndotbelow.sc;
-sub Ohorngrave by ohorngrave.sc;
-sub Ohornhookabove by ohornhookabove.sc;
-sub Ohorntilde by ohorntilde.sc;
-sub Ohungarumlaut by ohungarumlaut.sc;
-sub Oinvertedbreve by oinvertedbreve.sc;
-sub Omacron by omacron.sc;
-sub Omacronacute by omacronacute.sc;
-sub Omacrongrave by omacrongrave.sc;
-sub Oogonek by oogonek.sc;
-sub Oslash by oslash.sc;
-sub Oslashacute by oslashacute.sc;
-sub Otilde by otilde.sc;
-sub Otildeacute by otildeacute.sc;
-sub Otildedieresis by otildedieresis.sc;
-sub Otildemacron by otildemacron.sc;
-sub OE by oe.sc;
-sub P by p.sc;
-sub Thorn by thorn.sc;
-sub Q by q.sc;
-sub R by r.sc;
-sub Racute by racute.sc;
-sub Rcaron by rcaron.sc;
-sub Rcommaaccent by rcommaaccent.sc;
-sub Rdblgrave by rdblgrave.sc;
-sub Rdotbelow by rdotbelow.sc;
-sub Rinvertedbreve by rinvertedbreve.sc;
-sub Rlinebelow by rlinebelow.sc;
-sub S by s.sc;
-sub Sacute by sacute.sc;
-sub Sacutedotaccent by sacutedotaccent.sc;
-sub Scaron by scaron.sc;
-sub Scarondotaccent by scarondotaccent.sc;
-sub Scedilla by scedilla.sc;
-sub Scircumflex by scircumflex.sc;
-sub Scommaaccent by scommaaccent.sc;
-sub Sdotaccent by sdotaccent.sc;
-sub Sdotbelow by sdotbelow.sc;
-sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;
-sub Germandbls by germandbls.sc;
-sub Schwa by schwa.sc;
-sub T by t.sc;
-sub Tbar by tbar.sc;
-sub Tcaron by tcaron.sc;
-sub Tcedilla by tcedilla.sc;
-sub Tcommaaccent by tcommaaccent.sc;
-sub Tdotbelow by tdotbelow.sc;
-sub Tlinebelow by tlinebelow.sc;
-sub U by u.sc;
-sub Uacute by uacute.sc;
-sub Ubreve by ubreve.sc;
-sub Ucircumflex by ucircumflex.sc;
-sub Udblgrave by udblgrave.sc;
-sub Udieresis by udieresis.sc;
-sub Udotbelow by udotbelow.sc;
-sub Ugrave by ugrave.sc;
-sub Uhookabove by uhookabove.sc;
-sub Uhorn by uhorn.sc;
-sub Uhornacute by uhornacute.sc;
-sub Uhorndotbelow by uhorndotbelow.sc;
-sub Uhorngrave by uhorngrave.sc;
-sub Uhornhookabove by uhornhookabove.sc;
-sub Uhorntilde by uhorntilde.sc;
-sub Uhungarumlaut by uhungarumlaut.sc;
-sub Uinvertedbreve by uinvertedbreve.sc;
-sub Umacron by umacron.sc;
-sub Umacrondieresis by umacrondieresis.sc;
-sub Uogonek by uogonek.sc;
-sub Uring by uring.sc;
-sub Utilde by utilde.sc;
-sub Utildeacute by utildeacute.sc;
-sub V by v.sc;
-sub W by w.sc;
-sub Wacute by wacute.sc;
-sub Wcircumflex by wcircumflex.sc;
-sub Wdieresis by wdieresis.sc;
-sub Wgrave by wgrave.sc;
-sub X by x.sc;
-sub Y by y.sc;
-sub Yacute by yacute.sc;
-sub Ycircumflex by ycircumflex.sc;
-sub Ydieresis by ydieresis.sc;
-sub Ydotaccent by ydotaccent.sc;
-sub Ydotbelow by ydotbelow.sc;
-sub Ygrave by ygrave.sc;
-sub Yhookabove by yhookabove.sc;
-sub Ymacron by ymacron.sc;
-sub Ytilde by ytilde.sc;
-sub Z by z.sc;
-sub Zacute by zacute.sc;
-sub Zcaron by zcaron.sc;
-sub Zdotaccent by zdotaccent.sc;
-sub Zdotbelow by zdotbelow.sc;
-sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;
-sub I_J.loclNLD by i_j.loclNLD.sc;
-sub braceleft by braceleft.sc;
-sub braceright by braceright.sc;
-sub bracketleft by bracketleft.sc;
-sub bracketright by bracketright.sc;
-sub parenleft by parenleft.sc;
-sub parenright by parenright.sc;
-sub ampersand by ampersand.sc;
-sub dieresiscomb by dieresiscomb.sc;
-sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.sc;
-sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.sc;
-sub dotaccentcomb by dotaccentcomb.sc;
-sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.sc;
-sub gravecomb by gravecomb.sc;
-sub acutecomb by acutecomb.sc;
-sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.sc;
-sub hungarumlautcomb by hungarumlautcomb.sc;
-sub caroncomb.alt by caroncomb.alt.sc;
-sub circumflexcomb by circumflexcomb.sc;
-sub caroncomb by caroncomb.sc;
-sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.sc;
-sub brevecomb by brevecomb.sc;
-sub ringcomb by ringcomb.sc;
-sub tildecomb by tildecomb.sc;
-sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.sc;
-sub tildecomb_acutecomb by tildecomb_acutecomb.sc;
-sub tildecomb_macroncomb by tildecomb_macroncomb.sc;
-sub macroncomb by macroncomb.sc;
-sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.sc;
-sub macroncomb_gravecomb by macroncomb_gravecomb.sc;
-sub macroncomb_acutecomb by macroncomb_acutecomb.sc;
-sub hookabovecomb by hookabovecomb.sc;
-sub dblgravecomb by dblgravecomb.sc;
-sub breveinvertedcomb by breveinvertedcomb.sc;
-sub commaturnedabovecomb by commaturnedabovecomb.sc;
-sub dotbelowcomb by dotbelowcomb.sc;
-sub dieresisbelowcomb by dieresisbelowcomb.sc;
-sub commaaccentcomb by commaaccentcomb.sc;
-sub cedillacomb by cedillacomb.sc;
-sub ogonekcomb by ogonekcomb.sc;
-sub brevebelowcomb by brevebelowcomb.sc;
-sub macronbelowcomb by macronbelowcomb.sc;
-sub ringcomb_acutecomb.case by ringcomb_acutecomb.case.sc;
-sub brevecomb_acutecomb by brevecomb_acutecomb.sc;
-sub brevecomb_gravecomb by brevecomb_gravecomb.sc;
-sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.sc;
-sub brevecomb_tildecomb by brevecomb_tildecomb.sc;
-sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.sc;
-sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.sc;
-sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.sc;
-sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.sc;
-";
+code = "sub A by a.sc;\012sub Aacute by aacute.sc;\012sub Abreve by abreve.sc;\012sub Abreveacute by abreveacute.sc;\012sub Abrevedotbelow by abrevedotbelow.sc;\012sub Abrevegrave by abrevegrave.sc;\012sub Abrevehookabove by abrevehookabove.sc;\012sub Abrevetilde by abrevetilde.sc;\012sub Acircumflex by acircumflex.sc;\012sub Acircumflexacute by acircumflexacute.sc;\012sub Acircumflexdotbelow by acircumflexdotbelow.sc;\012sub Acircumflexgrave by acircumflexgrave.sc;\012sub Acircumflexhookabove by acircumflexhookabove.sc;\012sub Acircumflextilde by acircumflextilde.sc;\012sub Adblgrave by adblgrave.sc;\012sub Adieresis by adieresis.sc;\012sub Adotbelow by adotbelow.sc;\012sub Agrave by agrave.sc;\012sub Ahookabove by ahookabove.sc;\012sub Ainvertedbreve by ainvertedbreve.sc;\012sub Amacron by amacron.sc;\012sub Aogonek by aogonek.sc;\012sub Aring by aring.sc;\012sub Aringacute by aringacute.sc;\012sub Atilde by atilde.sc;\012sub AE by ae.sc;\012sub AEacute by aeacute.sc;\012sub B by b.sc;\012sub C by c.sc;\012sub Cacute by cacute.sc;\012sub Ccaron by ccaron.sc;\012sub Ccedilla by ccedilla.sc;\012sub Ccedillaacute by ccedillaacute.sc;\012sub Ccircumflex by ccircumflex.sc;\012sub Cdotaccent by cdotaccent.sc;\012sub D by d.sc;\012sub DZ by dz.sc;\012sub DZcaron by dzcaron.sc;\012sub Eth by eth.sc;\012sub Dcaron by dcaron.sc;\012sub Dcroat by dcroat.sc;\012sub Ddotbelow by ddotbelow.sc;\012sub Dlinebelow by dlinebelow.sc;\012sub Dz by dz.sc;\012sub Dzcaron by dzcaron.sc;\012sub E by e.sc;\012sub Eacute by eacute.sc;\012sub Ebreve by ebreve.sc;\012sub Ecaron by ecaron.sc;\012sub Ecedillabreve by ecedillabreve.sc;\012sub Ecircumflex by ecircumflex.sc;\012sub Ecircumflexacute by ecircumflexacute.sc;\012sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub Ecircumflexgrave by ecircumflexgrave.sc;\012sub Ecircumflexhookabove by ecircumflexhookabove.sc;\012sub Ecircumflextilde by ecircumflextilde.sc;\012sub Edblgrave by edblgrave.sc;\012sub Edieresis by edieresis.sc;\012sub Edotaccent by edotaccent.sc;\012sub Edotbelow by edotbelow.sc;\012sub Egrave by egrave.sc;\012sub Ehookabove by ehookabove.sc;\012sub Einvertedbreve by einvertedbreve.sc;\012sub Emacron by emacron.sc;\012sub Emacronacute by emacronacute.sc;\012sub Emacrongrave by emacrongrave.sc;\012sub Eogonek by eogonek.sc;\012sub Etilde by etilde.sc;\012sub F by f.sc;\012sub G by g.sc;\012sub Gacute by gacute.sc;\012sub Gbreve by gbreve.sc;\012sub Gcaron by gcaron.sc;\012sub Gcircumflex by gcircumflex.sc;\012sub Gcommaaccent by gcommaaccent.sc;\012sub Gdotaccent by gdotaccent.sc;\012sub Gmacron by gmacron.sc;\012sub H by h.sc;\012sub Hbar by hbar.sc;\012sub Hbrevebelow by hbrevebelow.sc;\012sub Hcircumflex by hcircumflex.sc;\012sub Hdotbelow by hdotbelow.sc;\012sub I by i.sc;\012sub Iacute by iacute.sc;\012sub Ibreve by ibreve.sc;\012sub Icircumflex by icircumflex.sc;\012sub Idblgrave by idblgrave.sc;\012sub Idieresis by idieresis.sc;\012sub Idieresisacute by idieresisacute.sc;\012sub Idotaccent by idotaccent.sc;\012sub Idotbelow by idotbelow.sc;\012sub Igrave by igrave.sc;\012sub Ihookabove by ihookabove.sc;\012sub Iinvertedbreve by iinvertedbreve.sc;\012sub Imacron by imacron.sc;\012sub Iogonek by iogonek.sc;\012sub Itilde by itilde.sc;\012sub J by j.sc;\012sub Jcircumflex by jcircumflex.sc;\012sub K by k.sc;\012sub Kcommaaccent by kcommaaccent.sc;\012sub L by l.sc;\012sub LJ by lj.sc;\012sub Lacute by lacute.sc;\012sub Lcaron by lcaron.sc;\012sub Lcommaaccent by lcommaaccent.sc;\012sub Ldot by ldot.sc;\012sub Ldotbelow by ldotbelow.sc;\012sub Lj by lj.sc;\012sub Llinebelow by llinebelow.sc;\012sub Lslash by lslash.sc;\012sub M by m.sc;\012sub Mdotbelow by mdotbelow.sc;\012sub N by n.sc;\012sub NJ by nj.sc;\012sub Nacute by nacute.sc;\012sub Ncaron by ncaron.sc;\012sub Ncommaaccent by ncommaaccent.sc;\012sub Ndotaccent by ndotaccent.sc;\012sub Ndotbelow by ndotbelow.sc;\012sub Eng by eng.sc;\012sub Nj by nj.sc;\012sub Nlinebelow by nlinebelow.sc;\012sub Ntilde by ntilde.sc;\012sub O by o.sc;\012sub Oacute by oacute.sc;\012sub Obreve by obreve.sc;\012sub Ocircumflex by ocircumflex.sc;\012sub Ocircumflexacute by ocircumflexacute.sc;\012sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub Ocircumflexgrave by ocircumflexgrave.sc;\012sub Ocircumflexhookabove by ocircumflexhookabove.sc;\012sub Ocircumflextilde by ocircumflextilde.sc;\012sub Odblgrave by odblgrave.sc;\012sub Odieresis by odieresis.sc;\012sub Odieresismacron by odieresismacron.sc;\012sub Odotaccentmacron by odotaccentmacron.sc;\012sub Odotbelow by odotbelow.sc;\012sub Ograve by ograve.sc;\012sub Ohookabove by ohookabove.sc;\012sub Ohorn by ohorn.sc;\012sub Ohornacute by ohornacute.sc;\012sub Ohorndotbelow by ohorndotbelow.sc;\012sub Ohorngrave by ohorngrave.sc;\012sub Ohornhookabove by ohornhookabove.sc;\012sub Ohorntilde by ohorntilde.sc;\012sub Ohungarumlaut by ohungarumlaut.sc;\012sub Oinvertedbreve by oinvertedbreve.sc;\012sub Omacron by omacron.sc;\012sub Omacronacute by omacronacute.sc;\012sub Omacrongrave by omacrongrave.sc;\012sub Oogonek by oogonek.sc;\012sub Oslash by oslash.sc;\012sub Oslashacute by oslashacute.sc;\012sub Otilde by otilde.sc;\012sub Otildeacute by otildeacute.sc;\012sub Otildedieresis by otildedieresis.sc;\012sub Otildemacron by otildemacron.sc;\012sub OE by oe.sc;\012sub P by p.sc;\012sub Thorn by thorn.sc;\012sub Q by q.sc;\012sub R by r.sc;\012sub Racute by racute.sc;\012sub Rcaron by rcaron.sc;\012sub Rcommaaccent by rcommaaccent.sc;\012sub Rdblgrave by rdblgrave.sc;\012sub Rdotbelow by rdotbelow.sc;\012sub Rinvertedbreve by rinvertedbreve.sc;\012sub Rlinebelow by rlinebelow.sc;\012sub S by s.sc;\012sub Sacute by sacute.sc;\012sub Sacutedotaccent by sacutedotaccent.sc;\012sub Scaron by scaron.sc;\012sub Scarondotaccent by scarondotaccent.sc;\012sub Scedilla by scedilla.sc;\012sub Scircumflex by scircumflex.sc;\012sub Scommaaccent by scommaaccent.sc;\012sub Sdotaccent by sdotaccent.sc;\012sub Sdotbelow by sdotbelow.sc;\012sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub Germandbls by germandbls.sc;\012sub Schwa by schwa.sc;\012sub T by t.sc;\012sub Tbar by tbar.sc;\012sub Tcaron by tcaron.sc;\012sub Tcedilla by tcedilla.sc;\012sub Tcommaaccent by tcommaaccent.sc;\012sub Tdotbelow by tdotbelow.sc;\012sub Tlinebelow by tlinebelow.sc;\012sub U by u.sc;\012sub Uacute by uacute.sc;\012sub Ubreve by ubreve.sc;\012sub Ucircumflex by ucircumflex.sc;\012sub Udblgrave by udblgrave.sc;\012sub Udieresis by udieresis.sc;\012sub Udotbelow by udotbelow.sc;\012sub Ugrave by ugrave.sc;\012sub Uhookabove by uhookabove.sc;\012sub Uhorn by uhorn.sc;\012sub Uhornacute by uhornacute.sc;\012sub Uhorndotbelow by uhorndotbelow.sc;\012sub Uhorngrave by uhorngrave.sc;\012sub Uhornhookabove by uhornhookabove.sc;\012sub Uhorntilde by uhorntilde.sc;\012sub Uhungarumlaut by uhungarumlaut.sc;\012sub Uinvertedbreve by uinvertedbreve.sc;\012sub Umacron by umacron.sc;\012sub Umacrondieresis by umacrondieresis.sc;\012sub Uogonek by uogonek.sc;\012sub Uring by uring.sc;\012sub Utilde by utilde.sc;\012sub Utildeacute by utildeacute.sc;\012sub V by v.sc;\012sub W by w.sc;\012sub Wacute by wacute.sc;\012sub Wcircumflex by wcircumflex.sc;\012sub Wdieresis by wdieresis.sc;\012sub Wgrave by wgrave.sc;\012sub X by x.sc;\012sub Y by y.sc;\012sub Yacute by yacute.sc;\012sub Ycircumflex by ycircumflex.sc;\012sub Ydieresis by ydieresis.sc;\012sub Ydotaccent by ydotaccent.sc;\012sub Ydotbelow by ydotbelow.sc;\012sub Ygrave by ygrave.sc;\012sub Yhookabove by yhookabove.sc;\012sub Ymacron by ymacron.sc;\012sub Ytilde by ytilde.sc;\012sub Z by z.sc;\012sub Zacute by zacute.sc;\012sub Zcaron by zcaron.sc;\012sub Zdotaccent by zdotaccent.sc;\012sub Zdotbelow by zdotbelow.sc;\012sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;\012sub I_J.loclNLD by i_j.loclNLD.sc;\012sub braceleft by braceleft.sc;\012sub braceright by braceright.sc;\012sub bracketleft by bracketleft.sc;\012sub bracketright by bracketright.sc;\012sub parenleft by parenleft.sc;\012sub parenright by parenright.sc;\012sub ampersand by ampersand.sc;\012sub dieresiscomb by dieresiscomb.sc;\012sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.sc;\012sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.sc;\012sub dotaccentcomb by dotaccentcomb.sc;\012sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.sc;\012sub gravecomb by gravecomb.sc;\012sub acutecomb by acutecomb.sc;\012sub acutecomb_dotaccentcomb by acutecomb_dotaccentcomb.sc;\012sub hungarumlautcomb by hungarumlautcomb.sc;\012sub caroncomb.alt by caroncomb.alt.sc;\012sub circumflexcomb by circumflexcomb.sc;\012sub caroncomb by caroncomb.sc;\012sub caroncomb_dotaccentcomb by caroncomb_dotaccentcomb.sc;\012sub brevecomb by brevecomb.sc;\012sub ringcomb by ringcomb.sc;\012sub tildecomb by tildecomb.sc;\012sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.sc;\012sub tildecomb_acutecomb by tildecomb_acutecomb.sc;\012sub tildecomb_macroncomb by tildecomb_macroncomb.sc;\012sub macroncomb by macroncomb.sc;\012sub macroncomb_dieresiscomb by macroncomb_dieresiscomb.sc;\012sub macroncomb_gravecomb by macroncomb_gravecomb.sc;\012sub macroncomb_acutecomb by macroncomb_acutecomb.sc;\012sub hookabovecomb by hookabovecomb.sc;\012sub dblgravecomb by dblgravecomb.sc;\012sub breveinvertedcomb by breveinvertedcomb.sc;\012sub commaturnedabovecomb by commaturnedabovecomb.sc;\012sub dotbelowcomb by dotbelowcomb.sc;\012sub dieresisbelowcomb by dieresisbelowcomb.sc;\012sub commaaccentcomb by commaaccentcomb.sc;\012sub cedillacomb by cedillacomb.sc;\012sub ogonekcomb by ogonekcomb.sc;\012sub brevebelowcomb by brevebelowcomb.sc;\012sub macronbelowcomb by macronbelowcomb.sc;\012sub ringcomb_acutecomb.case by ringcomb_acutecomb.case.sc;\012sub brevecomb_acutecomb by brevecomb_acutecomb.sc;\012sub brevecomb_gravecomb by brevecomb_gravecomb.sc;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.sc;\012sub brevecomb_tildecomb by brevecomb_tildecomb.sc;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.sc;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.sc;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.sc;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.sc;\012";
 name = c2sc;
 }
 );
@@ -1449,7 +261,7 @@ verticalStems = (
 weight = Light;
 weightValue = 34;
 width = Condensed;
-widthValue = 0;
+widthValue = 70;
 xHeight = 1080;
 },
 {
@@ -1543,9 +355,9 @@ verticalStems = (
 394
 );
 weight = Bold;
-weightValue = 193;
+weightValue = 232;
 width = Condensed;
-widthValue = 0;
+widthValue = 70;
 xHeight = 1100;
 },
 {
@@ -1641,7 +453,7 @@ verticalStems = (
 weight = Light;
 weightValue = 34;
 width = Extended;
-widthValue = 1000;
+widthValue = 130;
 xHeight = 1080;
 },
 {
@@ -1737,7 +549,7 @@ verticalStems = (
 weight = Bold;
 weightValue = 232;
 width = Extended;
-widthValue = 1000;
+widthValue = 130;
 xHeight = 1100;
 }
 );
@@ -168325,7 +167137,7 @@ com.typemytype.robofont.layerData = {
 };
 },
 {
-glyphname = infinity;
+glyphname = "infinity";
 layers = (
 {
 background = {
@@ -225528,10 +224340,14 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 interpolationWeight = 34;
-interpolationWidth = 0;
+interpolationWidth = 70;
 instanceInterpolations = {
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 1;
 };
@@ -225550,8 +224366,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 44;
-interpolationWidth = 0;
+interpolationWeight = 46;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.06289;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.93711;
@@ -225567,8 +224383,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 58;
-interpolationWidth = 0;
+interpolationWeight = 62;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.15094;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.84906;
@@ -225584,8 +224400,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 76;
-interpolationWidth = 0;
+interpolationWeight = 85;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.26415;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.73585;
@@ -225600,8 +224416,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 97;
-interpolationWidth = 0;
+interpolationWeight = 112;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.39623;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.60377;
@@ -225617,8 +224433,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 121;
-interpolationWidth = 0;
+interpolationWeight = 142;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.54717;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.45283;
@@ -225634,8 +224450,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 146;
-interpolationWidth = 0;
+interpolationWeight = 173;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.7044;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.2956;
@@ -225652,8 +224468,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 171;
-interpolationWidth = 0;
+interpolationWeight = 205;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.86164;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.13836;
@@ -225669,8 +224485,8 @@ name = familyName;
 value = "Encode Sans Condensed";
 }
 );
-interpolationWeight = 193;
-interpolationWidth = 0;
+interpolationWeight = 232;
+interpolationWidth = 70;
 instanceInterpolations = {
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 1;
 };
@@ -225683,10 +224499,14 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 interpolationWeight = 34;
-interpolationWidth = 250;
+interpolationWidth = 85;
 instanceInterpolations = {
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.25;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.75;
@@ -225706,8 +224526,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 44;
-interpolationWidth = 250;
+interpolationWeight = 46;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.02177;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.03578;
@@ -225725,8 +224545,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 59;
-interpolationWidth = 250;
+interpolationWeight = 62;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.05443;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.08945;
@@ -225744,8 +224564,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 78;
-interpolationWidth = 250;
+interpolationWeight = 85;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.0958;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.15743;
@@ -225762,8 +224582,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 101;
-interpolationWidth = 250;
+interpolationWeight = 112;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.13413;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.25435;
@@ -225781,8 +224601,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 126;
-interpolationWidth = 250;
+interpolationWeight = 142;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.12099;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.42795;
@@ -225800,8 +224620,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 153;
-interpolationWidth = 250;
+interpolationWeight = 173;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.1068;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.61543;
@@ -225820,8 +224640,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 180;
-interpolationWidth = 250;
+interpolationWeight = 205;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.20047;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.6686;
@@ -225839,8 +224659,8 @@ name = familyName;
 value = "Encode Sans SemiCondensed";
 }
 );
-interpolationWeight = 203;
-interpolationWidth = 250;
+interpolationWeight = 232;
+interpolationWidth = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.25126;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.75;
@@ -225851,8 +224671,13 @@ weightClass = Black;
 widthClass = SemiCondensed;
 },
 {
+customParameters = (
+{
+name = weightClass;
+value = 250;
+}
+);
 interpolationWeight = 34;
-interpolationWidth = 500;
 instanceInterpolations = {
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.5;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.5;
@@ -225867,8 +224692,7 @@ name = weightClass;
 value = 275;
 }
 );
-interpolationWeight = 44;
-interpolationWidth = 500;
+interpolationWeight = 46;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.02617;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.0303;
@@ -225879,8 +224703,7 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-interpolationWeight = 60;
-interpolationWidth = 500;
+interpolationWeight = 62;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.06805;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.07878;
@@ -225891,8 +224714,7 @@ name = Light;
 weightClass = Light;
 },
 {
-interpolationWeight = 80;
-interpolationWidth = 500;
+interpolationWeight = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.12039;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.13939;
@@ -225902,8 +224724,7 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-interpolationWeight = 104;
-interpolationWidth = 500;
+interpolationWeight = 112;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.1832;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.21211;
@@ -225914,8 +224735,7 @@ name = Medium;
 weightClass = Medium;
 },
 {
-interpolationWeight = 131;
-interpolationWidth = 500;
+interpolationWeight = 142;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.32468;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.20575;
@@ -225926,8 +224746,7 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 160;
-interpolationWidth = 500;
+interpolationWeight = 173;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.3626;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.34092;
@@ -225939,8 +224758,7 @@ name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 188;
-interpolationWidth = 500;
+interpolationWeight = 205;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.43588;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.42576;
@@ -225951,8 +224769,7 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-interpolationWeight = 213;
-interpolationWidth = 500;
+interpolationWeight = 232;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.50253;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.5;
@@ -225966,10 +224783,14 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 interpolationWeight = 34;
-interpolationWidth = 750;
+interpolationWidth = 115;
 instanceInterpolations = {
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.75;
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.25;
@@ -225989,8 +224810,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 45;
-interpolationWidth = 750;
+interpolationWeight = 46;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.03313;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.02793;
@@ -226008,8 +224829,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 61;
-interpolationWidth = 750;
+interpolationWeight = 62;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.08131;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.06856;
@@ -226027,8 +224848,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 82;
-interpolationWidth = 750;
+interpolationWeight = 85;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.13306;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.13619;
@@ -226045,8 +224866,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 108;
-interpolationWidth = 750;
+interpolationWeight = 112;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.26944;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.12988;
@@ -226064,8 +224885,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 136;
-interpolationWidth = 750;
+interpolationWeight = 142;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.41631;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.12309;
@@ -226083,8 +224904,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 167;
-interpolationWidth = 750;
+interpolationWeight = 173;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.57892;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.11556;
@@ -226103,8 +224924,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 196;
-interpolationWidth = 750;
+interpolationWeight = 205;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.61742;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.25;
@@ -226121,8 +224942,8 @@ name = familyName;
 value = "Encode Sans SemiExpanded";
 }
 );
-interpolationWeight = 222;
-interpolationWidth = 750;
+interpolationWeight = 232;
+interpolationWidth = 115;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.74874;
 "C8FFBC04-9D7C-494A-A42D-BACB8E26599D" = 0.25;
@@ -226137,10 +224958,14 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
+},
+{
+name = weightClass;
+value = 250;
 }
 );
 interpolationWeight = 34;
-interpolationWidth = 1000;
+interpolationWidth = 130;
 instanceInterpolations = {
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 1;
 };
@@ -226159,8 +224984,8 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 45;
-interpolationWidth = 1000;
+interpolationWeight = 46;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.05556;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.94444;
@@ -226177,7 +225002,7 @@ value = "Encode Sans Expanded";
 }
 );
 interpolationWeight = 62;
-interpolationWidth = 1000;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.14141;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.85859;
@@ -226193,8 +225018,8 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 84;
-interpolationWidth = 1000;
+interpolationWeight = 85;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.25253;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.74747;
@@ -226209,8 +225034,8 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 111;
-interpolationWidth = 1000;
+interpolationWeight = 112;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.38889;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.61111;
@@ -226226,8 +225051,8 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 141;
-interpolationWidth = 1000;
+interpolationWeight = 142;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.5404;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.4596;
@@ -226244,7 +225069,7 @@ value = "Encode Sans Expanded";
 }
 );
 interpolationWeight = 173;
-interpolationWidth = 1000;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.70202;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.29798;
@@ -226261,8 +225086,8 @@ name = familyName;
 value = "Encode Sans Expanded";
 }
 );
-interpolationWeight = 204;
-interpolationWidth = 1000;
+interpolationWeight = 205;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.85859;
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.14141;
@@ -226279,7 +225104,7 @@ value = "Encode Sans Expanded";
 }
 );
 interpolationWeight = 232;
-interpolationWidth = 1000;
+interpolationWidth = 130;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 1;
 };
