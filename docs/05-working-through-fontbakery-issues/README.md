@@ -62,8 +62,33 @@ On [MS Docs for the GDEF table](https://docs.microsoft.com/en-us/typography/open
 
 I am simply using the built in GlyphsApp recommendation for inserting caret positions, as described on page 27 of the [Glyphs Handbook](https://glyphsapp.com/downloads/handbook/Glyphs-Handbook-2.3.pdf). So, I'm guessing that if my exported variable font is getting `format 3` either from GlyphsApp or from FontMake's VF exporting.
 
+I have filed this issue at https://github.com/khaledhosny/ots/issues/178 with a few more details.
+
 ## Family Naming
 
 > ⚠️ WARN: Combined length of family and style must not exceed 20 characters.
 
+Currently, the longest instance name I can find is:
+
+```
+>>> len("Encode Sans ExtraLight SemiCondensed")
+36
+```
+
+...so, this (and other instances) will definitely require attention in the static instance export.
+
+However, as described in [FontBakery Issue 2179](https://github.com/googlefonts/fontbakery/issues/2179), it is `nameID 4` and `nameID 6` that need to be short enough to avoid issues. For this variable font, `nameID 4`, `Encode Sans Thin Condensed`, clocks in at 26 characters. Because the limits I've been able to find documentation of are between 29 and 32, this variable font is (almost definitely) fine.
+
+On [a posting in the GlyphsApp forum](https://forum.glyphsapp.com/t/overly-strict-font-name-max-length-recommendation-in-naming-tutorial/10164), @mekkablue says that he has "had errors triggered with combined lengths of names that were just above 20" on Windows, though the screenshot provided has a font name with a length of 47 characters ("ImpossibleFamilynameFont-WithAVeryLongStyleName"). I can't help but wondering whether his experience with install failure have had other issues, besides font name length.
+
+I'll test install this on Windows to see whether 26 characters causes any issue.
+
 - [ ] Test with virtual machine, windows, and Mac Office
+- [ ] Be sure to keep exported static instance names below 29 characters
+
+## Keeping static instance exports below 29 characters
+
+It's possible to add `preferredSubfamilyName` custom parameters to a GlyphsApp source. To avoid future potential installation errors, I'll make a script to add in params that shorten names.
+
+- [ ] first, export static instances with FontMake to check whether this is taken care of already
+- [ ] if FontMake doesn't do it, make a script to add your own
