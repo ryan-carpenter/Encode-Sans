@@ -73,3 +73,4 @@ Behdad was able to code a fix in fonttools for the kerning mixup, and Cosimo hel
 After installing the latest fonttools code in my virtualenv, the build process works as I want, without any further changes!
 
 ![](assets/2018-11-21-17-04-05.png)
+
