@@ -50,7 +50,16 @@ fontmake -o variable -g $tempGlyphsSource
 if [ $buildStaticInstances == true ]
 then
     # TODO: optimize with a variable name rather than the exact path
-    fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "ExtraLight" --autohint
+    fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "Encode Sans Condensed ExtraLight" --autohint
+    fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "Encode Sans Condensed Bold" --autohint
+
+    for file in autohinted/instance_ttf/*; do 
+    if [ -f "$file" ]; then 
+        echo "fix DSIG in " ${file}
+        gftools fix-dsig --autofix ${file}
+    fi 
+    done
+    
 else
     echo "Building only variable font, not static instances."
 fi
