@@ -31,8 +31,15 @@ For now, I'm just putting a `buildStaticInstances` true/false `if` statement int
 
 ## How should I handle the lack of a `dsig` table in a bunch of individual instances?
 
+To make `gftools fix-dsig --autofix` run on every autohinted static instance in a folder, it works to run:
+
 ```
-for filename in *; do echo "put ${filename}"; done
+for file in autohinted/instance_ttf/*; do 
+    if [ -f "$file" ]; then 
+        echo "fix DSIG in " ${file}
+        gftools fix-dsig --autofix ${file}
+    fi 
+done
 ```
 
 https://stackoverflow.com/questions/8512462/shellscript-looping-through-all-files-in-a-folder
