@@ -2,6 +2,8 @@ __doc__ = """
     Use to go through TTF/OTF files in a given directory and shorten their name IDs 4 & 6 to abbreviated names.
 
     Requires TTX & xmlStarlet.
+
+    Assumes there are not any ttx files lurking in the directory you provide.
 """
 
 import sys
@@ -19,17 +21,9 @@ abbreviations = {
     "Light": "Lght",
     "Regular": "Reg",
     "Medium": "Med",
-    "SemiBold": "SemiBld",
-    "Bold": "Bold",
+    "SemiBold": "SemiBold",
     "ExtraBold": "ExBold",
-    "Black": "Blck",
 }
-
-
-
-# xml ed -u "//*/namerecord[@nameID='6']" -v "
-#       ${updatedNameID6}
-#     " ${path} > ${path}
 
 def abbreviate(name):
     # print(name)
@@ -74,7 +68,7 @@ def ttxAndFix(path):
     tmpPath2 = tmpPath1.replace(".ttx","-fix.ttx")
 
     # insert new name 6 into ttx
-    command = "xml ed -u '//*/namerecord[@nameID=\"6\"]' -v '" + newName6 + "' " + tmpPath + " > " + tmpPath2
+    command = "xml ed -u '//*/namerecord[@nameID=\"6\"]' -v '" + newName6 + "' " + tmpPath1 + " > " + tmpPath2
     print(subprocess.check_output(command, shell=True))
 
     # make tmpPath back into font file
@@ -92,13 +86,7 @@ def ttxAndFix(path):
 if os.path.isfile(path):
     ttxAndFix(path)
 
-
-
-# if file:
-    # do function to edit name id 4 and 6
-
 if os.path.isdir(path):
     print("is dir")
-# if dir:
-    # for file in dir:
-        # do function to edit name id 4 and 6
+    for file in os.listdir(path):
+        ttxAndFix(path + "/" + file)
