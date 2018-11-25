@@ -50,10 +50,23 @@ fontmake -o variable -g $tempGlyphsSource
 if [ $buildStaticInstances == true ]
 then
     # TODO: optimize with a variable name rather than the exact path
-    fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "Encode Sans Condensed ExtraLight" --autohint
-    fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "Encode Sans Condensed Bold" --autohint
+    # fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "Encode Sans Condensed ExtraLight" --autohint
+
+    fontmake -g sources/Encode-Sans.glyphs --output otf --interpolate --autohint
+    fontmake -g sources/Encode-Sans.glyphs --output ttf --interpolate --autohint
+
+    python scripts/helpers/shorten-nameID-4-6.py autohinted/instance_ttf
 
     for file in autohinted/instance_ttf/*; do 
+    if [ -f "$file" ]; then 
+        echo "fix DSIG in " ${file}
+        gftools fix-dsig --autofix ${file}
+    fi 
+    done
+
+    python scripts/helpers/shorten-nameID-4-6.py instance_otf
+
+    for file in instance_otf/*; do 
     if [ -f "$file" ]; then 
         echo "fix DSIG in " ${file}
         gftools fix-dsig --autofix ${file}

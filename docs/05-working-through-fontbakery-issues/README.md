@@ -179,3 +179,9 @@ xml ed -u "//*/namerecord[@nameID='6']" -v "
       ${updatedNameID6}
     " autohinted/instance_ttf/EncodeSansCondensed-ExtraLight.ttx > autohinted/instance_ttf/update.ttx
 ```
+
+Aaaaand done! I've now got this working as a Python script, which will take either a single TTF/OTF file, or a directory full of them, and edit nameIDs 4 and 6 to use abbreviations to avoid future font-installation issues.
+
+I've put this in `scripts/helpers/shorten-nameID-4-6.py`, and I've hooked it up in my build script.
+
+I don't have to run it on the variable font, because nameID 4 is `Encode Sans Thin Condensed` (26 characters), and nameID 6 is `EncodeSans-ThinCondensed` (24 characters). However, if a future variable needs this, it will be easy to add to the build flow.
