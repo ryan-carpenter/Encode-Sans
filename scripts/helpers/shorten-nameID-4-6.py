@@ -1,7 +1,7 @@
 __doc__ = """
     Use to go through TTF/OTF files in a given directory and shorten their name IDs 4 & 6 to abbreviated names.
 
-    Requires TTX & xmlStarlet.
+    Requires Python 3, TTX, & xmlStarlet.
 
     Assumes there are not any ttx files lurking in the directory you provide.
 
