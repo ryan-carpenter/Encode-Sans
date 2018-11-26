@@ -185,3 +185,38 @@ Aaaaand done! I've now got this working as a Python script, which will take eith
 I've put this in `scripts/helpers/shorten-nameID-4-6.py`, and I've hooked it up in my build script.
 
 I don't have to run it on the variable font, because nameID 4 is `Encode Sans Thin Condensed` (26 characters), and nameID 6 is `EncodeSans-ThinCondensed` (24 characters). However, if a future variable needs this, it will be easy to add to the build flow.
+
+### Actual instructions for using the name abbreviation script
+
+If anyone comes across this issue, I've made a simple Python script that can be triggered from the command line to abbreviate name IDs `4` & `6` to avoid issues with installation.
+
+As an example, it will take the file `EncodeSansSemiCondensed-ExtraLight.ttf`, which has a full name of `Encode Sans SemiCondensed ExtraLight`, and:
+- abbreviate nameID `4` to `Encode Sans SemiCond ExLght` (27 chars) 
+- abbreviate nameID `6` to `EncodeSansSemiCond-ExLght` (25 chars)
+
+Here's the helper script:
+https://github.com/thundernixon/Encode-Sans/blob/c5eb4d08985e860abf8f7bceb6ce198604992714/scripts/helpers/shorten-nameID-4-6.py (This version is as of Nov 26, 2018 – you may also want to check if it's been updated with any fixes).
+
+It can be run with a command like:
+
+```
+python SCRIPT/PATH/shorten-nameID-4-6.py FONT/PATH/font.otf
+```
+
+...where you update the script path, as well as the path you're passing in with a TTF/OTF file or a folder of TTF/OTF files. Of course, this is probably most useful when added to a build shell script, in a step following FontMake font generation.
+
+This currently works from a dictionary of style names I chose to shorten in Encode Sans, but if you have other style names, you should add them in the script:
+
+```
+
+abbreviations = {
+    "Condensed": "Cond",
+    "Expanded": "Expd",
+    "Extra": "Ex",
+    "Light": "Lght",
+    "Regular": "Reg",
+    "Medium": "Med"
+}
+```
+
+If you try it and face any issues or make any improvements, let me know!
