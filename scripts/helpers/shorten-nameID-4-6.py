@@ -4,6 +4,12 @@ __doc__ = """
     Requires TTX & xmlStarlet.
 
     Assumes there are not any ttx files lurking in the directory you provide.
+
+    Usage:
+    - Add to the "abbreviations" dictionary if you have other long words (or partial words) in your font's style name
+    - Run on the command line (or from a shell script) with the following syntax:
+
+        python SCRIPT/PATH/shorten-nameID-4-6.py FONT/PATH/font.otf
 """
 
 import sys
@@ -14,27 +20,25 @@ path = sys.argv[-1]
 
 abbreviations = {
     "Condensed": "Cond",
-    "SemiCondensed": "SemiCond",
     "Expanded": "Expd",
-    "SemiExpanded": "SemiExpd",
-    "ExtraLight": "ExLght",
+    "Extra": "Ex",
     "Light": "Lght",
     "Regular": "Reg",
-    "Medium": "Med",
-    "SemiBold": "SemiBold",
-    "ExtraBold": "ExBold",
+    "Medium": "Med"
 }
 
 def abbreviate(name):
     # print(name)
-    name = name.replace("b","")
-    name = name.replace("'","")
+    # name = name.replace("'","")
+    name = name.replace("b","").replace("'","")
 
     for key in abbreviations.keys():
         if key in name:
             name = name.replace(key, abbreviations[key])
 
     # print(name)
+
+    
 
     name = name.replace("\\n","")
 
@@ -45,10 +49,16 @@ def ttxAndFix(path):
     # make temp ttx of input file
     command = "ttx " + path
     print(subprocess.check_output(command, shell=True))
-    tmpPath = path.replace(".ttf",".ttx")
+
+    # get name of TTX file
+    if path.lower().endswith('.ttf'):
+       tmpPath = path.replace(".ttf",".ttx")
+    elif path.lower().endswith('.otf'):
+       tmpPath = path.replace(".otf",".ttx")
 
     # make command to select nameID 4, then abbreviate it and make it a variable
     command = 'xml sel -t -v "//*/namerecord[@nameID=\'4\']" ' + tmpPath
+    print("command is ", command)
     output = str(subprocess.check_output(command, shell=True))
     newName4 = abbreviate(output)
 
@@ -80,7 +90,11 @@ def ttxAndFix(path):
     os.remove(tmpPath1)
     os.remove(tmpPath2)
 
-    os.rename(path.replace(".ttf","-fix-fix.ttf"),path)
+    if path.lower().endswith('.ttf'):
+        os.rename(path.replace(".ttf","-fix-fix.ttf"),path)
+
+    elif path.lower().endswith('.otf'):
+        os.rename(path.replace(".otf","-fix-fix.otf"),path)
 
 # check if path is file
 if os.path.isfile(path):
