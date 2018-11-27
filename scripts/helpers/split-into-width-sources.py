@@ -6,32 +6,63 @@ import objc
 
 # run on GlyphsApp source with a rectangular designspace (use designspace fix script to do so)
 
-filename = sys.argv[-1]
+# families must be labeled using instance custom parameter `familyName`
+
+relPath = sys.argv[-1]
+filename = os.path.split(relPath)[1] # get just the filename
+fileHead = os.path.split(relPath)[0]
 directory = os.getcwd()
-document = Glyphs.open((str(directory + "/" + filename)), False)
+document = Glyphs.open((str(directory + "/" + relPath)), False)
 font = document.font()
 
-# check axes
-    # if axis besides "Weight" exists, continue
-    # make list of axes
+# get overall family name
 
-# splitFamilies = []
+typeFamilyName = font.familyName()
+
+print(typeFamilyName)
+
+# if axes besides Weight & Width exist, get this as a dictionary
+for param in font.customParameters():
+    if param.name() == "Axes":
+        styleAxes = param.value()
+
+# make list for custom-axis families
+splitFamilies = []
 
 # go through instances
+for instance in font.instances():
+    # print(instance)
     # for customParameters
-        # if param == familyName
-            # add param to list
-            # splitFamilies.append(param.familyName)
+    for param in instance.customParameters():
+        # print(param.name(), param.value())
+        # if familyName param exists, add param to splitFamilies list
+        if param.name() == "familyName":
+            splitFamilies.append(param.value())
 
-        ## font is default/normal style
-        # else
-            # set param = font.familyName (e.g. Encode Sans normal width gets familyName = "Encode Sans")
-            # add normal family name to list
+        # font is default/normal style – add normal family name to list
+        else:
+
+            splitFamilies.append(typeFamilyName)
+
+
+# de-duplicate families list
+splitFamilies = set(splitFamilies)
+
+print(splitFamilies)
+
 
 # make new glyph font doc for each familyName in list
-# for currentFamilyName in splitFamilies:
-    # buildFileName as familyName.replace(" ", "-") + "-build"
-    # font.save((str(directory + "/" + buildFileName)))
+for currentFamilyName in splitFamilies:
+
+
+    buildFileName = currentFamilyName.replace(" ", "-") + "-build.glyphs"
+    buildFilePath = directory + "/" + fileHead + "/" + buildFileName
+
+    print(buildFilePath)
+    font.save((buildFilePath))
+
+    # font.save((str(directory + "/" + filename)))
+    # document.close(True)
 
     # document = Glyphs.open((str(directory + "/" + buildFileName)), False)
 
@@ -105,5 +136,5 @@ font = document.font()
 #    print(master.name())
 
 
-font.save((str(directory + "/" + filename)))
-document.close(True)
+# font.save((str(directory + "/" + filename)))
+# document.close(True)
