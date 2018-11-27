@@ -25,3 +25,8 @@ The good news is, FontMake works with existing GlyphsApp sources to export stati
 
 FontMake does seem to support breaking a file into separate families during variable font building. So, the most likely process I'll need is to create a temporary GlyphsApp file for each width, then separately export from there.
 
+As part of that, however, I'll need to add masters from interpolated instances.
+
+It might add some complexity that I also have to make separate fonts for small caps (unless, perhaps, those should be glyph-subset via FontMake, instead).
+
+To handle this, I'll divide VF families by the custom Param `familyName`, which is set to specific names in both Encode and Signika (e.g. "Signika Negative," "Signika SC," etc).
