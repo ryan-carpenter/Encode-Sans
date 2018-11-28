@@ -1435,6 +1435,7 @@ horizontalStems = (
 66,
 66
 );
+iconName = Light_Condensed;
 id = "ECFF4977-BDCC-4836-B4AC-1801CF0EB460";
 userData = {
 angle = 0;
@@ -1449,7 +1450,6 @@ verticalStems = (
 );
 weight = Light;
 weightValue = 34;
-width = Condensed;
 widthValue = 70;
 xHeight = 1080;
 },
@@ -1464,6 +1464,7 @@ alignmentZones = (
 );
 ascender = 1616;
 capHeight = 1480;
+custom = Black;
 customParameters = (
 {
 name = typoAscender;
@@ -1536,6 +1537,7 @@ horizontalStems = (
 324,
 284
 );
+iconName = Bold_Condensed;
 id = "C8FFBC04-9D7C-494A-A42D-BACB8E26599D";
 verticalStems = (
 392,
@@ -1543,9 +1545,7 @@ verticalStems = (
 404,
 394
 );
-weight = Bold;
 weightValue = 232;
-width = Condensed;
 widthValue = 70;
 xHeight = 1100;
 }

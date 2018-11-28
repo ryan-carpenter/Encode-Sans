@@ -30,3 +30,11 @@ As part of that, however, I'll need to add masters from interpolated instances.
 It might add some complexity that I also have to make separate fonts for small caps (unless, perhaps, those should be glyph-subset via FontMake, instead).
 
 To handle this, I'll divide VF families by the custom Param `familyName`, which is set to specific names in both Encode and Signika (e.g. "Signika Negative," "Signika SC," etc).
+
+## ...after some coding
+
+I was able to get somewhat far into coding a remote script with Glyphs Core API. It was able to save a new font file for each width, then delete all the instances that didn't fit the given width.
+
+I had trouble accessing layers in the Core API, so I moved to using the regular Glyphs Python scripting API. I converted my scripts to the normal Python syntax, but I ended up still having some issues around making masters from the light & black instances of each width. For now, I've done "instances as masters" manually, though I may have found that if I exclude the extreme widths from the master-moving function, it could work. I'll loop back when I'm able to!
+
+## Updating my build script to export split VFs

@@ -150,7 +150,7 @@ open ${ttfPath}
 if [ $timestampAndFontbakeInDist == true ]
 then
     ## move font into folder of dist/, with timestamp, then fontbake the font
-    python3 scripts/distdate-and-fontbake.py $ttfPath
+    python3 scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "vf" $ttfPath
     rm -rf variable_ttf
 else
     ttx $ttfPath

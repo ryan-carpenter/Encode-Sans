@@ -1427,6 +1427,7 @@ horizontalStems = (
 66,
 66
 );
+iconName = Light_Extended;
 id = "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580";
 verticalStems = (
 68,
@@ -1436,7 +1437,6 @@ verticalStems = (
 );
 weight = Light;
 weightValue = 34;
-width = Extended;
 widthValue = 130;
 xHeight = 1080;
 },
@@ -1451,6 +1451,7 @@ alignmentZones = (
 );
 ascender = 1616;
 capHeight = 1480;
+custom = Black;
 customParameters = (
 {
 name = typoAscender;
@@ -1523,6 +1524,7 @@ horizontalStems = (
 368,
 348
 );
+iconName = Bold_Extended;
 id = "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF";
 verticalStems = (
 476,
@@ -1530,9 +1532,7 @@ verticalStems = (
 484,
 458
 );
-weight = Bold;
 weightValue = 232;
-width = Extended;
 widthValue = 130;
 xHeight = 1100;
 }
