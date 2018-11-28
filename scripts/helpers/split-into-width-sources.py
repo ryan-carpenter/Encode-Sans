@@ -54,30 +54,72 @@ print(splitFamilies)
 # make new glyph font doc for each familyName in list
 for currentFamilyName in splitFamilies:
 
-
     buildFileName = currentFamilyName.replace(" ", "-") + "-build.glyphs"
     buildFilePath = directory + "/" + fileHead + "/" + buildFileName
 
-    print(buildFilePath)
+    # print(buildFilePath)
     font.save((buildFilePath))
 
-    # font.save((str(directory + "/" + filename)))
-    # document.close(True)
+    currentDocument = Glyphs.open((buildFilePath), False)
 
-    # document = Glyphs.open((str(directory + "/" + buildFileName)), False)
-
-    # font = document.font()
-
-    # font.familyName() = familyName
+    currentFont = currentDocument.font()
 
     # make list of current instances, delete others
-        # currentInstances = []
-        # if instance customParameters familyName = currentFamilyName:
-            # currentInstances.append(instance)
-        # else:
-            # delete instance (it'll be used in other build fonts)
+    currentInstances = []
+    # if instance customParameters familyName = currentFamilyName:
 
-        # ? sort currentInstances by weight value ?
+    
+
+    for index, instance in enumerate(currentFont.instances()):
+
+        hasFamilyNameParam = False
+        
+        for param in instance.customParameters():
+            # if it has a "familyName" param
+            if param.name() == "familyName":
+                hasFamilyNameParam = True
+                # and if the value is the currentFamilyName
+                if param.value() == currentFamilyName:
+                    currentInstances.append(index)
+
+        # if there's not a "familyName" param and the currentFamilyName matches the overall name, it's a default style
+        if hasFamilyNameParam == False and currentFamilyName == typeFamilyName:
+            # print(instance.interpolationWidth())
+            currentInstances.append(index)
+
+        # if index not in currentInstances:
+        #     print("remove instance " + str(index))
+        #     # currentFont.removeObjectFromInstancesAtIndex(index)
+        #     # del currentFont.instances()[index]
+        #     currentFont.removeObjectFromInstancesAtIndex_(index)
+
+
+    print(currentInstances, currentFamilyName)
+
+    delCounter = 0
+    idxCounter = 0
+
+    for instance in currentFont.instances():
+        if idxCounter not in currentInstances:
+            # if i in currentFont.instances():
+            currentFont.removeObjectFromInstancesAtIndex_(delCounter)
+            
+        if idxCounter in currentInstances:
+            delCounter += 1
+        
+        idxCounter += 1
+            
+
+
+    #     if index not in currentInstances:
+    #         print("remove instance " + str(index))
+    #         # currentFont.removeObjectFromInstancesAtIndex(index)
+    #         # del currentFont.instances()[index]
+    #         currentFont.removeObjectFromInstancesAtIndex_(index)
+
+
+    currentFont.save((buildFilePath))
+    currentDocument.close(True)
 
     # make masters from each end of that instance for the current secondary axis
         # ~MAKE DEF ABOVE~ make master from instance makeMaster(instance, index) # 
@@ -136,5 +178,5 @@ for currentFamilyName in splitFamilies:
 #    print(master.name())
 
 
-# font.save((str(directory + "/" + filename)))
-# document.close(True)
+font.save((str(directory + "/" + filename)))
+document.close(True)
