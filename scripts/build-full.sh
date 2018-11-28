@@ -72,12 +72,12 @@ cd ..
 ttxPath="variable_ttf/${VFname}.ttx"
 
 
-## inserts patch files into temporary ttx to fix export errors
-## BE SURE to update these patches for the real values in a given typeface
-cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
-cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+# ## inserts patch files into temporary ttx to fix export errors
+# ## BE SURE to update these patches for the real values in a given typeface
+# cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
+# cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 
-rm -rf variable_ttf/${VFname}-name.ttx
+# rm -rf variable_ttf/${VFname}-name.ttx
 
 ## copies temp ttx file back into a new ttf file
 ttx $ttxPath

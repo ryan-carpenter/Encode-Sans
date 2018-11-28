@@ -215,6 +215,13 @@ Failed to sanitize file!
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/168](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** The 'wdth' coordinate of the 'Regular' instance must be 100. Got 70.0 as a default value instead.
+
+</details>
+<details>
 <summary>:warning: <b>WARN:</b> Is font em size (ideally) equal to 1000?</summary>
 
 * [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -405,8 +412,7 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Encode Sans' / SUBFAMILY_NAME = 'Thin Condensed'
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans' / SUBFAMILY_NAME = 'Thin Condensed'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Condensed Light' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -432,7 +438,6 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 <summary>:zzz: <b>SKIP:</b> Font has ttfautohint params? </summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 * :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
@@ -752,9 +757,9 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 |  | dist/EncodeSans-VF-2018-11-28/full_vf/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 283.4kb |
-| Hinted Size | 282.2kb |
-| Increase | -1220 bytes |
+| Dehinted Size | 281.7kb |
+| Hinted Size | 280.0kb |
+| Increase | -1788 bytes |
 | Change   | -0.0 % |
 
 
@@ -763,7 +768,7 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 <summary>:information_source: <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000', 'Version 2.000']
+* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 2.000']
 
 </details>
 <details>
@@ -786,7 +791,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, GPOS, DSIG, loca]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, GSUB, GPOS, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1148,13 +1153,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/168](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Regular:wdth is 100.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
 
 * [com.google.fonts/check/172](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1175,5 +1173,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 4 | 61 | 6 | 62 |
-| 0% | 3% | 3% | 45% | 4% | 45% |
+| 0 | 5 | 4 | 61 | 6 | 61 |
+| 0% | 4% | 3% | 45% | 4% | 45% |
