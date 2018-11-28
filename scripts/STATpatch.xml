@@ -4,15 +4,17 @@
     <!-- DesignAxisCount=2 -->
     <DesignAxisRecord>
         <Axis index="0">
-            <AxisTag value="wght"/>
+            <!-- was wght -->
+            <AxisTag value="wdth"/>
             <AxisNameID value="256"/>
-            <!-- Weight -->
+            <!-- Width -->
             <AxisOrdering value="0"/>
         </Axis>
         <Axis index="1">
-            <AxisTag value="wdth"/>
+            <!-- was wdth -->
+            <AxisTag value="wght"/>
             <AxisNameID value="257"/>
-            <!-- Width -->
+            <!-- Weight -->
             <AxisOrdering value="1"/>
         </Axis>
     </DesignAxisRecord>
