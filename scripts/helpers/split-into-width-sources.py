@@ -162,14 +162,6 @@ for currentFamilyName in splitFamilies:
 
 # result: should be several fonts, each with just 
 
-
-
-
-
-
-
-
-
 ## assuming there aren't middle masters for weight
 
 # get lightest and boldest masters

@@ -1,6 +1,6 @@
 ### WIP macOS build script for Encode Sans VF, based on a build script by Mike LaGuttuta
 ### Run in the terminal by entering this file path
-### requires a python 3 environmentoh 
+### requires a python 3 environment
 
 # flag technique from Jon Almeida: https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
 
