@@ -64,11 +64,10 @@ for currentFamilyName in splitFamilies:
 
     currentFont = currentDocument.font()
 
+    # TODO: make currentFont family name = currentFamilyName
+
     # make list of current instances, delete others
     currentInstances = []
-    # if instance customParameters familyName = currentFamilyName:
-
-    
 
     for index, instance in enumerate(currentFont.instances()):
 
@@ -84,39 +83,24 @@ for currentFamilyName in splitFamilies:
 
         # if there's not a "familyName" param and the currentFamilyName matches the overall name, it's a default style
         if hasFamilyNameParam == False and currentFamilyName == typeFamilyName:
-            # print(instance.interpolationWidth())
             currentInstances.append(index)
-
-        # if index not in currentInstances:
-        #     print("remove instance " + str(index))
-        #     # currentFont.removeObjectFromInstancesAtIndex(index)
-        #     # del currentFont.instances()[index]
-        #     currentFont.removeObjectFromInstancesAtIndex_(index)
-
+            # print(instance.interpolationWidth())
 
     print(currentInstances, currentFamilyName)
 
-    delCounter = 0
-    idxCounter = 0
+    # in each new file, delete instances that don't match the current width
+
+    deleteCounter = 0
+    indexCounter = 0
 
     for instance in currentFont.instances():
-        if idxCounter not in currentInstances:
-            # if i in currentFont.instances():
-            currentFont.removeObjectFromInstancesAtIndex_(delCounter)
-            
-        if idxCounter in currentInstances:
-            delCounter += 1
+        if indexCounter not in currentInstances:
+            currentFont.removeObjectFromInstancesAtIndex_(deleteCounter)
+
+        if indexCounter in currentInstances:
+            deleteCounter += 1
         
-        idxCounter += 1
-            
-
-
-    #     if index not in currentInstances:
-    #         print("remove instance " + str(index))
-    #         # currentFont.removeObjectFromInstancesAtIndex(index)
-    #         # del currentFont.instances()[index]
-    #         currentFont.removeObjectFromInstancesAtIndex_(index)
-
+        indexCounter += 1
 
     currentFont.save((buildFilePath))
     currentDocument.close(True)
@@ -129,10 +113,39 @@ for currentFamilyName in splitFamilies:
             # copy in glyphs
             # copy in kerning
 
-        # if instance is instances[0]:
-            # makeMaster(instance, index)
-        # if instance is instances[-1]:
-            # makeMaster(instance, index)
+    # assumes instances are ordered by weight value (this may need to be an added step above)
+
+    currentLightFont = currentFont.generateInstance_error_(currentFont.instances()[0], None)
+    currentBoldFont = currentFont.generateInstance_error_(currentFont.instances()[-1], None)
+
+    print(currentLightFont.fontMasters()[0])
+    print(currentBoldFont.fontMasters()[0])
+
+    currentLightFontMasterID = currentLightFont.fontMasters()[0].id()
+    currentBoldFontMasterID = currentBoldFont.fontMasters()[0].id()
+
+    # currentFont.fontMasters().append(currentLightFont.fontMasters[0])
+    # currentFont.fontMasters().append(currentBoldFont.fontMasters[0])
+    # currentFont.insertFontMaster_atIndex_(currentLightFont.fontMasters()[0], 0)
+    # currentFont.insertFontMaster_atIndex_(currentBoldFont.fontMasters()[0],1)
+    currentFont.addFontMaster_(currentLightFont.fontMasters()[0])
+    currentFont.addFontMaster_(currentBoldFont.fontMasters()[0])
+
+    newLightMaster = currentFont.fontMasters()[-2]
+    newBoldMaster = currentFont.fontMasters()[-1]
+    newLightMasterID = newLightMaster.id()
+    newBoldMasterID = newBoldMaster.id()
+
+    for index,glyph in enumerate(currentFont.glyphs()):
+        # make variable for glyph of interpolated font
+        # currentGlyph = currentFont.glyphs()[glyph.name()]
+        currentGlyph = currentFont.glyphs()[index]
+
+        ## these need to be layer indexes, it seems
+        # bring glyph data into glyph of new master
+        glyph.layers()[newMasterID] = currentGlyph.layers()[currentLightFontMasterID]
+        # bring glyph data into glyph of new master
+        glyph.layers()[newMasterID] = currentGlyph.layers()[currentBoldFontMasterID]
 
     # delete previous masters
         # for index, master in enumerate(masters):
