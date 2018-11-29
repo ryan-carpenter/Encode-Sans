@@ -11,6 +11,8 @@ directory = os.getcwd()
 document = Glyphs.open((str(directory + "/" + relPath)), False)
 currentFont = document.font()
 
+print(currentFont.glyphs()[4].layers()[0])
+
 
 
 # # InterpolatedFont = font.generateInstance_error_(instance, None)
