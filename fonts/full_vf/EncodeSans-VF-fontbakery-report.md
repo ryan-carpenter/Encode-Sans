@@ -749,7 +749,7 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :information_source: **INFO** Hinting filesize impact:
 
-|  | dist/EncodeSans-VF-2018-11-29/full_vf/EncodeSans-VF.ttf |
+|  | fonts/full_vf/EncodeSans-VF.ttf |
 |:--- | ---:|
 | Dehinted Size | 283.8kb |
 | Hinted Size | 282.6kb |
@@ -785,7 +785,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, DSIG, GPOS, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, GSUB, DSIG, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -793,7 +793,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** dist/EncodeSans-VF-2018-11-29/full_vf/EncodeSans-VF.ttf is named canonically.
+* :bread: **PASS** fonts/full_vf/EncodeSans-VF.ttf is named canonically.
 
 </details>
 <details>
