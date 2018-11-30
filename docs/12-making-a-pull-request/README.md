@@ -11,4 +11,9 @@
     - [ ] give known remaining to-do items (search through these docs for `- [ ]`, for starters)
 
 - [ ] Known remaining to-do items
+    - [ ] Apply autohinting to VFs
+    - [ ] Test hinting in new statics
+    - [ ] Methodical Red Arrows check. Question: are *any* inflected curves okay (e.g. in accent marks like `/tilde`?)
+    - [ ] Show clear diffing results
     - [ ] Do I need to fix mark-to-mark positioning? See docs/diffing-against-old-statics
+    - [ ] 
