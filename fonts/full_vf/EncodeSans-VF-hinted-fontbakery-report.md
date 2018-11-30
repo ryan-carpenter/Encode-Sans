@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.4.dev1+g1b3d2764
+Fontbakery version: 0.6.4.dev9+gce8690cb
 
 <details>
 <summary><b>[24] Family checks</b></summary>
@@ -9,7 +9,7 @@ Fontbakery version: 0.6.4.dev1+g1b3d2764
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :information_source: **INFO** fontbakery (0.6.3)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.4.dev1+g1b3d2764
+  INSTALLED: 0.6.4.dev9+gce8690cb
   LATEST:    0.6.3
 
 * :bread: **PASS** Font Bakery is up-to-date
@@ -179,7 +179,7 @@ Fontbakery version: 0.6.4.dev1+g1b3d2764
 <br>
 </details>
 <details>
-<summary><b>[113] EncodeSans-VF-hinted.ttf</b></summary>
+<summary><b>[114] EncodeSans-VF-hinted.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -195,25 +195,11 @@ Fontbakery version: 0.6.4.dev1+g1b3d2764
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking unitsPerEm value is reasonable.</summary>
-
-* [com.google.fonts/check/043](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** The value of unitsPerEm at the head table must be either 1000 or a power of 2 between 16 to 16384. Got '2000' instead.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Checking font version fields (head and name table).</summary>
 
 * [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :fire: **FAIL** head version is ('3', '000'), name version string for platform 1, encoding 0, is ('2', '000') [code: mismatch]
 * :fire: **FAIL** head version is ('3', '000'), name version string for platform 3, encoding 1, is ('2', '000') [code: mismatch]
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Is font em size (ideally) equal to 1000?</summary>
-
-* [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Font em size (2000) is not equal to 1000.
 
 </details>
 <details>
@@ -413,6 +399,13 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 	- j + l
 
    [code: lacks-kern-info]
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Fonts have equal numbers of glyphs?</summary>
+
+* [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: stylenames_are_canonical
 
 </details>
 <details>
@@ -711,6 +704,13 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
+
+* [com.adobe.fonts/check/postscript_name_cff_vs_name](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_cff
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> Monospace font has hhea.advanceWidthMax equal to each glyph's advanceWidth?</summary>
 
 * [com.google.fonts/check/079](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -789,15 +789,8 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, prep, gasp, cvt , loca, GSUB, fpgm]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, prep, fpgm, cvt , GPOS, loca, GSUB, gasp]
 * :bread: **PASS** Font contains all required tables.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Fonts have equal numbers of glyphs?</summary>
-
-* [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** All font files in this family have an equal total ammount of glyphs.
 
 </details>
 <details>
@@ -875,6 +868,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/074](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
+
+* [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font em size is good (unitsPerEm = 2000).
 
 </details>
 <details>
@@ -1022,6 +1022,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/077](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** All glyphs have a codepoint value assigned.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking unitsPerEm value is reasonable.</summary>
+
+* [com.google.fonts/check/043](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** unitsPerEm value (2000) on the 'head' table is reasonable.
 
 </details>
 <details>
@@ -1178,5 +1185,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 4 | 61 | 6 | 62 |
-| 0% | 3% | 3% | 45% | 4% | 45% |
+| 0 | 3 | 3 | 63 | 6 | 63 |
+| 0% | 2% | 2% | 46% | 4% | 46% |

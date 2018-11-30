@@ -71,7 +71,6 @@ cd ..
 
 ttxPath="variable_ttf/${VFname}.ttx"
 
-
 # ## inserts patch files into temporary ttx to fix export errors
 # ## BE SURE to update these patches for the real values in a given typeface
 cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
@@ -85,7 +84,13 @@ ttx $ttxPath
 # removes temp ttx file
 rm -rf $ttxPath
 
-ttfPath=${ttxPath/".ttx"/".ttf"}
+ttfPath=${ttxPath/".ttx"/"-unhinted.ttf"}
+
+# Hint with TTFautohint-VF 
+# currently janky – I need to find how to properly add this dependency
+# https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
+/Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
+ttfPath=${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
 
 # open VF in default program; hopefully you have FontView
 open ${ttfPath}
