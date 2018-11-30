@@ -11,4 +11,4 @@
     - [ ] give known remaining to-do items (search through these docs for `- [ ]`, for starters)
 
 - [ ] Known remaining to-do items
-    - [ ] fix mark-to-mark positioning
+    - [ ] Do I need to fix mark-to-mark positioning? See docs/diffing-against-old-statics
