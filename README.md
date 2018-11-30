@@ -56,3 +56,7 @@ The `-R` applies your permission to each of the shell scripts in the directory, 
 Notes were taken throughout the variable font upgrade project and added to the [docs](/docs) directory. I tend to take notes while working anyway, in order to think through problems and record solutions for later reference. In this project, I have included these in the repo so that others might find references to solve similar problems, especially because variable font-making processes are relatively new, and there is a general scarcity of online knowledge on font mastering. Because they were often made alongside work, the notes can at times be a bit disjointed. Hopefully they are still helpful to others! 
 
 If you have any questions about the project or the notes, feel free to file an issue or to reach out to Stephen Nixon via Twitter ([@thundernixon](https://twitter.com/thundernixon)) or other social media (typically also @thundernixon).
+
+# Further work-in-progress in `wip` branch
+
+There are a few details currently still being cleared up and improved. While this is happening, this work will take place in the `wip` branch, and the latest font outputs will be moved into the `master` branch as they are created.
