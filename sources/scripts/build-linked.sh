@@ -12,7 +12,7 @@ glyphsSources="sources/split"
 timestampAndFontbakeInDist=true
 
 ## keep designspace file if you want to check values later
-keepDesignspace=true
+keepDesignspace=false
 
 ################# set vars #################
 ############################################

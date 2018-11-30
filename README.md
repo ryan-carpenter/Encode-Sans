@@ -23,10 +23,10 @@ To operate the scripts within this repo, install requirements with:
 pip install -r requirements.txt
 ```
 
-You can then build sources by running shell scripts in `scripts/`
+You can then build sources by running shell scripts in `sources/scripts/`
 
 ```
-scripts/build.sh [OPTIONS]
+sources/scripts/build.sh [OPTIONS]
 ```
 
 Add one of the are the following flags to build the fonts:
