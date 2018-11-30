@@ -65,6 +65,8 @@ for file in variable_ttf/*; do
     fi 
 done
 
+#  TODO Add NAMEpatch??
+
 rm -rf variable_ttf
 
 if [ $keepDesignspace == true ]

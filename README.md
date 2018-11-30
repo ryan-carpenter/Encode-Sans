@@ -16,6 +16,8 @@ TTF Files hinted using TTF Autohint v1.1
 
 # Build Process
 
+The sources can be built with FontMake, but I've put together some build scripts to pass the fonts through some steps that fix metadata issues.
+
 To operate the scripts within this repo, install requirements with:
 
 ```
@@ -39,7 +41,9 @@ Add one of the are the following flags to build the fonts:
 
 `--all` or `-a` to build all of the fonts and take a coffee break.
 
-The first time you run them, you will need to give run permissions to the build scripts. 
+(Thanks to [@mjlagattuta](https://github.com/mjlagattuta)) for coming up with the way to add flags, and to [@jonalmeida](https://github.com/jonalmeida) for writing [such a good blog post about it](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/)).
+
+The first time you run the build, you will need to give run permissions to the build scripts.
 
 On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
 

@@ -32,3 +32,23 @@ This doesn't happen in Bahnschrift:
 
 
 - [ ] TODO: check [Saira](https://github.com/m4rc1e/Saira-1/tree/master/SairaGF/sources) as a possible good weight + width VF reference.
+
+
+## Name table improvements
+
+I'm using Bahnschrift and the MS Typography docs to upgrade my `NAMEpatch.xml` file slightly.
+- I've changed `nameID 2` to "Regular," as this is subbed in for `nameID 17`: "Preferred Subfamily. No name string present, since it is the same as name ID 2 (Font Subfamily name)". This should hopefully make the Regular named instance be used as the default in some apps, rather than the Condensed Thin style.
+- I'm changing `nameID 2` from `2.000;GOOG;EncodeSans-ThinCondensed` to `2.000;GOOG;EncodeSans`
+- I've changed `nameID`s 4 & 6 to simply `Encode Sans`, from `Encode Sans Condensed Thin`, so it avoids name-length issues and hopefully shows up more simply in font menus
+- I've also added specific sample text to `nameID` 19, for display in font-viewing apps.
+
+
+
+
+- [ ] TODO: Check if name patches need to exist for weight-split / linked variable fonts
+
+## Sorting on Mac
+
+Currently, the named instance "Regular" is the default style in macOS pages (good) ... but it's also the first to show up in macOS Pages font menu, when I would expect "Condensed Thin" to be the first to appear, and "Thin" itself doesn't show up until the last place of the menu (bad).
+
+![](assets/2018-11-29-16-20-17.png)
