@@ -18,7 +18,7 @@ fixGlyphsDesignspace=true
 timestampAndFontbakeInDist=true
 
 ## keep designspace file if you want to check values later
-keepDesignspace=true
+keepDesignspace=false
 
 ################# set vars #################
 ############################################
@@ -27,7 +27,7 @@ keepDesignspace=true
 tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
 
 # get font name from glyphs source
-VFname=`python scripts/helpers/get-font-name.py ${glyphsSource}`
+VFname=`python sources/scripts/helpers/get-font-name.py ${glyphsSource}`
 # checking that the name has been pulled out of the source file
 echo "VF Name: ${VFname}"
 
@@ -37,7 +37,7 @@ cp $glyphsSource $tempGlyphsSource
 if [ $fixGlyphsDesignspace == true ]
 then
     ## call the designspace fixing script
-    python scripts/helpers/fix-designspace.py $tempGlyphsSource
+    python sources/scripts/helpers/fix-designspace.py $tempGlyphsSource
 else
     echo "Not morphing designspace."
 fi
@@ -74,8 +74,8 @@ ttxPath="variable_ttf/${VFname}.ttx"
 
 # ## inserts patch files into temporary ttx to fix export errors
 # ## BE SURE to update these patches for the real values in a given typeface
-cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/helpers/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
-cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
+cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 
 rm -rf variable_ttf/${VFname}-name.ttx
 
@@ -94,7 +94,7 @@ open ${ttfPath}
 if [ $timestampAndFontbakeInDist == true ]
 then
     ## move font into folder of dist/, with timestamp, then fontbake the font
-    python3 scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $ttfPath
+    python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $ttfPath
     rm -rf variable_ttf
 else
     ttx $ttfPath

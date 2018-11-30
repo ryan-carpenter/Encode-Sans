@@ -46,7 +46,7 @@ The first time you run the build, you will need to give run permissions to the b
 On the command line, navigate to the project folder (`cd Encode-Sans`), and then give permissions to the shell scripts with:
 
 ```
-chmod -R +x scripts
+chmod -R +x sources/scripts
 ```
 
 The `-R` applies your permission to each of the shell scripts in the directory, and the `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the Encode Sans GlyphsApp sources.

@@ -25,7 +25,7 @@ for file in ${glyphsSources}/*; do
         cp $file $tempGlyphsSource
 
         # get font name from glyphs source
-        VFname=`python scripts/helpers/get-font-name.py ${file}`
+        VFname=`python sources/scripts/helpers/get-font-name.py ${file}`
         # checking that the name has been pulled out of the source file
         echo "VF Name: ${VFname}"
 
@@ -38,7 +38,7 @@ for file in ${glyphsSources}/*; do
 done
 
 # fix name length in generated VFs
-python scripts/helpers/shorten-nameID-4-6.py variable_ttf
+python sources/scripts/helpers/shorten-nameID-4-6.py variable_ttf
 
 for file in variable_ttf/*; do 
     if [ -f "$file" ]; then 
@@ -57,7 +57,7 @@ for file in variable_ttf/*; do
         then
             ## move font into folder of dist/, with timestamp, then fontbake the font
             pwd
-            python3 scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "linked_vf" ${file}
+            python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "linked_vf" ${file}
         else
             ttx ${file}
             echo "font and ttx in variable_ttf folder"

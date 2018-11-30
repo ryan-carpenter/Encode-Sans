@@ -14,7 +14,8 @@ currentDatetime = datetime.now().strftime('%Y-%m-%d')
 distPath = sys.argv[-3]
 fontType = sys.argv[-2]
 # outputFolder = f'dist/{currentDatetime}'
-outputFolder = f'dist/{distPath}-{currentDatetime}/{fontType}'
+# outputFolder = f'dist/{distPath}-{currentDatetime}/{fontType}'
+outputFolder = f'fonts/full_vf'
 
 if not os.path.exists(outputFolder):
     os.makedirs(outputFolder)

@@ -1,4 +1,3 @@
-
 from Glyphs import *
 import sys
 import os
@@ -12,6 +11,10 @@ document = Glyphs.open((str(directory + "/" + relPath)), False)
 currentFont = document.font()
 
 print(currentFont.glyphs()[4].layers()[0])
+
+# glyph = currentFont.glyphs()[4]
+# master = currentFont.fontMasterAtIndex_(0)
+# print(glyph.layerForKey_(master.id()))
 
 
 
