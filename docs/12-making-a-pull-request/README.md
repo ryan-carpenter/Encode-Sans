@@ -16,4 +16,7 @@
     - [ ] Methodical Red Arrows check. Question: are *any* inflected curves okay (e.g. in accent marks like `/tilde`?)
     - [ ] Show clear diffing results
     - [ ] Do I need to fix mark-to-mark positioning? See docs/diffing-against-old-statics
-    - [ ] 
+    - [ ] Upgrade build scripts
+        - [ ] Make build scripts direct new fonts into `fonts/` directory
+        - [ ] Add fontbakery checking to static font builds
+        - [ ] (maybe) streamline split-VF build
