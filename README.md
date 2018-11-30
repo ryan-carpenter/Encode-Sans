@@ -23,7 +23,7 @@ To operate the scripts within this repo, install requirements with:
 pip install -r requirements.txt
 ```
 
-You can then build sources by running shell scripts in `sources/scripts/`
+You can then build sources by running shell scripts in `sources/scripts/`.
 
 ```
 sources/scripts/build.sh [OPTIONS]

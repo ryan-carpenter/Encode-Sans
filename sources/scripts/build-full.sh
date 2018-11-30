@@ -37,7 +37,7 @@ cp $glyphsSource $tempGlyphsSource
 if [ $fixGlyphsDesignspace == true ]
 then
     ## call the designspace fixing script
-    python scripts/fix-designspace.py $tempGlyphsSource
+    python scripts/helpers/fix-designspace.py $tempGlyphsSource
 else
     echo "Not morphing designspace."
 fi
@@ -74,8 +74,8 @@ ttxPath="variable_ttf/${VFname}.ttx"
 
 # ## inserts patch files into temporary ttx to fix export errors
 # ## BE SURE to update these patches for the real values in a given typeface
-cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
-cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat scripts/helpers/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
+cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 
 rm -rf variable_ttf/${VFname}-name.ttx
 
