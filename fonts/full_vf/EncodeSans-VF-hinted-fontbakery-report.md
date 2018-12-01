@@ -195,11 +195,16 @@ Fontbakery version: 0.6.4.dev9+gce8690cb
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking font version fields (head and name table).</summary>
+<summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
 
-* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** head version is ('3', '000'), name version string for platform 1, encoding 0, is ('2', '000') [code: mismatch]
-* :fire: **FAIL** head version is ('3', '000'), name version string for platform 3, encoding 1, is ('2', '000') [code: mismatch]
+* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** ots-sanitize returned an error code (1). Output follows:
+
+ERROR: GDEF: bad caret value format: 3
+ERROR: GDEF: Invalid ligature caret list
+ERROR: GDEF: Failed to parse table
+Failed to sanitize file!
+
 
 </details>
 <details>
@@ -380,13 +385,6 @@ Glyph name: oneeighth	Contours detected: 4	Expected: 5
 Glyph name: threeeighths	Contours detected: 3	Expected: 5
 Glyph name: fiveeighths	Contours detected: 3	Expected: 5
 Glyph name: seveneighths	Contours detected: 3	Expected: 5
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Encode Sans' / SUBFAMILY_NAME = 'Condensed Thin'
 
 </details>
 <details>
@@ -746,8 +744,8 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 |  | fonts/full_vf/EncodeSans-VF-hinted.ttf |
 |:--- | ---:|
-| Dehinted Size | 284.2kb |
-| Hinted Size | 321.4kb |
+| Dehinted Size | 284.3kb |
+| Hinted Size | 321.5kb |
 | Increase | 37.2kb |
 | Change   | 0.1 % |
 
@@ -780,7 +778,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 2.000; ttfautohint (v1.8.1.43-b0c9)"
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.1.43-b0c9)"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -789,7 +787,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, prep, fpgm, cvt , GPOS, loca, GSUB, gasp]
+* :information_source: **INFO** This font contains the following optional tables [prep, gasp, DSIG, loca, GPOS, GSUB, fpgm, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -948,13 +946,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Checking with ots-sanitize.</summary>
-
-* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** ots-sanitize passed this file
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font contains .notdef as first glyph?</summary>
 
 * [com.google.fonts/check/046](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1032,6 +1023,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Checking font version fields (head and name table).</summary>
+
+* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All font version fields match.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1085,6 +1083,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** None of the name table strings contain "Reserved Font Name".
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All name entries are good.
 
 </details>
 <details>
@@ -1185,5 +1190,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 3 | 63 | 6 | 63 |
-| 0% | 2% | 2% | 46% | 4% | 46% |
+| 0 | 3 | 2 | 63 | 6 | 64 |
+| 0% | 2% | 1% | 46% | 4% | 46% |

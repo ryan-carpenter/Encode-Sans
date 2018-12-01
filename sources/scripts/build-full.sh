@@ -84,24 +84,28 @@ ttx $ttxPath
 # removes temp ttx file
 rm -rf $ttxPath
 
-ttfPath=${ttxPath/".ttx"/"-unhinted.ttf"}
+ttfPath=${ttxPath/".ttx"/".ttf"}
+hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
 
 # Hint with TTFautohint-VF 
 # currently janky – I need to find how to properly add this dependency
 # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
-/Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
-ttfPath=${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
+# ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
+echo "================================================"
+echo ttfautohint-vf $ttfPath $hintedPath
+echo "================================================"
+ttfautohint-vf $ttfPath $hintedPath
 
 # open VF in default program; hopefully you have FontView
-open ${ttfPath}
+open ${hintedPath}
 
 ## if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
 if [ $timestampAndFontbakeInDist == true ]
 then
     ## move font into folder of dist/, with timestamp, then fontbake the font
-    python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $ttfPath
-    rm -rf variable_ttf
+    python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $hintedPath
+    # rm -rf variable_ttf
 else
-    ttx $ttfPath
+    ttx $hintedPath
     echo "font and ttx in variable_ttf folder"
 fi

@@ -13,7 +13,7 @@
       Encode Sans
   </namerecord>
   <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 2.000
+      Version 3.000
   </namerecord>
   <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       EncodeSans
@@ -217,7 +217,7 @@
       Encode Sans
   </namerecord>
   <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 2.000
+      Version 3.000
   </namerecord>
   <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       EncodeSans
