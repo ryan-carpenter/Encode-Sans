@@ -1,10 +1,8 @@
 name: "Encode Sans"
 designer: "Pablo Impallari, Jacques Le Bailly, Andres Torresi, Marc Foley, Stephen Nixon"
-trademark: "Encode Sans is a trademark of Pablo Impallari."
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-12-20"
-
 
 
 fonts {

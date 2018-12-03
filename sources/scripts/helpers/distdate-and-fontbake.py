@@ -31,3 +31,6 @@ print("fontbakeryCommand is " + fontbakeryCommand)
 print(os.system(fontbakeryCommand))
 
 ttxCommand = f'ttx {newFontPath}'
+
+
+# fontbakery check-googlefonts fonts/full_vf/EncodeSans-VF.ttf --ghmarkdown fonts/full_vf/EncodeSans-VF-fontbakery-report.md
