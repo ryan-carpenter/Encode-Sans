@@ -85,7 +85,7 @@ ttx $ttxPath
 rm -rf $ttxPath
 
 ttfPath=${ttxPath/".ttx"/".ttf"}
-hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
+hintedPath=${ttxPath/".ttx"/".ttf"}
 
 # Hint with TTFautohint-VF 
 # currently janky – I need to find how to properly add this dependency
