@@ -18,7 +18,7 @@ fixGlyphsDesignspace=true
 timestampAndFontbakeInDist=true
 
 ## keep designspace file if you want to check values later
-keepDesignspace=false
+keepDesignspace=true
 
 ################# set vars #################
 ############################################
