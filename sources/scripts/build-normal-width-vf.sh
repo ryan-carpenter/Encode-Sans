@@ -14,6 +14,8 @@ timestampAndFontbakeInDist=true
 ## keep designspace file if you want to check values later
 keepDesignspace=false
 
+outputFolder="fonts/encodesans"
+
 ################# set vars #################
 ############################################
 
@@ -77,6 +79,9 @@ cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,
 
 rm -rf variable_ttf/${VFname}-name.ttx
 
+## copies temp ttx file back into a new ttf file
+ttx $ttxPath
+
 rm -rf $ttxPath
 
 
@@ -87,9 +92,9 @@ hintedPath=${ttxPath/".ttx"/".ttf"}
 # currently janky – I need to find how to properly add this dependency
 # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
 # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
-echo "================================================"
+echo "==========================================================================================="
 echo ttfautohint-vf $ttfPath $hintedPath
-echo "================================================"
+echo "==========================================================================================="
 ttfautohint-vf $ttfPath $hintedPath
 
 # open VF in default program; hopefully you have FontView
@@ -99,7 +104,14 @@ open ${hintedPath}
 if [ $timestampAndFontbakeInDist == true ]
 then
     ## move font into folder of dist/, with timestamp, then fontbake the font
-    python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $hintedPath
+    # python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "encodesans" $hintedPath
+
+    fontbakery check-googlefonts $hintedPath --ghmarkdown $outputFolder/$VFname-fontbakery-report.md
+
+    echo $hintedPath $outputFolder/$VFname.ttf
+
+    cp $hintedPath $outputFolder/$VFname.ttf
+
     # rm -rf variable_ttf
 else
     ttx $hintedPath
