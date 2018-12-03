@@ -55,8 +55,13 @@ rm -rf $tempGlyphsSource
 
 cd variable_ttf
 
-echo "fix DSIG in " ${VFname}
-gftools fix-dsig --autofix ${VFname}
+echo "fix DSIG in " ${VFname}.ttf
+gftools fix-dsig --autofix ${VFname}.ttf
+
+
+echo "fix GASP & PREP in " ${VFname}.ttf
+gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
+
 
 ## sets up temp ttx file to insert correct values into tables
 ttx ${VFname}.ttf
@@ -71,19 +76,23 @@ cd ..
 # TODO: add NAMEpatch step, or move build to just do a normal-width VF 
 
 ttxPath="variable_ttf/${VFname}.ttx"
+patchPath="variable_ttf/${VFname}-patch.ttx"
 
 # ## inserts patch files into temporary ttx to fix export errors
 # ## BE SURE to update these patches for the real values in a given typeface
-cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
-cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+cp $ttxPath $patchPath
+cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+# cat $ttxPpatchPathath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
 
-rm -rf variable_ttf/${VFname}-name.ttx
+cp $ttxPath $patchPath
+cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+
+rm -rf $patchPath
 
 ## copies temp ttx file back into a new ttf file
 ttx $ttxPath
 
 rm -rf $ttxPath
-
 
 ttfPath=${ttxPath/".ttx"/".ttf"}
 hintedPath=${ttxPath/".ttx"/".ttf"}
@@ -96,6 +105,11 @@ echo "==========================================================================
 echo ttfautohint-vf $ttfPath $hintedPath
 echo "==========================================================================================="
 ttfautohint-vf $ttfPath $hintedPath
+
+
+
+
+
 
 # open VF in default program; hopefully you have FontView
 open ${hintedPath}

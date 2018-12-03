@@ -188,20 +188,6 @@ Fontbakery version: 0.6.4.dev9+gce8690cb.d20181203
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
-
-* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** 'prep' table does not contain TrueType  instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the  `gftools fix-nonhinting` script.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -226,13 +212,6 @@ Failed to sanitize file!
 * :fire: **FAIL** name id 270 missing from name table
 * :fire: **FAIL** name id 271 missing from name table
 * :information_source: **INFO** While converting TTF into an XML file, ttx emited the messages listed below.
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Does the font have a DSIG table?</summary>
-
-* [com.google.fonts/check/045](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly.
 
 </details>
 <details>
@@ -772,8 +751,8 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 |  | variable_ttf/EncodeSans-VF.ttf |
 |:--- | ---:|
 | Dehinted Size | 197.4kb |
-| Hinted Size | 196.3kb |
-| Increase | -1072 bytes |
+| Hinted Size | 196.4kb |
+| Increase | -1024 bytes |
 | Change   | -0.0 % |
 
 
@@ -783,6 +762,22 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 * [com.google.fonts/check/061](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :information_source: **INFO** EPAR table not present in font. To learn more see https://github.com/googlefonts/fontbakery/issues/818
+
+</details>
+<details>
+<summary>:information_source: <b>INFO:</b> Is 'gasp' table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :information_source: **INFO** These are the ppm ranges declared on the gasp table:
+
+PPM <= 65535:
+	flag = 0x0F
+	- Use gridfitting
+	- Use grayscale rendering
+	- Use gridfitting with ClearType symmetric smoothing
+	- Use smoothing along multiple axes with ClearType®
+
+* :bread: **PASS** 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
 
 </details>
 <details>
@@ -798,7 +793,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GPOS, GSUB, loca]
+* :information_source: **INFO** This font contains the following optional tables [GSUB, GPOS, prep, DSIG, loca, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -940,6 +935,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/042](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** 'prep' table contains instructions enabling smart dropout control.
 
 </details>
 <details>
@@ -1118,6 +1120,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Does the font have a DSIG table?</summary>
+
+* [com.google.fonts/check/045](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Digital Signature (DSIG) exists.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/050](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1187,5 +1196,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 2 | 63 | 5 | 62 |
-| 0% | 4% | 1% | 46% | 4% | 45% |
+| 0 | 3 | 2 | 63 | 6 | 64 |
+| 0% | 2% | 1% | 46% | 4% | 46% |

@@ -220,3 +220,66 @@ abbreviations = {
 ```
 
 If you try it and face any issues or make any improvements, let me know!
+
+
+## In weight-only VF: name id 266 missing from name table
+
+TTX is giving me the error:
+
+```
+WARNING: name id 266 missing from name table
+WARNING: name id 267 missing from name table
+WARNING: name id 268 missing from name table
+WARNING: name id 269 missing from name table
+WARNING: name id 270 missing from name table
+WARNING: name id 271 missing from name table
+```
+
+...and FontBakery is giving the error:
+
+:fire: <b>FAIL:</b> Checking with fontTools.ttx</summary>
+
+* [com.google.fonts/check/ttx-roundtrip](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** name id 266 missing from name table
+* :fire: **FAIL** 
+* :fire: **FAIL** name id 267 missing from name table
+* :fire: **FAIL** name id 268 missing from name table
+* :fire: **FAIL** name id 269 missing from name table
+* :fire: **FAIL** name id 270 missing from name table
+* :fire: **FAIL** name id 271 missing from name table
+* :information_source: **INFO** While converting TTF into an XML file, ttx emited the messages listed below.
+
+But why?
+
+Nowhere else in the font TTX can I find reference to `"266"`. The `namerecord`s cover all the named styles:
+
+```
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Thin
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      ExtraLight
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      Light
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      Medium
+    </namerecord>
+    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
+      SemiBold
+    </namerecord>
+    <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
+      Bold
+    </namerecord>
+    <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
+      ExtraBold
+    </namerecord>
+    <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
+      Black
+    </namerecord>
+```
+
