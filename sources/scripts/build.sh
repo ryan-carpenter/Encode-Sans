@@ -8,8 +8,8 @@ while [ ! $# -eq 0 ]
         --statics | -s)
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
         ;;
-        --linked | -l)
-            source $(dirname ${BASH_SOURCE[0]})/build-linked.sh
+        --normal | -n)
+            source $(dirname ${BASH_SOURCE[0]})/build-normal-width-vf.sh
         ;;
         --full | -f)
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh

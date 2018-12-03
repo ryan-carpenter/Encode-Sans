@@ -1,12 +1,12 @@
 ### WIP macOS build script for Encode Sans VF, based on a build script by Mike LaGuttuta
-### Run in the terminal by entering this file path
+### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
 
 ############################################
 ################# set vars #################
 
-glyphsSources="sources/split"
+glyphsSource="sources/split/Encode-Sans-normal_width.glyphs"
 
 ## move VF into new folder of dist/ with timestamp and fontbake
 timestampAndFontbakeInDist=true
@@ -17,64 +17,91 @@ keepDesignspace=false
 ################# set vars #################
 ############################################
 
-for file in ${glyphsSources}/*; do 
-    if [ -f "$file" ]; then 
-        ## make temp glyphs filename with "-build" suffix
-        tempGlyphsSource=${file/".glyphs"/"-build.glyphs"}
 
-        cp $file $tempGlyphsSource
+# ## make temp glyphs filename with "-build" suffix
+# tempGlyphsSource=${file/".glyphs"/"-build.glyphs"}
 
-        # get font name from glyphs source
-        VFname=`python sources/scripts/helpers/get-font-name.py ${file}`
-        # checking that the name has been pulled out of the source file
-        echo "VF Name: ${VFname}"
+# cp $file $tempGlyphsSource
 
-        ## call fontmake to make a varfont
-        fontmake -o variable -g $tempGlyphsSource
+## make temp glyphs filename with "-build" suffix
+tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
 
-        ## clean up temp glyphs file
-        rm -rf $tempGlyphsSource
-    fi 
-done
+# get font name from glyphs source
+VFname=`python sources/scripts/helpers/get-font-name.py ${glyphsSource}`
+# checking that the name has been pulled out of the source file
+echo "VF Name: ${VFname}"
 
-# fix name length in generated VFs
-python sources/scripts/helpers/shorten-nameID-4-6.py variable_ttf
+## copy Glyphs file into temp file
+cp $glyphsSource $tempGlyphsSource
 
-for file in variable_ttf/*; do 
-    if [ -f "$file" ]; then 
-        echo "fix DSIG in " ${file}
-        gftools fix-dsig --autofix ${file}
-    fi 
-done
-
-
-
-for file in variable_ttf/*; do 
-    if [ -f "$file" ]; then
-        echo ${file}
-
-        # TODO: add autohintVF step 
-
-        # if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
-        if [ $timestampAndFontbakeInDist == true ]
-        then
-            ## move font into folder of dist/, with timestamp, then fontbake the font
-            pwd
-            python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "linked_vf" ${file}
-        else
-            ttx ${file}
-            echo "font and ttx in variable_ttf folder"
-        fi
-    fi 
-done
-
-#  TODO Add NAMEpatch??
-
-rm -rf variable_ttf
+# ## call fontmake to make a varfont
+fontmake -o variable -g $tempGlyphsSource
 
 if [ $keepDesignspace == true ]
 then
     echo "designspace in master_ufo folder"
 else
     rm -rf master_ufo
+fi
+
+## clean up temp glyphs file
+rm -rf $tempGlyphsSource
+
+
+# fix name length in generated VFs
+# python sources/scripts/helpers/shorten-nameID-4-6.py variable_ttf
+
+cd variable_ttf
+
+echo "fix DSIG in " ${VFname}
+gftools fix-dsig --autofix ${VFname}
+
+## sets up temp ttx file to insert correct values into tables
+ttx ${VFname}.ttf
+
+rm -rf ${VFname}.ttf
+rm -rf ${VFname}-backup-fonttools-prep-gasp.ttf
+
+cd ..
+
+# TODO: add autohintVF step
+
+# TODO: add NAMEpatch step, or move build to just do a normal-width VF 
+
+ttxPath="variable_ttf/${VFname}.ttx"
+
+# ## inserts patch files into temporary ttx to fix export errors
+# ## BE SURE to update these patches for the real values in a given typeface
+cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > variable_ttf/${VFname}-name.ttx
+cat variable_ttf/${VFname}-name.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+
+rm -rf variable_ttf/${VFname}-name.ttx
+
+rm -rf $ttxPath
+
+
+ttfPath=${ttxPath/".ttx"/".ttf"}
+hintedPath=${ttxPath/".ttx"/".ttf"}
+
+# Hint with TTFautohint-VF 
+# currently janky – I need to find how to properly add this dependency
+# https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
+# ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
+echo "================================================"
+echo ttfautohint-vf $ttfPath $hintedPath
+echo "================================================"
+ttfautohint-vf $ttfPath $hintedPath
+
+# open VF in default program; hopefully you have FontView
+open ${hintedPath}
+
+## if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
+if [ $timestampAndFontbakeInDist == true ]
+then
+    ## move font into folder of dist/, with timestamp, then fontbake the font
+    python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $hintedPath
+    # rm -rf variable_ttf
+else
+    ttx $hintedPath
+    echo "font and ttx in variable_ttf folder"
 fi

@@ -1,5 +1,5 @@
 ### WIP macOS build script for Encode Sans VF, based on a build script by Mike LaGuttuta
-### Run in the terminal by entering this file path
+### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
 
@@ -57,8 +57,8 @@ rm -rf $tempGlyphsSource
 
 cd variable_ttf
 
-
 ## fix file metadata with gftools
+echo "fix DSIG in " ${VFname}
 gftools fix-dsig --autofix ${VFname}.ttf
 
 ## sets up temp ttx file to insert correct values into tables
@@ -104,7 +104,7 @@ if [ $timestampAndFontbakeInDist == true ]
 then
     ## move font into folder of dist/, with timestamp, then fontbake the font
     python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $hintedPath
-    # rm -rf variable_ttf
+    rm -rf variable_ttf
 else
     ttx $hintedPath
     echo "font and ttx in variable_ttf folder"
