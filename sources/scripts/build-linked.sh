@@ -52,6 +52,9 @@ done
 for file in variable_ttf/*; do 
     if [ -f "$file" ]; then
         echo ${file}
+
+        # TODO: add autohintVF step 
+
         # if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
         if [ $timestampAndFontbakeInDist == true ]
         then
