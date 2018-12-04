@@ -283,3 +283,4 @@ Nowhere else in the font TTX can I find reference to `"266"`. The `namerecord`s 
     </namerecord>
 ```
 
+🎉 Found it: @mjlagattuta pointed out that it might be a mismatch of the STAT and NAME tables, and sure enough, it was! I hadn't properly understood the STAT table until now, but the values in the `ValueNameID` field need to match values in the NAME table. Resolving this solved the problem.

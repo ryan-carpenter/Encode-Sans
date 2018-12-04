@@ -84,7 +84,7 @@ cp $ttxPath $patchPath
 cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
 
 cp $ttxPath $patchPath
-cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch-normal_width_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 
 rm -rf $patchPath
 

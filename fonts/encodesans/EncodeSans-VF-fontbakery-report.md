@@ -201,20 +201,6 @@ Failed to sanitize file!
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking with fontTools.ttx</summary>
-
-* [com.google.fonts/check/ttx-roundtrip](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** name id 266 missing from name table
-* :fire: **FAIL** 
-* :fire: **FAIL** name id 267 missing from name table
-* :fire: **FAIL** name id 268 missing from name table
-* :fire: **FAIL** name id 269 missing from name table
-* :fire: **FAIL** name id 270 missing from name table
-* :fire: **FAIL** name id 271 missing from name table
-* :information_source: **INFO** While converting TTF into an XML file, ttx emited the messages listed below.
-
-</details>
-<details>
 <summary>:warning: <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -750,8 +736,8 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 |  | variable_ttf/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 197.4kb |
-| Hinted Size | 196.4kb |
+| Dehinted Size | 197.3kb |
+| Hinted Size | 196.3kb |
 | Increase | -1024 bytes |
 | Change   | -0.0 % |
 
@@ -793,7 +779,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, GPOS, prep, DSIG, loca, gasp]
+* :information_source: **INFO** This font contains the following optional tables [prep, loca, DSIG, GPOS, GSUB, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1015,6 +1001,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Checking with fontTools.ttx</summary>
+
+* [com.google.fonts/check/ttx-roundtrip](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Hey! It all looks good!
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check glyphs have unique unicode codepoints.</summary>
 
 * [com.google.fonts/check/076](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1196,5 +1189,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 2 | 63 | 6 | 64 |
-| 0% | 2% | 1% | 46% | 4% | 46% |
+| 0 | 2 | 2 | 63 | 6 | 65 |
+| 0% | 1% | 1% | 46% | 4% | 47% |
