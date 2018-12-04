@@ -50,6 +50,30 @@ Currently, the named instance "Regular" is the default style in macOS pages (goo
 
 ![](assets/2018-11-29-16-20-17.png)
 
+## Do *any* weight & width variable fonts sort well in font menus?
+
+I'm not passing judgement or putting down anyone else's work, but I just want to know: are any of the fonts I think of as "setting the standard" working how I expect in font menus? If they are, I can emulate their NAME and STAT tables. If they aren't, it would seem to be an indication that the issue is at the software application level, more than the font side.
+
+**Bahnschrift, from Microsoft**
+
+- 👍 This starts with the default style (which appears to be Normal width, Regular weight)
+- 🚫 It groups by weight, rather than width
+- 🚫 The ordering of weights isn't predictable (Light, SemiBold, then SemiLight)
+- 🚫 The widths within weights aren't what I would expect (normal, Condensed, then SemiCondensed)
+
+![](assets/2018-12-04-16-11-23.png)
+
+**Venn VF, from Dalton Maag**
+
+- 👍 This starts with the default style (which appears to be Normal width, Regular weight)
+- 👍 It groups by width
+- 🚫 The ordering of widths isn't predictable (Condensed, Extended, normal, SemiCondensed, then SemiExtended)
+- 🚫 The weights within widths aren't predictable (Regular, ExtraBold, Light, Medium)
+
+![](assets/2018-12-04-16-05-17.png)
+
+
+
 ## Getting the NAME and STAT tables correct
 
 I had started building with patches for the NAME and STAT tables, but I may have messed them up while working to improve font menu sorting. MS Typography has a helpful example of the STAT table for a weight + width variable font here:
@@ -72,7 +96,14 @@ Earlier, I hadn't understood the linked-purposes of the NAME & STAT tables. Now 
     - this appears to have no impact on the VF built via FontMake. The NAME table still has weight only names (though I never expected this to be different), while the STAT table stil has only two entries (I did hope this might be affected)
 
 
-- [ ] edit tables to match MS typography recommendations
+- [x] edit tables to match MS typography recommendations
+- [x] in NAME table, make sure `platformID` and `platEncID` match: `1` & `0` for Mac, `3` & `1` for Windows
+- [ ] fix messed-up values in STAT table, which are breaking the build
+    - (There were typos in certain "format" fields, mostly)
+![](assets/2018-12-04-14-46-14.png)
+
+    - Actually, MS Typography says: "***axisOrdering:*** A value that applications can use to determine primary sorting of face names, or for ordering of descriptors when composing family or face names." So, that might be the only required change
+
 - [ ] compare TTX outputs
 - [ ] try each in Word & Pages
 

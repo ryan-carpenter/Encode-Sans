@@ -45,3 +45,28 @@
     1. `git fetch https://github.com/google/fonts.git` to get
     2. `git reset --hard FETCH_HEAD` to hard reset to fetched head
 
+
+## FontBakery Checks & Explanations, Full VF
+
+**FAIL: METADATA.pb: check if fonts field only contains unique style:weight pairs.**
+- The weights repeat because they exist in different widths
+- Presumably, `width` values will be added as GFonts gains support for new axes
+
+**FAIL: Checking file is named canonically.**
+- This filename needs some kind of indication that it's a variable font, rather than a static instance "regular".
+
+**FAIL: Font has old ttfautohint applied?**
+- I'm using a version of TTFautohint that supports VFs. If there is a newer version of this, I'll add it my my build process!
+
+**FAIL: Checking with ots-sanitize.**
+- There's an open issue for this at OTS. It doesn't yet support the latest caret format.
+
+**WARN: Check if each glyph has the recommended amount of contours.**
+- It's a variable font, so many glyphs have overlapping contours
+
+**WARN: Name table strings must not contain the string 'Reserved Font Name'.**
+- Encode Sans had this from before. Dave said to keep it.
+
+**WARN: Is there kerning info for non-ligated sequences?**
+- Kerning exists on other non-ligated sequences, but is not needed on f + i, i + j, j + l
+

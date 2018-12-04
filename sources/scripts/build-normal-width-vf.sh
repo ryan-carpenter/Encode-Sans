@@ -82,10 +82,10 @@ patchPath="variable_ttf/${VFname}-patch.ttx"
 # ## BE SURE to update these patches for the real values in a given typeface
 cp $ttxPath $patchPath
 cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+rm -rf $patchPath
 
 cp $ttxPath $patchPath
 cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch-normal_width_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
-
 rm -rf $patchPath
 
 ## copies temp ttx file back into a new ttf file
