@@ -42,9 +42,6 @@ I'm using Bahnschrift and the MS Typography docs to upgrade my `NAMEpatch.xml` f
 - I've changed `nameID`s 4 & 6 to simply `Encode Sans`, from `Encode Sans Condensed Thin`, so it avoids name-length issues and hopefully shows up more simply in font menus
 - I've also added specific sample text to `nameID` 19, for display in font-viewing apps.
 
-
-
-
 - [ ] TODO: Check if name patches need to exist for weight-split / linked variable fonts
 
 ## Sorting on Mac
@@ -52,3 +49,35 @@ I'm using Bahnschrift and the MS Typography docs to upgrade my `NAMEpatch.xml` f
 Currently, the named instance "Regular" is the default style in macOS pages (good) ... but it's also the first to show up in macOS Pages font menu, when I would expect "Condensed Thin" to be the first to appear, and "Thin" itself doesn't show up until the last place of the menu (bad).
 
 ![](assets/2018-11-29-16-20-17.png)
+
+## Getting the NAME and STAT tables correct
+
+I had started building with patches for the NAME and STAT tables, but I may have messed them up while working to improve font menu sorting. MS Typography has a helpful example of the STAT table for a weight + width variable font here:
+https://docs.microsoft.com/en-us/typography/opentype/spec/stat#example-4-a-weightwidth-variable-font
+
+Earlier, I hadn't understood the linked-purposes of the NAME & STAT tables. Now I'm beginning to wrap my head around it: the NAME tables provide strings necessary for naming, while the STAT table connects those strings to actual values in the font. 
+
+
+## Checking the NAME and STAT tables in weight + width variable font
+- [x] try without patches – are they necessary?
+    - the NAME patch is definitely necessary, otherwise styles will all have weight-only names, due to the GlyphsApp instances configuration
+
+![](assets/2018-12-04-12-28-30.png)
+
+    - Meanwhile, the STAT table only has entries for the two axes, but none that correspond to named instances. This is a problem, because MS Typography says, "Suppose the variable font has 6 named instances that correspond to three different weights for each of two widths. The style attributes table should include axis value records for at least those three weights and those two widths, but could also include records for other weight or width values."
+
+    - *However*, generating a fresh font helps me see things that were incorrect in my NAME table patch. It was missing nameID `0`, for Copyright, and nameID `7`, for Trademark.
+
+- [x] try when "Axes" custom parameter is added to GlyphsApp source
+    - this appears to have no impact on the VF built via FontMake. The NAME table still has weight only names (though I never expected this to be different), while the STAT table stil has only two entries (I did hope this might be affected)
+
+
+- [ ] edit tables to match MS typography recommendations
+- [ ] compare TTX outputs
+- [ ] try each in Word & Pages
+
+## Checking the NAME and STAT tables in weight-only variable font
+- [ ] try without patches 
+- [ ] try with patches
+- [ ] compare TTX outputs
+- [ ] try each in Word & Pages

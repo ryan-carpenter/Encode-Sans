@@ -3,123 +3,123 @@
     <DesignAxisRecordSize value="8"/>
     <!-- DesignAxisCount=2 -->
     <DesignAxisRecord>
-        <Axis index="0">
-            <!-- was wght -->
-            <AxisTag value="wdth"/>
-            <AxisNameID value="256"/>
-            <!-- Width -->
-            <AxisOrdering value="0"/>
-        </Axis>
         <Axis index="1">
-            <!-- was wdth -->
             <AxisTag value="wght"/>
-            <AxisNameID value="257"/>
+            <AxisNameID value="256"/>
             <!-- Weight -->
             <AxisOrdering value="1"/>
         </Axis>
+        <Axis index="0">
+            <AxisTag value="wdth"/>
+            <AxisNameID value="257"/>
+            <!-- Width -->
+            <AxisOrdering value="0"/>
+        </Axis>
     </DesignAxisRecord>
-    <ElidedFallbackNameID value="2"/> 
+    <ElidedFallbackNameID value="2"/>
     <AxisValueArray>
         <AxisValue index="0" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="258"/>
             <!-- Thin -->
+            <ValueNameID value="276"/>
             <Value value="250.0"/>
         </AxisValue>
         <AxisValue index="0" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="259"/>
             <!-- ExtraLight -->
+            <ValueNameID value="277"/>
             <Value value="275.0"/>
         </AxisValue>
         <AxisValue index="0" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="260"/>
             <!-- Light -->
+            <ValueNameID value="278"/>
             <Value value="300.0"/>
         </AxisValue>
         <AxisValue index="1" Format="1">
             <AxisIndex value="0"/>
-            <Flags value="0"/>
-            <ValueNameID value="261"/>
+            <!-- ElidedFallbackNameID value (Regular) -->
+            <Flags value="2"/>
             <!-- Regular -->
+            <ValueNameID value="279"/>
             <Value value="400.0"/>
         </AxisValue>
         <AxisValue index="2" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="262"/>
             <!-- Medium -->
+            <ValueNameID value="280"/>
             <Value value="500.0"/>
         </AxisValue>
         <AxisValue index="3" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="263"/>
             <!-- SemiBold -->
+            <ValueNameID value="281"/>
             <Value value="600.0"/>
         </AxisValue>
         <AxisValue index="3" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="264"/>
             <!-- Bold -->
+            <ValueNameID value="282"/>
             <Value value="700.0"/>
         </AxisValue>
         <AxisValue index="3" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="265"/>
             <!-- ExtraBold -->
+            <ValueNameID value="283"/>
             <Value value="800.0"/>
         </AxisValue>
         <AxisValue index="4" Format="1">
             <AxisIndex value="0"/>
             <Flags value="0"/>
-            <ValueNameID value="266"/>
             <!-- Black -->
+            <ValueNameID value="284"/>
             <Value value="900.0"/>
         </AxisValue>
 
         <AxisValue index="5" Format="1">
             <AxisIndex value="1"/>
             <Flags value="0"/>
-            <ValueNameID value="267"/>
             <!-- Condensed -->
+            <ValueNameID value="303"/>
             <Value value="70.0"/>
         </AxisValue>
         <AxisValue index="6" Format="1">
             <AxisIndex value="1"/>
             <Flags value="0"/>
-            <ValueNameID value="268"/>
             <!-- SemiCondensed -->
+            <ValueNameID value="304"/>
             <Value value="85.0"/>
         </AxisValue>
         <AxisValue index="7" Format="1">
             <AxisIndex value="1"/>
+            <!-- ElidedFallbackNameID value (Regular) -->
             <Flags value="2"/>
-            <ValueNameID value="269"/>
             <!-- Normal -->
+            <ValueNameID value="305"/>
             <Value value="100.0"/>
         </AxisValue>
         <AxisValue index="8" Format="1">
             <AxisIndex value="1"/>
             <Flags value="0"/>
-            <ValueNameID value="270"/>
             <!-- SemiExpanded -->
+            <ValueNameID value="306"/>
             <Value value="115.0"/>
         </AxisValue>
         <AxisValue index="8" Format="1">
             <AxisIndex value="1"/>
             <Flags value="0"/>
-            <ValueNameID value="271"/>
             <!-- Expanded -->
+            <ValueNameID value="307"/>
             <Value value="130.0"/>
         </AxisValue>
     </AxisValueArray>
-    <ElidedFallbackNameID value="2"/>
     <!-- Regular -->
+    <ElidedFallbackNameID value="2"/>
 </STAT>
