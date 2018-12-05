@@ -70,3 +70,48 @@
 **WARN: Is there kerning info for non-ligated sequences?**
 - Kerning exists on other non-ligated sequences, but is not needed on f + i, i + j, j + l
 
+**FAIL: METADATA.pb font.full_name value matches fullname declared on the name table?**
+- **FAIL Unmatched fullname in font: TTF has "Encode Sans" while METADATA.pb has "Encode Sans Condensed Thin". [code: mismatch]**
+**FAIL: METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?**
+**FAIL: METADATA.pb font.filename and font.post_script_name fields have equivalent values?**
+- **FAIL METADATA.pb font filename="EncodeSans-VF.ttf" does not match post_script_name="EncodeSans".**
+**FAIL: METADATA.pb font.name and font.full_name fields match the values declared on the name table?**
+- **FAIL METADATA.pb: Fullname ("Encode Sans Condensed Thin") does not match name table entry "Encode Sans" ! [code: fullname-mismatch]**
+**FAIL: Checking OS/2 usWeightClass matches weight specified at METADATA.pb.**
+- **FAIL OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (100:"Thin").**
+**FAIL: METADATA.pb weight matches postScriptName.**
+- **FAIL METADATA.pb: Mismatch between postScriptName ("EncodeSans") and weight value (100). The name must be ended with "Thin" or "ThinItalic".**
+- That is just the first named instance of the variable font, not the full name of the entire font.
+
+**SKIPS**
+
+**SKIP: Does DESCRIPTION file contain broken links?**
+- This must be in the wrong level of the repo, compared to the font...
+
+
+
+**SKIP: Font has ttfautohint params?**
+- It use TTFautohint VF, which must not be including this
+
+**SKIP: Version number has increased since previous release on Google Fonts?**
+**SKIP: Check font has same encoded glyphs as version hosted on fonts.google.com**
+- Maybe it can't match the name?
+
+**OS/2, Metadata checks, post.italicAngle, head.macStyle, NAME table entries**
+- Skips  because of lack of `Unfulfilled Conditions: style`
+
+**SKIP: FontForge validation outputs error messages?**
+- Unfulfilled Conditions: fontforge_check_results
+
+**SKIP: CFF table FontName must match name table ID 6 (PostScript name).**
+- not CFF
+
+**SKIP: Monospace font has hhea.advanceWidthMax equal to each glyph's advanceWidth?**
+- not monospace
+
+**Skips for slnt, ital, and opsz axes**
+- does not have these axes
+
+Look into:
+- [ ] Ask Marc: Should I add a prep table (maybe with `fix-autohinting` script?) if TTFautohint VF doesn't add it?
+- [ ] FontForge checks (is FF installed correctly?)

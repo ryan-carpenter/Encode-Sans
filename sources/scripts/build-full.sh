@@ -6,13 +6,13 @@
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/Encode-Sans.glyphs"
+glyphsSource="sources/Encode-Sans-fixed_designspace.glyphs"
 
 ## Set this. It's probably your font name without spaces, then "-VF"
 # VFname="EncodeSans-VF"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
-fixGlyphsDesignspace=true
+fixGlyphsDesignspace=false
 
 ## move VF into new folder of dist/ with timestamp and fontbake
 timestampAndFontbakeInDist=true
@@ -94,7 +94,7 @@ ttx $ttxPath
 rm -rf $ttxPath
 
 ttfPath=${ttxPath/".ttx"/".ttf"}
-hintedPath=${ttxPath/".ttx"/".ttf"}
+hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
 
 # Hint with TTFautohint-VF 
 # currently janky – I need to find how to properly add this dependency
@@ -105,16 +105,19 @@ echo ttfautohint-vf $ttfPath $hintedPath
 echo "================================================"
 ttfautohint-vf $ttfPath $hintedPath
 
-# open VF in default program; hopefully you have FontView
-open ${hintedPath}
+finalFilePath=${hintedPath/"-hinted"/""}
+cp $hintedPath $finalFilePath
 
-## if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
+# open VF in default program; hopefully you have FontView
+open ${finalFilePath}
+
+# ## if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
 if [ $timestampAndFontbakeInDist == true ]
 then
     ## move font into folder of dist/, with timestamp, then fontbake the font
-    python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "full_vf" $hintedPath
+    python3 sources/scripts/helpers/distdate-and-fontbake.py "fonts" "full_vf" $finalFilePath
     rm -rf variable_ttf
 else
-    ttx $hintedPath
+    ttx $finalFilename
     echo "font and ttx in variable_ttf folder"
 fi

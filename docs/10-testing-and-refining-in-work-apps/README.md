@@ -57,6 +57,7 @@ I'm not passing judgement or putting down anyone else's work, but I just want to
 **Bahnschrift, from Microsoft**
 
 - 👍 This starts with the default style (which appears to be Normal width, Regular weight)
+- 👍 The default style is titled simply "Bahnschrift" (without style names added)
 - 🚫 It groups by weight, rather than width
 - 🚫 The ordering of weights isn't predictable (Light, SemiBold, then SemiLight)
 - 🚫 The widths within weights aren't what I would expect (normal, Condensed, then SemiCondensed)
@@ -66,13 +67,24 @@ I'm not passing judgement or putting down anyone else's work, but I just want to
 **Venn VF, from Dalton Maag**
 
 - 👍 This starts with the default style (which appears to be Normal width, Regular weight)
+- 👍 The default style is titled simply "Venn VF" (without style names added)
 - 👍 It groups by width
 - 🚫 The ordering of widths isn't predictable (Condensed, Extended, normal, SemiCondensed, then SemiExtended)
 - 🚫 The weights within widths aren't predictable (Regular, ExtraBold, Light, Medium)
 
 ![](assets/2018-12-04-16-05-17.png)
 
+**Barlow, by Tribby Type Co.**
 
+- 🚫 There is no obvious default style
+- 🚫 It appears to group by weight first
+- 🚫 The instance names are unclear – instead of `[font] [width] [weight]`, they are `[font] [weight] [weight]`
+  
+![](assets/2018-12-05-10-04-27.png)
+
+**Conclusion: font menus are messy right now.**
+
+If I can make Encode work better in font menus, I will, but for now, I'll focus on closing out other issues.
 
 ## Getting the NAME and STAT tables correct
 
@@ -98,11 +110,11 @@ Earlier, I hadn't understood the linked-purposes of the NAME & STAT tables. Now 
 
 - [x] edit tables to match MS typography recommendations
 - [x] in NAME table, make sure `platformID` and `platEncID` match: `1` & `0` for Mac, `3` & `1` for Windows
-- [ ] fix messed-up values in STAT table, which are breaking the build
-    - (There were typos in certain "format" fields, mostly)
+- [x] fix messed-up values in STAT table, which are breaking the build
 ![](assets/2018-12-04-14-46-14.png)
 
-    - Actually, MS Typography says: "***axisOrdering:*** A value that applications can use to determine primary sorting of face names, or for ordering of descriptors when composing family or face names." So, that might be the only required change
+    - Actually, MS Typography says: "***axisOrdering:*** A value that applications can use to determine primary sorting of face names, or for ordering of descriptors when composing family or face names." So, that might be the only required change (once software applications are properly handing VF metadata, at least).
+    - The solution: there were typos in certain "format" fields.
 
 - [ ] compare TTX outputs
 - [ ] try each in Word & Pages
