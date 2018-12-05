@@ -11,7 +11,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Thin"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -20,7 +20,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans ExtraLight"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -29,7 +29,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Light"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -38,7 +38,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans-Reg"
   full_name: "Encode Sans Regular"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -47,7 +47,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Medium"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -56,7 +56,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiBold"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -65,7 +65,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Bold"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -74,7 +74,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans ExtraBold"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
   name: "Encode Sans"
@@ -83,7 +83,7 @@ fonts {
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Black"
-  copyright: "Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'."
+  copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 subsets: "latin"
 subsets: "latin-ext"

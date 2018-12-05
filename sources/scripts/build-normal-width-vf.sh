@@ -94,24 +94,26 @@ ttx $ttxPath
 rm -rf $ttxPath
 
 ttfPath=${ttxPath/".ttx"/".ttf"}
-hintedPath=${ttxPath/".ttx"/".ttf"}
+hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
 
 # Hint with TTFautohint-VF 
 # currently janky – I need to find how to properly add this dependency
 # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
 # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
-echo "==========================================================================================="
+echo "================================================"
 echo ttfautohint-vf $ttfPath $hintedPath
-echo "==========================================================================================="
+echo "================================================"
 ttfautohint-vf $ttfPath $hintedPath
 
+finalFilePath=${hintedPath/"-hinted"/""}
+cp $hintedPath $finalFilePath
 
-
-
+# open VF in default program; hopefully you have FontView
+open ${finalFilePath}
 
 
 # open VF in default program; hopefully you have FontView
-open ${hintedPath}
+open ${finalFilePath}
 
 ## if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
 if [ $timestampAndFontbakeInDist == true ]
@@ -119,13 +121,10 @@ then
     ## move font into folder of dist/, with timestamp, then fontbake the font
     # python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "encodesans" $hintedPath
 
-    fontbakery check-googlefonts $hintedPath --ghmarkdown $outputFolder/$VFname-fontbakery-report.md
 
-    echo $hintedPath $outputFolder/$VFname.ttf
+    python3 sources/scripts/helpers/distdate-and-fontbake.py "fonts" "encodesans" $finalFilePath
 
-    cp $hintedPath $outputFolder/$VFname.ttf
-
-    # rm -rf variable_ttf
+    rm -rf variable_ttf
 else
     ttx $hintedPath
     echo "font and ttx in variable_ttf folder"

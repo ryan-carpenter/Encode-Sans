@@ -4,10 +4,10 @@
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/Encode-Sans.glyphs"
+glyphsSource="sources/Encode-Sans-fixed_designspace.glyphs"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
-fixGlyphsDesignspace=true
+fixGlyphsDesignspace=false
 
 ################# set vars #################
 ############################################
@@ -24,7 +24,7 @@ cp $glyphsSource $tempGlyphsSource
 if [ $fixGlyphsDesignspace == true ]
 then
     ## call the designspace fixing script
-    python scripts/fix-designspace.py $tempGlyphsSource
+    python sources/scripts/helpers/fix-designspace.py $tempGlyphsSource
 else
     echo "Not morphing designspace."
 fi
@@ -35,7 +35,7 @@ fontmake -g ${tempGlyphsSource} --output ttf --interpolate --autohint
 ## clean up temp glyphs file
 rm -rf $tempGlyphsSource
 
-python scripts/helpers/shorten-nameID-4-6.py autohinted/instance_ttf
+python sources/scripts/helpers/shorten-nameID-4-6.py autohinted/instance_ttf
 
 for file in autohinted/instance_ttf/*; do 
 if [ -f "$file" ]; then 
@@ -44,11 +44,47 @@ if [ -f "$file" ]; then
 fi 
 done
 
-python scripts/helpers/shorten-nameID-4-6.py instance_otf
+# python scripts/helpers/shorten-nameID-4-6.py instance_otf
 
-for file in instance_otf/*; do 
+# for file in instance_otf/*; do 
+# if [ -f "$file" ]; then 
+#     echo "fix DSIG in " ${file}
+#     gftools fix-dsig --autofix ${file}
+# fi 
+# done
+
+outputDir="fonts"
+
+for file in autohinted/instance_ttf/*; do 
 if [ -f "$file" ]; then 
-    echo "fix DSIG in " ${file}
-    gftools fix-dsig --autofix ${file}
+    fileName=$(basename $file)
+    echo $fileName
+    if [[ $file == *"EncodeSansCondensed-"* ]]; then
+        newPath=${outputDir}/encodesanscondensed/static/${fileName}
+        cp ${file} ${newPath}
+        fontbakery check-googlefonts ${newPath} --ghmarkdown ${newPath/".ttf"/"-fontbakery-report.md"}
+    fi
+    if [[ $file == *"EncodeSansSemiCondensed-"* ]]; then
+        newPath=${outputDir}/encodesanssemicondensed/static/${fileName}
+        cp ${file} ${newPath}
+        fontbakery check-googlefonts ${newPath} --ghmarkdown ${newPath/".ttf"/"-fontbakery-report.md"}
+    fi
+    if [[ $file == *"EncodeSans-"* ]]; then
+        newPath=${outputDir}/encodesans/static/${fileName}
+        cp ${file} ${newPath}
+        fontbakery check-googlefonts ${newPath} --ghmarkdown ${newPath/".ttf"/"-fontbakery-report.md"}
+    fi
+    if [[ $file == *"EncodeSansSemiExpanded-"* ]]; then
+        newPath=${outputDir}/encodesanssemiexpanded/static/${fileName}
+        cp ${file} ${newPath}
+        fontbakery check-googlefonts ${newPath} --ghmarkdown ${newPath/".ttf"/"-fontbakery-report.md"}
+    fi
+    if [[ $file == *"EncodeSansExpanded-"* ]]; then
+        newPath=${outputDir}/encodesansexpanded/static/${fileName}
+        cp ${file} ${newPath}
+        fontbakery check-googlefonts ${newPath} --ghmarkdown ${newPath/".ttf"/"-fontbakery-report.md"}
+    fi
 fi 
 done
+
+rm -rf autohinted
