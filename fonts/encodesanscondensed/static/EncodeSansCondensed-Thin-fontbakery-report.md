@@ -561,7 +561,7 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 | Dehinted Size | 114.4kb |
 | Hinted Size | 147.4kb |
 | Increase | 33.0kb |
-| Change   | 28.9 % |
+| Change   | 28.8 % |
 
 
 </details>
@@ -601,7 +601,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, DSIG, fpgm, GSUB, prep, cvt , gasp, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [gasp, loca, GSUB, cvt , DSIG, GPOS, fpgm, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

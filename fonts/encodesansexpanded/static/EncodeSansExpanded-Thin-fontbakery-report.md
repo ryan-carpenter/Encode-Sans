@@ -601,7 +601,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [fpgm, loca, prep, GSUB, DSIG, cvt , GPOS, gasp]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, loca, GPOS, GSUB, cvt , DSIG, gasp, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

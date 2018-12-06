@@ -74,13 +74,16 @@ I'll make fixes to flagged issues, along the way.
     - `/hookaccentcomb` looks fine. It does get a bit more contrast than other glyphs in the font, but this seems somewhat inevitable, with such a tight little hook.
     - `/florin` had one on the top and bottom hooks. Fixed.
     - `/Ohorn` in all cases did, but it looks fine
-    - `/P` has a slight inflection in the connection of the bowl to the stem (and then a "nearly horizontal handle"      ). It's very minor, but a good fix. `/Thorn` has this twice.
+    - `/P` has a slight inflection in the connection of the bowl to the stem (and then a "nearly horizontal handle"      ). It's very minor, but a good fix. It's in related glyphs, like `peseta.tf`, `/Thorn`, etc.
+    - `/t` and related glyphs, in the hook
 
 ![](assets/inflection-checking.gif)
 
 ![](assets/2018-12-06-14-47-51.png)
 
 ![](assets/2018-12-06-14-50-49.png)
+
+![](assets/2018-12-06-14-58-26.png)
 
 ### Differences
 

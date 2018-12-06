@@ -8,6 +8,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 100
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed Thin"
@@ -17,6 +18,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 200
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed ExtraLight"
@@ -26,6 +28,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 300
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed Light"
@@ -35,6 +38,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 400
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed Regular"
@@ -44,6 +48,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 500
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed Medium"
@@ -53,6 +58,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 600
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed SemiBold"
@@ -62,6 +68,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 700
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed Bold"
@@ -71,6 +78,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 800
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed ExtraBold"
@@ -80,6 +88,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 900
+  width: 70
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Condensed Black"
@@ -92,6 +101,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 100
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed Thin"
@@ -101,6 +111,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 200
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed ExtraLight"
@@ -110,6 +121,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 300
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed Light"
@@ -119,6 +131,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 400
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed Regular"
@@ -128,6 +141,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 500
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed Medium"
@@ -137,6 +151,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 600
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed SemiBold"
@@ -146,6 +161,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 700
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed Bold"
@@ -155,6 +171,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 800
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed ExtraBold"
@@ -164,6 +181,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 900
+  width: 85
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiCondensed Black"
@@ -176,6 +194,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 100
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Thin"
@@ -185,6 +204,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 200
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans ExtraLight"
@@ -194,6 +214,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 300
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Light"
@@ -203,6 +224,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 400
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Regular"
@@ -212,6 +234,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 500
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Medium"
@@ -221,6 +244,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 600
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiBold"
@@ -230,6 +254,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 700
+width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Bold"
@@ -239,6 +264,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 800
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans ExtraBold"
@@ -248,6 +274,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 900
+  width: 100
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Black"
@@ -260,6 +287,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 100
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded Thin"
@@ -269,6 +297,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 200
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded ExtraLight"
@@ -278,6 +307,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 300
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded Light"
@@ -287,6 +317,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 400
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded Regular"
@@ -296,6 +327,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 500
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded Medium"
@@ -305,6 +337,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 600
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded SemiBold"
@@ -314,6 +347,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 700
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded Bold"
@@ -323,6 +357,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 800
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded ExtraBold"
@@ -332,6 +367,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 900
+  width: 115
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans SemiExpanded Black"
@@ -344,6 +380,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 100
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded Thin"
@@ -353,6 +390,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 200
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded ExtraLight"
@@ -362,6 +400,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 300
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded Light"
@@ -371,6 +410,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 400
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded Regular"
@@ -380,6 +420,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 500
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded Medium"
@@ -389,6 +430,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 600
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded SemiBold"
@@ -398,6 +440,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 700
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded Bold"
@@ -407,6 +450,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 800
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded ExtraBold"
@@ -416,6 +460,7 @@ fonts {
   name: "Encode Sans"
   style: "normal"
   weight: 900
+  width: 130
   filename: "EncodeSans-VF.ttf"
   post_script_name: "EncodeSans"
   full_name: "Encode Sans Expanded Black"

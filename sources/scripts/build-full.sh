@@ -6,13 +6,13 @@
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/Encode-Sans-fixed_designspace.glyphs"
+glyphsSource="sources/Encode-Sans.glyphs"
 
 ## Set this. It's probably your font name without spaces, then "-VF"
 # VFname="EncodeSans-VF"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
-fixGlyphsDesignspace=false
+fixGlyphsDesignspace=true
 
 ## move VF into new folder of dist/ with timestamp and fontbake
 timestampAndFontbakeInDist=true

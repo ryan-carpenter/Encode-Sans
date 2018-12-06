@@ -4,10 +4,10 @@
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/Encode-Sans-fixed_designspace.glyphs"
+glyphsSource="sources/Encode-Sans.glyphs"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
-fixGlyphsDesignspace=false
+fixGlyphsDesignspace=true
 
 ################# set vars #################
 ############################################

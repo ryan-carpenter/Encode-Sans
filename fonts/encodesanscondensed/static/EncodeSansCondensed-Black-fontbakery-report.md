@@ -559,9 +559,9 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 |  | fonts/encodesanscondensed/static/EncodeSansCondensed-Black.ttf |
 |:--- | ---:|
 | Dehinted Size | 115.7kb |
-| Hinted Size | 151.0kb |
-| Increase | 35.3kb |
-| Change   | 30.5 % |
+| Hinted Size | 151.1kb |
+| Increase | 35.4kb |
+| Change   | 30.6 % |
 
 
 </details>
@@ -601,7 +601,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, GPOS, cvt , fpgm, loca, gasp, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [prep, DSIG, cvt , loca, GPOS, fpgm, gasp, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

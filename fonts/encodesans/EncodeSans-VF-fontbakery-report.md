@@ -216,15 +216,6 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
-
-* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'.'
-* :bread: **PASS** Name table entry: Copyright field 'Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)' matches canonical pattern.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb: Filename is set canonically?</summary>
 
 * [com.google.fonts/check/105](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -256,7 +247,7 @@ But instead we have got: 'Copyright 2018 The Encode Project Authors (impallari@g
 <summary>:fire: <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
 
 * [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Copyright field for this font on METADATA.pb ('Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'.') differs from a copyright notice entry on the name table: 'Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)'
+* :fire: **FAIL** Copyright field for this font on METADATA.pb ('Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.') differs from a copyright notice entry on the name table: 'Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)'
 
 </details>
 <details>
@@ -276,7 +267,7 @@ Failed to sanitize file!
 <summary>:warning: <b>WARN:</b> Copyright notice on METADATA.pb should not contain 'Reserved Font Name'.</summary>
 
 * [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
+* :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
@@ -685,7 +676,7 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 | Dehinted Size | 197.5kb |
 | Hinted Size | 234.4kb |
 | Increase | 36.9kb |
-| Change   | 0.2 % |
+| Change   | 18.7 % |
 
 
 </details>
@@ -725,7 +716,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, cvt , gasp, prep, GPOS, fpgm, loca, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, loca, GPOS, GSUB, fpgm, cvt , gasp, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -839,6 +830,15 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** METADATA.pb postScriptName field contains font name in right format.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Copyright notices match canonical pattern?</summary>
+
+* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** METADATA.pb: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
+* :bread: **PASS** Name table entry: Copyright field 'Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)' matches canonical pattern.
+* :bread: **PASS** All copyright notice strings are good.
 
 </details>
 <details>
@@ -1205,5 +1205,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 3 | 33 | 6 | 87 |
-| 0% | 8% | 2% | 24% | 4% | 62% |
+| 0 | 10 | 3 | 33 | 6 | 88 |
+| 0% | 7% | 2% | 24% | 4% | 63% |
