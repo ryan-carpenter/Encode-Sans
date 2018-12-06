@@ -1,6 +1,8 @@
 Encode Sans Fonts
 =================
 
+![](sample.png)
+
 Forked from Pablo Impallari's original repo, in order to upgrade the family to a variable font, as well as to add in some small refinements.The description from the original is:
 
 > The Encode Sans family is a versatile workhorse. Featuring a huge range of weights and > widths, it's ready for all kind of typographic challenges. It also includes Tabular and > Old Style figres, as well as full set of Small Caps and other Open Type features.
