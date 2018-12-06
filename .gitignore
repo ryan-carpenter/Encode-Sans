@@ -1,5 +1,5 @@
 .DS_Store
 *(Autosaved)*
 .vscode
-master_ufo/*.ufo
-instance_ufo/*.ufo
+master_ufo/*.*
+instance_ufo/*.*
