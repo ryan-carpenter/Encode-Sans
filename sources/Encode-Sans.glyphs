@@ -1,15 +1,12 @@
 {
 .appVersion = "1184";
 DisplayStrings = (
-"ã/ecaron xs/oneeighth \012/Lslash/lslash Øø/upArrow/notequal \012\012t",
-"35ß/Germandbls/germandbls.sc \012\01253R/Germandbls/three.osf/r.sc/germandbls.sc/b.sc \012\012NNCANN\012OO/Placeholder AOO\012ii/Placeholder Aii\012",
-"/slashshortcomb.case/Lslash/slashshortcomb.sc/lslash.sc/slashshortcomb/lslash \012OOAOO\012ØØAØØ\012/a.sc/a.sc/oslash.sc/a.sc/a.sc \012/a.sc/a.sc/o.sc/a.sc/a.sc \012\012Øø/oslash.sc",
-"/oslash.sc",
-"\012/iacute_j.loclNLD/f_i/f_j/f_l/fi/fl/I_J.loclNLD/i_j.loclNLD \012\012/f_j ord nn/f_j nnoo/f_j oo\012fjord nnfjnnoofjoo\012\012nnijnnooijoo\012/f_j  /i_j.loclNLD  /f_i \012fj ij fi",
-Google,
-"aD/DZ/DZcaron/LJ/Lj/NJ/Nj/backslash DZ.....LJ...NJNj\012\012/Iacute_J.loclNLD/dz/dzcaron/lj/iacute_j.loclNLD/f_i/f_j/f_l/fi \012/fl/I_J.loclNLD/i_j.loclNLD/dz.sc/dzcaron.sc/iacute_j.loclNLD.sc/i_j.loclNLD.sc/nj.sc \012\012",
-"AÆBCDEFGHIJKLMN/Eng O/Ohorn/Ohorntilde/Oogonek/OE PÞQRS/Germandbls/Schwa TU/Uhorn/Uogonek VWXYZaæbcdðe/eogonek fgh/idotless/jdotless k/kgreenlandic l/ldot mn/eng o/ohorn/ohorntilde/oogonek/oe pþqrsßtu/uhorn/uhorntilde vwxyz/o.comb/f.short/a.sc/ae.sc/b.sc/c.sc/d.sc/e.sc/schwa.sc/f.sc/g.sc/h.sc/i.sc/j.sc/k.sc/l.sc/ldot.sc/m.sc/n.sc/eng.sc/o.sc/ohorn.sc/ohorntilde.sc/oogonek.sc/oe.sc/p.sc/thorn.sc/q.sc/r.sc/s.sc/germandbls.sc/t.sc/u.sc/uhorn.sc/uhorntilde.sc/uogonek.sc/v.sc/w.sc/x.sc/y.sc/z.sc ªº/Delta/Omega/Delta.tf/Omega.tf/pi/mu.tf/pi.tf 012345678/zero.osf/one.osf/two.osf/three.osf/four.osf/five.osf/six.osf/seven.osf/eight.osf/nine.osf/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.tosf/one.tosf/two.tosf/three.tosf/four.tosf/five.tosf/six.tosf/seven.tosf/eight.tosf/nine.tosf/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/fraction .,!¡?¿·/bullet *#///backslash/periodcentered.CAT/period.tf/comma.tf/colon.tf/semicolon.tf/periodcentered.tf/slash.tf (){}[]-/endash/emdash/figuredash _/underscore.tf/quotesinglbase/quoteleft/quoteright/guilsinglleft/guilsinglright '/quotedbl.tf/quotesingle.tf/parenleft.sc/parenright.sc/braceleft.sc/braceright.sc/bracketleft.sc/bracketright.sc/figurespace/hairspace/punctuationspace   /thinspace/zerowidthspace \015/cedi ¢/colonsign ¤$/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/uni20BF/won ¥/uni20BF.tf/cedi.tf/cent.tf/colonsign.tf/currency.tf/dollar.tf/dong.tf/euro.tf/florin.tf/franc.tf/guarani.tf/kip.tf/lira.tf/liraTurkish.tf/manat.tf/naira.tf/peseta.tf/peso.tf/ruble.tf/rupeeIndian.tf/sterling.tf/won.tf/yen.tf/bulletoperator/divisionslash +/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^/infinity/integral/product/summation/radical µ/partialdiff %/bulletoperator.osf/plus.osf/minus.osf/multiply.osf/divide.osf/equal.osf/notequal.osf/greater.osf/less.osf/greaterequal.osf/lessequal.osf/plusminus.osf/approxequal.osf/asciitilde.osf/logicalnot.osf/asciicircum.osf/infinity.osf/bulletoperator.tf/divisionslash.tf/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/logicalnot.tf/asciicircum.tf/infinity.tf/integral.tf/product.tf/summation.tf/radical.tf/micro.tf/partialdiff.tf/percent.tf/perthousand.tf/bulletoperator.tosf/divisionslash.tosf/plus.tosf/minus.tosf/multiply.tosf/divide.tosf/equal.tosf/notequal.tosf/greater.tosf/less.tosf/greaterequal.tosf/lessequal.tosf/plusminus.tosf/approxequal.tosf/asciitilde.tosf/logicalnot.tosf/asciicircum.tosf/infinity.tosf/upArrow/rightArrow/downArrow/leftArrow/lozenge/lozenge.osf/lozenge.tf @&¶§©®/trademark °|¦/dagger/literSign/daggerdbl/estimated/servicemark/degree.tf/bar.tf/brokenbar.tf/ampersand.sc/apostrophemod/commaturnedmod/firsttonechinese/fourthtonechinese/ringhalfleft/ringhalfright/secondtonechinese/verticallinelowmod/verticallinemod/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/ringcomb_acutecomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/commaaccentcomb.alt/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/caroncomb.alt.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/ringcomb_acutecomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/dblgravecomb.case/breveinvertedcomb.case/commaturnedabovecomb.case/dotbelowcomb.case/dieresisbelowcomb.case/commaaccentcomb.case/cedillacomb.case/ogonekcomb.case/brevebelowcomb.case/macronbelowcomb.case/strokeshortcomb.sc/slashshortcomb.sc/slashshortcomb/strokeshortcomb.D/strokeshortcomb.case/strokelongcomb.case/slashshortcomb.case/strokeshortcomb.d/strokeshortcomb.dsc/strokeshortcomb.h/strokelongcomb.hsc/strokeshortcomb.t/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case",
-" /gravecomb/macroncomb  /ringhalfright/ring  /Placeholder/apostrophemod/commaturnedmod/firsttonechinese/ringhalfleft/ringhalfright/secondtonechinese/verticallinelowmod/verticallinemod/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/ringcomb_acutecomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/commaaccentcomb.alt/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/caroncomb.alt.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/ringcomb_acutecomb.case/tildecomb.case/macroncomb.case/hookabovecomb.case/dblgravecomb.case/breveinvertedcomb.case/commaturnedabovecomb.case/dotbelowcomb.case/dieresisbelowcomb.case/commaaccentcomb.case/cedillacomb.case/ogonekcomb.case/brevebelowcomb.case/macronbelowcomb.case/strokeshortcomb.sc/slashshortcomb.sc/slashshortcomb/strokeshortcomb.D/strokeshortcomb.case/strokelongcomb.case/slashshortcomb.case/strokeshortcomb.d/strokeshortcomb.dsc/strokeshortcomb.h/strokelongcomb.hsc/strokeshortcomb.t/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case"
+"/Ohorn/Ohorntilde/OE QR/Uogonek Xa/aogonek/eng \012/jdotless/j.sc J/I_J.loclNLD/jdotless j/i_j.loclNLD/i_j.loclNLD.sc/LJ/Lj/lj/j.sc/lj.sc t/ohorn/ohorntilde st/uhorntilde xy/j.sc/eng.sc/ohorn.sc/ohorntilde.sc/oe.sc/q.sc/r.sc/uhorntilde.sc/x.sc ª/pi/pi.tf 248/four.osf/eight.osf/two.tf/four.tf/eight.tf/two.tosf/four.tosf/eight.tosf/two.dnom/five.dnom/eight.dnom/two.numr/five.numr/eight.numr !¡?¿'/quotedbl.tf/quotesingle.tf/florin/manat/peseta/rupeeIndian/uni20BF/uni20BF.tf/florin.tf/manat.tf/peseta.tf/rupeeIndian.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf/asciitilde.tosf/infinity.tosf @&/daggerdbl/servicemark/brevecomb/tildecomb/hookabovecomb/breveinvertedcomb/brevebelowcomb/tildecomb.case/hookabovecomb.case/brevebelowcomb.case/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/slashcomb",
+"/Ohorn/Ohorntilde/OE R/Uogonek Xa/aogonek/eng/ohorn/ohorntilde st/uhorntilde xy/j.sc/eng.sc/ohorn.sc/ohorntilde.sc Q/oe.sc/q.sc/r.sc/uhorntilde.sc/x.sc ª/pi/pi.tf 248/four.osf/eight.osf/two.tf/four.tf/eight.tf/two.tosf/four.tosf/eight.tosf/two.dnom/five.dnom/eight.dnom/two.numr/five.numr/eight.numr !¡?¿'/quotedbl.tf/quotesingle.tf/florin/manat/peseta/rupeeIndian/uni20BF/uni20BF.tf/florin.tf/manat.tf/peseta.tf/rupeeIndian.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf/asciitilde.tosf/infinity.tosf @&/daggerdbl/servicemark/brevecomb/tildecomb/hookabovecomb/breveinvertedcomb/brevebelowcomb/tildecomb.case/hookabovecomb.case/brevebelowcomb.case/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/slashcomb",
+"Q/Ohorn/Ohorntilde/OE QX/ohorn/ohorntilde/oogonek sßt/uhorntilde x/g.sc/ohorn.sc/ohorntilde.sc/oogonek.sc/oe.sc/q.sc/r.sc/uhorntilde.sc/uogonek.sc/x.sc/Omega.tf/pi/pi.tf 48/two.osf/four.osf/eight.osf/two.tf/four.tf/two.tosf/four.tosf/two.dnom/eight.dnom/two.numr/eight.numr !¡?¿'/quotedbl.tf/quotesingle.tf/guarani/manat/peseta/manat.tf/peseta.tf/rupeeIndian.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf/asciitilde.tosf/infinity.tosf @&§/ampersand.sc/tildecomb/hookabovecomb/brevebelowcomb/tildecomb.case/hookabovecomb.case/brevebelowcomb.case/slashshortcomb.sc/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/slashcomb",
+"Q/Ohorn/Ohorntilde/Oogonek/OE PÞSa/aogonek ð/ohorn/ohorntilde/oogonek ß/uhorntilde/ae.sc/g.sc/j.sc/eng.sc/ohorn.sc/ohorntilde.sc/oogonek.sc/oe.sc/q.sc/s.sc/uhorntilde.sc/uogonek.sc/z.sc ª25/two.osf/five.osf/five.tf/two.tosf/five.tosf/two.dnom/five.dnom/eight.dnom/two.numr/five.numr/eight.numr $/guarani t/peseta P/peso/peseta.tf/peso.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf ~/asciitilde.tosf/infinity.tosf @&¶§/servicemark/ampersand.sc/tildecomb/hookabovecomb/tildecomb.case/hookabovecomb.case/slashshortcomb.sc/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/Oogonek/oogonek/ae.sc Æ/oogonek.sc",
+"txy~/Placeholder",
+"/tildecomb"
 );
 classes = (
 {
@@ -14552,12 +14549,12 @@ paths = (
 closed = 1;
 nodes = (
 "174 -136 OFFCURVE",
-"224 22 OFFCURVE",
-"232 256 CURVE",
+"232 10 OFFCURVE",
+"232 256 CURVE SMOOTH",
 "232 1480 LINE",
 "164 1480 LINE",
 "164 286 LINE SMOOTH",
-"164 36 OFFCURVE",
+"164 26 OFFCURVE",
 "114 -116 OFFCURVE",
 "-6 -306 CURVE",
 "44 -340 LINE"
@@ -14664,13 +14661,13 @@ paths = (
 closed = 1;
 nodes = (
 "212 -148 OFFCURVE",
-"270 22 OFFCURVE",
-"284 250 CURVE",
+"284 12 OFFCURVE",
+"284 250 CURVE SMOOTH",
 "284 1480 LINE",
 "216 1480 LINE",
 "216 286 LINE SMOOTH",
-"216 56 OFFCURVE",
-"150 -128 OFFCURVE",
+"216 32 OFFCURVE",
+"148 -125 OFFCURVE",
 "4 -304 CURVE",
 "52 -340 LINE"
 );
@@ -22579,7 +22576,7 @@ nodes = (
 "84 1210 OFFCURVE",
 "84 740 CURVE SMOOTH",
 "84 278 OFFCURVE",
-"400 -10 OFFCURVE",
+"400 -20 OFFCURVE",
 "916 -20 CURVE SMOOTH",
 "956 -20 LINE",
 "978 60 LINE",
@@ -24043,8 +24040,8 @@ paths = (
 closed = 1;
 nodes = (
 "480 0 LINE",
-"480 396 LINE",
-"514 396 OFFCURVE",
+"480 397 LINE",
+"514 395 OFFCURVE",
 "536 394 OFFCURVE",
 "574 394 CURVE SMOOTH",
 "956 394 OFFCURVE",
@@ -24217,8 +24214,8 @@ paths = (
 closed = 1;
 nodes = (
 "606 0 LINE",
-"606 390 LINE",
-"644 390 OFFCURVE",
+"606 392 LINE",
+"643 389 OFFCURVE",
 "688 388 OFFCURVE",
 "730 388 CURVE SMOOTH",
 "1202 388 OFFCURVE",
@@ -24407,8 +24404,8 @@ paths = (
 closed = 1;
 nodes = (
 "480 0 LINE",
-"480 210 LINE",
-"514 210 OFFCURVE",
+"480 211 LINE",
+"514 209 OFFCURVE",
 "538 208 OFFCURVE",
 "578 208 CURVE SMOOTH",
 "958 208 OFFCURVE",
@@ -24416,10 +24413,10 @@ nodes = (
 "1172 760 CURVE SMOOTH",
 "1172 1144 OFFCURVE",
 "956 1314 OFFCURVE",
-"534 1314 CURVE SMOOTH",
-"518 1314 OFFCURVE",
-"496 1312 OFFCURVE",
-"480 1312 CURVE",
+"549 1314 CURVE SMOOTH",
+"528 1314 OFFCURVE",
+"504 1313 OFFCURVE",
+"480 1311 CURVE",
 "480 1480 LINE",
 "88 1480 LINE",
 "88 0 LINE"
@@ -24431,7 +24428,7 @@ nodes = (
 "538 522 OFFCURVE",
 "510 524 OFFCURVE",
 "480 528 CURVE",
-"480 992 LINE",
+"480 994 LINE",
 "506 998 OFFCURVE",
 "528 1000 OFFCURVE",
 "568 1000 CURVE SMOOTH",
@@ -24592,8 +24589,8 @@ paths = (
 closed = 1;
 nodes = (
 "606 0 LINE",
-"606 206 LINE",
-"644 206 OFFCURVE",
+"606 207 LINE",
+"644 205 OFFCURVE",
 "692 204 OFFCURVE",
 "734 204 CURVE SMOOTH",
 "1202 204 OFFCURVE",
@@ -24603,7 +24600,7 @@ nodes = (
 "1200 1316 OFFCURVE",
 "686 1316 CURVE SMOOTH",
 "662 1316 OFFCURVE",
-"630 1314 OFFCURVE",
+"630 1315 OFFCURVE",
 "606 1314 CURVE",
 "606 1480 LINE",
 "130 1480 LINE",
@@ -24698,8 +24695,11 @@ nodes = (
 "646 -58 OFFCURVE",
 "492 22 CURVE",
 "512 -8 LINE",
-"884 -60 OFFCURVE",
-"1066 202 OFFCURVE",
+"543 -12 OFFCURVE",
+"573 -14 OFFCURVE",
+"601 -14 CURVE SMOOTH",
+"913 -14 OFFCURVE",
+"1066 247 OFFCURVE",
 "1066 740 CURVE SMOOTH",
 "1066 1298 OFFCURVE",
 "878 1498 OFFCURVE",
@@ -24787,8 +24787,11 @@ nodes = (
 "984 32 OFFCURVE",
 "734 130 CURVE",
 "606 34 LINE",
-"1074 -34 OFFCURVE",
-"1342 224 OFFCURVE",
+"655 27 OFFCURVE",
+"702 23 OFFCURVE",
+"747 23 CURVE SMOOTH",
+"1128 23 OFFCURVE",
+"1342 278 OFFCURVE",
 "1342 740 CURVE SMOOTH",
 "1342 1276 OFFCURVE",
 "1078 1500 OFFCURVE",
@@ -24876,8 +24879,11 @@ nodes = (
 "874 -60 OFFCURVE",
 "698 10 CURVE",
 "688 -8 LINE",
-"1166 -56 OFFCURVE",
-"1434 196 OFFCURVE",
+"726 -12 OFFCURVE",
+"763 -14 OFFCURVE",
+"799 -14 CURVE SMOOTH",
+"1207 -14 OFFCURVE",
+"1434 240 OFFCURVE",
 "1434 740 CURVE SMOOTH",
 "1434 1284 OFFCURVE",
 "1162 1498 OFFCURVE",
@@ -24965,8 +24971,11 @@ nodes = (
 "1210 50 OFFCURVE",
 "948 140 CURVE",
 "786 28 LINE",
-"1492 -60 OFFCURVE",
-"1808 274 OFFCURVE",
+"862 18 OFFCURVE",
+"934 14 OFFCURVE",
+"1002 14 CURVE SMOOTH",
+"1557 14 OFFCURVE",
+"1808 324 OFFCURVE",
 "1808 740 CURVE SMOOTH",
 "1808 1206 OFFCURVE",
 "1482 1500 OFFCURVE",
@@ -25278,8 +25287,8 @@ nodes = (
 "328 652 OFFCURVE",
 "406 652 CURVE SMOOTH",
 "774 652 OFFCURVE",
-"964 796 OFFCURVE",
-"960 1080 CURVE SMOOTH",
+"960 796 OFFCURVE",
+"960 1078 CURVE SMOOTH",
 "960 1354 OFFCURVE",
 "800 1494 OFFCURVE",
 "468 1494 CURVE SMOOTH",
@@ -25388,8 +25397,8 @@ paths = (
 closed = 1;
 nodes = (
 "474 0 LINE",
-"474 504 LINE",
-"510 504 OFFCURVE",
+"474 505 LINE",
+"510 503 OFFCURVE",
 "538 502 OFFCURVE",
 "584 502 CURVE SMOOTH",
 "930 502 OFFCURVE",
@@ -46117,9 +46126,9 @@ paths = (
 closed = 1;
 nodes = (
 "1152 -22 OFFCURVE",
-"1400 194 OFFCURVE",
+"1404 194 OFFCURVE",
 "1404 622 CURVE SMOOTH",
-"1408 980 OFFCURVE",
+"1404 980 OFFCURVE",
 "1152 1382 OFFCURVE",
 "810 1616 CURVE",
 "232 1616 LINE",
@@ -50552,7 +50561,7 @@ nodes = (
 "908 1096 OFFCURVE",
 "758 1118 OFFCURVE",
 "626 1118 CURVE SMOOTH",
-"212 1116 OFFCURVE",
+"212 1118 OFFCURVE",
 "40 904 OFFCURVE",
 "40 530 CURVE SMOOTH",
 "40 152 OFFCURVE",
@@ -58489,7 +58498,7 @@ paths = (
 closed = 1;
 nodes = (
 "738 -256 OFFCURVE",
-"788 -98 OFFCURVE",
+"796 -98 OFFCURVE",
 "796 136 CURVE SMOOTH",
 "796 770 LINE SMOOTH",
 "796 1020 OFFCURVE",
@@ -58639,8 +58648,8 @@ paths = (
 closed = 1;
 nodes = (
 "994 -268 OFFCURVE",
-"1052 -98 OFFCURVE",
-"1066 130 CURVE",
+"1066 -98 OFFCURVE",
+"1066 130 CURVE SMOOTH",
 "1066 708 LINE SMOOTH",
 "1066 988 OFFCURVE",
 "912 1096 OFFCURVE",
@@ -63250,10 +63259,10 @@ nodes = (
 "692 -348 OFFCURVE",
 "640 -348 CURVE SMOOTH",
 "556 -348 OFFCURVE",
-"500 -304 OFFCURVE",
-"500 -228 CURVE SMOOTH",
-"500 -148 OFFCURVE",
-"548 -52 OFFCURVE",
+"500 -298 OFFCURVE",
+"500 -222 CURVE SMOOTH",
+"500 -140 OFFCURVE",
+"564 -48 OFFCURVE",
 "746 0 CURVE SMOOTH",
 "948 52 OFFCURVE",
 "1076 224 OFFCURVE",
@@ -63268,10 +63277,10 @@ nodes = (
 "318 -18 OFFCURVE",
 "602 -18 CURVE",
 "610 0 LINE",
-"486 -62 OFFCURVE",
-"444 -144 OFFCURVE",
-"444 -230 CURVE SMOOTH",
-"444 -336 OFFCURVE",
+"501 -49 OFFCURVE",
+"444 -130 OFFCURVE",
+"444 -222 CURVE SMOOTH",
+"444 -328 OFFCURVE",
 "524 -400 OFFCURVE",
 "644 -400 CURVE SMOOTH"
 );
@@ -63395,9 +63404,9 @@ nodes = (
 "738 -256 OFFCURVE",
 "738 -194 CURVE SMOOTH",
 "738 -122 OFFCURVE",
-"786 -56 OFFCURVE",
+"786 -54 OFFCURVE",
 "1010 18 CURVE SMOOTH",
-"1248 96 OFFCURVE",
+"1248 95 OFFCURVE",
 "1398 284 OFFCURVE",
 "1398 550 CURVE SMOOTH",
 "1398 906 OFFCURVE",
@@ -68963,7 +68972,7 @@ nodes = (
 "480 1570 OFFCURVE",
 "748 1570 CURVE SMOOTH",
 "970 1570 OFFCURVE",
-"1136 1476 OFFCURVE",
+"1134 1476 OFFCURVE",
 "1134 1204 CURVE SMOOTH",
 "1134 1168 OFFCURVE",
 "1128 1110 OFFCURVE",
@@ -69108,7 +69117,7 @@ nodes = (
 "1558 814 OFFCURVE",
 "1620 812 OFFCURVE",
 "1678 808 CURVE",
-"1696 886 OFFCURVE",
+"1698 884 OFFCURVE",
 "1710 942 OFFCURVE",
 "1710 1026 CURVE SMOOTH",
 "1710 1430 OFFCURVE",
@@ -69386,7 +69395,7 @@ nodes = (
 "702 -10 OFFCURVE",
 "756 4 CURVE",
 "756 316 LINE",
-"718 312 OFFCURVE",
+"718 311 OFFCURVE",
 "690 308 OFFCURVE",
 "662 308 CURVE SMOOTH",
 "558 308 OFFCURVE",
@@ -80856,7 +80865,7 @@ closed = 1;
 nodes = (
 "122 0 LINE",
 "634 1126 LINE",
-"798 1126 LINE",
+"802 1126 LINE",
 "802 1190 LINE",
 "592 1190 LINE",
 "50 0 LINE"
@@ -80962,7 +80971,7 @@ nodes = (
 "472 0 LINE",
 "754 876 LINE",
 "1082 876 LINE",
-"1080 1190 LINE",
+"1082 1190 LINE",
 "442 1190 LINE",
 "18 0 LINE"
 );
@@ -86244,9 +86253,9 @@ nodes = (
 "886 54 OFFCURVE",
 "790 54 CURVE SMOOTH",
 "394 54 OFFCURVE",
-"190 232 OFFCURVE",
+"188 232 OFFCURVE",
 "188 596 CURVE SMOOTH",
-"186 986 OFFCURVE",
+"188 986 OFFCURVE",
 "428 1140 OFFCURVE",
 "750 1140 CURVE SMOOTH",
 "852 1140 OFFCURVE",
@@ -86257,9 +86266,9 @@ nodes = (
 "866 1204 OFFCURVE",
 "748 1204 CURVE SMOOTH",
 "390 1204 OFFCURVE",
-"114 1022 OFFCURVE",
+"116 1022 OFFCURVE",
 "116 594 CURVE SMOOTH",
-"118 192 OFFCURVE",
+"116 192 OFFCURVE",
 "350 -8 OFFCURVE",
 "790 -8 CURVE SMOOTH"
 );
@@ -86336,7 +86345,7 @@ nodes = (
 "556 434 OFFCURVE",
 "556 580 CURVE SMOOTH",
 "556 748 OFFCURVE",
-"666 850 OFFCURVE",
+"666 852 OFFCURVE",
 "1034 852 CURVE SMOOTH",
 "1132 852 OFFCURVE",
 "1230 842 OFFCURVE",
@@ -88860,8 +88869,8 @@ paths = (
 closed = 1;
 nodes = (
 "184 -110 OFFCURVE",
-"228 20 OFFCURVE",
-"234 210 CURVE",
+"234 20 OFFCURVE",
+"234 210 CURVE SMOOTH",
 "234 1190 LINE",
 "166 1190 LINE",
 "166 230 LINE SMOOTH",
@@ -88921,8 +88930,8 @@ paths = (
 closed = 1;
 nodes = (
 "418 -106 OFFCURVE",
-"482 66 OFFCURVE",
-"480 270 CURVE",
+"480 66 OFFCURVE",
+"480 270 CURVE SMOOTH",
 "480 1190 LINE",
 "90 1190 LINE",
 "90 250 LINE SMOOTH",
@@ -88982,13 +88991,13 @@ paths = (
 closed = 1;
 nodes = (
 "224 -118 OFFCURVE",
-"274 20 OFFCURVE",
-"286 204 CURVE",
+"286 -1 OFFCURVE",
+"286 204 CURVE SMOOTH",
 "286 1190 LINE",
 "218 1190 LINE",
 "218 230 LINE SMOOTH",
-"218 46 OFFCURVE",
-"162 -100 OFFCURVE",
+"218 25 OFFCURVE",
+"161 -97 OFFCURVE",
 "38 -238 CURVE",
 "86 -274 LINE"
 );
@@ -89043,8 +89052,8 @@ paths = (
 closed = 1;
 nodes = (
 "532 -112 OFFCURVE",
-"606 62 OFFCURVE",
-"604 266 CURVE",
+"604 62 OFFCURVE",
+"604 266 CURVE SMOOTH",
 "604 1190 LINE",
 "132 1190 LINE",
 "132 246 LINE SMOOTH",
@@ -91800,8 +91809,8 @@ nodes = (
 closed = 1;
 nodes = (
 "912 -296 OFFCURVE",
-"954 -166 OFFCURVE",
-"960 24 CURVE",
+"960 -166 OFFCURVE",
+"960 24 CURVE SMOOTH",
 "960 1190 LINE",
 "894 1190 LINE",
 "894 44 LINE SMOOTH",
@@ -91867,8 +91876,8 @@ nodes = (
 closed = 1;
 nodes = (
 "1124 -298 OFFCURVE",
-"1168 -126 OFFCURVE",
-"1166 78 CURVE",
+"1166 -126 OFFCURVE",
+"1166 78 CURVE SMOOTH",
 "1166 1190 LINE",
 "806 1190 LINE",
 "806 58 LINE SMOOTH",
@@ -91938,8 +91947,8 @@ nodes = (
 closed = 1;
 nodes = (
 "1170 -304 OFFCURVE",
-"1218 -166 OFFCURVE",
-"1230 18 CURVE",
+"1230 -166 OFFCURVE",
+"1230 18 CURVE SMOOTH",
 "1230 1190 LINE",
 "1164 1190 LINE",
 "1164 44 LINE SMOOTH",
@@ -92005,8 +92014,8 @@ nodes = (
 closed = 1;
 nodes = (
 "1458 -298 OFFCURVE",
-"1512 -124 OFFCURVE",
-"1510 80 CURVE",
+"1510 -124 OFFCURVE",
+"1510 80 CURVE SMOOTH",
 "1510 1190 LINE",
 "1076 1190 LINE",
 "1076 60 LINE SMOOTH",
@@ -109083,9 +109092,9 @@ nodes = (
 "790 108 OFFCURVE",
 "790 290 CURVE SMOOTH",
 "790 1046 LINE",
-"718 1046 LINE",
+"722 1046 LINE",
 "722 278 LINE SMOOTH",
-"724 64 OFFCURVE",
+"722 64 OFFCURVE",
 "824 -18 OFFCURVE",
 "990 -18 CURVE SMOOTH"
 );
@@ -109754,9 +109763,9 @@ nodes = (
 "718 108 OFFCURVE",
 "718 290 CURVE SMOOTH",
 "718 1046 LINE",
-"646 1046 LINE",
+"650 1046 LINE",
 "650 278 LINE SMOOTH",
-"652 64 OFFCURVE",
+"650 64 OFFCURVE",
 "734 -18 OFFCURVE",
 "880 -18 CURVE SMOOTH"
 );
@@ -110591,9 +110600,9 @@ nodes = (
 "126 40 LINE",
 "488 624 LINE SMOOTH",
 "628 852 OFFCURVE",
-"676 988 OFFCURVE",
+"678 988 OFFCURVE",
 "678 1138 CURVE SMOOTH",
-"682 1394 OFFCURVE",
+"678 1394 OFFCURVE",
 "534 1498 OFFCURVE",
 "302 1498 CURVE SMOOTH",
 "210 1498 OFFCURVE",
@@ -110806,7 +110815,7 @@ closed = 1;
 nodes = (
 "1228 0 LINE",
 "1228 368 LINE",
-"570 368 LINE",
+"568 368 LINE",
 "568 248 LINE",
 "924 594 LINE SMOOTH",
 "1094 760 OFFCURVE",
@@ -111847,9 +111856,9 @@ paths = (
 closed = 1;
 nodes = (
 "1030 -20 OFFCURVE",
-"1244 156 OFFCURVE",
+"1246 156 OFFCURVE",
 "1246 458 CURVE SMOOTH",
-"1248 746 OFFCURVE",
+"1246 746 OFFCURVE",
 "1054 910 OFFCURVE",
 "516 934 CURVE SMOOTH",
 "256 946 LINE",
@@ -114860,9 +114869,9 @@ paths = (
 closed = 1;
 nodes = (
 "1030 -420 OFFCURVE",
-"1240 -244 OFFCURVE",
+"1242 -244 OFFCURVE",
 "1242 66 CURVE SMOOTH",
-"1244 360 OFFCURVE",
+"1242 360 OFFCURVE",
 "1054 524 OFFCURVE",
 "524 548 CURVE SMOOTH",
 "264 560 LINE",
@@ -118146,9 +118155,9 @@ paths = (
 closed = 1;
 nodes = (
 "1110 -20 OFFCURVE",
-"1332 156 OFFCURVE",
+"1334 156 OFFCURVE",
 "1334 458 CURVE SMOOTH",
-"1336 746 OFFCURVE",
+"1334 746 OFFCURVE",
 "1136 910 OFFCURVE",
 "578 934 CURVE SMOOTH",
 "310 946 LINE",
@@ -121471,9 +121480,9 @@ paths = (
 closed = 1;
 nodes = (
 "1114 -420 OFFCURVE",
-"1332 -244 OFFCURVE",
+"1334 -244 OFFCURVE",
 "1334 66 CURVE SMOOTH",
-"1336 360 OFFCURVE",
+"1334 360 OFFCURVE",
 "1140 524 OFFCURVE",
 "592 548 CURVE SMOOTH",
 "322 560 LINE",
@@ -125532,9 +125541,9 @@ paths = (
 closed = 1;
 nodes = (
 "762 -150 OFFCURVE",
-"912 -28 OFFCURVE",
+"914 -28 OFFCURVE",
 "914 178 CURVE SMOOTH",
-"916 374 OFFCURVE",
+"914 374 OFFCURVE",
 "780 488 OFFCURVE",
 "402 504 CURVE SMOOTH",
 "218 512 LINE",
@@ -127635,9 +127644,9 @@ nodes = (
 "164 658 LINE",
 "406 1034 LINE SMOOTH",
 "502 1184 OFFCURVE",
-"540 1278 OFFCURVE",
+"542 1278 OFFCURVE",
 "542 1378 CURVE SMOOTH",
-"544 1556 OFFCURVE",
+"542 1556 OFFCURVE",
 "438 1628 OFFCURVE",
 "272 1628 CURVE SMOOTH",
 "200 1628 OFFCURVE",
@@ -128830,9 +128839,9 @@ paths = (
 closed = 1;
 nodes = (
 "762 602 OFFCURVE",
-"912 724 OFFCURVE",
+"914 724 OFFCURVE",
 "914 930 CURVE SMOOTH",
-"916 1126 OFFCURVE",
+"914 1126 OFFCURVE",
 "780 1240 OFFCURVE",
 "402 1256 CURVE SMOOTH",
 "218 1264 LINE",
@@ -148630,7 +148639,7 @@ nodes = (
 "578 496 OFFCURVE",
 "578 724 CURVE SMOOTH",
 "578 982 OFFCURVE",
-"730 1118 OFFCURVE",
+"730 1120 OFFCURVE",
 "1156 1120 CURVE SMOOTH",
 "1270 1120 OFFCURVE",
 "1384 1110 OFFCURVE",
@@ -150693,8 +150702,8 @@ paths = (
 closed = 1;
 nodes = (
 "480 0 LINE",
-"480 396 LINE",
-"514 396 OFFCURVE",
+"480 398 LINE",
+"514 395 OFFCURVE",
 "536 394 OFFCURVE",
 "574 394 CURVE SMOOTH",
 "956 394 OFFCURVE",
@@ -150734,7 +150743,7 @@ nodes = (
 "1832 -10 OFFCURVE",
 "1886 4 CURVE",
 "1886 316 LINE",
-"1848 312 OFFCURVE",
+"1849 311 OFFCURVE",
 "1820 308 OFFCURVE",
 "1792 308 CURVE SMOOTH",
 "1688 308 OFFCURVE",
@@ -151051,7 +151060,7 @@ paths = (
 closed = 1;
 nodes = (
 "606 0 LINE",
-"606 390 LINE",
+"606 393 LINE",
 "644 390 OFFCURVE",
 "688 388 OFFCURVE",
 "730 388 CURVE SMOOTH",
@@ -151321,8 +151330,8 @@ paths = (
 closed = 1;
 nodes = (
 "592 0 LINE",
-"592 396 LINE",
-"626 396 OFFCURVE",
+"592 398 LINE",
+"626 395 OFFCURVE",
 "648 394 OFFCURVE",
 "686 394 CURVE SMOOTH",
 "1068 394 OFFCURVE",
@@ -152075,9 +152084,9 @@ paths = (
 closed = 1;
 nodes = (
 "622 652 OFFCURVE",
-"812 790 OFFCURVE",
+"808 790 OFFCURVE",
 "808 1074 CURVE SMOOTH",
-"804 1348 OFFCURVE",
+"808 1348 OFFCURVE",
 "648 1460 OFFCURVE",
 "310 1460 CURVE",
 "310 1416 LINE",
@@ -152940,7 +152949,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"672 -240 LINE",
+"674 -240 LINE",
 "674 20 LINE",
 "610 20 LINE",
 "610 -240 LINE"
@@ -152986,7 +152995,7 @@ nodes = (
 closed = 1;
 nodes = (
 "674 1460 LINE",
-"672 1720 LINE",
+"674 1720 LINE",
 "610 1720 LINE",
 "610 1460 LINE"
 );
@@ -154297,7 +154306,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"636 -240 LINE",
+"638 -240 LINE",
 "638 20 LINE",
 "574 20 LINE",
 "574 -240 LINE"
@@ -154343,7 +154352,7 @@ nodes = (
 closed = 1;
 nodes = (
 "638 1460 LINE",
-"636 1720 LINE",
+"638 1720 LINE",
 "574 1720 LINE",
 "574 1460 LINE"
 );
@@ -158248,10 +158257,10 @@ nodes = (
 "562 1570 OFFCURVE",
 "698 1570 CURVE SMOOTH",
 "746 1570 OFFCURVE",
-"780 1564 OFFCURVE",
+"780 1566 OFFCURVE",
 "822 1558 CURVE",
 "822 1626 LINE",
-"782 1634 OFFCURVE",
+"782 1633 OFFCURVE",
 "736 1636 OFFCURVE",
 "702 1636 CURVE SMOOTH",
 "516 1636 OFFCURVE",
@@ -158262,7 +158271,7 @@ nodes = (
 "346 -394 OFFCURVE",
 "210 -394 CURVE SMOOTH",
 "162 -394 OFFCURVE",
-"128 -388 OFFCURVE",
+"128 -390 OFFCURVE",
 "86 -382 CURVE",
 "86 -450 LINE",
 "126 -458 OFFCURVE",
@@ -161370,8 +161379,8 @@ paths = (
 closed = 1;
 nodes = (
 "314 360 LINE",
-"314 762 LINE",
-"336 762 OFFCURVE",
+"314 763 LINE",
+"336 760 OFFCURVE",
 "350 760 OFFCURVE",
 "378 760 CURVE SMOOTH",
 "638 760 OFFCURVE",
@@ -161465,7 +161474,7 @@ closed = 1;
 nodes = (
 "352 976 OFFCURVE",
 "334 978 OFFCURVE",
-"314 980 CURVE",
+"314 981 CURVE",
 "314 1278 LINE",
 "332 1282 OFFCURVE",
 "346 1284 OFFCURVE",
@@ -162182,8 +162191,8 @@ paths = (
 closed = 1;
 nodes = (
 "586 0 LINE",
-"586 396 LINE",
-"600 396 OFFCURVE",
+"586 397 LINE",
+"600 395 OFFCURVE",
 "612 394 OFFCURVE",
 "626 394 CURVE SMOOTH",
 "852 394 OFFCURVE",
@@ -162988,9 +162997,9 @@ paths = (
 closed = 1;
 nodes = (
 "602 652 OFFCURVE",
-"798 790 OFFCURVE",
+"794 790 OFFCURVE",
 "794 1074 CURVE SMOOTH",
-"790 1348 OFFCURVE",
+"794 1348 OFFCURVE",
 "630 1460 OFFCURVE",
 "292 1460 CURVE",
 "292 1416 LINE",
@@ -167786,8 +167795,11 @@ nodes = (
 "818 764 OFFCURVE",
 "754 728 OFFCURVE",
 "678 728 CURVE SMOOTH",
-"574 728 OFFCURVE",
-"468 844 OFFCURVE",
+"629 728 OFFCURVE",
+"580 754 OFFCURVE",
+"527 781 CURVE SMOOTH",
+"469 811 OFFCURVE",
+"406 844 OFFCURVE",
 "336 844 CURVE SMOOTH",
 "258 844 OFFCURVE",
 "188 812 OFFCURVE",
@@ -167796,8 +167808,11 @@ nodes = (
 "198 744 OFFCURVE",
 "262 780 OFFCURVE",
 "338 780 CURVE SMOOTH",
-"442 780 OFFCURVE",
-"548 664 OFFCURVE",
+"387 780 OFFCURVE",
+"436 754 OFFCURVE",
+"489 727 CURVE SMOOTH",
+"547 697 OFFCURVE",
+"610 664 OFFCURVE",
 "680 664 CURVE SMOOTH"
 );
 }
@@ -167845,20 +167860,26 @@ nodes = (
 "958 656 CURVE",
 "958 958 LINE",
 "880 880 OFFCURVE",
-"810 848 OFFCURVE",
-"718 848 CURVE SMOOTH",
-"592 848 OFFCURVE",
-"478 966 OFFCURVE",
+"815 848 OFFCURVE",
+"723 848 CURVE SMOOTH",
+"661 848 OFFCURVE",
+"602 875 OFFCURVE",
+"540 903 CURVE SMOOTH",
+"472 934 OFFCURVE",
+"402 966 OFFCURVE",
 "322 966 CURVE SMOOTH",
 "216 966 OFFCURVE",
 "144 936 OFFCURVE",
 "78 864 CURVE",
 "78 562 LINE",
 "156 640 OFFCURVE",
-"226 672 OFFCURVE",
-"318 672 CURVE SMOOTH",
-"444 672 OFFCURVE",
-"558 554 OFFCURVE",
+"221 672 OFFCURVE",
+"313 672 CURVE SMOOTH",
+"375 672 OFFCURVE",
+"434 645 OFFCURVE",
+"496 617 CURVE SMOOTH",
+"564 586 OFFCURVE",
+"634 554 OFFCURVE",
 "714 554 CURVE SMOOTH"
 );
 }
@@ -167908,8 +167929,11 @@ nodes = (
 "864 764 OFFCURVE",
 "800 728 OFFCURVE",
 "724 728 CURVE SMOOTH",
-"620 728 OFFCURVE",
-"514 844 OFFCURVE",
+"675 728 OFFCURVE",
+"626 754 OFFCURVE",
+"573 781 CURVE SMOOTH",
+"515 811 OFFCURVE",
+"452 844 OFFCURVE",
 "382 844 CURVE SMOOTH",
 "304 844 OFFCURVE",
 "234 812 OFFCURVE",
@@ -167918,8 +167942,11 @@ nodes = (
 "244 744 OFFCURVE",
 "308 780 OFFCURVE",
 "384 780 CURVE SMOOTH",
-"488 780 OFFCURVE",
-"594 664 OFFCURVE",
+"433 780 OFFCURVE",
+"482 754 OFFCURVE",
+"535 727 CURVE SMOOTH",
+"593 697 OFFCURVE",
+"656 664 OFFCURVE",
 "726 664 CURVE SMOOTH"
 );
 }
@@ -167967,20 +167994,26 @@ nodes = (
 "1082 636 CURVE",
 "1082 978 LINE",
 "996 900 OFFCURVE",
-"920 868 OFFCURVE",
-"818 868 CURVE SMOOTH",
-"680 868 OFFCURVE",
-"554 986 OFFCURVE",
+"925 868 OFFCURVE",
+"823 868 CURVE SMOOTH",
+"759 868 OFFCURVE",
+"693 895 OFFCURVE",
+"624 923 CURVE SMOOTH",
+"548 954 OFFCURVE",
+"468 986 OFFCURVE",
 "382 986 CURVE SMOOTH",
 "266 986 OFFCURVE",
 "186 956 OFFCURVE",
 "114 884 CURVE",
 "114 542 LINE",
 "200 620 OFFCURVE",
-"276 652 OFFCURVE",
-"378 652 CURVE SMOOTH",
-"516 652 OFFCURVE",
-"642 534 OFFCURVE",
+"271 652 OFFCURVE",
+"373 652 CURVE SMOOTH",
+"436 652 OFFCURVE",
+"502 625 OFFCURVE",
+"572 597 CURVE SMOOTH",
+"648 566 OFFCURVE",
+"729 534 OFFCURVE",
 "814 534 CURVE SMOOTH"
 );
 }
@@ -186878,8 +186911,11 @@ nodes = (
 "810 564 OFFCURVE",
 "746 528 OFFCURVE",
 "670 528 CURVE SMOOTH",
-"566 528 OFFCURVE",
-"460 644 OFFCURVE",
+"621 528 OFFCURVE",
+"572 554 OFFCURVE",
+"519 581 CURVE SMOOTH",
+"461 611 OFFCURVE",
+"398 644 OFFCURVE",
 "328 644 CURVE SMOOTH",
 "250 644 OFFCURVE",
 "180 612 OFFCURVE",
@@ -186888,8 +186924,11 @@ nodes = (
 "190 544 OFFCURVE",
 "254 580 OFFCURVE",
 "330 580 CURVE SMOOTH",
-"434 580 OFFCURVE",
-"540 464 OFFCURVE",
+"379 580 OFFCURVE",
+"428 554 OFFCURVE",
+"481 527 CURVE SMOOTH",
+"539 497 OFFCURVE",
+"602 464 OFFCURVE",
 "672 464 CURVE SMOOTH"
 );
 }
@@ -186937,20 +186976,26 @@ nodes = (
 "1040 456 CURVE",
 "1040 758 LINE",
 "962 680 OFFCURVE",
-"892 648 OFFCURVE",
-"800 648 CURVE SMOOTH",
-"674 648 OFFCURVE",
-"560 766 OFFCURVE",
+"897 648 OFFCURVE",
+"805 648 CURVE SMOOTH",
+"743 648 OFFCURVE",
+"684 675 OFFCURVE",
+"622 703 CURVE SMOOTH",
+"554 734 OFFCURVE",
+"484 766 OFFCURVE",
 "404 766 CURVE SMOOTH",
 "298 766 OFFCURVE",
 "226 736 OFFCURVE",
 "160 664 CURVE",
 "160 362 LINE",
 "238 440 OFFCURVE",
-"308 472 OFFCURVE",
-"400 472 CURVE SMOOTH",
-"526 472 OFFCURVE",
-"640 354 OFFCURVE",
+"303 472 OFFCURVE",
+"395 472 CURVE SMOOTH",
+"457 472 OFFCURVE",
+"516 445 OFFCURVE",
+"578 417 CURVE SMOOTH",
+"646 386 OFFCURVE",
+"716 354 OFFCURVE",
 "796 354 CURVE SMOOTH"
 );
 }
@@ -187000,8 +187045,11 @@ nodes = (
 "910 564 OFFCURVE",
 "846 528 OFFCURVE",
 "770 528 CURVE SMOOTH",
-"666 528 OFFCURVE",
-"560 644 OFFCURVE",
+"721 528 OFFCURVE",
+"672 554 OFFCURVE",
+"619 581 CURVE SMOOTH",
+"561 611 OFFCURVE",
+"498 644 OFFCURVE",
 "428 644 CURVE SMOOTH",
 "350 644 OFFCURVE",
 "280 612 OFFCURVE",
@@ -187010,8 +187058,11 @@ nodes = (
 "290 544 OFFCURVE",
 "354 580 OFFCURVE",
 "430 580 CURVE SMOOTH",
-"534 580 OFFCURVE",
-"640 464 OFFCURVE",
+"479 580 OFFCURVE",
+"528 554 OFFCURVE",
+"581 527 CURVE SMOOTH",
+"639 497 OFFCURVE",
+"702 464 OFFCURVE",
 "772 464 CURVE SMOOTH"
 );
 }
@@ -187059,20 +187110,26 @@ nodes = (
 "1204 436 CURVE",
 "1204 778 LINE",
 "1118 700 OFFCURVE",
-"1042 668 OFFCURVE",
-"940 668 CURVE SMOOTH",
-"802 668 OFFCURVE",
-"676 786 OFFCURVE",
+"1047 668 OFFCURVE",
+"945 668 CURVE SMOOTH",
+"881 668 OFFCURVE",
+"815 695 OFFCURVE",
+"746 723 CURVE SMOOTH",
+"670 754 OFFCURVE",
+"590 786 OFFCURVE",
 "504 786 CURVE SMOOTH",
 "388 786 OFFCURVE",
 "308 756 OFFCURVE",
 "236 684 CURVE",
 "236 342 LINE",
 "322 420 OFFCURVE",
-"398 452 OFFCURVE",
-"500 452 CURVE SMOOTH",
-"638 452 OFFCURVE",
-"764 334 OFFCURVE",
+"393 452 OFFCURVE",
+"495 452 CURVE SMOOTH",
+"558 452 OFFCURVE",
+"624 425 OFFCURVE",
+"694 397 CURVE SMOOTH",
+"770 367 OFFCURVE",
+"851 334 OFFCURVE",
 "936 334 CURVE SMOOTH"
 );
 }
@@ -189473,9 +189530,9 @@ nodes = (
 "552 1242 OFFCURVE",
 "1002 1242 CURVE SMOOTH",
 "1452 1242 OFFCURVE",
-"1650 1060 OFFCURVE",
+"1652 1060 OFFCURVE",
 "1652 580 CURVE SMOOTH",
-"1654 300 OFFCURVE",
+"1652 300 OFFCURVE",
 "1608 246 OFFCURVE",
 "1530 246 CURVE SMOOTH",
 "1486 246 OFFCURVE",
@@ -189647,9 +189704,9 @@ nodes = (
 "210 1118 OFFCURVE",
 "500 1432 OFFCURVE",
 "1048 1432 CURVE SMOOTH",
-"1594 1432 OFFCURVE",
-"1878 1126 OFFCURVE",
-"1878 554 CURVE SMOOTH",
+"1610 1432 OFFCURVE",
+"1878 1129 OFFCURVE",
+"1878 576 CURVE SMOOTH",
 "1878 194 OFFCURVE",
 "1754 48 OFFCURVE",
 "1608 48 CURVE SMOOTH",
@@ -189697,10 +189754,10 @@ nodes = (
 "1480 -16 OFFCURVE",
 "1604 -16 CURVE SMOOTH",
 "1792 -16 OFFCURVE",
-"1944 150 OFFCURVE",
-"1946 560 CURVE SMOOTH",
-"1948 1158 OFFCURVE",
-"1634 1498 OFFCURVE",
+"1946 150 OFFCURVE",
+"1946 588 CURVE SMOOTH",
+"1946 1166 OFFCURVE",
+"1648 1498 OFFCURVE",
 "1048 1498 CURVE SMOOTH",
 "464 1498 OFFCURVE",
 "138 1158 OFFCURVE",
@@ -189817,9 +189874,9 @@ nodes = (
 "660 1222 OFFCURVE",
 "1224 1222 CURVE SMOOTH",
 "1790 1222 OFFCURVE",
-"2044 1040 OFFCURVE",
+"2050 1040 OFFCURVE",
 "2050 580 CURVE SMOOTH",
-"2054 300 OFFCURVE",
+"2050 300 OFFCURVE",
 "1992 246 OFFCURVE",
 "1910 246 CURVE SMOOTH",
 "1854 246 OFFCURVE",
@@ -190715,7 +190772,7 @@ nodes = (
 "238 388 OFFCURVE",
 "542 388 CURVE SMOOTH",
 "566 388 OFFCURVE",
-"590 390 OFFCURVE",
+"590 389 OFFCURVE",
 "612 390 CURVE",
 "612 0 LINE"
 );
@@ -196665,7 +196722,7 @@ nodes = (
 "514 304 OFFCURVE",
 "514 372 CURVE SMOOTH",
 "514 422 OFFCURVE",
-"542 454 OFFCURVE",
+"536 456 OFFCURVE",
 "566 488 CURVE",
 "350 626 LINE",
 "208 596 OFFCURVE",
@@ -201932,8 +201989,11 @@ nodes = (
 "612 1460 OFFCURVE",
 "572 1436 OFFCURVE",
 "518 1436 CURVE SMOOTH",
-"446 1436 OFFCURVE",
-"372 1514 OFFCURVE",
+"484 1436 OFFCURVE",
+"450 1453 OFFCURVE",
+"413 1472 CURVE SMOOTH",
+"373 1492 OFFCURVE",
+"330 1514 OFFCURVE",
 "282 1514 CURVE SMOOTH",
 "226 1514 OFFCURVE",
 "180 1490 OFFCURVE",
@@ -201942,8 +202002,11 @@ nodes = (
 "188 1434 OFFCURVE",
 "228 1458 OFFCURVE",
 "282 1458 CURVE SMOOTH",
-"354 1458 OFFCURVE",
-"428 1380 OFFCURVE",
+"316 1458 OFFCURVE",
+"350 1441 OFFCURVE",
+"387 1422 CURVE SMOOTH",
+"427 1402 OFFCURVE",
+"470 1380 OFFCURVE",
 "518 1380 CURVE SMOOTH"
 );
 }
@@ -202003,8 +202066,11 @@ nodes = (
 "894 1520 OFFCURVE",
 "838 1492 OFFCURVE",
 "762 1492 CURVE SMOOTH",
-"660 1492 OFFCURVE",
-"568 1588 OFFCURVE",
+"714 1492 OFFCURVE",
+"668 1514 OFFCURVE",
+"619 1536 CURVE SMOOTH",
+"565 1561 OFFCURVE",
+"508 1588 OFFCURVE",
 "442 1588 CURVE SMOOTH",
 "358 1588 OFFCURVE",
 "298 1564 OFFCURVE",
@@ -202013,8 +202079,11 @@ nodes = (
 "306 1318 OFFCURVE",
 "362 1346 OFFCURVE",
 "438 1346 CURVE SMOOTH",
-"540 1346 OFFCURVE",
-"632 1250 OFFCURVE",
+"486 1346 OFFCURVE",
+"532 1324 OFFCURVE",
+"581 1302 CURVE SMOOTH",
+"635 1277 OFFCURVE",
+"692 1250 OFFCURVE",
 "758 1250 CURVE SMOOTH"
 );
 }
@@ -202074,8 +202143,11 @@ nodes = (
 "868 1460 OFFCURVE",
 "816 1438 OFFCURVE",
 "750 1438 CURVE SMOOTH",
-"658 1438 OFFCURVE",
-"564 1512 OFFCURVE",
+"706 1438 OFFCURVE",
+"662 1455 OFFCURVE",
+"616 1472 CURVE SMOOTH",
+"565 1491 OFFCURVE",
+"510 1512 OFFCURVE",
 "450 1512 CURVE SMOOTH",
 "380 1512 OFFCURVE",
 "324 1492 OFFCURVE",
@@ -202084,8 +202156,11 @@ nodes = (
 "332 1432 OFFCURVE",
 "384 1454 OFFCURVE",
 "450 1454 CURVE SMOOTH",
-"542 1454 OFFCURVE",
-"636 1380 OFFCURVE",
+"494 1454 OFFCURVE",
+"538 1437 OFFCURVE",
+"584 1420 CURVE SMOOTH",
+"635 1401 OFFCURVE",
+"690 1380 OFFCURVE",
 "750 1380 CURVE SMOOTH"
 );
 }
@@ -211375,8 +211450,11 @@ nodes = (
 "624 1776 OFFCURVE",
 "584 1752 OFFCURVE",
 "528 1752 CURVE SMOOTH",
-"446 1752 OFFCURVE",
-"372 1830 OFFCURVE",
+"489 1752 OFFCURVE",
+"452 1770 OFFCURVE",
+"413 1788 CURVE SMOOTH",
+"370 1809 OFFCURVE",
+"324 1830 OFFCURVE",
 "272 1830 CURVE SMOOTH",
 "214 1830 OFFCURVE",
 "168 1806 OFFCURVE",
@@ -211385,8 +211463,11 @@ nodes = (
 "176 1750 OFFCURVE",
 "216 1774 OFFCURVE",
 "272 1774 CURVE SMOOTH",
-"354 1774 OFFCURVE",
-"428 1696 OFFCURVE",
+"311 1774 OFFCURVE",
+"348 1756 OFFCURVE",
+"387 1738 CURVE SMOOTH",
+"430 1717 OFFCURVE",
+"476 1696 OFFCURVE",
 "528 1696 CURVE SMOOTH"
 );
 }
@@ -211446,8 +211527,11 @@ nodes = (
 "914 1846 OFFCURVE",
 "858 1820 OFFCURVE",
 "774 1820 CURVE SMOOTH",
-"660 1820 OFFCURVE",
-"568 1902 OFFCURVE",
+"720 1820 OFFCURVE",
+"670 1839 OFFCURVE",
+"619 1858 CURVE SMOOTH",
+"562 1879 OFFCURVE",
+"502 1902 OFFCURVE",
 "430 1902 CURVE SMOOTH",
 "338 1902 OFFCURVE",
 "278 1878 OFFCURVE",
@@ -211456,8 +211540,11 @@ nodes = (
 "286 1640 OFFCURVE",
 "342 1666 OFFCURVE",
 "426 1666 CURVE SMOOTH",
-"540 1666 OFFCURVE",
-"632 1586 OFFCURVE",
+"480 1666 OFFCURVE",
+"530 1648 OFFCURVE",
+"581 1629 CURVE SMOOTH",
+"638 1608 OFFCURVE",
+"698 1586 OFFCURVE",
 "770 1586 CURVE SMOOTH"
 );
 }
@@ -211517,8 +211604,11 @@ nodes = (
 "888 1778 OFFCURVE",
 "836 1756 OFFCURVE",
 "760 1756 CURVE SMOOTH",
-"658 1756 OFFCURVE",
-"564 1830 OFFCURVE",
+"711 1756 OFFCURVE",
+"665 1773 OFFCURVE",
+"616 1790 CURVE SMOOTH",
+"562 1810 OFFCURVE",
+"505 1830 OFFCURVE",
 "440 1830 CURVE SMOOTH",
 "360 1830 OFFCURVE",
 "304 1810 OFFCURVE",
@@ -211527,8 +211617,11 @@ nodes = (
 "312 1750 OFFCURVE",
 "364 1772 OFFCURVE",
 "440 1772 CURVE SMOOTH",
-"542 1772 OFFCURVE",
-"636 1698 OFFCURVE",
+"489 1772 OFFCURVE",
+"535 1755 OFFCURVE",
+"584 1738 CURVE SMOOTH",
+"638 1718 OFFCURVE",
+"695 1698 OFFCURVE",
 "760 1698 CURVE SMOOTH"
 );
 }
@@ -211594,8 +211687,11 @@ nodes = (
 "968 1848 OFFCURVE",
 "904 1828 OFFCURVE",
 "810 1828 CURVE SMOOTH",
-"666 1828 OFFCURVE",
-"562 1902 OFFCURVE",
+"740 1828 OFFCURVE",
+"679 1846 OFFCURVE",
+"617 1864 CURVE SMOOTH",
+"551 1883 OFFCURVE",
+"484 1902 OFFCURVE",
 "402 1902 CURVE SMOOTH",
 "294 1902 OFFCURVE",
 "222 1878 OFFCURVE",
@@ -211604,8 +211700,11 @@ nodes = (
 "232 1638 OFFCURVE",
 "296 1658 OFFCURVE",
 "390 1658 CURVE SMOOTH",
-"534 1658 OFFCURVE",
-"638 1586 OFFCURVE",
+"460 1658 OFFCURVE",
+"521 1641 OFFCURVE",
+"583 1623 CURVE SMOOTH",
+"649 1605 OFFCURVE",
+"716 1586 OFFCURVE",
 "798 1586 CURVE SMOOTH"
 );
 }
@@ -225554,6 +225653,10 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
+},
+{
+name = "Name Table Entry";
+value = "New Value";
 }
 );
 interpolationWeight = 34;
