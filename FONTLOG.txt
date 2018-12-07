@@ -1,0 +1,1406 @@
+Encode Sans Fonts
+=================
+
+![](sample.png)
+
+Forked from Pablo Impallari's original repo, in order to upgrade the family to a
+variable font, as well as to add in some small refinements.The description from
+the original is:
+
+> The Encode Sans family is a versatile workhorse. Featuring a huge range of
+weights and > widths, it's ready for all kind of typographic challenges. It also
+includes Tabular and > Old Style figres, as well as full set of Small Caps and
+other Open Type features.
+>
+> Designed by Pablo Impallari and Andres Torresi.
+>
+> Released under the SIL Open Font License.
+>
+> #### Encode Sans covers all 104 Latin Languages:
+>
+> Afar, Afrikaans, Albanian, Azerbaijani, Basque, Belarusian, Bislama, Bosnian,
+Breton, > Catalan, Chamorro, Chichewa, Comorian, Croatian, Czech, Danish, Dutch,
+English, Esperanto, > Estonian, Faroese, Fijian, Filipino/Tagalog, Finnish,
+Flemish, French, Gaelic (Irish / > Manx / Scottish), Gagauz, German, Gikuyu,
+Gilbertese/Kiribati, Greenlandic, Guarani, > Haitian_Creole, Hawaiian, Hungarian,
+Icelandic, Igo/Igbo, Indonesian, Irish, Italian, > Javanese, Kashubian,
+Kinyarwanda, Kirundi, Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai, >
+Luxembourgish, Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese, >
+Moldovan/Moldovian/Romanian, Montenegrin, Nauruan, Ndebele, Norwegian, Oromo, >
+Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, Romansh, Sami, Samoan,
+Sango, > Serbian, Sesotho, Setswana/Sitswana/Tswana, Seychellois_Creole,
+SiSwati/Swati/Swazi, > Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho,
+Spanish, Swahili, Swedish, Tahitian, > Tetum, Tok_Pisin, Tongan, Tsonga, Tswana,
+Tuareg/Berber, Turkish, Turkmen, Tuvaluan, > Uzbek/Usbek, Wallisian, Walloon,
+Welsh, Xhosa, Yoruba, Zulu.
+
+# Build Process
+
+The sources can be built with FontMake, but I've put together some build scripts
+to pass the fonts through some steps that fix metadata issues.
+
+To operate the scripts within this repo, install requirements with:
+
+```
+pip install -r requirements.txt
+```
+
+You can then build sources by running shell scripts in `sources/scripts/`.
+
+```
+sources/scripts/build.sh [OPTIONS]
+```
+
+Add one of the are the following flags to build the fonts:
+
+`--statics` or `-s` to build the static TTF instances (there are 45, so it takes
+awhile)
+
+`--linked` or `-l` to build the split variable fonts (split into 5 width families,
+each with a variable weight axis)
+
+`--full` or `-f` to build the one full variable font, with weight & width axes
+
+`--all` or `-a` to build all of the fonts and take a coffee break.
+
+(Thanks to [@mjlagattuta](https://github.com/mjlagattuta)) for coming up with the
+way to add flags, and to [@jonalmeida](https://github.com/jonalmeida) for writing
+[such a good blog post about
+it](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-
+bash/)).
+
+The first time you run the build, you will need to give run permissions to the
+build scripts.
+
+On the command line, navigate to the project folder (`cd Encode-Sans`), and then
+give permissions to the shell scripts with:
+
+```
+chmod -R +x sources/scripts
+```
+
+The `-R` applies your permission to each of the shell scripts in the directory,
+and the `+x` adds execute permissions. Before you do this for shell scripts, you
+should probably take a look through their contents, to be sure they aren't doing
+anything bad. The ones in this repo simply build from the Encode Sans GlyphsApp
+sources.
+
+# Variable font upgrade project documentation
+
+Notes were taken throughout the variable font upgrade project and added to the
+[docs](/docs) directory. I tend to take notes while working anyway, in order to
+think through problems and record solutions for later reference. In this project,
+I have included these in the repo so that others might find references to solve
+similar problems, especially because variable font-making processes are relatively
+new, and there is a general scarcity of online knowledge on font mastering.
+Because they were often made alongside work, the notes can at times be a bit
+disjointed. Hopefully they are still helpful to others!
+
+If you have any questions about the project or the notes, feel free to file an
+issue or to reach out to Stephen Nixon via Twitter
+([@thundernixon](https://twitter.com/thundernixon)) or other social media
+(typically also @thundernixon).
+
+# Further work-in-progress in `wip` branch
+
+There are a few details currently still being cleared up and improved. While this
+is happening, this work will take place in the `wip` branch, and the latest font
+outputs will be moved into the `master` branch as they are created.
+
+
+____
+
+Designers:
+
+Pablo Impallari <impallari@gmail.com>
+Andres Torresi <info@andrestorresi.com.ar>
+Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Marc Foley <m.foley.88@gmail.com>
+Stephen Nixon <stephen@thundernixon.com>
+
+____
+
+Changelog:
+
+commit 8e05049e40f239adf4fa2e78514094b4517ba8a4
+Author: Pablo Impallari <impallari@gmail.com>
+Date:   Sun Aug 10 16:52:04 2014 -0300
+
+    Initial commit
+
+commit 309127d7bdf99b7a75b8164a1f8d2b586d09923f
+Author: Pablo Impallari <impallari@gmail.com>
+Date:   Sun Aug 10 17:00:07 2014 -0300
+
+    Uploading v1.002
+    
+    Widths renamed to match CSS3 font-stretch specifications
+
+commit 129be31b8ef93fda5a4bc3806bf73255d918a657
+Author: Pablo Impallari <impallari@gmail.com>
+Date:   Sun Aug 10 17:08:11 2014 -0300
+
+    Uploading v1.002 Masters
+    
+    Widths renamed to match CSS3 font-stretch specifications
+
+commit 11162b46892d20f55bd42a00b48cbf06b5871f75
+Author: Pablo Impallari <impallari@gmail.com>
+Date:   Mon Aug 11 13:39:07 2014 -0300
+
+    Update to remove "Normal" from name
+
+commit 6f463a4580baf35f35c54805a5093ad741d0e21b
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Wed Nov 2 01:02:38 2016 +0100
+
+    First steps
+    
+    Moved folders around and started to work on the outlines.
+
+commit bb06ec8e4d455eaed1ce2a2c793d62d6a000aba1
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Wed Nov 2 17:11:54 2016 +0100
+
+    First steps
+    
+    Made some drawing to decide the overall direction of the design.
+
+commit 1164e7c96b6a1bb7e60cc5888419ebd341967c00
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Nov 3 20:35:40 2016 +0100
+
+    For Pablo
+    
+    In between commit for Pablo
+
+commit 36e6ae9c92382eb7441e923bb4bbccf846fcd899
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Fri Nov 4 00:08:10 2016 +0100
+
+    Directions
+    
+    Pablo and I decided on how the basic design should look.
+
+commit a3197d6af4864b30df3e28cc833e13b7c8ddcea2
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Tue Nov 8 01:04:40 2016 +0100
+
+    Working
+    
+    I have been on the lc of the Thin masters.
+
+commit 7ead2dc8f7a0d6fc74cb388d87789f2c611f68c1
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Wed Nov 9 01:05:27 2016 +0100
+
+    Working
+    
+    Worked on the uppercase.
+
+commit c870322f137e32ec109301b13011502ded42aef6
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Nov 10 00:21:00 2016 +0100
+
+    Working
+    
+    Worked on the uppercase.
+
+commit 24a62a262a63cd66790d11bdf0b6a699029192dc
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Fri Nov 11 00:26:41 2016 +0100
+
+    Working
+    
+    Completed the upper case and corrected the anchors
+
+commit f7a4917507bf4bd3c59591c7ae3233a4a7e8248d
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sat Nov 12 00:52:14 2016 +0100
+
+    Working
+    
+    Filling encoding and lining figures.
+
+commit 2615851fd453d1bc86bb38e9f37250311d872e08
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sun Nov 13 00:49:08 2016 +0100
+
+    Working
+    
+    Working on the numerals.
+
+commit 997e00ae5a0f482fff9deba6c72083d998cedccb
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Tue Nov 15 00:32:13 2016 +0100
+
+    Working
+    
+    Worked on the symbols and currency signs
+
+commit 39a58064859c6a6498710ff16bc231c10418eff9
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Wed Nov 16 00:40:26 2016 +0100
+
+    Working
+    
+    Symbols etc.
+
+commit 39901654ffb5619118e001f42c1ac35ca3998e5f
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Nov 17 00:01:04 2016 +0100
+
+    Working
+    
+    Symbols
+
+commit 8befb317c30afd9e5cec5d90c6da499835e6413d
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Fri Nov 18 01:09:48 2016 +0100
+
+    Working
+    
+    Worked on symbols and accents.
+
+commit 331d063d328e129fde15d764e1021928774d23c4
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sun Nov 20 00:27:07 2016 +0100
+
+    Working
+    
+    Corrected spacing in Thin masters.
+
+commit fcfb8cdb289a944835a3d227824f3f70c7643dc3
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Tue Nov 22 00:18:44 2016 +0100
+
+    Working
+    
+    Started working on the Condensed Black master.
+
+commit ed285f2ae92a87cbc7c1fec4481d8997c0e79454
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Wed Nov 23 00:52:38 2016 +0100
+
+    Working
+    
+    Lowercase Black Condensed.
+
+commit 66c4ff427d6344d70fcd17c012f15788f07d1006
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Nov 24 00:41:10 2016 +0100
+
+    Working
+    
+    Started working on the Expanded Black.
+
+commit 660d6af20f1bf43a7acbce7316e57b14f20d177b
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sat Nov 26 01:08:26 2016 +0100
+
+    Working
+    
+    Lowercase Black Expanded.
+
+commit 2279f9ba0442b9fc5af13177e3322b0b146f99bf
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Tue Nov 29 23:41:55 2016 +0100
+
+    Working
+    
+    Lowercase+diacritics.
+
+commit db3c2d64da0267cdf29b0091ffe70a092a6f8ca6
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sat Dec 3 00:29:45 2016 +0100
+
+    Working
+    
+    Uppercase done.
+
+commit f2dec36264ca8b4071d8483fe8af104ec5e19734
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Mon Dec 5 23:53:31 2016 +0100
+
+    Working
+    
+    Spacing capitals and start working on numerals.
+
+commit 4bd5ebbfc94c4e5953f79f6b3b46fd29cb9f469b
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Wed Dec 7 01:02:39 2016 +0100
+
+    Working
+    
+    Numerals
+
+commit cc51bf2a90001d9db58e2cd9c71b52940996c0e4
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Dec 8 00:40:26 2016 +0100
+
+    Working
+    
+    Numerals
+
+commit 91a9391ee38d27ca450f2b9ee282e1b8db9796ff
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Tue Dec 13 00:47:58 2016 +0100
+
+    Working
+    
+    Finished the small caps and generated the superior numerals.
+
+commit 57a49bd82fefb158720b36f3aa5b66ca73dead98
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Dec 15 00:55:50 2016 +0100
+
+    Working
+    
+    Superior numbers and symbols.
+
+commit 22f6311ec35812e8cffb52a1f9a6ed0d2a618661
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Fri Dec 16 01:15:17 2016 +0100
+
+    Working
+    
+    Punctuation and currency symbols.
+
+commit 54d5389c8c7208b7418b9d03d84048342077172e
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sat Dec 17 01:54:09 2016 +0100
+
+    Working
+    
+    Math signs
+
+commit 5b14fd752c3032a26bd4a7ae6da3fd703543f83b
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Sun Dec 18 23:26:38 2016 +0100
+
+    Working
+    
+    Finished complete Encoding
+
+commit 0439cf78b2e87752a5c245015ff77f2f819123ac
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Dec 22 00:58:00 2016 +0100
+
+    Kerning
+    
+    Working on the kerning/
+
+commit 5290cdc00fda6395a8c4eb19f881c22f1080e845
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Thu Dec 22 22:32:14 2016 +0100
+
+    Kerning and instances
+    
+    Finishing and preparing
+
+commit 825aa1350259c98db80f6f1d26a58115babe7e48
+Author: Jacques Le Bailly <fonthausen@baronvonfonthausen.com>
+Date:   Fri Dec 23 13:05:06 2016 +0100
+
+    Finish
+    
+    Done
+
+commit 99835360825ab2feb48a1b850ffc9d05c175f407
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 12:36:21 2017 +0100
+
+    .gitignore: added
+
+commit 3f6009dfa94e4f118de48eb421f3206e20b0f60a
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 12:36:49 2017 +0100
+
+    *.txt: added
+
+commit f3cf3394bf87bea7f575e0465aa2c4c420b5eb99
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 12:37:54 2017 +0100
+
+    sources: reorganised folder.
+    
+    Older wip files have been deleted. These file can be reacessed by checking
+    out previous commits.
+
+commit 033efe7e1262f78da468a14065e7ade7fc4d2797
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 13:39:10 2017 +0100
+
+    CONTRIBUTORS.txt: added
+
+commit cd29680429d866eb795c38db4d967b90c0e103df
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 13:40:21 2017 +0100
+
+    OFL.txt: updated
+
+commit 07642193796230a9ef3364c1281ff098be63fc90
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 13:40:43 2017 +0100
+
+    sources: .glyphs file now conforms to gfspec
+
+commit 3030474ba960c26443a2e50bcdc1ac45318897b4
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 13:45:43 2017 +0100
+
+    sources | OFL: renamed Encode to Encode Sans
+
+commit 60ea1a64e914541df216de3551e76d9f24433f96
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 13:49:40 2017 +0100
+
+    sources: fixed .glyphs OT code
+
+commit 597fd8c8809074adb7e5b3c2a7ae0ef24ce6e70f
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 15:00:59 2017 +0100
+
+    fonts: regenerated fonts
+
+commit 97a5aec311a5d19b27424e677a78a8204f93a7b6
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Tue Jan 3 14:45:56 2017 +0000
+
+    sources | fonts: updated font names and regenerated fonts
+
+commit 2fdfa4a372c09be36e26333202c919ee4fcb9547
+Merge: 11162b468 97a5aec31
+Author: Pablo Impallari <impallari@gmail.com>
+Date:   Fri Jan 27 07:54:50 2017 -0300
+
+    Merge pull request #2 from m4rc1e/master
+    
+    V2.000: Mastered for Google Fonts
+
+commit fc359280d110261a2e3ab1831b66740ef7361c8f
+Author: Marc Foley <m.foley.88@gmail.com>
+Date:   Mon Jan 30 16:25:11 2017 +0000
+
+    fonts | sources: Cahnged thing weight to 250.
+
+commit 370cdccdb22daf862c6fca0636aad64b6835decd
+Merge: 2fdfa4a37 fc359280d
+Author: Pablo Impallari <impallari@gmail.com>
+Date:   Fri Feb 3 14:52:05 2017 -0300
+
+    Merge pull request #3 from m4rc1e/master
+    
+    fonts | sources: Changed thin weight from 100 to 250.
+
+commit 354ae56f5c041374ba58619aa6f39cc9744b8a0d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 2 17:39:49 2018 -0400
+
+    generate varfont
+
+commit 15fcc474040ea493ea7be377dcfdde0af90b96f2
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 4 17:52:41 2018 -0400
+
+    trying to fix weight cliff and style naming issues with an edited designspace file
+
+commit 7a11512c08a5fe348df51d6d37c680659b286189
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 4 18:18:56 2018 -0400
+
+    editing designspace to test map effects
+
+commit f88cc202f0f5e53cec13d68fd3a4fc467997e50f
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 5 12:29:32 2018 -0400
+
+    making fixed versions
+
+commit 40a6ca8df6b54ca5e6e96657c0f3cbe08ba83526
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 8 16:04:28 2018 -0400
+
+    further exports
+
+commit 29c5b14fc07ed6f7fd5b7fd3c98282bea05bf2db
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 8 18:53:08 2018 -0400
+
+    generate static instances via fontmake; setting up local regression testing
+
+commit 6dbccf8a021976e17a4410ccc5abf8772621b6c4
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 9 15:12:52 2018 -0400
+
+    update drawbot test
+
+commit 9e4c802ada2ac7d70671588cce9edbaaa808450d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 9 16:57:11 2018 -0400
+
+    Generate static fonts via "mathfix" designspace and fontmake
+
+commit 69d3a05e5fd64ca65ce8bfeddd19a96d5a5fa830
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 9 18:44:11 2018 -0400
+
+    add old static vs new static drawbot test
+
+commit 288a278e5dd8ce31b3c3db627eaf805f5a7280bd
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 9 18:49:49 2018 -0400
+
+    simplify makeVar script further
+
+commit d5e980d581faeb609833c58c1664fca5d560b404
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 9 18:55:38 2018 -0400
+
+    remove outdated working files
+
+commit dfb7d1e9fd69a343d0c270971ddfec3282f9f0a3
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 9 19:19:12 2018 -0400
+
+    clean old file
+
+commit d057f7c9a7ab94041fdf8e9d8900d69c01f86304
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 10 12:49:20 2018 -0400
+
+    start script to fix glyphs source for exporting VF
+
+commit 4ed0be241084103f3101b7f6efcdfd5ad9f3c95a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 10 16:21:19 2018 -0400
+
+    create decomp version of source to generate new instances and VFs
+
+commit d9abec0f42df3e190072f0b348e73c093827db8d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 10 16:35:16 2018 -0400
+
+    font bake check
+
+commit 867653c51132a2a627d1607f5320b04d73061f1b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 10 19:08:24 2018 -0400
+
+    improving drawbot tests
+
+commit 2ae4932add5d3f75e9fa97e2456a513d8d8ebb06
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 10:45:21 2018 -0400
+
+    update drawbot test script for clarity
+
+commit 38a92899b915562b6917f25e5d980d8561f3c803
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 10:46:17 2018 -0400
+
+    clarify doc in drawbot test
+
+commit 5f4739c7bd328e9417c274cbc933a8a6a311fdf2
+Merge: 370cdccdb 38a92899b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 10:48:47 2018 -0400
+
+    Merge pull request #4 from thundernixon/make-variable
+    
+    Merging variable branch for ease of access
+
+commit 338befe08c302ee15754de6a03413983c64e9789
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 14:33:55 2018 -0400
+
+    adding build scripts from Mike LaGattuta
+
+commit 23ec3098ab2c2f179adf8ccb07b5c2bedbc1b82e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 15:14:41 2018 -0400
+
+    test build files
+
+commit b3943f581887913cc5576743f18c53df2adbcc12
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 15:36:00 2018 -0400
+
+    updating name patch xml
+
+commit f3dca92651d66e4a00de86fd45511656fc063e4e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 16:21:38 2018 -0400
+
+    correct values in patch xml build scripts
+
+commit 4f7a0d43ae05a44d63f476a95c373e70b29cbaff
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 17:33:57 2018 -0400
+
+    customized build shell script to Encode
+
+commit 07c10ce66b4ec81a215d3b1ca231b780aed9f5a6
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 17:54:29 2018 -0400
+
+    improve fix-designspace script for Encode
+
+commit 0b1d7d91e1a3a28af17c1698e7c81e86203188ba
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 18:38:43 2018 -0400
+
+    add fontback to build script
+
+commit 70d94cd9a2f604c271d8cbca011eea9a14ece339
+Merge: 0b1d7d91e 5f4739c7b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 18:46:47 2018 -0400
+
+    Merge branch 'master' of github.com:thundernixon/Encode-Sans
+
+commit 7f9f91c0ab3454e3f0536deadd8ae6cbe7016caf
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 11 19:05:19 2018 -0400
+
+    rebuild
+
+commit 0d1581187ef02885c7c814df607ccc71e1fc400a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 10:57:05 2018 -0400
+
+    editing build script
+
+commit afae41aac61a9990352cb8b5976b16deeb2b7a2d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 12:31:12 2018 -0400
+
+    add xml fixing helper script
+
+commit 934a702e410765a8c5cf43b7a5a5f435e54189e3
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 12:31:21 2018 -0400
+
+    start wghtDict in designspace fixer
+
+commit 7e52e3591a84006b4f519062cc4472f1d5b51de0
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 15:11:53 2018 -0400
+
+    make weight outputs same from fix-designspace script
+
+commit c6ae31b1de61c5e94a05048cfba52bfbeb6d6a7b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 15:31:20 2018 -0400
+
+    re-export with consistent wght values
+
+commit 9b785e40a68aaa79c34eacc87ce902dedc0ebfba
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 18:03:33 2018 -0400
+
+    rebuild with better patches
+
+commit f92e7f97b360ab32f5790cb442236ee958052206
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 12 20:24:02 2018 -0400
+
+    build
+
+commit 4dddbe1adb0d9ef159a4769217a9505988e4688d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 13:44:44 2018 -0400
+
+    Re-download Pablo's GlyphsApp source to be sure its building from the original
+
+commit ab1e817c487c5f63bc4fcce02d5652d08d558d0a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 14:22:22 2018 -0400
+
+    rebuild VF, update drawbot test
+
+commit 54c3549db549ea86cd2da4f7c75a637d5bd0c8f0
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 16:24:29 2018 -0400
+
+    Correct error leading to missing axis name
+
+commit d128ace25c7bf387835d35f5cf37ddb5afaef5b4
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 16:24:54 2018 -0400
+
+    typo fix
+
+commit 199b9ef035d95107a8215cd36f29982df2d38109
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 16:25:40 2018 -0400
+
+    build
+
+commit d866fc295b72b6f1e545fdbf6798e19cca2f0abb
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 17:34:37 2018 -0400
+
+    build and move into timestamped folder
+
+commit e537cbf3dda042cab8e0f08070e3e9f2e5ad123e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Oct 15 17:39:47 2018 -0400
+
+    update build to not save temp source
+
+commit 1dfa6df5a718e39b00dfad2cc2442cbaea80642d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Oct 16 14:08:58 2018 -0400
+
+    rebuild
+
+commit 2e5e25f462172b3f2e8b7cc03738a8a4888dc5a4
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 17 09:12:45 2018 -0400
+
+    clean and check build script
+
+commit 7dc54a0cd02b684eeac7b65ea57599c2b44cd89a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 12:29:24 2018 -0400
+
+    fontbake
+
+commit b9e2c413be03fa338c1b72bc42afff283012d0b5
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 15:50:17 2018 -0400
+
+    convert dropbox paper to markdown in docs
+
+commit 307de02bd11c59cf7e8947c6d840da6d58c6c2a6
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 16:01:11 2018 -0400
+
+    make alt tags into little captions before images
+
+commit 111484cdd1b1d9a065688cadfe09aef4e99f696d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 16:55:08 2018 -0400
+
+    regenerate VF and add detail to docs
+
+commit 03c39198ba59c560e2f7e63b7f2c66554799706a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 17:48:31 2018 -0400
+
+    add detail to docs
+
+commit 6735c57feb83ba2330201e654af901a56866daaa
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 17:50:52 2018 -0400
+
+    updates
+
+commit 7d8d7db29304863c4adcc29723320bcc7912b315
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Oct 25 18:00:13 2018 -0400
+
+    add FontVal errors
+
+commit 8ad86fd04608a509fe8a0a5e148c0f49e206af32
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 10:41:10 2018 -0400
+
+    move fontval errors to issue 1
+
+commit ff8766d23f0e4c2b8de351caa82d060cb02e0dfe
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 11:18:52 2018 -0400
+
+    remove unecessary python WIP file
+
+commit 220678a6198ad10268aad75de421d0cc57744f8e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 15:11:19 2018 -0400
+
+    pull in real original glyphs source, work to fix ds morph issue
+
+commit ce357b27accaad8d1cdf8ce261a5e77ffffad362
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 15:40:13 2018 -0400
+
+    build from ufo designspace
+
+commit ace6bc51277392f27ac848e1c30bb94eec4d5b01
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 16:42:34 2018 -0400
+
+    making designspace fixer variable less manual
+
+commit 8404d9ef6711b8db255a809ef547c789fc7b09e8
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 17:24:03 2018 -0400
+
+    auto-find indexes of wide light and cond bold masters
+
+commit dcc7bd8b014c12fc401e14284f517045446ca9d8
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 17:35:15 2018 -0400
+
+    move better build into dist folder
+
+commit 34ca52472ada437f5e22260bff53c044650534ec
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 17:38:32 2018 -0400
+
+    update docs
+
+commit fab1e3d4f515da774ae13c2eb6fec9b0f787b9e5
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Oct 26 18:27:16 2018 -0400
+
+    doc results
+
+commit 1e047a428a4af53982ac43c008cbe88ae5e62eec
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 31 12:24:29 2018 -0400
+
+    copy TTX to diff PairPos tables
+
+commit 59464aed27534fee3b08752303584c539f94471d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 31 12:35:44 2018 -0400
+
+    format pairset tables as xml
+
+commit 106c57f66b07dd68cde154417758d5466c869ed8
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Oct 31 12:41:28 2018 -0400
+
+    update doc
+
+commit 6a703fe8609f2635636252652f02d7b2e8c7c272
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 15:16:58 2018 -0400
+
+    formalize uppercase German double S
+
+commit 2d21ef44e2fcac0c270a41a906df1516da8df9e9
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 15:18:23 2018 -0400
+
+    slightly thicker leg on light R
+
+commit 08a302a0dde7e3d5e5d6e29d2d7af456c77b370a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 16:02:58 2018 -0400
+
+    document updated Germandbls
+
+commit 3ece2ba791579afc8689f589a353a6bbcadb0fd5
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 16:19:31 2018 -0400
+
+    refine German double S
+
+commit bca3550da800824be13e729569e0ff21da71d3dc
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 17:13:04 2018 -0400
+
+    update docs
+
+commit 6b499f7d8bcf3f60644545f476ba6259bbcb286e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 18:07:06 2018 -0400
+
+    add docs
+
+commit fcfde74e64aa7a16a3fed062f58cbb81c390d45f
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 1 18:14:03 2018 -0400
+
+    add to docs
+
+commit 56418385872e8f55f6ab2547ca9ebc09cbd7124a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 2 16:03:01 2018 -0400
+
+    refine cap /Germandbls
+
+commit c1091b7f19a6be9ccedb5d708417d92471becf01
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 2 16:23:36 2018 -0400
+
+    moderate and refine curves in /Germandbls cap and smallcap
+
+commit d9b57b1b6b9e89ee4ea26c157870df563f30470b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 2 16:31:59 2018 -0400
+
+    document Germandbls update
+
+commit ba903a06eeb4e7d2f492d764b209454b286ec132
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 2 17:01:51 2018 -0400
+
+    make /lslash diagonal terminals vertical to match typeface
+
+commit 887b77bd88fc36ba0cdee969aa8b9c138d8a05f5
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 2 17:54:00 2018 -0400
+
+    make Oslash terminals horizontal
+
+commit da0d816d26da8d689a453cf6e1cb792e6e1872ea
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 2 18:02:50 2018 -0400
+
+    improve oslashes, document
+
+commit e3b4ce3b59e88f9aa039bedce50838599d83d809
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Sat Nov 3 10:32:09 2018 -0400
+
+    add todo
+
+commit 1c97f3e30db2458a60c186267c29f6e78afe398b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 22 21:17:17 2018 -0500
+
+    kerning now working!
+
+commit e62e95ec1d730e976a185a18bf5034eb6213eec8
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 13:17:56 2018 -0500
+
+    working through fontbakery issues and documenting
+
+commit d1c1634c1a362187ab376011a28f28b730697c39
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 15:12:18 2018 -0500
+
+    describing OTS error
+
+commit b1f7d6add778a3c9fa43fa1e9a0739d4d3aa2dfc
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 15:39:07 2018 -0500
+
+    doc naming checks
+
+commit aa5f1a6e88f979f74c802b1f1cef62153bd75ee2
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 17:58:22 2018 -0500
+
+    exporting statics
+
+commit b8a3e46fdf759821e24a9c9a525d64b828b56380
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 17:58:57 2018 -0500
+
+    cleanup
+
+commit 11bef3e689675978b66960ce1d23e59dd02aa523
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 19:21:00 2018 -0500
+
+    setting up static builds
+
+commit e22ba4755eef6ebef586ac5456e9d75725461f0d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 23 19:22:00 2018 -0500
+
+    doc
+
+commit 93193817bfe6adde65ce3d5b3bba1c05f703395f
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Sat Nov 24 20:36:30 2018 -0500
+
+    making script to abbreviate names in xml
+
+commit 97ca17e4d4fc8bd017d19b863133bdde2ee53aa8
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Sat Nov 24 21:35:43 2018 -0500
+
+    making python file fix and rename
+
+commit 0cd7bd69b3762b4a0c74c23fe5ea97b5b1b62de6
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Sat Nov 24 21:50:33 2018 -0500
+
+    successfully shorten names
+
+commit 9c21a54fa89e384b9cfe97bb254e26a0e4df531e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Sat Nov 24 22:08:16 2018 -0500
+
+    update build script with dsig and name-fixing script for ttf and otf statics
+
+commit 6bef5fbd30b5ea6696252339997c7615df5482cc
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Nov 26 12:49:13 2018 -0500
+
+    make xml name abbrv script work on OTF
+
+commit c5eb4d08985e860abf8f7bceb6ce198604992714
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Nov 26 12:55:01 2018 -0500
+
+    update requs
+
+commit 4b291be622d4f96a964c74ce943277bfd419dd5b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Nov 26 12:57:48 2018 -0500
+
+    update doc
+
+commit d99912b3c6153cb961675a25c8fb54cbfca23139
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Nov 26 16:08:38 2018 -0500
+
+    document questions for Micah
+
+commit e5d9695ab19179ed1f11c36006821607c7327d3e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Nov 26 18:07:59 2018 -0500
+
+    add doc section on outline QA
+
+commit 92695600e2c5e81f4f9f5d17bf5e696758583e3c
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Nov 27 14:43:04 2018 -0500
+
+    setting up vf splitting
+
+commit 2333687541644b58b7fa48aef40d8006f292e92b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Nov 27 16:15:24 2018 -0500
+
+    figuring out logic of vf splitter
+
+commit 74d99b5e1462d9ef85382a82a8b72c00211bacc2
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Nov 27 16:54:17 2018 -0500
+
+    WIP - saving to separate build sources
+
+commit 5068ffa46ef69d831e81a4d3dde0b5f994f5afe9
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Nov 27 16:54:22 2018 -0500
+
+    WIP font
+
+commit 325969100942c0c483b30761408ce0d35afe8a1a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Nov 27 19:16:53 2018 -0500
+
+    delete unnecessary instances in build files
+
+commit 23f5866778dbf4c9017f8e8872b302b3f6356fc6
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 00:01:13 2018 -0500
+
+    update name
+
+commit bcb883b6ac3468a57b5c4e9ea56c8faa2b513bdb
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 00:01:24 2018 -0500
+
+    making headway on git remote control
+
+commit ee789d08863e0d4e7c62f37a5ff4c4c6b578aab8
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 14:14:38 2018 -0500
+
+    split source into width-based sources
+
+commit 2b393a6d978ccf1fd465ba56e4e92b938bd7c350
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 15:31:51 2018 -0500
+
+    split VF build script working
+
+commit 947903847464d14cd6bd9a2ff55e3cf6416f5e61
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 15:32:03 2018 -0500
+
+    split VF build script working
+
+commit 3ee166d642ec162df4e9e4b51c43a8fa12be567b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 17:47:47 2018 -0500
+
+    working on exporting fonts and improving name metadata
+
+commit 04e466e4622fdf88c78233336d86109a8b477629
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Nov 28 18:06:04 2018 -0500
+
+    update QA doc
+
+commit 0a5cb7d59b6944297c891d1290f8a92682534efe
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Nov 29 12:13:08 2018 -0500
+
+    update readme
+
+commit 7ddcd9a0d8d15db963f9adc2bd29c0c3cb0ad506
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 06:45:24 2018 -0500
+
+    testing fonts with diffenator
+
+commit a3caf83c15b82266199937e19077742321010060
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 07:26:23 2018 -0500
+
+    check diffenator results
+
+commit 1e9e8b8c60dac8cee7da0a05216f8058902df591
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 08:36:10 2018 -0500
+
+    add to readme
+
+commit c24d527a847c393c4ff56a02316e4cae4bc96256
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 08:56:25 2018 -0500
+
+    cleaning master branch
+
+commit 63de660ccb8f9024f4f806fac9894e58bb0411c4
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 08:56:40 2018 -0500
+
+    move scripts dir into sources
+
+commit 972f360fdff96cbee25a0bafb08d964382ff9f72
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 08:59:27 2018 -0500
+
+    cleaning repo
+
+commit af71cb7e8d4e6997576ab28986a9677e84cfdb6c
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 09:04:38 2018 -0500
+
+    organizing repo
+
+commit b5da06f0f72d1b84f37f937bfc99efa544f138a3
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 09:08:04 2018 -0500
+
+    add to contributors
+
+commit db347db2691e89c945980221043a27577e395349
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 09:11:29 2018 -0500
+
+    cleaning repo
+
+commit 697a071cf1348dbee534c9d60f51f25283e2d5b9
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 09:11:50 2018 -0500
+
+    cleaning repo
+
+commit ca2c09c1b6293380715b188ee45dcbc940c4bc8e
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 14:04:57 2018 -0500
+
+    sorting fonts to match google/fonts repo structure
+
+commit e64787d0004eeeeed50cec56885bc5764cf70ced
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 14:05:14 2018 -0500
+
+    sorting to match google/fonts repo
+
+commit 56d08c98f65acdf61540f8c96036ba67bfe39898
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 14:07:00 2018 -0500
+
+    delete generated intermediate files
+
+commit 0c3e882a5eb9a4403ea911d0b86e791c9531d7a5
+Merge: 56d08c98f e64787d00
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 14:07:24 2018 -0500
+
+    Merge branch 'master' into wip
+
+commit 3bedeb5b5247bdbd42131654dc394d1ba137828d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 16:48:54 2018 -0500
+
+    organize more like a typical gfonts repo
+
+commit 55bd15a258081c9c2d6cb7df39211d3fdf60dba1
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 16:49:20 2018 -0500
+
+    this was made into the designspace fix script
+
+commit b6d47f8c3471c04973ae8dcae64b94ec6f22761f
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 18:14:40 2018 -0500
+
+    building to clear fontbakery issues
+
+commit 5a3de58db9f245ea8cd84635c3984bf08e5fed7a
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Nov 30 22:14:21 2018 -0500
+
+    adding hinting to full VF build
+
+commit f90ca4ee51566496ee7b8ed0ae5a1bd521487914
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 13:19:40 2018 -0500
+
+    add metadata for VF
+
+commit 0c86af9432333ae8ba8e948635a20a43d8acef5d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 13:35:16 2018 -0500
+
+    set up metadata pb files
+
+commit 8bd8278500f7a10dec6fd6ed095870af45b511c7
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 13:35:25 2018 -0500
+
+    set up metadata files
+
+commit bc1673bb5b4c9d574d3ec86285ea294a9e71ad07
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 13:37:36 2018 -0500
+
+    remove fontbakery reports
+
+commit 94094a0f33b01cc255db2b9ea5cca1eb5f271c0d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 16:33:32 2018 -0500
+
+    processing metadata updates
+
+commit 21bfa5a2aab57155d11f36ec3fbb749bd13bdde0
+Merge: bc1673bb5 94094a0f3
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 16:34:57 2018 -0500
+
+    Merge branch 'wip'
+
+commit 703a10b907b09c97983bdd4ec859489255f5ee02
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 17:03:29 2018 -0500
+
+    remove unhinted VF
+
+commit 2702034762534032c82e42768d91ba846214338b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 17:03:35 2018 -0500
+
+    updating metadata
+
+commit 508c1606c9bf2e9bf63568d9230fcac850805f3c
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 17:48:20 2018 -0500
+
+    adjusting split build for just normal width
+
+commit 5df534df32c558e472f5c8e62af9f390ab96a727
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 17:48:32 2018 -0500
+
+    fixing metadata for split normal-width VF
+
+commit 445bf17aabbf9e5b8aa1d5d9399d5a0562e95ebd
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 17:51:56 2018 -0500
+
+    remove non-normal-width VFs
+
+commit a898be6a3ca41b47490e59bea0abad075bce0811
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 18:02:57 2018 -0500
+
+    apply name, stat to normal-width build
+
+commit 239a1901503dedbd716ea8883765acb6785eca64
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 18:59:59 2018 -0500
+
+    working through normal-width VF
+
+commit dbeb0a9e466a4623fd61ae67be48ba06b8bbeb73
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Mon Dec 3 19:08:02 2018 -0500
+
+    update ttx
+
+commit cf3944bd6cd055dda126fe08e0f680e95878475b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Dec 4 11:00:54 2018 -0500
+
+    fix mismatch in stat & name table patchs
+
+commit e6fc263f87f4f10693425ce7eedc3feb3c93bf7c
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Dec 4 12:53:04 2018 -0500
+
+    testing patch values
+
+commit e23631efc3789e1b39de172ae6fefc31fd30e4e5
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Dec 4 14:39:51 2018 -0500
+
+    rename for clarity
+
+commit 9ca3dfc06ab704de2d59ccbe462bd2ca988da41c
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Tue Dec 4 18:44:23 2018 -0500
+
+    cleaning repo and testing with fontbakery
+
+commit 0578ea03ab9994b0d100d3bf6015842c5aa1892d
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Dec 5 10:21:08 2018 -0500
+
+    Update info on font naming and fontbakery checks
+
+commit d80a5bf4a3268110fb326c69f8c1fa97100d0b6b
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Dec 5 17:26:24 2018 -0500
+
+    generate fresh static fonts & fontbake test
+
+commit 1f9247edfe34bafb3ce5778968459c4fe5655d75
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Wed Dec 5 19:02:55 2018 -0500
+
+    building and fontbaking statics
+
+commit 5afb9330a7450aac273b327c0e6b6b3e74cc1dd0
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Dec 6 15:05:20 2018 -0500
+
+    fixing detail issues in glyph outlines with Red Arrows & FonAudit
+
+commit b544d2183e027a56cf499eaff15ac27618df1645
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Dec 6 16:25:09 2018 -0500
+
+    building statics; starting readme image
+
+commit 2e75a94e91e8222f2331b8428274ea113a1af6ab
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Thu Dec 6 17:56:03 2018 -0500
+
+    add sample image
+
+commit c9d0582473c86ce0df766616ef3817f752833ce9
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Dec 7 09:48:22 2018 -0500
+
+    improve sample image
+
+commit da493a1aed3808a2d6c65c719315945dd73d6f96
+Author: Stephen Nixon <swr410@gmail.com>
+Date:   Fri Dec 7 10:34:56 2018 -0500
+
+    higher-resolution font image
