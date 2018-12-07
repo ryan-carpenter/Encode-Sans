@@ -41,7 +41,7 @@ stroke(1)
 textBox(charSet, (padding, -8, W-padding*2, H-padding/2))
 # print(charSet)
 
-saveImage("charset.pdf")
+# saveImage("charset.pdf")
 
 
 fill(1,0,0)
@@ -65,4 +65,4 @@ fontName += "DE"
 textBox(fontName, (padding, 0, W-padding*2, H-padding*1.3))
 
 
-saveImage("charset-tall2.png")
+saveImage("charset-tall2.png", imageResolution=144)
