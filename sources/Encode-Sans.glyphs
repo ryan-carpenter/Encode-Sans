@@ -1,12 +1,7 @@
 {
 .appVersion = "1184";
 DisplayStrings = (
-"/Ohorn/Ohorntilde/OE QR/Uogonek Xa/aogonek/eng \012/jdotless/j.sc J/I_J.loclNLD/jdotless j/i_j.loclNLD/i_j.loclNLD.sc/LJ/Lj/lj/j.sc/lj.sc t/ohorn/ohorntilde st/uhorntilde xy/j.sc/eng.sc/ohorn.sc/ohorntilde.sc/oe.sc/q.sc/r.sc/uhorntilde.sc/x.sc ª/pi/pi.tf 248/four.osf/eight.osf/two.tf/four.tf/eight.tf/two.tosf/four.tosf/eight.tosf/two.dnom/five.dnom/eight.dnom/two.numr/five.numr/eight.numr !¡?¿'/quotedbl.tf/quotesingle.tf/florin/manat/peseta/rupeeIndian/uni20BF/uni20BF.tf/florin.tf/manat.tf/peseta.tf/rupeeIndian.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf/asciitilde.tosf/infinity.tosf @&/daggerdbl/servicemark/brevecomb/tildecomb/hookabovecomb/breveinvertedcomb/brevebelowcomb/tildecomb.case/hookabovecomb.case/brevebelowcomb.case/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/slashcomb",
-"/Ohorn/Ohorntilde/OE R/Uogonek Xa/aogonek/eng/ohorn/ohorntilde st/uhorntilde xy/j.sc/eng.sc/ohorn.sc/ohorntilde.sc Q/oe.sc/q.sc/r.sc/uhorntilde.sc/x.sc ª/pi/pi.tf 248/four.osf/eight.osf/two.tf/four.tf/eight.tf/two.tosf/four.tosf/eight.tosf/two.dnom/five.dnom/eight.dnom/two.numr/five.numr/eight.numr !¡?¿'/quotedbl.tf/quotesingle.tf/florin/manat/peseta/rupeeIndian/uni20BF/uni20BF.tf/florin.tf/manat.tf/peseta.tf/rupeeIndian.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf/asciitilde.tosf/infinity.tosf @&/daggerdbl/servicemark/brevecomb/tildecomb/hookabovecomb/breveinvertedcomb/brevebelowcomb/tildecomb.case/hookabovecomb.case/brevebelowcomb.case/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/slashcomb",
-"Q/Ohorn/Ohorntilde/OE QX/ohorn/ohorntilde/oogonek sßt/uhorntilde x/g.sc/ohorn.sc/ohorntilde.sc/oogonek.sc/oe.sc/q.sc/r.sc/uhorntilde.sc/uogonek.sc/x.sc/Omega.tf/pi/pi.tf 48/two.osf/four.osf/eight.osf/two.tf/four.tf/two.tosf/four.tosf/two.dnom/eight.dnom/two.numr/eight.numr !¡?¿'/quotedbl.tf/quotesingle.tf/guarani/manat/peseta/manat.tf/peseta.tf/rupeeIndian.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf/asciitilde.tosf/infinity.tosf @&§/ampersand.sc/tildecomb/hookabovecomb/brevebelowcomb/tildecomb.case/hookabovecomb.case/brevebelowcomb.case/slashshortcomb.sc/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/slashcomb",
-"Q/Ohorn/Ohorntilde/Oogonek/OE PÞSa/aogonek ð/ohorn/ohorntilde/oogonek ß/uhorntilde/ae.sc/g.sc/j.sc/eng.sc/ohorn.sc/ohorntilde.sc/oogonek.sc/oe.sc/q.sc/s.sc/uhorntilde.sc/uogonek.sc/z.sc ª25/two.osf/five.osf/five.tf/two.tosf/five.tosf/two.dnom/five.dnom/eight.dnom/two.numr/five.numr/eight.numr $/guarani t/peseta P/peso/peseta.tf/peso.tf/approxequal ~/infinity/integral/approxequal.osf/asciitilde.osf/infinity.osf/approxequal.tf/asciitilde.tf/infinity.tf/integral.tf/approxequal.tosf ~/asciitilde.tosf/infinity.tosf @&¶§/servicemark/ampersand.sc/tildecomb/hookabovecomb/tildecomb.case/hookabovecomb.case/slashshortcomb.sc/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/Oogonek/oogonek/ae.sc Æ/oogonek.sc",
-"txy~/Placeholder",
-"/tildecomb"
+"ø"
 );
 classes = (
 {
@@ -202220,8 +202215,11 @@ nodes = (
 "940 1522 OFFCURVE",
 "876 1496 OFFCURVE",
 "790 1496 CURVE SMOOTH",
-"666 1496 OFFCURVE",
-"562 1598 OFFCURVE",
+"730 1496 OFFCURVE",
+"674 1520 OFFCURVE",
+"617 1545 CURVE SMOOTH",
+"557 1571 OFFCURVE",
+"494 1598 OFFCURVE",
 "422 1598 CURVE SMOOTH",
 "322 1598 OFFCURVE",
 "250 1572 OFFCURVE",
@@ -202230,8 +202228,11 @@ nodes = (
 "260 1316 OFFCURVE",
 "324 1342 OFFCURVE",
 "410 1342 CURVE SMOOTH",
-"534 1342 OFFCURVE",
-"638 1240 OFFCURVE",
+"470 1342 OFFCURVE",
+"526 1318 OFFCURVE",
+"583 1293 CURVE SMOOTH",
+"643 1267 OFFCURVE",
+"706 1240 OFFCURVE",
 "778 1240 CURVE SMOOTH"
 );
 }
