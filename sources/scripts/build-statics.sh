@@ -30,7 +30,7 @@ else
 fi
 
 # fontmake -g ${tempGlyphsSource} --output otf --interpolate --autohint # OTF not used on Google Fonts
-fontmake -g ${tempGlyphsSource} --output ttf --interpolate --autohint
+fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend --autohint 
 
 ## clean up temp glyphs file
 rm -rf $tempGlyphsSource
