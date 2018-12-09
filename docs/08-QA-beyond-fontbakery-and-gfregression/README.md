@@ -68,3 +68,7 @@ GlyphsApp:
 ![](assets/2018-12-07-17-57-21.png)
 
 **Conclusion: decompose part or all of the /oslash, as a hack to make the design work.**
+
+Unfortunately, a quick test seems to show that glyphsLib doesn't current support the layers method `decomposeComponents()`. 
+
+So, I'll see if I can use the "Glyphs Remote" scripting approach that I worked on to split variable families by width.
