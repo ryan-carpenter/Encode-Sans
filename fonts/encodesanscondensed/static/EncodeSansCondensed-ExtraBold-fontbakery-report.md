@@ -559,7 +559,7 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 |  | fonts/encodesanscondensed/static/EncodeSansCondensed-ExtraBold.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.1kb |
-| Hinted Size | 153.2kb |
+| Hinted Size | 153.1kb |
 | Increase | 37.0kb |
 | Change   | 31.9 % |
 
@@ -601,7 +601,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [cvt , DSIG, loca, GPOS, GSUB, gasp, fpgm, prep]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, DSIG, loca, GPOS, cvt , prep, GSUB, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

@@ -238,30 +238,17 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: atilde	Contours detected: 2	Expected: 3
-Glyph name: ntilde	Contours detected: 1	Expected: 2
-Glyph name: otilde	Contours detected: 2	Expected: 3
 Glyph name: Dcroat	Contours detected: 3	Expected: 2
 Glyph name: dcroat	Contours detected: 3	Expected: 2
 Glyph name: hbar	Contours detected: 2	Expected: 1
-Glyph name: itilde	Contours detected: 1	Expected: 2
 Glyph name: Lslash	Contours detected: 2	Expected: 1
 Glyph name: lslash	Contours detected: 2	Expected: 1
 Glyph name: Tbar	Contours detected: 2	Expected: 1
 Glyph name: tbar	Contours detected: 2	Expected: 1
-Glyph name: utilde	Contours detected: 1	Expected: 2
-Glyph name: uni022D	Contours detected: 3	Expected: 4
-Glyph name: tilde	Contours detected: 0	Expected: 1
-Glyph name: tildecomb	Contours detected: 0	Expected: 1
 Glyph name: uni1E08	Contours detected: 3	Expected: 2
 Glyph name: uni1E09	Contours detected: 3	Expected: 2
 Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-Glyph name: uni1E4D	Contours detected: 3	Expected: 4
-Glyph name: uni1E4F	Contours detected: 4	Expected: 5
-Glyph name: uni1E79	Contours detected: 2	Expected: 3
-Glyph name: uni1EBD	Contours detected: 2	Expected: 3
-Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 
 </details>
 <details>
@@ -586,9 +573,9 @@ Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 |  | fonts/encodesanssemicondensed/static/EncodeSansSemiCondensed-ExtraLight.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.5kb |
-| Hinted Size | 150.8kb |
-| Increase | 34.3kb |
-| Change   | 29.5 % |
+| Hinted Size | 150.9kb |
+| Increase | 34.4kb |
+| Change   | 29.6 % |
 
 
 </details>
@@ -628,7 +615,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, GSUB, cvt , prep, gasp, DSIG, fpgm, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, fpgm, cvt , GPOS, gasp, prep, GSUB, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

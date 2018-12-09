@@ -34,4 +34,4 @@ for index,master in enumerate(font.fontMasters()):
 
 oslashDecompFile = fullPath.replace(".glyphs","-oslash_decomp.glyphs")
 
-font.save(testFile)
+font.save(oslashDecompFile)

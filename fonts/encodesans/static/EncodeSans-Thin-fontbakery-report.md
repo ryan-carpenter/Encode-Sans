@@ -219,7 +219,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [hbar.sc, Hbar, germandbls.sc, oslashacute.sc, Oslash, Oslashacute, oslashacute, oslash.sc, uni1E9E, oslash, .notdef]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [hbar.sc, .notdef, germandbls.sc, Oslashacute, Oslash, oslashacute.sc, Hbar, oslash.sc, uni1E9E]
 
 </details>
 <details>
@@ -376,7 +376,7 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesans/static/EncodeSans-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 114.4kb |
+| Dehinted Size | 114.3kb |
 | Hinted Size | 148.2kb |
 | Increase | 33.9kb |
 | Change   | 29.6 % |
@@ -419,7 +419,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, gasp, fpgm, GPOS, DSIG, prep, loca, cvt ]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, prep, fpgm, cvt , gasp, GSUB, GPOS, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

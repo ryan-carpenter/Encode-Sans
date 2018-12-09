@@ -65,4 +65,4 @@ fontName += "DE"
 textBox(fontName, (padding, 0, W-padding*2, H-padding*1.3))
 
 
-saveImage("charset-tall2.png", imageResolution=144)
+saveImage("charset-tall3.png", imageResolution=144)

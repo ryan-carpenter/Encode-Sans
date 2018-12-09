@@ -205,7 +205,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni01F2, uni03030304, utilde, uni1EE8, uni1EBD, atilde, lslash.sc, dcroat, Uhungarumlaut, uni1EF9, tilde, Uogonek, uni01C6, ntilde, lslash, Uacute, U, tildecomb_acutecomb, .notdef, uni1EEC, uni1EEE, uni0214, uni1EEA, Oslashacute, uni1EE4, uni03030308, tbar, Uring, iogonek.sc, hbar.sc, tbar.sc, uni1E79, tildecomb, uni1EE6, Lslash, uni1E78, uni1E4F, oslashacute.sc, uni1EF0, Ugrave, oslashacute, uni1E9E, Umacron, Eogonek, Uhorn, oslash, M, Dcroat, uni1E4D, uni1E42, oslash.sc, uni1E7A, uni01C5, uni0216, dcroat.sc, hbar, itilde, uni022D, eth.sc, otilde, Hbar, Utilde, iogonek, Eth, Iogonek, Ucircumflex, Udieresis, Oslash, germandbls.sc, Ubreve, Tbar]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [oslashacute.sc, dcroat.sc, Ucircumflex, oslash.sc, Uhungarumlaut, uni0216, U, Iogonek, .notdef, uni1E9E, Uacute, Ugrave, uni01C6, hbar, germandbls.sc, Ubreve, uni1EE4, uni1EF0, Dcroat, Lslash, uni1E7A, lslash.sc, Eogonek, iogonek.sc, eth.sc, dcroat, Uring, Eth, uni01F2, Oslashacute, tbar, uni1EE8, Utilde, uni1E78, uni1EEE, tbar.sc, uni1E42, M, Oslash, Umacron, Tbar, hbar.sc, Udieresis, uni0214, uni1EE6, uni1EEC, lslash, Uhorn, uni1EEA, uni01C5, Hbar, Uogonek, iogonek]
 
 </details>
 <details>
@@ -217,30 +217,17 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: atilde	Contours detected: 2	Expected: 3
-Glyph name: ntilde	Contours detected: 1	Expected: 2
-Glyph name: otilde	Contours detected: 2	Expected: 3
 Glyph name: Dcroat	Contours detected: 3	Expected: 2
 Glyph name: dcroat	Contours detected: 3	Expected: 2
 Glyph name: hbar	Contours detected: 2	Expected: 1
-Glyph name: itilde	Contours detected: 1	Expected: 2
 Glyph name: Lslash	Contours detected: 2	Expected: 1
 Glyph name: lslash	Contours detected: 2	Expected: 1
 Glyph name: Tbar	Contours detected: 2	Expected: 1
 Glyph name: tbar	Contours detected: 2	Expected: 1
-Glyph name: utilde	Contours detected: 1	Expected: 2
-Glyph name: uni022D	Contours detected: 3	Expected: 4
-Glyph name: tilde	Contours detected: 0	Expected: 1
-Glyph name: tildecomb	Contours detected: 0	Expected: 1
 Glyph name: uni1E08	Contours detected: 3	Expected: 2
 Glyph name: uni1E09	Contours detected: 3	Expected: 2
 Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-Glyph name: uni1E4D	Contours detected: 3	Expected: 4
-Glyph name: uni1E4F	Contours detected: 4	Expected: 5
-Glyph name: uni1E79	Contours detected: 2	Expected: 3
-Glyph name: uni1EBD	Contours detected: 2	Expected: 3
-Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 
 </details>
 <details>
@@ -369,8 +356,8 @@ Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 |  | fonts/encodesans/static/EncodeSans-Bold.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.0kb |
-| Hinted Size | 152.6kb |
-| Increase | 36.6kb |
+| Hinted Size | 152.7kb |
+| Increase | 36.7kb |
 | Change   | 31.6 % |
 
 
@@ -411,7 +398,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, DSIG, cvt , gasp, prep, GSUB, fpgm, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [gasp, GSUB, loca, DSIG, prep, fpgm, GPOS, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

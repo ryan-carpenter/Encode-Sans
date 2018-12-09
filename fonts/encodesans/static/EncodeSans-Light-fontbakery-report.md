@@ -275,7 +275,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Ubreve, uni2116, uni1EC0, uni01C5, atilde, E, M, iacute_j.loclNLD, Ncaron, uni1E78, uni1EEE, product, Nacute, Wacute, sterling.tf, peseta, uni1E17.sc, sterling, otilde, oslash.sc, uni1E48, Utilde, lslash.sc, uni0206, uni1E14, uni022D, uni1E43.sc, uni01CB, Uacute, Ugrave, uni01CC, uni01CC.sc, uni1E7A, perthousand, AE, i_j.loclNLD, uni01C6, uni1E15.sc, uni1EBA, aeacute.sc, wcircumflex.sc, tildecomb_acutecomb, uni01C8, Uring, uni1E4D, uni01CA, Ucircumflex, Lslash, germandbls.sc, uni1EE4, Wcircumflex, oslashacute, uni1E9E, Eng, uni1EBD, uni20A9, Ebreve, Edieresis, uni1EBC, W, uni1E4F, wdieresis.sc, uni1E16, uni1EEA, Eacute, m.sc, Amacron, tbar, lslash, oslashacute.sc, Oslash, uni01C9, Ecaron, wgrave.sc, Udieresis, uni01C6.sc, uni0204, OE, uni1EEC, uni1EC4, uni01F2, uni1EF9, tildecomb, Wdieresis, uni01C4, uni03030304, uni01F1, N, Egrave, at, Edotaccent, uni03030308, Uhungarumlaut, itilde, uni1EBE, Emacron, uni1EC6, uni1E79, utilde, uni1E42, uni1EB8, oslash, wacute.sc, tbar.sc, Umacron, ntilde, uni01F3.sc, uni1EE8, uni1EE6, Wgrave, tilde, .notdef, uni1E46, Hbar, Ecircumflex, hbar.sc, uni1EF0, uni01F3, AEacute, uni1EC2, uni20BF, threeeighths, uni0216, Ntilde, uni0214, Oslashacute, uni1E44]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [E, uni1E16, uni1E9E, lslash, Ebreve, Nacute, uni1E42, Uhungarumlaut, uni0216, OE, wgrave.sc, uni01F1, Wdieresis, uni01F3, wcircumflex.sc, uni1E78, uni1E17.sc, Wacute, uni01CC, uni1EC2, uni20BF, oslashacute.sc, uni1EC0, N, uni1EB8, uni1EBC, Ucircumflex, threeeighths, Eng, uni0214, m.sc, uni01CB, sterling, at, Ntilde, Edotaccent, uni20A9, product, uni1EBA, Uring, W, uni01C5, Ncaron, tbar, uni0206, uni1EF0, Lslash, Edieresis, Egrave, uni1EEE, uni1EC6, uni1E15.sc, wacute.sc, uni1EEA, lslash.sc, Ugrave, uni1E43.sc, sterling.tf, Ubreve, uni1EEC, iacute_j.loclNLD, Wcircumflex, Ecircumflex, uni1EE6, uni01CA, uni1E44, uni1EE4, Emacron, uni1E48, tbar.sc, uni0204, uni1EBE, Hbar, Utilde, uni1E14, Wgrave, uni01F2, germandbls.sc, uni1EE8, uni01C6, AE, Umacron, M, i_j.loclNLD, uni01C8, uni2116, .notdef, uni1E7A, uni01F3.sc, uni1EC4, uni01CC.sc, uni01C9, uni01C4, AEacute, Eacute, aeacute.sc, uni1E46, hbar.sc, uni01C6.sc, wdieresis.sc, Oslashacute, Ecaron, Amacron, Oslash, oslash.sc, Uacute, perthousand, peseta, Udieresis]
 
 </details>
 <details>
@@ -287,30 +287,17 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: atilde	Contours detected: 2	Expected: 3
-Glyph name: ntilde	Contours detected: 1	Expected: 2
-Glyph name: otilde	Contours detected: 2	Expected: 3
 Glyph name: Dcroat	Contours detected: 3	Expected: 2
 Glyph name: dcroat	Contours detected: 3	Expected: 2
 Glyph name: hbar	Contours detected: 2	Expected: 1
-Glyph name: itilde	Contours detected: 1	Expected: 2
 Glyph name: Lslash	Contours detected: 2	Expected: 1
 Glyph name: lslash	Contours detected: 2	Expected: 1
 Glyph name: Tbar	Contours detected: 2	Expected: 1
 Glyph name: tbar	Contours detected: 2	Expected: 1
-Glyph name: utilde	Contours detected: 1	Expected: 2
-Glyph name: uni022D	Contours detected: 3	Expected: 4
-Glyph name: tilde	Contours detected: 0	Expected: 1
-Glyph name: tildecomb	Contours detected: 0	Expected: 1
 Glyph name: uni1E08	Contours detected: 3	Expected: 2
 Glyph name: uni1E09	Contours detected: 3	Expected: 2
 Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-Glyph name: uni1E4D	Contours detected: 3	Expected: 4
-Glyph name: uni1E4F	Contours detected: 4	Expected: 5
-Glyph name: uni1E79	Contours detected: 2	Expected: 3
-Glyph name: uni1EBD	Contours detected: 2	Expected: 3
-Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 
 </details>
 <details>
@@ -446,9 +433,9 @@ Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 |  | fonts/encodesans/static/EncodeSans-Light.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.1kb |
-| Hinted Size | 150.9kb |
-| Increase | 34.9kb |
-| Change   | 30.1 % |
+| Hinted Size | 151.1kb |
+| Increase | 35.0kb |
+| Change   | 30.2 % |
 
 
 </details>
@@ -488,7 +475,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, gasp, cvt , prep, loca, fpgm, DSIG, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, loca, GSUB, cvt , GPOS, gasp, prep, fpgm]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

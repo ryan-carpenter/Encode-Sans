@@ -219,7 +219,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Hbar, tilde, uni1E9E, aogonek.sc, iogonek.sc, uni022D, ntilde, utilde, lslash, eth.sc, hbar.sc, oslashacute, iogonek, Eth, uni03030304, atilde, tbar, uni1EBD, uni1E4D, Oslashacute, Eogonek, tbar.sc, eogonek.sc, oslash, dcroat.sc, Oslash, uni1EF9, Iogonek, lslash.sc, uni03030308, oslash.sc, dcroat, uni1E79, hbar, Dcroat, Aogonek, itilde, germandbls.sc, Lslash, .notdef, uni1E4F, oslashacute.sc, otilde, Tbar, tildecomb_acutecomb, tildecomb]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [dcroat, iogonek, Eth, oslash.sc, Aogonek, uni1E9E, eogonek.sc, Oslash, iogonek.sc, Lslash, Iogonek, tbar.sc, oslashacute.sc, hbar.sc, Oslashacute, tbar, .notdef, lslash.sc, Eogonek, lslash, Dcroat, aogonek.sc, hbar, Tbar, dcroat.sc, Hbar, eth.sc, germandbls.sc]
 
 </details>
 <details>
@@ -231,30 +231,17 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: atilde	Contours detected: 2	Expected: 3
-Glyph name: ntilde	Contours detected: 1	Expected: 2
-Glyph name: otilde	Contours detected: 2	Expected: 3
 Glyph name: Dcroat	Contours detected: 3	Expected: 2
 Glyph name: dcroat	Contours detected: 3	Expected: 2
 Glyph name: hbar	Contours detected: 2	Expected: 1
-Glyph name: itilde	Contours detected: 1	Expected: 2
 Glyph name: Lslash	Contours detected: 2	Expected: 1
 Glyph name: lslash	Contours detected: 2	Expected: 1
 Glyph name: Tbar	Contours detected: 2	Expected: 1
 Glyph name: tbar	Contours detected: 2	Expected: 1
-Glyph name: utilde	Contours detected: 1	Expected: 2
-Glyph name: uni022D	Contours detected: 3	Expected: 4
-Glyph name: tilde	Contours detected: 0	Expected: 1
-Glyph name: tildecomb	Contours detected: 0	Expected: 1
 Glyph name: uni1E08	Contours detected: 3	Expected: 2
 Glyph name: uni1E09	Contours detected: 3	Expected: 2
 Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-Glyph name: uni1E4D	Contours detected: 3	Expected: 4
-Glyph name: uni1E4F	Contours detected: 4	Expected: 5
-Glyph name: uni1E79	Contours detected: 2	Expected: 3
-Glyph name: uni1EBD	Contours detected: 2	Expected: 3
-Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 
 </details>
 <details>
@@ -389,8 +376,8 @@ Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 
 |  | fonts/encodesans/static/EncodeSans-Black.ttf |
 |:--- | ---:|
-| Dehinted Size | 115.8kb |
-| Hinted Size | 150.9kb |
+| Dehinted Size | 115.9kb |
+| Hinted Size | 151.0kb |
 | Increase | 35.1kb |
 | Change   | 30.3 % |
 
@@ -432,7 +419,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, loca, fpgm, prep, gasp, GPOS, cvt , DSIG]
+* :information_source: **INFO** This font contains the following optional tables [loca, cvt , fpgm, DSIG, GPOS, gasp, GSUB, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

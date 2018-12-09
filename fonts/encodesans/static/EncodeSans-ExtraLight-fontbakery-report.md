@@ -275,7 +275,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni0213.sc, fiveeighths, Ncaron, Eth, uni1E4D, wdieresis.sc, Tbar, uni01C6.sc, uni1E5E, oslash, uni1E9E, M, AEacute, peseta, uni0162, threeeighths, tildecomb, Rcaron, oslashacute, Wgrave, uni1E5A, germandbls.sc, uni1E4F, atilde, onehalf, uni1E42, seveneighths, Eogonek, Wdieresis, at, tilde, Scedilla, aogonek.sc, Ntilde, Hbar, uni022D, ntilde, hbar, uni0211.sc, OE, tbar, utilde, uni1EBD, Aringacute, Oslash, Aring, Nacute, uni1EF9, R, uni01C5, tildecomb_acutecomb, germandbls, r.sc, Iacute_J.loclNLD, Oslashacute, uni01F3.sc, Racute, uni01CB, otilde, itilde, oslashacute.sc, AE, rcaron.sc, wacute.sc, uni20A9, uni2116, uni1E5B.sc, uni0210, uni03030304, uni01F1, tbar.sc, dcroat, eth.sc, Dcroat, Wcircumflex, Lslash, hbar.sc, uni01CA, racute.sc, uni01F3, dcroat.sc, .notdef, uni1E1C, uni01C7, lslash.sc, Wacute, uni1E5F.sc, W, Aogonek, uni1E79, uni2153, perthousand, onequarter, lslash, wcircumflex.sc, uni0212, oneeighth, wgrave.sc, product.tf, oslash.sc, uni01C4, uni01C6, trademark, uni03030308]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [at, uni0211.sc, lslash.sc, Aogonek, fiveeighths, Wcircumflex, dcroat, Hbar, uni01F3.sc, product.tf, .notdef, OE, Eogonek, wcircumflex.sc, Dcroat, uni2153, hbar, Lslash, wacute.sc, racute.sc, uni1E5B.sc, uni2116, uni1E1C, uni0162, uni01C7, Nacute, Racute, AEacute, oslashacute.sc, trademark, Iacute_J.loclNLD, r.sc, onequarter, Scedilla, threeeighths, uni01CA, uni20A9, uni01C4, Oslashacute, hbar.sc, uni1E5E, eth.sc, Wgrave, Wacute, Oslash, tbar, dcroat.sc, uni1E9E, Eth, lslash, Rcaron, W, Tbar, uni1E5A, Aring, uni0210, germandbls, AE, Aringacute, uni01CB, wdieresis.sc, oslash.sc, uni0212, Ntilde, uni0213.sc, aogonek.sc, uni1E42, germandbls.sc, R, uni1E5F.sc, uni01C6, oneeighth, uni01C6.sc, perthousand, M, onehalf, wgrave.sc, rcaron.sc, uni01F1, uni01F3, Ncaron, tbar.sc, uni01C5, Wdieresis, peseta, seveneighths]
 
 </details>
 <details>
@@ -287,30 +287,17 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: atilde	Contours detected: 2	Expected: 3
-Glyph name: ntilde	Contours detected: 1	Expected: 2
-Glyph name: otilde	Contours detected: 2	Expected: 3
 Glyph name: Dcroat	Contours detected: 3	Expected: 2
 Glyph name: dcroat	Contours detected: 3	Expected: 2
 Glyph name: hbar	Contours detected: 2	Expected: 1
-Glyph name: itilde	Contours detected: 1	Expected: 2
 Glyph name: Lslash	Contours detected: 2	Expected: 1
 Glyph name: lslash	Contours detected: 2	Expected: 1
 Glyph name: Tbar	Contours detected: 2	Expected: 1
 Glyph name: tbar	Contours detected: 2	Expected: 1
-Glyph name: utilde	Contours detected: 1	Expected: 2
-Glyph name: uni022D	Contours detected: 3	Expected: 4
-Glyph name: tilde	Contours detected: 0	Expected: 1
-Glyph name: tildecomb	Contours detected: 0	Expected: 1
 Glyph name: uni1E08	Contours detected: 3	Expected: 2
 Glyph name: uni1E09	Contours detected: 3	Expected: 2
 Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-Glyph name: uni1E4D	Contours detected: 3	Expected: 4
-Glyph name: uni1E4F	Contours detected: 4	Expected: 5
-Glyph name: uni1E79	Contours detected: 2	Expected: 3
-Glyph name: uni1EBD	Contours detected: 2	Expected: 3
-Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 
 </details>
 <details>
@@ -446,8 +433,8 @@ Glyph name: uni1EF9	Contours detected: 1	Expected: 2
 |  | fonts/encodesans/static/EncodeSans-ExtraLight.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.3kb |
-| Hinted Size | 149.8kb |
-| Increase | 33.6kb |
+| Hinted Size | 150.0kb |
+| Increase | 33.7kb |
 | Change   | 28.9 % |
 
 
@@ -488,7 +475,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [fpgm, DSIG, prep, GSUB, gasp, GPOS, cvt , loca]
+* :information_source: **INFO** This font contains the following optional tables [cvt , prep, gasp, GSUB, GPOS, loca, DSIG, fpgm]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

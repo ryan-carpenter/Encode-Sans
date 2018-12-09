@@ -30,7 +30,7 @@ else
 fi
 
 # this is a hack, to get around current bug in macOS text rendering (see docs/08-QA-beyond-fontbakery-and-glyphs)
-oslashDecompGlyphsSource=${glyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
+oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
 
 python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
 
