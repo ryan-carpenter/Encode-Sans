@@ -10,19 +10,12 @@ fullPath = str(directory + "/" + relPath)
 document = Glyphs.open((fullPath), False)
 font = document.font()
 
-# for glyph in enumerate(font.glyphs()[34].layers()):
-# for glyph in font.glyphs():
-#     print(glyph)
-#     print(glyph.layers_())
 
-
-# print(font.glyphs()[1].layers())
-
+print("seeking /oslash to decompose")
 
 def oslashIndexer():
     oslashIndex = 0
     for index,glyph in enumerate(font.glyphs()):
-        print(".",end=' ')
         if glyph.name() == "oslash":
             oslashIndex = index
             return oslashIndex
@@ -39,6 +32,6 @@ for index,master in enumerate(font.fontMasters()):
     glyph.layerForKey_(master.id()).decomposeComponents()
 
 
-testFile = fullPath.replace(".glyphs","-test.glyphs")
+oslashDecompFile = fullPath.replace(".glyphs","-oslash_decomp.glyphs")
 
 font.save(testFile)

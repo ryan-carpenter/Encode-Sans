@@ -71,4 +71,6 @@ GlyphsApp:
 
 Unfortunately, a quick test seems to show that glyphsLib doesn't current support the layers method `decomposeComponents()`. 
 
-So, I'll see if I can use the "Glyphs Remote" scripting approach that I worked on to split variable families by width.
+So, I'll see if I can use the "Glyphs remote" scripting approach that I tried to use to split variable families by width. https://docu.glyphsapp.com/Core/index.html
+
+![](assets/2018-12-09-09-20-15.png)

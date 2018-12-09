@@ -16,7 +16,7 @@ pwd
 
 echo $glyphsSource
 
-tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
+tempGlyphsSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 
 ## copy Glyphs file into temp file
 cp $glyphsSource $tempGlyphsSource
@@ -29,11 +29,17 @@ else
     echo "Not morphing designspace."
 fi
 
+# this is a hack, to get around current bug in macOS text rendering (see docs/08-QA-beyond-fontbakery-and-glyphs)
+oslashDecompGlyphsSource=${glyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
+
+python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
+
 # fontmake -g ${tempGlyphsSource} --output otf --interpolate --autohint # OTF not used on Google Fonts
-fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend --autohint 
+fontmake -g ${oslashDecompGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations --autohint 
 
 ## clean up temp glyphs file
 rm -rf $tempGlyphsSource
+rm -rf $oslashDecompGlyphsSource
 
 python sources/scripts/helpers/shorten-nameID-4-6.py autohinted/instance_ttf
 
