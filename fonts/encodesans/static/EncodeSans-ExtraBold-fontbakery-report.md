@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.4)  - Well designed Font QA tool, written in Python 3
+* :information_source: **INFO** fontbakery (0.6.5)  - Well designed Font QA tool, written in Python 3
   INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.4
+  LATEST:    0.6.5
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -275,7 +275,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Oslashacute, eth.sc, tbar, Ccedilla, uni1E1D, scedilla, Iogonek, Dcroat, aogonek.sc, scedilla.sc, Oslash, iogonek, hbar, Eogonek, uni1E09, oslash.sc, lslash, iogonek.sc, tbar.sc, Eth, dcroat, .notdef, eogonek.sc, lslash.sc, oslashacute.sc, ccedilla, Tbar, Aogonek, Hbar, uni0163, germandbls.sc, hbar.sc, Lslash, uni1E9E, uni1E08, Scedilla, dcroat.sc]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [lslash, eogonek.sc, iogonek.sc, Ccedilla, uni1E08, Hbar, scedilla.sc, Iogonek, aogonek.sc, germandbls.sc, scedilla, hbar.sc, dcroat.sc, Aogonek, iogonek, oslashacute.sc, uni1E9E, Oslashacute, Oslash, Tbar, uni1E09, ccedilla, eth.sc, hbar, .notdef, tbar.sc, Eogonek, lslash.sc, Scedilla, uni1E1D, oslash.sc, uni0163, tbar, Eth, Lslash, Dcroat, dcroat]
 
 </details>
 <details>
@@ -324,13 +324,6 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 	- j + l
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Font has ttfautohint params? </summary>
-
-* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
 <details>
@@ -433,9 +426,9 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 |  | fonts/encodesans/static/EncodeSans-ExtraBold.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.3kb |
-| Hinted Size | 153.9kb |
-| Increase | 37.6kb |
-| Change   | 32.4 % |
+| Hinted Size | 155.0kb |
+| Increase | 38.7kb |
+| Change   | 33.3 % |
 
 
 </details>
@@ -466,7 +459,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2)"
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -475,7 +468,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GPOS, prep, cvt , gasp, loca, GSUB, fpgm, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, gasp, cvt , prep, loca, fpgm, GSUB, GPOS]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -554,6 +547,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Version format in NAME table entries is correct.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
+
+* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
 
 </details>
 <details>
@@ -1044,5 +1044,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 10 | 6 | 18 | 6 | 99 |
-| 1% | 7% | 4% | 13% | 4% | 71% |
+| 1 | 10 | 6 | 17 | 6 | 100 |
+| 1% | 7% | 4% | 12% | 4% | 71% |

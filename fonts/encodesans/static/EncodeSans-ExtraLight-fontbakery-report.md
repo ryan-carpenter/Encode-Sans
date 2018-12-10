@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.4)  - Well designed Font QA tool, written in Python 3
+* :information_source: **INFO** fontbakery (0.6.5)  - Well designed Font QA tool, written in Python 3
   INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.4
+  LATEST:    0.6.5
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -275,7 +275,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [at, uni0211.sc, lslash.sc, Aogonek, fiveeighths, Wcircumflex, dcroat, Hbar, uni01F3.sc, product.tf, .notdef, OE, Eogonek, wcircumflex.sc, Dcroat, uni2153, hbar, Lslash, wacute.sc, racute.sc, uni1E5B.sc, uni2116, uni1E1C, uni0162, uni01C7, Nacute, Racute, AEacute, oslashacute.sc, trademark, Iacute_J.loclNLD, r.sc, onequarter, Scedilla, threeeighths, uni01CA, uni20A9, uni01C4, Oslashacute, hbar.sc, uni1E5E, eth.sc, Wgrave, Wacute, Oslash, tbar, dcroat.sc, uni1E9E, Eth, lslash, Rcaron, W, Tbar, uni1E5A, Aring, uni0210, germandbls, AE, Aringacute, uni01CB, wdieresis.sc, oslash.sc, uni0212, Ntilde, uni0213.sc, aogonek.sc, uni1E42, germandbls.sc, R, uni1E5F.sc, uni01C6, oneeighth, uni01C6.sc, perthousand, M, onehalf, wgrave.sc, rcaron.sc, uni01F1, uni01F3, Ncaron, tbar.sc, uni01C5, Wdieresis, peseta, seveneighths]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1E5A, Scedilla, uni1E5F.sc, perthousand, uni2116, threeeighths, uni01C7, Hbar, fiveeighths, uni01CB, Aring, Iacute_J.loclNLD, at, Wacute, aogonek.sc, uni0162, uni01F3.sc, Aringacute, Rcaron, .notdef, uni1E1C, uni2153, seveneighths, uni0213.sc, Wcircumflex, dcroat.sc, wacute.sc, wdieresis.sc, uni01C5, onequarter, OE, product.tf, M, uni01C6.sc, Aogonek, uni1E42, Tbar, hbar.sc, Ntilde, uni20A9, germandbls.sc, onehalf, wgrave.sc, eth.sc, germandbls, Oslashacute, uni01F1, uni0212, uni01C6, uni01F3, rcaron.sc, R, Wgrave, wcircumflex.sc, oslashacute.sc, tbar.sc, uni0211.sc, W, Ncaron, Eth, oslash.sc, trademark, uni1E9E, Oslash, Racute, peseta, uni01C4, uni1E5E, uni01CA, uni1E5B.sc, lslash.sc, Eogonek, Dcroat, tbar, dcroat, lslash, Lslash, oneeighth, r.sc, hbar, AEacute, Nacute, AE, uni0210, racute.sc, Wdieresis]
 
 </details>
 <details>
@@ -324,13 +324,6 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 	- j + l
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Font has ttfautohint params? </summary>
-
-* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
 <details>
@@ -433,9 +426,9 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 |  | fonts/encodesans/static/EncodeSans-ExtraLight.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.3kb |
-| Hinted Size | 150.0kb |
-| Increase | 33.7kb |
-| Change   | 28.9 % |
+| Hinted Size | 151.0kb |
+| Increase | 34.7kb |
+| Change   | 29.9 % |
 
 
 </details>
@@ -466,7 +459,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2)"
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -475,7 +468,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [cvt , prep, gasp, GSUB, GPOS, loca, DSIG, fpgm]
+* :information_source: **INFO** This font contains the following optional tables [cvt , gasp, prep, DSIG, GPOS, fpgm, loca, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -554,6 +547,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Version format in NAME table entries is correct.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
+
+* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
 
 </details>
 <details>
@@ -1044,5 +1044,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 10 | 6 | 18 | 6 | 99 |
-| 1% | 7% | 4% | 13% | 4% | 71% |
+| 1 | 10 | 6 | 17 | 6 | 100 |
+| 1% | 7% | 4% | 12% | 4% | 71% |

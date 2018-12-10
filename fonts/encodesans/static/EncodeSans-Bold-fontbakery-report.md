@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.4)  - Well designed Font QA tool, written in Python 3
+* :information_source: **INFO** fontbakery (0.6.5)  - Well designed Font QA tool, written in Python 3
   INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.4
+  LATEST:    0.6.5
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -205,7 +205,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [oslashacute.sc, dcroat.sc, Ucircumflex, oslash.sc, Uhungarumlaut, uni0216, U, Iogonek, .notdef, uni1E9E, Uacute, Ugrave, uni01C6, hbar, germandbls.sc, Ubreve, uni1EE4, uni1EF0, Dcroat, Lslash, uni1E7A, lslash.sc, Eogonek, iogonek.sc, eth.sc, dcroat, Uring, Eth, uni01F2, Oslashacute, tbar, uni1EE8, Utilde, uni1E78, uni1EEE, tbar.sc, uni1E42, M, Oslash, Umacron, Tbar, hbar.sc, Udieresis, uni0214, uni1EE6, uni1EEC, lslash, Uhorn, uni1EEA, uni01C5, Hbar, Uogonek, iogonek]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Tbar, germandbls.sc, Uhorn, uni1E42, uni01C6, uni1E9E, M, lslash.sc, dcroat, uni1EEC, Uacute, Uogonek, Ucircumflex, Uring, uni1EE6, Lslash, U, Oslashacute, Uhungarumlaut, oslash.sc, Eogonek, uni1EE4, Utilde, iogonek, uni0216, oslashacute.sc, hbar, tbar.sc, tbar, uni1EEE, Eth, uni01F2, Ubreve, uni1E78, dcroat.sc, Hbar, Ugrave, .notdef, uni1EE8, Iogonek, uni01C5, eth.sc, uni1EEA, Umacron, uni0214, lslash, Udieresis, Dcroat, uni1EF0, uni1E7A, hbar.sc, Oslash, iogonek.sc]
 
 </details>
 <details>
@@ -247,13 +247,6 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 	- j + l
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Font has ttfautohint params? </summary>
-
-* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
 <details>
@@ -356,9 +349,9 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 |  | fonts/encodesans/static/EncodeSans-Bold.ttf |
 |:--- | ---:|
 | Dehinted Size | 116.0kb |
-| Hinted Size | 152.7kb |
-| Increase | 36.7kb |
-| Change   | 31.6 % |
+| Hinted Size | 153.8kb |
+| Increase | 37.8kb |
+| Change   | 32.6 % |
 
 
 </details>
@@ -389,7 +382,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2)"
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -398,7 +391,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [gasp, GSUB, loca, DSIG, prep, fpgm, GPOS, cvt ]
+* :information_source: **INFO** This font contains the following optional tables [GSUB, prep, cvt , loca, gasp, GPOS, fpgm, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -477,6 +470,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Version format in NAME table entries is correct.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
+
+* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
 
 </details>
 <details>
@@ -1044,5 +1044,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 5 | 18 | 6 | 110 |
-| 1% | 0% | 4% | 13% | 4% | 79% |
+| 1 | 0 | 5 | 17 | 6 | 111 |
+| 1% | 0% | 4% | 12% | 4% | 79% |
