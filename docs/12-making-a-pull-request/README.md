@@ -15,24 +15,25 @@
     - [x] mark PR as "WIP"
     - [x] show latest fontbakery report
     - [x] give known remaining to-do items (search through these docs for `- [ ]`, for starters)
-    - [ ] PR!
+    - [x] PR!
 
 ## Known remaining to-do items (include in PR)
 - [ ] Check that filenames and folder sorting is as expected (Ask)
-- [ ] update `FONTLOG.txt`
-- [ ] update `METADATA.pb` for variable font
+- [x] update `FONTLOG.txt`
+  - [x] added with `sources/scripts/helpers/add-fontlog.py`
+- [x] update `METADATA.pb` for variable font
 - [ ] Apply autohinting to VFs
 - [ ] Test hinting in new statics
-- [ ] Check that font naming/sorting is how others expect in desktop apps
-- [ ] Methodical Red Arrows check. 
-    - [ ] Ask: are *any* inflected curves okay (e.g. in accent marks like `/tilde`?)
+- [x] Check that font naming/sorting is how others expect in desktop apps
+- [x] Methodical Red Arrows check. 
+    - [x] Ask: are *any* inflected curves okay (e.g. in accent marks like `/tilde`?)
 - [ ] Extra proof kerning for refined glyphs (`/Germandbls`es, `/Oslash`es)
 - [ ] Show clear regression/diffing results
-- [ ] Do I need to fix mark-to-mark positioning? See docs/diffing-against-old-statics
-- [ ] Upgrade build scripts
-    - [ ] Make build scripts direct new fonts into `fonts/` directory
-    - [ ] Add fontbakery checking to static font builds
-    - [ ] (maybe) streamline split-VF build
+- [x] Do I need to fix mark-to-mark positioning? See docs/diffing-against-old-statics
+- [x] Upgrade build scripts
+    - [x] Make build scripts direct new fonts into `fonts/` directory
+    - [x] Add fontbakery checking to static font builds
+    - [x] (maybe) streamline split-VF build
 
 
 

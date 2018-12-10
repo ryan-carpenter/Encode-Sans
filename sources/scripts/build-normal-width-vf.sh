@@ -59,8 +59,8 @@ echo "fix DSIG in " ${VFname}.ttf
 gftools fix-dsig --autofix ${VFname}.ttf
 
 
-echo "fix GASP & PREP in " ${VFname}.ttf
-gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
+# echo "fix GASP & PREP in " ${VFname}.ttf
+# gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
 
 
 ## sets up temp ttx file to insert correct values into tables
@@ -71,7 +71,15 @@ rm -rf ${VFname}-backup-fonttools-prep-gasp.ttf
 
 cd ..
 
-# TODO: add autohintVF step
+# Hint with TTFautohint-VF 
+
+ttfPath=${ttxPath/".ttx"/".ttf"}
+hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
+
+echo "================================================"
+echo ttfautohint-vf $ttfPath $hintedPath
+echo "================================================"
+ttfautohint-vf -I $ttfPath $hintedPath
 
 # TODO: add NAMEpatch step, or move build to just do a normal-width VF 
 

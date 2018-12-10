@@ -18,7 +18,7 @@ fixGlyphsDesignspace=true
 timestampAndFontbakeInDist=true
 
 ## keep designspace file if you want to check values later
-keepDesignspace=true
+keepDesignspace=false
 
 ################# set vars #################
 ############################################
@@ -83,10 +83,6 @@ cp $ttxPath $patchPath
 cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 rm -rf $patchPath
 
-# cat $ttxPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > $patchPath
-# cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
-# rm -rf $patchPath
-
 ## copies temp ttx file back into a new ttf file
 ttx $ttxPath
 
@@ -103,7 +99,7 @@ hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
 echo "================================================"
 echo ttfautohint-vf $ttfPath $hintedPath
 echo "================================================"
-ttfautohint-vf $ttfPath $hintedPath
+ttfautohint-vf -I $ttfPath $hintedPath
 
 finalFilePath=${hintedPath/"-hinted"/""}
 cp $hintedPath $finalFilePath

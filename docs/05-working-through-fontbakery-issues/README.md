@@ -284,3 +284,14 @@ Nowhere else in the font TTX can I find reference to `"266"`. The `namerecord`s 
 ```
 
 🎉 Found it: @mjlagattuta pointed out that it might be a mismatch of the STAT and NAME tables, and sure enough, it was! I hadn't properly understood the STAT table until now, but the values in the `ValueNameID` field need to match values in the NAME table. Resolving this solved the problem.
+
+## On statics: `FAIL: com.google.fonts/check/has_ttfautohint_params`
+
+> **FAIL** Font is lacking ttfautohint params on its version strings on the name table." when you build statics with FontMake & TTFautohint?
+
+It is necessary to add the option `--detailed-info` or `-I` to the autohint. Because of this, autohint must be done in a separate command from the fontmake build command. It uses the following format:
+
+```
+ttfautohint -I [PATH]/font.ttf [PATH]/font-hinted.ttf 
+```
+
