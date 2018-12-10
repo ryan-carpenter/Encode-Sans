@@ -1,6 +1,3 @@
-# TODO: optimize with a variable name rather than the exact path
-# fontmake -m master_ufo/EncodeSans.designspace --output ttf --interpolate "Encode Sans Condensed ExtraLight" --autohint
-
 ############################################
 ################# set vars #################
 
