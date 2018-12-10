@@ -23,7 +23,7 @@ charSet.fontSize(fontSizing)
 charSet.align("justified")
 charSet.lineHeight(fontSizing*1.78)
 # charSet.tracking(0.32)
-charSet.tracking(4.5)
+charSet.tracking(4.6)
 charSet.fill(1)
 # charSet += glyphSet
 
