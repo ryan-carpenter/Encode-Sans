@@ -225,6 +225,13 @@ Failed to sanitize file!
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
+
+* [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Condensed Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans') [code: does-not]
+
+</details>
+<details>
 <summary>:warning: <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -410,6 +417,13 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 * [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :warning: **WARN** Name table entry ("Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 * :warning: **WARN** Name table entry ("Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Encode Sans Condensed Thin' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -754,8 +768,8 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 |  | fonts/full_vf/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 284.8kb |
-| Hinted Size | 322.2kb |
+| Dehinted Size | 284.5kb |
+| Hinted Size | 321.9kb |
 | Increase | 37.4kb |
 | Change   | 13.1 % |
 
@@ -797,7 +811,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, loca, GSUB, prep, fpgm, GPOS, cvt , gasp]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, gasp, GSUB, prep, cvt , GPOS, loca, fpgm]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1111,24 +1125,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Does full font name begin with the font family name?</summary>
-
-* [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Full font name begins with the font family name.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font follows the family naming recommendations?</summary>
 
 * [com.google.fonts/check/071](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Font follows the family naming recommendations.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** All name entries are good.
 
 </details>
 <details>
@@ -1229,5 +1229,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 3 | 61 | 6 | 68 |
-| 0% | 3% | 2% | 43% | 4% | 48% |
+| 0 | 5 | 4 | 61 | 6 | 66 |
+| 0% | 4% | 3% | 43% | 4% | 46% |

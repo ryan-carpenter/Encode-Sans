@@ -4,7 +4,7 @@
       Copyright 2018 The Encode Project Authors (impallari@gmail.com), with Reserved Font Name 'Encode Sans'.
     </namerecord>
     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Encode Sans
+      Encode Sans Condensed Thin
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular
@@ -44,6 +44,9 @@
     </namerecord>
     <namerecord nameID="16" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Encode Sans
+    </namerecord>
+    <namerecord nameID="17" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Condensed Thin
     </namerecord>
     <namerecord nameID="19" platformID="1" platEncID="0" langID="0x0">
       How quickly daft jumping zebras vex.
@@ -264,7 +267,7 @@
       Condensed Thin
     </namerecord>
     <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
-      Condensed ExtraLight
+      Condensed ExLight
     </namerecord>
     <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
       Condensed Light
@@ -282,43 +285,43 @@
       Condensed Bold
     </namerecord>
     <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
-      Condensed ExtraBold
+      Condensed ExBold
     </namerecord>
     <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
       Condensed Black
     </namerecord>
     <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed Thin
+      SemiCond Thin
     </namerecord>
     <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed ExtraLight
+      SemiCond ExLight
     </namerecord>
     <namerecord nameID="269" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed Light
+      SemiCond Light
     </namerecord>
     <namerecord nameID="270" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed Regular
+      SemiCond Regular
     </namerecord>
     <namerecord nameID="271" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed Medium
+      SemiCond Medium
     </namerecord>
     <namerecord nameID="272" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed SemiBold
+      SemiCond SemiBold
     </namerecord>
     <namerecord nameID="273" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed Bold
+      SemiCond Bold
     </namerecord>
     <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed ExtraBold
+      SemiCond ExBold
     </namerecord>
     <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed Black
+      SemiCond Black
     </namerecord>
     <namerecord nameID="276" platformID="3" platEncID="1" langID="0x409">
       Thin
     </namerecord>
     <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
-      ExtraLight
+      ExLght
     </namerecord>
     <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
       Light
@@ -336,78 +339,78 @@
       Bold
     </namerecord>
     <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
-      ExtraBold
+      ExBold
     </namerecord>
     <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
       Black
     </namerecord>
     <namerecord nameID="285" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded Thin
+      SemiExpd Thin
     </namerecord>
     <namerecord nameID="286" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded ExtraLight
+      SemiExpd ExLght
     </namerecord>
     <namerecord nameID="287" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded Light
+      SemiExpd Light
     </namerecord>
     <namerecord nameID="288" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded Regular
+      SemiExpd Regular
     </namerecord>
     <namerecord nameID="289" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded Medium
+      SemiExpd Medium
     </namerecord>
     <namerecord nameID="290" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded SemiBold
+      SemiExpd SemiBold
     </namerecord>
     <namerecord nameID="291" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded Bold
+      SemiExpd Bold
     </namerecord>
     <namerecord nameID="292" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded ExtraBold
+      SemiExpd ExBold
     </namerecord>
     <namerecord nameID="293" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded Black
+      SemiExpd Black
     </namerecord>
     <namerecord nameID="294" platformID="3" platEncID="1" langID="0x409">
-      Expanded Thin
+      Expd Thin
     </namerecord>
     <namerecord nameID="295" platformID="3" platEncID="1" langID="0x409">
-      Expanded ExtraLight
+      Expd ExLght
     </namerecord>
     <namerecord nameID="296" platformID="3" platEncID="1" langID="0x409">
-      Expanded Light
+      Expd Light
     </namerecord>
     <namerecord nameID="297" platformID="3" platEncID="1" langID="0x409">
-      Expanded Regular
+      Expd Regular
     </namerecord>
     <namerecord nameID="298" platformID="3" platEncID="1" langID="0x409">
-      Expanded Medium
+      Expd Medium
     </namerecord>
     <namerecord nameID="299" platformID="3" platEncID="1" langID="0x409">
-      Expanded SemiBold
+      Expd SemiBold
     </namerecord>
     <namerecord nameID="300" platformID="3" platEncID="1" langID="0x409">
-      Expanded Bold
+      Expd Bold
     </namerecord>
     <namerecord nameID="301" platformID="3" platEncID="1" langID="0x409">
-      Expanded ExtraBold
+      Expd ExBold
     </namerecord>
     <namerecord nameID="302" platformID="3" platEncID="1" langID="0x409">
-      Expanded Black
+      Expd Black
     </namerecord>
     <namerecord nameID="303" platformID="3" platEncID="1" langID="0x409">
-      Condensed
+      Cond
     </namerecord>
     <namerecord nameID="304" platformID="3" platEncID="1" langID="0x409">
-      SemiCondensed
+      SemiCond
     </namerecord>
     <namerecord nameID="305" platformID="3" platEncID="1" langID="0x409">
       Normal
     </namerecord>
     <namerecord nameID="306" platformID="3" platEncID="1" langID="0x409">
-      SemiExpanded
+      SemiExpd
     </namerecord>
     <namerecord nameID="307" platformID="3" platEncID="1" langID="0x409">
-      Expanded
+      Expd
     </namerecord>
 </name>

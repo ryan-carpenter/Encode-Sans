@@ -124,3 +124,24 @@ Earlier, I hadn't understood the linked-purposes of the NAME & STAT tables. Now 
 - [ ] try with patches
 - [ ] compare TTX outputs
 - [ ] try each in Word & Pages
+
+## Remove fonts and try again with STAT table minor version `1` (not `2`)
+
+@mjlagattuta suggested building the font with STAT minor version `1`, then retrying on Windows. However, I am having trouble removing the existing font from my Windows VM.
+
+![](assets/2018-12-10-17-32-59.png)
+
+![](assets/2018-12-10-17-42-16.png)
+
+Encode Sans Cond Bold is seemingly impossible to delete, at least with methods Googled. However, installing the full VF again, with STAT minor version `1`, does indeed show more styles in the menu:
+
+![](assets/2018-12-10-17-54-05.png)
+
+This does, however, point to the need to shorten names, so they don't overflow the MS Word font menu width. I've abbreviated names in the NAME table, and things are (somewhat improved):s
+
+![](assets/2018-12-10-18-19-26.png)
+
+As for mac, @mjlagattuta says:
+
+> To fix the naming issue on Mac I think (not entirely sure if this is the right way) the font is supposed to be named in a similar way to the way a static would be named... In this case, nameID1 "Encode Sans Condensed Thin"   ID2 "Regular"   ID16"Encode Sans"  ID17"Condensed Thin"
+> This resolves the Mac issue though
