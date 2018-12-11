@@ -13,7 +13,7 @@ rect(0,0,W,H)
 charSet = FormattedString()
 
 # charSet.font("./EncodeSans-VF.ttf")
-charSet.font("../../../fonts/encodesanscondensed/static/EncodeSansCondensed-SemiBold.ttf")
+charSet.font("../../fonts/encodesanscondensed/static/EncodeSansCondensed-SemiBold.ttf")
 # charSet.fontVariations(wght=400.0,wdth=100.0)
 
 # fontSizing = 30
@@ -54,7 +54,7 @@ fontName.fill(1,1,1,0.25)
 fontName.fontSize(fontSizing)
 fontName.tracking(0)
 fontName.align("center")
-fontName.font("../../../fonts/encodesansexpanded/static/EncodeSansExpanded-Black.ttf")
+fontName.font("../../fonts/encodesansexpanded/static/EncodeSansExpanded-Black.ttf")
 fontName.lineHeight(fontSizing*.85)
 fontName += "EN\n"
 fontName += "CO\n"
