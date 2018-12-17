@@ -137,7 +137,7 @@ Encode Sans Cond Bold is seemingly impossible to delete, at least with methods G
 
 ![](assets/2018-12-10-17-54-05.png)
 
-This does, however, point to the need to shorten names, so they don't overflow the MS Word font menu width. I've abbreviated names in the NAME table, and things are (somewhat improved):s
+This does, however, point to the need to shorten names, so they don't overflow the MS Word font menu width. I've abbreviated names in the NAME table, and things are (somewhat improved):
 
 ![](assets/2018-12-10-18-19-26.png)
 
@@ -145,3 +145,28 @@ As for mac, @mjlagattuta says:
 
 > To fix the naming issue on Mac I think (not entirely sure if this is the right way) the font is supposed to be named in a similar way to the way a static would be named... In this case, nameID1 "Encode Sans Condensed Thin"   ID2 "Regular"   ID16"Encode Sans"  ID17"Condensed Thin"
 > This resolves the Mac issue though
+
+**Problem:** With this update, "Condensed Regular" becomes the first option, and "Condensed Thin" becomes the second ... but it actually cues the "Condensed Medium" instance. I need to re-track down what is giving that default weight and width combination.
+
+![](assets/font-menu-wtf.gif)
+
+## Test: does putting "weight" as axis `0` in STAT table improve font menu organization?
+
+![](assets/2018-12-17-13-57-16.png)
+
+Result: it's still bonkers, just sorting by alphabetical order of style names. I'll also try updating the NAME table patch to this new naming system, though I don't expect that to help much.
+
+Left / first: Pages menu with axis & naming order weight, then width
+
+Right / second: Pages menu with axis & naming order width, then weight
+
+![](assets/2018-12-17-14-34-08.png) ![](assets/2018-12-17-14-50-43.png)
+
+Takeaways:
+- The results are different (but weirdly, with more commonalities that I would have expected), but neither is particularly good. It's hard for me to see the exact pattern or logic in either. If I had guess, it seems that Pages is sorting by:
+  - a few recognized style names – e.g. "Black" styles are near the bottom, "Light" styles are at the top
+  - for unrecognized style names, alphabetical ordering is used – e.g. "Thin" is at the very bottom, and "Semi" names are in the middle 
+- macOS Pages is reading from the `platform 3` (windows) entries on the NAME table
+  
+
+Partly, font menu ordering doesn't matter that much, compared to other items, because the fonts hosted on Google will be mostly statics at first, and app makers will need to improve how they handle variable fonts. The best I can do is follow the OpenType spec as closely as possible, and let font menus improve over time. I will place width names before weight names, because it is most logical. 

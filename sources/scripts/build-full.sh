@@ -76,11 +76,11 @@ patchPath="variable_ttf/${VFname}-patch.ttx"
 ## inserts patch files into temporary ttx to fix export errors
 ## BE SURE to update these patches for the real values in a given typeface
 cp $ttxPath $patchPath
-cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-wdth_wght.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
 rm -rf $patchPath
 
 cp $ttxPath $patchPath
-cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch-wdth_wght.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
 rm -rf $patchPath
 
 ## copies temp ttx file back into a new ttf file

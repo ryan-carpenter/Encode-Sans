@@ -75,3 +75,17 @@ One thing that did help: I used a VF that I had updated style names on, putting 
 - [x] Check / fix mark2mark positioning in stacked accents
 - [x] Check on style naming
 
+## Yes, I was getting the fonts confused
+
+The old font file must come *first* in the diffenator args. So, the problems shown by diffenator were actually fixes that have occurred. 
+
+
+---
+
+# Vertical Metrics
+
+A change I need to watch out for is vertical metrics. I have edited these to meet new specs for Google Fonts, but in another project (Signika), vertical metrics were a big point of change between old and new fonts. 
+
+Mike LaGattuta has also been looking at vertical metrics in his projects, and has suggested the tool [font-line](https://github.com/source-foundry/font-line) to quickly see vertical metrics values in static fonts.
+
+- [ ] diff vert metrics

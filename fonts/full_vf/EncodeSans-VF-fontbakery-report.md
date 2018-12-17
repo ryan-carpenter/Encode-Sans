@@ -768,8 +768,8 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 |  | fonts/full_vf/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 284.5kb |
-| Hinted Size | 321.9kb |
+| Dehinted Size | 284.4kb |
+| Hinted Size | 321.8kb |
 | Increase | 37.4kb |
 | Change   | 13.1 % |
 
@@ -811,7 +811,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, gasp, GSUB, prep, cvt , GPOS, loca, fpgm]
+* :information_source: **INFO** This font contains the following optional tables [cvt , GPOS, prep, loca, DSIG, GSUB, gasp, fpgm]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
