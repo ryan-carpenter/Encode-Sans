@@ -89,3 +89,12 @@ A change I need to watch out for is vertical metrics. I have edited these to mee
 Mike LaGattuta has also been looking at vertical metrics in his projects, and has suggested the tool [font-line](https://github.com/source-foundry/font-line) to quickly see vertical metrics values in static fonts.
 
 - [ ] diff vert metrics
+
+This method is extremely helpful. It shows that the static regular is the exact same, old and new (or very nearly the exact same, aside from yMax value):
+
+![](assets/2018-12-17-15-15-44.png)
+
+This helpfully shows that I *didn't* adjust the font's vertical metrics, in Encode Sans:
+
+![](assets/2018-12-17-15-18-33.png)
+

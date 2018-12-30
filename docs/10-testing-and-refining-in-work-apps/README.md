@@ -169,4 +169,4 @@ Takeaways:
 - macOS Pages is reading from the `platform 3` (windows) entries on the NAME table
   
 
-Partly, font menu ordering doesn't matter that much, compared to other items, because the fonts hosted on Google will be mostly statics at first, and app makers will need to improve how they handle variable fonts. The best I can do is follow the OpenType spec as closely as possible, and let font menus improve over time. I will place width names before weight names, because it is most logical. 
+Partly, font menu ordering doesn't matter that much, compared to other items, because the fonts hosted on Google will be mostly statics at first, and app makers will need to improve how they handle variable fonts. The best I can do is follow the OpenType spec as closely as possible, and let font menus improve over time. I will place width names before weight names, because it is most logical.

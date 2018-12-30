@@ -285,7 +285,7 @@
       Cond Bold
   </namerecord>
   <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
-      Cond ExBold
+      Cond XBold
   </namerecord>
   <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
       Cond Black
@@ -312,7 +312,7 @@
       SemiCond Bold
   </namerecord>
   <namerecord nameID="274" platformID="3" platEncID="1" langID="0x409">
-      SemiCond ExBold
+      SemiCond XBold
   </namerecord>
   <namerecord nameID="275" platformID="3" platEncID="1" langID="0x409">
       SemiCond Black
@@ -321,7 +321,7 @@
       Thin
   </namerecord>
   <namerecord nameID="277" platformID="3" platEncID="1" langID="0x409">
-      ExLght
+      XLight
   </namerecord>
   <namerecord nameID="278" platformID="3" platEncID="1" langID="0x409">
       Light
@@ -339,7 +339,7 @@
       Bold
   </namerecord>
   <namerecord nameID="283" platformID="3" platEncID="1" langID="0x409">
-      ExBold
+      XBold
   </namerecord>
   <namerecord nameID="284" platformID="3" platEncID="1" langID="0x409">
       Black
@@ -348,7 +348,7 @@
       SemiExpd Thin
   </namerecord>
   <namerecord nameID="286" platformID="3" platEncID="1" langID="0x409">
-      SemiExpd ExLght
+      SemiExpd XLight
   </namerecord>
   <namerecord nameID="287" platformID="3" platEncID="1" langID="0x409">
       SemiExpd Light
@@ -366,7 +366,7 @@
       SemiExpd Bold
   </namerecord>
   <namerecord nameID="292" platformID="3" platEncID="1" langID="0x409">
-      SemiExpd ExBold
+      SemiExpd XBold
   </namerecord>
   <namerecord nameID="293" platformID="3" platEncID="1" langID="0x409">
       SemiExpd Black
@@ -375,7 +375,7 @@
       Expd Thin
   </namerecord>
   <namerecord nameID="295" platformID="3" platEncID="1" langID="0x409">
-      Expd ExLght
+      Expd XLight
   </namerecord>
   <namerecord nameID="296" platformID="3" platEncID="1" langID="0x409">
       Expd Light
@@ -393,7 +393,7 @@
       Expd Bold
   </namerecord>
   <namerecord nameID="301" platformID="3" platEncID="1" langID="0x409">
-      Expd ExBold
+      Expd XBold
   </namerecord>
   <namerecord nameID="302" platformID="3" platEncID="1" langID="0x409">
       Expd Black

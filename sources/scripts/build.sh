@@ -1,7 +1,6 @@
 
 # flag technique from Jon Almeida: https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
 
-# TODO: separate scripts for flags
 while [ ! $# -eq 0 ]
     do
     case "$1" in
