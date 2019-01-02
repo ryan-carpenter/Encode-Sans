@@ -99,9 +99,9 @@ For a few of the more difficult slashes (especially in the `/oslash`, which has 
 
 ## Still to be completed
 
-- [ ] `/Germandbls`: check kerning, probably add against `/W /Y /V` and punctuation
+- [x] `/Germandbls`: check kerning, probably add against `/W /Y /V` and punctuation
 - [x] fix diagonal accent terminals
-- [ ] double-check kerning in slash accents
+- [x] double-check kerning in slash accents
 
 ## Kerning `/Germandbls`
 

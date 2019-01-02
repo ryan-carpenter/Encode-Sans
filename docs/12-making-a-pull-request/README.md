@@ -18,7 +18,6 @@
     - [x] PR!
 
 ## Known remaining to-do items (include in PR)
-- [ ] Check that filenames and folder sorting is as expected (Ask)
 - [x] update `FONTLOG.txt`
   - [x] added with `sources/scripts/helpers/add-fontlog.py`
 - [x] update `METADATA.pb` for variable font
@@ -27,15 +26,14 @@
 - [x] Check that font naming/sorting is how others expect in desktop apps
 - [x] Methodical Red Arrows check. 
     - [x] Ask: are *any* inflected curves okay (e.g. in accent marks like `/tilde`?)
-- [ ] Extra proof kerning for refined glyphs (`/Germandbls`es, `/Oslash`es)
-- [ ] Show clear regression/diffing results
+- [x] Extra proof kerning for refined glyphs (`/Germandbls`es, `/Oslash`es)
 - [x] Do I need to fix mark-to-mark positioning? See docs/diffing-against-old-statics
 - [x] Upgrade build scripts
     - [x] Make build scripts direct new fonts into `fonts/` directory
     - [x] Add fontbakery checking to static font builds
     - [x] (maybe) streamline split-VF build
-
-
+- [ ] Show clear regression/diffing results
+- [ ] Check that filenames and folder sorting is as expected (Ask)
 
 ## Steps to PR, in more detail
 
@@ -114,5 +112,5 @@
 - does not have these axes
 
 Look into:
-- [ ] Ask Marc: Should I add a prep table (maybe with `fix-autohinting` script?) if TTFautohint VF doesn't add it?
-- [ ] FontForge checks (is FF installed correctly?)
+- [x] ~~Ask Marc: Should I add a prep table (maybe with `fix-autohinting` script?) if TTFautohint VF doesn't add it?~~ this is now being added (I think by TTFautohint)
+- [x] ~~FontForge checks (is FF installed correctly?)~~ These aren't working anywhere (issue filed at https://github.com/googlefonts/fontbakery/issues/2261)
