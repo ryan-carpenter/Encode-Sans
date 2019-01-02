@@ -14,8 +14,8 @@ while [ ! $# -eq 0 ]
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
         ;;
         --all | -a)
-            source $(dirname ${BASH_SOURCE[0]})/build-static.sh
-            source $(dirname ${BASH_SOURCE[0]})/build-linked.sh
+            source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
+            source $(dirname ${BASH_SOURCE[0]})/build-normal-width-vf.sh
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
         ;;
     esac

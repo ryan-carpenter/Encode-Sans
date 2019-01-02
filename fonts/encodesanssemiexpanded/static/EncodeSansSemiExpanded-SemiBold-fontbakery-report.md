@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
+Fontbakery version: 0.6.6.dev5+g6a494f59
 
 <details>
 <summary><b>[25] Family checks</b></summary>
@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.5)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.5
+* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6.dev5+g6a494f59
+  LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -186,14 +186,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <br>
 </details>
 <details>
-<summary><b>[115] EncodeSansSemiExpanded-SemiBold.ttf</b></summary>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> All name entries referenced by fvar instances exist on the name table?</summary>
-
-* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** Failed with KeyError: 'fvar'
-
-</details>
+<summary><b>[118] EncodeSansSemiExpanded-SemiBold.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
@@ -337,7 +330,7 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 <summary>:zzz: <b>SKIP:</b> METADATA.pb font.filename field contains font name in right format?</summary>
 
 * [com.google.fonts/check/100](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
 
 </details>
 <details>
@@ -488,6 +481,27 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table?</summary>
+
+* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> A variable font must have named instances.</summary>
+
+* [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> FontForge validation outputs error messages?</summary>
 
 * [com.google.fonts/check/038](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -558,6 +572,13 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.</summary>
+
+* [com.google.fonts/check/wght_valid_range](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Show hinting filesize impact.</summary>
 
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -565,8 +586,8 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesanssemiexpanded/static/EncodeSansSemiExpanded-SemiBold.ttf |
 |:--- | ---:|
-| Dehinted Size | 116.0kb |
-| Hinted Size | 154.5kb |
+| Dehinted Size | 116.1kb |
+| Hinted Size | 154.6kb |
 | Increase | 38.5kb |
 | Change   | 33.2 % |
 
@@ -608,7 +629,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, prep, fpgm, gasp, loca, cvt , GPOS, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, GSUB, loca, GPOS, prep, DSIG, cvt , gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1047,5 +1068,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 5 | 4 | 56 | 7 | 67 |
-| 1% | 4% | 3% | 40% | 5% | 48% |
+| 0 | 5 | 4 | 60 | 7 | 67 |
+| 0% | 3% | 3% | 42% | 5% | 47% |

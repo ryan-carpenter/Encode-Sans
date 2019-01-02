@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
+Fontbakery version: 0.6.6.dev5+g6a494f59
 
 <details>
 <summary><b>[25] Family checks</b></summary>
@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.5)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.5
+* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6.dev5+g6a494f59
+  LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -186,14 +186,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <br>
 </details>
 <details>
-<summary><b>[115] EncodeSans-ExtraLight.ttf</b></summary>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> All name entries referenced by fvar instances exist on the name table?</summary>
-
-* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** Failed with KeyError: 'fvar'
-
-</details>
+<summary><b>[118] EncodeSans-ExtraLight.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
@@ -275,7 +268,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1E5A, Scedilla, uni1E5F.sc, perthousand, uni2116, threeeighths, uni01C7, Hbar, fiveeighths, uni01CB, Aring, Iacute_J.loclNLD, at, Wacute, aogonek.sc, uni0162, uni01F3.sc, Aringacute, Rcaron, .notdef, uni1E1C, uni2153, seveneighths, uni0213.sc, Wcircumflex, dcroat.sc, wacute.sc, wdieresis.sc, uni01C5, onequarter, OE, product.tf, M, uni01C6.sc, Aogonek, uni1E42, Tbar, hbar.sc, Ntilde, uni20A9, germandbls.sc, onehalf, wgrave.sc, eth.sc, germandbls, Oslashacute, uni01F1, uni0212, uni01C6, uni01F3, rcaron.sc, R, Wgrave, wcircumflex.sc, oslashacute.sc, tbar.sc, uni0211.sc, W, Ncaron, Eth, oslash.sc, trademark, uni1E9E, Oslash, Racute, peseta, uni01C4, uni1E5E, uni01CA, uni1E5B.sc, lslash.sc, Eogonek, Dcroat, tbar, dcroat, lslash, Lslash, oneeighth, r.sc, hbar, AEacute, Nacute, AE, uni0210, racute.sc, Wdieresis]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [tbar.sc, uni2153, Wcircumflex, uni01CB, tbar, r.sc, hbar, Hbar, uni01C6.sc, uni0212, Ncaron, uni0162, uni1E1C, peseta, Racute, seveneighths, Rcaron, threeeighths, Ntilde, Eth, uni01F3.sc, OE, uni1E5F.sc, trademark, Aring, uni1E42, lslash, uni01C4, product.tf, Lslash, wdieresis.sc, fiveeighths, Aogonek, AE, uni01C5, uni2116, uni1E5B.sc, Scedilla, germandbls.sc, uni1E9E, oslash.sc, dcroat.sc, Tbar, uni1E5E, Eogonek, uni20A9, germandbls, Wdieresis, oslashacute.sc, Oslashacute, rcaron.sc, wacute.sc, Aringacute, AEacute, R, uni01F3, uni0213.sc, onequarter, Wgrave, Oslash, wgrave.sc, dcroat, perthousand, uni01C6, racute.sc, onehalf, uni01C7, Iacute_J.loclNLD, at, Wacute, Nacute, Dcroat, hbar.sc, oneeighth, W, uni01CA, wcircumflex.sc, uni0211.sc, uni1E5A, M, aogonek.sc, lslash.sc, uni01F1, .notdef, uni0210, eth.sc]
 
 </details>
 <details>
@@ -344,6 +337,27 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 <summary>:zzz: <b>SKIP:</b> Check that variable fonts have an HVAR table. </summary>
 
 * [com.google.fonts/check/varfont/has_HVAR](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table?</summary>
+
+* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> A variable font must have named instances.</summary>
+
+* [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
 
 </details>
@@ -418,6 +432,13 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.</summary>
+
+* [com.google.fonts/check/wght_valid_range](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Show hinting filesize impact.</summary>
 
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -425,8 +446,8 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesans/static/EncodeSans-ExtraLight.ttf |
 |:--- | ---:|
-| Dehinted Size | 116.3kb |
-| Hinted Size | 151.0kb |
+| Dehinted Size | 116.4kb |
+| Hinted Size | 151.1kb |
 | Increase | 34.7kb |
 | Change   | 29.9 % |
 
@@ -468,7 +489,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [cvt , gasp, prep, DSIG, GPOS, fpgm, loca, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [gasp, prep, DSIG, GPOS, cvt , fpgm, loca, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1044,5 +1065,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 10 | 6 | 17 | 6 | 100 |
-| 1% | 7% | 4% | 12% | 4% | 71% |
+| 0 | 10 | 6 | 21 | 6 | 100 |
+| 0% | 7% | 4% | 15% | 4% | 70% |

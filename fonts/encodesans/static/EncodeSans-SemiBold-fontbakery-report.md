@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
+Fontbakery version: 0.6.6.dev5+g6a494f59
 
 <details>
 <summary><b>[25] Family checks</b></summary>
@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.5)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.5
+* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6.dev5+g6a494f59
+  LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -186,14 +186,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <br>
 </details>
 <details>
-<summary><b>[115] EncodeSans-SemiBold.ttf</b></summary>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> All name entries referenced by fvar instances exist on the name table?</summary>
-
-* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** Failed with KeyError: 'fvar'
-
-</details>
+<summary><b>[118] EncodeSans-SemiBold.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
@@ -219,7 +212,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [dcroat.sc, Lslash, Ccedilla, dcroat, OE, uni1E08, uni1E9E, hbar.sc, Iogonek, lslash.sc, uni1E09, at, Oslash, germandbls.sc, iogonek.sc, lslash, .notdef, Hbar, Tbar, eth.sc, tbar.sc, Eth, ccedilla, oslashacute.sc, scedilla, Aogonek, tbar, Oslashacute, Scedilla, aogonek.sc, oslash.sc, uni1E1C, uni1E1D, Eogonek, scedilla.sc, iogonek, eogonek.sc, uni20B1.tf, Dcroat, hbar]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Eth, dcroat, uni1E9E, Hbar, eogonek.sc, ccedilla, OE, tbar, uni1E1C, Eogonek, uni1E09, Dcroat, .notdef, aogonek.sc, Aogonek, germandbls.sc, iogonek, scedilla, Oslash, dcroat.sc, hbar, lslash, uni1E1D, uni1E08, Iogonek, tbar.sc, Tbar, Scedilla, scedilla.sc, at, Lslash, oslashacute.sc, hbar.sc, uni20B1.tf, eth.sc, lslash.sc, oslash.sc, iogonek.sc, Ccedilla, Oslashacute]
 
 </details>
 <details>
@@ -288,6 +281,27 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 <summary>:zzz: <b>SKIP:</b> Check that variable fonts have an HVAR table. </summary>
 
 * [com.google.fonts/check/varfont/has_HVAR](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> All name entries referenced by fvar instances exist on the name table?</summary>
+
+* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> A variable font must have named instances.</summary>
+
+* [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
 
 </details>
@@ -362,6 +376,13 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> The variable font 'wght' (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.</summary>
+
+* [com.google.fonts/check/wght_valid_range](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: is_variable_font
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Show hinting filesize impact.</summary>
 
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -369,10 +390,10 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesans/static/EncodeSans-SemiBold.ttf |
 |:--- | ---:|
-| Dehinted Size | 115.8kb |
-| Hinted Size | 155.3kb |
+| Dehinted Size | 115.9kb |
+| Hinted Size | 155.4kb |
 | Increase | 39.5kb |
-| Change   | 34.1 % |
+| Change   | 34.0 % |
 
 
 </details>
@@ -412,7 +433,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GSUB, prep, fpgm, GPOS, DSIG, loca, cvt , gasp]
+* :information_source: **INFO** This font contains the following optional tables [cvt , GPOS, GSUB, loca, DSIG, gasp, fpgm, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1044,5 +1065,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 2 | 6 | 17 | 6 | 108 |
-| 1% | 1% | 4% | 12% | 4% | 77% |
+| 0 | 2 | 6 | 21 | 6 | 108 |
+| 0% | 1% | 4% | 15% | 4% | 76% |

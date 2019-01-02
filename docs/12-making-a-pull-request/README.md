@@ -32,6 +32,7 @@
     - [x] Make build scripts direct new fonts into `fonts/` directory
     - [x] Add fontbakery checking to static font builds
     - [x] (maybe) streamline split-VF build
+- [ ] (regenerate normal-width VF)
 - [ ] Show clear regression/diffing results
 - [ ] Check that filenames and folder sorting is as expected (Ask)
 
