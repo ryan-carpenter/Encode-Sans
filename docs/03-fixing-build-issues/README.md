@@ -18,7 +18,7 @@ Steps
 - [x] pull in the previous / original Encode Sans file
 - [x] re-evaluate math being done to instance weight in the `fix-designspace.py` script. This shouldn't cause problems if it gets a GlyphsApp source with correct values ... but it is.
 - [x] Make `fix-designspace.py` detect initial values from glyphs source, rather than relying on variables to be manually set
-- [ ] hopefully make the code simpler? It has become pretty long and strung-together...
+- [x] ~~hopefully make the code simpler? It has become pretty long and strung-together...~~ I'll refactor when/if it's needed again
 
 Results
 

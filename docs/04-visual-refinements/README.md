@@ -102,3 +102,25 @@ For a few of the more difficult slashes (especially in the `/oslash`, which has 
 - [ ] `/Germandbls`: check kerning, probably add against `/W /Y /V` and punctuation
 - [x] fix diagonal accent terminals
 - [ ] double-check kerning in slash accents
+
+## Kerning `/Germandbls`
+
+I've kerned the new cap and smallcap `/Germandbls` across all 4 masters. It is in the `/S` kern1 group (they share kerns on their right sides, or the "first" side of letter gaps), which made it a bit faster (and also meant that `/S` got an update against the `/A`).
+
+![](assets/2019-01-02-16-40-05.png)
+
+![](assets/2019-01-02-16-41-47.png)
+
+![](assets/2019-01-02-16-44-25.png)
+
+## Kerning new slashes
+
+I made only a few small adjustments to existing slash kerns, where the flat ends cause gaps to appear unequal (for instance, in `XXØXX` where letters crash unequally)
+
+![](assets/2019-01-02-16-51-10.png)
+
+![](assets/2019-01-02-16-52-22.png)
+
+Meanwhile, I think the lowercase kerning already works well in almost all cases – probably partly because there are so many fewer crashes. I have modified it slightly for condensed bold diagonals, and nowhere else.
+
+![](assets/2019-01-02-16-57-53.png)

@@ -22,8 +22,8 @@
 - [x] update `FONTLOG.txt`
   - [x] added with `sources/scripts/helpers/add-fontlog.py`
 - [x] update `METADATA.pb` for variable font
-- [ ] Apply autohinting to VFs
-- [ ] Test hinting in new statics
+- [x] Apply autohinting to VFs
+- [x] Test hinting in new statics
 - [x] Check that font naming/sorting is how others expect in desktop apps
 - [x] Methodical Red Arrows check. 
     - [x] Ask: are *any* inflected curves okay (e.g. in accent marks like `/tilde`?)

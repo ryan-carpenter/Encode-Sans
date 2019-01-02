@@ -56,4 +56,4 @@ fontmake -m master_ufo/EncodeSans.designspace --output otf --interpolate "Encode
 
 I know that the AFDKO autohints CFF/OTF files, so I know that OTFs *can be* autohinted. But, maybe I need to use the  AFDKO to compile these instances?
 
-- [ ] ask Micah about this
+- [x] ~~ask Micah about this~~ We're just building TTFs

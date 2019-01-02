@@ -31,7 +31,7 @@ This doesn't happen in Bahnschrift:
 ![](assets/ms-word-bahnschrift-regular_bold.gif)
 
 
-- [ ] TODO: check [Saira](https://github.com/m4rc1e/Saira-1/tree/master/SairaGF/sources) as a possible good weight + width VF reference.
+- [x] TODO: check [Saira](https://github.com/m4rc1e/Saira-1/tree/master/SairaGF/sources) as a possible good weight + width VF reference. UPDATE: I can't even find a built variable version of Saira, so it wouldn't help me much to inspect, because I'd have to build it myself, anyway
 
 
 ## Name table improvements
@@ -42,7 +42,7 @@ I'm using Bahnschrift and the MS Typography docs to upgrade my `NAMEpatch.xml` f
 - I've changed `nameID`s 4 & 6 to simply `Encode Sans`, from `Encode Sans Condensed Thin`, so it avoids name-length issues and hopefully shows up more simply in font menus
 - I've also added specific sample text to `nameID` 19, for display in font-viewing apps.
 
-- [ ] TODO: Check if name patches need to exist for weight-split / linked variable fonts
+- [x] ~~TODO: Check if name patches need to exist for weight-split / linked variable fonts~~ They do, if: A) we want the default font name to not include the default instance (e.g. I want `Encode Sans`), not `Encode Sans Condensed Light`, and B) if we want there to be Mac-platform names included, C) if we want to be able to abbreviate instance names to better install on different software and to fit within MS Word font menu on Windows.
 
 ## Sorting on Mac
 
@@ -116,14 +116,14 @@ Earlier, I hadn't understood the linked-purposes of the NAME & STAT tables. Now 
     - Actually, MS Typography says: "***axisOrdering:*** A value that applications can use to determine primary sorting of face names, or for ordering of descriptors when composing family or face names." So, that might be the only required change (once software applications are properly handing VF metadata, at least).
     - The solution: there were typos in certain "format" fields.
 
-- [ ] compare TTX outputs
-- [ ] try each in Word & Pages
+- [x] compare TTX outputs
+- [x] try each in Word & Pages
 
 ## Checking the NAME and STAT tables in weight-only variable font
-- [ ] try without patches 
-- [ ] try with patches
-- [ ] compare TTX outputs
-- [ ] try each in Word & Pages
+- [x] try without patches 
+- [x] try with patches
+- [x] compare TTX outputs
+- [x] try each in Word & Pages
 
 ## Remove fonts and try again with STAT table minor version `1` (not `2`)
 

@@ -83,15 +83,15 @@ On [a posting in the GlyphsApp forum](https://forum.glyphsapp.com/t/overly-stric
 
 I'll test install this on Windows to see whether 26 characters causes any issue.
 
-- [ ] Test with virtual machine, windows, and Mac Office
-- [ ] Be sure to keep exported static instance names below 29 characters
+- [x] Test with virtual machine, windows, and Mac Office
+- [x] Be sure to keep exported static instance names below 29 characters
 
 ## Keeping static instance exports below 29 characters
 
 It's possible to add `preferredSubfamilyName` custom parameters to a GlyphsApp source. To avoid future potential installation errors, I'll make a script to add in params that shorten names.
 
 - [x] first, export static instances with FontMake to check whether this is taken care of already
-- [ ] if FontMake doesn't do it, make a script to add your own
+- [x] ~~if FontMake doesn't do it, make a script to add your own~~ instead, i've abbreviated windows names
 
 A static instance export of Encode doesn't abbreviate naming. For instance, Condensed ExtraLight exports with:
 
