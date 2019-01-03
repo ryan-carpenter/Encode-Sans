@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
+Fontbakery version: 0.6.6.dev5+g6a494f59
 
 <details>
 <summary><b>[25] Family checks</b></summary>
@@ -8,9 +8,9 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** fontbakery (0.6.4)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.5.dev4+gce698f3a.d20181205
-  LATEST:    0.6.4
+* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.6.dev5+g6a494f59
+  LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -186,7 +186,7 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 <br>
 </details>
 <details>
-<summary><b>[115] EncodeSans-VF.ttf</b></summary>
+<summary><b>[118] EncodeSans-VF.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Font has old ttfautohint applied?</summary>
 
@@ -251,6 +251,13 @@ Fontbakery version: 0.6.5.dev4+gce698f3a.d20181205
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** Found an variable font instance with 'wght'=275.0. This should instead be a multiple of 100.
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -268,186 +275,6 @@ Failed to sanitize file!
 
 * [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
-
-* [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-Glyph name: numbersign	Contours detected: 4	Expected: 2
-Glyph name: eight	Contours detected: 1	Expected: 3
-Glyph name: E	Contours detected: 2	Expected: 1
-Glyph name: F	Contours detected: 2	Expected: 1
-Glyph name: K	Contours detected: 3	Expected: 1 or 2
-Glyph name: R	Contours detected: 3	Expected: 1 or 2
-Glyph name: X	Contours detected: 2	Expected: 1
-Glyph name: a	Contours detected: 1	Expected: 2
-Glyph name: e	Contours detected: 1	Expected: 2
-Glyph name: f	Contours detected: 2	Expected: 1
-Glyph name: k	Contours detected: 3	Expected: 1 or 2
-Glyph name: m	Contours detected: 2	Expected: 1
-Glyph name: t	Contours detected: 2	Expected: 1
-Glyph name: x	Contours detected: 2	Expected: 1
-Glyph name: y	Contours detected: 2	Expected: 1
-Glyph name: uni2076	Contours detected: 1	Expected: 2
-Glyph name: uni2078	Contours detected: 1	Expected: 3
-Glyph name: uni2081	Contours detected: 2	Expected: 1
-Glyph name: uni2086	Contours detected: 1	Expected: 2
-Glyph name: uni2088	Contours detected: 1	Expected: 3
-Glyph name: uni2089	Contours detected: 1	Expected: 2
-Glyph name: cent	Contours detected: 3	Expected: 1 or 2
-Glyph name: colonmonetary	Contours detected: 5	Expected: 1 or 3
-Glyph name: currency	Contours detected: 6	Expected: 2
-Glyph name: franc	Contours detected: 3	Expected: 1 or 2
-Glyph name: lira	Contours detected: 4	Expected: 1
-Glyph name: peseta	Contours detected: 5	Expected: 2, 3 or 4
-Glyph name: sterling	Contours detected: 3	Expected: 1 or 2
-Glyph name: ordfeminine	Contours detected: 1	Expected: 2 or 3
-Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
-Glyph name: uni20AD	Contours detected: 3	Expected: 1
-Glyph name: uni20A9	Contours detected: 5	Expected: 1, 3, 4 or 7
-Glyph name: uni20B1	Contours detected: 6	Expected: 1, 2 or 4
-Glyph name: uni20B5	Contours detected: 3	Expected: 1 or 2
-Glyph name: uni00B5	Contours detected: 2	Expected: 1
-Glyph name: uni00B9	Contours detected: 2	Expected: 1
-Glyph name: onequarter	Contours detected: 5	Expected: 3 or 4
-Glyph name: onehalf	Contours detected: 4	Expected: 3
-Glyph name: AE	Contours detected: 4	Expected: 2
-Glyph name: Egrave	Contours detected: 3	Expected: 2
-Glyph name: Eacute	Contours detected: 3	Expected: 2
-Glyph name: Ecircumflex	Contours detected: 3	Expected: 2
-Glyph name: Edieresis	Contours detected: 4	Expected: 3
-Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: germandbls	Contours detected: 2	Expected: 1
-Glyph name: agrave	Contours detected: 2	Expected: 3
-Glyph name: aacute	Contours detected: 2	Expected: 3
-Glyph name: acircumflex	Contours detected: 2	Expected: 3
-Glyph name: atilde	Contours detected: 2	Expected: 3
-Glyph name: adieresis	Contours detected: 3	Expected: 4
-Glyph name: aring	Contours detected: 3	Expected: 4
-Glyph name: egrave	Contours detected: 2	Expected: 3
-Glyph name: eacute	Contours detected: 2	Expected: 3
-Glyph name: ecircumflex	Contours detected: 2	Expected: 3
-Glyph name: edieresis	Contours detected: 3	Expected: 4
-Glyph name: eth	Contours detected: 3	Expected: 2
-Glyph name: yacute	Contours detected: 3	Expected: 2
-Glyph name: ydieresis	Contours detected: 4	Expected: 3
-Glyph name: amacron	Contours detected: 2	Expected: 3
-Glyph name: abreve	Contours detected: 2	Expected: 3
-Glyph name: Dcroat	Contours detected: 3	Expected: 2
-Glyph name: dcroat	Contours detected: 3	Expected: 2
-Glyph name: Emacron	Contours detected: 3	Expected: 2
-Glyph name: emacron	Contours detected: 2	Expected: 3
-Glyph name: Ebreve	Contours detected: 3	Expected: 2
-Glyph name: ebreve	Contours detected: 2	Expected: 3
-Glyph name: Edotaccent	Contours detected: 3	Expected: 2
-Glyph name: edotaccent	Contours detected: 2	Expected: 3
-Glyph name: Eogonek	Contours detected: 3	Expected: 1 or 2
-Glyph name: eogonek	Contours detected: 1	Expected: 2
-Glyph name: Ecaron	Contours detected: 3	Expected: 2
-Glyph name: ecaron	Contours detected: 2	Expected: 3
-Glyph name: hbar	Contours detected: 2	Expected: 1
-Glyph name: uni0136	Contours detected: 4	Expected: 2 or 3
-Glyph name: uni0137	Contours detected: 4	Expected: 2 or 3
-Glyph name: kgreenlandic	Contours detected: 3	Expected: 1 or 2
-Glyph name: Lslash	Contours detected: 2	Expected: 1
-Glyph name: lslash	Contours detected: 2	Expected: 1
-Glyph name: Eng	Contours detected: 2	Expected: 1
-Glyph name: OE	Contours detected: 3	Expected: 2
-Glyph name: Racute	Contours detected: 4	Expected: 3
-Glyph name: uni0156	Contours detected: 4	Expected: 3
-Glyph name: Rcaron	Contours detected: 4	Expected: 3
-Glyph name: uni0163	Contours detected: 3	Expected: 1 or 2
-Glyph name: tcaron	Contours detected: 3	Expected: 2
-Glyph name: Tbar	Contours detected: 2	Expected: 1
-Glyph name: tbar	Contours detected: 3	Expected: 1
-Glyph name: uogonek	Contours detected: 2	Expected: 1
-Glyph name: ycircumflex	Contours detected: 3	Expected: 2
-Glyph name: uni018F	Contours detected: 1	Expected: 2
-Glyph name: florin	Contours detected: 2	Expected: 1
-Glyph name: AEacute	Contours detected: 5	Expected: 3
-Glyph name: uni0201	Contours detected: 3	Expected: 4
-Glyph name: uni0203	Contours detected: 2	Expected: 3
-Glyph name: uni0204	Contours detected: 4	Expected: 3
-Glyph name: uni0205	Contours detected: 3	Expected: 4
-Glyph name: uni0206	Contours detected: 3	Expected: 2
-Glyph name: uni0207	Contours detected: 2	Expected: 3
-Glyph name: uni0210	Contours detected: 5	Expected: 4
-Glyph name: uni0212	Contours detected: 4	Expected: 3
-Glyph name: uni021B	Contours detected: 3	Expected: 2
-Glyph name: infinity	Contours detected: 2	Expected: 3
-Glyph name: uni0233	Contours detected: 3	Expected: 2
-Glyph name: uni0259	Contours detected: 1	Expected: 2
-Glyph name: notequal	Contours detected: 3	Expected: 1
-Glyph name: fi	Contours detected: 4	Expected: 1, 2 or 3
-Glyph name: fl	Contours detected: 3	Expected: 1 or 2
-Glyph name: partialdiff	Contours detected: 1	Expected: 2
-Glyph name: yen	Contours detected: 3	Expected: 1 or 2
-Glyph name: uni2079	Contours detected: 1	Expected: 2
-Glyph name: registered	Contours detected: 5	Expected: 3 or 4
-Glyph name: uni03BC	Contours detected: 2	Expected: 1
-Glyph name: pi	Contours detected: 3	Expected: 1
-Glyph name: uni20B9	Contours detected: 4	Expected: 1
-Glyph name: uni20BA	Contours detected: 3	Expected: 1
-Glyph name: uni20BC	Contours detected: 2	Expected: 1
-Glyph name: uni20BF	Contours detected: 6	Expected: 3
-Glyph name: uni1E08	Contours detected: 3	Expected: 2
-Glyph name: uni1E09	Contours detected: 3	Expected: 2
-Glyph name: uni1E14	Contours detected: 4	Expected: 3
-Glyph name: uni1E15	Contours detected: 3	Expected: 4
-Glyph name: uni1E16	Contours detected: 4	Expected: 3
-Glyph name: uni1E17	Contours detected: 3	Expected: 4
-Glyph name: uni1E1C	Contours detected: 4	Expected: 2
-Glyph name: uni1E43	Contours detected: 3	Expected: 2
-Glyph name: at	Contours detected: 1	Expected: 2
-Glyph name: uni1E5A	Contours detected: 4	Expected: 3
-Glyph name: uni1E5E	Contours detected: 4	Expected: 3
-Glyph name: uni2113	Contours detected: 1	Expected: 2
-Glyph name: uni1E6D	Contours detected: 3	Expected: 2
-Glyph name: uni1E6F	Contours detected: 3	Expected: 2
-Glyph name: uni1E8F	Contours detected: 3	Expected: 2
-Glyph name: uni1E97	Contours detected: 4	Expected: 3
-Glyph name: uni1EA1	Contours detected: 2	Expected: 3
-Glyph name: uni1EA3	Contours detected: 2	Expected: 3
-Glyph name: uni1EA5	Contours detected: 3	Expected: 4
-Glyph name: uni1EA7	Contours detected: 3	Expected: 4
-Glyph name: uni1EA9	Contours detected: 3	Expected: 4
-Glyph name: uni1EAB	Contours detected: 3	Expected: 4
-Glyph name: uni1EAD	Contours detected: 3	Expected: 4
-Glyph name: uni1EAF	Contours detected: 3	Expected: 4
-Glyph name: uni1EB1	Contours detected: 3	Expected: 4
-Glyph name: uni1EB3	Contours detected: 3	Expected: 4
-Glyph name: uni1EB5	Contours detected: 3	Expected: 4
-Glyph name: uni1EB7	Contours detected: 3	Expected: 4
-Glyph name: uni1EB8	Contours detected: 3	Expected: 2
-Glyph name: uni1EB9	Contours detected: 2	Expected: 3
-Glyph name: uni1EBA	Contours detected: 3	Expected: 2
-Glyph name: uni1EBB	Contours detected: 2	Expected: 3
-Glyph name: uni1EBC	Contours detected: 3	Expected: 2
-Glyph name: uni1EBD	Contours detected: 2	Expected: 3
-Glyph name: uni1EBE	Contours detected: 4	Expected: 3
-Glyph name: uni1EBF	Contours detected: 3	Expected: 4
-Glyph name: uni1EC0	Contours detected: 4	Expected: 3
-Glyph name: uni1EC1	Contours detected: 3	Expected: 4
-Glyph name: uni1EC2	Contours detected: 4	Expected: 3
-Glyph name: uni1EC3	Contours detected: 3	Expected: 4
-Glyph name: uni1EC4	Contours detected: 4	Expected: 3
-Glyph name: uni1EC5	Contours detected: 3	Expected: 4
-Glyph name: uni1EC6	Contours detected: 4	Expected: 3
-Glyph name: uni1EC7	Contours detected: 3	Expected: 4
-Glyph name: ygrave	Contours detected: 3	Expected: 2
-Glyph name: uni1EF5	Contours detected: 3	Expected: 2
-Glyph name: uni1EF7	Contours detected: 3	Expected: 2
-Glyph name: uni1EF9	Contours detected: 3	Expected: 2
-Glyph name: uni2153	Contours detected: 4	Expected: 3
-Glyph name: oneeighth	Contours detected: 4	Expected: 5
-Glyph name: threeeighths	Contours detected: 3	Expected: 5
-Glyph name: fiveeighths	Contours detected: 3	Expected: 5
-Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 </details>
 <details>
@@ -551,6 +378,13 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 * [com.google.fonts/check/131](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :zzz: **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Check if each glyph has the recommended amount of contours.</summary>
+
+* [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :zzz: **SKIP** Unfulfilled Conditions: not is_variable_font
 
 </details>
 <details>
@@ -673,10 +507,10 @@ Glyph name: seveneighths	Contours detected: 3	Expected: 5
 
 |  | fonts/encodesans/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 197.5kb |
-| Hinted Size | 234.4kb |
+| Dehinted Size | 198.4kb |
+| Hinted Size | 235.3kb |
 | Increase | 36.9kb |
-| Change   | 18.7 % |
+| Change   | 18.6 % |
 
 
 </details>
@@ -716,7 +550,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, loca, GPOS, GSUB, fpgm, cvt , gasp, prep]
+* :information_source: **INFO** This font contains the following optional tables [loca, gasp, cvt , DSIG, fpgm, prep, GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -961,6 +795,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> A variable font must have named instances.</summary>
+
+* [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** OK
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Checking with ftxvalidator.</summary>
 
 * [com.google.fonts/check/035](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1192,6 +1033,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be within spec range of 1 to 1000 on all instances.</summary>
+
+* [com.google.fonts/check/wght_valid_range](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** OK
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
 
 * [com.google.fonts/check/180](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1205,5 +1053,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 3 | 33 | 6 | 88 |
-| 0% | 7% | 2% | 24% | 4% | 63% |
+| 0 | 11 | 2 | 34 | 6 | 90 |
+| 0% | 8% | 1% | 24% | 4% | 63% |
