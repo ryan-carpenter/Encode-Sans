@@ -1,4 +1,4 @@
-#MenuTitle: Prep Designspace Encode Sans
+#MenuTitle: Split Normal-width Masters, Encode Sans
 # -*- coding: utf-8 -*-
 """
     Makes a copy of a GlyphsApp source, with adjustments to designspace by:
