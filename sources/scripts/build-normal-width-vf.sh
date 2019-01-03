@@ -20,10 +20,6 @@ outputFolder="fonts/encodesans"
 ############################################
 
 
-# ## make temp glyphs filename with "-build" suffix
-# tempGlyphsSource=${file/".glyphs"/"-build.glyphs"}
-
-# cp $file $tempGlyphsSource
 
 ## make temp glyphs filename with "-build" suffix
 tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
