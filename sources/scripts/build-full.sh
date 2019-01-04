@@ -177,8 +177,7 @@ fi
 done
 
 # ============================================================================
-# Sort into final folder =====================================================
-
+# Sort into final folder and fontbake ========================================
 
 for file in variable_ttf/*; do 
     if [ -f "$file" ]; then 
