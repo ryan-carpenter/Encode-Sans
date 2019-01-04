@@ -120,19 +120,19 @@ for instance in font.instances:
 		newWght = round( minWdthMinWght + ( ((instance.weightValue - wghtIntrMin) / (wghtIntrMax - wghtIntrMin)) * (maxWdthMaxWght - minWdthMinWght)))
 
 		# If the font's master light weights don't match, this will match them
-		font.masters[wideLightIndex].weightValue = minWdthMinWght
+		font.masters[wideLightIndex].weightValue = int(minWdthMinWght)
 
 		# In Encode Sans, the Condensed Bold has a lighter weight than the Extended Bold. This sets it as the same max.
-		font.masters[condBoldIndex].weightValue = maxWdthMaxWght
+		font.masters[condBoldIndex].weightValue = int(maxWdthMaxWght)
 		
 		# font.masters[1].weightValue = wghtMidNew # used in a 6-master setup
 
 		instance.weightValue = newWght
 
 		# insert customParameter weightClass 250 for thin instances, to support some software
-		# this only work properly for Encode for now
-		if instance.weightValue == minWdthMinWght:
-			instance.customParameters['weightClass'] = 250
+		# this only works properly for Encode for now
+		# if instance.weightValue == minWdthMinWght:
+		# 	instance.customParameters['weightClass'] = 250
 			
 		instance.widthValue = widthDict[instance.widthValue]
 
@@ -163,10 +163,10 @@ for key, val in wghtDict.items():
 
 # set instance wght values to the standardized values
 for instance in font.instances:
-	instance.weightValue = wghtDict[instance.name]
+	instance.weightValue = int(wghtDict[instance.name])
 
 for master in font.masters:
-	master.widthValue = widthDict[master.widthValue]
+	master.widthValue = int(widthDict[master.widthValue])
 			
 if nonDestructive == False:		
 	print("\nScaled file to a rectangular designspace")

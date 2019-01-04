@@ -500,8 +500,8 @@ Failed to sanitize file!
 
 |  | fonts/encodesans/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 198.4kb |
-| Hinted Size | 234.3kb |
+| Dehinted Size | 198.6kb |
+| Hinted Size | 234.5kb |
 | Increase | 35.9kb |
 | Change   | 18.1 % |
 
@@ -543,7 +543,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GPOS, loca, cvt , DSIG, fpgm, prep, gasp, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [cvt , GSUB, loca, fpgm, prep, DSIG, GPOS, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

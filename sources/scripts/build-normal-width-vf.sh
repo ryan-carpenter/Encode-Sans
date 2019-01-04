@@ -49,31 +49,13 @@ fi
 ## clean up temp glyphs file
 rm -rf $tempGlyphsSource
 
-# # ============================================================================
-# # Autohinting ================================================================
-
-# # currently janky – I need to find how to properly add this dependency
-# # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
-# # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
-
-# ttxPath=${file/".ttf"/".ttx"}
-# ttfPath=${ttxPath/".ttx"/".ttf"}
-# hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
-
-# echo "================================================"
-# echo ttfautohint-vf $ttfPath $hintedPath
-# echo "================================================"
-# ttfautohint-vf -I $ttfPath $hintedPath
-
-# cp $hintedPath $ttfPath
-# rm -rf $hintedPath
-
 
 # ============================================================================
 # SmallCap subsetting ========================================================
 
 # smallCapFontName, e..g 'SignikaSC-VF'
 smallCapFontName=${VFname/"-VF"/"SC-VF"}
+ttfPath="variable_ttf/${VFname}.ttf"
 
 subsetSmallCaps()
 {
@@ -179,12 +161,6 @@ done
 
 # ============================================================================
 # Sort into final folder =====================================================
-
-# finalFilePath=${hintedPath/"-hinted"/""}
-# cp $hintedPath $finalFilePath
-
-# open VF in default program; hopefully you have FontView
-# open ${finalFilePath}
 
 
 for file in variable_ttf/*; do 
