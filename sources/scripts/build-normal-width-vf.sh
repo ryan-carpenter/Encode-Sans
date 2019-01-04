@@ -7,19 +7,20 @@
 ################# set vars #################
 
 glyphsSource="sources/split/Encode-Sans-normal_width.glyphs"
+finalLocation="fonts/encodesans"
+scFinalLocation="fonts/encodesans_sc"
 
 ## move VF into new folder of dist/ with timestamp and fontbake
-timestampAndFontbakeInDist=true
+timestampAndFontbakeInDist=false
 
 ## keep designspace file if you want to check values later
 keepDesignspace=false
 
-outputFolder="fonts/encodesans"
-
 ################# set vars #################
 ############################################
 
-
+# ============================================================================
+# Set up names ===============================================================
 
 ## make temp glyphs filename with "-build" suffix
 tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
@@ -31,6 +32,9 @@ echo "VF Name: ${VFname}"
 
 ## copy Glyphs file into temp file
 cp $glyphsSource $tempGlyphsSource
+
+# ============================================================================
+# Generate Variable Font =====================================================
 
 # ## call fontmake to make a varfont
 fontmake -o variable -g $tempGlyphsSource
@@ -45,91 +49,171 @@ fi
 ## clean up temp glyphs file
 rm -rf $tempGlyphsSource
 
+# # ============================================================================
+# # Autohinting ================================================================
 
-# fix name length in generated VFs
-# python sources/scripts/helpers/shorten-nameID-4-6.py variable_ttf
+# # currently janky – I need to find how to properly add this dependency
+# # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
+# # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
 
-cd variable_ttf
+# ttxPath=${file/".ttf"/".ttx"}
+# ttfPath=${ttxPath/".ttx"/".ttf"}
+# hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
 
-echo "fix DSIG in " ${VFname}.ttf
-gftools fix-dsig --autofix ${VFname}.ttf
+# echo "================================================"
+# echo ttfautohint-vf $ttfPath $hintedPath
+# echo "================================================"
+# ttfautohint-vf -I $ttfPath $hintedPath
 
-
-# echo "fix GASP & PREP in " ${VFname}.ttf
-# gftools fix-nonhinting ${VFname}.ttf ${VFname}.ttf
-
-
-## sets up temp ttx file to insert correct values into tables
-ttx ${VFname}.ttf
-
-rm -rf ${VFname}.ttf
-rm -rf ${VFname}-backup-fonttools-prep-gasp.ttf
-
-cd ..
-
-# Hint with TTFautohint-VF 
-
-ttfPath=${ttxPath/".ttx"/".ttf"}
-hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
-
-echo "================================================"
-echo ttfautohint-vf $ttfPath $hintedPath
-echo "================================================"
-ttfautohint-vf -I $ttfPath $hintedPath
-
-# TODO: add NAMEpatch step, or move build to just do a normal-width VF 
-
-ttxPath="variable_ttf/${VFname}.ttx"
-patchPath="variable_ttf/${VFname}-patch.ttx"
-
-# ## inserts patch files into temporary ttx to fix export errors
-# ## BE SURE to update these patches for the real values in a given typeface
-cp $ttxPath $patchPath
-cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
-rm -rf $patchPath
-
-cp $ttxPath $patchPath
-cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/STATpatch-normal_width_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
-rm -rf $patchPath
-
-## copies temp ttx file back into a new ttf file
-ttx $ttxPath
-
-rm -rf $ttxPath
-
-ttfPath=${ttxPath/".ttx"/".ttf"}
-hintedPath=${ttxPath/".ttx"/"-hinted.ttf"}
-
-# Hint with TTFautohint-VF 
-# currently janky – I need to find how to properly add this dependency
-# https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
-# ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
-echo "================================================"
-echo ttfautohint-vf $ttfPath $hintedPath
-echo "================================================"
-ttfautohint-vf $ttfPath $hintedPath
-
-finalFilePath=${hintedPath/"-hinted"/""}
-cp $hintedPath $finalFilePath
-
-# open VF in default program; hopefully you have FontView
-open ${finalFilePath}
+# cp $hintedPath $ttfPath
+# rm -rf $hintedPath
 
 
-# open VF in default program; hopefully you have FontView
-open ${finalFilePath}
+# ============================================================================
+# SmallCap subsetting ========================================================
 
-## if you set timestampAndFontbakeInDist variable to true, this creates a new folder in 'dist' to put it into and run fontbake on
-if [ $timestampAndFontbakeInDist == true ]
-then
-    ## move font into folder of dist/, with timestamp, then fontbake the font
-    # python3 sources/scripts/helpers/distdate-and-fontbake.py "EncodeSans-VF" "encodesans" $hintedPath
+# smallCapFontName, e..g 'SignikaSC-VF'
+smallCapFontName=${VFname/"-VF"/"SC-VF"}
 
+subsetSmallCaps()
+{
+    FILE=$1
+    SC_NAME=$2
 
-    python3 sources/scripts/helpers/distdate-and-fontbake.py "fonts" "encodesans" $finalFilePath
+    echo making ${smallCapFontName}.ttf
 
-    rm -rf variable_ttf
-else
-    ttx $hintedPath
-    echo "font and ttx in variable_ttf folder"
+    pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
+
+    ttx $FILE
+    # ttxPath="variable_ttf/${VFname}.ttx"
+    ttxPath=${FILE/".ttf"/".ttx"}
+
+    #get glyph names, minus .smcp glyphs
+    subsetGlyphNames=`python sources/scripts/helpers/get-smallcap-subset-glyphnames.py $ttxPath`
+
+    # echo $subsetGlyphNames
+    echo "subsetting smallcap font"
+
+    # subsetting with subsetGlyphNames list
+    pyftsubset $SC_NAME ${subsetGlyphNames}
+
+    # remove feature-frozen font & simplifying name of subset font
+
+    subsetSmallCapFontName=${SC_NAME/"VF"/"VF.subset"}
+
+    rm -rf $SC_NAME
+
+    mv ${subsetSmallCapFontName} $SC_NAME
+
+    # removes temp ttx file
+    rm -rf $ttxPath
+}
+
+# subsetSmallCaps variable_ttf/${VFname}.ttf variable_ttf/${smallCapFontName}.ttf
+subsetSmallCaps $ttfPath variable_ttf/${smallCapFontName}.ttf
+
+# ============================================================================
+# Autohinting ================================================================
+
+for file in variable_ttf/*; do 
+if [ -f "$file" ]; then 
+    echo "TTFautohint " ${file}
+    # autohint with detailed info
+    hintedFile=${file/".ttf"/"-hinted.ttf"}
+    
+    # Hint with TTFautohint-VF ... currently janky – it would be better to properly add this dependency
+    # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
+    # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
+    echo "------------------------------------------------"
+    echo ttfautohint-vf $file $hintedFile  --increase-x-height 9
+    echo "------------------------------------------------"
+    ttfautohint-vf -I $file $hintedFile  --increase-x-height 9
+
+    cp ${hintedFile} ${file}
+    rm -rf ${hintedFile}
+fi 
+done
+
+# ============================================================================
+# OpenType table fixes =======================================================
+
+for file in variable_ttf/*; do 
+if [ -f "$file" ]; then 
+    # fileName=$(basename $file)
+
+    echo "fix DSIG in " $file
+    gftools fix-dsig --autofix $file
+
+    ## sets up temp ttx file to insert correct values into tables
+    ttx $file
+
+    rm -rf $file
+
+    ttxPath=${file/".ttf"/".ttx"}
+    patchPath=${file/".ttf"/"-patch.ttx"}
+
+    # ## inserts patch files into temporary ttx to fix export errors
+    # ## BE SURE to update these patches for the real values in a given typeface
+    if [[ $file != *"SC"* ]]; then
+        cp $ttxPath $patchPath
+        cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+        rm -rf $patchPath
+    fi
+    if [[ $file == *"SC"* ]]; then
+        cp $ttxPath $patchPath
+        cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+        rm -rf $patchPath
+
+    fi
+    # same for either
+    cp $ttxPath $patchPath
+    cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/patches/STATpatch-normal_width_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+    rm -rf $patchPath
+
+    ## copies temp ttx file back into a new ttf file
+    ttx $ttxPath
+
+    rm -rf $ttxPath
 fi
+done
+
+# ============================================================================
+# Sort into final folder =====================================================
+
+# finalFilePath=${hintedPath/"-hinted"/""}
+# cp $hintedPath $finalFilePath
+
+# open VF in default program; hopefully you have FontView
+# open ${finalFilePath}
+
+
+for file in variable_ttf/*; do 
+    if [ -f "$file" ]; then 
+        open $file
+
+        if [ $timestampAndFontbakeInDist == true ]; then
+            newFontLocation=`python sources/scripts/helpers/distdate.py ${file}`
+
+            fontbakery check-googlefonts ${newFontLocation}/${VFname}.ttf --ghmarkdown ${newFontLocation}/${VFname}-fontbakery-report.md
+
+            echo "new VF location is " ${newFontLocation}
+        else
+            fileName=$(basename $file)
+
+            if [[ $file != *"SC"* ]]; then
+                cp $file $finalLocation/$fileName
+                echo "new VF location is " $finalLocation/$fileName
+                fontbakery check-googlefonts $finalLocation/$fileName --ghmarkdown $finalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
+            fi
+            if [[ $file == *"SC"* ]]; then
+                cp $file $scFinalLocation/$fileName
+                echo "new VF location is " $scFinalLocation/$fileName
+                fontbakery check-googlefonts $scFinalLocation/$fileName --ghmarkdown $scFinalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
+            fi
+        fi
+    fi
+done
+
+rm -rf variable_ttf
+rm -rf instance_ufo
+rm -rf master_ufo

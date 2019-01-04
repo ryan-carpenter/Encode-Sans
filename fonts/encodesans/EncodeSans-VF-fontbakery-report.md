@@ -244,20 +244,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Copyright field for this font on METADATA.pb ('Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.') differs from a copyright notice entry on the name table: 'Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)'
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Found an variable font instance with 'wght'=275.0. This should instead be a multiple of 100.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -275,6 +261,13 @@ Failed to sanitize file!
 
 * [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
+
+* [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :warning: **WARN** Name table entry ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
@@ -508,9 +501,9 @@ Failed to sanitize file!
 |  | fonts/encodesans/EncodeSans-VF.ttf |
 |:--- | ---:|
 | Dehinted Size | 198.4kb |
-| Hinted Size | 235.3kb |
-| Increase | 36.9kb |
-| Change   | 18.6 % |
+| Hinted Size | 234.3kb |
+| Increase | 35.9kb |
+| Change   | 18.1 % |
 
 
 </details>
@@ -550,7 +543,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, gasp, cvt , DSIG, fpgm, prep, GPOS, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, loca, cvt , DSIG, fpgm, prep, gasp, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -671,7 +664,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** METADATA.pb: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
-* :bread: **PASS** Name table entry: Copyright field 'Copyright 2018 The Encode Sans Project Authors (https://github.com/impallari/Encode-Sans)' matches canonical pattern.
+* :bread: **PASS** Name table entry: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
 * :bread: **PASS** All copyright notice strings are good.
 
 </details>
@@ -722,6 +715,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Font em size is good (unitsPerEm = 2000).
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
 
 </details>
 <details>
@@ -798,6 +798,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> A variable font must have named instances.</summary>
 
 * [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** OK
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** OK
 
 </details>
@@ -942,13 +949,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
-
-* [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** None of the name table strings contain "Reserved Font Name".
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1053,5 +1053,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 2 | 34 | 6 | 90 |
-| 0% | 8% | 1% | 24% | 4% | 63% |
+| 0 | 9 | 3 | 34 | 6 | 91 |
+| 0% | 6% | 2% | 24% | 4% | 64% |

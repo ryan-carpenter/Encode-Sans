@@ -225653,10 +225653,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = "Name Table Entry";
-value = "New Value";
 }
 );
 interpolationWeight = 34;
@@ -225670,10 +225666,6 @@ widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 275;
-},
 {
 name = familyName;
 value = "Encode Sans Condensed";
@@ -225826,10 +225818,6 @@ widthClass = SemiCondensed;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 275;
-},
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
@@ -225990,12 +225978,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 275;
-}
-);
 interpolationWeight = 44;
 interpolationWidth = 500;
 instanceInterpolations = {
@@ -226109,10 +226091,6 @@ widthClass = "Semi Expanded";
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 275;
-},
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
@@ -226279,10 +226257,6 @@ widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = weightClass;
-value = 275;
-},
 {
 name = familyName;
 value = "Encode Sans Expanded";
@@ -230305,12 +230279,22 @@ Lcaron = {
 "@MMK_R_quoteright" = -20;
 "@MMK_R_y.sc" = -20;
 };
+Oslash = {
+"@MMK_R_Y" = -60;
+};
 lcaron.sc = {
 "@MMK_R_asterisk" = 0;
 "@MMK_R_quoteright" = 30;
 "@MMK_R_t.sc" = 10;
 "@MMK_R_v.sc" = -20;
 "@MMK_R_y.sc" = 0;
+};
+oslash = {
+"@MMK_R_v" = 0;
+"@MMK_R_x" = -50;
+};
+oslash.sc = {
+"@MMK_R_y.sc" = -60;
 };
 questiondown = {
 "@MMK_R_O" = -60;
@@ -230351,16 +230335,6 @@ j.sc = 80;
 jcircumflex = 100;
 jcircumflex.sc = 80;
 jdotless = 100;
-};
-Oslash = {
-"@MMK_R_Y" = -60;
-};
-oslash.sc = {
-"@MMK_R_y.sc" = -60;
-};
-oslash = {
-"@MMK_R_x" = -50;
-"@MMK_R_v" = 0;
 };
 };
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = {
@@ -234228,6 +234202,9 @@ germandbls.sc = -40;
 "@MMK_R_quoteright" = 29;
 "@MMK_R_y.sc" = -72.5;
 };
+Germandbls = {
+"@MMK_R_V" = -77;
+};
 Lcaron = {
 "@MMK_R_T" = 14.5;
 "@MMK_R_V" = -29;
@@ -234236,12 +234213,18 @@ Lcaron = {
 "@MMK_R_quoteright" = -29;
 "@MMK_R_y.sc" = -29;
 };
+Oslash = {
+"@MMK_R_Y" = -82;
+};
 lcaron.sc = {
 "@MMK_R_asterisk" = 0;
 "@MMK_R_quoteright" = 43.5;
 "@MMK_R_t.sc" = 14.5;
 "@MMK_R_v.sc" = -29;
 "@MMK_R_y.sc" = 0;
+};
+oslash.sc = {
+"@MMK_R_y.sc" = -92;
 };
 questiondown = {
 "@MMK_R_O" = -90;
@@ -234282,15 +234265,6 @@ j.sc = 116;
 jcircumflex = 145;
 jcircumflex.sc = 116;
 jdotless = 145;
-};
-Germandbls = {
-"@MMK_R_V" = -77;
-};
-Oslash = {
-"@MMK_R_Y" = -82;
-};
-oslash.sc = {
-"@MMK_R_y.sc" = -92;
 };
 };
 };
