@@ -69,32 +69,34 @@ def ttxAndFix(path):
 
     print(newName4,newName6)
 
-    tmpPath1 = tmpPath.replace(".ttx","-fix.ttx")
+    # tmpPath1 = tmpPath.replace(".ttx","-fix.ttx")
 
     # insert new names 4 into ttx
-    command = "xml ed -u '//*/namerecord[@nameID=\"4\"]' -v '" + newName4 + "' " + tmpPath + " > " + tmpPath1
+    command = "xml ed --inplace -u '//*/namerecord[@nameID=\"4\"]' -v '" + newName4 + "' " + tmpPath
     print(subprocess.check_output(command, shell=True))
 
-    tmpPath2 = tmpPath1.replace(".ttx","-fix.ttx")
+    # tmpPath2 = tmpPath1.replace(".ttx","-fix.ttx")
 
     # insert new name 6 into ttx
-    command = "xml ed -u '//*/namerecord[@nameID=\"6\"]' -v '" + newName6 + "' " + tmpPath1 + " > " + tmpPath2
+    command = "xml ed --inplace -u '//*/namerecord[@nameID=\"6\"]' -v '" + newName6 + "' " + tmpPath
     print(subprocess.check_output(command, shell=True))
 
-    # make tmpPath back into font file
-    command = "ttx " + tmpPath2
-    print(subprocess.check_output(command, shell=True))
 
     os.remove(path)
+    # os.remove(tmpPath1)
+    # os.remove(tmpPath2)
+
+    # make tmpPath back into font file
+    # command = "ttx " + tmpPath2
+    command = "ttx " + tmpPath
+    print(subprocess.check_output(command, shell=True))
+
     os.remove(tmpPath)
-    os.remove(tmpPath1)
-    os.remove(tmpPath2)
+    # if path.lower().endswith('.ttf'):
+    #     os.rename(path.replace(".ttf","-fix-fix.ttf"),path)
 
-    if path.lower().endswith('.ttf'):
-        os.rename(path.replace(".ttf","-fix-fix.ttf"),path)
-
-    elif path.lower().endswith('.otf'):
-        os.rename(path.replace(".otf","-fix-fix.otf"),path)
+    # elif path.lower().endswith('.otf'):
+    #     os.rename(path.replace(".otf","-fix-fix.otf"),path)
 
 # check if path is file
 if os.path.isfile(path):
