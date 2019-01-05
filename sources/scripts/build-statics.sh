@@ -118,6 +118,9 @@ if [ -f "$file" ]; then
         subsetSmallCapFile=${smallCapFile/".ttf"/".subset.ttf"}
         rm -rf $smallCapFile
         mv $subsetSmallCapFile $smallCapFile
+
+        # just for testing results
+        ttx $smallCapFile
     fi
 
 
