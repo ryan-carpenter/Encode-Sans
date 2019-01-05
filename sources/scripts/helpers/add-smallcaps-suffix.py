@@ -36,6 +36,7 @@ print('-------------------------------------------------------------------------
 
 # run command without grabbing the output
 def run(command):
+    print('')
     print('----------')
     print('running  → ', command)
     print('----------')
@@ -43,6 +44,7 @@ def run(command):
 
 # run command and return the output
 def get(command):
+    print('')
     print('----------')
     print('checking → ', command)
     print('----------')
@@ -73,11 +75,14 @@ namesToEdit = {}
 def dictFromNameIDs(dictionary, *args):
     dictionary = {}
     for arg in args:
-        dictionary[arg] = (getNameId(arg))
+        try:
+            dictionary[arg] = (getNameId(arg))
+        except subprocess.CalledProcessError as e:
+            print(e.output)
 
     return dictionary
 
-namesToEdit = dictFromNameIDs("namesToEdit", 1,3,4,6)
+namesToEdit = dictFromNameIDs("namesToEdit", 1,3,4,6,16)
 
 print(namesToEdit)
 
@@ -108,6 +113,14 @@ for nameID in namesToEdit:
 
 
 # ---------------------------------------------------------------------
+# check edited TTX ----------------------------------------------------
+
+namesToCheck = dictFromNameIDs("namesToCheck", 1,3,4,6,16)
+
+for nameID in namesToCheck:
+    print(namesToCheck[nameID])
+
+# ---------------------------------------------------------------------
 # save back to TTF ----------------------------------------------------
 
 # remove original font file
@@ -117,4 +130,4 @@ os.remove(filePath)
 run("ttx " + ttxPath)
 
 # remove edited TTX
-os.remove(ttxPath)
+# os.remove(ttxPath)
