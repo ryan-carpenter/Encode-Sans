@@ -4,5 +4,6 @@
 master_ufo/*.*
 instance_ufo/*.*
 instance_ttf/*.*
+instance_ttf*/*.*
 instance_otf/*.*
 autohinted/*.*

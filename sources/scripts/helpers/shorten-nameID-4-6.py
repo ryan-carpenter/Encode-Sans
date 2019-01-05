@@ -21,7 +21,7 @@ path = sys.argv[-1]
 abbreviations = {
     "Condensed": "Cond",
     "Expanded": "Expd",
-    "Extra": "Ex",
+    "Extra": "X",
     "Light": "Lght",
     "Regular": "Reg",
     "Medium": "Med"
