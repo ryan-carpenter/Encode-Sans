@@ -1,21 +1,21 @@
-# ############################################
-# ################# set vars #################
+############################################
+################# set vars #################
 
-# glyphsSource="sources/Encode-Sans.glyphs"
+glyphsSource="sources/Encode-Sans.glyphs"
 
-# ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
-# fixGlyphsDesignspace=true
+## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
+fixGlyphsDesignspace=true
 
-# ################# set vars #################
-# ############################################
+################# set vars #################
+############################################
 
-# # ============================================================================
-# # Sets up names ==============================================================
+# ============================================================================
+# Sets up names ==============================================================
 
-# tempGlyphsSource=${glyphsSource/".glyphs"/"-build.glyphs"}
+tempGlyphsSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 
-# # ============================================================================
-# # Fix non-rectangular designspace ============================================
+# ============================================================================
+# Fix non-rectangular designspace ============================================
 
 # # copy Glyphs file into temp file
 # cp $glyphsSource $tempGlyphsSource
@@ -28,19 +28,20 @@
 #     echo "Not morphing designspace."
 # fi
 
-# # ============================================================================
-# # Generate Variable Font =====================================================
+# ============================================================================
+# Generate Variable Font =====================================================
 
-# ## this is a hack, to get around current bug in macOS text rendering (see docs/08-QA-beyond-fontbakery-and-glyphs)
-# ## just decomposing the source, and leaving componentized version as a layer for each master
-# ## oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
-# ## python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
+## this is a hack, to get around current bug in macOS text rendering (see docs/08-QA-beyond-fontbakery-and-glyphs)
+## just decomposing the source, and leaving componentized version as a layer for each master
+## oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
+## python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
 
-# fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
-# ## OR to just make one static font, as a test, use:
-# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded Bold" --output ttf --overlaps-backend booleanOperations
+fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
+## OR to just make one static font, as a test, use:
+## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
+# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
-# # clean up temp glyphs file
+# clean up temp glyphs file
 # rm -rf $tempGlyphsSource
 # rm -rf $oslashDecompGlyphsSource
 
@@ -51,7 +52,6 @@
 counter=0
 for file in instance_ttf/*; do
     if [[ -f "$file" && $file == *".ttf" && $counter == 0 ]]; then
-        echo "hello it's a file"
         exampleTTF=$file
         counter=1
     fi
@@ -72,33 +72,28 @@ rm -rf $ttxPath
 smallCapSuffix="SC"
 
 for file in instance_ttf/*; do 
-if [ -f "$file" ]; then 
+if [[ -f "$file" && $file == *".ttf" ]]; then 
     subsetSC=true
     case $file in
         *"EncodeSansCondensed-"*)
             smallCapFile=${file/"EncodeSansCondensed"/"EncodeSansCondensedSC"}
-            familyName="Encode Sans SemiExpanded"
-            # subsetSC=true
+            familyName="Encode Sans Condensed"
         ;;
         *"EncodeSansSemiCondensed-"*)
             smallCapFile=${file/"EncodeSansSemiCondensed"/"EncodeSansSemiCondensedSC"}
             familyName="Encode Sans SemiCondensed"
-            # subsetSC=true
         ;;
         *"EncodeSans-"*)
             smallCapFile=${file/"EncodeSans"/"EncodeSansSC"}
             familyName="Encode Sans"
-            # subsetSC=true
         ;;
         *"EncodeSansSemiExpanded-"*)
             smallCapFile=${file/"EncodeSansSemiExpanded"/"EncodeSansSemiExpandedSC"}
             familyName="Encode Sans SemiExpanded"
-            # subsetSC=true
         ;;
         *"EncodeSansExpanded-"*)
             smallCapFile=${file/"EncodeSansExpanded"/"EncodeSansExpandedSC"}
             familyName="Encode Sans Expanded"
-            # subsetSC=true
         ;;
         *)
             subsetSC=false
@@ -109,96 +104,103 @@ if [ -f "$file" ]; then
 
         echo "subsetting smallcap font"
         # subsetting with subsetGlyphNames list
-        pyftsubset $smallCapFile $subsetGlyphNames
-
-        # update names in font with smallcaps suffix
-        echo 'python sources/scripts/helpers/add-smallcaps-suffix.py "$smallCapFile" "$smallCapSuffix" "$familyName"'
-        python sources/scripts/helpers/add-smallcaps-suffix.py "$smallCapFile" "$smallCapSuffix" "$familyName"
-
+        pyftsubset --name-IDs='*' $smallCapFile $subsetGlyphNames
         subsetSmallCapFile=${smallCapFile/".ttf"/".subset.ttf"}
         rm -rf $smallCapFile
         mv $subsetSmallCapFile $smallCapFile
 
+        # update names in font with smallcaps suffix
+        echo python sources/scripts/helpers/add-smallcaps-suffix.py $smallCapFile $smallCapSuffix "$familyName"
+        python sources/scripts/helpers/add-smallcaps-suffix.py $smallCapFile $smallCapSuffix "$familyName"
+
         # just for testing results
-        ttx $smallCapFile
+        # ttx $smallCapFile
     fi
-
-
-    # 🚨 TODO: update SC font family name with TTX patch or python script
 fi 
 done
 
 # ============================================================================
+# Abbreviate names ===========================================================
+
+for file in instance_ttf/*; do 
+if [[ -f "$file" && $file == *".ttf" ]]; then
+    python sources/scripts/helpers/shorten-nameID-4-6.py $file
+fi
+done
+
+
+# ============================================================================
 # Autohinting ================================================================
 
-# python sources/scripts/helpers/shorten-nameID-4-6.py instance_ttf
+for file in instance_ttf/*; do 
+if [[ -f "$file" && $file == *".ttf" ]]; then 
+    echo "fix DSIG in " ${file}
+    gftools fix-dsig --autofix ${file}
 
-# for file in instance_ttf/*; do 
-# if [ -f "$file" ]; then 
-#     echo "fix DSIG in " ${file}
-#     gftools fix-dsig --autofix ${file}
+    echo "TTFautohint " ${file}
+    # autohint with detailed info
+    hintedFile=${file/".ttf"/"-hinted.ttf"}
+    ttfautohint -I ${file} ${hintedFile}
+    cp ${hintedFile} ${file}
+    rm -rf ${hintedFile}
+fi 
+done
 
-#     echo "TTFautohint " ${file}
-#     # autohint with detailed info
-#     hintedFile=${file/".ttf"/"-hinted.ttf"}
-#     ttfautohint -I ${file} ${hintedFile}
-#     cp ${hintedFile} ${file}
-#     rm -rf ${hintedFile}
-# fi 
-# done
+# ============================================================================
+# Sort into final folder and fontbake ========================================
 
-# # ============================================================================
-# # Sort into final folder and fontbake ========================================
+fontbakeFile()
+{
+    FILEPATH=$1
+    fontbakery check-googlefonts ${FILEPATH} --ghmarkdown fontbakery/${FILEPATH/".ttf"/"-fontbakery-report.md"}
+}
 
-# fontbakeFile()
-# {
-#     FILEPATH=$1
-#     fontbakery check-googlefonts ${FILEPATH} --ghmarkdown ${FILEPATH/".ttf"/"-fontbakery-report.md"}
-# }
+outputDir="fonts"
 
-# outputDir="fonts"
+for file in instance_ttf/*; do 
+if [[ -f "$file" && $file == *".ttf" ]]; then 
+    fileName=$(basename $file)
+    echo $fileName
+    case $file in
+        *"EncodeSansCondensed-"*)
+            newPath=${outputDir}/encodesanscondensed/${fileName}
+        ;;
+        *"EncodeSansCondensedSC-"*)
+            newPath=${outputDir}/encodesanscondensed_sc/${fileName}
+        ;;
+        *"EncodeSansSemiCondensed-"*)
+            newPath=${outputDir}/encodesanssemicondensed/${fileName}
+        ;;
+        *"EncodeSansSemiCondensedSC-"*)
+            newPath=${outputDir}/encodesanssemicondensed_sc/${fileName}
+        ;;
+        *"EncodeSans-"*)
+            newPath=${outputDir}/encodesans/static/${fileName}
+        ;;
+        *"EncodeSansSC-"*)
+            newPath=${outputDir}/encodesans_sc/static/${fileName}
+        ;;
+        *"EncodeSansSemiExpanded-"*)
+            newPath=${outputDir}/encodesanssemiexpanded/${fileName}
+        ;;
+        *"EncodeSansSemiExpandedSC-"*)
+            newPath=${outputDir}/encodesanssemiexpanded_sc/${fileName}
+        ;;
+        *"EncodeSansExpanded-"*)
+            newPath=${outputDir}/encodesansexpanded/${fileName}
+        ;;
+        *"EncodeSansExpandedSC-"*)
+            newPath=${outputDir}/encodesansexpanded_sc/${fileName}
+        ;;
+    esac
 
-# for file in instance_ttf/*; do 
-# if [ -f "$file" ]; then 
-#     fileName=$(basename $file)
-#     echo $fileName
-#     if [[ $file == *"EncodeSansCondensed-"* ]]; then
-#         newPath=${outputDir}/encodesanscondensed/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansCondensedSC-"* ]]; then
-#         newPath=${outputDir}/encodesanscondensed_sc/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansSemiCondensed-"* ]]; then
-#         newPath=${outputDir}/encodesanssemicondensed/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansSemiCondensedSC-"* ]]; then
-#         newPath=${outputDir}/encodesanssemicondensed_sc/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSans-"* ]]; then
-#         newPath=${outputDir}/encodesans/static/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansSC-"* ]]; then
-#         newPath=${outputDir}/encodesans_sc/static/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansSemiExpanded-"* ]]; then
-#         newPath=${outputDir}/encodesanssemiexpanded/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansSemiExpandedSC-"* ]]; then
-#         newPath=${outputDir}/encodesanssemiexpanded_sc/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansExpanded-"* ]]; then
-#         newPath=${outputDir}/encodesansexpanded/${fileName}
-#     fi
-#     if [[ $file == *"EncodeSansExpandedSC-"* ]]; then
-#         newPath=${outputDir}/encodesansexpanded_sc/${fileName}
-#     fi
-#     cp ${file} ${newPath}
+    cp ${file} ${newPath}
         
-#     fontbakeFile ${newPath}
-# fi 
-# done
+    fontbakeFile ${newPath}
+fi 
+done
 
-# # clean up build folders
-# rm -rf instance_ufo
-# # rm -rf instance_ttf
-# rm -rf master_ufo
+# clean up build folders
+rm -rf instance_ufo
+# rm -rf instance_ttf
+rm -rf master_ufo

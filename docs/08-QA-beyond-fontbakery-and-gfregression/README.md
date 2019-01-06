@@ -74,3 +74,5 @@ Unfortunately, a quick test seems to show that glyphsLib doesn't current support
 So, I'll see if I can use the "Glyphs remote" scripting approach that I tried to use to split variable families by width. https://docu.glyphsapp.com/Core/index.html
 
 ![](assets/2018-12-09-09-20-15.png)
+
+UPDATE, Jan 4 2019: I was using a remote script to decompose the `/oslash`, but it has stopped working while the GlyphsApp creators are changing the Core API. For now, I've simply made layers of the `/oslash` that are composed, but I've decomposed and remove the outlines of the primary master layers.

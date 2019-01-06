@@ -9,7 +9,12 @@ __doc__ = """
     - Add to the "abbreviations" dictionary if you have other long words (or partial words) in your font's style name
     - Run on the command line (or from a shell script) with the following syntax:
 
-        python SCRIPT/PATH/shorten-nameID-4-6.py FONT/PATH/font.otf
+    python SCRIPT/PATH/shorten-nameID-4-6.py FONT/PATH/font.otf
+
+    ...or for a folder of fonts:
+
+    python SCRIPT/PATH/shorten-nameID-4-6.py FONT/PATH
+
 """
 
 import sys
@@ -17,6 +22,12 @@ import os
 import subprocess
 
 path = sys.argv[-1]
+
+print('------------------------------------------------------------------------------------------')
+print('------------------------------------------------------------------------------------------')
+print('abbreviating nameIDs 4 & 6 in ' + path)
+print('------------------------------------------------------------------------------------------')
+print('------------------------------------------------------------------------------------------')
 
 abbreviations = {
     "Condensed": "Cond",
@@ -58,28 +69,46 @@ def ttxAndFix(path):
 
     # make command to select nameID 4, then abbreviate it and make it a variable
     command = 'xml sel -t -v "//*/namerecord[@nameID=\'4\']" ' + tmpPath
-    print("command is ", command)
+    print('')
+    print('----------')
+    print('checking → ', command)
+    print('----------')
     output = str(subprocess.check_output(command, shell=True))
     newName4 = abbreviate(output)
 
     # repeat for nameID 6
     command = 'xml sel -t -v "//*/namerecord[@nameID=\'6\']" ' + tmpPath
+    print('')
+    print('----------')
+    print('checking → ', command)
+    print('----------')
     output = str(subprocess.check_output(command, shell=True))
     newName6 = abbreviate(output)
 
-    print(newName4,newName6)
+    print('')
+    print("newName4 is ", newName4)
+    print("newName6 is ", newName6)
+    print('')
 
     # tmpPath1 = tmpPath.replace(".ttx","-fix.ttx")
 
     # insert new names 4 into ttx
     command = "xml ed --inplace -u '//*/namerecord[@nameID=\"4\"]' -v '" + newName4 + "' " + tmpPath
-    print(subprocess.check_output(command, shell=True))
+    print('')
+    print('----------')
+    print('running  → ', command)
+    print('----------')
+    subprocess.call(command, shell=True)
 
     # tmpPath2 = tmpPath1.replace(".ttx","-fix.ttx")
 
     # insert new name 6 into ttx
     command = "xml ed --inplace -u '//*/namerecord[@nameID=\"6\"]' -v '" + newName6 + "' " + tmpPath
-    print(subprocess.check_output(command, shell=True))
+    print('')
+    print('----------')
+    print('running  → ', command)
+    print('----------')
+    subprocess.call(command, shell=True)
 
 
     os.remove(path)
@@ -89,14 +118,13 @@ def ttxAndFix(path):
     # make tmpPath back into font file
     # command = "ttx " + tmpPath2
     command = "ttx " + tmpPath
-    print(subprocess.check_output(command, shell=True))
+    print('')
+    print('----------')
+    print('running  → ', command)
+    print('----------')
+    subprocess.call(command, shell=True)
 
     os.remove(tmpPath)
-    # if path.lower().endswith('.ttf'):
-    #     os.rename(path.replace(".ttf","-fix-fix.ttf"),path)
-
-    # elif path.lower().endswith('.otf'):
-    #     os.rename(path.replace(".otf","-fix-fix.otf"),path)
 
 # check if path is file
 if os.path.isfile(path):

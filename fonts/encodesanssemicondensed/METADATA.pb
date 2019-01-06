@@ -1,4 +1,4 @@
-name: "Encode Sans"
+name: "Encode Sans SemiCondensed"
 designer: "Pablo Impallari, Jacques Le Bailly, Andres Torresi, Marc Foley, Stephen Nixon"
 license: "OFL"
 category: "SANS_SERIF"

@@ -18,6 +18,8 @@ while [ ! $# -eq 0 ]
             source $(dirname ${BASH_SOURCE[0]})/build-normal-width-vf.sh
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
         ;;
+        *)
+            echo "Please use argument -statics, --normal, or --full, or --all to build some or all of the font files"
     esac
     shift
 done
