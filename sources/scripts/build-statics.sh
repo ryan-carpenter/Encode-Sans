@@ -36,10 +36,10 @@ tempGlyphsSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 ## oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
 ## python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
 
-fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
+# fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
 ## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
-# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
+fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 # rm -rf $tempGlyphsSource
@@ -152,7 +152,8 @@ done
 fontbakeFile()
 {
     FILEPATH=$1
-    fontbakery check-googlefonts ${FILEPATH} --ghmarkdown fontbakery/${FILEPATH/".ttf"/"-fontbakery-report.md"}
+    FBPATH=$2
+    fontbakery check-googlefonts $FILEPATH --ghmarkdown $FBPATH
 }
 
 outputDir="fonts"
@@ -164,39 +165,49 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     case $file in
         *"EncodeSansCondensed-"*)
             newPath=${outputDir}/encodesanscondensed/${fileName}
+            fontbakePath=${outputDir}/encodesanscondensed/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansCondensedSC-"*)
             newPath=${outputDir}/encodesanscondensed_sc/${fileName}
+            fontbakePath=${outputDir}/encodesanscondensed_sc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiCondensed-"*)
             newPath=${outputDir}/encodesanssemicondensed/${fileName}
+            fontbakePath=${outputDir}/encodesanssemicondensed/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiCondensedSC-"*)
             newPath=${outputDir}/encodesanssemicondensed_sc/${fileName}
+            fontbakePath=${outputDir}/encodesanssemicondensed_sc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSans-"*)
             newPath=${outputDir}/encodesans/static/${fileName}
+            fontbakePath=${outputDir}/encodesans/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSC-"*)
             newPath=${outputDir}/encodesans_sc/static/${fileName}
+            fontbakePath=${outputDir}/encodesans_sc/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiExpanded-"*)
             newPath=${outputDir}/encodesanssemiexpanded/${fileName}
+            fontbakePath=${outputDir}/encodesanssemiexpanded/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiExpandedSC-"*)
             newPath=${outputDir}/encodesanssemiexpanded_sc/${fileName}
+            fontbakePath=${outputDir}/encodesanssemiexpanded_sc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansExpanded-"*)
             newPath=${outputDir}/encodesansexpanded/${fileName}
+            fontbakePath=${outputDir}/encodesansexpanded/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansExpandedSC-"*)
             newPath=${outputDir}/encodesansexpanded_sc/${fileName}
+            fontbakePath=${outputDir}/encodesansexpanded_sc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
     esac
 
     cp ${file} ${newPath}
         
-    fontbakeFile ${newPath}
+    fontbakeFile $newPath $fontbakePath
 fi 
 done
 
