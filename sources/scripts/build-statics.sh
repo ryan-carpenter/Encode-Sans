@@ -17,16 +17,16 @@ tempGlyphsSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 # ============================================================================
 # Fix non-rectangular designspace ============================================
 
-# # copy Glyphs file into temp file
-# cp $glyphsSource $tempGlyphsSource
+# copy Glyphs file into temp file
+cp $glyphsSource $tempGlyphsSource
 
-# if [ $fixGlyphsDesignspace == true ]
-# then
-#     ## call the designspace fixing script
-#     python sources/scripts/helpers/fix-designspace.py $tempGlyphsSource
-# else
-#     echo "Not morphing designspace."
-# fi
+if [ $fixGlyphsDesignspace == true ]
+then
+    ## call the designspace fixing script
+    python sources/scripts/helpers/fix-designspace.py $tempGlyphsSource
+else
+    echo "Not morphing designspace."
+fi
 
 # ============================================================================
 # Generate Variable Font =====================================================
@@ -36,10 +36,10 @@ tempGlyphsSource=${glyphsSource/".glyphs"/"-build.glyphs"}
 ## oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
 ## python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
 
-# fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
+fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
 ## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
-fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
+# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 # rm -rf $tempGlyphsSource
