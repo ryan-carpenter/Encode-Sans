@@ -1,88 +1,88 @@
-name: "Encode Sans Condensed"
+name: "Encode Sans Expanded SC"
 designer: "Pablo Impallari, Jacques Le Bailly, Andres Torresi, Marc Foley, Stephen Nixon"
 license: "OFL"
 category: "SANS_SERIF"
 date_added: "2018-12-20"
 
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 100
-  filename: "EncodeSansCondensed-Thin.ttf"
-  post_script_name: "EncodeSansCond-Thin"
-  full_name: "Encode Sans Condensed Thin"
+  filename: "EncodeSansExpandedSC-Thin.ttf"
+  post_script_name: "EncodeSansExpdSC-Thin"
+  full_name: "Encode Sans Expanded SC Thin"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 200
-  filename: "EncodeSansCondensed-ExtraLight.ttf"
-  post_script_name: "EncodeSansCond-ExLght"
-  full_name: "Encode Sans Condensed ExtraLight"
+  filename: "EncodeSansExpandedSC-ExtraLight.ttf"
+  post_script_name: "EncodeSansExpdSC-ExLght"
+  full_name: "Encode Sans Expanded SC ExtraLight"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 300
-  filename: "EncodeSansCondensed-Light.ttf"
-  post_script_name: "EncodeSansCond-Lght"
-  full_name: "Encode Sans Condensed Light"
+  filename: "EncodeSansExpandedSC-Light.ttf"
+  post_script_name: "EncodeSansExpdSC-Lght"
+  full_name: "Encode Sans Expanded SC Light"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 400
-  filename: "EncodeSansCondensed-Regular.ttf"
-  post_script_name: "EncodeSansCond-Reg"
-  full_name: "Encode Sans Condensed Regular"
+  filename: "EncodeSansExpandedSC-Regular.ttf"
+  post_script_name: "EncodeSansExpdSC-Reg"
+  full_name: "Encode Sans Expanded SC Regular"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 500
-  filename: "EncodeSansCondensed-Medium.ttf"
-  post_script_name: "EncodeSansCond-Med"
-  full_name: "Encode Sans Condensed Medium"
+  filename: "EncodeSansExpandedSC-Medium.ttf"
+  post_script_name: "EncodeSansExpdSC-Med"
+  full_name: "Encode Sans Expanded SC Medium"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 600
-  filename: "EncodeSansCondensed-SemiBold.ttf"
-  post_script_name: "EncodeSansCond-SemiBold"
-  full_name: "Encode Sans Condensed SemiBold"
+  filename: "EncodeSansExpandedSC-SemiBold.ttf"
+  post_script_name: "EncodeSansExpdSC-SemiBold"
+  full_name: "Encode Sans Expanded SC SemiBold"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 700
-  filename: "EncodeSansCondensed-Bold.ttf"
-  post_script_name: "EncodeSansCond-Bold"
-  full_name: "Encode Sans Condensed Bold"
+  filename: "EncodeSansExpandedSC-Bold.ttf"
+  post_script_name: "EncodeSansExpdSC-Bold"
+  full_name: "Encode Sans Expanded SC Bold"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 800
-  filename: "EncodeSansCondensed-ExtraBold.ttf"
-  post_script_name: "EncodeSansCond-ExBold"
-  full_name: "Encode Sans Condensed ExtraBold"
+  filename: "EncodeSansExpandedSC-ExtraBold.ttf"
+  post_script_name: "EncodeSansExpdSC-ExBold"
+  full_name: "Encode Sans Expanded SC ExtraBold"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 fonts {
-  name: "Encode Sans Condensed"
+  name: "Encode Sans Expanded SC"
   style: "normal"
   weight: 900
-  filename: "EncodeSansCondensed-Black.ttf"
-  post_script_name: "EncodeSansCond-Black"
-  full_name: "Encode Sans Condensed Black"
+  filename: "EncodeSansExpandedSC-Black.ttf"
+  post_script_name: "EncodeSansExpdSC-Black"
+  full_name: "Encode Sans Expanded SC Black"
   copyright: "Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'."
 }
 subsets: "latin"
