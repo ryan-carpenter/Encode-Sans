@@ -67,3 +67,7 @@ Some accents are way out of place, and it's hard to know why at first.
 ![](assets/2019-01-10-22-31-11.png)
 
 In this case, I just had to remake it by copying its glyph name into *Glyph > Add Glyphs*.
+
+One of the most useful things is clicking an anchor point (such as `top`) and seeing the "clouds" of accents it shows above all nearby glyphs. This helps me check whether there might be clashes. For instance, this shows that there are near-clashes in the `/macroncomb_dieresiscomb`, `/tildecomb_acutecomb`, `/tildecomb_dieresiscomb`, and `/ringcomb_acutecomb`, which I will fix:
+
+![](assets/2019-01-10-22-42-58.png)
