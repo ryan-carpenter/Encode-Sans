@@ -11,91 +11,25 @@
 # ================================================
 
 # import json
-# font = Glyphs.font
-
-# numMasters = font.masters
-
-# masterIDs = []
-
-# # get id of masterToCopyFrom
-
-# for master in font.masters:
-#     masterIDs.append(master.id)
-#     if master.name == masterToCopyFrom:
-#         masterToCopyFromID = master.id
-
-# print(masterToCopyFromID)
-
-# glyphAnchors = {}
-
-# for glyph in font.glyphs:
-#     glyphAnchors[glyph.name] = {}
-#     for layer in glyph.layers:
-#         if layer.layerId in masterIDs:
-#             if len(layer.anchors) >= 1:
-#                 glyphAnchors[glyph.name][layer.name] = []
-#                 for anchor in layer.anchors:
-#                     glyphAnchors[glyph.name][layer.name].append(str(anchor.name))
-
-# # print(glyphAnchors)
-
-# # copy the anchors
-# # def duplicateAnchors(glyph):
-#     # make anchors in all non-masterToCopyFrom layers
-#     # copy x,y pos from masterToCopyFrom
-#     # color glyph yellow
-
-# # for index, key in enumerated(sorted(glyphAnchors)):
-# for index, (key, value) in enumerate(glyphAnchors.items()):
-#     if glyphAnchors[key] == {}:
-#         del glyphAnchors[key]
-#     # else:
-#         # print "%s: %s" % (key, glyphAnchors[key])
-
-#     # if anchors names in all lists are the same
-#         # del this dict item
-#     else:
-#         layersWithAnchors = 0
-#         for subKey in key:
-#             layersWithAnchors += 1
-
-#         if layersWithAnchors == len(font.masters) - 1:
-#             anchorsInAllMasters = True
-
-
-#         anchorsList = glyphAnchors[key].values()[0]
-#         # print(glyphAnchors[key].values()[0])
-#         # # # yields True if list of anchor names is equivalent between layers
-#         sameAnchors = all(value == anchorsList for value in glyphAnchors[key].values())
-
-#         print(sameAnchors)
-
-#     #     # ("top","_top", "bottom", "_bottom")
-
-
-#         if anchorsInAllMasters == True and sameAnchors == True:
-#             del glyphAnchors[key]
-
-# print(json.dumps(glyphAnchors, indent=4, sort_keys=True))
-
+font = Glyphs.font
 
 # ================================================
 
-# singleAnchorAccents = []
+singleAnchorAccents = []
 
-# for glyph in font.glyphs:
-#     if "comb" in glyph.name and glyph.export == True:
-#         for layer in glyph.layers:
-#             if len(layer.anchors) <= 1:
-#                 singleAnchorAccents.append(glyph.name)
-#                 layer.anchors = glyph.layers[masterToCopyFromID].anchors
+for glyph in font.glyphs:
+    if "comb" in glyph.name and glyph.export == True:
+        for layer in glyph.layers:
+            if len(layer.anchors) <= 1:
+                singleAnchorAccents.append(glyph.name)
+                layer.anchors = glyph.layers[masterToCopyFromID].anchors
 
-# for glyphName in set(singleAnchorAccents):
-#     print("/" + glyphName)
+for glyphName in set(singleAnchorAccents):
+    print("/" + glyphName)
 
 
 # ================================================
-
+# set non-1200-unit combining marks to 1200 units
 
 masterToAdjustAccentWidthsIn = "Light Condensed"
 
@@ -117,17 +51,40 @@ for master in font.masters:
 # move anchors to midpoint
 for glyph in font.glyphs:
     layerToChange = glyph.layers[masterToAdjustAccentWidthsIn]
-    if "comb" in glyph.name:
+    if "comb" in glyph.name and "o.comb" not in glyph.name:
+    # if "dotaccentcomb.sc" == glyph.name and "o.comb" not in glyph.name:
+        widthAndSides = [layerToChange.width, layerToChange.LSB, layerToChange.RSB]
+        print(glyph.name, layer.name)
+        print(widthAndSides)
+        newWidth = 1200
+
+        # if the layer isn't the desired width, AND if it has zero components
+        if layerToChange.width != newWidth and len(layerToChange.components) == 0:
+
+            # get current total margins
+            marginOld = widthAndSides[0] - (widthAndSides[0] - widthAndSides[1] -  widthAndSides[2])
+            # get the portion of the margin that is on the left
+            leftPortionOfFreeSpace = widthAndSides[1] / marginOld
+
+            # set the width of the layer initially
+            layerToChange.width = newWidth
+
+            # calculate new total margin
+            marginNew = newWidth - (newWidth - layerToChange.LSB - layerToChange.RSB)
+            # set new left margin
+            layerToChange.LSB = marginNew * leftPortionOfFreeSpace
+            # then reset the width again (this will have changed)
+            layerToChange.width = newWidth
+
+        if layerToChange.width != newWidth and len(layerToChange.components) != 0:
+            layerToChange.width = newWidth
+
         for anchor in layerToChange.anchors:
             print(anchor)
-            if anchor.x == 600:
-                anchor.x = glyph.width/2
-                print(str(anchor), " at ", str(glyph.width/2))
+            if anchor.x == widthAndSides[0]/2:
+                anchor.x = newWidth/2
+                print(str(anchor), " at ", str(newWidth/2))
 
-        if layerToChange.width == 800:
-            layerToChange.LSB += 200
+# ====================================================
 
-            
 
-# store width, LSB, and RSB
-# make glyph width equal 1200

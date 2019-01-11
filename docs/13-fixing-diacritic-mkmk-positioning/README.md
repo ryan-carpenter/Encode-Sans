@@ -41,3 +41,29 @@ I was confused at what was even the "before" and "after" in diffenator tests, so
 ![](assets/marks_new-test.gif)
 
 Helpfully, this image also shows that my anchor-adding really is having a good effect. The previous version had anchors that were collapsed, but they are now stacking as needed.
+
+## Refining and moving anchors to other masters
+
+After correcting a few issues in the Light Extended anchor positioning, I copied these anchors to glyphs in other masters, for glyphs that did not yet share those anchor points.
+
+Then, I went through each master and adjusted the anchor positions as necessary to give good vertical spacing for anchors.
+
+One "gotcha" has been `/ogonek` accents, which more than other accents has shifted out of place in some cases. In lowercase glyphs, this was due to manual shifting to achieve better connections in ogonek characters. In caps, it was because I had mistakenly labeled the `_ogonek` anchor to a `_bottom` anchor, so it was aligned to the incorrect cap anchor.
+
+![](assets/2019-01-10-22-16-13.png)
+
+![](assets/2019-01-10-22-18-17.png)
+
+For cases like these where something seems suspect about path and anchor alignment, I really appreciate GlyphsApp's function "Show all glyphs containing this component" (found by right-clicking a component).
+
+The slash accent mark also got a bit off:
+
+![](assets/2019-01-10-22-22-26.png)
+
+So I fixed it.
+
+Some accents are way out of place, and it's hard to know why at first.
+
+![](assets/2019-01-10-22-31-11.png)
+
+In this case, I just had to remake it by copying its glyph name into *Glyph > Add Glyphs*.
