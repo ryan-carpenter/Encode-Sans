@@ -14,6 +14,12 @@ Once installed, it's used with a command like:
 diffenator EncodeSans-VF.ttf old/EncodeSansCondensed-Light.ttf -r out
 ```
 
+## Online version to test hinting
+
+http://159.65.243.73/compare/94425d88-fc07-4406-a168-1f44624db140
+
+Open windows VM, then chrome, then diff all your fonts on that URL. Use to figure out best ttfautohint settings.
+
 ### Diffenator problems caught
 
 **Mark-to-mark positioning**
@@ -97,4 +103,8 @@ This method is extremely helpful. It shows that the static regular is the exact 
 This helpfully shows that I *didn't* adjust the font's vertical metrics, in Encode Sans:
 
 ![](assets/2018-12-17-15-18-33.png)
+
+The accents are mostly working... here's a screenshot of an exported version in Apple Pages:
+
+![](assets/2019-01-11-10-01-50.png)
 

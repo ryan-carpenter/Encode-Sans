@@ -126,8 +126,8 @@ if [ -f "$file" ]; then
     echo "fix DSIG in " $file
     gftools fix-dsig --autofix $file
 
-    ## sets up temp ttx file to insert correct values into tables
-    ttx $file
+    ## sets up temp ttx file to insert correct values into tables # also drops MVAR table to fix vertical metrics issue
+    ttx -x "MVAR" $file 
 
     rm -rf $file
 

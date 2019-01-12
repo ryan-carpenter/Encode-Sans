@@ -9,6 +9,11 @@ fixGlyphsDesignspace=true
 ################# set vars #################
 ############################################
 
+# clear previous builds if they exist
+if [ -d "instance_ttf" ]; then
+  rm -rf instance_ttf
+fi
+
 # ============================================================================
 # Sets up names ==============================================================
 
@@ -36,10 +41,10 @@ fi
 ## oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
 ## python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
 
-fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
+# fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
 ## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
-# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
+fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 # rm -rf $tempGlyphsSource
@@ -144,6 +149,17 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
 fi 
+done
+
+for file in instance_ttf/*; do 
+if [ -f "$file" ]; then 
+    ## sets up temp ttx file to insert correct values into tables # also drops MVAR table to fix vertical metrics issue
+    ttx -x "MVAR" $file
+    rm -rf $file
+    ## copies temp ttx file back into a new ttf file
+    ttx $ttxPath
+    rm -rf $ttxPath
+fi
 done
 
 # ============================================================================

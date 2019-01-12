@@ -71,3 +71,52 @@ In this case, I just had to remake it by copying its glyph name into *Glyph > Ad
 One of the most useful things is clicking an anchor point (such as `top`) and seeing the "clouds" of accents it shows above all nearby glyphs. This helps me check whether there might be clashes. For instance, this shows that there are near-clashes in the `/macroncomb_dieresiscomb`, `/tildecomb_acutecomb`, `/tildecomb_dieresiscomb`, and `/ringcomb_acutecomb`, which I will fix:
 
 ![](assets/2019-01-10-22-42-58.png)
+
+## Turning off most accent ligatures
+
+There are still some problems cause by accent ligatures. Worst, they are a bit unpredictable and hard to prevent from "falling off" of accent stacks. Here is an example from InDesign on Mac:
+
+![](assets/accent-ligatures.gif)
+
+However, if I remove the parts of the `ccmp` feature code that activates the accent ligatures, it works a lot better in InDesign:
+
+![](assets/accent-ligatures-2.gif)
+
+
+It also works decently in Pages:
+
+![](assets/2019-01-11-16-20-39.png)
+
+Testing it against a system font like SF, Encode now actually seems to function *better* (here, I'm using the unicode panel to add combining marks to an `e`):
+
+![](assets/2019-01-11-16-24-52.png)
+
+(...though, SF does work sometimes, depending on what is following):
+
+![](assets/2019-01-11-16-46-08.png)
+
+...But I'm not debugging SF.
+
+I'll leave these combined-accent glyphs in the font, because they are components themselves, and they are in turn used as components in quite a few other glyphs (here's some of these, in just one case):
+
+![](assets/2019-01-11-17-16-23.png)
+
+And indeed, even though the "marks new" diffs output is now colossal, the "after" glyphs all look quite good, and I don't see any that are collapsed.
+
+![](assets/marks_new-no_accent_ligas.gif)
+
+## Fixing `/Aring` and `/Aringacute`
+
+There are ugly little crevices here:
+
+![](assets/2019-01-11-17-01-48.png)
+
+This is because this character varies between a "touching" and a detached `/ring` accent on the `/Aring`. It also happens to be just way off in the Light Condensed master.
+
+![](assets/2019-01-11-17-29-04.png)
+
+Instead, for good interpolation and better readability (it's a small sample size, but my one Danish friend has expressed a preference for the detached ring) I will enable auto alignment for the ring in every master.
+
+![](assets/2019-01-11-17-30-40.png)
+
+I'll also fix this for the `/Aringacute`.

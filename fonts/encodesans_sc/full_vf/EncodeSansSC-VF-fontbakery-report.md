@@ -234,7 +234,7 @@ Failed to sanitize file!
 <summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** OS/2 xAvgCharWidth is 932 but it should be 961 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
+* :warning: **WARN** OS/2 xAvgCharWidth is 936 but it should be 965 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
 
 </details>
 <details>
@@ -633,10 +633,10 @@ Failed to sanitize file!
 
 |  | fonts/encodesans_sc/full_vf/EncodeSansSC-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 213.1kb |
-| Hinted Size | 245.8kb |
-| Increase | 32.7kb |
-| Change   | 15.3 % |
+| Dehinted Size | 213.0kb |
+| Hinted Size | 245.4kb |
+| Increase | 32.4kb |
+| Change   | 15.2 % |
 
 
 </details>
@@ -676,7 +676,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [fpgm, gasp, cvt , DSIG, GSUB, GPOS, prep, loca]
+* :information_source: **INFO** This font contains the following optional tables [loca, GSUB, cvt , prep, gasp, GPOS, fpgm, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
