@@ -94,7 +94,7 @@
         <AxisValue index="10" Format="1">
             <AxisIndex value="1"/>
             <Flags value="0"/>
-            <!-- Semi Condensed -->
+            <!-- SemiCondensed -->
             <ValueNameID value="304"/>
             <Value value="85.0"/>
         </AxisValue>
@@ -109,7 +109,7 @@
         <AxisValue index="12" Format="1">
             <AxisIndex value="1"/>
             <Flags value="0"/>
-            <!-- Semi Expanded -->
+            <!-- SemiExpanded -->
             <ValueNameID value="306"/>
             <Value value="115.0"/>
         </AxisValue>

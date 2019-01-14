@@ -108,3 +108,22 @@ The accents are mostly working... here's a screenshot of an exported version in 
 
 ![](assets/2019-01-11-10-01-50.png)
 
+---
+
+# Style naming -- to space or not to space?
+
+Based on the naming of these fonts at fonts.google.com, I had thought that the originals had spaces in their names.
+
+![](assets/2019-01-14-10-44-37.png)
+
+However, this isn't the case. Here's a download directly from Google Fonts:
+
+![](assets/2019-01-14-10-45-28.png)
+
+And here's a version from Pablo Impallari's repo:
+
+![](assets/2019-01-14-10-43-50.png)
+
+Both the width and weight names are non-spaced contractions. So, I did a bit of irrelevant work, but I'm glad I caught it now. 😑
+
+But, with a bit of careful find and replace, it was extremely fast to fix.  

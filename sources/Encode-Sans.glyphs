@@ -229708,7 +229708,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 34;
@@ -229725,7 +229725,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 44;
@@ -229744,7 +229744,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 59;
@@ -229763,7 +229763,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 78;
@@ -229781,7 +229781,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 101;
@@ -229800,7 +229800,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 126;
@@ -229819,7 +229819,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 153;
@@ -229839,7 +229839,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 180;
@@ -229858,7 +229858,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Condensed";
+value = "Encode Sans SemiCondensed";
 }
 );
 interpolationWeight = 203;
@@ -229981,7 +229981,7 @@ weightClass = Black;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 34;
@@ -229992,13 +229992,13 @@ instanceInterpolations = {
 };
 name = Thin;
 weightClass = Thin;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 45;
@@ -230011,13 +230011,13 @@ instanceInterpolations = {
 };
 name = ExtraLight;
 weightClass = ExtraLight;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 61;
@@ -230030,13 +230030,13 @@ instanceInterpolations = {
 };
 name = Light;
 weightClass = Light;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 82;
@@ -230048,13 +230048,13 @@ instanceInterpolations = {
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.11381;
 };
 name = Regular;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 108;
@@ -230067,13 +230067,13 @@ instanceInterpolations = {
 };
 name = Medium;
 weightClass = Medium;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 136;
@@ -230086,13 +230086,13 @@ instanceInterpolations = {
 };
 name = SemiBold;
 weightClass = SemiBold;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 167;
@@ -230106,13 +230106,13 @@ instanceInterpolations = {
 isBold = 1;
 name = Bold;
 weightClass = Bold;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 196;
@@ -230124,13 +230124,13 @@ instanceInterpolations = {
 };
 name = ExtraBold;
 weightClass = ExtraBold;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans Semi Expanded";
+value = "Encode Sans SemiExpanded";
 }
 );
 interpolationWeight = 222;
@@ -230142,7 +230142,7 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
-widthClass = "Semi Expanded";
+widthClass = "SemiExpanded";
 },
 {
 customParameters = (

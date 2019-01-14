@@ -44,7 +44,7 @@ fi
 fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
 ## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
-# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans Semi Condensed Bold" --output ttf --overlaps-backend booleanOperations
+# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 # rm -rf $tempGlyphsSource
@@ -145,7 +145,7 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     echo "TTFautohint " ${file}
     # autohint with detailed info
     hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint -I ${file} ${hintedFile}
+    ttfautohint -I ${file} ${hintedFile} --stem-width-mode nnn
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
 fi 
