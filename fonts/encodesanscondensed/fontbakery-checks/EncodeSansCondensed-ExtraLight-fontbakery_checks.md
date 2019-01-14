@@ -5,13 +5,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -41,6 +34,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 * [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -289,7 +289,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1E46, Ntilde, Ugrave, uni1E79.sc, uni01C6, product, Uhorn, uni1EEC, fl, uni1E48, N, Eng, uni01C4, Iacute_J.loclNLD, Edotaccent, peseta, uni20BF, H, at, uni1E4C, uni20BF.tf, uni01CC.sc, uni0206, Utilde, uni1EEA, oslash.sc, uni1EC2, uni1EE0, Ecircumflex, Ncaron, f_j, uni1EBA, germandbls.sc, uni0216, f_l, OE, uni1E78, uni1E14, uni1E42, uni01F3.sc, uni1EB8, K, Ecaron, Wacute, Uacute, lira.tf, Udieresis, Wgrave, wcircumflex.sc, uni1E0E, uni20A6, .notdef, uni01C6.sc, uni0214, uni01CB, uni01C8, Egrave, uni1E0C, uni0204, M, Wcircumflex, uni1EC0, wdieresis.sc, uni1E1C, product.tf, Oslash, Oslashacute, uni1E16, uni1EBC, uni1E9E, Umacron, D, wcircumflex, uni1EF0, uni1EC6, uni1EEF.sc, uni01CA, uni01F1, Edieresis, w.sc, uni01C5, lira, uni1EDE, Hcircumflex, uni1EBE, uni1EE6, Uogonek, oslashacute.sc, uni1EE4, wgrave.sc, Dcaron, Q, uni20A9, Nacute, dong.tf, Wdieresis, Ebreve, wdieresis, U, uni1E24, Ucircumflex, AE, pi, Eacute, uni1E44, uni1EEE, Uring, uni1EC4, Ubreve, wacute.sc, uni1E7A, uni1EE8, I_J.loclNLD, W, AEacute, Uhungarumlaut, uni01F2, perthousand, uni2116, uni1E2A, uni01C7, uni1E4E]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni01CC.sc, uni1EEF.sc, Ncaron, wdieresis.sc, uni1EEA, Ucircumflex, perthousand, uni1EE6, Udieresis, Uogonek, wcircumflex.sc, Ecircumflex, AE, at, Egrave, uni1EBA, pi, uni1EBE, uni1EEE, uni20A9, uni01F3.sc, uni1EE8, Hcircumflex, oslashacute.sc, uni20BF, Ebreve, germandbls.sc, uni1EE0, uni20BF.tf, uni1E14, w.sc, Utilde, oslash.sc, AEacute, uni1EF0, H, uni01C5, f_j, uni01C7, uni01F2, dong.tf, uni1EC2, uni20A6, peseta, uni1EE4, uni2116, uni01C6, W, uni1E0E, Ecaron, uni01C6.sc, uni1EC6, uni1E44, Nacute, Uhungarumlaut, uni0204, lira, wacute.sc, f_l, Eacute, Umacron, Q, Uhorn, Dcaron, uni01CB, Uring, Edotaccent, uni1E42, Edieresis, uni1E0C, D, uni1EC0, wgrave.sc, .notdef, lira.tf, uni1E79.sc, uni1E4C, OE, Ugrave, uni1E46, Ubreve, Iacute_J.loclNLD, Oslashacute, uni1EDE, wdieresis, Ntilde, uni1E16, uni1E24, uni1E78, uni0214, Wdieresis, uni01F1, uni0216, N, uni1E9E, product, uni1E4E, uni01C4, Wgrave, uni01CA, Wcircumflex, M, wcircumflex, uni1EB8, Uacute, K, fl, uni1EBC, uni1E7A, I_J.loclNLD, product.tf, Eng, uni1E2A, uni1EC4, uni01C8, uni1E48, Wacute, Oslash, uni1E1C, uni1EEC, U, uni0206]
 
 </details>
 <details>
@@ -501,7 +501,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -510,7 +510,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [cvt , gasp, DSIG, fpgm, prep, loca, GPOS, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [GSUB, prep, cvt , fpgm, GPOS, DSIG, gasp, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -600,7 +600,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X "")
 
 </details>
 <details>
@@ -1070,5 +1070,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 13 | 7 | 17 | 7 | 99 |
-| 0% | 9% | 5% | 12% | 5% | 69% |
+| 0 | 12 | 7 | 17 | 7 | 100 |
+| 0% | 8% | 5% | 12% | 5% | 70% |

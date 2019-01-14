@@ -5,13 +5,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -41,6 +34,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 * [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -585,7 +585,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -594,7 +594,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, GPOS, prep, GSUB, DSIG, fpgm, gasp, cvt ]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, prep, cvt , gasp, GSUB, loca, GPOS, fpgm]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -679,7 +679,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X "")
 
 </details>
 <details>
@@ -1107,5 +1107,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 7 | 26 | 6 | 93 |
-| 0% | 8% | 5% | 18% | 4% | 65% |
+| 0 | 10 | 7 | 26 | 6 | 94 |
+| 0% | 7% | 5% | 18% | 4% | 66% |

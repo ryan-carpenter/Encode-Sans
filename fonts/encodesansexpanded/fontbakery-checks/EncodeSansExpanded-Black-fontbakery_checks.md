@@ -5,13 +5,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -41,6 +34,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 * [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -261,7 +261,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Eth, hbar, hbar.sc, germandbls.sc, Aogonek, dcroat, iogonek, lslash, .notdef, iogonek.sc, Iogonek, Oslash, tbar.sc, oslashacute.sc, Lslash, eth.sc, tbar, scedilla, Scedilla, aogonek.sc, oslash.sc, Eogonek, lslash.sc, uni1E9E, Tbar, eogonek.sc, Hbar, uni1E09, uni1E1D, Oslashacute, Dcroat, ccedilla, dcroat.sc]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1E09, ccedilla, Scedilla, uni1E9E, hbar, iogonek, uni1E1D, Oslashacute, iogonek.sc, Oslash, scedilla, dcroat.sc, Eth, tbar.sc, eth.sc, Hbar, tbar, Tbar, Eogonek, oslash.sc, oslashacute.sc, dcroat, Lslash, germandbls.sc, lslash, Iogonek, Dcroat, eogonek.sc, hbar.sc, aogonek.sc, Aogonek, lslash.sc, .notdef]
 
 </details>
 <details>
@@ -473,7 +473,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -482,7 +482,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, GSUB, cvt , DSIG, GPOS, fpgm, gasp, prep]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, prep, GSUB, cvt , GPOS, DSIG, loca, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -567,7 +567,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X "")
 
 </details>
 <details>
@@ -1065,5 +1065,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 6 | 17 | 6 | 104 |
-| 0% | 7% | 4% | 12% | 4% | 73% |
+| 0 | 9 | 6 | 17 | 6 | 105 |
+| 0% | 6% | 4% | 12% | 4% | 73% |

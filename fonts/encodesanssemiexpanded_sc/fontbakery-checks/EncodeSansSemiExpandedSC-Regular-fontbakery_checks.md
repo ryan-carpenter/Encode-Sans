@@ -5,13 +5,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
 
 * [com.google.fonts/check/088](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -48,6 +41,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 * [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -188,24 +188,10 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[118] EncodeSansSemiExpandedSC-Regular.ttf</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
-
-* [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Semi Expanded" while METADATA.pb has "Encode Sans SemiExpanded SC" [code: mismatch]
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Semi Expd Reg" while METADATA.pb has "Encode Sans SemiExpanded SC Regular". [code: mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
-
-* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched familyname in font: TTF has "Encode Sans Semi Expanded" while METADATA.pb has name="Encode Sans SemiExpanded SC". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans SemiExpd SC Reg" while METADATA.pb has "Encode Sans SemiExpanded SC Regular". [code: mismatch]
 
 </details>
 <details>
@@ -223,24 +209,10 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb font.name field ("Encode Sans SemiExpanded SC") does not match correct font name format ("Encode Sans Semi Expanded").
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb font.full_name field ("Encode Sans SemiExpanded SC Regular") does not match correct font name format ("Encode Sans Semi Expanded").
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiExpdSC-Reg") does not match correct font name format ("Encode Sans Semi Expanded").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiExpdSC-Reg") does not match correct font name format ("Encode Sans SemiExpanded SC").
 
 </details>
 <details>
@@ -256,7 +228,7 @@ But instead we have got: 'Copyright 2012 The Encode Project Authors (impallari@g
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiExpanded SC Regular") does not match name table entry "Encode Sans Semi Expd Reg" ! [code: fullname-mismatch]
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiExpanded SC Regular") does not match name table entry "Encode Sans SemiExpd SC Reg" ! [code: fullname-mismatch]
 
 </details>
 <details>
@@ -277,14 +249,14 @@ But instead we have got: 'Copyright 2012 The Encode Project Authors (impallari@g
 <summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded SC' but got 'Encode Sans Semi Expanded'.
+* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded SC' but got 'Encode Sans SemiExpanded SC'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded SC Regular' but got 'Encode Sans Semi Expd Reg'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded SC Regular' but got 'Encode Sans SemiExpd SC Reg'.
 
 </details>
 <details>
@@ -305,7 +277,7 @@ But instead we have got: 'Copyright 2012 The Encode Project Authors (impallari@g
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Semi Expanded') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Semi Expd Reg') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans SemiExpanded SC') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans SemiExpd SC Reg') [code: does-not]
 
 </details>
 <details>
@@ -409,7 +381,7 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Semi Expanded' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiExpanded SC' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -636,7 +608,7 @@ PPM <= 65535:
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X """
+* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -645,7 +617,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [fpgm, loca, gasp, cvt , prep, GPOS, GSUB, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [loca, fpgm, GSUB, DSIG, cvt , prep, gasp, GPOS]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -730,7 +702,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a qsq -X "")
+* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X "")
 
 </details>
 <details>
@@ -762,10 +734,38 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
+
+* [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Family name "Encode Sans SemiExpanded SC" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
 
 * [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Postscript name "EncodeSansSemiExpdSC-Reg" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
+
+* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** OK: Family name "Encode Sans SemiExpanded SC" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> METADATA.pb font.name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** METADATA.pb font.name field contains font name in right format.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** METADATA.pb font.full_name field contains font name in right format. ('Encode Sans SemiExpanded SC' in 'Encode Sans SemiExpanded SC Regular')
 
 </details>
 <details>
@@ -1107,5 +1107,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 19 | 7 | 26 | 6 | 85 |
-| 0% | 13% | 5% | 18% | 4% | 59% |
+| 0 | 14 | 7 | 26 | 6 | 90 |
+| 0% | 10% | 5% | 18% | 4% | 63% |

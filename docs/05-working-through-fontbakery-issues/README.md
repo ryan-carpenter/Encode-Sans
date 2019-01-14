@@ -295,3 +295,18 @@ It is necessary to add the option `--detailed-info` or `-I` to the autohint. Bec
 ttfautohint -I [PATH]/font.ttf [PATH]/font-hinted.ttf 
 ```
 
+## On statics: `WARN: Check if OS/2 xAvgCharWidth is correct`
+
+For SC fonts, I'm getting this type of error:
+
+>  **WARN** Check if OS/2 xAvgCharWidth is correct. OS/2 xAvgCharWidth is 1132 but it should be 1160 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
+
+However, this is only present in SC fonts, which have swapped smallcaps into the places of lowercase letters. It makes sense that these are slightly wider than the lowercase letters, but it's such a small variance, in such rarely-used`*` versions of the fonts, it probably won't cause any problems.
+
+`*` Alegreya Sans SC gets 19.5M downloads per week, compared to 70.3M for Alegreya Sans (about 27% of the amount of downloads). Alegreya SC gets 9.16M d/w vs 74.0M for Alegreya (about 12%). Spectral SC gets 2.03M d/w, vs 9.79M for Spectral (about 21%).
+
+
+
+
+
+
