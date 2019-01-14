@@ -126,4 +126,4 @@ And here's a version from Pablo Impallari's repo:
 
 Both the width and weight names are non-spaced contractions. So, I did a bit of irrelevant work, but I'm glad I caught it now. 😑
 
-But, with a bit of careful find and replace, it was extremely fast to fix.  
+But, with a bit of careful find and replace, it was extremely fast to fix. 
