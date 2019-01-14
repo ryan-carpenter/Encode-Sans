@@ -5,6 +5,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -13,6 +20,27 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
   LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All links in the DESCRIPTION file look good!
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** fonts/encodesanssemicondensed_sc/DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
 
 </details>
 <details>
@@ -149,34 +177,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
 <summary>:warning: <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
 
 * [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -191,7 +191,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
 * [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans SemiCondensed SC ExtraBold" while METADATA.pb has "Encode Sans SemiCondensed SC" [code: mismatch]
+* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Semi Condensed ExtraBold" while METADATA.pb has "Encode Sans SemiCondensed SC" [code: mismatch]
 
 </details>
 <details>
@@ -205,7 +205,14 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans SemiCond SC XBold" while METADATA.pb has "Encode Sans SemiCondensed SC ExtraBold". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Semi Cond XBold" while METADATA.pb has "Encode Sans SemiCondensed SC ExtraBold". [code: mismatch]
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
+
+* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** Unmatched familyname in font: TTF has "Encode Sans Semi Condensed" while METADATA.pb has name="Encode Sans SemiCondensed SC". [code: mismatch]
 
 </details>
 <details>
@@ -223,17 +230,31 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** METADATA.pb font.name field ("Encode Sans SemiCondensed SC") does not match correct font name format ("Encode Sans Semi Condensed").
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** METADATA.pb font.full_name field ("Encode Sans SemiCondensed SC ExtraBold") does not match correct font name format ("Encode Sans Semi Condensed").
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiCondSC-ExBold") does not match correct font name format ("Encode Sans SemiCondensed SC ExtraBold").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiCondSC-ExBold") does not match correct font name format ("Encode Sans Semi Condensed ExtraBold").
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiCondensed SC ExtraBold") does not match name table entry "Encode Sans SemiCond SC XBold" ! [code: fullname-mismatch]
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiCondensed SC ExtraBold") does not match name table entry "Encode Sans Semi Cond XBold" ! [code: fullname-mismatch]
 
 </details>
 <details>
@@ -247,14 +268,14 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed SC ExtraBold' but got 'Encode Sans SemiCondensed SC ExtraBold'.
+* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed SC ExtraBold' but got 'Encode Sans Semi Condensed ExtraBold'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed SC ExtraBold' but got 'Encode Sans SemiCond SC XBold'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed SC ExtraBold' but got 'Encode Sans Semi Cond XBold'.
 
 </details>
 <details>
@@ -268,7 +289,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed SC' but got 'Encode Sans SemiCondensed SC'. [code: non-ribbi-bad-value]
+* :fire: **FAIL** Entry [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed SC' but got 'Encode Sans Semi Condensed'. [code: non-ribbi-bad-value]
 
 </details>
 <details>
@@ -282,7 +303,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans SemiCondensed SC ExtraBold') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans SemiCond SC XBold') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Semi Condensed ExtraBold') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Semi Cond XBold') [code: does-not]
 
 </details>
 <details>
@@ -372,7 +393,7 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 <summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** OS/2 xAvgCharWidth is 1164 but it should be 1195 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
+* :warning: **WARN** OS/2 xAvgCharWidth is 1164 but it should be 1194 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
 
 </details>
 <details>
@@ -386,7 +407,7 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiCondensed SC ExtraBold' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Semi Condensed ExtraBold' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -579,10 +600,10 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 
 |  | fonts/encodesanssemicondensed_sc/EncodeSansSemiCondensedSC-ExtraBold.ttf |
 |:--- | ---:|
-| Dehinted Size | 78.4kb |
-| Hinted Size | 109.3kb |
-| Increase | 30.9kb |
-| Change   | 39.3 % |
+| Dehinted Size | 80.1kb |
+| Hinted Size | 110.1kb |
+| Increase | 30.0kb |
+| Change   | 37.4 % |
 
 
 </details>
@@ -622,7 +643,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GSUB, fpgm, cvt , prep, gasp, GPOS, loca]
+* :information_source: **INFO** This font contains the following optional tables [loca, GSUB, gasp, DSIG, fpgm, prep, GPOS, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -634,7 +655,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | Field | Value | Recommendation |
 |:----- |:----- |:-------------- |
-| Family Name | Encode Sans SemiCondensed SC ExtraBold | exceeds max length (31) |
+| Family Name | Encode Sans Semi Condensed ExtraBold | exceeds max length (31) |
 
 
 </details>
@@ -748,27 +769,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/074](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
-
-* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** OK: Family name "Encode Sans SemiCondensed SC" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb font.name field contains font name in right format.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb font.full_name field contains font name in right format. ('Encode Sans SemiCondensed SC' in 'Encode Sans SemiCondensed SC ExtraBold')
 
 </details>
 <details>
@@ -1112,5 +1112,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 14 | 7 | 30 | 7 | 85 |
-| 0% | 10% | 5% | 21% | 5% | 59% |
+| 0 | 18 | 7 | 26 | 7 | 85 |
+| 0% | 13% | 5% | 18% | 5% | 59% |

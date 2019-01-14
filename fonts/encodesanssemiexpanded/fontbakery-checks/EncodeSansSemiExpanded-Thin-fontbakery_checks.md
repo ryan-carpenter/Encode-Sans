@@ -5,6 +5,20 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** The following links are broken in the DESCRIPTION file: 'https://github.com/thundernixon/Encode-Sans'
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
 
 * [com.google.fonts/check/088](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -20,6 +34,20 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
   LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** fonts/encodesanssemiexpanded/DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
 
 </details>
 <details>
@@ -149,34 +177,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
 <summary>:warning: <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
 
 * [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -191,14 +191,21 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
 * [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans SemiExpanded Thin" while METADATA.pb has "Encode Sans SemiExpanded" [code: mismatch]
+* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Semi Expanded Thin" while METADATA.pb has "Encode Sans SemiExpanded" [code: mismatch]
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans SemiExpd Thin" while METADATA.pb has "Encode Sans SemiExpanded Thin". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Semi Expd Thin" while METADATA.pb has "Encode Sans SemiExpanded Thin". [code: mismatch]
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
+
+* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** Unmatched familyname in font: TTF has "Encode Sans Semi Expanded" while METADATA.pb has name="Encode Sans SemiExpanded". [code: mismatch]
 
 </details>
 <details>
@@ -216,17 +223,31 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** METADATA.pb font.name field ("Encode Sans SemiExpanded") does not match correct font name format ("Encode Sans Semi Expanded").
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** METADATA.pb font.full_name field ("Encode Sans SemiExpanded Thin") does not match correct font name format ("Encode Sans Semi Expanded").
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiExpd-Thin") does not match correct font name format ("Encode Sans SemiExpanded Thin").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiExpd-Thin") does not match correct font name format ("Encode Sans Semi Expanded Thin").
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiExpanded Thin") does not match name table entry "Encode Sans SemiExpd Thin" ! [code: fullname-mismatch]
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiExpanded Thin") does not match name table entry "Encode Sans Semi Expd Thin" ! [code: fullname-mismatch]
 
 </details>
 <details>
@@ -237,17 +258,10 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded Thin' but got 'Encode Sans SemiExpanded Thin'.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded Thin' but got 'Encode Sans SemiExpd Thin'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded Thin' but got 'Encode Sans Semi Expd Thin'.
 
 </details>
 <details>
@@ -258,17 +272,10 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Entry [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded' but got 'Encode Sans SemiExpanded'. [code: non-ribbi-bad-value]
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans SemiExpanded Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans SemiExpd Thin') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Semi Expanded Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Semi Expd Thin') [code: does-not]
 
 </details>
 <details>
@@ -294,7 +301,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 The following glyphs do not have the recommended number of contours:
 
 Glyph name: Eth	Contours detected: 3	Expected: 2
-Glyph name: oslash	Contours detected: 1	Expected: 3
 Glyph name: Dcroat	Contours detected: 3	Expected: 2
 Glyph name: dcroat	Contours detected: 3	Expected: 2
 Glyph name: hbar	Contours detected: 2	Expected: 1
@@ -302,7 +308,6 @@ Glyph name: Lslash	Contours detected: 2	Expected: 1
 Glyph name: lslash	Contours detected: 2	Expected: 1
 Glyph name: Tbar	Contours detected: 2	Expected: 1
 Glyph name: tbar	Contours detected: 2	Expected: 1
-Glyph name: oslashacute	Contours detected: 2	Expected: 4
 Glyph name: uni1E08	Contours detected: 3	Expected: 2
 Glyph name: uni1E09	Contours detected: 3	Expected: 2
 Glyph name: uni1E1C	Contours detected: 3	Expected: 2
@@ -320,7 +325,7 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiExpanded Thin' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Semi Expanded Thin' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -490,10 +495,10 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesanssemiexpanded/EncodeSansSemiExpanded-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 114.9kb |
-| Hinted Size | 149.2kb |
-| Increase | 34.3kb |
-| Change   | 29.8 % |
+| Dehinted Size | 116.6kb |
+| Hinted Size | 149.7kb |
+| Increase | 33.0kb |
+| Change   | 28.3 % |
 
 
 </details>
@@ -533,7 +538,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [DSIG, cvt , loca, GPOS, gasp, GSUB, prep, fpgm]
+* :information_source: **INFO** This font contains the following optional tables [gasp, fpgm, cvt , GPOS, prep, DSIG, GSUB, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -647,27 +652,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Postscript name "EncodeSansSemiExpd-Thin" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
-
-* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** OK: Family name "Encode Sans SemiExpanded" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb font.name field contains font name in right format.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb font.full_name field contains font name in right format. ('Encode Sans SemiExpanded' in 'Encode Sans SemiExpanded Thin')
 
 </details>
 <details>
@@ -788,10 +772,24 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** FONT_FAMILY_NAME entries are all good.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** FONT_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -1067,5 +1065,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 13 | 7 | 25 | 6 | 92 |
-| 0% | 9% | 5% | 17% | 4% | 64% |
+| 0 | 16 | 7 | 21 | 6 | 93 |
+| 0% | 11% | 5% | 15% | 4% | 65% |

@@ -5,6 +5,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -13,6 +20,27 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
   LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All links in the DESCRIPTION file look good!
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** fonts/encodesanscondensed_sc/DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
 
 </details>
 <details>
@@ -146,34 +174,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 * [com.google.fonts/check/008](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Fonts have consistent underline thickness.
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
 
 </details>
 <details>
@@ -344,7 +344,7 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 <summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** OS/2 xAvgCharWidth is 978 but it should be 1007 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
+* :warning: **WARN** OS/2 xAvgCharWidth is 981 but it should be 1010 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
 
 </details>
 <details>
@@ -551,10 +551,10 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 
 |  | fonts/encodesanscondensed_sc/EncodeSansCondensedSC-Regular.ttf |
 |:--- | ---:|
-| Dehinted Size | 78.2kb |
-| Hinted Size | 109.1kb |
-| Increase | 30.9kb |
-| Change   | 39.5 % |
+| Dehinted Size | 79.7kb |
+| Hinted Size | 109.8kb |
+| Increase | 30.1kb |
+| Change   | 37.8 % |
 
 
 </details>
@@ -594,7 +594,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GPOS, loca, gasp, prep, cvt , fpgm, GSUB, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, DSIG, cvt , GPOS, gasp, loca, prep, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1107,5 +1107,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 7 | 30 | 6 | 90 |
-| 0% | 7% | 5% | 21% | 4% | 63% |
+| 0 | 11 | 7 | 26 | 6 | 93 |
+| 0% | 8% | 5% | 18% | 4% | 65% |

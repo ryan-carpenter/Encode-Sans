@@ -316,7 +316,7 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiCondensed SC' / SUBFAMILY_NAME = 'Bold'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Semi Condensed' / SUBFAMILY_NAME = 'Bold'
 
 </details>
 <details>
@@ -761,10 +761,10 @@ Glyph name: uni1ECB	Contours detected: 2	Expected: 3
 
 |  | fonts/encodesanssemicondensed_sc/EncodeSansSemiCondensedSC-Bold#1.ttf |
 |:--- | ---:|
-| Dehinted Size | 78.0kb |
-| Hinted Size | 77.2kb |
-| Increase | -828 bytes |
-| Change   | -1.0 % |
+| Dehinted Size | 79.6kb |
+| Hinted Size | 78.7kb |
+| Increase | -960 bytes |
+| Change   | -1.2 % |
 
 
 </details>
@@ -795,7 +795,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [loca, GSUB, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, loca, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

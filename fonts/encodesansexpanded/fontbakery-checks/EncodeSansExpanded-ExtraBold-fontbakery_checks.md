@@ -5,6 +5,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -13,6 +20,27 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
   LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All links in the DESCRIPTION file look good!
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** fonts/encodesansexpanded/DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
 
 </details>
 <details>
@@ -155,75 +183,10 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 * :bread: **PASS** Fonts have consistent underline thickness.
 
 </details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
 <br>
 </details>
 <details>
 <summary><b>[118] EncodeSansExpanded-ExtraBold.ttf</b></summary>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+Expanded (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d04d5f8>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
-
-</details>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
-
-* [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+Expanded (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d04d5f8>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
-
-</details>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> TTFAutohint x-height increase value is same as in previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/119](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+Expanded (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d04d5f8>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
-
-</details>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> Check font has same encoded glyphs as version hosted on fonts.google.com</summary>
-
-* [com.google.fonts/check/154](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+Expanded (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10d04d5f8>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
-
-</details>
-<details>
-<summary>:broken_heart: <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
-
-* [com.google.fonts/check/165](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :broken_heart: **ERROR** Failed to access: 'http://namecheck.fontdata.com/?q=EncodeSansExpanded'.
-Please report this issue at:
-https://github.com/googlefonts/fontbakery/issues
-
-</details>
 <details>
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
@@ -306,6 +269,13 @@ https://github.com/googlefonts/fontbakery/issues
 
 * [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [hbar, idieresis, eight, less, r.sc, iacute_j.loclNLD, uni1E49, zero.tosf, oacute.sc, wdieresis.sc, E, uni0201.sc, seven.numr, ebreve, uni03020303, uni1EC9, tbar, iacute_j.loclNLD.sc, uni1EBF, nine.tf, Eth, greaterequal.tf, e, sacute.sc, uni1E5E, zdotaccent, uni2154, product, partialdiff.tf, dcroat.sc, uni1ED8, logicalnot.tosf, d.sc, gbreve, uni020A, scircumflex.sc, uni1ED3, udieresis.sc, uni1ED7.sc, uni1ECD, uni1E5B, s, uni0394, uni20A9, uni03020303.sc, J, parenleft, ycircumflex, uni0233.sc, uni20B9.tf, uni1EEA, U, approxequal, Zdotaccent, uni1E65.sc, f_i, threequarters, ae, five.tf, eacute.sc, slash.tf, uni1E43, Uring, uni03080304, uni1E63, plus.tf, uni022B, ccircumflex, uni1E62, uni1EC4, oslash.sc, uni2010, minute, aringacute.sc, uni0208, plusminus.tosf, thorn, sterling, infinity.tosf, three.dnom, .notdef, edieresis, uni0207.sc, braceright, uni1EBB.sc, uni1EEF, dollar.tf, greaterequal.osf, ampersand.sc, dotaccent, uni1EF5, uni1E7A, Ycircumflex, uni03060309, uni1ED5, aring.sc, uni0212, Uogonek, uni1EB6, uni1EEB, uni0308.case, Q, uni1E21.sc, plus.tosf, uni1ECF.sc, uni03030308, uni2215, uni1E93, uni01C6, Wcircumflex, gdotaccent, nine.dnom, Nacute, lira.tf, ae.sc, uni1EA1.sc, dagger, j.sc, agrave.sc, imacron.sc, hcircumflex.sc, c, uni1E50, uni1EA5, Omacron, uni1EF4, oacute, eight.dnom, approxequal.tosf, uni20BD, Oacute, greater.tf, uni1E08, uni1EDA, uni0215, uni0230, uni1E66, uni0259, Eng, uni1EDB, x.sc, uni0237, uni1E42, bracketleft, period.tf, uni020C, Odieresis, uni03010307.case, seven.dnom, uni1EBC, Scircumflex, uni00B9, uni1E9E, yacute.sc, uni1E61, oslashacute, uni1E5B.sc, two.osf, six.tosf, divide, aogonek.sc, underscore.tf, arrowdown, itilde.sc, less.tf, uni2126, p, kgreenlandic, uni03080301, eng, umacron, bullet, uni01C7, Egrave, uni2080, igrave, quotesinglbase, ldot.sc, uni1EE3, uni1ED1, Racute, uni01EB.sc, Acircumflex, greaterequal, uni0324.sc, iogonek, Edieresis, uni0211.sc, Lacute, zero, backslash, uni1EAA, uni00B5.tf, uni20BF, uni020B.sc, napostrophe, uni1EF9, uni0205.sc, T, imacron, uni03010307, colon.tf, uni00AD, colonmonetary, uni1E25, ohorn.sc, h.sc, uni01C6.sc, uni1EC7.sc, Otilde, uni03A9, uni1E8E, Tbar, Gcaron, uni20B5, wgrave, uni0163, W, Utilde, uni0233, braceright.sc, uni20BA.tf, uni1EB0, ygrave.sc, dcaron.sc, uni1EE2, uni1EAB, gcaron, ntilde.sc, Ygrave, uni01F5.sc, uni0394.tf, Ohorn, emdash, uni1EB1.sc, uhorn.sc, tildecomb_acutecomb.case, greater, ldot, uni1E44, uni0259.sc, integral, nacute, uni03040300, uni0213, uni1EDF.sc, quotedblbase, minus.tosf, uni1E69.sc, uni03030308.case, Imacron, dieresis, scedilla, uni2088, uni1EE8, wcircumflex, uni03070304.case, dcroat, Hbar, amacron, acircumflex.sc, uni1E0D, two, colon, uni01F4, uni1E4F.sc, uni20B5.tf, uni1E48, uni1E2E, uni03020301, Aringacute, uni020D, Cacute, uni1E67.sc, g, cacute.sc, uni1ED9.sc, uni0200, Udieresis, uni20B9, uni1ED6, uni0201, uni1EC3, uni01EB, periodcentered.tf, uni1E15, uni1E78, uacute, lozenge.tf, quotesingle.tf, Idieresis, six.osf, eight.tf, uni1EEC, zero.dnom, uni1E0C, uni03020300, uni2219.tf, Uhorn, uni0209, Oslash, q, semicolon.tf, uni1ED5.sc, uring, perthousand.tf, uni1EB8, divide.osf, Euro, uni1E2F, uni1E5A, uni1E4C, adieresis, wgrave.sc, uni1E0F, uni1E7B, uni030C0307.sc, franc, uni03060303, nine.osf, uni03080304.case, uni2219, uni022D, uni20A9.tf, uni0232, zcaron.sc, uni1E65, uni1ECB.sc, multiply.osf, obreve, uni1EC6, uni03060303.case, uni1EA2, Uhungarumlaut, ntilde, seven.tosf, Ugrave, fl, ampersand, Lslash, uni1E36, Gdotaccent, uni1EA6, section, uni0202, periodcentered.CAT, wacute.sc, uni20BC, sacute, exclamdown, quoteright, four.numr, eight.tosf, uni2120, uogonek.sc, uni1EC7, uni1EA4, I_J.loclNLD, uni1EC8, six.dnom, numbersign, summation.tf, uni1E17.sc, uni1EA3.sc, percent, uni1E68, uni1E45.sc, uni03060303.sc, ordfeminine, tildecomb_acutecomb.sc, Lcaron, asciitilde, uni0162, braceleft.sc, l, uni01F3, uni1EBF.sc, uni1E6F, lozenge.tosf, uni1EBB, aeacute, Iacute_J.loclNLD, uni030C0307.case, florin.tf, Eacute, cdotaccent.sc, equal, six, one.tf, uni2082, o, uni1E2B, bar.tf, uni1EC2, peseta.tf, uni1ED3.sc, oneeighth, uni1E5F.sc, one.osf, uni03030308.sc, Ocircumflex, dong.tf, fi, three.numr, four.osf, Y, m, quotedbl.tf, uni1EC9.sc, d, uni021A, partialdiff, uni1EE7.sc, seven.osf, uni1EA0, omacron, uni0308, Jcircumflex, uni1EC0, uni1E4D.sc, arrowright, acircumflex, uni1EA3, uni1EAF.sc, seveneighths, lozenge, O, uni1ECE, icircumflex.sc, Ccedilla, pi, uni1E47, parenleft.sc, uni1E2F.sc, minus, uni1EF8, uni1EE6, uni1E63.sc, q.sc, uni1E6F.sc, aringacute, uni01CB, guilsinglright, uni1EAD, uni01F1, uni1E6E, three.osf, ubreve.sc, uni20B2, g.sc, ydieresis.sc, uni20B1.tf, four.tosf, five.numr, eogonek.sc, questiondown, uni0211, Adieresis, ydieresis, uni0324.case, uni01C8, icircumflex, uni2116, uni0204, ncaron, gbreve.sc, uhorn, three.tosf, parenright.sc, asciicircum.osf, I, gcircumflex, ohungarumlaut, uni1EDB.sc, uni0324, uni1E09, Umacron, Dcroat, bar, uni2081, Aacute, V, uni0307, hyphen, hbar.sc, uni1E7B.sc, ubreve, zero.numr, OE, uni03020309, uni1EB9.sc, four.tf, uni1EF7, periodcentered, G, Ecaron, notequal, radical, germandbls, logicalnot, uni2083, uni1EF1, egrave, Ccircumflex, uni01CC.sc, onequarter, summation, uni1EB7, uni1E24, zero.tf, u, b, uni1E92, uni20BD.tf, c.sc, ccaron.sc, uni1EBD.sc, uni1EAC, quoteleft, wdieresis, gcaron.sc, ecircumflex, o.sc, uni03030304.sc, infinity.osf, uni1E2B.sc, uni01C5, uni1E37, uni1E53, uni20A6.tf, Thorn, igrave.sc, h, eight.numr, oslash, X, uni018F, abreve, Oslashacute, utilde, uni1EAF, ellipsis, aring, arrowleft, infinity, Ldot, uni022B.sc, AEacute, guillemotright, uni03070304.sc, cent.tf, asciicircum.tf, product.tf, Amacron, greater.osf, equal.tosf, lessequal, uni1EDE, uni1ECB, lira, otilde, lozenge.osf, iacute, uni03060301, uni020E, uni1ECF, asciitilde.tf, uni03040301.case, emacron, uni20A6, l.sc, uni1ECA, lcaron.sc, zero.osf, numbersign.tf, Edotaccent, plus, uni020F.sc, Ucircumflex, uni1EF6, uni03080301.case, asciitilde.tosf, z.sc, uni1EB7.sc, obreve.sc, six.tf, w, uni2084, lslash, uni1EDF, uni1E47.sc, registered, greaterequal.tosf, uni1EBE, N, jcircumflex, oe.sc, arrowup, uni03020303.case, pi.tf, ograve.sc, uni020F, scedilla.sc, ugrave.sc, five.tosf, t, threeeighths, bracketright.sc, uni1EE1, asciicircum.tosf, ohungarumlaut.sc, gdotaccent.sc, equal.tf, Z, uni01C4, odieresis.sc, uni1EC5.sc, uni1E5F, uni1EAB.sc, S, rcaron.sc, uni20B2.tf, uni1E4D, integral.tf, uni20BC.tf, lcaron, four, uni1E52, multiply, uni2219.osf, ecaron, f, colonmonetary.tf, uni1E21, n.sc, uni1E17, nine.tosf, omacron.sc, slash, lessequal.tf, one.tosf, ecircumflex.sc, ycircumflex.sc, uni1E67, peseta, Idotaccent, uni2086, fiveeighths, asciitilde.osf, uni01F5, uni03040300.sc, uni1E14, f.sc, seven, uni20B1, brokenbar, logicalnot.osf, uni1E61.sc, uni00B5, uni1EB4, uni1ECD.sc, one, ocircumflex, lessequal.tosf, uni1EE0, uni2126.tf, ccircumflex.sc, uni1E60, uni1EE7, uni1EA5.sc, tcaron.sc, uni2113, sterling.tf, uni1E15.sc, Abreve, Wgrave, uni1EF7.sc, uni1EED.sc, zacute.sc, uni0206, Tcaron, plus.osf, Scedilla, uni1EB3, uni030C0307, uni1EE9, f_j, Ccaron, n, uni0217, udieresis, three, uni1E97, uni1EB2, onehalf, agrave, uni0308.sc, a.sc, uni020B, i, C, Yacute, k.sc, uni03040300.case, otilde.sc, quotedbl, F, aacute.sc, less.osf, Obreve, one.numr, lessequal.osf, eight.osf, second, ecaron.sc, ograve, ccaron, uni20BF.tf, i.loclTRK, Emacron, uacute.sc, uni1E1D, uhungarumlaut, zacute, s.sc, uni01F3.sc, amacron.sc, Scaron, zdotaccent.sc, franc.tf, approxequal.tf, quotedblleft, e.sc, greater.tosf, uni2089, uni2206, b.sc, four.dnom, uni1EE5.sc, Gbreve, dollar, Igrave, uni1EA7.sc, aeacute.sc, uni1EAD.sc, uni03BC, two.tosf, uni1EEE, wcircumflex.sc, Wdieresis, Ubreve, uni1E43.sc, Ecircumflex, jcircumflex.sc, notequal.tf, guilsinglleft, uni1E69, lacute, uni1EEF.sc, p.sc, Iacute, uni03030304, y.sc, r, two.tf, thorn.sc, Itilde, uni1EB3.sc, parenright, uni1ECC, uni1E49.sc, uni0163.sc, five.dnom, aogonek, Ntilde, uni020D.sc, Ohungarumlaut, Dcaron, uni1E64, uni03070304, v, six.numr, germandbls.sc, egrave.sc, uni1EBA, uni1EF1.sc, dotlessi, Aogonek, uni1E0F.sc, uni1ED2, uni030B, Cdotaccent, uring.sc, uni1EE3.sc, at, x, D, atilde, uni03010307.sc, uni1EE9.sc, ibreve.sc, oslashacute.sc, seven.tf, t.sc, Sacute, uni1E46, u.sc, nine, eth, uni01CC, multiply.tosf, uni1E20, eacute, uni1E93.sc, hcircumflex, AE, uni03080301.sc, ccedilla, hungarumlaut, two.numr, H, uni2076, uni03040308.sc, uni1EF5.sc, uni01C9.sc, minus.tf, uni1E79.sc, uni01EA, uni1E6C, uni1E8F.sc, uni1ED9, uni1EF0, uni1EA7, Ibreve, i.sc, uni1EA8, ugrave, uni00B2, eth.sc, uni03A9.tf, yen.tf, degree, Icircumflex, question, notequal.osf, uni1EC1.sc, guillemotleft, uni1EDD.sc, uni0213.sc, ocircumflex.sc, uni1E51.sc, plusminus, bracketleft.sc, uni0216, tcaron, ebreve.sc, currency, uni2206.tf, brokenbar.tf, uni2078, uni1ED4, period, eogonek, M, perthousand, uni1ED0, quotesingle, uni03040308.case, exclam, minus.osf, f_l, Ebreve, nacute.sc, uni1ED1.sc, uni03BC.tf, uni0214, uni2075, adieresis.sc, idieresis.sc, uni1EDC, atilde.sc, uni0210, uni1E0E, dcaron, uni0209.sc, percent.tf, Wacute, cdotaccent, uni03060300, uni022A, lslash.sc, uni1E25.sc, uni2077, Uacute, abreve.sc, uni01C9, uni1ED7, uni20AD.tf, uni1E3B.sc, uni1E6D, ncaron.sc, uhungarumlaut.sc, uni20AD, logicalnot.tf, uni0207, i_j.loclNLD, ccedilla.sc, uni0304.sc, uni0215.sc, Ograve, underscore, umacron.sc, uni2219.tosf, B, uni2015, paragraph, asterisk, eng.sc, uni1E1D.sc, uni2085, uni0205, uni0231, uni1E3B, rcaron, three.tf, scircumflex, ygrave, odieresis, uni03040301.sc, edotaccent.sc, uni2087, uni00B3, less.tosf, plusminus.osf, Atilde, yacute, uni022C, edieresis.sc, Agrave, five, aacute, divide.tf, uni03040308, uni1E4F, uni1EED, uni20BA, iacute.sc, gcircumflex.sc, uni1EDD, two.dnom, uni2079, uni1EB5, L, radical.tf, ucircumflex, ucircumflex.sc, uni1E53.sc, divide.tosf, K, racute, uni01CA, cacute, j, uni1E4E, dong, uni2074, braceleft, uni1E37.sc, P, fraction, yen, infinity.tf, figuredash, five.osf, y, degree.tf, Zcaron, uni2215.tosf, uni1E2A, uni2215.tf, ibreve, comma, R, currency.tf, semicolon, notequal.tosf, z, bracketright, zcaron, uni1EE5, ohorn, uni1EB9, Gcircumflex, v.sc, asciicircum, uni2153, uni0304.case, uni1E3A, uni0203.sc, uni01F2, uni03080304.sc, multiply.tf, Iogonek, Zacute, a, daggerdbl, cent, nine.numr, uni1EC5, m.sc, uni03030304.case, uni021B.sc, uni1EAE, uni1E51, uni1E79, trademark, uni0217.sc, scaron, uni021B, w.sc, scaron.sc, uni1E09.sc, uni2070, uni1EEB.sc, uni1E0D.sc, uni1EB1, Hcircumflex, edotaccent, oe, tildecomb_acutecomb, uogonek, uni0231.sc, Eogonek, A, uni1E1C, uni03040301, uni1E8F, wacute, uni030F, uni1EE4, Ydieresis, florin, one.dnom, k, uni1EE1.sc, lacute.sc, uni1E16, ordmasculine, itilde, utilde.sc, Euro.tf, uni1EF9.sc, Ncaron, Aring, Rcaron, uni0203, uni1E6D.sc, uni1EB5.sc, comma.tf, equal.osf, copyright, uni1EC3.sc, tbar.sc, uni1EC1, uni1EA9.sc, uni1EBD, emacron.sc, uni1E45, plusminus.tf, racute.sc, approxequal.osf, i_j.loclNLD.sc, uni1EA1, uni1EA9, uni022D.sc, quotedblright]
 
 </details>
 <details>
@@ -483,10 +453,10 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesansexpanded/EncodeSansExpanded-ExtraBold.ttf |
 |:--- | ---:|
-| Dehinted Size | 117.6kb |
-| Hinted Size | 156.2kb |
-| Increase | 38.6kb |
-| Change   | 32.8 % |
+| Dehinted Size | 119.4kb |
+| Hinted Size | 157.1kb |
+| Increase | 37.8kb |
+| Change   | 31.7 % |
 
 
 </details>
@@ -526,7 +496,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [gasp, fpgm, GSUB, prep, DSIG, loca, GPOS, cvt ]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, prep, GSUB, DSIG, cvt , gasp, GPOS, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -743,6 +713,20 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Version number 3.0 is greater than version on Google Fonts GitHub (2.0) and production servers (2.0).
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> TTFAutohint x-height increase value is same as in previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/119](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** TTFAutohint --increase-x-height is the same as in the previous Google Fonts release (14).
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Checking OS/2 fsSelection value.</summary>
 
 * [com.google.fonts/check/129](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -764,6 +748,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * [com.google.fonts/check/131](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** head macStyle ITALIC bit is properly set.
 * :bread: **PASS** head macStyle BOLD bit is properly set.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check font has same encoded glyphs as version hosted on fonts.google.com</summary>
+
+* [com.google.fonts/check/154](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font has all the glyphs from the previous release
 
 </details>
 <details>
@@ -813,6 +804,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/164](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
+
+* [com.google.fonts/check/165](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -1067,5 +1065,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 5 | 11 | 5 | 21 | 6 | 95 |
-| 3% | 8% | 3% | 15% | 4% | 66% |
+| 0 | 12 | 6 | 17 | 6 | 102 |
+| 0% | 8% | 4% | 12% | 4% | 71% |

@@ -130,4 +130,4 @@ os.remove(filePath)
 run("ttx " + ttxPath)
 
 # remove edited TTX
-# os.remove(ttxPath)
+os.remove(ttxPath)

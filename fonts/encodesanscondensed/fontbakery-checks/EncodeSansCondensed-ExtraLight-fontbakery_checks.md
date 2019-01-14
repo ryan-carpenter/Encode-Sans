@@ -5,6 +5,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -13,6 +20,27 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
   LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All links in the DESCRIPTION file look good!
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** fonts/encodesanscondensed/DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
 
 </details>
 <details>
@@ -155,34 +183,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 * :bread: **PASS** Fonts have consistent underline thickness.
 
 </details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
 <br>
 </details>
 <details>
@@ -289,7 +289,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1E4E, Ecaron, oslash, uni1E78, uni01C6, Edotaccent, uni1EBC, uni01C4, Ubreve, H, Eacute, uni0216, uni01F1, wacute.sc, Umacron, f_l, Ugrave, uni01C5, OE, Edieresis, uni1EF0, Hcircumflex, uni1E16, fl, uni01CC.sc, oslash.sc, Eng, w.sc, lira.tf, AEacute, uni1E9E, W, uni01F3.sc, uni0206, Q, product, wdieresis, uni1ED6, uni1EE0, uni01C6.sc, germandbls.sc, Ntilde, uni1E44, uni20A6, uni1EC4, uni0204, Wgrave, uni20BF.tf, .notdef, M, Uhorn, Uhungarumlaut, Egrave, uni1EB8, Iacute_J.loclNLD, Oslash, Nacute, uni20BF, Ncaron, uni1EE4, Utilde, uni0214, uni1EBE, AE, uni1E79.sc, uni1E42, product.tf, uni1EEF.sc, Ebreve, uni022C, Wacute, at, U, wcircumflex.sc, N, wgrave.sc, uni01F2, peseta, Wdieresis, uni1E7A, Uacute, uni1EEE, Udieresis, D, oslashacute, uni1EEC, uni1EC0, uni1EE8, lira, perthousand, uni1E46, K, I_J.loclNLD, uni2116, oslashacute.sc, f_j, wdieresis.sc, Oslashacute, pi, uni1E0C, Dcaron, uni1E24, uni01CB, uni1EC6, Ucircumflex, uni01C8, uni1EC2, uni1EBA, uni1E14, uni1EDE, Uogonek, Wcircumflex, uni01CA, uni1EEA, uni1EE6, uni1E48, Uring, uni1E2A, uni01C7, uni1E0E, dong.tf, uni20A9, Ecircumflex, uni1E4C]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1E46, Ntilde, Ugrave, uni1E79.sc, uni01C6, product, Uhorn, uni1EEC, fl, uni1E48, N, Eng, uni01C4, Iacute_J.loclNLD, Edotaccent, peseta, uni20BF, H, at, uni1E4C, uni20BF.tf, uni01CC.sc, uni0206, Utilde, uni1EEA, oslash.sc, uni1EC2, uni1EE0, Ecircumflex, Ncaron, f_j, uni1EBA, germandbls.sc, uni0216, f_l, OE, uni1E78, uni1E14, uni1E42, uni01F3.sc, uni1EB8, K, Ecaron, Wacute, Uacute, lira.tf, Udieresis, Wgrave, wcircumflex.sc, uni1E0E, uni20A6, .notdef, uni01C6.sc, uni0214, uni01CB, uni01C8, Egrave, uni1E0C, uni0204, M, Wcircumflex, uni1EC0, wdieresis.sc, uni1E1C, product.tf, Oslash, Oslashacute, uni1E16, uni1EBC, uni1E9E, Umacron, D, wcircumflex, uni1EF0, uni1EC6, uni1EEF.sc, uni01CA, uni01F1, Edieresis, w.sc, uni01C5, lira, uni1EDE, Hcircumflex, uni1EBE, uni1EE6, Uogonek, oslashacute.sc, uni1EE4, wgrave.sc, Dcaron, Q, uni20A9, Nacute, dong.tf, Wdieresis, Ebreve, wdieresis, U, uni1E24, Ucircumflex, AE, pi, Eacute, uni1E44, uni1EEE, Uring, uni1EC4, Ubreve, wacute.sc, uni1E7A, uni1EE8, I_J.loclNLD, W, AEacute, Uhungarumlaut, uni01F2, perthousand, uni2116, uni1E2A, uni01C7, uni1E4E]
 
 </details>
 <details>
@@ -467,10 +467,10 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesanscondensed/EncodeSansCondensed-ExtraLight.ttf |
 |:--- | ---:|
-| Dehinted Size | 116.9kb |
-| Hinted Size | 153.3kb |
-| Increase | 36.4kb |
-| Change   | 31.1 % |
+| Dehinted Size | 118.7kb |
+| Hinted Size | 154.2kb |
+| Increase | 35.5kb |
+| Change   | 29.9 % |
 
 
 </details>
@@ -510,7 +510,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [cvt , loca, DSIG, GPOS, fpgm, gasp, GSUB, prep]
+* :information_source: **INFO** This font contains the following optional tables [cvt , gasp, DSIG, fpgm, prep, loca, GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1070,5 +1070,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 12 | 7 | 21 | 7 | 96 |
-| 0% | 8% | 5% | 15% | 5% | 67% |
+| 0 | 13 | 7 | 17 | 7 | 99 |
+| 0% | 9% | 5% | 12% | 5% | 69% |

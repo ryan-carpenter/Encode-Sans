@@ -5,6 +5,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -13,6 +20,27 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
   LATEST:    0.6.6
 
 * :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** All links in the DESCRIPTION file look good!
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** fonts/encodesansexpanded/DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
 
 </details>
 <details>
@@ -155,34 +183,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 * :bread: **PASS** Fonts have consistent underline thickness.
 
 </details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: description
-
-</details>
 <br>
 </details>
 <details>
@@ -268,7 +268,7 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [egrave, trademark, pi.tf, uni1EE7, at, G, C, Scircumflex, uni020F, uni1E51, gcircumflex.sc, ocircumflex, uni1EAF, abreve, emacron, uni03A9, lira.tf, Wacute, wgrave.sc, uni2206, uni1EE1, uni022B, otilde.sc, Ecircumflex, Emacron, Q, Wgrave, acircumflex.sc, uni1E24, uhungarumlaut.sc, uni20B5, uni20A6, uni0207, perthousand.tf, Ebreve, uni01C6, franc.tf, uni1ED0, uni1E48, uni0217, uni01EB.sc, nine.tosf, uni1ECE, acircumflex, uni1EF1, E, edieresis, ubreve, S, aogonek, uni1E68, eight.tosf, uni1EAD, uni0217.sc, Ycircumflex, uni1E47.sc, uni020D.sc, uni20BF.tf, uni01C8, uhorn.sc, uni1ED7.sc, cent, uni1E4E, section, uni03BC, ucircumflex.sc, germandbls.sc, Edieresis, ohorn.sc, uni1EA6, i_j.loclNLD, uni01F3.sc, uni03A9.tf, Uogonek, uni1EAD.sc, uni1EF0, atilde.sc, ntilde, radical, Acircumflex, uni1EAA, .notdef, uni1EEC, Ntilde, uni1EA7, ohungarumlaut, fl, ocircumflex.sc, uni1EEF, uni20AD.tf, atilde, Iacute_J.loclNLD, uni1EDB.sc, otilde, Uring, uni0203.sc, uni1EC2, Otilde, uni0231, uni1EB7.sc, eng.sc, uni1ED4, Adieresis, Uacute, uni01CC.sc, uni020C, uni1E53, hcircumflex, uni1E4C, uni1EF5, uni1ED3.sc, uni1E21, uni020E, uhungarumlaut, three, uni1E47, gdotaccent, three.osf, ohorn, uni1EBD, threeeighths, uni01F1, amacron, uni1EE9, I_J.loclNLD, napostrophe, uni1EE7.sc, ccircumflex, uni1EEA, uni1ED3, uni1E46, u, aacute, uni1E43, Ccaron, fiveeighths, uni1E53.sc, uni1E4F, f_j, ccaron, uni1E0D, uni1EED, uni01F5, Oslash, wdieresis.sc, ygrave, oslash.sc, uni1E66, AEacute, wacute.sc, uni1E2A, Zcaron, P, four, ncaron.sc, uni1E17, g.sc, abreve.sc, dong.tf, gbreve.sc, d, uhorn, ecaron, percent, f_i, uni20AD, zacute.sc, OE, nine, Thorn, uni1EB2, W, amacron.sc, uni1EC6, Odieresis, aeacute, aring, ucircumflex, uni1E65.sc, uni0206, four.tf, X, uni1E60, umacron.sc, tcaron, odieresis.sc, uni01EA, Edotaccent, y, uni0394, uni1E7B.sc, oslashacute.sc, b, infinity.osf, uni1EB3.sc, dcaron, uni2153, obreve.sc, Ucircumflex, uni1EC7, aring.sc, uni1EEF.sc, uni20B2, uni1EDA, sterling, uni0213.sc, uni1EDF.sc, Ocircumflex, uni1E4D, Abreve, v.sc, franc, uni1E7B, cacute, uni1E67.sc, uni1EB8, Oacute, bracketright, sterling.tf, B, Euro, uni01F2, uni20BF, uni20BD, uni1EDB, uni1EE3.sc, omacron, udieresis.sc, oslashacute, cent.tf, uni1E0F.sc, uni1EA8, uni1ED1.sc, Aring, uni1EBA, uni1E50, uni1EEE, uni1EA1.sc, uni022D.sc, umacron, Gcircumflex, Sacute, uni20A6.tf, Gcaron, uni1EC5, uni1EB1.sc, uni1ECD.sc, uni0212, uni1E64, uni01C9, ae.sc, uni01C6.sc, uni2126.tf, ohungarumlaut.sc, Oslashacute, uring, agrave.sc, eacute, wcircumflex, Uhungarumlaut, uni1E93.sc, onequarter, uni01CB, eogonek, uni1E8F, hcircumflex.sc, uni1EA0, ncaron, w, scircumflex, uni1ED7, uni1E4F.sc, uni1EA3.sc, aringacute.sc, uogonek, uni022C, uni1ED8, Uhorn, ntilde.sc, o.sc, three.tf, gbreve, Ecaron, peseta, M, zero, Ograve, ograve, five, six.tf, k, two.tf, Aringacute, utilde.sc, uni1EBE, uacute, partialdiff.tf, uni1EDD, U, perthousand, Gdotaccent, uni1ECF, threequarters, dollar, uni1EB7, uni1EB9, uni1EA4, uni1E9E, uni1EB5, numbersign.tf, uni1ED5, uni1ECF.sc, q, four.tosf, uni0214, seveneighths, uni1ED1, gcaron.sc, rcaron.sc, uni1EE5.sc, uni1EAE, five.tosf, uni1ED5.sc, uni1ED6, uni0215.sc, uni2116, oacute.sc, uni1EAF.sc, six, uni1ED9.sc, Scaron, uni1EA5, uni1E43.sc, Racute, uni1EE6, uni0216, gcaron, H, uni1EA9, uni2120, uni1E79.sc, uni1EC4, six.osf, eight, uni1ED2, udieresis, uni1E4D.sc, f_l, zcaron, uni1E45, uni0259.sc, n.sc, aacute.sc, uni1EC3, uni0394.tf, uni2154, h, Aacute, uni1EE9.sc, five.osf, odieresis, uni20B5.tf, uni1EBC, uni1EB0, iacute_j.loclNLD, uni1E92, uni1ED9, omacron.sc, dong, dcaron.sc, ograve.sc, two, uni0231.sc, uni0201.sc, Atilde, bracketright.sc, uni1E0F, K, Ohungarumlaut, uni0204, d.sc, uni1E67, uni022B.sc, wdieresis, z.sc, Amacron, uni01C7, uni01F5.sc, uni1EA5.sc, uni1E5E, Wdieresis, florin, colonmonetary.tf, Z, Egrave, Eng, uni1EE4, uni0202, uni2126, uni1EA2, uni1E78, Omacron, uni1E6F, D, Cdotaccent, wgrave, uni0203, uni1E5A, eight.tf, edotaccent, uni01EB, uni1E21.sc, utilde, uni1EBF, uni1EA1, uni1E0C, uni022D, Ncaron, uni0230, Wcircumflex, n, uni0215, A, fi, Euro.tf, uni1E7A, uni1EEB.sc, uni01F3, uni022A, obreve, gcircumflex, uni1EF7, four.osf, florin.tf, uni1E14, uni1EF1.sc, hbar.sc, w.sc, uni1E52, uni1EAC, AE, thorn, oe.sc, nacute.sc, uni1E65, uni03BC.tf, yen.tf, Zacute, Ohorn, Ubreve, adieresis.sc, uni1E49.sc, Dcaron, a, uni1EBB, uni1EAB, F, uni1EC0, uogonek.sc, uni0200, uni20B1, uni1E0E, nacute, uni1EDE, m.sc, Obreve, scircumflex.sc, uni1E1C, partialdiff, uni1E16, uni1EB6, dollar.tf, pi, uni0210, Ugrave, Udieresis, product, wacute, ubreve.sc, aeacute.sc, infinity, uni1EED.sc, ecircumflex, uni1EB5.sc, ydieresis, Zdotaccent, three.tosf, lira, uni2206.tf, ae, uni1ECC, zcaron.sc, eight.osf, eth, uni0205, uni1E25, uni1EF9, Agrave, uni00B5, wcircumflex.sc, uring.sc, uni20BD.tf, uni1E51.sc, uni01CA, uni20B9.tf, h.sc, q.sc, uni20B9, uni20A9, agrave, p, uni1EA9.sc, ugrave.sc, u.sc, uni1E97, oneeighth, six.tosf, summation, lslash, product.tf, uni20B2.tf, adieresis, V, Rcaron, oacute, uni1EE3, uni0201, uni1EE2, Nacute, uni1E79, uni1EA7.sc, uni1EE5, onehalf, O, Ccircumflex, ugrave, uni1E20, uni1E42, oe, ycircumflex, uni1E25.sc, yacute, nine.osf, uni20BC, uni01F4, uni1EE0, uni1E2B, uni01C5, uni1EDC, uni00B5.tf, Utilde, uni1EB1, uni20BC.tf, uni1E2B.sc, uni1EAB.sc, uni1EB3, Hcircumflex, scaron.sc, ampersand.sc, uni0233, colonmonetary, Umacron, g, uni1EE1.sc, uni1EA3, gdotaccent.sc, ebreve, germandbls, uni20B1.tf, aringacute, uni018F, uni01CC, Eacute, ampersand, zacute, oslash, o, uni1E45.sc, Gbreve, b.sc, uni01C4, nine.tf, uni1E49, R, zero.tf, Cacute, summation.tf, uni1E15, uni1EDF, N, five.tf, uni1EE8, uacute.sc, uni1EDD.sc, numbersign, uni1EB4, uni1ECD, uni1E62, uni1E0D.sc, zero.osf, m, uni1EC1, uni1EEB, uni020D, a.sc, uni1E44, uni1E69, uni020F.sc, zdotaccent.sc]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni1EAD.sc, Aring, uni1EE5, wgrave.sc, uni01C4, uni2206, uni1EAF, uni1EA9.sc, uni20B1, zero.osf, uni20B2, uni20B1.tf, uni1EF5, Dcaron, uni1EE3, Udieresis, lslash, Otilde, Uacute, three.tosf, Gcircumflex, uni2153, ubreve.sc, uni1E4E, uni0203, uni1EB1, uni0259.sc, odieresis, uni1ED9.sc, uni020D.sc, uni1EE3.sc, uni1ED5.sc, uni1E49, uni022B.sc, B, uni0217.sc, uogonek.sc, uni1E49.sc, uni1ED4, ncaron.sc, threeeighths, uni1EAF.sc, uni1E65.sc, perthousand, uni1EC3, uni1EED, uni01F5.sc, h, cent, Obreve, Zdotaccent, uni1ECC, uni1EA3, wgrave, edieresis, utilde, perthousand.tf, uni00B5.tf, uni1EE8, d.sc, uni01C6.sc, K, oslash.sc, three, uni1EA5, three.osf, wdieresis, uni1E7B.sc, uni1EF1.sc, ygrave, ucircumflex.sc, Ohorn, uni1EB2, ograve.sc, Ocircumflex, uni1EB9, uni1EEC, k, Rcaron, uni1E66, ncaron, seveneighths, uni1E53.sc, Gdotaccent, a.sc, uni1EBC, oslashacute, uni1ED3.sc, edotaccent, agrave.sc, uni03A9, franc, uni1E0C, uni20BC, Ecaron, six.tf, adieresis.sc, w.sc, uni1EED.sc, uni01C5, product.tf, oneeighth, Acircumflex, six, uni1E51.sc, cacute, uni0230, uni01F4, Edotaccent, uni20BD, wcircumflex, uni1ED7.sc, uni1E17, wcircumflex.sc, aogonek, adieresis, uni1EE5.sc, dcaron, uhorn, Ecircumflex, sterling, uni1E4D.sc, uni1EB3, peseta, five, uni1E48, tcaron, F, ccircumflex, nine.tosf, I_J.loclNLD, otilde, uni1EEF, uni1E53, uacute, uni1E0D, uni0394, Iacute_J.loclNLD, uni1E45.sc, cent.tf, five.tosf, Wdieresis, uni20BC.tf, uni0233, uni1E4F, uni1EF0, R, uni20A6, uni1E62, uni1E67.sc, Uhorn, scircumflex, nacute.sc, uni1E4F.sc, uni1EEB.sc, uni1E60, Emacron, o, oslashacute.sc, zcaron.sc, uni018F, Cdotaccent, uni20AD.tf, uni20B2.tf, eth, uni1E78, uni1ED1.sc, uni1E0E, uni1E79.sc, Cacute, Wgrave, Edieresis, yacute, uni01F5, eacute, uni0202, omacron, uni1EDB.sc, ampersand.sc, Scircumflex, uni1EB6, aringacute, uni1EDB, uni1EA1, uni020D, uni1EA7.sc, uni1EA3.sc, uni1EDD, radical, uni0231, nine.osf, uni01F3.sc, uni0217, uni1EBA, uni1EC5, V, uni1E0F, uni0200, uni0203.sc, hcircumflex.sc, Omacron, yen.tf, uni1EB4, a, uni1EC1, uni20B5.tf, uni2154, uni1E5E, acircumflex, Zcaron, h.sc, uni1EA0, uni1ED6, uni2116, Thorn, uni1ED8, Zacute, Wacute, uni020E, uni1E2B, i_j.loclNLD, v.sc, Uhungarumlaut, uni1EAB.sc, uni1EA4, uni1E50, florin, Z, uni1E67, uni1EBE, uni0215, uni1EB7, C, uni1EC7, d, uni01EA, uni1EE4, uni03BC.tf, uni1ED5, uni1EAE, Ohungarumlaut, uni03A9.tf, aringacute.sc, uni1EEF.sc, Eacute, A, uni1E2B.sc, franc.tf, ugrave, amacron.sc, section, uni1EAA, b.sc, E, uni1E16, u, iacute_j.loclNLD, p, Utilde, udieresis.sc, four, aeacute.sc, uni2206.tf, Oacute, uni1E8F, bracketright, Ntilde, eogonek, uni1EEB, Gcaron, atilde.sc, Aringacute, P, uni0207, u.sc, Ebreve, ograve, product, aring.sc, infinity.osf, uni1E0F.sc, Ubreve, uni1EBF, two.tf, ampersand, dong, uni1ED7, four.tf, six.tosf, uni0205, uni1ED1, thorn, uni1EDF.sc, amacron, g.sc, uni1E21.sc, Eng, uni1EB5, udieresis, uni1EA9, uni20BF, uni1EB7.sc, uni1EE9.sc, uni1EAC, Umacron, uni1E68, m, Ncaron, uni01F3, oacute, uni1E43, egrave, uni1E14, uni1EE6, uni1EBB, eight.tf, summation.tf, uni1EA7, dong.tf, uni1E47.sc, y, uni1E9E, uni1EAB, gcircumflex, dollar, Wcircumflex, zero.tf, .notdef, two, uni1EE7.sc, zacute.sc, Adieresis, uni1E6F, Q, uni01C7, uni1EE0, AE, uni1EC2, uni20A9, uring, ohungarumlaut.sc, f_l, abreve.sc, Ccaron, fiveeighths, ecircumflex, utilde.sc, H, gcaron.sc, uni01EB, uhorn.sc, uni1ECF, ohorn.sc, colonmonetary.tf, uni1EDE, colonmonetary, b, ccaron, uni1ECD, gdotaccent, uni1E20, uni1EC4, uni01EB.sc, uni2126.tf, ocircumflex, gcircumflex.sc, S, uni1EC6, eng.sc, uni1ED3, uni1ECE, uni020F.sc, uni00B5, uni1E7B, rcaron.sc, Euro.tf, uni20AD, uni1E21, uni1EA1.sc, uring.sc, uni0231.sc, otilde.sc, uni1E2A, nacute, uni2126, z.sc, Atilde, uni01CB, ycircumflex, f_j, uni1E46, gbreve, uni01CC, Ucircumflex, W, uni20B9, uni1EB5.sc, umacron, four.osf, bracketright.sc, zcaron, lira.tf, threequarters, Aacute, uni0210, zero, atilde, uni2120, uni1EDC, uni1EEA, ugrave.sc, uni1E97, odieresis.sc, zdotaccent.sc, uni1E42, florin.tf, uni20B5, uni1EB8, uni1EB1.sc, uni1E44, uni1E52, gdotaccent.sc, oacute.sc, infinity, gcaron, uni0213.sc, uni1ED2, sterling.tf, uni1E25, uni020F, uni0394.tf, fl, uacute.sc, Uogonek, uni1EB3.sc, uni1ED0, w, ntilde.sc, germandbls, uni1E92, uni01C8, uni1E64, uni20A6.tf, agrave, uni1E45, uni1E25.sc, Abreve, Ograve, Scaron, uni01F2, uni1E4C, uni022B, abreve, n.sc, ydieresis, uni20B9.tf, uni1E24, D, uni1EF9, trademark, uhungarumlaut, five.tf, three.tf, Oslash, summation, aring, napostrophe, ebreve, oe.sc, dollar.tf, six.osf, omacron.sc, umacron.sc, uni0204, eight.osf, uni1EE1, uni1ED9, fi, ntilde, uhungarumlaut.sc, wdieresis.sc, uni1EC0, uni1E65, ecaron, ae.sc, o.sc, uni022D, percent, wacute, uni1E0D.sc, scaron.sc, Ycircumflex, Euro, uni0214, uni1E4D, ucircumflex, gbreve.sc, uni1E47, uni1E79, numbersign, hcircumflex, Agrave, aeacute, q, uni020C, g, uni0216, uni1EBD, uni0215.sc, onehalf, hbar.sc, q.sc, AEacute, ae, uni1ECD.sc, uni1EDA, uni01F1, uni0212, OE, dcaron.sc, uni1E93.sc, oslash, uni1E15, at, uni1EE1.sc, five.osf, uni1E7A, uni1E43.sc, Hcircumflex, Odieresis, Gbreve, uni01C6, U, acircumflex.sc, uni1ECF.sc, oe, uni1EE2, uni1EB0, uni20BF.tf, uni1EE7, uni1EA8, uni022C, pi, uni1E5A, ubreve, uogonek, M, uni20BD.tf, m.sc, nine.tf, obreve.sc, pi.tf, G, four.tosf, zacute, uni1EF1, uni01CA, uni1E69, uni1EA6, Racute, uni01CC.sc, obreve, uni022D.sc, Nacute, uni1EF7, eight.tosf, uni1EDF, uni1EAD, Sacute, germandbls.sc, uni1EE9, uni1EDD.sc, ohungarumlaut, O, f_i, uni1EA2, Egrave, numbersign.tf, uni03BC, aacute, Ccircumflex, X, partialdiff.tf, uni1E1C, uni01C9, Amacron, eight, nine, emacron, N, aacute.sc, ocircumflex.sc, ohorn, uni022A, uni1E51, Oslashacute, uni0206, onequarter, Ugrave, wacute.sc, lira, uni1EEE, scircumflex.sc, partialdiff, uni1EA5.sc, n, uni0201, uni0201.sc, Uring]
 
 </details>
 <details>
@@ -446,10 +446,10 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 |  | fonts/encodesansexpanded/EncodeSansExpanded-Light.ttf |
 |:--- | ---:|
-| Dehinted Size | 116.8kb |
-| Hinted Size | 154.5kb |
-| Increase | 37.6kb |
-| Change   | 32.2 % |
+| Dehinted Size | 118.6kb |
+| Hinted Size | 155.2kb |
+| Increase | 36.6kb |
+| Change   | 30.9 % |
 
 
 </details>
@@ -489,7 +489,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, GPOS, cvt , DSIG, gasp, fpgm, loca]
+* :information_source: **INFO** This font contains the following optional tables [cvt , GSUB, DSIG, loca, prep, GPOS, fpgm, gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1065,5 +1065,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 6 | 21 | 6 | 100 |
-| 0% | 7% | 4% | 15% | 4% | 70% |
+| 0 | 11 | 6 | 17 | 6 | 103 |
+| 0% | 8% | 4% | 12% | 4% | 72% |
