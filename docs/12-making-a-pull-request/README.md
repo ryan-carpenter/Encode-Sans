@@ -114,4 +114,4 @@
 
 Look into:
 - [x] ~~Ask Marc: Should I add a prep table (maybe with `fix-autohinting` script?) if TTFautohint VF doesn't add it?~~ this is now being added (I think by TTFautohint)
-- [x] ~~FontForge checks (is FF installed correctly?)~~ These aren't working anywhere (issue filed at https://github.com/googlefonts/fontbakery/issues/2261)
+- [x] ~~FontForge checks (is FF installed correctly?)~~ These aren't working anywhere (issue filed at https://github.com/googlefonts/fontbakery/issues/2261)xAvgCharWidth

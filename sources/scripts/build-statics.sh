@@ -47,7 +47,7 @@ fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend bo
 # fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
-# rm -rf $tempGlyphsSource
+rm -rf $tempGlyphsSource
 # rm -rf $oslashDecompGlyphsSource
 
 # # ============================================================================
