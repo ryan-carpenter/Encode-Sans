@@ -1,18 +1,5 @@
 {
-.appVersion = "1200";
-DisplayStrings = (
-"HDX/notdef/slashcomb/slashcomb ø",
-"/acutecomb_dotaccentcomb.case",
-"/caroncomb.case/caroncomb_dotaccentcomb.case",
-"/circumflexcomb_tildecomb.sc/strokeshortcomb.sc/caroncomb.alt.sc/caroncomb.alt.case/caroncomb.alt/circumflexcomb_hookabovecomb/circumflexcomb_gravecomb/circumflexcomb_acutecomb/commaaccentcomb.alt/slashshortcomb.sc \012\012\012/dieresiscomb/dieresiscomb_acutecomb/dieresiscomb_macroncomb/tildecomb/tildecomb_dieresiscomb/macroncomb_dieresiscomb/acutecomb.case/dieresiscomb_acutecomb/dieresiscomb_macroncomb/dotaccentcomb/dotaccentcomb_macroncomb/gravecomb/acutecomb/acutecomb_dotaccentcomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/caroncomb_dotaccentcomb/brevecomb/ringcomb.case/ringcomb.sc/ringcomb/ringcomb_acutecomb/tildecomb/tildecomb_dieresiscomb/acutecomb.case/tildecomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb/macroncomb_dieresiscomb/gravecomb.case/macroncomb_gravecomb/acutecomb.case/macroncomb_acutecomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb/uogonek/aogonek/iogonek/ogonekcomb/brevebelowcomb/macronbelowcomb/commaaccentcomb.alt/dieresiscomb.case \012\012/dieresiscomb/dieresiscomb.case/dieresiscomb_acutecomb.case/dieresiscomb_macroncomb.case/dotaccentcomb.case/dotaccentcomb_macroncomb.case/gravecomb.case/acutecomb.case/acutecomb_dotaccentcomb.case/hungarumlautcomb.case/caroncomb.alt.case/circumflexcomb.case/caroncomb.case/caroncomb_dotaccentcomb.case/brevecomb.case/ringcomb.case \012/ringcomb_acutecomb.case/tildecomb.case/tildecomb_dieresiscomb.case/tildecomb_acutecomb.case/tildecomb_macroncomb.case/macroncomb.case/macroncomb_dieresiscomb.case/macroncomb_gravecomb.case/macroncomb_acutecomb.case/hookabovecomb.case/dblgravecomb.case/breveinvertedcomb.case/commaturnedabovecomb.case/dotbelowcomb.case \012/dieresisbelowcomb.case/commaaccentcomb.case/cedillacomb.case/ogonekcomb.case/brevebelowcomb.case/macronbelowcomb.case/dieresiscomb.case/dieresiscomb.sc/dieresiscomb_acutecomb.case/dieresiscomb_acutecomb.sc/dieresiscomb_macroncomb.case/dieresiscomb.case/macroncomb.case/dieresiscomb_macroncomb.case   \012\012/caroncomb/caroncomb.sc/dieresiscomb_macroncomb.case/dieresiscomb_macroncomb.sc  /ecaron.sc/ecaron iï/imacron I/Imacron Ï/Ecaron \012\012/dotaccentcomb.sc/dotaccentcomb.case  \012 /dotaccentcomb_macroncomb.case/dotaccentcomb_macroncomb.sc/gravecomb.case/gravecomb.sc \012\012\012/ogonekcomb.case/ogonekcomb.sc/acutecomb.sc/acutecomb_dotaccentcomb.case/acutecomb_dotaccentcomb.case/acutecomb_dotaccentcomb.sc/hungarumlautcomb.sc/caroncomb.alt.sc/circumflexcomb.sc/caroncomb.sc/caroncomb_dotaccentcomb.sc/brevecomb.sc/ringcomb.case/ringcomb.sc/tildecomb.sc \012/tildecomb_dieresiscomb.case/tildecomb_dieresiscomb.sc/tildecomb_acutecomb.sc/tildecomb_macroncomb.sc/slashshortcomb.sc/lslash.sc \012/macroncomb.sc/macroncomb_dieresiscomb.case/macroncomb_dieresiscomb.sc/macroncomb_gravecomb.sc/macroncomb_acutecomb.sc/hookabovecomb.sc/dblgravecomb.sc/breveinvertedcomb.sc/commaturnedabovecomb.sc/dotbelowcomb.sc/dieresisbelowcomb.sc/commaaccentcomb.sc/cedillacomb.sc/ogonekcomb.case \012/ogonekcomb.case/ogonekcomb.sc/brevebelowcomb.sc/macronbelowcomb.sc \012/strokeshortcomb.h/strokeshortcomb.sc/ringcomb_acutecomb.case.sc/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb \012/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/brevecomb_acutecomb.case/macroncomb_gravecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case \012\012/tildecomb.case/brevecomb_tildecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/brevecomb_acutecomb.sc/brevecomb_gravecomb.sc/brevecomb_hookabovecomb.case/brevecomb_hookabovecomb.sc/brevecomb_tildecomb.sc/circumflexcomb_acutecomb.sc/circumflexcomb_gravecomb.sc/circumflexcomb_hookabovecomb.sc/circumflexcomb_tildecomb.sc",
-"/approxequal",
-"ønn",
-"/ohornacute",
-"/odieresismacron",
-"/idotless",
-"Å/Aringacute",
-"-/periodcentered.loclCAT.case"
-);
+.appVersion = "1203";
 classes = (
 {
 automatic = 1;
@@ -7112,7 +7099,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1083, 0}";
 }
 );
@@ -7143,7 +7130,7 @@ width = 2066;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1272, 0}";
 }
 );
@@ -7174,7 +7161,7 @@ width = 2404;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1444, 0}";
 }
 );
@@ -7205,7 +7192,7 @@ width = 2728;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1732, 0}";
 }
 );
@@ -7244,7 +7231,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1083, 0}";
 }
 );
@@ -7279,7 +7266,7 @@ width = 2066;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1272, 0}";
 }
 );
@@ -7314,7 +7301,7 @@ width = 2404;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1444, 0}";
 }
 );
@@ -7345,7 +7332,7 @@ width = 2728;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1732, 0}";
 }
 );
@@ -15594,7 +15581,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{963, 0}";
 }
 );
@@ -15625,7 +15612,7 @@ width = 1286;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1070, 0}";
 }
 );
@@ -15656,7 +15643,7 @@ width = 1604;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1232, 0}";
 }
 );
@@ -15687,7 +15674,7 @@ width = 1664;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1399, 0}";
 }
 );
@@ -16244,7 +16231,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{963, 0}";
 }
 );
@@ -16275,7 +16262,7 @@ width = 1246;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1070, 0}";
 }
 );
@@ -16306,7 +16293,7 @@ width = 1580;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1232, 0}";
 }
 );
@@ -16337,7 +16324,7 @@ width = 1624;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1399, 0}";
 }
 );
@@ -17189,7 +17176,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1242, 0}";
 }
 );
@@ -17220,7 +17207,7 @@ width = 1644;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1354, 0}";
 }
 );
@@ -17251,7 +17238,7 @@ width = 1948;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1593, 0}";
 }
 );
@@ -17282,7 +17269,7 @@ width = 2106;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1770, 0}";
 }
 );
@@ -18089,7 +18076,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1242, 0}";
 }
 );
@@ -18120,7 +18107,7 @@ width = 1604;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1354, 0}";
 }
 );
@@ -18151,7 +18138,7 @@ width = 1924;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1593, 0}";
 }
 );
@@ -18182,7 +18169,7 @@ width = 2066;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1770, 0}";
 }
 );
@@ -39290,7 +39277,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{396, 0}";
 }
 );
@@ -39337,7 +39324,7 @@ width = 792;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{568, 0}";
 }
 );
@@ -39384,7 +39371,7 @@ width = 1136;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{500, 0}";
 }
 );
@@ -39431,7 +39418,7 @@ width = 1000;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{736, 0}";
 }
 );
@@ -46619,7 +46606,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{868, 0}";
 }
 );
@@ -46650,7 +46637,7 @@ width = 1656;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1089, 0}";
 }
 );
@@ -46681,7 +46668,7 @@ width = 1980;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1168, 0}";
 }
 );
@@ -46712,7 +46699,7 @@ width = 2216;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1477, 0}";
 }
 );
@@ -46751,7 +46738,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{868, 0}";
 }
 );
@@ -46786,7 +46773,7 @@ width = 1656;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1089, 0}";
 }
 );
@@ -46817,7 +46804,7 @@ width = 1980;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1168, 0}";
 }
 );
@@ -46848,7 +46835,7 @@ width = 2216;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1477, 0}";
 }
 );
@@ -56591,7 +56578,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{356, 0}";
 }
 );
@@ -56622,7 +56609,7 @@ width = 712;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{543, 0}";
 }
 );
@@ -56653,7 +56640,7 @@ width = 1086;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{460, 0}";
 }
 );
@@ -56684,7 +56671,7 @@ width = 920;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{696, 0}";
 }
 );
@@ -77287,7 +77274,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{356, 0}";
 }
 );
@@ -77334,7 +77321,7 @@ width = 712;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{544, 0}";
 }
 );
@@ -77381,7 +77368,7 @@ width = 1088;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{460, 0}";
 }
 );
@@ -77428,7 +77415,7 @@ width = 920;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{696, 0}";
 }
 );
@@ -78279,7 +78266,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{583, 0}";
 }
 );
@@ -78310,7 +78297,7 @@ width = 918;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{759, 0}";
 }
 );
@@ -78341,7 +78328,7 @@ width = 1284;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{790, 0}";
 }
 );
@@ -78372,7 +78359,7 @@ width = 1232;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{969, 0}";
 }
 );
@@ -78410,7 +78397,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{583, 0}";
 }
 );
@@ -78441,7 +78428,7 @@ width = 918;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{759, 0}";
 }
 );
@@ -78472,7 +78459,7 @@ width = 1284;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{790, 0}";
 }
 );
@@ -78503,7 +78490,7 @@ width = 1232;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{969, 0}";
 }
 );
@@ -78541,7 +78528,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{583, 0}";
 }
 );
@@ -78572,7 +78559,7 @@ width = 918;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{759, 0}";
 }
 );
@@ -78603,7 +78590,7 @@ width = 1282;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{790, 0}";
 }
 );
@@ -78634,7 +78621,7 @@ width = 1232;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{969, 0}";
 }
 );
@@ -78672,7 +78659,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{583, 0}";
 }
 );
@@ -78703,7 +78690,7 @@ width = 918;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{759, 0}";
 }
 );
@@ -78734,7 +78721,7 @@ width = 1284;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{790, 0}";
 }
 );
@@ -78765,7 +78752,7 @@ width = 1232;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{969, 0}";
 }
 );
@@ -78804,7 +78791,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{583, 0}";
 }
 );
@@ -78835,7 +78822,7 @@ width = 918;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{759, 0}";
 }
 );
@@ -78866,7 +78853,7 @@ width = 1282;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{790, 0}";
 }
 );
@@ -78897,7 +78884,7 @@ width = 1232;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{969, 0}";
 }
 );
@@ -78936,7 +78923,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{396, 0}";
 }
 );
@@ -78967,7 +78954,7 @@ width = 792;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{548, 0}";
 }
 );
@@ -78998,7 +78985,7 @@ width = 1136;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{500, 0}";
 }
 );
@@ -79029,7 +79016,7 @@ width = 1000;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{736, 0}";
 }
 );
@@ -79067,7 +79054,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{356, 0}";
 }
 );
@@ -79098,7 +79085,7 @@ width = 712;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{544, 0}";
 }
 );
@@ -79129,7 +79116,7 @@ width = 1088;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{460, 0}";
 }
 );
@@ -79160,7 +79147,7 @@ width = 920;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{696, 0}";
 }
 );
@@ -83942,7 +83929,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{918, 0}";
 }
 );
@@ -83962,7 +83949,7 @@ width = 1836;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1151, 0}";
 }
 );
@@ -83982,7 +83969,7 @@ width = 2170;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1266, 0}";
 }
 );
@@ -84002,7 +83989,7 @@ width = 2392;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1572, 0}";
 }
 );
@@ -84029,7 +84016,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{918, 0}";
 }
 );
@@ -84049,7 +84036,7 @@ width = 1836;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1151, 0}";
 }
 );
@@ -84069,7 +84056,7 @@ width = 2170;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1266, 0}";
 }
 );
@@ -84089,7 +84076,7 @@ width = 2392;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1572, 0}";
 }
 );
@@ -88397,7 +88384,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{400, 0}";
 }
 );
@@ -88425,7 +88412,7 @@ width = 800;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{570, 0}";
 }
 );
@@ -88453,7 +88440,7 @@ width = 1140;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{494, 0}";
 }
 );
@@ -88481,7 +88468,7 @@ width = 1008;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{736, 0}";
 }
 );
@@ -91011,7 +90998,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{400, 0}";
 }
 );
@@ -91031,7 +91018,7 @@ width = 800;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{570, 0}";
 }
 );
@@ -91051,7 +91038,7 @@ width = 1140;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{494, 0}";
 }
 );
@@ -91071,7 +91058,7 @@ width = 1008;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{736, 0}";
 }
 );
@@ -92548,7 +92535,7 @@ layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1103, 0}";
 }
 );
@@ -92568,7 +92555,7 @@ width = 1526;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1243, 0}";
 }
 );
@@ -92588,7 +92575,7 @@ width = 1826;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1366, 0}";
 }
 );
@@ -92608,7 +92595,7 @@ width = 1952;
 {
 anchors = (
 {
-name = caret_1;
+name = lig_carrot_temp_off_1;
 position = "{1599, 0}";
 }
 );
@@ -229992,7 +229979,7 @@ instanceInterpolations = {
 };
 name = Thin;
 weightClass = Thin;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230011,7 +229998,7 @@ instanceInterpolations = {
 };
 name = ExtraLight;
 weightClass = ExtraLight;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230030,7 +230017,7 @@ instanceInterpolations = {
 };
 name = Light;
 weightClass = Light;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230048,7 +230035,7 @@ instanceInterpolations = {
 "ECFF4977-BDCC-4836-B4AC-1801CF0EB460" = 0.11381;
 };
 name = Regular;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230067,7 +230054,7 @@ instanceInterpolations = {
 };
 name = Medium;
 weightClass = Medium;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230086,7 +230073,7 @@ instanceInterpolations = {
 };
 name = SemiBold;
 weightClass = SemiBold;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230106,7 +230093,7 @@ instanceInterpolations = {
 isBold = 1;
 name = Bold;
 weightClass = Bold;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230124,7 +230111,7 @@ instanceInterpolations = {
 };
 name = ExtraBold;
 weightClass = ExtraBold;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
@@ -230142,7 +230129,7 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
-widthClass = "SemiExpanded";
+widthClass = SemiExpanded;
 },
 {
 customParameters = (
