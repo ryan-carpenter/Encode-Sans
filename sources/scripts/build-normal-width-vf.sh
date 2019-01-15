@@ -2,11 +2,31 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
+while [ ! $# -eq 0 ]
+    do
+    case "$1" in
+        --normal | -n)
+            glyphsSource="sources/split/Encode-Sans-normal_width.glyphs"
+        ;;
+        --condensed | -c)
+            python split-sources.py
+        ;;
+        *) 
+            echo "Error: please supply an argument of --condensed (-c) or --normal (-c)"
+    esac
+    shift
+done
+
+# if varfont folder exists, clean it up
+if [ -d "variable_ttf" ]; then
+  rm -rf variable_ttf
+fi
+
 
 ############################################
 ################# set vars #################
 
-glyphsSource="sources/split/Encode-Sans-normal_width.glyphs"
+
 finalLocation="fonts/encodesans"
 scFinalLocation="fonts/encodesans_sc"
 
@@ -77,7 +97,7 @@ subsetSmallCaps()
     echo "subsetting smallcap font"
 
     # subsetting with subsetGlyphNames list
-    pyftsubset $SC_NAME ${subsetGlyphNames}
+    pyftsubset $SC_NAME ${subsetGlyphNames} --glyph-names
 
     # remove feature-frozen font & simplifying name of subset font
 

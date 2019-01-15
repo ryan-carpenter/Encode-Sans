@@ -14,127 +14,155 @@
 
     ln -s THIS/PATH/sources/scripts/helpers/split-encode-vf-glyphs_script.py GLYPHS/SCRIPTS/PATH/prep-designspace-glyphs_script.py
 """
+sourceFont = Glyphs.font
 
-font = Glyphs.font
-
-normalWidthValue = 500
+sourcePath = sourceFont.filepath
 
 widthAxisIndex = 1
 
+widthsDict = {}
 
-# ============================================================================
-# delete non-normal width instances ==========================================
+for instance in sourceFont.instances:
+    width = int(instance.axes[widthAxisIndex])
+    if width not in widthsDict:
+        # make a key for the width, and add the name of that width
+        try:
+            widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","").lower()
+        except AttributeError:
+            widthsDict[width] = "normal"
+        # else: 
+        #     widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","")
 
-instancesToRemove = []
+# make set of widthsList
 
-for index, instance in enumerate(font.instances):
-    if instance.axes[widthAxisIndex] != normalWidthValue:
-        instancesToRemove.append(index)
+for key in widthsDict:
+    print(key)
+    print(widthsDict[key])
+    splitGlyphsSource(key, widthsDict[key])
 
-instancesToRemove = sorted(instancesToRemove)
+def splitGlyphsSource(widthValue, widthName):
 
-for instanceIndex in instancesToRemove[::-1]:
-    print(instanceIndex)
-    del font.instances[instanceIndex]
+    Glyphs.open(sourcePath)
+    font = Glyphs.font
 
+    # ============================================================================
+    # delete non-normal width instances ==========================================
 
+    instancesToRemove = []
 
-# ============================================================================
-# make masters from instance designspace corners =============================
+    for index, instance in enumerate(font.instances):
+        if instance.axes[widthAxisIndex] != widthValue:
+            instancesToRemove.append(index)
 
-print("Making masters from normal-width corner instances:")
+    instancesToRemove = sorted(instancesToRemove)
 
-def copyFromInterpolatedFont(instanceIndex):
-    instanceFont = font.instances[instanceIndex].interpolatedFont
-
-    instanceFontMasterID = instanceFont.masters[0].id
-
-    font.masters.append(instanceFont.masters[0])
-    newMasterID = instanceFontMasterID # these are the same; copying for clarity below
-
-    print("\n=================================")
-    print("Instance Weight: " + str(font.instances[instanceIndex].weightValue))
-
-    # copy glyphs from instance font to new master
-    for index,glyph in enumerate(font.glyphs): # (you can use font.glyphs()[:10] to do the first 10 glyphs only while making/testing script)
-        instanceGlyph = instanceFont.glyphs[index] # make variable for glyph of interpolated font
-        glyph.layers[instanceFontMasterID] = instanceGlyph.layers[instanceFontMasterID]
-
-    # bring kerning in from interpolated font # not yet working
-    font.kerning[instanceFontMasterID] = instanceFont.kerning[instanceFontMasterID]
-
-copyFromInterpolatedFont(0)
-copyFromInterpolatedFont(-1)
-
-# ============================================================================
-# remove old masters and update axis values ==================================
-
-# deletes masters that aren't the normal width – would need more flexibility to be abstracted to other fonts
-
-mastersToDelete = []
-
-for index, master in enumerate(font.masters):
-    print(master.axes[widthAxisIndex])
-    # round this axis value, because it might interpolate to be very slightly different
-    if round(master.axes[widthAxisIndex]) != normalWidthValue:
-        mastersToDelete.append(index)
-
-print(mastersToDelete)
-
-for masterIndex in mastersToDelete[::-1]:
-    print(font.masters[masterIndex])
-    font.removeFontMasterAtIndex_(masterIndex)
+    for instanceIndex in instancesToRemove[::-1]:
+        print(instanceIndex)
+        del font.instances[instanceIndex]
 
 
-# # ============================================================================
-# # set varfont axes ===========================================================
 
+    # ============================================================================
+    # make masters from instance designspace corners =============================
 
-fontAxes = [
-	{"Name": "Weight", "Tag": "wght"}
-]
-Font.customParameters["Axes"] = fontAxes
+    print("Making masters from normal-width corner instances:")
 
-# ============================================================================
-# round all coordinates ======================================================
+    def copyFromInterpolatedFont(instanceIndex):
+        instanceFont = font.instances[instanceIndex].interpolatedFont
 
-for glyph in font.glyphs:
-    for layer in glyph.layers:
-        for path in layer.paths:
-            for node in path.nodes:
-                node.position.x = round(node.position.x)
-                node.position.y = round(node.position.y)
-        for anchor in layer.anchors:
-            anchor.x = round(anchor.x)
-            anchor.y = round(anchor.y)
+        instanceFontMasterID = instanceFont.masters[0].id
+
+        font.masters.append(instanceFont.masters[0])
+        newMasterID = instanceFontMasterID # these are the same; copying for clarity below
+
+        print("\n=================================")
+        print("Instance Weight: " + str(font.instances[instanceIndex].weightValue))
+
+        # copy glyphs from instance font to new master
+        for index,glyph in enumerate(font.glyphs): # (you can use font.glyphs()[:10] to do the first 10 glyphs only while making/testing script)
+            instanceGlyph = instanceFont.glyphs[index] # make variable for glyph of interpolated font
+            glyph.layers[instanceFontMasterID] = instanceGlyph.layers[instanceFontMasterID]
+
+        # bring kerning in from interpolated font # not yet working
+        font.kerning[instanceFontMasterID] = instanceFont.kerning[instanceFontMasterID]
+
+    copyFromInterpolatedFont(0)
+    copyFromInterpolatedFont(-1)
+
+    # ============================================================================
+    # remove old masters and update axis values ==================================
+
+    # deletes masters that aren't the normal width – would need more flexibility to be abstracted to other fonts
+
+    mastersToDelete = []
+
+    for index, master in enumerate(font.masters):
+        print(master.axes[widthAxisIndex])
+        # round this axis value, because it might interpolate to be very slightly different
+        if round(master.axes[widthAxisIndex]) != widthValue:
+            mastersToDelete.append(index)
     
+    # simple way to check if the incoming masters are (empty) duplicates -- only makes sense in Encode Sans or similar 4-master fonts
+    if len(mastersToDelete) == 2:
+        mastersToDelete.append(2) # add third master to delete list (it's empty)
+        mastersToDelete.append(3) # add fourth master to delete list (it's empty)
 
-# ============================================================================
-# save as "build" file =======================================================
+    print(mastersToDelete)
+
+    for masterIndex in mastersToDelete[::-1]:
+        print(font.masters[masterIndex])
+        font.removeFontMasterAtIndex_(masterIndex)
 
 
-buildreadyFolder = 'split'
-buildreadySuffix = 'normal_width'
+    # # ============================================================================
+    # # set varfont axes ===========================================================
 
-fontPath = font.filepath
 
-if buildreadyFolder not in fontPath:    
-    fontPathHead = os.path.split(fontPath)[0] # file folder
-    fontPathTail = os.path.split(fontPath)[1] # file name
-    buildreadyPathHead = fontPathHead + "/" + buildreadyFolder + "/"
+    fontAxes = [
+        {"Name": "Weight", "Tag": "wght"}
+    ]
+    Font.customParameters["Axes"] = fontAxes
 
-    if os.path.exists(buildreadyPathHead) == False:
-        os.mkdir(buildreadyPathHead)
+    # ============================================================================
+    # round all coordinates ======================================================
 
-    buildPath = buildreadyPathHead + fontPathTail.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
+    for glyph in font.glyphs:
+        for layer in glyph.layers:
+            for path in layer.paths:
+                for node in path.nodes:
+                    node.position.x = round(node.position.x)
+                    node.position.y = round(node.position.y)
+            for anchor in layer.anchors:
+                anchor.x = round(anchor.x)
+                anchor.y = round(anchor.y)
+        
 
-else:
-    buildPath = fontPath.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
+    # ============================================================================
+    # save as "build" file =======================================================
 
-font.save(buildPath)
 
-# # close original without saving
-font.close()
+    buildreadyFolder = 'split'
+    buildreadySuffix = widthName
 
-Glyphs.open(buildPath)
+    fontPath = font.filepath
+
+    if buildreadyFolder not in fontPath:    
+        fontPathHead = os.path.split(fontPath)[0] # file folder
+        fontPathTail = os.path.split(fontPath)[1] # file name
+        buildreadyPathHead = fontPathHead + "/" + buildreadyFolder + "/"
+
+        if os.path.exists(buildreadyPathHead) == False:
+            os.mkdir(buildreadyPathHead)
+
+        buildPath = buildreadyPathHead + fontPathTail.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
+
+    else:
+        buildPath = fontPath.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
+
+    font.save(buildPath)
+
+    # # close original without saving
+    font.close()
+
+    Glyphs.open(buildPath)
 
