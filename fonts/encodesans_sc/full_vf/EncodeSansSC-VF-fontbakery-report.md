@@ -197,26 +197,6 @@ TRACEBACK:
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
-
-* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: GDEF: bad caret value format: 3
-ERROR: GDEF: Invalid ligature caret list
-ERROR: GDEF: Failed to parse table
-Failed to sanitize file!
-
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Font has correct post table version (2 for TTF, 3 for OTF)?</summary>
-
-* [com.google.fonts/check/015](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Post table should be version 2 instead of 3.0. More info at https://github.com/google/fonts/issues/215
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -556,27 +536,6 @@ Failed to sanitize file!
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Font has **proper** whitespace glyph names?</summary>
-
-* [com.google.fonts/check/048](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Font has version 3 post table.
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Glyph names are all valid?</summary>
-
-* [com.google.fonts/check/058](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** TrueType fonts with a format 3.0 post table contain no glyph names.
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Font contains unique glyph names?</summary>
-
-* [com.google.fonts/check/059](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** TrueType fonts with a format 3.0 post table contain no glyph names.
-
-</details>
-<details>
 <summary>:zzz: <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
 
 * [com.adobe.fonts/check/postscript_name_cff_vs_name](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -633,10 +592,10 @@ Failed to sanitize file!
 
 |  | fonts/encodesans_sc/full_vf/EncodeSansSC-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 213.0kb |
-| Hinted Size | 245.4kb |
+| Dehinted Size | 222.4kb |
+| Hinted Size | 254.8kb |
 | Increase | 32.4kb |
-| Change   | 15.2 % |
+| Change   | 14.6 % |
 
 
 </details>
@@ -676,7 +635,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [GPOS, fpgm, prep, gasp, DSIG, GSUB, cvt , loca]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, DSIG, prep, loca, gasp, cvt , GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -870,10 +829,24 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Checking with ots-sanitize.</summary>
+
+* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** ots-sanitize passed this file
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Font contains glyphs for whitespace characters?</summary>
 
 * [com.google.fonts/check/047](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Font contains glyphs for whitespace characters.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font has **proper** whitespace glyph names?</summary>
+
+* [com.google.fonts/check/048](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font has **proper** whitespace glyph names.
 
 </details>
 <details>
@@ -888,6 +861,20 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/053](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** There are no unwanted tables.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Glyph names are all valid?</summary>
+
+* [com.google.fonts/check/058](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Glyph names are all valid.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font contains unique glyph names?</summary>
+
+* [com.google.fonts/check/059](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font contains unique glyph names.
 
 </details>
 <details>
@@ -923,6 +910,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** All font version fields match.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Font has correct post table version (2 for TTF, 3 for OTF)?</summary>
+
+* [com.google.fonts/check/015](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** Font has post table version 2.
 
 </details>
 <details>
@@ -1051,5 +1045,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 4 | 68 | 6 | 60 |
-| 0% | 3% | 3% | 48% | 4% | 42% |
+| 0 | 3 | 4 | 65 | 6 | 65 |
+| 0% | 2% | 3% | 45% | 4% | 45% |

@@ -197,19 +197,6 @@ TRACEBACK:
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
-
-* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** ots-sanitize returned an error code (1). Output follows:
-
-ERROR: GDEF: bad caret value format: 3
-ERROR: GDEF: Invalid ligature caret list
-ERROR: GDEF: Failed to parse table
-Failed to sanitize file!
-
-
-</details>
-<details>
 <summary>:warning: <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
 
 * [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -227,6 +214,13 @@ Failed to sanitize file!
 	- j + l
 
    [code: lacks-kern-info]
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :warning: **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 
 </details>
 <details>
@@ -574,8 +568,8 @@ Failed to sanitize file!
 
 |  | fonts/encodesans/full_vf/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 285.6kb |
-| Hinted Size | 321.8kb |
+| Dehinted Size | 285.3kb |
+| Hinted Size | 321.5kb |
 | Increase | 36.2kb |
 | Change   | 12.7 % |
 
@@ -617,7 +611,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, loca, gasp, DSIG, fpgm, cvt , GPOS]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, prep, fpgm, GSUB, loca, cvt , gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -811,6 +805,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Checking with ots-sanitize.</summary>
+
+* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** ots-sanitize passed this file
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Font contains .notdef as first glyph?</summary>
 
 * [com.google.fonts/check/046](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -986,13 +987,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Looks good!
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Is there a "kern" table declared in the font?</summary>
 
 * [com.google.fonts/check/066](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1055,5 +1049,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 2 | 63 | 6 | 69 |
-| 0% | 2% | 1% | 44% | 4% | 48% |
+| 0 | 2 | 3 | 63 | 6 | 69 |
+| 0% | 1% | 2% | 44% | 4% | 48% |

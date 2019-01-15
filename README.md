@@ -67,8 +67,7 @@ This project has a "primary" source file which has received design updates, refi
 
 Due to [current limitations in remote scripting for GlyphsApp](https://forum.glyphsapp.com/t/instance-as-master-through-core-api/10502/12), the additional GlyphsApp source must be generated using a Python script in GlyphsApp, rather than something triggered in the build process itself. So, if you wish for edits to the design to cascade into the final outputs, you must use a partially-manual build process, wherein a few processing steps are done to make "build-ready" sources. These steps are as follows:
 
-1. Add `sources/scripts/helpers/sources/scripts/split-encode-vf-glyphs_script.py` to your Glyphs Scripts folder as a symlink with `ln -s YOUR_PATH/sources/scripts/helpers/sources/scripts/split-encode-vf-glyphs_script.py GLYPHS_SCRIPTS_PATH/sources/scripts/split-encode-vf-glyphs_script.py`
-   1. (You can also navigate to the glyphs scripting folder in your terminal, then use simply `ln -s YOUR_PATH/sources/scripts/helpers/sources/scripts/split-encode-vf-glyphs_script.py`).
+1. Open your Glyphs Scripts folder in a terminal window and add this repo's source-splitting script as a symlink with `ln -s YOUR_PATH/sources/scripts/helpers/split-encode-vf-glyphs_script.py`
 
 2. Open the main source (`sources/Encode-Sans.glyphs`) in Glyphs. Run the _"Split Normal-width Masters, Encode Sans"_ script.
 

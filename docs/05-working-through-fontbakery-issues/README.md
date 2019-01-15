@@ -64,6 +64,8 @@ I am simply using the built in GlyphsApp recommendation for inserting caret posi
 
 I have filed this issue at https://github.com/khaledhosny/ots/issues/178 with a few more details.
 
+UPDATE: OTS needs to fix this issue, but it will be awhile. For now, I'll ~~remove~~ rename ligature carets to `lig_carrot_off` so they don't export as carets, but don't lose their positioning. This will allow the fonts to pass the OTS test. 
+
 ## Family Naming
 
 > ⚠️ WARN: Combined length of family and style must not exceed 20 characters.
