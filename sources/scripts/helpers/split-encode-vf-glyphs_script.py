@@ -27,7 +27,7 @@ for instance in sourceFont.instances:
     if width not in widthsDict:
         # make a key for the width, and add the name of that width
         try:
-            widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","").lower()
+            widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","")
         except AttributeError:
             widthsDict[width] = "normal"
         # else: 
@@ -35,10 +35,7 @@ for instance in sourceFont.instances:
 
 # make set of widthsList
 
-for key in widthsDict:
-    print(key)
-    print(widthsDict[key])
-    splitGlyphsSource(key, widthsDict[key])
+
 
 def splitGlyphsSource(widthValue, widthName):
 
@@ -121,7 +118,13 @@ def splitGlyphsSource(widthValue, widthName):
     fontAxes = [
         {"Name": "Weight", "Tag": "wght"}
     ]
-    Font.customParameters["Axes"] = fontAxes
+    font.customParameters["Axes"] = fontAxes
+
+    for master in font.masters:
+        print("master.axes are " + str(master.axes))
+
+    # for instance in font.instances:
+    #     print("instance.axes are " + str(instance.axes))
 
     # ============================================================================
     # round all coordinates ======================================================
@@ -142,7 +145,7 @@ def splitGlyphsSource(widthValue, widthName):
 
 
     buildreadyFolder = 'split'
-    buildreadySuffix = widthName
+    buildreadySuffix = widthName.lower()
 
     fontPath = font.filepath
 
@@ -159,6 +162,9 @@ def splitGlyphsSource(widthValue, widthName):
     else:
         buildPath = fontPath.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
 
+    print(font.familyName + " " + widthName)
+    font.familyName = font.familyName + " " + widthName
+
     font.save(buildPath)
 
     # # close original without saving
@@ -166,3 +172,8 @@ def splitGlyphsSource(widthValue, widthName):
 
     Glyphs.open(buildPath)
 
+# call splitter
+for key in widthsDict:
+    print(key)
+    print(widthsDict[key])
+    splitGlyphsSource(key, widthsDict[key])
