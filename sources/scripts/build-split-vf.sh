@@ -2,17 +2,39 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
+# print each line as it executes, and stop on the first error
+set -x -e 
+
 while [ ! $# -eq 0 ]
     do
     case "$1" in
-        --normal | -n)
-            glyphsSource="sources/split/Encode-Sans-normal_width.glyphs"
-        ;;
         --condensed | -c)
-            python split-sources.py
+            glyphsSource="sources/split/Encode-Sans-condensed.glyphs"
+            finalLocation="fonts/encodesanscondensed"
+            scFinalLocation="fonts/encodesanscondensed_sc"
+        ;;
+        --semicondensed | -sc)
+            glyphsSource="sources/split/Encode-Sans-semicondensed.glyphs"
+            finalLocation="fonts/encodesanssemicondensed"
+            scFinalLocation="fonts/encodesanssemicondensed_sc"
+        ;;
+        --normal | -n)
+            glyphsSource="sources/split/Encode-Sans-normal.glyphs"
+            finalLocation="fonts/encodesans"
+            scFinalLocation="fonts/encodesans_sc"
+        ;;
+        --semiexpanded | -se)
+            glyphsSource="sources/split/Encode-Sans-semiexpanded.glyphs"
+            finalLocation="fonts/encodesanssemiexpanded"
+            scFinalLocation="fonts/encodesanssemiexpanded_sc"
+        ;;
+        --expanded | -e)
+            glyphsSource="sources/split/Encode-Sans-expanded.glyphs"
+            finalLocation="fonts/encodesansexpanded"
+            scFinalLocation="fonts/encodesansexpanded_sc"
         ;;
         *) 
-            echo "Error: please supply an argument of --condensed (-c) or --normal (-c)"
+            echo "Error: please supply an argument of --condensed (-c), --semicondensed (-sc), --normal (-c), --semiexpanded (-se), or --expanded (-e)"
     esac
     shift
 done
@@ -22,60 +44,26 @@ if [ -d "variable_ttf" ]; then
   rm -rf variable_ttf
 fi
 
-
-############################################
-################# set vars #################
-
-
-finalLocation="fonts/encodesans"
-scFinalLocation="fonts/encodesans_sc"
-
-## move VF into new folder of dist/ with timestamp and fontbake
-timestampAndFontbakeInDist=false
-
-## keep designspace file if you want to check values later
-keepDesignspace=false
-
-################# set vars #################
-############################################
-
 # ============================================================================
 # Set up names ===============================================================
-
-## make temp glyphs filename with "-build" suffix
-tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
 
 # get font name from glyphs source
 VFname=`python sources/scripts/helpers/get-font-name.py ${glyphsSource}`
 # checking that the name has been pulled out of the source file
 echo "VF Name: ${VFname}"
 
-## copy Glyphs file into temp file
-cp $glyphsSource $tempGlyphsSource
-
 # ============================================================================
 # Generate Variable Font =====================================================
 
 # ## call fontmake to make a varfont
-fontmake -o variable -g $tempGlyphsSource
-
-if [ $keepDesignspace == true ]
-then
-    echo "designspace in master_ufo folder"
-else
-    rm -rf master_ufo
-fi
-
-## clean up temp glyphs file
-rm -rf $tempGlyphsSource
-
+fontmake -o variable -g $glyphsSource
 
 # ============================================================================
 # SmallCap subsetting ========================================================
 
 # smallCapFontName, e..g 'SignikaSC-VF'
-smallCapFontName=${VFname/"-VF"/"SC-VF"}
-ttfPath="variable_ttf/${VFname}.ttf"
+# smallCapFontName=${VFname/"-VF"/"SC-VF"}
+# ttfPath="variable_ttf/${VFname}.ttf"
 
 subsetSmallCaps()
 {
@@ -111,8 +99,13 @@ subsetSmallCaps()
     rm -rf $ttxPath
 }
 
-# subsetSmallCaps variable_ttf/${VFname}.ttf variable_ttf/${smallCapFontName}.ttf
-subsetSmallCaps $ttfPath variable_ttf/${smallCapFontName}.ttf
+
+for file in variable_ttf/*; do
+    # subsetSmallCaps $ttfPath variable_ttf/${smallCapFontName}.ttf
+    smallCapFontName=${file/"-VF"/"SC-VF"}
+    subsetSmallCaps $file ${smallCapFontName}
+done
+
 
 # ============================================================================
 # Autohinting ================================================================
@@ -156,17 +149,16 @@ if [ -f "$file" ]; then
 
     # ## inserts patch files into temporary ttx to fix export errors
     # ## BE SURE to update these patches for the real values in a given typeface
-    if [[ $file != *"SC"* ]]; then
-        cp $ttxPath $patchPath
-        cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
-        rm -rf $patchPath
-    fi
-    if [[ $file == *"SC"* ]]; then
-        cp $ttxPath $patchPath
-        cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
-        rm -rf $patchPath
-
-    fi
+    # if [[ $file != *"SC"* ]]; then
+    #     cp $ttxPath $patchPath
+    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+    #     rm -rf $patchPath
+    # fi
+    # if [[ $file == *"SC"* ]]; then
+    #     cp $ttxPath $patchPath
+    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+    #     rm -rf $patchPath
+    # fi
     # same for either
     cp $ttxPath $patchPath
     cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/patches/STATpatch-normal_width_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
@@ -187,25 +179,17 @@ for file in variable_ttf/*; do
     if [ -f "$file" ]; then 
         open $file
 
-        if [ $timestampAndFontbakeInDist == true ]; then
-            newFontLocation=`python sources/scripts/helpers/distdate.py ${file}`
+        fileName=$(basename $file)
 
-            fontbakery check-googlefonts ${newFontLocation}/${VFname}.ttf --ghmarkdown ${newFontLocation}/${VFname}-fontbakery-report.md
-
-            echo "new VF location is " ${newFontLocation}
-        else
-            fileName=$(basename $file)
-
-            if [[ $file != *"SC"* ]]; then
-                cp $file $finalLocation/$fileName
-                echo "new VF location is " $finalLocation/$fileName
-                fontbakery check-googlefonts $finalLocation/$fileName --ghmarkdown $finalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
-            fi
-            if [[ $file == *"SC"* ]]; then
-                cp $file $scFinalLocation/$fileName
-                echo "new VF location is " $scFinalLocation/$fileName
-                fontbakery check-googlefonts $scFinalLocation/$fileName --ghmarkdown $scFinalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
-            fi
+        if [[ $file != *"SC"* ]]; then
+            cp $file $finalLocation/$fileName
+            echo "new VF location is " $finalLocation/$fileName
+            fontbakery check-googlefonts $finalLocation/$fileName --ghmarkdown $finalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
+        fi
+        if [[ $file == *"SC"* ]]; then
+            cp $file $scFinalLocation/$fileName
+            echo "new VF location is " $scFinalLocation/$fileName
+            fontbakery check-googlefonts $scFinalLocation/$fileName --ghmarkdown $scFinalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
         fi
     fi
 done
