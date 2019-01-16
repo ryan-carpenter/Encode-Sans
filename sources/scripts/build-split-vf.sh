@@ -127,61 +127,21 @@ if [ -f "$file" ]; then
 
     ## sets up temp ttx file to insert correct values into tables # also drops MVAR table to fix vertical metrics issue
     ttx -x "MVAR" $file 
-
     rm -rf $file
 
-    ttxPath=${file/".ttf"/".ttx"}
-    # patchPath=${file/".ttf"/"-patch.ttx"}
-
-    # case $file in
-    #     *"-Condensed"*)
-    #         widthName=condensed
-    #     ;;
-    #     *"-SemiCondensed"*)
-    #         widthName=semicondensed
-    #     ;;
-    #     *"-Sans-VF"*)
-    #         widthName=normal
-    #     ;;
-    #     *"-SemiExpanded"*)
-    #         widthName=semiexpanded
-    #     ;;
-    #     *"-Expanded"*)
-    #         widthName=expanded
-    #     ;;
-    # esac
-
-    # # ## inserts patch files into temporary ttx to fix export errors
-    # # ## BE SURE to update these patches for the real values in a given typeface
-    # if [[ $file != *"SC"* ]]; then
-    #     cp $ttxPath $patchPath
-    #     # cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
-    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-"'${widthName}'"_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
-    #     rm -rf $patchPath
-    # fi
-    # if [[ $file == *"SC"* ]]; then
-    #     cp $ttxPath $patchPath
-    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-"'${widthName}'"_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
-    #     rm -rf $patchPath
-    # fi
-    # # same for any width
-    # cp $ttxPath $patchPath
-    # cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/patches/STATpatch-split_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
-    # rm -rf $patchPath
-
     ## copies temp ttx file back into a new ttf file
+    ttxPath=${file/".ttf"/".ttx"}
     ttx $ttxPath
-
     rm -rf $ttxPath
 
-#   Marc's solution to fix VF metadata
-    gftools fix-vf-meta $file
+    ## Marc's solution to fix VF metadata
+    # gftools fix-vf-meta $file
 fi
 done
 
 ## Marc's solution to fix VF metadata
-# vfs=$(ls variable_ttf/*-VF.ttf)
-# gftools fix-vf-meta $vfs;
+vfs=$(ls variable_ttf/*-VF.ttf)
+gftools fix-vf-meta $vfs;
 
 # ============================================================================
 # Sort into final folder =====================================================
