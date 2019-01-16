@@ -7,16 +7,28 @@ while [ ! $# -eq 0 ]
         --statics | -s)
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
         ;;
-        --normal | -n)
-            source $(dirname ${BASH_SOURCE[0]})/build-normal-width-vf.sh
+        --split | -sp)
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -c
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -sc
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -n
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -se
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -e
         ;;
         --full | -f)
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
         ;;
         --all | -a)
+            # statics
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
-            source $(dirname ${BASH_SOURCE[0]})/build-normal-width-vf.sh
+            # full VF
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
+            # all split VFs
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -c
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -sc
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -n
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -se
+            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -e
+
         ;;
         *)
             echo "Please use argument -statics, --normal, or --full, or --all to build some or all of the font files"

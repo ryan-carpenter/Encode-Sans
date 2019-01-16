@@ -33,8 +33,10 @@ while [ ! $# -eq 0 ]
             finalLocation="fonts/encodesansexpanded"
             scFinalLocation="fonts/encodesansexpanded_sc"
         ;;
-        *) 
-            echo "Error: please supply an argument of --condensed (-c), --semicondensed (-sc), --normal (-c), --semiexpanded (-se), or --expanded (-e)"
+        # *) 
+        #     echo "Error: please supply an argument of --condensed (-c), --semicondensed (-sc), --normal (-c), --semiexpanded (-se), or --expanded (-e)"
+        #     exit 1
+        # ;;
     esac
     shift
 done
@@ -45,14 +47,6 @@ if [ -d "variable_ttf" ]; then
 fi
 
 # ============================================================================
-# Set up names ===============================================================
-
-# get font name from glyphs source
-VFname=`python sources/scripts/helpers/get-font-name.py ${glyphsSource}`
-# checking that the name has been pulled out of the source file
-echo "VF Name: ${VFname}"
-
-# ============================================================================
 # Generate Variable Font =====================================================
 
 # ## call fontmake to make a varfont
@@ -60,10 +54,6 @@ fontmake -o variable -g $glyphsSource
 
 # ============================================================================
 # SmallCap subsetting ========================================================
-
-# smallCapFontName, e..g 'SignikaSC-VF'
-# smallCapFontName=${VFname/"-VF"/"SC-VF"}
-# ttfPath="variable_ttf/${VFname}.ttf"
 
 subsetSmallCaps()
 {
@@ -75,7 +65,6 @@ subsetSmallCaps()
     pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
 
     ttx $FILE
-    # ttxPath="variable_ttf/${VFname}.ttx"
     ttxPath=${FILE/".ttf"/".ttx"}
 
     #get glyph names, minus .smcp glyphs
@@ -119,9 +108,6 @@ if [ -f "$file" ]; then
     # Hint with TTFautohint-VF ... currently janky – it would be better to properly add this dependency
     # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
     # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
-    echo "------------------------------------------------"
-    echo ttfautohint-vf $file $hintedFile  --increase-x-height 9 --stem-width-mode nnn
-    echo "------------------------------------------------"
     ttfautohint-vf -I $file $hintedFile  --increase-x-height 9 --stem-width-mode nnn
 
     cp ${hintedFile} ${file}
@@ -145,31 +131,57 @@ if [ -f "$file" ]; then
     rm -rf $file
 
     ttxPath=${file/".ttf"/".ttx"}
-    patchPath=${file/".ttf"/"-patch.ttx"}
+    # patchPath=${file/".ttf"/"-patch.ttx"}
 
-    # ## inserts patch files into temporary ttx to fix export errors
-    # ## BE SURE to update these patches for the real values in a given typeface
+    # case $file in
+    #     *"-Condensed"*)
+    #         widthName=condensed
+    #     ;;
+    #     *"-SemiCondensed"*)
+    #         widthName=semicondensed
+    #     ;;
+    #     *"-Sans-VF"*)
+    #         widthName=normal
+    #     ;;
+    #     *"-SemiExpanded"*)
+    #         widthName=semiexpanded
+    #     ;;
+    #     *"-Expanded"*)
+    #         widthName=expanded
+    #     ;;
+    # esac
+
+    # # ## inserts patch files into temporary ttx to fix export errors
+    # # ## BE SURE to update these patches for the real values in a given typeface
     # if [[ $file != *"SC"* ]]; then
     #     cp $ttxPath $patchPath
-    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+    #     # cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-"'${widthName}'"_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
     #     rm -rf $patchPath
     # fi
     # if [[ $file == *"SC"* ]]; then
     #     cp $ttxPath $patchPath
-    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-normal_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
+    #     cat $patchPath | tr '\n' '\r' | sed -e "s~<name>.*<\/name>~$(cat sources/scripts/helpers/patches/NAMEpatch-"'${widthName}'"_width_VF_SC.xml | tr '\n' '\r')~" | tr '\r' '\n' > $ttxPath
     #     rm -rf $patchPath
     # fi
-    # same for either
-    cp $ttxPath $patchPath
-    cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/patches/STATpatch-normal_width_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
-    rm -rf $patchPath
+    # # same for any width
+    # cp $ttxPath $patchPath
+    # cat $patchPath | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat sources/scripts/helpers/patches/STATpatch-split_VF.xml | tr '\n' '\r')," | tr '\r' '\n' > $ttxPath
+    # rm -rf $patchPath
 
     ## copies temp ttx file back into a new ttf file
     ttx $ttxPath
 
     rm -rf $ttxPath
+
+#   Marc's solution to fix VF metadata
+    gftools fix-vf-meta $file
 fi
 done
+
+## Marc's solution to fix VF metadata
+# vfs=$(ls variable_ttf/*-VF.ttf)
+# gftools fix-vf-meta $vfs;
 
 # ============================================================================
 # Sort into final folder =====================================================
