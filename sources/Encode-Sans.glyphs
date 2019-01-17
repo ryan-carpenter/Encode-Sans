@@ -1,5 +1,5 @@
 {
-.appVersion = "1203";
+.appVersion = "1204";
 classes = (
 {
 automatic = 1;
@@ -1572,6 +1572,7 @@ alignmentZones = (
 );
 ascender = 1616;
 capHeight = 1480;
+custom = Expanded;
 customParameters = (
 {
 name = typoAscender;
@@ -1644,6 +1645,7 @@ horizontalStems = (
 66,
 66
 );
+iconName = Light_Extended;
 id = "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580";
 verticalStems = (
 68,
@@ -1653,7 +1655,6 @@ verticalStems = (
 );
 weight = Light;
 weightValue = 34;
-width = Extended;
 widthValue = 1000;
 xHeight = 1080;
 },
