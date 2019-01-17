@@ -3,10 +3,18 @@ Usage: on the command line or in a shell script, use:
 
 python get-smallcap-subset-glyphnames.py FONTNAME.ttx
 
-(be sure to use a TTX file)
+This script:
 
+1. parses TTX to get list glyph names
+2. finds all lowercase counterparts to smallcaps glyphs
+3. outputs a list of all glyphnames, minus lowercase counterparts
+
+The output list can then be used in pyftsubset to subset the old lowercase out of the font.
+
+(be sure to use a TTX file)
 """
 
+# set this if different
 smallCapSuffix = "sc"
 
 import sys
@@ -17,27 +25,30 @@ ttxFile = sys.argv[-1]
 tree = ET.parse(ttxFile)
 root = tree.getroot()
 
+# sets up list that pyftsubset will leave in the font
 glyphsInFont = []
 
+# use XMLstarlet to part TTX xml and find all glyph names to add to list
 for hmtx in root.findall('hmtx'):
     for mtx in hmtx.findall('mtx'):
         glyphName = mtx.get('name')
         glyphsInFont.append(glyphName)
 
+# sets up list that pyftsubset will remove
 glyphsToRemove = []
 
 for index, glyphName in enumerate(glyphsInFont):
     if f'.{smallCapSuffix}' in glyphName:
+        # gets root name of any small cap glyph (this is its lowercase counterpart)
         rootName = glyphName.replace(f'.{smallCapSuffix}', '')
 
+        # adds the lowercase name to a list to be removed
         if rootName in glyphsInFont:
             glyphsToRemove.append(rootName)
 
+# removes the former small cap glyphs from the font
 for glyphName in glyphsToRemove[::-1]:
     glyphsInFont.remove(glyphName)
-
-# print(glyphsInFont)
-# print(glyphsToRemove)
 
 # print space-separated list
 for glyphName in set(glyphsInFont):
