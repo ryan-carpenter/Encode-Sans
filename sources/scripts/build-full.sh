@@ -8,7 +8,7 @@
 
 glyphsSource="sources/Encode-Sans.glyphs"
 finalLocation="fonts/encodesans/full_vf"
-scFinalLocation="fonts/encodesans_sc/full_vf"
+scFinalLocation="fonts/encodesanssc/full_vf"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
 fixGlyphsDesignspace=true

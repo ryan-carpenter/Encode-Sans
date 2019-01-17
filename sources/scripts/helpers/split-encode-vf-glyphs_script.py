@@ -190,8 +190,9 @@ def splitGlyphsSource(widthValue, widthName):
     else:
         buildPath = fontPath.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
 
-    print(font.familyName + " " + widthName)
-    font.familyName = font.familyName + " " + widthName
+    if widthName != "normal":
+        print(font.familyName + " " + widthName)
+        font.familyName = font.familyName + " " + widthName
 
     font.save(buildPath)
 
@@ -206,5 +207,9 @@ for key in widthsDict:
     print(widthsDict[key])
     splitGlyphsSource(key, widthsDict[key])
 
-# debugging
+## to produce a specific width only, uncomment one (or more) of these
 # splitGlyphsSource(1000, "Expanded")
+# splitGlyphsSource(750, "SemiExpanded")
+# splitGlyphsSource(500, "normal")
+# splitGlyphsSource(250, "SemiCondensed")
+# splitGlyphsSource(0, "Condensed")

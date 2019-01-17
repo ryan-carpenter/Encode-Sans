@@ -2,8 +2,8 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
-# print each line as it executes, and stops on the first error
-set -x -e 
+# print each line as it executes. Add -e to stop on the first error, for debugging
+set -x
 
 while [ ! $# -eq 0 ]
     do
@@ -11,27 +11,27 @@ while [ ! $# -eq 0 ]
         --condensed | -c)
             glyphsSource="sources/split/Encode-Sans-condensed.glyphs"
             finalLocation="fonts/encodesanscondensed"
-            scFinalLocation="fonts/encodesanscondensed_sc"
+            scFinalLocation="fonts/encodesanscondensedsc"
         ;;
         --semicondensed | -sc)
             glyphsSource="sources/split/Encode-Sans-semicondensed.glyphs"
             finalLocation="fonts/encodesanssemicondensed"
-            scFinalLocation="fonts/encodesanssemicondensed_sc"
+            scFinalLocation="fonts/encodesanssemicondensedsc"
         ;;
         --normal | -n)
             glyphsSource="sources/split/Encode-Sans-normal.glyphs"
             finalLocation="fonts/encodesans"
-            scFinalLocation="fonts/encodesans_sc"
+            scFinalLocation="fonts/encodesanssc"
         ;;
         --semiexpanded | -se)
             glyphsSource="sources/split/Encode-Sans-semiexpanded.glyphs"
             finalLocation="fonts/encodesanssemiexpanded"
-            scFinalLocation="fonts/encodesanssemiexpanded_sc"
+            scFinalLocation="fonts/encodesanssemiexpandedsc"
         ;;
         --expanded | -e)
             glyphsSource="sources/split/Encode-Sans-expanded.glyphs"
             finalLocation="fonts/encodesansexpanded"
-            scFinalLocation="fonts/encodesansexpanded_sc"
+            scFinalLocation="fonts/encodesansexpandedsc"
         ;;
         #####
         # To build all split VFs, run: sources/scripts/build.sh --split
@@ -153,16 +153,16 @@ for file in variable_ttf/*; do
         if [[ $file != *"SC"* ]]; then
             cp $file $finalLocation/$fileName
             echo "new VF location is " $finalLocation/$fileName
-            fontbakery check-googlefonts $finalLocation/$fileName --ghmarkdown $finalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
+            fontbakery check-googlefonts $finalLocation/$fileName --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
         fi
         if [[ $file == *"SC"* ]]; then
             cp $file $scFinalLocation/$fileName
             echo "new VF location is " $scFinalLocation/$fileName
-            fontbakery check-googlefonts $scFinalLocation/$fileName --ghmarkdown $scFinalLocation/${fileName/".ttf"/"-fontbakery-report.md"}
+            fontbakery check-googlefonts $scFinalLocation/$fileName --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
         fi
     fi
 done
 
-# rm -rf variable_ttf #comment out to debug
+rm -rf variable_ttf #comment out to debug
 rm -rf instance_ufo
 rm -rf master_ufo
