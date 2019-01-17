@@ -62,7 +62,7 @@ subsetSmallCaps()
 
     echo making ${smallCapFontName}.ttf
 
-    pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
+    python pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
 
     ttx $FILE
     ttxPath=${FILE/".ttf"/".ttx"}
@@ -135,13 +135,11 @@ if [ -f "$file" ]; then
     rm -rf $ttxPath
 
     ## Marc's solution to fix VF metadata
-    # gftools fix-vf-meta $file
+    gftools fix-vf-meta $file
+    mv "$file.fix" $file
 fi
 done
 
-## Marc's solution to fix VF metadata
-vfs=$(ls variable_ttf/*-VF.ttf)
-gftools fix-vf-meta $vfs;
 
 # ============================================================================
 # Sort into final folder =====================================================
