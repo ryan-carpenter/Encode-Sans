@@ -94,10 +94,25 @@ def splitGlyphsSource(widthValue, widthName):
         if round(master.axes[widthAxisIndex]) != widthValue:
             mastersToDelete.append(index)
     
-    # simple way to check if the incoming masters are (empty) duplicates -- only makes sense in Encode Sans or similar 4-master fonts
-    if len(mastersToDelete) == 2:
-        mastersToDelete.append(2) # add third master to delete list (it's empty)
-        mastersToDelete.append(3) # add fourth master to delete list (it's empty)
+    # if len(mastersToDelete) == 2:
+    #     mastersToDelete.append(2) # add third master to delete list (it's empty)
+    #     mastersToDelete.append(3) # add fourth master to delete list (it's empty)
+
+    # check if the incoming masters are (empty) duplicates, as happens in width extremes
+    mastersToDeleteByID = []
+    for layer in font["a"].layers:
+        print(layer.paths)
+        if len(layer.paths) == 0:
+            print("yo")
+            mastersToDeleteByID.append(layer.layerId)
+    for index, master in enumerate(font.masters):
+        if master.id in mastersToDeleteByID:
+            mastersToDelete.append(index)
+
+    for layer in font["a"].layers:
+        print(layer)
+
+    # TODO: sort logic to work in expanded masters ... 
 
     print(mastersToDelete)
 
@@ -190,3 +205,6 @@ for key in widthsDict:
     print(key)
     print(widthsDict[key])
     splitGlyphsSource(key, widthsDict[key])
+
+# debugging
+# splitGlyphsSource(1000, "Expanded")

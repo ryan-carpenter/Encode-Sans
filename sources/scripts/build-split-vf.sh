@@ -2,7 +2,7 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
-# print each line as it executes, and stop on the first error
+# print each line as it executes, and stops on the first error
 set -x -e 
 
 while [ ! $# -eq 0 ]
@@ -33,6 +33,9 @@ while [ ! $# -eq 0 ]
             finalLocation="fonts/encodesansexpanded"
             scFinalLocation="fonts/encodesansexpanded_sc"
         ;;
+        #####
+        # To build all split VFs, run: sources/scripts/build.sh --split
+        #####
         # *) 
         #     echo "Error: please supply an argument of --condensed (-c), --semicondensed (-sc), --normal (-c), --semiexpanded (-se), or --expanded (-e)"
         #     exit 1
@@ -62,7 +65,7 @@ subsetSmallCaps()
 
     echo making ${smallCapFontName}.ttf
 
-    python pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
+    python ./sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
 
     ttx $FILE
     ttxPath=${FILE/".ttf"/".ttx"}
@@ -91,7 +94,6 @@ for file in variable_ttf/*; do
     smallCapFontName=${file/"-VF"/"SC-VF"}
     subsetSmallCaps $file ${smallCapFontName}
 done
-    
 
 # ============================================================================
 # Autohinting ================================================================
@@ -161,6 +163,6 @@ for file in variable_ttf/*; do
     fi
 done
 
-rm -rf variable_ttf
+# rm -rf variable_ttf #comment out to debug
 rm -rf instance_ufo
 rm -rf master_ufo
