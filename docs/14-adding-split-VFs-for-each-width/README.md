@@ -29,3 +29,5 @@ Finally, the "Expanded" masters weren't being smart enough in their trimming, so
 
 Result: split VFs are now generating well, as far as I can tell.
 
+[Current splitter script, as of Jan 17 ](https://github.com/thundernixon/Encode-Sans/blob/281128d1e74013799e4b08676f5dd8b64fd6595e/sources/scripts/helpers/split-encode-vf-glyphs_script.py)
+
