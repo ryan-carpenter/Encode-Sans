@@ -8,7 +8,7 @@ Fontbakery version: 0.6.6
 <summary>:fire: <b>FAIL:</b> Check METADATA.pb parse correctly. </summary>
 
 * [com.google.fonts/check/metadata/parses](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/parses)
-* :fire: **FAIL** Family metadata at fonts/encodesans_sc/full_vf failed to parse.
+* :fire: **FAIL** Family metadata at fonts/encodesanssc/full_vf failed to parse.
 TRACEBACK:
 11:3 : Message type "google.fonts.FontProto" has no field named "width".
 
@@ -589,7 +589,7 @@ TRACEBACK:
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/054)
 * :information_source: **INFO** Hinting filesize impact:
 
-|  | fonts/encodesans_sc/full_vf/EncodeSansSC-VF.ttf |
+|  | fonts/encodesanssc/full_vf/EncodeSansSC-VF.ttf |
 |:--- | ---:|
 | Dehinted Size | 222.4kb |
 | Hinted Size | 254.8kb |
@@ -634,7 +634,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [gasp, cvt , DSIG, loca, prep, GSUB, fpgm, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, prep, loca, cvt , gasp, DSIG, fpgm, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -642,7 +642,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
-* :bread: **PASS** fonts/encodesans_sc/full_vf/EncodeSansSC-VF.ttf is named canonically.
+* :bread: **PASS** fonts/encodesanssc/full_vf/EncodeSansSC-VF.ttf is named canonically.
 
 </details>
 <details>

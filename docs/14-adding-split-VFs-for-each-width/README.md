@@ -24,3 +24,8 @@ Masters:
 - (In the Condensed and Expanded sources) retained their original master names of Light Condensed, Bold Condensed, Light Expanded, and Bold Expanded. They need to be simply `Light` and `Bold`.
 
 The font should also have only "Weight" in its Custom Param "Axes."
+
+Finally, the "Expanded" masters weren't being smart enough in their trimming, so I had to improve that.
+
+Result: split VFs are now generating well, as far as I can tell.
+
