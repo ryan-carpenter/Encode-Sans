@@ -30,20 +30,15 @@ for instance in sourceFont.instances:
             widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","")
         except AttributeError:
             widthsDict[width] = "normal"
-        # else: 
-        #     widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","")
 
-# make set of widthsList
-
-
-
+# runs once per width family to save a new, split source
 def splitGlyphsSource(widthValue, widthName):
 
     Glyphs.open(sourcePath)
     font = Glyphs.font
 
     # ============================================================================
-    # delete non-normal width instances ==========================================
+    # delete other width instances ===============================================
 
     instancesToRemove = []
 
@@ -89,7 +84,7 @@ def splitGlyphsSource(widthValue, widthName):
     # ============================================================================
     # remove old masters and update axis values ==================================
 
-    # deletes masters that aren't the normal width – would need more flexibility to be abstracted to other fonts
+    # deletes masters that aren't the current width – would need more flexibility to be abstracted to other fonts
 
     mastersToDelete = []
 
@@ -110,10 +105,29 @@ def splitGlyphsSource(widthValue, widthName):
         print(font.masters[masterIndex])
         font.removeFontMasterAtIndex_(masterIndex)
 
+    # ============================================================================
+    # update master metadata =====================================================
+
+    # Clean up master names
+    for master in font.masters:
+        if "Light" in master.name or "Thin" in master.name:
+            master.name = "Light"
+        if "Bold" in master.name or "Black" in master.name:
+            master.name = "Bold"
+
+    # ============================================================================
+    # update instance metadata ===================================================
+
+    # remove "familyName" Custom Param
+    for instance in font.instances:
+        if "familyName" in instance.customParameters:
+            del(instance.customParameters['familyName'])
+
+        # set "Width" to "Medium (Normal)"
+        instance.width = "Medium (normal)"
 
     # # ============================================================================
     # # set varfont axes ===========================================================
-
 
     fontAxes = [
         {"Name": "Weight", "Tag": "wght"}
@@ -142,7 +156,6 @@ def splitGlyphsSource(widthValue, widthName):
 
     # ============================================================================
     # save as "build" file =======================================================
-
 
     buildreadyFolder = 'split'
     buildreadySuffix = widthName.lower()
