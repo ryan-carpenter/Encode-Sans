@@ -5,13 +5,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** DESCRIPTION.en_us.html must have size smaller than 1000 bytes.
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -41,6 +34,13 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 * [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :bread: **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -188,17 +188,248 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 <details>
 <summary><b>[118] EncodeSans-VF.ttf</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> Font has old ttfautohint applied?</summary>
+<summary>:broken_heart: <b>ERROR:</b> Substitute copyright, registered and trademark symbols in name table entries.</summary>
 
-* [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Failed to parse ttfautohint version values: installed = '1.8.2'; used_in_font = '1.8.1.43-b0c9' [code: parse-error]
+* [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
+<summary>:broken_heart: <b>ERROR:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> "License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Description strings in the name table must not exceed 200 characters.</summary>
+
+* [com.google.fonts/check/032](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Version format is correct in 'name' table?</summary>
+
+* [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Font has ttfautohint params? </summary>
+
+* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Font has old ttfautohint applied?</summary>
+
+* [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Make sure family name does not begin with a digit.</summary>
+
+* [com.google.fonts/check/067](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
+
+* [com.google.fonts/check/074](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
+
+* [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans" while METADATA.pb has "Encode Sans Thin". [code: mismatch]
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:font_familynames> had an error: KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Copyright notices match canonical pattern?</summary>
+
+* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> METADATA.pb font.style "normal" matches font internals?</summary>
+
+* [com.google.fonts/check/107](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
+
+* [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> METADATA.pb: Font styles are named canonically?</summary>
+
+* [com.google.fonts/check/115](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Length of copyright notice must not exceed 500 characters. </summary>
+
+* [com.google.fonts/check/164](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Check for font-v versioning </summary>
+
+* [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> All name entries referenced by fvar instances exist on the name table?</summary>
+
+* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Checking with fontTools.ttx</summary>
+
+* [com.google.fonts/check/ttx-roundtrip](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Checking font version fields (head and name table).</summary>
+
+* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Description strings in the name table must not contain copyright info.</summary>
+
+* [com.google.fonts/check/031](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Name table entries should not contain line-breaks.</summary>
+
+* [com.google.fonts/check/057](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Does full font name begin with the font family name?</summary>
+
+* [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Font follows the family naming recommendations?</summary>
+
+* [com.google.fonts/check/071](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
+
+* [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** Failed with KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/167](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:regular_wght_coord> had an error: KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/168](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:regular_wdth_coord> had an error: KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> The variable font 'slnt' (Slant) axis coordinate must be zero on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/169](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:regular_slnt_coord> had an error: KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> The variable font 'ital' (Italic) axis coordinate must be zero on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/170](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:regular_ital_coord> had an error: KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> The variable font 'opsz' (Optical Size) axis coordinate should be between 9 and 13 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/171](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:regular_opsz_coord> had an error: KeyError: 'name'
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
+
+* [com.google.fonts/check/172](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:bold_wght_coord> had an error: KeyError: 'name'
 
 </details>
 <details>
@@ -223,13 +454,6 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
-
-* [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans Thin") does not match name table entry "Encode Sans" ! [code: fullname-mismatch]
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
 
 * [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -244,16 +468,32 @@ Fontbakery version: 0.6.6.dev5+g6a494f59
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/035](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** ftxvalidator output follows:
+
+b"EncodeSans-VF.ttf\n\t<no font name>\n\t5FD83A49|\n\tkATSFontTestTrueTypeFontData\n\tFatal Minor Info \n\tcom.apple.TrueType.cmap.usability\n\t\t\xe2\x80\x98cmap\xe2\x80\x99 table usability\n\t\tThis test ensures the \xe2\x80\x98cmap\xe2\x80\x99 table has at least one usable subtable.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.hmtx.usability\n\t\t\xe2\x80\x98hmtx\xe2\x80\x99 table usability\n\t\tThis test ensures the horizontal metrics table, \xe2\x80\x98hmtx\xe2\x80\x99, is valid.\n\t\tMinor Info \n\t\t\thmtx: Glyph 1 has a width of 1286; it should be zero\n\t\t\t\tkATSFontTestSeverityMinorError\n\t\t\thmtx: Glyph 37 has a width of 2397, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 38 has a width of 2397, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 44 has a width of 2208, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 45 has a width of 2208, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 215 has a width of 2021, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 216 has a width of 2021, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 217 has a width of 2021, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 218 has a width of 2021, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 219 has a width of 2021, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 523 has a width of 2114, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 524 has a width of 2114, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 898 has a width of 2501, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 904 has a width of 2153, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 956 has a width of 2425, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\thmtx: Glyph 1043 has a width of 2331, which is greater than the font\\U2019s em (2000); this may be incorrect.\n\t\t\t\tkATSFontTestSeverityInformation\n\tcom.apple.TrueType.loca.usability\n\t\t\xe2\x80\x98loca\xe2\x80\x99 table usability\n\t\tThis test ensures the glyph data location table, \xe2\x80\x98loca\xe2\x80\x99, is valid.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.name.usability\n\t\t\xe2\x80\x98name\xe2\x80\x99 table usability\n\t\tThis test ensures the \xe2\x80\x98name\xe2\x80\x99 table is valid.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.post.usability\n\t\t\xe2\x80\x98post\xe2\x80\x99 table usability\n\t\tThis test ensures the \xe2\x80\x98post\xe2\x80\x99 table is valid.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.usability\n\t\t\xe2\x80\x98sfnt\xe2\x80\x99 required tables\n\t\tThis test ensures the \xe2\x80\x98sfnt\xe2\x80\x99 has all the required tables.\n\t\tFatal \n\t\t\tsfnt: The font is missing a name ('name') table (required by the TrueType specification).\n\t\t\t\tkATSFontTestSeverityFatalError\n\t\t\tsfnt: The font has no PostScript name (required for printing and embedding in PDFs).\n\t\t\t\tkATSFontTestSeverityFatalError\n\tcom.apple.TrueType.head.structure\n\t\t\xe2\x80\x98head\xe2\x80\x99 table structure\n\t\tThis test ensures the structure of the header table, \xe2\x80\x98head\xe2\x80\x99, accords with the specification.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.hhea.structure\n\t\t\xe2\x80\x98hhea\xe2\x80\x99 table structure\n\t\tThis test ensures the structure of the horizontal header table, \xe2\x80\x98hhea\xe2\x80\x99, accords with the specification.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.maxp.structure\n\t\t\xe2\x80\x98maxp\xe2\x80\x99 table structure\n\t\tThis test ensures the structure of the maximum profile table, \xe2\x80\x98maxp\xe2\x80\x99, accords with the specification.\n\t\tMinor \n\t\t\tmaxp: The table\\U2019s maxSizeOfInstructions field is 3605; it should be 531\n\t\t\t\tkATSFontTestSeverityMinorError\n\t\t\tmaxp: The table\\U2019s maximum component depth is 3; fonts with maximum component depth greater than 1 may not work properly on Mac OS X\n\t\t\t\tkATSFontTestSeverityMinorError\n\tcom.apple.TrueType.glyf.usability\n\t\t\xe2\x80\x98glyf\xe2\x80\x99 table structure\n\t\tThis test ensures the \xe2\x80\x98glyf\xe2\x80\x99 table is structurally sound.\n\t\tMinor Info \n\t\t\tglyf: Glyph 1 should have no visual appearance but does\n\t\t\t\tkATSFontTestSeverityMinorError\n\t\t\tglyf: Glyph 874 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 875 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 876 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 877 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 878 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 879 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 880 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 881 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 882 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\t\t\tglyf: Glyph 1216 has no visual appearance\n\t\t\t\tkATSFontTestSeverityInformation\n\tcom.apple.TrueType.glyf.instructions\n\t\t\xe2\x80\x98glyf\xe2\x80\x99 table instructions\n\t\tThis test ensures the instructions embedded in a \xe2\x80\x98glyf\xe2\x80\x99 table are sound.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.fpgm.instructions\n\t\t\xe2\x80\x98fpgm\xe2\x80\x99 table instructions\n\t\tThis test ensures the instructions embedded in a \xe2\x80\x98fpgm\xe2\x80\x99 table are sound.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.TrueType.prep.instructions\n\t\t\xe2\x80\x98prep\xe2\x80\x99 table instructions\n\t\tThis test ensures the instructions embedded in a \xe2\x80\x98prep\xe2\x80\x99 table are sound.\n\t\tNA\n\t\t\t(No messages)\n\tcom.apple.duplicates\n\t\tDuplicate fonts\n\t\tThis test verifies the presence of installed fonts with the same name.\n\t\tNA\n\t\t\t(No messages)\n"
+
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :fire: **FAIL** ots-sanitize returned an error code (1). Output follows:
 
-ERROR: GDEF: bad caret value format: 3
-ERROR: GDEF: Invalid ligature caret list
-ERROR: GDEF: Failed to parse table
+ERROR: name: missing required table
 Failed to sanitize file!
 
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Font contains all required tables?</summary>
+
+* [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :fire: **FAIL** This font is missing the following required tables: ['STAT', 'name']
+* :information_source: **INFO** This font contains the following optional tables [GSUB, fpgm, DSIG, cvt , GPOS, prep, gasp, loca]
 
 </details>
 <details>
@@ -261,13 +501,6 @@ Failed to sanitize file!
 
 * [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Name table strings must not contain the string 'Reserved Font Name'.</summary>
-
-* [com.google.fonts/check/152](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :warning: **WARN** Name table entry ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
@@ -283,17 +516,17 @@ Failed to sanitize file!
 
 </details>
 <details>
+<summary>:warning: <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q={checkid})
+* :warning: **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> Checking OS/2 usWeightClass.</summary>
 
 * [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Font has ttfautohint params? </summary>
-
-* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
 <details>
@@ -465,34 +698,6 @@ Failed to sanitize file!
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/168](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: regular_wdth_coord
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> The variable font 'slnt' (Slant) axis coordinate must be zero on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/169](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: regular_slnt_coord
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> The variable font 'ital' (Italic) axis coordinate must be zero on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/170](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: regular_ital_coord
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> The variable font 'opsz' (Optical Size) axis coordinate should be between 9 and 13 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/171](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :zzz: **SKIP** Unfulfilled Conditions: regular_opsz_coord
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Show hinting filesize impact.</summary>
 
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -500,10 +705,10 @@ Failed to sanitize file!
 
 |  | fonts/encodesans/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 201.7kb |
-| Hinted Size | 237.3kb |
-| Increase | 35.7kb |
-| Change   | 17.7 % |
+| Dehinted Size | 199.8kb |
+| Hinted Size | 235.6kb |
+| Increase | 35.8kb |
+| Change   | 17.9 % |
 
 
 </details>
@@ -528,23 +733,6 @@ PPM <= 65535:
 	- Use smoothing along multiple axes with ClearType®
 
 * :bread: **PASS** 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
-
-</details>
-<details>
-<summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
-
-* [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.1.43-b0c9)"
-The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
-"Version 1.3; git-0d08353-release"
-
-</details>
-<details>
-<summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
-
-* [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :information_source: **INFO** This font contains the following optional tables [prep, GSUB, gasp, loca, GPOS, fpgm, cvt , DSIG]
-* :bread: **PASS** Font contains all required tables.
 
 </details>
 <details>
@@ -583,48 +771,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries.</summary>
-
-* [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Licensing entry on name table is correctly set.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> "License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font has a valid license URL in NAME table.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
-
-* [com.google.fonts/check/032](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** All description name records have reasonably small lengths.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Version format is correct in 'name' table?</summary>
-
-* [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Version format in NAME table entries is correct.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Make sure family name does not begin with a digit.</summary>
-
-* [com.google.fonts/check/067](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font family name first character is not a digit.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font has all expected currency sign characters?</summary>
 
 * [com.google.fonts/check/070](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -632,54 +778,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
-
-* [com.google.fonts/check/074](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
-
-* [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Family name "Encode Sans" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Postscript name "EncodeSans" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb postScriptName field contains font name in right format.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Copyright notices match canonical pattern?</summary>
-
-* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
-* :bread: **PASS** Name table entry: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
-* :bread: **PASS** All copyright notice strings are good.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> METADATA.pb: Copyright notice shouldn't exceed 500 chars.</summary>
 
 * [com.google.fonts/check/104](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Copyright notice string is shorter than 500 chars.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.style "normal" matches font internals?</summary>
-
-* [com.google.fonts/check/107](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** METADATA.pb font.style "normal" matches font internals.
 
 </details>
 <details>
@@ -704,31 +806,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Font styles are named canonically?</summary>
-
-* [com.google.fonts/check/115](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font styles are named canonically.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
 
 * [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Font em size is good (unitsPerEm = 2000).
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Length of copyright notice must not exceed 500 characters. </summary>
-
-* [com.google.fonts/check/164](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
 
 </details>
 <details>
@@ -788,13 +869,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> All name entries referenced by fvar instances exist on the name table?</summary>
-
-* [com.google.fonts/check/fvar_name_entries](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** OK
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> A variable font must have named instances.</summary>
 
 * [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -806,13 +880,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** OK
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/035](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** ftxvalidator passed this file
 
 </details>
 <details>
@@ -865,13 +932,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Checking with fontTools.ttx</summary>
-
-* [com.google.fonts/check/ttx-roundtrip](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Hey! It all looks good!
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Check glyphs have unique unicode codepoints.</summary>
 
 * [com.google.fonts/check/076](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -893,13 +953,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Checking font version fields (head and name table).</summary>
-
-* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** All font version fields match.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -914,45 +967,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Description strings in the name table must not contain copyright info.</summary>
-
-* [com.google.fonts/check/031](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Description strings in the name table do not contain any copyright string.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Checking correctness of monospaced metadata.</summary>
 
 * [com.google.fonts/check/033](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** Font is not monospaced and all related metadata look good. [code: good]
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
-
-* [com.google.fonts/check/057](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Name table entries are all single-line (no line-breaks found).
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Does full font name begin with the font family name?</summary>
-
-* [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Full font name begins with the font family name.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Font follows the family naming recommendations?</summary>
-
-* [com.google.fonts/check/071](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Font follows the family naming recommendations.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** All name entries are good.
 
 </details>
 <details>
@@ -991,13 +1009,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Looks good!
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Is there a "kern" table declared in the font?</summary>
 
 * [com.google.fonts/check/066](https://github.com/googlefonts/fontbakery/search?q={checkid})
@@ -1016,20 +1027,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/075](https://github.com/googlefonts/fontbakery/search?q={checkid})
 * :bread: **PASS** All glyph paths have coordinates within bounds!
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/167](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Regular:wght is 400.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
-
-* [com.google.fonts/check/172](https://github.com/googlefonts/fontbakery/search?q={checkid})
-* :bread: **PASS** Bold:wght is 700.
 
 </details>
 <details>
@@ -1053,5 +1050,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 3 | 30 | 6 | 94 |
-| 0% | 7% | 2% | 21% | 4% | 66% |
+| 35 | 8 | 3 | 25 | 4 | 68 |
+| 24% | 6% | 2% | 17% | 3% | 48% |

@@ -77,7 +77,6 @@ subsetSmallCaps()
     pyftsubset $SC_NAME ${subsetGlyphNames} --glyph-names
 
     # remove feature-frozen font & simplifying name of subset font
-
     subsetSmallCapFontName=${SC_NAME/"VF"/"VF.subset"}
 
     rm -rf $SC_NAME
@@ -88,13 +87,11 @@ subsetSmallCaps()
     rm -rf $ttxPath
 }
 
-
 for file in variable_ttf/*; do
-    # subsetSmallCaps $ttfPath variable_ttf/${smallCapFontName}.ttf
     smallCapFontName=${file/"-VF"/"SC-VF"}
     subsetSmallCaps $file ${smallCapFontName}
 done
-
+    
 
 # ============================================================================
 # Autohinting ================================================================
