@@ -1669,6 +1669,7 @@ alignmentZones = (
 );
 ascender = 1616;
 capHeight = 1480;
+custom = Expanded;
 customParameters = (
 {
 name = typoAscender;
@@ -1745,6 +1746,7 @@ horizontalStems = (
 368,
 348
 );
+iconName = Bold_Extended;
 id = "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF";
 verticalStems = (
 476,
@@ -1754,7 +1756,6 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 232;
-width = Extended;
 widthValue = 1000;
 xHeight = 1100;
 }
