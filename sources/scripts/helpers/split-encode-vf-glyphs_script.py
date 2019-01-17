@@ -1,4 +1,4 @@
-#MenuTitle: Split Normal-width Masters, Encode Sans
+#MenuTitle: Split-up Weight-VF Sources, Encode Sans
 # -*- coding: utf-8 -*-
 """
     Makes a copy of a GlyphsApp source, with adjustments to designspace by:

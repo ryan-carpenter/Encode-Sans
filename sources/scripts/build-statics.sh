@@ -1,3 +1,6 @@
+# print each line as it executes. Add -e to stop on the first error, for debugging
+set -x
+
 ############################################
 ################# set vars #################
 

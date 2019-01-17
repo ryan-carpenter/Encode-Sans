@@ -2,6 +2,8 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
+# print each line as it executes. Add -e to stop on the first error, for debugging
+set -x
 
 ############################################
 ################# set vars #################

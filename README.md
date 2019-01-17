@@ -17,17 +17,35 @@ This project is forked from Pablo Impallari's original repo in order to upgrade 
  
 # Build Process
 
-The sources can be built with FontMake, but I've put together some build scripts to pass the fonts through some steps that fix metadata issues.
+The sources can be built with FontMake, but I've put together some specific build scripts to pass the fonts through some steps that fix metadata issues.
+
+The build process requires you to open up a terminal and navigate to this project's directory.
 
 ## Step 1: Install Requirements
+
+I suggest using a Python virtual environment to build this project. If you've never set up a virtual environment before, [read more virtualenv in this guide](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
+
+First, set up a virtual environment with:
+
+```
+virtualenv -p python3 virtual_env
+```
+
+Here, `virtual_env` will be the name of the virtual environment and of the folder holding its dependencies. You need to activate it with:
+
+```
+source virtual_env/bin/activate
+```
 
 To operate the scripts within this repo, install requirements with:
 
 ```
-pip install -r sources/scripts/requirements.txt
+pip install -r requirements.txt
 ```
 
-(Caveat: this installs all Python 3 dependencies I've installed for Google Fonts work. I know this is messy – next time, I'll set up a virtual environment for each project. I hope to circle back in the future and make this requirements file cleaner.)
+You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `virtual_env/bin` within this project.
+
+To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
 
 ## Step 2: Give permissions to build scripts
 
@@ -39,7 +57,7 @@ On the command line, navigate to the project folder (`cd Encode-Sans`), and then
 chmod -R +x sources/scripts
 ```
 
-The `-R` applies your permission to each of the shell scripts in the directory, and the `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the Encode Sans GlyphsApp sources.
+The `-R` applies your permission to each of the shell scripts in the directory, and the `+x` adds execute permissions. Before you do this for shell scripts, you should probably take a look through their contents, to be sure they aren't doing anything bad. The ones in this repo simply build from the GlyphsApp sources and apply various fixes to the results.
 
 ## Step 3: Run the build scripts!
 
@@ -53,7 +71,7 @@ Add one of the are the following flags to build the fonts:
 
 `--statics` or `-s` to build the static TTF instances (there are 45, so it takes awhile)
 
-`--linked` or `-l` to build the split variable fonts (split into 5 width families, each with a variable weight axis)
+`--split` or `-sp` to build the split variable fonts (split into 5 width families, each with a variable weight axis).
 
 `--full` or `-f` to build the one full variable font, with weight & width axes
 
@@ -69,9 +87,9 @@ Due to [current limitations in remote scripting for GlyphsApp](https://forum.gly
 
 1. Open your Glyphs Scripts folder in a terminal window and add this repo's source-splitting script as a symlink with `ln -s YOUR_PATH/sources/scripts/helpers/split-encode-vf-glyphs_script.py`
 
-2. Open the main source (`sources/Encode-Sans.glyphs`) in Glyphs. Run the _"Split Normal-width Masters, Encode Sans"_ script.
+2. Open the main source (`sources/Encode-Sans.glyphs`) in Glyphs. Run the _"Split-up Weight-VF Sources, Encode Sans"_ script.
 
-The font now has sources with build-ready rectangular designspace, and will build into a variable font with the build scripts.
+The GlyphsApp source will be split into several build-ready, single-axis sources.
 
 # Variable font upgrade project documentation
 
