@@ -115,7 +115,6 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
         mv $subsetSmallCapFile $smallCapFile
 
         # update names in font with smallcaps suffix
-        echo python sources/scripts/helpers/add-smallcaps-suffix.py $smallCapFile $smallCapSuffix "$familyName"
         python sources/scripts/helpers/add-smallcaps-suffix.py $smallCapFile $smallCapSuffix "$familyName"
 
         # just for testing results
