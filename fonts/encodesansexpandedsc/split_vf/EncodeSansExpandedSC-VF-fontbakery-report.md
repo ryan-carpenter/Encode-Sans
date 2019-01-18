@@ -25,7 +25,7 @@ Fontbakery version: 0.6.6
 <summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
 
 * [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/004)
-* :bread: **PASS** fonts/encodesanscondensed/DESCRIPTION.en_us.html is a propper HTML file.
+* :bread: **PASS** fonts/encodesansexpandedsc/DESCRIPTION.en_us.html is a propper HTML file.
 
 </details>
 <details>
@@ -61,13 +61,6 @@ Fontbakery version: 0.6.6
 
 * [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
 * :bread: **PASS** Found license at '/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/OFL.txt'
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
-
-* [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/081)
-* :bread: **PASS** Font is properly listed via Google Fonts API.
 
 </details>
 <details>
@@ -182,15 +175,50 @@ Fontbakery version: 0.6.6
 * :bread: **PASS** Fonts have consistent underline thickness.
 
 </details>
+<details>
+<summary>:warning: <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
+
+* [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/081)
+* :warning: **WARN** Family not found via Google Fonts API.
+
+</details>
 <br>
 </details>
 <details>
-<summary><b>[118] EncodeSansCondensed-VF.ttf</b></summary>
+<summary><b>[118] EncodeSansExpandedSC-VF.ttf</b></summary>
+<details>
+<summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
+* :fire: **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> "License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
+* :fire: **FAIL** A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry. Currently accepted licenses are Apache or Open Font License. For a small set of legacy families the Ubuntu Font License may be acceptable as well. [code: no-license-found]
+
+</details>
 <details>
 <summary>:fire: <b>FAIL:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/056)
 * :fire: **FAIL** Failed to parse ttfautohint version values: installed = '1.8.2'; used_in_font = '1.8.1.43-b0c9' [code: parse-error]
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Font contains .notdef as first glyph?</summary>
+
+* [com.google.fonts/check/046](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/046)
+* :warning: **WARN** Font should contain the .notdef glyph as the first glyph, it should not have a Unicode value assigned and should contain a drawing.
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
+
+* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
+* :warning: **WARN** OS/2 xAvgCharWidth is 1197 but it should be 1225 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
 
 </details>
 <details>
@@ -204,26 +232,7 @@ Fontbakery version: 0.6.6
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Condensed' / SUBFAMILY_NAME = 'Thin'
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
-
-* [com.google.fonts/check/065](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/065)
-* :warning: **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- f + i
-	- i + j
-	- j + l
-
-   [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/064)
-* :warning: **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Expanded SC' / SUBFAMILY_NAME = 'Thin'
 
 </details>
 <details>
@@ -535,6 +544,20 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/065](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/065)
+* :zzz: **SKIP** Unfulfilled Conditions: ligatures
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/064)
+* :zzz: **SKIP** Unfulfilled Conditions: ligature_glyphs
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> The variable font 'wdth' (Width) axis coordinate must be 100 on the 'Regular' instance.</summary>
 
 * [com.google.fonts/check/168](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/168)
@@ -568,12 +591,12 @@ Fontbakery version: 0.6.6
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/054)
 * :information_source: **INFO** Hinting filesize impact:
 
-|  | fonts/encodesanscondensed/EncodeSansCondensed-VF.ttf |
+|  | fonts/encodesansexpandedsc/EncodeSansExpandedSC-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 199.3kb |
-| Hinted Size | 235.6kb |
-| Increase | 36.3kb |
-| Change   | 18.2 % |
+| Dehinted Size | 156.5kb |
+| Hinted Size | 189.4kb |
+| Increase | 32.8kb |
+| Change   | 21.0 % |
 
 
 </details>
@@ -613,7 +636,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GPOS, GSUB, prep, cvt , fpgm, loca, DSIG, gasp]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, loca, DSIG, gasp, fpgm, prep, GSUB, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -621,7 +644,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:bread: <b>PASS:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
-* :bread: **PASS** fonts/encodesanscondensed/EncodeSansCondensed-VF.ttf is named canonically.
+* :bread: **PASS** fonts/encodesansexpandedsc/EncodeSansExpandedSC-VF.ttf is named canonically.
 
 </details>
 <details>
@@ -657,20 +680,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/019)
 * :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
-* :bread: **PASS** Licensing entry on name table is correctly set.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> "License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
-* :bread: **PASS** Font has a valid license URL in NAME table.
 
 </details>
 <details>
@@ -821,13 +830,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Font contains .notdef as first glyph?</summary>
-
-* [com.google.fonts/check/046](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/046)
-* :bread: **PASS** Font contains the .notdef glyph as the first glyph, it does not have a Unicode value assigned and contains a drawing.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font contains glyphs for whitespace characters?</summary>
 
 * [com.google.fonts/check/047](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/047)
@@ -902,13 +904,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
 * :bread: **PASS** All font version fields match.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
-
-* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
-* :bread: **PASS** OS/2 xAvgCharWidth value is correct.
 
 </details>
 <details>
@@ -1044,5 +1039,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 4 | 48 | 6 | 84 |
-| 0% | 1% | 3% | 34% | 4% | 59% |
+| 0 | 3 | 5 | 50 | 6 | 79 |
+| 0% | 2% | 3% | 35% | 4% | 55% |

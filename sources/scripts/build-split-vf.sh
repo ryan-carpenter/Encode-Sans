@@ -151,14 +151,14 @@ for file in variable_ttf/*; do
         fileName=$(basename $file)
 
         if [[ $file != *"SC"* ]]; then
-            cp $file $finalLocation/$fileName
-            echo "new VF location is " $finalLocation/$fileName
-            fontbakery check-googlefonts $finalLocation/$fileName --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+            cp $file $finalLocation/split_vf/$fileName
+            echo "new VF location is " $finalLocation/split_vf/$fileName
+            fontbakery check-googlefonts $finalLocation/split_vf/$fileName --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
         fi
         if [[ $file == *"SC"* ]]; then
-            cp $file $scFinalLocation/$fileName
-            echo "new VF location is " $scFinalLocation/$fileName
-            fontbakery check-googlefonts $scFinalLocation/$fileName --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+            cp $file $scFinalLocation/split_vf/$fileName
+            echo "new VF location is " $scFinalLocation/split_vf/$fileName
+            fontbakery check-googlefonts $scFinalLocation/split_vf/$fileName --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
         fi
     fi
 done
