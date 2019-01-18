@@ -204,6 +204,14 @@ TRACEBACK:
 
 </details>
 <details>
+<summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Encode Sans' / SUBFAMILY_NAME = 'Condensed Thin'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans' / SUBFAMILY_NAME = 'Condensed Thin'
+
+</details>
+<details>
 <summary>:warning: <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
 
 * [com.google.fonts/check/065](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/065)
@@ -567,8 +575,8 @@ TRACEBACK:
 
 |  | fonts/encodesans/full_vf/EncodeSans-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 285.3kb |
-| Hinted Size | 321.5kb |
+| Dehinted Size | 285.4kb |
+| Hinted Size | 321.6kb |
 | Increase | 36.2kb |
 | Change   | 12.7 % |
 
@@ -610,7 +618,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [loca, cvt , fpgm, DSIG, GPOS, prep, gasp, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, cvt , DSIG, gasp, prep, GSUB, fpgm, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -944,13 +952,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :bread: **PASS** All name entries are good.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Checking Vertical Metric Linegaps.</summary>
 
 * [com.google.fonts/check/041](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/041)
@@ -1048,5 +1049,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 3 | 63 | 6 | 69 |
-| 0% | 1% | 2% | 44% | 4% | 48% |
+| 0 | 2 | 4 | 63 | 6 | 68 |
+| 0% | 1% | 3% | 44% | 4% | 48% |

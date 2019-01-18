@@ -7,10 +7,10 @@
       Encode Sans SC
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Regular
+      Condensed Thin
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      3.000;GOOG;EncodeSans
+      3.000;GOOG;EncodeSansSC-CondensedThin
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Encode Sans
@@ -19,7 +19,7 @@
       Version 3.000; ttfautohint (v1.8.1.43-b0c9)
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      EncodeSansSC
+      EncodeSansSC-CondensedThin
     </namerecord>
     <namerecord nameID="7" platformID="1" platEncID="0" langID="0x409">
       Encode Sans is a trademark of Pablo Impallari.

@@ -78,8 +78,6 @@ smallCapFontName=${VFname/"-VF"/"SC-VF"}
 ttfPath="variable_ttf/${VFname}.ttf"
 echo $ttfPath
 
-open $ttfPath
-
 subsetSmallCaps()
 {
     FILE=$1

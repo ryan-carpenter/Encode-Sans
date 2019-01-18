@@ -160,7 +160,8 @@ Left / first: Pages menu with axis & naming order weight, then width
 
 Right / second: Pages menu with axis & naming order width, then weight
 
-![](assets/2018-12-17-14-34-08.png) ![](assets/2018-12-17-14-50-43.png)
+![](assets/2018-12-17-14-34-08.png) 
+![](assets/2018-12-17-14-50-43.png)
 
 Takeaways:
 - The results are different (but weirdly, with more commonalities that I would have expected), but neither is particularly good. It's hard for me to see the exact pattern or logic in either. If I had guess, it seems that Pages is sorting by:
@@ -170,3 +171,15 @@ Takeaways:
   
 
 Partly, font menu ordering doesn't matter that much, compared to other items, because the fonts hosted on Google will be mostly statics at first, and app makers will need to improve how they handle variable fonts. The best I can do is follow the OpenType spec as closely as possible, and let font menus improve over time. I will place width names before weight names, because it is most logical.
+
+## Problem: in split VFs, it is impossible to select "Thin" in Apple Pages
+
+With the [current split VF (as of Jan 17, 2019)](https://github.com/thundernixon/Encode-Sans/blob/e75aa5c7e92598bb16d0cd26c85a73cf482ca4e2/fonts/encodesans/split_vf/EncodeSans-VF.ttf), Apple Pages displays "Medium" when I try to select "Thin":
+
+![](assets/thin-medium.gif)
+
+![](assets/word-thin-med.gif)
+
+It's possible to select "Thin" in Axis-Praxis, so it seems to be mostly an Apple Pages issue.
+
+![](assets/2019-01-18-13-55-43.png)

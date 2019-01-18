@@ -228,7 +228,7 @@ TRACEBACK:
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Encode Sans SC' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'MACINTOSH' entries: FONT_FAMILY_NAME = 'Encode Sans SC' / SUBFAMILY_NAME = 'Condensed Thin'
 * :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SC' / SUBFAMILY_NAME = 'Regular'
 
 </details>
@@ -591,8 +591,8 @@ TRACEBACK:
 
 |  | fonts/encodesanssc/full_vf/EncodeSansSC-VF.ttf |
 |:--- | ---:|
-| Dehinted Size | 222.4kb |
-| Hinted Size | 254.8kb |
+| Dehinted Size | 222.5kb |
+| Hinted Size | 254.9kb |
 | Increase | 32.4kb |
 | Change   | 14.6 % |
 
@@ -634,7 +634,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [fpgm, DSIG, loca, cvt , GSUB, prep, GPOS, gasp]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, GSUB, fpgm, loca, cvt , gasp, GPOS, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

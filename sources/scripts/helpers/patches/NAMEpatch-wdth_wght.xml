@@ -7,7 +7,7 @@
       Encode Sans
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Regular
+      Condensed Thin
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
       3.000;GOOG;EncodeSans
@@ -217,19 +217,19 @@
       Encode Sans
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
-      Regular
+      Condensed Thin
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      3.000;GOOG;EncodeSans-Regular
+      3.000;GOOG;EncodeSans-CondensedThin
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans
+      Encode Sans Condensed Thin
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version 3.000
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      EncodeSans
+      EncodeSans-CondensedThin
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
       Encode Sans is a trademark of Pablo Impallari.

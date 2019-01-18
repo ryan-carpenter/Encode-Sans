@@ -1,4 +1,7 @@
-<name>
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.35">
+
+  <name>
     <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Weight
     </namerecord>
@@ -33,22 +36,22 @@
       Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Expanded
+      Encode Sans
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
-      Regular
+      Thin
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      3.000;GOOG;EncodeSansExpanded
+      3.000;GOOG;EncodeSans-Thin
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Expanded
+      Encode Sans Thin
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 3.000; ttfautohint (v1.8.1.43-b0c9)
+      Version 3.000; ttfautohint (v1.8.1.43-b0c9) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a nnn -X ""
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      EncodeSansExpanded
+      EncodeSans-Thin
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
       Encode Sans is a trademark of Pablo Impallari.
@@ -70,12 +73,6 @@
     </namerecord>
     <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
       http://scripts.sil.org/OFL
-    </namerecord>
-    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Expanded
-    </namerecord>
-    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
-      Thin
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
       Weight
@@ -107,4 +104,9 @@
     <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
       Black
     </namerecord>
-</name>
+    <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
+      Roman
+    </namerecord>
+  </name>
+
+</ttFont>
