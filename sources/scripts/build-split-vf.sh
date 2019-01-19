@@ -36,10 +36,6 @@ while [ ! $# -eq 0 ]
         #####
         # To build all split VFs, run: sources/scripts/build.sh --split
         #####
-        # *) 
-        #     echo "Error: please supply an argument of --condensed (-c), --semicondensed (-sc), --normal (-c), --semiexpanded (-se), or --expanded (-e)"
-        #     exit 1
-        # ;;
     esac
     shift
 done
@@ -95,18 +91,15 @@ for file in variable_ttf/*; do
     subsetSmallCaps $file ${smallCapFontName}
 done
 
+
+
+
 # ============================================================================
 # Autohinting ================================================================
 
 for file in variable_ttf/*; do 
 if [ -f "$file" ]; then 
-    echo "TTFautohint " ${file}
-    # autohint with detailed info
     hintedFile=${file/".ttf"/"-hinted.ttf"}
-    
-    # Hint with TTFautohint-VF ... currently janky – it would be better to properly add this dependency
-    # https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ
-    # ./Users/stephennixon/Environments/gfonts3/bin/ttfautohint-vf ${ttfPath} ${ttfPath/"-unhinted.ttf"/"-hinted.ttf"}
     ttfautohint-vf -I $file $hintedFile  --increase-x-height 9 --stem-width-mode nnn
 
     cp ${hintedFile} ${file}
@@ -119,8 +112,6 @@ done
 
 for file in variable_ttf/*; do 
 if [ -f "$file" ]; then 
-    # fileName=$(basename $file)
-
     echo "fix DSIG in " $file
     gftools fix-dsig --autofix $file
 
@@ -139,26 +130,36 @@ if [ -f "$file" ]; then
 fi
 done
 
+# ============================================================================
+# Abbreviate names ===========================================================
+
+for file in variable_ttf/*; do 
+if [[ -f "$file" && $file == *".ttf" ]]; then
+    python sources/scripts/helpers/shorten-nameID-4-6.py $file
+fi
+done
 
 # ============================================================================
 # Sort into final folder =====================================================
 
-
 for file in variable_ttf/*; do 
     if [ -f "$file" ]; then 
-        open $file
-
         fileName=$(basename $file)
+        fileName=${fileName/"VF"/"Thin"}
 
         if [[ $file != *"SC"* ]]; then
-            cp $file $finalLocation/split_vf/$fileName
-            echo "new VF location is " $finalLocation/split_vf/$fileName
-            fontbakery check-googlefonts $finalLocation/split_vf/$fileName --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+            finalPath=$finalLocation/split_vf/$fileName
+            cp $file $finalPath
+            echo "new VF location is " $finalPath
+            fontbakery check-googlefonts $finalPath --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+            open $finalPath
         fi
         if [[ $file == *"SC"* ]]; then
-            cp $file $scFinalLocation/split_vf/$fileName
-            echo "new VF location is " $scFinalLocation/split_vf/$fileName
-            fontbakery check-googlefonts $scFinalLocation/split_vf/$fileName --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+            finalPath=$scFinalLocation/split_vf/$fileName
+            cp $file $finalPath
+            echo "new VF location is " $finalPath
+            fontbakery check-googlefonts $finalPath --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+            open $finalPath
         fi
     fi
 done

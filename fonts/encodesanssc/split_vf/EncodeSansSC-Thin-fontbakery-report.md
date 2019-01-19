@@ -5,10 +5,10 @@ Fontbakery version: 0.6.6
 <details>
 <summary><b>[25] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
+<summary>:fire: <b>FAIL:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
 
-* [com.google.fonts/check/088](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/088)
-* :fire: **FAIL** METADATA.pb: Copyright field value is inconsistent across family
+* [com.google.fonts/check/090](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/090)
+* :fire: **FAIL** This family lacks a Regular (style: normal and weight: 400) as required by Google Fonts standards.
 
 </details>
 <details>
@@ -19,34 +19,6 @@ Fontbakery version: 0.6.6
   INSTALLED: 0.6.6 (latest)
 
 * :bread: **PASS** Font Bakery is up-to-date
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/003)
-* :bread: **PASS** All links in the DESCRIPTION file look good!
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/004)
-* :bread: **PASS** fonts/encodesanssemiexpanded_sc/DESCRIPTION.en_us.html is a propper HTML file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/005)
-* :bread: **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/006)
-* :bread: **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -106,24 +78,17 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
+
+* [com.google.fonts/check/088](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/088)
+* :bread: **PASS** Copyright is consistent across family
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check that METADATA.pb family values are all the same.</summary>
 
 * [com.google.fonts/check/089](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/089)
 * :bread: **PASS** METADATA.pb: Family name is the same in all metadata "fonts" items.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
-
-* [com.google.fonts/check/090](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/090)
-* :bread: **PASS** Family has a Regular style.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Regular should be 400.</summary>
-
-* [com.google.fonts/check/091](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/091)
-* :bread: **PASS** Regular has weight = 400.
 
 </details>
 <details>
@@ -176,6 +141,41 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/003](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/003)
+* :zzz: **SKIP** Unfulfilled Conditions: description
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/004](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/004)
+* :zzz: **SKIP** Unfulfilled Conditions: descfile
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/005](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/005)
+* :zzz: **SKIP** Unfulfilled Conditions: description
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/006](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/006)
+* :zzz: **SKIP** Unfulfilled Conditions: description
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Regular should be 400.</summary>
+
+* [com.google.fonts/check/091](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/091)
+* :zzz: **SKIP** Unfulfilled Conditions: has_regular_style
+
+</details>
+<details>
 <summary>:warning: <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
 
 * [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/081)
@@ -185,7 +185,14 @@ Fontbakery version: 0.6.6
 <br>
 </details>
 <details>
-<summary><b>[118] EncodeSansSemiExpandedSC-VF.ttf</b></summary>
+<summary><b>[118] EncodeSansSC-Thin.ttf</b></summary>
+<details>
+<summary>:fire: <b>FAIL:</b> Checking file is named canonically.</summary>
+
+* [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
+* :fire: **FAIL** Style name used in "fonts/encodesanssc/split_vf/EncodeSansSC-Thin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic".
+
+</details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
 
@@ -208,6 +215,49 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> METADATA.pb font.filename field contains font name in right format?</summary>
+
+* [com.google.fonts/check/100](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/100)
+* :fire: **FAIL** None of the METADATA.pb filename fields match correct font name format ("EncodeSansSC-Thin.ttf").
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Font has all mandatory 'name' table entries ?</summary>
+
+* [com.google.fonts/check/156](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/156)
+* :fire: **FAIL** Font lacks entry with nameId=16 (TYPOGRAPHIC_FAMILY_NAME)
+* :fire: **FAIL** Font lacks entry with nameId=17 (TYPOGRAPHIC_SUBFAMILY_NAME)
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
+* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans SC Thin' but got 'Encode Sans SC'.
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
+* :fire: **FAIL** Entry [FONT_SUBFAMILY_NAME(2):WINDOWS(3)] on the 'name' table: Expected 'Regular' but got 'Thin'. [code: bad-familyname]
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/161)
+* :fire: **FAIL** non-RIBBI fonts must have a TYPOGRAPHIC_FAMILY_NAME entry on the name table. [code: non-ribbi-lacks-entry]
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/162](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/162)
+* :fire: **FAIL** non-RIBBI fonts must have a TYPOGRAPHIC_SUBFAMILY_NAME entry on the name table. [code: non-ribbi-lacks-entry]
+
+</details>
+<details>
 <summary>:warning: <b>WARN:</b> Font contains .notdef as first glyph?</summary>
 
 * [com.google.fonts/check/046](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/046)
@@ -218,7 +268,7 @@ Fontbakery version: 0.6.6
 <summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
-* :warning: **WARN** OS/2 xAvgCharWidth is 1132 but it should be 1160 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
+* :warning: **WARN** OS/2 xAvgCharWidth is 1067 but it should be 1095 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
 
 </details>
 <details>
@@ -229,17 +279,10 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
-<summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
+<summary>:zzz: <b>SKIP:</b> Fonts have equal numbers of glyphs?</summary>
 
-* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiExpanded SC' / SUBFAMILY_NAME = 'Thin'
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
-* :zzz: **SKIP** Unfulfilled Conditions: style
+* [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/011)
+* :zzz: **SKIP** Unfulfilled Conditions: stylenames_are_canonical
 
 </details>
 <details>
@@ -267,7 +310,7 @@ Fontbakery version: 0.6.6
 <summary>:zzz: <b>SKIP:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
 
 * [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/095)
-* :zzz: **SKIP** Unfulfilled Conditions: font_metadata, style
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -288,21 +331,14 @@ Fontbakery version: 0.6.6
 <summary>:zzz: <b>SKIP:</b> METADATA.pb font.name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/098)
-* :zzz: **SKIP** Unfulfilled Conditions: style, font_metadata
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
 <summary>:zzz: <b>SKIP:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/099)
-* :zzz: **SKIP** Unfulfilled Conditions: style, font_metadata
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> METADATA.pb font.filename field contains font name in right format?</summary>
-
-* [com.google.fonts/check/100](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/100)
-* :zzz: **SKIP** Unfulfilled Conditions: style
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -425,27 +461,6 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Checking OS/2 fsSelection value.</summary>
-
-* [com.google.fonts/check/129](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/129)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Checking post.italicAngle value.</summary>
-
-* [com.google.fonts/check/130](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/130)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Checking head.macStyle value.</summary>
-
-* [com.google.fonts/check/131](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/131)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
 <summary>:zzz: <b>SKIP:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/153)
@@ -464,55 +479,6 @@ Fontbakery version: 0.6.6
 
 * [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/155)
 * :zzz: **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Font has all mandatory 'name' table entries ?</summary>
-
-* [com.google.fonts/check/156](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/156)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
-* :zzz: **SKIP** Unfulfilled Conditions: style_with_spaces
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check name table: FULL_FONT_NAME entries. </summary>
-
-* [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :zzz: **SKIP** Unfulfilled Conditions: style_with_spaces
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
-
-* [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/161)
-* :zzz: **SKIP** Unfulfilled Conditions: style
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/162](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/162)
-* :zzz: **SKIP** Unfulfilled Conditions: style_with_spaces
 
 </details>
 <details>
@@ -591,12 +557,12 @@ Fontbakery version: 0.6.6
 * [com.google.fonts/check/054](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/054)
 * :information_source: **INFO** Hinting filesize impact:
 
-|  | fonts/encodesanssemiexpanded_sc/EncodeSansSemiExpandedSC-VF.ttf |
+|  | fonts/encodesanssc/split_vf/EncodeSansSC-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 156.5kb |
-| Hinted Size | 188.7kb |
-| Increase | 32.1kb |
-| Change   | 20.5 % |
+| Dehinted Size | 155.9kb |
+| Hinted Size | 187.6kb |
+| Increase | 31.7kb |
+| Change   | 20.3 % |
 
 
 </details>
@@ -636,22 +602,8 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [cvt , GSUB, prep, gasp, loca, fpgm, GPOS, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [prep, DSIG, cvt , loca, GSUB, fpgm, GPOS, gasp]
 * :bread: **PASS** Font contains all required tables.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking file is named canonically.</summary>
-
-* [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
-* :bread: **PASS** fonts/encodesanssemiexpanded_sc/EncodeSansSemiExpandedSC-VF.ttf is named canonically.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Fonts have equal numbers of glyphs?</summary>
-
-* [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/011)
-* :bread: **PASS** All font files in this family have an equal total ammount of glyphs.
 
 </details>
 <details>
@@ -680,6 +632,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/019)
 * :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
+* :bread: **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -729,6 +688,44 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/116)
 * :bread: **PASS** Font em size is good (unitsPerEm = 2000).
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking OS/2 fsSelection value.</summary>
+
+* [com.google.fonts/check/129](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/129)
+* :bread: **PASS** OS/2 fsSelection REGULAR bit is properly set.
+* :bread: **PASS** OS/2 fsSelection ITALIC bit is properly set.
+* :bread: **PASS** OS/2 fsSelection BOLD bit is properly set.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking post.italicAngle value.</summary>
+
+* [com.google.fonts/check/130](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/130)
+* :bread: **PASS** Value of post.italicAngle is 0.0 with style='Thin'.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking head.macStyle value.</summary>
+
+* [com.google.fonts/check/131](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/131)
+* :bread: **PASS** head macStyle ITALIC bit is properly set.
+* :bread: **PASS** head macStyle BOLD bit is properly set.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check name table: FULL_FONT_NAME entries. </summary>
+
+* [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
+* :bread: **PASS** FULL_FONT_NAME entries are all good.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
+
+* [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
+* :bread: **PASS** POSTCRIPT_NAME entries are all good.
 
 </details>
 <details>
@@ -949,6 +946,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
+* :bread: **PASS** All name entries are good.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Checking Vertical Metric Linegaps.</summary>
 
 * [com.google.fonts/check/041](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/041)
@@ -1039,5 +1043,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 5 | 50 | 6 | 78 |
-| 0% | 3% | 3% | 35% | 4% | 55% |
+| 0 | 11 | 4 | 44 | 6 | 78 |
+| 0% | 8% | 3% | 31% | 4% | 55% |

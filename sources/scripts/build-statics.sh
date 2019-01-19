@@ -39,15 +39,9 @@ fi
 # ============================================================================
 # Generate Variable Font =====================================================
 
-## this is a hack, to get around current bug in macOS text rendering (see docs/08-QA-beyond-fontbakery-and-glyphs)
-## just decomposing the source, and leaving componentized version as a layer for each master
-## oslashDecompGlyphsSource=${tempGlyphsSource/".glyphs"/"-oslash_decomp.glyphs"}
-## python sources/scripts/helpers/decompose-oslash.py ${tempGlyphsSource}
-
 fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
 ## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
-# fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiCondensed Bold" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 rm -rf $tempGlyphsSource
