@@ -28,22 +28,22 @@ I suggest using a Python virtual environment to build this project. If you've ne
 First, set up a virtual environment with:
 
 ```
-virtualenv -p python3 virtual_env
+virtualenv -p python3 venv
 ```
 
-Here, `virtual_env` will be the name of the virtual environment and of the folder holding its dependencies. You need to activate it with:
+Here, `venv` will be the name of the virtual environment and of the folder holding its dependencies. You need to activate it with:
 
 ```
-source virtual_env/bin/activate
+source venv/bin/activate
 ```
 
 To operate the scripts within this repo, install requirements with:
 
 ```
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
-You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `virtual_env/bin` within this project.
+You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `venv/bin` within this project.
 
 To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
 
