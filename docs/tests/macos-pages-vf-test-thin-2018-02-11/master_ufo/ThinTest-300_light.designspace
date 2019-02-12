@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="900" default="300"/>
+  </axes>
+  <sources>
+    <source filename="ThinTest-300_light-Thin.ufo" name="ThinTest-300_light Thin" familyname="ThinTest-300_light" stylename="Thin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="ThinTest-300_light-Heavy.ufo" name="ThinTest-300_light Heavy" familyname="ThinTest-300_light" stylename="Heavy">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="ThinTest-300_light Light" familyname="ThinTest-300_light" stylename="Light" filename="../instance_ufo/ThinTest-300_light-Light.ufo" stylemapfamilyname="ThinTest-300_light Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="ThinTest-300_light Regular" familyname="ThinTest-300_light" stylename="Regular" filename="../instance_ufo/ThinTest-300_light-Regular.ufo" stylemapfamilyname="ThinTest-300_light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="ThinTest-300_light Heavy" familyname="ThinTest-300_light" stylename="Heavy" filename="../instance_ufo/ThinTest-300_light-Heavy.ufo" stylemapfamilyname="ThinTest-300_light Heavy" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

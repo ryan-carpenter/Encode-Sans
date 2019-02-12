@@ -137,6 +137,8 @@ Encode Sans Cond Bold is seemingly impossible to delete, at least with methods G
 
 ![](assets/2018-12-10-17-54-05.png)
 
+**UPDATE:** I can delete fonts on Windows (at least this time) by [rebooting in Safe Mode](https://support.microsoft.com/en-us/help/12376/windows-10-start-your-pc-in-safe-mode), then deleting there and restarting.
+
 This does, however, point to the need to shorten names, so they don't overflow the MS Word font menu width. I've abbreviated names in the NAME table, and things are (somewhat improved):
 
 ![](assets/2018-12-10-18-19-26.png)

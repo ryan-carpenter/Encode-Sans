@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="R" format="2">
+  <outline>
+    <contour>
+      <point x="523.0" y="590.0" type="line"/>
+      <point x="396.0" y="700.0" type="line"/>
+      <point x="87.0" y="700.0" type="line"/>
+      <point x="87.0" y="0.0" type="line"/>
+      <point x="396.0" y="0.0" type="line"/>
+      <point x="523.0" y="110.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="392.0" y="8.0" type="line"/>
+      <point x="96.0" y="8.0" type="line"/>
+      <point x="96.0" y="690.0" type="line"/>
+      <point x="393.0" y="690.0" type="line"/>
+      <point x="514.0" y="585.0" type="line"/>
+      <point x="514.0" y="113.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
