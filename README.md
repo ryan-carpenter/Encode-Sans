@@ -86,9 +86,13 @@ sources/scripts/build-split-vf.sh <flag>
 ```
 
 `--condensed` or `-c` to build the Condensed split VF (and its smallcap sibling)
+
 `--semicondensed` or `-sc` to build the SemiCondensed split VF (and its smallcap sibling)
+
 `--normal` or `-n` to build the normal-width split VF (and its smallcap sibling)
+
 `--semiexpanded` or `-se` to build the SemiExpanded split VF (and its smallcap sibling)
+
 `--expanded` or `-e` to build the Expanded split VF (and its smallcap sibling)
 
 (Thanks to [@mjlagattuta](https://github.com/mjlagattuta)) for coming up with the way to add flags, and to [@jonalmeida](https://github.com/jonalmeida) for writing [such a good blog post about it](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/)).
