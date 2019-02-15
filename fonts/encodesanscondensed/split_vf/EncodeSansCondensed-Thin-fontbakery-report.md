@@ -201,13 +201,6 @@ Fontbakery version: 0.6.10
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
-* :fire: **FAIL** OS/2 usWeightClass expected value for 'Thin' is 250 but this font has 400.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
 
 * [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
@@ -254,13 +247,6 @@ Fontbakery version: 0.6.10
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
 * :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans Condensed Thin") does not match name table entry "Encode Sans Cond Lght" ! [code: fullname-mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
-* :fire: **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (100:"Thin").
 
 </details>
 <details>
@@ -316,7 +302,7 @@ Fontbakery version: 0.6.10
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni20BA, r.sc, germandbls.sc, uni20A9.tf, notequal.tosf, uni20A9, uni20A6.tf, uni1E9E, ae, uni1E5B.sc, Oslash, uni2113, Aringacute, uni20BF.tf, numbersign.tf, uni20B1, uni20BA.tf, uni20BF, oe, uni20BD.tf, colonmonetary, uni1E5F.sc, uni00B5.tf, uni20AD.tf, lira, uni20B9, tbar, uni03BC.tf, ae.sc, Euro, racute.sc, colonmonetary.tf, uni20BD, yen, Euro.tf, uni00B5, Aring, aeacute, oslashacute.sc, notequal, uni03BC, uni20B9.tf, rcaron.sc, hbar.sc, AEacute, uni0213.sc, Oslashacute, oslash.sc, yen.tf, AE, perthousand.tf, numbersign, uni0211.sc, .notdef, lira.tf, notequal.osf, notequal.tf, uni20A6, uni20B1.tf, aeacute.sc, uni20AD, Hbar]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni00B5.tf, uni20B9, Oslash, uni20BD, hbar.sc, tbar, uni2113, colonmonetary.tf, uni00B5, colonmonetary, uni0211.sc, uni20A9, uni20AD, Euro.tf, uni03BC.tf, ae.sc, uni1E5B.sc, yen.tf, .notdef, uni20BA, AE, uni20AD.tf, rcaron.sc, aeacute, notequal, Oslashacute, uni20B1, uni20B1.tf, racute.sc, AEacute, uni20A6, uni1E5F.sc, uni20BA.tf, uni20BD.tf, uni20BF.tf, yen, oslash.sc, oslashacute.sc, r.sc, numbersign, uni03BC, uni20A9.tf, uni20A6.tf, Aring, Hbar, uni1E9E, lira.tf, aeacute.sc, Aringacute, germandbls.sc, notequal.tosf, perthousand.tf, numbersign.tf, uni20BF, lira, uni20B9.tf, notequal.tf, oe, notequal.osf, ae, uni0213.sc, Euro]
 
 </details>
 <details>
@@ -444,8 +430,8 @@ Fontbakery version: 0.6.10
 
 |  | fonts/encodesanscondensed/split_vf/EncodeSansCondensed-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 208.9kb |
-| Hinted Size | 207.9kb |
+| Dehinted Size | 209.1kb |
+| Hinted Size | 208.1kb |
 | Increase | -1008 bytes |
 | Change   | -0.5 % |
 
@@ -478,7 +464,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [GSUB, DSIG, loca, GPOS]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -508,6 +494,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/019)
 * :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
+* :bread: **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -643,6 +636,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/111](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/111)
 * :bread: **PASS** Font weight has a canonical value.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
+
+* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
+* :bread: **PASS** OS/2 usWeightClass matches weight specified at METADATA.pb
 
 </details>
 <details>
@@ -1033,5 +1033,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 17 | 6 | 17 | 6 | 96 |
-| 0% | 12% | 4% | 12% | 4% | 68% |
+| 0 | 15 | 6 | 17 | 6 | 98 |
+| 0% | 11% | 4% | 12% | 4% | 69% |

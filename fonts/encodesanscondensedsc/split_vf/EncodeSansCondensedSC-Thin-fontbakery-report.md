@@ -208,13 +208,6 @@ Fontbakery version: 0.6.10
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
-* :fire: **FAIL** OS/2 usWeightClass expected value for 'Thin' is 250 but this font has 400.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
 
 * [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
@@ -296,13 +289,6 @@ Fontbakery version: 0.6.10
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
 * :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SC Condensed Thin") does not match name table entry "Encode Sans Cond Lght SC Reg" ! [code: fullname-mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
-* :fire: **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (100:"Thin").
 
 </details>
 <details>
@@ -524,9 +510,9 @@ Fontbakery version: 0.6.10
 
 |  | fonts/encodesanscondensedsc/split_vf/EncodeSansCondensedSC-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 155.1kb |
-| Hinted Size | 154.3kb |
-| Increase | -844 bytes |
+| Dehinted Size | 155.3kb |
+| Hinted Size | 154.5kb |
+| Increase | -840 bytes |
 | Change   | -0.5 % |
 
 
@@ -558,7 +544,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, loca, GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -588,6 +574,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/019)
 * :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
+* :bread: **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -681,6 +674,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/111](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/111)
 * :bread: **PASS** Font weight has a canonical value.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
+
+* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
+* :bread: **PASS** OS/2 usWeightClass matches weight specified at METADATA.pb
 
 </details>
 <details>
@@ -1029,5 +1029,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 24 | 6 | 22 | 6 | 83 |
-| 1% | 17% | 4% | 15% | 4% | 58% |
+| 1 | 22 | 6 | 22 | 6 | 85 |
+| 1% | 15% | 4% | 15% | 4% | 60% |

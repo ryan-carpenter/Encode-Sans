@@ -64,7 +64,7 @@ The `-R` applies your permission to each of the shell scripts in the directory, 
 You can then build sources by running shell scripts in `sources/scripts/`.
 
 ```
-sources/scripts/build.sh [OPTIONS]
+sources/scripts/build.sh <flag>
 ```
 
 Add one of the are the following flags to build the fonts:
@@ -76,6 +76,20 @@ Add one of the are the following flags to build the fonts:
 `--full` or `-f` to build the one full variable font, with weight & width axes
 
 `--all` or `-a` to build all of the fonts and take a coffee break.
+
+### Building Split VFs
+
+If you want to build only a specific "split width" variable font, you can build this with:
+
+```
+sources/scripts/build-split-vf.sh <flag>
+```
+
+`--condensed` or `-c` to build the Condensed split VF (and its smallcap sibling)
+`--semicondensed` or `-sc` to build the SemiCondensed split VF (and its smallcap sibling)
+`--normal` or `-n` to build the normal-width split VF (and its smallcap sibling)
+`--semiexpanded` or `-se` to build the SemiExpanded split VF (and its smallcap sibling)
+`--expanded` or `-e` to build the Expanded split VF (and its smallcap sibling)
 
 (Thanks to [@mjlagattuta](https://github.com/mjlagattuta)) for coming up with the way to add flags, and to [@jonalmeida](https://github.com/jonalmeida) for writing [such a good blog post about it](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/)).
 
