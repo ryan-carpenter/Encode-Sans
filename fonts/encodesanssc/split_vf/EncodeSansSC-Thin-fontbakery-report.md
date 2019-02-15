@@ -1,9 +1,9 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.6
+Fontbakery version: 0.6.10
 
 <details>
-<summary><b>[25] Family checks</b></summary>
+<summary><b>[26] Family checks</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
 
@@ -15,8 +15,8 @@ Fontbakery version: 0.6.6
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.6)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.6 (latest)
+* :information_source: **INFO** fontbakery (0.6.10)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.10 (latest)
 
 * :bread: **PASS** Font Bakery is up-to-date
 
@@ -89,6 +89,13 @@ Fontbakery version: 0.6.6
 
 * [com.google.fonts/check/089](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/089)
 * :bread: **PASS** METADATA.pb: Family name is the same in all metadata "fonts" items.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> All tabular figures must have the same width across the RIBBI-family.</summary>
+
+* [com.google.fonts/check/tnum_horizontal_metrics](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/tnum_horizontal_metrics)
+* :bread: **PASS** OK
 
 </details>
 <details>
@@ -185,7 +192,14 @@ Fontbakery version: 0.6.6
 <br>
 </details>
 <details>
-<summary><b>[118] EncodeSansSC-Thin.ttf</b></summary>
+<summary><b>[116] EncodeSansSC-Thin.ttf</b></summary>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:github_gfonts_ttFont> had an error: TypeError: argument of type 'NoneType' is not iterable
+
+</details>
 <details>
 <summary>:fire: <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -208,10 +222,10 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Font has old ttfautohint applied?</summary>
+<summary>:fire: <b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
 
-* [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/056)
-* :fire: **FAIL** Failed to parse ttfautohint version values: installed = '1.8.2'; used_in_font = '1.8.1.43-b0c9' [code: parse-error]
+* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
+* :fire: **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
 
 </details>
 <details>
@@ -233,14 +247,21 @@ Fontbakery version: 0.6.6
 <summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans SC Thin' but got 'Encode Sans SC'.
+* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans SC Thin' but got 'Encode Sans Light SC'.
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
+<summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
-* [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
-* :fire: **FAIL** Entry [FONT_SUBFAMILY_NAME(2):WINDOWS(3)] on the 'name' table: Expected 'Regular' but got 'Thin'. [code: bad-familyname]
+* [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans SC Thin' but got 'Encode Sans Lght SC Reg'.
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
+
+* [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
+* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansSC-Thin' but got 'EncodeSansSC-Lght'.
 
 </details>
 <details>
@@ -258,6 +279,20 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/072)
+* :fire: **FAIL** 'prep' table does not contain TrueType  instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the  `gftools fix-nonhinting` script.
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
+
+* [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Light SC') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Lght SC Reg') [code: does-not]
+
+</details>
+<details>
 <summary>:warning: <b>WARN:</b> Font contains .notdef as first glyph?</summary>
 
 * [com.google.fonts/check/046](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/046)
@@ -268,7 +303,7 @@ Fontbakery version: 0.6.6
 <summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
 
 * [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
-* :warning: **WARN** OS/2 xAvgCharWidth is 1067 but it should be 1095 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font
+* :warning: **WARN** OS/2 xAvgCharWidth is 1067 but it should be 1095 which corresponds to the average of the widths of all glyphs in the font.
 
 </details>
 <details>
@@ -279,10 +314,24 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
+<summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Light SC' / SUBFAMILY_NAME = 'Regular'
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> Fonts have equal numbers of glyphs?</summary>
 
 * [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/011)
 * :zzz: **SKIP** Unfulfilled Conditions: stylenames_are_canonical
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Font has ttfautohint params? </summary>
+
+* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/has_ttfautohint_params)
+* :zzz: **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
 <details>
@@ -440,23 +489,9 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
-
-</details>
-<details>
 <summary>:zzz: <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> TTFAutohint x-height increase value is same as in previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/119](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/119)
 * :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
 
 </details>
@@ -559,11 +594,18 @@ Fontbakery version: 0.6.6
 
 |  | fonts/encodesanssc/split_vf/EncodeSansSC-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 155.9kb |
-| Hinted Size | 187.6kb |
-| Increase | 31.7kb |
-| Change   | 20.3 % |
+| Dehinted Size | 157.2kb |
+| Hinted Size | 156.3kb |
+| Increase | -904 bytes |
+| Change   | -0.6 % |
 
+
+</details>
+<details>
+<summary>:information_source: <b>INFO:</b> Font has old ttfautohint applied?</summary>
+
+* [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/056)
+* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 3.000']
 
 </details>
 <details>
@@ -574,26 +616,10 @@ Fontbakery version: 0.6.6
 
 </details>
 <details>
-<summary>:information_source: <b>INFO:</b> Is 'gasp' table set to optimize rendering?</summary>
-
-* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
-* :information_source: **INFO** These are the ppm ranges declared on the gasp table:
-
-PPM <= 65535:
-	flag = 0x0F
-	- Use gridfitting
-	- Use grayscale rendering
-	- Use gridfitting with ClearType symmetric smoothing
-	- Use smoothing along multiple axes with ClearType®
-
-* :bread: **PASS** 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
-* :information_source: **INFO** Version string is: "Version 3.000; ttfautohint (v1.8.1.43-b0c9) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a nnn -X """
+* :information_source: **INFO** Version string is: "Version 3.000"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -602,7 +628,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [prep, DSIG, cvt , loca, GSUB, fpgm, GPOS, gasp]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, loca, GSUB, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -653,13 +679,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/055)
 * :bread: **PASS** Version format in NAME table entries is correct.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Font has ttfautohint params? </summary>
-
-* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/has_ttfautohint_params)
-* :bread: **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 9 -D latn -f none -a nnn -X "")
 
 </details>
 <details>
@@ -715,17 +734,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Check name table: FULL_FONT_NAME entries. </summary>
+<summary>:bread: <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
-* [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :bread: **PASS** FULL_FONT_NAME entries are all good.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
-
-* [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
-* :bread: **PASS** POSTCRIPT_NAME entries are all good.
+* [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
+* :bread: **PASS** FONT_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -768,13 +780,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/042](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/042)
 * :bread: **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/072)
-* :bread: **PASS** 'prep' table contains instructions enabling smart dropout control.
 
 </details>
 <details>
@@ -876,13 +881,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Check glyphs have unique unicode codepoints.</summary>
-
-* [com.google.fonts/check/076](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/076)
-* :bread: **PASS** All glyphs have unique unicode codepoint assignments.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Check all glyphs have codepoints assigned.</summary>
 
 * [com.google.fonts/check/077](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/077)
@@ -932,24 +930,10 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Does full font name begin with the font family name?</summary>
-
-* [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
-* :bread: **PASS** Full font name begins with the font family name.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font follows the family naming recommendations?</summary>
 
 * [com.google.fonts/check/071](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/071)
 * :bread: **PASS** Font follows the family naming recommendations.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :bread: **PASS** All name entries are good.
 
 </details>
 <details>
@@ -1043,5 +1027,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 4 | 44 | 6 | 78 |
-| 0% | 8% | 3% | 31% | 4% | 55% |
+| 1 | 14 | 5 | 43 | 6 | 73 |
+| 1% | 10% | 4% | 30% | 4% | 51% |
