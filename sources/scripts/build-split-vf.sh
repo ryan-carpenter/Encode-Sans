@@ -125,8 +125,8 @@ if [ -f "$file" ]; then
     rm -rf $ttxPath
 
     ## Marc's solution to fix VF metadata
-    gftools fix-vf-meta $file
-    mv "$file.fix" $file
+    # gftools fix-vf-meta $file
+    # mv "$file.fix" $file
 fi
 done
 
