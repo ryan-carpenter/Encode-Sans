@@ -232,21 +232,14 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
 * [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/092)
-* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Expanded Light SC" while METADATA.pb has "Encode Sans Expanded SC" [code: mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
-* :fire: **FAIL** Unmatched postscript name in font: TTF has "EncodeSansExpdSC-Lght" while METADATA.pb has "EncodeSansExpdSC-Thin". [code: mismatch]
+* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Expanded Thin SC" while METADATA.pb has "Encode Sans Expanded SC" [code: mismatch]
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/094)
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Expd Lght SC Reg" while METADATA.pb has "Encode Sans Expanded SC Thin". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Expd Thin SC Reg" while METADATA.pb has "Encode Sans Expanded SC Thin". [code: mismatch]
 
 </details>
 <details>
@@ -274,14 +267,14 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/101)
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansExpdSC-Thin") does not match correct font name format ("Encode Sans Expanded Light SC").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansExpdSC-Thin") does not match correct font name format ("Encode Sans Expanded Thin SC").
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans Expanded SC Thin") does not match name table entry "Encode Sans Expd Lght SC Reg" ! [code: fullname-mismatch]
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans Expanded SC Thin") does not match name table entry "Encode Sans Expd Thin SC Reg" ! [code: fullname-mismatch]
 
 </details>
 <details>
@@ -296,21 +289,21 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded SC Thin' but got 'Encode Sans Expanded Light SC'.
+* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded SC Thin' but got 'Encode Sans Expanded Thin SC'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded SC Thin' but got 'Encode Sans Expd Lght SC Reg'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded SC Thin' but got 'Encode Sans Expd Thin SC Reg'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
 
 * [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
-* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansExpandedSC-Thin' but got 'EncodeSansExpdSC-Lght'.
+* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansExpandedSC-Thin' but got 'EncodeSansExpdSC-Thin'.
 
 </details>
 <details>
@@ -338,7 +331,7 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Expanded Light SC') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Expd Lght SC Reg') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Expanded Thin SC') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Expd Thin SC Reg') [code: does-not]
 
 </details>
 <details>
@@ -373,7 +366,7 @@ Fontbakery version: 0.6.10
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Expanded Light SC' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Expanded Thin SC' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -537,7 +530,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, GSUB, loca]
+* :information_source: **INFO** This font contains the following optional tables [loca, DSIG, GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -609,6 +602,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/074](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/074)
 * :bread: **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
+* :bread: **PASS** Postscript name "EncodeSansExpdSC-Thin" is identical in METADATA.pb and on the TTF file.
 
 </details>
 <details>
@@ -1029,5 +1029,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 21 | 6 | 22 | 6 | 86 |
-| 1% | 15% | 4% | 15% | 4% | 61% |
+| 1 | 20 | 6 | 22 | 6 | 87 |
+| 1% | 14% | 4% | 15% | 4% | 61% |

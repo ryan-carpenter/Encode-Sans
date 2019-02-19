@@ -15,7 +15,8 @@ Fontbakery version: 0.6.10
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.10)  - Well designed Font QA tool, written in Python 3
+* :information_source: **INFO** Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x101bbfd30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /pypi
+fontbakery (0.6.10)  - Well designed Font QA tool, written in Python 3
   INSTALLED: 0.6.10 (latest)
 
 * :bread: **PASS** Font Bakery is up-to-date
@@ -194,6 +195,13 @@ Fontbakery version: 0.6.10
 <details>
 <summary><b>[116] EncodeSansSemiCondensed-Thin.ttf</b></summary>
 <details>
+<summary>:broken_heart: <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:github_gfonts_ttFont> had an error: TypeError: argument of type 'NoneType' is not iterable
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
@@ -208,17 +216,10 @@ Fontbakery version: 0.6.10
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
-* :fire: **FAIL** Unmatched postscript name in font: TTF has "EncodeSansSemiCond-Lght" while METADATA.pb has "EncodeSansSemiCond-Thin". [code: mismatch]
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/094)
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans SemiCond Lght" while METADATA.pb has "Encode Sans SemiCondensed Thin". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans SemiCond Thin" while METADATA.pb has "Encode Sans SemiCondensed Thin". [code: mismatch]
 
 </details>
 <details>
@@ -239,35 +240,35 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/101)
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiCond-Thin") does not match correct font name format ("Encode Sans SemiCondensed Light").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiCond-Thin") does not match correct font name format ("Encode Sans SemiCondensed Thin").
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiCondensed Thin") does not match name table entry "Encode Sans SemiCond Lght" ! [code: fullname-mismatch]
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiCondensed Thin") does not match name table entry "Encode Sans SemiCond Thin" ! [code: fullname-mismatch]
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed Thin' but got 'Encode Sans SemiCondensed Light'.
+* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed Thin' but got 'Encode Sans SemiCondensed Thin'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed Thin' but got 'Encode Sans SemiCond Lght'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed Thin' but got 'Encode Sans SemiCond Thin'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
 
 * [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
-* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansSemiCondensed-Thin' but got 'EncodeSansSemiCond-Lght'.
+* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansSemiCondensed-Thin' but got 'EncodeSansSemiCond-Thin'.
 
 </details>
 <details>
@@ -275,13 +276,6 @@ Fontbakery version: 0.6.10
 
 * [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/161)
 * :fire: **FAIL** Entry [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Condensed' but got 'Encode Sans SemiCondensed'. [code: non-ribbi-bad-value]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/162](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/162)
-* :fire: **FAIL** Entry [TYPOGRAPHIC_SUBFAMILY_NAME(17):WINDOWS(3)] on the 'name' table: Expected 'Thin' but got 'Light'. [code: non-ribbi-bad-value]
 
 </details>
 <details>
@@ -295,7 +289,7 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans SemiCondensed Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans SemiCond Lght') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans SemiCondensed Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans SemiCond Thin') [code: does-not]
 
 </details>
 <details>
@@ -316,7 +310,7 @@ Fontbakery version: 0.6.10
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiCondensed Light' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiCondensed Thin' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -357,13 +351,6 @@ Fontbakery version: 0.6.10
 
 * [com.google.fonts/check/106](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/106)
 * :zzz: **SKIP** This check only applies to italic fonts.
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
 
 </details>
 <details>
@@ -451,7 +438,7 @@ Fontbakery version: 0.6.10
 
 |  | fonts/encodesanssemicondensed/split_vf/EncodeSansSemiCondensed-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 210.9kb |
+| Dehinted Size | 210.8kb |
 | Hinted Size | 209.7kb |
 | Increase | -1152 bytes |
 | Change   | -0.5 % |
@@ -485,7 +472,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, loca, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, GSUB, GPOS, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -578,6 +565,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/092)
 * :bread: **PASS** Family name "Encode Sans SemiCondensed" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
+* :bread: **PASS** Postscript name "EncodeSansSemiCond-Thin" is identical in METADATA.pb and on the TTF file.
 
 </details>
 <details>
@@ -730,6 +724,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
 * :bread: **PASS** FONT_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/162](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/162)
+* :bread: **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -1033,5 +1034,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 16 | 6 | 20 | 6 | 94 |
-| 0% | 11% | 4% | 14% | 4% | 66% |
+| 1 | 14 | 6 | 19 | 6 | 96 |
+| 1% | 10% | 4% | 13% | 4% | 68% |

@@ -208,17 +208,10 @@ Fontbakery version: 0.6.10
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
-* :fire: **FAIL** Unmatched postscript name in font: TTF has "EncodeSansExpd-Lght" while METADATA.pb has "EncodeSansExpd-Thin". [code: mismatch]
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/094)
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Expd Lght" while METADATA.pb has "Encode Sans Expanded Thin". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Expd Thin" while METADATA.pb has "Encode Sans Expanded Thin". [code: mismatch]
 
 </details>
 <details>
@@ -239,42 +232,28 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/101)
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansExpd-Thin") does not match correct font name format ("Encode Sans Expanded Light").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansExpd-Thin") does not match correct font name format ("Encode Sans Expanded Thin").
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans Expanded Thin") does not match name table entry "Encode Sans Expd Lght" ! [code: fullname-mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded Thin' but got 'Encode Sans Expanded Light'.
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans Expanded Thin") does not match name table entry "Encode Sans Expd Thin" ! [code: fullname-mismatch]
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded Thin' but got 'Encode Sans Expd Lght'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Expanded Thin' but got 'Encode Sans Expd Thin'.
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
 
 * [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
-* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansExpanded-Thin' but got 'EncodeSansExpd-Lght'.
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/162](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/162)
-* :fire: **FAIL** Entry [TYPOGRAPHIC_SUBFAMILY_NAME(17):WINDOWS(3)] on the 'name' table: Expected 'Thin' but got 'Light'. [code: non-ribbi-bad-value]
+* :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansExpanded-Thin' but got 'EncodeSansExpd-Thin'.
 
 </details>
 <details>
@@ -288,7 +267,7 @@ Fontbakery version: 0.6.10
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Expanded Light') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Expd Lght') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Expanded Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Expd Thin') [code: does-not]
 
 </details>
 <details>
@@ -302,7 +281,7 @@ Fontbakery version: 0.6.10
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [uni20BF, hbar.sc, uni2113, uni20A6, oe, AE, uni20BF.tf, Hbar, oslashacute.sc, uni00B5, oslash.sc, yen, Euro.tf, yen.tf, uni20BA.tf, uni00B5.tf, uni20BA, Aringacute, uni20BD.tf, uni20B1.tf, tbar, numbersign.tf, Rcaron, uni20A9, uni20B9, uni20AD, colonmonetary, notequal.tosf, notequal.tf, uni1E9E, Euro, Aring, notequal.osf, lira.tf, Oslashacute, uni20BD, AEacute, germandbls.sc, uni20B9.tf, uni03BC.tf, perthousand.tf, onequarter, uni20AD.tf, colonmonetary.tf, notequal, uni20B1, uni03BC, numbersign, ae, uni20A9.tf, Oslash, lira, .notdef, uni20A6.tf, aeacute]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [colonmonetary, notequal.tosf, AEacute, uni20A9, notequal.osf, germandbls.sc, tbar, uni20BA.tf, Euro, yen.tf, uni20BF, uni00B5, yen, uni00B5.tf, oslashacute.sc, numbersign.tf, notequal, Aringacute, uni2113, onequarter, Aring, uni20BF.tf, oe, uni20B9.tf, uni20A9.tf, uni20BA, uni20B9, perthousand.tf, lira.tf, uni03BC.tf, Oslash, ae, uni20A6, .notdef, oslash.sc, colonmonetary.tf, Rcaron, numbersign, uni20B1, Hbar, uni20BD, uni20AD, uni03BC, uni20AD.tf, AE, uni20BD.tf, Euro.tf, uni1E9E, uni20B1.tf, Oslashacute, lira, notequal.tf, aeacute, hbar.sc, uni20A6.tf]
 
 </details>
 <details>
@@ -316,7 +295,7 @@ Fontbakery version: 0.6.10
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Expanded Light' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Expanded Thin' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -432,7 +411,7 @@ Fontbakery version: 0.6.10
 |:--- | ---:|
 | Dehinted Size | 211.6kb |
 | Hinted Size | 210.5kb |
-| Increase | -1172 bytes |
+| Increase | -1168 bytes |
 | Change   | -0.5 % |
 
 
@@ -464,7 +443,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, loca, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [loca, GSUB, GPOS, DSIG]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -557,6 +536,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/092)
 * :bread: **PASS** Family name "Encode Sans Expanded" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
+* :bread: **PASS** Postscript name "EncodeSansExpd-Thin" is identical in METADATA.pb and on the TTF file.
 
 </details>
 <details>
@@ -719,6 +705,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
+* :bread: **PASS** FONT_FAMILY_NAME entries are all good.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
@@ -730,6 +723,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/161)
 * :bread: **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/162](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/162)
+* :bread: **PASS** TYPOGRAPHIC_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -1033,5 +1033,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 15 | 6 | 17 | 6 | 98 |
-| 0% | 11% | 4% | 12% | 4% | 69% |
+| 0 | 12 | 6 | 17 | 6 | 101 |
+| 0% | 8% | 4% | 12% | 4% | 71% |

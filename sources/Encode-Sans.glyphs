@@ -1,5 +1,5 @@
 {
-.appVersion = "1204";
+.appVersion = "1209";
 classes = (
 {
 automatic = 1;
@@ -1358,6 +1358,7 @@ alignmentZones = (
 );
 ascender = 1616;
 capHeight = 1480;
+custom = Thin;
 customParameters = (
 {
 name = typoAscender;
@@ -1443,7 +1444,9 @@ horizontalStems = (
 66,
 66
 );
+iconName = Light_Condensed;
 id = "ECFF4977-BDCC-4836-B4AC-1801CF0EB460";
+name = "Thin Condensed";
 userData = {
 angle = 0;
 height = 32;
@@ -1455,7 +1458,6 @@ verticalStems = (
 72,
 72
 );
-weight = Light;
 weightValue = 34;
 width = Condensed;
 widthValue = 0;
@@ -1572,7 +1574,7 @@ alignmentZones = (
 );
 ascender = 1616;
 capHeight = 1480;
-custom = Expanded;
+custom = "Thin Expanded";
 customParameters = (
 {
 name = typoAscender;
@@ -1653,7 +1655,6 @@ verticalStems = (
 72,
 72
 );
-weight = Light;
 weightValue = 34;
 widthValue = 1000;
 xHeight = 1080;

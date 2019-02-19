@@ -1,4 +1,4 @@
-#MenuTitle: Split-up Weight-VF Sources, Encode Sans
+# MenuTitle: Split-up Weight-VF Sources, Encode Sans
 # -*- coding: utf-8 -*-
 """
     Makes a copy of a GlyphsApp source, with adjustments to designspace by:
@@ -27,11 +27,14 @@ for instance in sourceFont.instances:
     if width not in widthsDict:
         # make a key for the width, and add the name of that width
         try:
-            widthsDict[width] = instance.customParameters["familyName"].replace("Encode Sans ","")
+            widthsDict[width] = instance.customParameters["familyName"].replace(
+                "Encode Sans ", "")
         except AttributeError:
             widthsDict[width] = "normal"
 
 # runs once per width family to save a new, split source
+
+
 def splitGlyphsSource(widthValue, widthName):
 
     Glyphs.open(sourcePath)
@@ -52,8 +55,6 @@ def splitGlyphsSource(widthValue, widthName):
         print(instanceIndex)
         del font.instances[instanceIndex]
 
-
-
     # ============================================================================
     # make masters from instance designspace corners =============================
 
@@ -65,14 +66,18 @@ def splitGlyphsSource(widthValue, widthName):
         instanceFontMasterID = instanceFont.masters[0].id
 
         font.masters.append(instanceFont.masters[0])
-        newMasterID = instanceFontMasterID # these are the same; copying for clarity below
+        # these are the same; copying for clarity below
+        newMasterID = instanceFontMasterID
 
         print("\n=================================")
-        print("Instance Weight: " + str(font.instances[instanceIndex].weightValue))
+        print("Instance Weight: " +
+              str(font.instances[instanceIndex].weightValue))
 
         # copy glyphs from instance font to new master
-        for index,glyph in enumerate(font.glyphs): # (you can use font.glyphs()[:10] to do the first 10 glyphs only while making/testing script)
-            instanceGlyph = instanceFont.glyphs[index] # make variable for glyph of interpolated font
+        # (you can use font.glyphs()[:10] to do the first 10 glyphs only while making/testing script)
+        for index, glyph in enumerate(font.glyphs):
+            # make variable for glyph of interpolated font
+            instanceGlyph = instanceFont.glyphs[index]
             glyph.layers[instanceFontMasterID] = instanceGlyph.layers[instanceFontMasterID]
 
         # bring kerning in from interpolated font # not yet working
@@ -93,7 +98,7 @@ def splitGlyphsSource(widthValue, widthName):
         # round this axis value, because it might interpolate to be very slightly different
         if round(master.axes[widthAxisIndex]) != widthValue:
             mastersToDelete.append(index)
-    
+
     # if len(mastersToDelete) == 2:
     #     mastersToDelete.append(2) # add third master to delete list (it's empty)
     #     mastersToDelete.append(3) # add fourth master to delete list (it's empty)
@@ -112,7 +117,7 @@ def splitGlyphsSource(widthValue, widthName):
     for layer in font["a"].layers:
         print(layer)
 
-    # TODO: sort logic to work in expanded masters ... 
+    # TODO: sort logic to work in expanded masters ...
 
     print(mastersToDelete)
 
@@ -126,7 +131,7 @@ def splitGlyphsSource(widthValue, widthName):
     # Clean up master names
     for master in font.masters:
         if "Light" in master.name or "Thin" in master.name:
-            master.name = "Light"
+            master.name = "Thin"
         if "Bold" in master.name or "Black" in master.name:
             master.name = "Bold"
 
@@ -167,7 +172,6 @@ def splitGlyphsSource(widthValue, widthName):
             for anchor in layer.anchors:
                 anchor.x = round(anchor.x)
                 anchor.y = round(anchor.y)
-        
 
     # ============================================================================
     # save as "build" file =======================================================
@@ -177,18 +181,20 @@ def splitGlyphsSource(widthValue, widthName):
 
     fontPath = font.filepath
 
-    if buildreadyFolder not in fontPath:    
-        fontPathHead = os.path.split(fontPath)[0] # file folder
-        fontPathTail = os.path.split(fontPath)[1] # file name
+    if buildreadyFolder not in fontPath:
+        fontPathHead = os.path.split(fontPath)[0]  # file folder
+        fontPathTail = os.path.split(fontPath)[1]  # file name
         buildreadyPathHead = fontPathHead + "/" + buildreadyFolder + "/"
 
         if os.path.exists(buildreadyPathHead) == False:
             os.mkdir(buildreadyPathHead)
 
-        buildPath = buildreadyPathHead + fontPathTail.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
+        buildPath = buildreadyPathHead + \
+            fontPathTail.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
 
     else:
-        buildPath = fontPath.replace(".glyphs", "-" + buildreadySuffix + ".glyphs")
+        buildPath = fontPath.replace(
+            ".glyphs", "-" + buildreadySuffix + ".glyphs")
 
     if widthName != "normal":
         print(font.familyName + " " + widthName)
@@ -201,13 +207,14 @@ def splitGlyphsSource(widthValue, widthName):
 
     Glyphs.open(buildPath)
 
+
 # call splitter
 for key in widthsDict:
     print(key)
     print(widthsDict[key])
     splitGlyphsSource(key, widthsDict[key])
 
-## to produce a specific width only, uncomment one (or more) of these
+# to produce a specific width only, uncomment one (or more) of these
 # splitGlyphsSource(1000, "Expanded")
 # splitGlyphsSource(750, "SemiExpanded")
 # splitGlyphsSource(500, "normal")
