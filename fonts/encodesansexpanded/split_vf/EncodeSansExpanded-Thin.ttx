@@ -36,22 +36,22 @@
       Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Condensed Thin
+      Encode Sans Expanded Thin
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      3.000;GOOG;EncodeSansCondensed-Thin
+      3.000;GOOG;EncodeSansExpanded-Thin
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Cond Thin
+      Encode Sans Expd Thin
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version 3.000
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      EncodeSansCond-Thin
+      EncodeSansExpd-Thin
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
       Encode Sans is a trademark of Pablo Impallari.
@@ -75,7 +75,7 @@
       http://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Condensed
+      Encode Sans Expanded
     </namerecord>
     <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
       Thin

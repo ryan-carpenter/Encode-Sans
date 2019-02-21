@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.32">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.37">
 
   <name>
     <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
@@ -36,22 +36,22 @@
       Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Condensed Light
+      Encode Sans Condensed Thin
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      3.000;GOOG;EncodeSansCondensed-Light
+      3.000;GOOG;EncodeSansCondensed-Thin
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Encode Sans Cond Lght
+      Encode Sans Cond Thin
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 3.000
+      Version 3.000; ttfautohint (v1.8.1.43-b0c9) -l 8 -r 50 -G 200 -x 9 -D latn -f none -a nnn -X ""
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      EncodeSansCond-Lght
+      EncodeSansCond-Thin
     </namerecord>
     <namerecord nameID="7" platformID="3" platEncID="1" langID="0x409">
       Encode Sans is a trademark of Pablo Impallari.
@@ -78,7 +78,7 @@
       Encode Sans Condensed
     </namerecord>
     <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
-      Light
+      Thin
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
       Weight

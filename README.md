@@ -43,7 +43,7 @@ To operate the scripts within this repo, install requirements with:
 pip install --upgrade -r requirements.txt
 ```
 
-You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `venv/bin` within this project.
+**Note on autohinting:** You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `venv/bin` within this project.
 
 To exit out of the virtual environment, you can use the command `deactivate` (just remember to start it up again if you come back).
 
