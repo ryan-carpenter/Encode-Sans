@@ -127,6 +127,10 @@ if [ -f "$file" ]; then
     ## Marc's solution to fix VF metadata
     gftools fix-vf-meta $file
     mv "$file.fix" $file
+
+    ## Marc's solution to fix ppem bit 3
+    gftools fix-hinting $file
+    mv "$file.fix" $file
 fi
 done
 
@@ -164,6 +168,6 @@ for file in variable_ttf/*; do
     fi
 done
 
-rm -rf variable_ttf #comment out to debug
+# rm -rf variable_ttf #comment out to debug
 rm -rf instance_ufo
-rm -rf master_ufo
+# rm -rf master_ufo

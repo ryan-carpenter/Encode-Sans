@@ -1,5 +1,8 @@
 {
 .appVersion = "1209";
+DisplayStrings = (
+"/f_i/f_j/f_l/fi/fl/I_J.loclNLD/i_j.loclNLD"
+);
 classes = (
 {
 automatic = 1;
@@ -7102,7 +7105,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1083, 0}";
 }
 );
@@ -7133,7 +7136,7 @@ width = 2066;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1272, 0}";
 }
 );
@@ -7164,7 +7167,7 @@ width = 2404;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1444, 0}";
 }
 );
@@ -7195,7 +7198,7 @@ width = 2728;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1732, 0}";
 }
 );
@@ -7234,7 +7237,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1083, 0}";
 }
 );
@@ -7269,7 +7272,7 @@ width = 2066;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1272, 0}";
 }
 );
@@ -7304,7 +7307,7 @@ width = 2404;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1444, 0}";
 }
 );
@@ -7335,7 +7338,7 @@ width = 2728;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1732, 0}";
 }
 );
@@ -15584,7 +15587,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{963, 0}";
 }
 );
@@ -15615,7 +15618,7 @@ width = 1286;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1070, 0}";
 }
 );
@@ -15646,7 +15649,7 @@ width = 1604;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1232, 0}";
 }
 );
@@ -15677,7 +15680,7 @@ width = 1664;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1399, 0}";
 }
 );
@@ -16234,7 +16237,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{963, 0}";
 }
 );
@@ -16265,7 +16268,7 @@ width = 1246;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1070, 0}";
 }
 );
@@ -16296,7 +16299,7 @@ width = 1580;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1232, 0}";
 }
 );
@@ -16327,7 +16330,7 @@ width = 1624;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1399, 0}";
 }
 );
@@ -17179,7 +17182,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1242, 0}";
 }
 );
@@ -17210,7 +17213,7 @@ width = 1644;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1354, 0}";
 }
 );
@@ -17241,7 +17244,7 @@ width = 1948;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1593, 0}";
 }
 );
@@ -17272,7 +17275,7 @@ width = 2106;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1770, 0}";
 }
 );
@@ -18079,7 +18082,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1242, 0}";
 }
 );
@@ -18110,7 +18113,7 @@ width = 1604;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1354, 0}";
 }
 );
@@ -18141,7 +18144,7 @@ width = 1924;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1593, 0}";
 }
 );
@@ -18172,7 +18175,7 @@ width = 2066;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1770, 0}";
 }
 );
@@ -39280,7 +39283,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{396, 0}";
 }
 );
@@ -39327,7 +39330,7 @@ width = 792;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{568, 0}";
 }
 );
@@ -39374,7 +39377,7 @@ width = 1136;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{500, 0}";
 }
 );
@@ -39421,7 +39424,7 @@ width = 1000;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{736, 0}";
 }
 );
@@ -46609,7 +46612,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{868, 0}";
 }
 );
@@ -46640,7 +46643,7 @@ width = 1656;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1089, 0}";
 }
 );
@@ -46671,7 +46674,7 @@ width = 1980;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1168, 0}";
 }
 );
@@ -46702,7 +46705,7 @@ width = 2216;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1477, 0}";
 }
 );
@@ -46741,7 +46744,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{868, 0}";
 }
 );
@@ -46776,7 +46779,7 @@ width = 1656;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1089, 0}";
 }
 );
@@ -46807,7 +46810,7 @@ width = 1980;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1168, 0}";
 }
 );
@@ -46838,7 +46841,7 @@ width = 2216;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1477, 0}";
 }
 );
@@ -56581,7 +56584,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{356, 0}";
 }
 );
@@ -56612,7 +56615,7 @@ width = 712;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{543, 0}";
 }
 );
@@ -56643,7 +56646,7 @@ width = 1086;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{460, 0}";
 }
 );
@@ -56674,7 +56677,7 @@ width = 920;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{696, 0}";
 }
 );
@@ -77277,7 +77280,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{356, 0}";
 }
 );
@@ -77324,7 +77327,7 @@ width = 712;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{544, 0}";
 }
 );
@@ -77371,7 +77374,7 @@ width = 1088;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{460, 0}";
 }
 );
@@ -77418,7 +77421,7 @@ width = 920;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{696, 0}";
 }
 );
@@ -78269,7 +78272,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{583, 0}";
 }
 );
@@ -78300,7 +78303,7 @@ width = 918;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{759, 0}";
 }
 );
@@ -78331,7 +78334,7 @@ width = 1284;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{790, 0}";
 }
 );
@@ -78362,7 +78365,7 @@ width = 1232;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{969, 0}";
 }
 );
@@ -78400,7 +78403,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{583, 0}";
 }
 );
@@ -78431,7 +78434,7 @@ width = 918;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{759, 0}";
 }
 );
@@ -78462,7 +78465,7 @@ width = 1284;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{790, 0}";
 }
 );
@@ -78493,7 +78496,7 @@ width = 1232;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{969, 0}";
 }
 );
@@ -78531,7 +78534,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{583, 0}";
 }
 );
@@ -78562,7 +78565,7 @@ width = 918;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{759, 0}";
 }
 );
@@ -78593,7 +78596,7 @@ width = 1282;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{790, 0}";
 }
 );
@@ -78624,7 +78627,7 @@ width = 1232;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{969, 0}";
 }
 );
@@ -78662,7 +78665,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{583, 0}";
 }
 );
@@ -78693,7 +78696,7 @@ width = 918;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{759, 0}";
 }
 );
@@ -78724,7 +78727,7 @@ width = 1284;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{790, 0}";
 }
 );
@@ -78755,7 +78758,7 @@ width = 1232;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{969, 0}";
 }
 );
@@ -78794,7 +78797,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{583, 0}";
 }
 );
@@ -78825,7 +78828,7 @@ width = 918;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{759, 0}";
 }
 );
@@ -78856,7 +78859,7 @@ width = 1282;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{790, 0}";
 }
 );
@@ -78887,7 +78890,7 @@ width = 1232;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{969, 0}";
 }
 );
@@ -78926,7 +78929,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{396, 0}";
 }
 );
@@ -78957,7 +78960,7 @@ width = 792;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{548, 0}";
 }
 );
@@ -78988,7 +78991,7 @@ width = 1136;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{500, 0}";
 }
 );
@@ -79019,7 +79022,7 @@ width = 1000;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{736, 0}";
 }
 );
@@ -79057,7 +79060,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{356, 0}";
 }
 );
@@ -79088,7 +79091,7 @@ width = 712;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{544, 0}";
 }
 );
@@ -79119,7 +79122,7 @@ width = 1088;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{460, 0}";
 }
 );
@@ -79150,7 +79153,7 @@ width = 920;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{696, 0}";
 }
 );
@@ -83932,7 +83935,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{918, 0}";
 }
 );
@@ -83952,7 +83955,7 @@ width = 1836;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1151, 0}";
 }
 );
@@ -83972,7 +83975,7 @@ width = 2170;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1266, 0}";
 }
 );
@@ -83992,7 +83995,7 @@ width = 2392;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1572, 0}";
 }
 );
@@ -84019,7 +84022,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{918, 0}";
 }
 );
@@ -84039,7 +84042,7 @@ width = 1836;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1151, 0}";
 }
 );
@@ -84059,7 +84062,7 @@ width = 2170;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1266, 0}";
 }
 );
@@ -84079,7 +84082,7 @@ width = 2392;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1572, 0}";
 }
 );
@@ -88387,7 +88390,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{400, 0}";
 }
 );
@@ -88415,7 +88418,7 @@ width = 800;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{570, 0}";
 }
 );
@@ -88443,7 +88446,7 @@ width = 1140;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{494, 0}";
 }
 );
@@ -88471,7 +88474,7 @@ width = 1008;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{736, 0}";
 }
 );
@@ -91001,7 +91004,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{400, 0}";
 }
 );
@@ -91021,7 +91024,7 @@ width = 800;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{570, 0}";
 }
 );
@@ -91041,7 +91044,7 @@ width = 1140;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{494, 0}";
 }
 );
@@ -91061,7 +91064,7 @@ width = 1008;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{736, 0}";
 }
 );
@@ -92538,7 +92541,7 @@ layers = (
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1103, 0}";
 }
 );
@@ -92558,7 +92561,7 @@ width = 1526;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1243, 0}";
 }
 );
@@ -92578,7 +92581,7 @@ width = 1826;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1366, 0}";
 }
 );
@@ -92598,7 +92601,7 @@ width = 1952;
 {
 anchors = (
 {
-name = lig_carrot_temp_off_1;
+name = caret_1;
 position = "{1599, 0}";
 }
 );

@@ -201,6 +201,13 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
+* :fire: **FAIL** OS/2 usWeightClass expected value for 'Thin' is 250 but this font has 400.
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
 
 * [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
@@ -271,6 +278,13 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
+
+* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
+* :fire: **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (100:"Thin").
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Font has all mandatory 'name' table entries ?</summary>
 
 * [com.google.fonts/check/156](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/156)
@@ -314,10 +328,16 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> PPEM must be an integer on hinted fonts.</summary>
+<summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
 
-* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
-* :fire: **FAIL** This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into and integer value.
+* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/036)
+* :fire: **FAIL** ots-sanitize returned an error code (1). Output follows:
+
+ERROR: GDEF: bad caret value format: 3
+ERROR: GDEF: Invalid ligature caret list
+ERROR: GDEF: Failed to parse table
+Failed to sanitize file!
+
 
 </details>
 <details>
@@ -490,8 +510,8 @@ Fontbakery version: 0.6.11
 
 |  | fonts/encodesanssemicondensedsc/split_vf/EncodeSansSemiCondensedSC-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 156.8kb |
-| Hinted Size | 188.7kb |
+| Dehinted Size | 156.9kb |
+| Hinted Size | 188.8kb |
 | Increase | 31.9kb |
 | Change   | 20.3 % |
 
@@ -533,7 +553,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [gasp, GPOS, fpgm, cvt , prep, DSIG, loca, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [gasp, fpgm, DSIG, cvt , prep, loca, GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -575,13 +595,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/019)
 * :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
-* :bread: **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -696,13 +709,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/111](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/111)
 * :bread: **PASS** Font weight has a canonical value.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
-* :bread: **PASS** OS/2 usWeightClass matches weight specified at METADATA.pb
 
 </details>
 <details>
@@ -849,17 +855,17 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> PPEM must be an integer on hinted fonts.</summary>
+
+* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
+* :bread: **PASS** OK
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Checking with ftxvalidator.</summary>
 
 * [com.google.fonts/check/035](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/035)
 * :bread: **PASS** ftxvalidator passed this file
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking with ots-sanitize.</summary>
-
-* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/036)
-* :bread: **PASS** ots-sanitize passed this file
 
 </details>
 <details>
@@ -1051,5 +1057,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 20 | 7 | 21 | 7 | 88 |
-| 0% | 14% | 5% | 15% | 5% | 62% |
+| 0 | 22 | 7 | 21 | 7 | 86 |
+| 0% | 15% | 5% | 15% | 5% | 60% |

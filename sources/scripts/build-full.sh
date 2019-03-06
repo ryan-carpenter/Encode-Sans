@@ -179,6 +179,10 @@ if [ -f "$file" ]; then
 
     rm -rf $ttxPath
 
+    ## Marc's solution to fix ppem bit 3
+    gftools fix-hinting $file
+    mv "$file.fix" $file
+
 fi
 done
 

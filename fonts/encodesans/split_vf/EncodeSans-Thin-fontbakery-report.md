@@ -201,6 +201,13 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
+<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
+* :fire: **FAIL** OS/2 usWeightClass expected value for 'Thin' is 250 but this font has 400.
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/056)
@@ -208,10 +215,23 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> PPEM must be an integer on hinted fonts.</summary>
+<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
 
-* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
-* :fire: **FAIL** This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into and integer value.
+* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
+* :fire: **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (100:"Thin").
+
+</details>
+<details>
+<summary>:fire: <b>FAIL:</b> Checking with ots-sanitize.</summary>
+
+* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/036)
+* :fire: **FAIL** ots-sanitize returned an error code (1). Output follows:
+
+ERROR: GDEF: bad caret value format: 3
+ERROR: GDEF: Invalid ligature caret list
+ERROR: GDEF: Failed to parse table
+Failed to sanitize file!
+
 
 </details>
 <details>
@@ -225,7 +245,7 @@ Fontbakery version: 0.6.11
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [lira, notequal.osf, uni20B1.tf, uni20A6.tf, oslash.sc, colonmonetary.tf, uni20A9.tf, uni20AD, oslashacute.sc, Aring, oe, lira.tf, numbersign.tf, .notdef, yen.tf, onequarter, numbersign, uni2113, uni20BF.tf, ae, Oslashacute, aeacute, uni03BC.tf, uni20B9.tf, hbar.sc, uni00B5.tf, germandbls.sc, uni1E9E, uni00B5, aeacute.sc, Aringacute, uni20AD.tf, uni03BC, perthousand.tf, uni20BA.tf, tbar, Euro.tf, uni20BA, notequal.tosf, notequal, uni20BD.tf, uni20A6, Hbar, ae.sc, uni20BD, uni20A9, Euro, uni20B1, yen, uni20B9, uni20BF, notequal.tf, Oslash, colonmonetary]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [lira.tf, ae.sc, uni20B9, lira, Oslash, uni20BD, uni00B5, perthousand.tf, notequal.osf, Aring, Euro.tf, numbersign, yen.tf, onequarter, oslash.sc, uni03BC, uni20B1.tf, uni1E9E, uni20B1, aeacute.sc, uni20BF.tf, notequal.tf, hbar.sc, .notdef, colonmonetary, oslashacute.sc, Euro, aeacute, ae, uni20A6, uni2113, uni20A9, uni20AD.tf, uni03BC.tf, uni20B9.tf, uni20BD.tf, uni20BA.tf, numbersign.tf, Oslashacute, Aringacute, notequal.tosf, uni00B5.tf, notequal, oe, yen, tbar, uni20BA, uni20A9.tf, colonmonetary.tf, Hbar, uni20AD, uni20A6.tf, germandbls.sc, uni20BF]
 
 </details>
 <details>
@@ -260,13 +280,6 @@ Fontbakery version: 0.6.11
 	- j + l
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/064)
-* :warning: **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 
 </details>
 <details>
@@ -347,8 +360,8 @@ Fontbakery version: 0.6.11
 
 |  | fonts/encodesans/split_vf/EncodeSans-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 211.6kb |
-| Hinted Size | 247.4kb |
+| Dehinted Size | 211.7kb |
+| Hinted Size | 247.6kb |
 | Increase | 35.9kb |
 | Change   | 17.0 % |
 
@@ -390,7 +403,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [prep, DSIG, cvt , loca, GSUB, fpgm, gasp, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [DSIG, GPOS, loca, gasp, fpgm, cvt , GSUB, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -420,13 +433,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/019](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/019)
 * :bread: **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
-* :bread: **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -611,13 +617,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/111](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/111)
 * :bread: **PASS** Font weight has a canonical value.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
-* :bread: **PASS** OS/2 usWeightClass matches weight specified at METADATA.pb
 
 </details>
 <details>
@@ -820,17 +819,17 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> PPEM must be an integer on hinted fonts.</summary>
+
+* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
+* :bread: **PASS** OK
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Checking with ftxvalidator.</summary>
 
 * [com.google.fonts/check/035](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/035)
 * :bread: **PASS** ftxvalidator passed this file
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checking with ots-sanitize.</summary>
-
-* [com.google.fonts/check/036](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/036)
-* :bread: **PASS** ots-sanitize passed this file
 
 </details>
 <details>
@@ -995,6 +994,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/064](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/064)
+* :bread: **PASS** Looks good!
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Is there a "kern" table declared in the font?</summary>
 
 * [com.google.fonts/check/066](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/066)
@@ -1050,5 +1056,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 7 | 15 | 6 | 111 |
-| 0% | 3% | 5% | 10% | 4% | 78% |
+| 0 | 6 | 6 | 15 | 6 | 110 |
+| 0% | 4% | 4% | 10% | 4% | 77% |

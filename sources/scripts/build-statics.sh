@@ -41,7 +41,7 @@ fi
 
 fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
-## fontmake -g sources/split/Encode-Sans-fixed_designspace.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
+# fontmake -g sources/Encode-Sans-build.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 rm -rf $tempGlyphsSource
@@ -159,6 +159,10 @@ if [ -f "$file" ]; then
     ## copies temp ttx file back into a new ttf file
     ttx $ttxPath
     rm -rf $ttxPath
+
+    ## Marc's solution to fix ppem bit 3
+    gftools fix-hinting $file
+    mv "$file.fix" $file
 fi
 done
 
