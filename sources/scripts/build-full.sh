@@ -100,7 +100,7 @@ subsetSmallCaps()
     echo "pyftsubset ${SC_FILE} ${subsetGlyphNames} --glyph-names"
 
     # subsetting with subsetGlyphNames list
-    pyftsubset $SC_FILE $subsetGlyphNames --glyph-names
+    pyftsubset --name-IDs='*' $SC_FILE $subsetGlyphNames --glyph-names
 
     # remove feature-frozen font & simplifying name of subset font
 
