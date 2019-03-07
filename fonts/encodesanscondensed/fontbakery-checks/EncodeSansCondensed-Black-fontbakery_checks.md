@@ -260,7 +260,7 @@ Fontbakery version: 0.6.11
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [scedilla, Eogonek, Oslashacute, Hbar, eogonek.sc, .notdef, tbar.sc, iogonek.sc, Dcroat, Scedilla, eth.sc, Tbar, tbar, scedilla.sc, germandbls.sc, lslash, Iogonek, aogonek.sc, oslashacute.sc, uni1E9E, iogonek, oslashacute, Aogonek, oslash.sc, Eth, Oslash, Lslash, hbar, hbar.sc, oslash, dcroat, dcroat.sc, lslash.sc]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [oslashacute, Eogonek, oslash, Lslash, scedilla, Dcroat, tbar.sc, hbar.sc, Tbar, germandbls.sc, iogonek, oslash.sc, aogonek.sc, Oslashacute, lslash, Iogonek, eogonek.sc, lslash.sc, Oslash, Eth, dcroat.sc, dcroat, scedilla.sc, Aogonek, hbar, oslashacute.sc, uni1E9E, Scedilla, Hbar, .notdef, iogonek.sc, eth.sc, tbar]
 
 </details>
 <details>
@@ -482,7 +482,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [fpgm, prep, GPOS, GSUB, gasp, cvt , DSIG, loca]
+* :information_source: **INFO** This font contains the following optional tables [gasp, fpgm, DSIG, GSUB, GPOS, loca, prep, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

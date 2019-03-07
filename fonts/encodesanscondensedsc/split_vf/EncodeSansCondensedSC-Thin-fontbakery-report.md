@@ -5,20 +5,104 @@ Fontbakery version: 0.6.11
 <details>
 <summary><b>[26] Family checks</b></summary>
 <details>
+<summary>:broken_heart: <b>ERROR:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
+
+* [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/081)
+* :broken_heart: **ERROR** The check <FontBakeryCheck:com.google.fonts/check/081> had an error: FailedConditionError: The condition <FontBakeryCondition:listed_on_gfonts_api> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+SC+Condensed (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106176470>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Do we have the latest version of FontBakery installed?</summary>
+
+* [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
+* :broken_heart: **ERROR** Running 'pip search fontbakery' returned an error code. Output follows :
+
+Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b9aeb8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /pypi
+Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b9a358>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /pypi
+Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b9a668>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /pypi
+Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b8cc18>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /pypi
+Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b8cc50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /pypi
+Exception:
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py", line 57, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 839, in _validate_conn
+    conn.connect()
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+pip._vendor.urllib3.exceptions.NewConnectionError: <pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b7b7f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 667, in urlopen
+    **response_kw)
+  [Previous line repeated 2 more times]
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+pip._vendor.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /pypi (Caused by NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b7b7f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 176, in main
+    status = self.run(options, args)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_internal/commands/search.py", line 48, in run
+    pypi_hits = self.search(query, options)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_internal/commands/search.py", line 65, in search
+    hits = pypi.search({'name': query, 'summary': query}, 'or')
+  File "/usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/xmlrpc/client.py", line 1112, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/xmlrpc/client.py", line 1452, in __request
+    verbose=self.__verbose
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_internal/download.py", line 823, in request
+    headers=headers, stream=True)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_internal/download.py", line 403, in request
+    return super(PipSession, self).request(method, url, *args, **kwargs)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/adapter.py", line 53, in send
+    resp = super(CacheControlAdapter, self).send(request, **kw)
+  File "/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/venv/lib/python3.7/site-packages/pip/_vendor/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+pip._vendor.requests.exceptions.ConnectionError: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /pypi (Caused by NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x108b7b7f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+
+* :bread: **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
 
 * [com.google.fonts/check/090](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/090)
 * :fire: **FAIL** This family lacks a Regular (style: normal and weight: 400) as required by Google Fonts standards.
-
-</details>
-<details>
-<summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
-
-* [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.11)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.11 (latest)
-
-* :bread: **PASS** Font Bakery is up-to-date
 
 </details>
 <details>
@@ -182,29 +266,45 @@ Fontbakery version: 0.6.11
 * :zzz: **SKIP** Unfulfilled Conditions: has_regular_style
 
 </details>
-<details>
-<summary>:warning: <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
-
-* [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/081)
-* :warning: **WARN** Family not found via Google Fonts API.
-
-</details>
 <br>
 </details>
 <details>
 <summary><b>[117] EncodeSansCondensedSC-Thin.ttf</b></summary>
 <details>
+<summary>:broken_heart: <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+SC+Condensed (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10841b0b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+SC+Condensed (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10841b0b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Check font has same encoded glyphs as version hosted on fonts.google.com</summary>
+
+* [com.google.fonts/check/154](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/154)
+* :broken_heart: **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: ConnectionError: HTTPConnectionPool(host='fonts.googleapis.com', port=80): Max retries exceeded with url: /css?family=Encode+Sans+SC+Condensed (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10841b0b8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+</details>
+<details>
+<summary>:broken_heart: <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
+
+* [com.google.fonts/check/165](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/165)
+* :broken_heart: **ERROR** Failed to access: 'http://namecheck.fontdata.com/?q=EncodeSansCondensedSC'.
+Please report this issue at:
+https://github.com/googlefonts/fontbakery/issues
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> Checking file is named canonically.</summary>
 
 * [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
 * :fire: **FAIL** Style name used in "fonts/encodesanscondensedsc/split_vf/EncodeSansCondensedSC-Thin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic".
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
-* :fire: **FAIL** OS/2 usWeightClass expected value for 'Thin' is 250 but this font has 400.
 
 </details>
 <details>
@@ -232,14 +332,14 @@ Fontbakery version: 0.6.11
 <summary>:fire: <b>FAIL:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
 * [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/092)
-* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Condensed Thin SC" while METADATA.pb has "Encode Sans SC Condensed" [code: mismatch]
+* :fire: **FAIL** Unmatched family name in font: TTF has "Encode Sans Condensed SC Thin" while METADATA.pb has "Encode Sans SC Condensed" [code: mismatch]
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/094)
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Cond Thin SC Reg" while METADATA.pb has "Encode Sans SC Condensed Thin". [code: mismatch]
+* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans Cond SC Thin" while METADATA.pb has "Encode Sans SC Condensed Thin". [code: mismatch]
 
 </details>
 <details>
@@ -267,7 +367,7 @@ Fontbakery version: 0.6.11
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/101)
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansCondSC-Thin") does not match correct font name format ("Encode Sans Condensed Thin SC").
+* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansCondSC-Thin") does not match correct font name format ("Encode Sans Condensed SC Thin").
 
 </details>
 <details>
@@ -281,14 +381,14 @@ Fontbakery version: 0.6.11
 <summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
 
 * [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SC Condensed Thin") does not match name table entry "Encode Sans Cond Thin SC Reg" ! [code: fullname-mismatch]
+* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SC Condensed Thin") does not match name table entry "Encode Sans Cond SC Thin" ! [code: fullname-mismatch]
 
 </details>
 <details>
 <summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
 
 * [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
-* :fire: **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (100:"Thin").
+* :fire: **FAIL** OS/2 usWeightClass (100:"bad Google Fonts API weight value") does not match weight specified at METADATA.pb (100:"Thin").
 
 </details>
 <details>
@@ -300,17 +400,10 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Condensed SC Thin' but got 'Encode Sans Condensed Thin SC'.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Condensed SC Thin' but got 'Encode Sans Cond Thin SC Reg'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Condensed SC Thin' but got 'Encode Sans Cond SC Thin'.
 
 </details>
 <details>
@@ -351,7 +444,14 @@ Failed to sanitize file!
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Condensed Thin SC') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Cond Thin SC Reg') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Condensed SC Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Cond SC Thin') [code: does-not]
+
+</details>
+<details>
+<summary>:warning: <b>WARN:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
+* :warning: **WARN** {}:{} is OK on TTFs, but OTF files with those values will cause bluring on Windows. GlyphsApp users must set a Instance Custom Parameter for the Thin and ExtraLight styles to 250 and 275, so that if OTFs are exported then it will not blur on Windows.
 
 </details>
 <details>
@@ -386,7 +486,7 @@ Failed to sanitize file!
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Condensed Thin SC' / SUBFAMILY_NAME = 'Regular'
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Condensed SC Thin' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -419,31 +519,10 @@ Failed to sanitize file!
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
-
-* [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
-
-</details>
-<details>
 <summary>:zzz: <b>SKIP:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/153](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/153)
 * :zzz: **SKIP** Unfulfilled Conditions: not is_variable_font
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check font has same encoded glyphs as version hosted on fonts.google.com</summary>
-
-* [com.google.fonts/check/154](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/154)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
 
 </details>
 <details>
@@ -517,8 +596,8 @@ Failed to sanitize file!
 
 |  | fonts/encodesanscondensedsc/split_vf/EncodeSansCondensedSC-Thin.ttf |
 |:--- | ---:|
-| Dehinted Size | 155.5kb |
-| Hinted Size | 188.0kb |
+| Dehinted Size | 155.6kb |
+| Hinted Size | 188.2kb |
 | Increase | 32.6kb |
 | Change   | 20.9 % |
 
@@ -560,7 +639,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [DSIG, cvt , prep, GPOS, loca, fpgm, GSUB, gasp]
+* :information_source: **INFO** This font contains the following optional tables [prep, DSIG, fpgm, cvt , gasp, GSUB, loca, GPOS]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -752,6 +831,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
+* :bread: **PASS** FONT_FAMILY_NAME entries are all good.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
@@ -763,13 +849,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/164](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/164)
 * :bread: **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
-
-* [com.google.fonts/check/165](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/165)
-* :bread: **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -1052,5 +1131,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 23 | 7 | 21 | 6 | 86 |
-| 0% | 16% | 5% | 15% | 4% | 60% |
+| 6 | 21 | 7 | 18 | 5 | 86 |
+| 4% | 15% | 5% | 13% | 3% | 60% |

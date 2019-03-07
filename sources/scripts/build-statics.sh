@@ -1,4 +1,4 @@
-# print each line as it executes. Add -e to stop on the first error, for debugging
+# print each line as it executes. Add -e to stop on the first error, for debugging. Don't leave -e, however, as it stops after the first fontbakery run.
 set -x
 
 ############################################
@@ -41,7 +41,7 @@ fi
 
 fontmake -g ${tempGlyphsSource} --output ttf --interpolate --overlaps-backend booleanOperations
 ## OR to just make one static font, as a test, use:
-# fontmake -g sources/Encode-Sans-build.glyphs -i "Encode Sans SemiExpanded .*" --output ttf --overlaps-backend booleanOperations
+# fontmake -g $tempGlyphsSource -i "Encode Sans SemiExpanded Light.*" --output ttf --overlaps-backend booleanOperations
 
 # clean up temp glyphs file
 rm -rf $tempGlyphsSource
@@ -102,7 +102,7 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     esac 
 
     if [ $subsetSC == true ]; then
-        pyftfeatfreeze.py -f 'smcp' $file $smallCapFile
+        python ./sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' $file $smallCapFile
 
         echo "subsetting smallcap font"
         # subsetting with subsetGlyphNames list

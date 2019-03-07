@@ -2,7 +2,7 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
-# print each line as it executes. Add -e to stop on the first error, for debugging
+# print each line as it executes. Add -e to stop on the first error, for debugging. Don't leave -e, however, as it stops after the first fontbakery run.
 set -x
 
 while [ ! $# -eq 0 ]
@@ -12,26 +12,31 @@ while [ ! $# -eq 0 ]
             glyphsSource="sources/split/Encode-Sans-condensed.glyphs"
             finalLocation="fonts/encodesanscondensed"
             scFinalLocation="fonts/encodesanscondensedsc"
+            familyName="Encode Sans Condensed"
         ;;
         --semicondensed | -sc)
             glyphsSource="sources/split/Encode-Sans-semicondensed.glyphs"
             finalLocation="fonts/encodesanssemicondensed"
             scFinalLocation="fonts/encodesanssemicondensedsc"
+            familyName="Encode Sans SemiCondensed"
         ;;
         --normal | -n)
             glyphsSource="sources/split/Encode-Sans-normal.glyphs"
             finalLocation="fonts/encodesans"
             scFinalLocation="fonts/encodesanssc"
+            familyName="Encode Sans"
         ;;
         --semiexpanded | -se)
             glyphsSource="sources/split/Encode-Sans-semiexpanded.glyphs"
             finalLocation="fonts/encodesanssemiexpanded"
             scFinalLocation="fonts/encodesanssemiexpandedsc"
+            familyName="Encode Sans SemiExpanded"
         ;;
         --expanded | -e)
             glyphsSource="sources/split/Encode-Sans-expanded.glyphs"
             finalLocation="fonts/encodesansexpanded"
             scFinalLocation="fonts/encodesansexpandedsc"
+            familyName="Encode Sans Expanded"
         ;;
         #####
         # To build all split VFs, run: sources/scripts/build.sh --split
@@ -54,6 +59,8 @@ fontmake -o variable -g $glyphsSource
 # ============================================================================
 # SmallCap subsetting ========================================================
 
+smallCapSuffix="SC"
+
 subsetSmallCaps()
 {
     FILE=$1
@@ -61,7 +68,8 @@ subsetSmallCaps()
 
     echo making ${smallCapFontName}.ttf
 
-    python ./sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
+    # python ./sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_NAME
+    python ./sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' $FILE $SC_NAME
 
     ttx $FILE
     ttxPath=${FILE/".ttf"/".ttx"}
@@ -84,6 +92,9 @@ subsetSmallCaps()
 
     # removes temp ttx file
     rm -rf $ttxPath
+
+    # update names in font with smallcaps suffix
+    python sources/scripts/helpers/add-smallcaps-suffix.py $SC_NAME $smallCapSuffix "$familyName"
 }
 
 for file in variable_ttf/*; do
@@ -147,24 +158,22 @@ done
 # Sort into final folder =====================================================
 
 for file in variable_ttf/*; do 
-    if [ -f "$file" ]; then 
-        fileName=$(basename $file)
-        fileName=${fileName/"VF"/"Thin"}
+    fileName=$(basename $file)
+    fileName=${fileName/"VF"/"Thin"}
 
-        if [[ $file != *"SC"* ]]; then
-            finalPath=$finalLocation/split_vf/$fileName
-            cp $file $finalPath
-            echo "new VF location is " $finalPath
-            fontbakery check-googlefonts $finalPath --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
-            open $finalPath
-        fi
-        if [[ $file == *"SC"* ]]; then
-            finalPath=$scFinalLocation/split_vf/$fileName
-            cp $file $finalPath
-            echo "new VF location is " $finalPath
-            fontbakery check-googlefonts $finalPath --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
-            open $finalPath
-        fi
+    if [[ $file != *"SC"* ]]; then
+        finalPath=$finalLocation/split_vf/$fileName
+        cp $file $finalPath
+        echo "new VF location is " $finalPath
+        fontbakery check-googlefonts $finalPath --ghmarkdown $finalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+        open $finalPath
+    fi
+    if [[ $file == *"SC"* ]]; then
+        finalPath=$scFinalLocation/split_vf/$fileName
+        cp $file $finalPath
+        echo "new VF location is " $finalPath
+        fontbakery check-googlefonts $finalPath --ghmarkdown $scFinalLocation/split_vf/${fileName/".ttf"/"-fontbakery-report.md"}
+        open $finalPath
     fi
 done
 

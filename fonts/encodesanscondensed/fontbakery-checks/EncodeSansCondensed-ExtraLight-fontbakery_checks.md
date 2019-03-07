@@ -288,7 +288,7 @@ Fontbakery version: 0.6.11
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Ecaron, uni01C4, uni1EE6, Uring, peseta, uni01CA, oslashacute.sc, N, uni20BF, W, wcircumflex, wcircumflex.sc, Ubreve, Ebreve, uni20BF.tf, lira, uni1EC0, Uogonek, uni1E48, germandbls.sc, Iacute_J.loclNLD, .notdef, uni1E1C, uni1E4E, uni1EBC, uni1E79.sc, uni1EE8, lira.tf, perthousand, f_j, wgrave.sc, uni1EE4, uni01C7, Ncaron, uni01C8, uni1EEC, uni1EE0, uni1E9E, dong.tf, uni1EEA, uni0206, Uhorn, K, D, Oslashacute, uni1EBE, AEacute, uni01CC.sc, Wdieresis, I_J.loclNLD, wdieresis.sc, M, uni1E0C, Ntilde, uni01F2, Oslash, uni1E14, Uhungarumlaut, Wgrave, product.tf, U, Umacron, Wcircumflex, uni1E16, Eacute, uni1EBA, uni0216, uni01C5, AE, Nacute, uni1EDE, wdieresis, uni1EC6, uni1E7A, H, uni1EB8, uni01CB, uni1EEE, uni20A9, Uacute, uni01C6.sc, uni0214, uni1EC4, pi, Utilde, Eng, at, uni01C6, product, Ucircumflex, uni1E46, uni1E42, uni01F1, uni20A6, uni1E2A, uni1E24, uni1E0E, Wacute, fl, Udieresis, oslash.sc, wacute.sc, Egrave, Ugrave, Q, Hcircumflex, f_l, Edieresis, OE, uni1EF0, Ecircumflex, Dcaron, uni01F3.sc, uni1EEF.sc, uni1E44, uni1E78, uni2116, w.sc, uni1E4C, uni0204, Edotaccent, uni1EC2]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Ucircumflex, uni01C4, uni01C6.sc, .notdef, Hcircumflex, lira, uni1EF0, uni01F2, Ncaron, uni1EEA, oslashacute.sc, uni1EC4, wacute.sc, W, uni01C7, Oslashacute, uni0214, uni1EC2, uni1EEC, uni01F1, perthousand, uni20BF, uni1E7A, Q, uni1E16, Edieresis, uni1E78, uni1E42, Dcaron, I_J.loclNLD, uni1E4C, Umacron, Ntilde, Egrave, uni1EDE, Udieresis, Uogonek, product, uni1E46, uni01CA, uni20BF.tf, uni1E24, uni1EB8, f_l, uni1EEF.sc, f_j, uni01C8, uni01F3.sc, Wcircumflex, w.sc, uni1E14, uni1E44, Wgrave, Oslash, uni0204, uni1EBE, uni20A6, Uhungarumlaut, wdieresis.sc, uni01CC.sc, uni01CB, wcircumflex.sc, uni1EE4, fl, Edotaccent, uni1E4E, H, uni01C5, uni1E9E, Eacute, Ubreve, Uacute, Wacute, Ebreve, uni1EC0, uni1EBA, wcircumflex, germandbls.sc, dong.tf, Uhorn, uni1E1C, uni2116, uni0216, Nacute, Ecircumflex, peseta, uni1E0E, wgrave.sc, uni1E79.sc, uni1EE0, AEacute, N, U, AE, uni1EBC, Eng, Ecaron, uni1EE8, product.tf, Uring, at, OE, Utilde, uni01C6, D, lira.tf, uni1E48, uni1E2A, uni1EE6, Iacute_J.loclNLD, uni20A9, Wdieresis, oslash.sc, uni1E0C, K, uni1EEE, wdieresis, uni1EC6, Ugrave, M, pi, uni0206]
 
 </details>
 <details>
@@ -510,7 +510,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [loca, cvt , DSIG, GSUB, prep, gasp, GPOS, fpgm]
+* :information_source: **INFO** This font contains the following optional tables [gasp, fpgm, DSIG, prep, GSUB, GPOS, cvt , loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>

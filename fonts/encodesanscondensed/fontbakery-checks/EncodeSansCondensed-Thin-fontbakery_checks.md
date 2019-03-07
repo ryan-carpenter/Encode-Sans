@@ -274,7 +274,7 @@ Fontbakery version: 0.6.11
 <summary>:warning: <b>WARN:</b> Glyphs are similiar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/118](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/118)
-* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [germandbls.sc, Oslashacute, .notdef, hbar.sc, Oslash, oslashacute.sc, oslash.sc, uni1E9E, Hbar]
+* :warning: **WARN** Following glyphs differ greatly from Google Fonts version: [Hbar, hbar.sc, oslashacute.sc, .notdef, germandbls.sc, uni1E9E, Oslash, Oslashacute, oslash.sc]
 
 </details>
 <details>
@@ -496,7 +496,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GSUB, loca, cvt , DSIG, GPOS, fpgm, prep, gasp]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, DSIG, cvt , fpgm, loca, GSUB, gasp, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
