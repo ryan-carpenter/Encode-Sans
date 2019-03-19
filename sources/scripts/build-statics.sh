@@ -184,20 +184,20 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     echo $fileName
     case $file in
         *"EncodeSansCondensed-"*)
-            newPath=${outputDir}/encodesanscondensed/${fileName}
-            fontbakePath=${outputDir}/encodesanscondensed/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesanscondensed/static/${fileName}
+            fontbakePath=${outputDir}/encodesanscondensed/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansCondensedSC-"*)
-            newPath=${outputDir}/encodesanscondensedsc/${fileName}
-            fontbakePath=${outputDir}/encodesanscondensedsc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesanscondensedsc/static/${fileName}
+            fontbakePath=${outputDir}/encodesanscondensedsc/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiCondensed-"*)
-            newPath=${outputDir}/encodesanssemicondensed/${fileName}
-            fontbakePath=${outputDir}/encodesanssemicondensed/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesanssemicondensed/static/${fileName}
+            fontbakePath=${outputDir}/encodesanssemicondensed/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiCondensedSC-"*)
-            newPath=${outputDir}/encodesanssemicondensedsc/${fileName}
-            fontbakePath=${outputDir}/encodesanssemicondensedsc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesanssemicondensedsc/static/${fileName}
+            fontbakePath=${outputDir}/encodesanssemicondensedsc/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSans-"*)
             newPath=${outputDir}/encodesans/static/${fileName}
@@ -208,20 +208,20 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
             fontbakePath=${outputDir}/encodesanssc/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiExpanded-"*)
-            newPath=${outputDir}/encodesanssemiexpanded/${fileName}
-            fontbakePath=${outputDir}/encodesanssemiexpanded/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesanssemiexpanded/static/${fileName}
+            fontbakePath=${outputDir}/encodesanssemiexpanded/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansSemiExpandedSC-"*)
-            newPath=${outputDir}/encodesanssemiexpandedsc/${fileName}
-            fontbakePath=${outputDir}/encodesanssemiexpandedsc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesanssemiexpandedsc/static/${fileName}
+            fontbakePath=${outputDir}/encodesanssemiexpandedsc/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansExpanded-"*)
-            newPath=${outputDir}/encodesansexpanded/${fileName}
-            fontbakePath=${outputDir}/encodesansexpanded/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesansexpanded/static/${fileName}
+            fontbakePath=${outputDir}/encodesansexpanded/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
         *"EncodeSansExpandedSC-"*)
-            newPath=${outputDir}/encodesansexpandedsc/${fileName}
-            fontbakePath=${outputDir}/encodesansexpandedsc/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
+            newPath=${outputDir}/encodesansexpandedsc/static/${fileName}
+            fontbakePath=${outputDir}/encodesansexpandedsc/static/fontbakery-checks/${fileName/".ttf"/"-fontbakery_checks.md"}
         ;;
     esac
 
