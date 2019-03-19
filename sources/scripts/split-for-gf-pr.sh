@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+# set -e
 
 # for each family:
 # grab files in fonts folder
@@ -15,6 +15,7 @@ for dir in $fontDirs; do
     echo $dir
     # echo $statics
     mkdir -p $dir/static
+    git mv $dir/fontbakery-checks $dir/static/fontbakery-checks
     for static in $statics; do
         echo $static
         echo $(basename $static)
