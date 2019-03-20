@@ -1,5 +1,6 @@
-
 # flag technique from Jon Almeida: https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
+
+source venv/bin/activate
 
 while [ ! $# -eq 0 ]
     do

@@ -80,7 +80,8 @@ if [[ $subfamilyDir != *"sc" ]]; then #exclude SC versions, per Marc's request
     git commit -m "add fresh split VF and statics for ofl/$subfamilyName"
 
     # push to upstream branch (you must manually go to GitHub to make PR from there)
-    git push --force origin $subfamilyName-vf
+    # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
+    git push --force upstream $subfamilyName-vf
 
     # reset as needed
     cd $encodeDir
