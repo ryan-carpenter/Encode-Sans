@@ -1,5 +1,5 @@
 {
-.appVersion = "1209";
+.appVersion = "1218";
 DisplayStrings = (
 "/f_i/f_j/f_l/fi/fl/I_J.loclNLD/i_j.loclNLD"
 );
@@ -229701,7 +229701,7 @@ widthClass = Condensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 34;
@@ -229718,7 +229718,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 44;
@@ -229737,7 +229737,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 59;
@@ -229756,7 +229756,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 78;
@@ -229774,7 +229774,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 101;
@@ -229793,7 +229793,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 126;
@@ -229812,7 +229812,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 153;
@@ -229832,7 +229832,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 180;
@@ -229851,7 +229851,7 @@ widthClass = SemiCondensed;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiCondensed";
+value = "Encode Sans Semi Condensed";
 }
 );
 interpolationWeight = 203;
@@ -229974,7 +229974,7 @@ weightClass = Black;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 34;
@@ -229991,7 +229991,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 45;
@@ -230010,7 +230010,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 61;
@@ -230029,7 +230029,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 82;
@@ -230047,7 +230047,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 108;
@@ -230066,7 +230066,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 136;
@@ -230085,7 +230085,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 167;
@@ -230105,7 +230105,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 196;
@@ -230123,7 +230123,7 @@ widthClass = SemiExpanded;
 customParameters = (
 {
 name = familyName;
-value = "Encode Sans SemiExpanded";
+value = "Encode Sans Semi Expanded";
 }
 );
 interpolationWeight = 222;

@@ -2,8 +2,8 @@
 ### Run in the terminal by entering this file path (must be given execute permissions with chmod)
 ### requires a python 3 environment
 
-# print each line as it executes. Add -e to stop on the first error, for debugging. Don't leave -e, however, as it stops after the first fontbakery run.
-set -x
+# set -e to stop on the first error, for debugging
+set -e
 
 while [ ! $# -eq 0 ]
     do
@@ -18,7 +18,7 @@ while [ ! $# -eq 0 ]
             glyphsSource="sources/split/Encode-Sans-semicondensed.glyphs"
             finalLocation="fonts/encodesanssemicondensed"
             scFinalLocation="fonts/encodesanssemicondensedsc"
-            familyName="Encode Sans SemiCondensed"
+            familyName="Encode Sans Semi Condensed"
         ;;
         --normal | -n)
             glyphsSource="sources/split/Encode-Sans-normal.glyphs"
@@ -30,7 +30,7 @@ while [ ! $# -eq 0 ]
             glyphsSource="sources/split/Encode-Sans-semiexpanded.glyphs"
             finalLocation="fonts/encodesanssemiexpanded"
             scFinalLocation="fonts/encodesanssemiexpandedsc"
-            familyName="Encode Sans SemiExpanded"
+            familyName="Encode Sans Semi Expanded"
         ;;
         --expanded | -e)
             glyphsSource="sources/split/Encode-Sans-expanded.glyphs"
@@ -156,6 +156,8 @@ done
 
 # ============================================================================
 # Sort into final folder =====================================================
+
+set +e
 
 for file in variable_ttf/*; do 
     fileName=$(basename $file)

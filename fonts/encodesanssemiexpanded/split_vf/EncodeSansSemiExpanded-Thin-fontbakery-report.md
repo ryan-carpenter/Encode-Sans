@@ -1,38 +1,24 @@
 ## Fontbakery report
 
-Fontbakery version: 0.6.11
+Fontbakery version: 0.6.12
 
 <details>
-<summary><b>[26] Family checks</b></summary>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
-
-* [com.google.fonts/check/090](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/090)
-* :fire: **FAIL** This family lacks a Regular (style: normal and weight: 400) as required by Google Fonts standards.
-
-</details>
+<summary><b>[30] Family checks</b></summary>
 <details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* :information_source: **INFO** fontbakery (0.6.11)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.6.11 (latest)
+* :information_source: **INFO** fontbakery (0.6.12)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.6.12 (latest)
 
 * :bread: **PASS** Font Bakery is up-to-date
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Check METADATA.pb parse correctly. </summary>
+<summary>:bread: <b>PASS:</b> Fonts have equal glyph names?</summary>
 
-* [com.google.fonts/check/metadata/parses](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/parses)
-* :bread: **PASS** METADATA.pb parsed successfuly.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Font designer field in METADATA.pb must not be 'unknown'.</summary>
-
-* [com.google.fonts/check/007](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/007)
-* :bread: **PASS** Font designer field is not 'unknown'.
+* [com.google.fonts/check/012](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/012)
+* :bread: **PASS** All font files have identical glyph names.
 
 </details>
 <details>
@@ -40,55 +26,6 @@ Fontbakery version: 0.6.11
 
 * [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
 * :bread: **PASS** Found license at '/Users/stephennixon/type-repos/google-font-repos/Encode-Sans/OFL.txt'
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: check if fonts field only has unique "full_name" values.</summary>
-
-* [com.google.fonts/check/083](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/083)
-* :bread: **PASS** METADATA.pb "fonts" field only has unique "full_name" values.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: check if fonts field only contains unique style:weight pairs.</summary>
-
-* [com.google.fonts/check/084](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/084)
-* :bread: **PASS** METADATA.pb "fonts" field only has unique style:weight pairs.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb license is "APACHE2", "UFL" or "OFL"?</summary>
-
-* [com.google.fonts/check/085](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/085)
-* :bread: **PASS** Font license is declared in METADATA.pb as "OFL"
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb should contain at least "menu" and "latin" subsets.</summary>
-
-* [com.google.fonts/check/086](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/086)
-* :bread: **PASS** METADATA.pb contains "menu" and "latin" subsets.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb subsets should be alphabetically ordered.</summary>
-
-* [com.google.fonts/check/087](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/087)
-* :bread: **PASS** METADATA.pb subsets are sorted in alphabetical order.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
-
-* [com.google.fonts/check/088](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/088)
-* :bread: **PASS** Copyright is consistent across family
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Check that METADATA.pb family values are all the same.</summary>
-
-* [com.google.fonts/check/089](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/089)
-* :bread: **PASS** METADATA.pb: Family name is the same in all metadata "fonts" items.
 
 </details>
 <details>
@@ -141,10 +78,24 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1</summary>
+
+* [com.adobe.fonts/check/bold_italic_unique_for_nameid1](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/bold_italic_unique_for_nameid1)
+* :bread: **PASS** The OS/2.fsSelection bold & italic settings were unique within each compatible family group.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Fonts have consistent underline thickness?</summary>
 
 * [com.google.fonts/check/008](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/008)
 * :bread: **PASS** Fonts have consistent underline thickness.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Verify that each group of fonts with the same nameID 1 has maximum of 4 fonts</summary>
+
+* [com.adobe.fonts/check/max_4_fonts_per_family_name](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/max_4_fonts_per_family_name)
+* :bread: **PASS** There were no more than 4 fonts per family name.
 
 </details>
 <details>
@@ -176,23 +127,100 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> METADATA.pb: Regular should be 400.</summary>
+<summary>:zzz: <b>SKIP:</b> Check METADATA.pb parse correctly. </summary>
 
-* [com.google.fonts/check/091](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/091)
-* :zzz: **SKIP** Unfulfilled Conditions: has_regular_style
+* [com.google.fonts/check/metadata/parses](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/parses)
+* :zzz: **SKIP** Font family at 'fonts/encodesanssemiexpanded/split_vf' lacks a METADATA.pb file.
 
 </details>
 <details>
-<summary>:warning: <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
+<summary>:zzz: <b>SKIP:</b> Font designer field in METADATA.pb must not be 'unknown'.</summary>
+
+* [com.google.fonts/check/007](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/007)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Fonts have equal numbers of glyphs?</summary>
+
+* [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/011)
+* :zzz: **SKIP** Unfulfilled Conditions: stylenames_are_canonical
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
 
 * [com.google.fonts/check/081](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/081)
-* :warning: **WARN** Family not found via Google Fonts API.
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: check if fonts field only has unique "full_name" values.</summary>
+
+* [com.google.fonts/check/083](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/083)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: check if fonts field only contains unique style:weight pairs.</summary>
+
+* [com.google.fonts/check/084](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/084)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb license is "APACHE2", "UFL" or "OFL"?</summary>
+
+* [com.google.fonts/check/085](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/085)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb should contain at least "menu" and "latin" subsets.</summary>
+
+* [com.google.fonts/check/086](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/086)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb subsets should be alphabetically ordered.</summary>
+
+* [com.google.fonts/check/087](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/087)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
+
+* [com.google.fonts/check/088](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/088)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Check that METADATA.pb family values are all the same.</summary>
+
+* [com.google.fonts/check/089](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/089)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
+
+* [com.google.fonts/check/090](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/090)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Regular should be 400.</summary>
+
+* [com.google.fonts/check/091](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/091)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata, has_regular_style
 
 </details>
 <br>
 </details>
 <details>
-<summary><b>[117] EncodeSansSemiExpanded-Thin.ttf</b></summary>
+<summary><b>[116] EncodeSansSemiExpanded-Thin.ttf</b></summary>
 <details>
 <summary>:fire: <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -208,59 +236,10 @@ Fontbakery version: 0.6.11
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
-
-* [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/094)
-* :fire: **FAIL** Unmatched fullname in font: TTF has "Encode Sans SemiExpd Thin" while METADATA.pb has "Encode Sans SemiExpanded Thin". [code: mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?</summary>
-
-* [com.google.fonts/check/096](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/096)
-* :fire: **FAIL** METADATA.pb font full_name="Encode Sans SemiExpanded Thin" does not match post_script_name = "EncodeSansSemiExpd-Thin"
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.filename and font.post_script_name fields have equivalent values?</summary>
-
-* [com.google.fonts/check/097](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/097)
-* :fire: **FAIL** METADATA.pb font filename="EncodeSansSemiExpanded-Thin.ttf" does not match post_script_name="EncodeSansSemiExpd-Thin".
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/101)
-* :fire: **FAIL** METADATA.pb postScriptName ("EncodeSansSemiExpd-Thin") does not match correct font name format ("Encode Sans SemiExpanded Thin").
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
-
-* [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
-* :fire: **FAIL** METADATA.pb: Fullname ("Encode Sans SemiExpanded Thin") does not match name table entry "Encode Sans SemiExpd Thin" ! [code: fullname-mismatch]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
-* :fire: **FAIL** OS/2 usWeightClass (100:"bad Google Fonts API weight value") does not match weight specified at METADATA.pb (100:"Thin").
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
-* :fire: **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded Thin' but got 'Encode Sans SemiExpanded Thin'.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Check name table: FULL_FONT_NAME entries. </summary>
 
 * [com.google.fonts/check/159](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/159)
-* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded Thin' but got 'Encode Sans SemiExpd Thin'.
+* :fire: **FAIL** Entry [FULL_FONT_NAME(4):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded Thin' but got 'Encode Sans Semi Expd Thin'.
 
 </details>
 <details>
@@ -268,13 +247,6 @@ Fontbakery version: 0.6.11
 
 * [com.google.fonts/check/160](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/160)
 * :fire: **FAIL** Entry [POSTSCRIPT_NAME(6):WINDOWS(3)] on the 'name' table: Expected 'EncodeSansSemiExpanded-Thin' but got 'EncodeSansSemiExpd-Thin'.
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
-
-* [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/161)
-* :fire: **FAIL** Entry [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] on the 'name' table: Expected 'Encode Sans Semi Expanded' but got 'Encode Sans SemiExpanded'. [code: non-ribbi-bad-value]
 
 </details>
 <details>
@@ -294,7 +266,7 @@ Failed to sanitize file!
 <summary>:fire: <b>FAIL:</b> Does full font name begin with the font family name?</summary>
 
 * [com.google.fonts/check/068](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/068)
-* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans SemiExpanded Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans SemiExpd Thin') [code: does-not]
+* :fire: **FAIL**  On the 'name' table, the full font name (NameID 4 - FULL_FONT_NAME: 'Encode Sans Semi Expanded Thin') does not begin with font family name (NameID 1 - FONT_FAMILY_NAME: 'Encode Sans Semi Expd Thin') [code: does-not]
 
 </details>
 <details>
@@ -302,13 +274,6 @@ Failed to sanitize file!
 
 * [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
 * :warning: **WARN** {}:{} is OK on TTFs, but OTF files with those values will cause bluring on Windows. GlyphsApp users must set a Instance Custom Parameter for the Thin and ExtraLight styles to 250 and 275, so that if OTFs are exported then it will not blur on Windows.
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Copyright notice on METADATA.pb should not contain 'Reserved Font Name'.</summary>
-
-* [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/103)
-* :warning: **WARN** METADATA.pb: copyright field ("Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.") contains "Reserved Font Name". This is an error except in a few specific rare cases.
 
 </details>
 <details>
@@ -322,15 +287,7 @@ Failed to sanitize file!
 <summary>:warning: <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/163](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/163)
-* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans SemiExpanded Thin' / SUBFAMILY_NAME = 'Regular'
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Monospace font has hhea.advanceWidthMax equal to each glyph's advanceWidth?</summary>
-
-* [com.google.fonts/check/079](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/079)
-* :warning: **WARN** This seems to be a monospaced font, so advanceWidth value should be the same across all glyphs, but 99.67% of them have a different value: A, Aacute, Abreve, uni1EAE, uni1EB6, uni1EB0, uni1EB2, uni1EB4, Acircumflex, uni1EA4, uni1EAC, uni1EA6, uni1EA8, uni1EAA, uni0200, Adieresis, uni1EA0, Agrave, uni1EA2, uni0202, Amacron, Aogonek, Aring, Aringacute, Atilde, AE, AEacute, B, C, Cacute, Ccaron, Ccedilla, uni1E08, Ccircumflex, Cdotaccent, D, uni01F1, uni01C4, Eth, Dcaron, Dcroat, uni1E0C, uni1E0E, uni01F2, uni01C5, E, Eacute, Ebreve, Ecaron, uni1E1C, Ecircumflex, uni1EBE, uni1EC6, uni1EC0, uni1EC2, uni1EC4, uni0204, Edieresis, Edotaccent, uni1EB8, Egrave, uni1EBA, uni0206, Emacron, uni1E16, uni1E14, Eogonek, uni1EBC, F, G, uni01F4, Gbreve, Gcaron, Gcircumflex, uni0122, Gdotaccent, uni1E20, H, Hbar, uni1E2A, Hcircumflex, uni1E24, I, Iacute, Ibreve, Icircumflex, uni0208, Idieresis, uni1E2E, Idotaccent, uni1ECA, Igrave, uni1EC8, uni020A, Imacron, Iogonek, Itilde, J, Jcircumflex, K, uni0136, L, uni01C7, Lacute, Lcaron, uni013B, Ldot, uni1E36, uni01C8, uni1E3A, Lslash, M, uni1E42, N, uni01CA, Nacute, Ncaron, uni0145, uni1E44, uni1E46, Eng, uni01CB, uni1E48, Ntilde, O, Oacute, Obreve, Ocircumflex, uni1ED0, uni1ED8, uni1ED2, uni1ED4, uni1ED6, uni020C, Odieresis, uni022A, uni0230, uni1ECC, Ograve, uni1ECE, Ohorn, uni1EDA, uni1EE2, uni1EDC, uni1EDE, uni1EE0, Ohungarumlaut, uni020E, Omacron, uni1E52, uni1E50, uni01EA, Oslash, Oslashacute, Otilde, uni1E4C, uni1E4E, uni022C, OE, P, Thorn, Q, R, Racute, Rcaron, uni0156, uni0210, uni1E5A, uni0212, uni1E5E, S, Sacute, uni1E64, Scaron, uni1E66, Scedilla, Scircumflex, uni0218, uni1E60, uni1E62, uni1E68, uni1E9E, uni018F, T, Tbar, Tcaron, uni0162, uni021A, uni1E6C, uni1E6E, U, Uacute, Ubreve, Ucircumflex, uni0214, Udieresis, uni1EE4, Ugrave, uni1EE6, Uhorn, uni1EE8, uni1EF0, uni1EEA, uni1EEC, uni1EEE, Uhungarumlaut, uni0216, Umacron, uni1E7A, Uogonek, Uring, Utilde, uni1E78, V, W, Wacute, Wcircumflex, Wdieresis, Wgrave, X, Y, Yacute, Ycircumflex, Ydieresis, uni1E8E, uni1EF4, Ygrave, uni1EF6, uni0232, uni1EF8, Z, Zacute, Zcaron, Zdotaccent, uni1E92, Iacute_J.loclNLD, a, aacute, abreve, uni1EAF, uni1EB7, uni1EB1, uni1EB3, uni1EB5, acircumflex, uni1EA5, uni1EAD, uni1EA7, uni1EA9, uni1EAB, uni0201, adieresis, uni1EA1, agrave, uni1EA3, uni0203, amacron, aogonek, aring, aringacute, atilde, ae, aeacute, b, c, cacute, ccaron, ccedilla, uni1E09, ccircumflex, cdotaccent, d, eth, dcaron, dcroat, uni1E0D, uni1E0F, uni01F3, uni01C6, e, eacute, ebreve, ecaron, uni1E1D, ecircumflex, uni1EBF, uni1EC7, uni1EC1, uni1EC3, uni1EC5, uni0205, edieresis, edotaccent, uni1EB9, egrave, uni1EBB, uni0207, emacron, uni1E17, uni1E15, eogonek, uni1EBD, uni0259, f, g, uni01F5, gbreve, gcaron, gcircumflex, uni0123, gdotaccent, uni1E21, h, hbar, uni1E2B, hcircumflex, uni1E25, i, dotlessi, iacute, ibreve, icircumflex, uni0209, idieresis, uni1E2F, i.loclTRK, uni1ECB, igrave, uni1EC9, uni020B, imacron, iogonek, itilde, j, uni0237, jcircumflex, k, uni0137, kgreenlandic, l, lacute, lcaron, uni013C, ldot, uni1E37, uni01C9, uni1E3B, lslash, m, uni1E43, n, nacute, napostrophe, ncaron, uni0146, uni1E45, uni1E47, eng, uni01CC, uni1E49, ntilde, o, oacute, obreve, ocircumflex, uni1ED1, uni1ED9, uni1ED3, uni1ED5, uni1ED7, uni020D, odieresis, uni022B, uni0231, uni1ECD, ograve, uni1ECF, ohorn, uni1EDB, uni1EE3, uni1EDD, uni1EDF, uni1EE1, ohungarumlaut, uni020F, omacron, uni1E53, uni1E51, uni01EB, oslash, oslashacute, otilde, uni1E4D, uni1E4F, uni022D, oe, p, thorn, q, r, racute, rcaron, uni0157, uni0211, uni1E5B, uni0213, uni1E5F, s, sacute, uni1E65, scaron, uni1E67, scedilla, scircumflex, uni0219, uni1E61, uni1E63, uni1E69, germandbls, t, tbar, tcaron, uni0163, uni021B, uni1E97, uni1E6D, uni1E6F, u, uacute, ubreve, ucircumflex, uni0215, udieresis, uni1EE5, ugrave, uni1EE7, uhorn, uni1EE9, uni1EF1, uni1EEB, uni1EED, uni1EEF, uhungarumlaut, uni0217, umacron, uni1E7B, uogonek, uring, utilde, uni1E79, v, w, wacute, wcircumflex, wdieresis, wgrave, x, y, yacute, ycircumflex, ydieresis, uni1E8F, uni1EF5, ygrave, uni1EF7, uni0233, uni1EF9, z, zacute, zcaron, zdotaccent, uni1E93, iacute_j.loclNLD, o.comb, f.short, f_i, f_j, f_l, fi, fl, I_J.loclNLD, i_j.loclNLD, a.sc, aacute.sc, abreve.sc, uni1EAF.sc, uni1EB7.sc, uni1EB1.sc, uni1EB3.sc, uni1EB5.sc, acircumflex.sc, uni1EA5.sc, uni1EAD.sc, uni1EA7.sc, uni1EA9.sc, uni1EAB.sc, uni0201.sc, adieresis.sc, uni1EA1.sc, agrave.sc, uni1EA3.sc, uni0203.sc, amacron.sc, aogonek.sc, aring.sc, aringacute.sc, atilde.sc, ae.sc, aeacute.sc, b.sc, c.sc, cacute.sc, ccaron.sc, ccedilla.sc, uni1E09.sc, ccircumflex.sc, cdotaccent.sc, d.sc, eth.sc, dcaron.sc, dcroat.sc, uni1E0D.sc, uni1E0F.sc, uni01F3.sc, uni01C6.sc, e.sc, eacute.sc, ebreve.sc, ecaron.sc, uni1E1D.sc, ecircumflex.sc, uni1EBF.sc, uni1EC7.sc, uni1EC1.sc, uni1EC3.sc, uni1EC5.sc, uni0205.sc, edieresis.sc, edotaccent.sc, uni1EB9.sc, egrave.sc, uni1EBB.sc, uni0207.sc, emacron.sc, uni1E17.sc, uni1E15.sc, eogonek.sc, uni1EBD.sc, uni0259.sc, f.sc, g.sc, uni01F5.sc, gbreve.sc, gcaron.sc, gcircumflex.sc, uni0123.sc, gdotaccent.sc, uni1E21.sc, h.sc, hbar.sc, uni1E2B.sc, hcircumflex.sc, uni1E25.sc, i.sc, iacute.sc, iacute_j.loclNLD.sc, ibreve.sc, icircumflex.sc, uni0209.sc, idieresis.sc, uni1E2F.sc, i.loclTRK.sc, uni1ECB.sc, igrave.sc, uni1EC9.sc, uni020B.sc, imacron.sc, iogonek.sc, itilde.sc, j.sc, jcircumflex.sc, k.sc, uni0137.sc, l.sc, lacute.sc, lcaron.sc, uni013C.sc, ldot.sc, uni1E37.sc, uni01C9.sc, uni1E3B.sc, i_j.loclNLD.sc, lslash.sc, m.sc, uni1E43.sc, n.sc, nacute.sc, ncaron.sc, uni0146.sc, uni1E45.sc, uni1E47.sc, eng.sc, uni01CC.sc, uni1E49.sc, ntilde.sc, o.sc, oacute.sc, obreve.sc, ocircumflex.sc, uni1ED1.sc, uni1ED9.sc, uni1ED3.sc, uni1ED5.sc, uni1ED7.sc, uni020D.sc, odieresis.sc, uni022B.sc, uni0231.sc, uni1ECD.sc, ograve.sc, uni1ECF.sc, ohorn.sc, uni1EDB.sc, uni1EE3.sc, uni1EDD.sc, uni1EDF.sc, uni1EE1.sc, ohungarumlaut.sc, uni020F.sc, omacron.sc, uni1E53.sc, uni1E51.sc, uni01EB.sc, oslash.sc, oslashacute.sc, otilde.sc, uni1E4D.sc, uni1E4F.sc, uni022D.sc, oe.sc, p.sc, thorn.sc, q.sc, r.sc, racute.sc, rcaron.sc, uni0157.sc, uni0211.sc, uni1E5B.sc, uni0213.sc, uni1E5F.sc, s.sc, sacute.sc, uni1E65.sc, scaron.sc, uni1E67.sc, scedilla.sc, scircumflex.sc, uni0219.sc, uni1E61.sc, uni1E63.sc, uni1E69.sc, germandbls.sc, t.sc, tbar.sc, tcaron.sc, uni0163.sc, uni021B.sc, uni1E6D.sc, uni1E6F.sc, u.sc, uacute.sc, ubreve.sc, ucircumflex.sc, uni0215.sc, udieresis.sc, uni1EE5.sc, ugrave.sc, uni1EE7.sc, uhorn.sc, uni1EE9.sc, uni1EF1.sc, uni1EEB.sc, uni1EED.sc, uni1EEF.sc, uhungarumlaut.sc, uni0217.sc, umacron.sc, uni1E7B.sc, uogonek.sc, uring.sc, utilde.sc, uni1E79.sc, v.sc, w.sc, wacute.sc, wcircumflex.sc, wdieresis.sc, wgrave.sc, x.sc, y.sc, yacute.sc, ycircumflex.sc, ydieresis.sc, uni1E8F.sc, uni1EF5.sc, ygrave.sc, uni1EF7.sc, uni0233.sc, uni1EF9.sc, z.sc, zacute.sc, zcaron.sc, zdotaccent.sc, uni1E93.sc, ordfeminine, ordmasculine, uni0394, uni03A9, uni0394.tf, uni03A9.tf, uni03BC, pi, uni03BC.tf, pi.tf, zero, one, two, three, four, five, six, seven, eight, nine, zero.osf, one.osf, two.osf, three.osf, four.osf, five.osf, six.osf, seven.osf, eight.osf, nine.osf, zero.tf, one.tf, two.tf, three.tf, four.tf, five.tf, six.tf, seven.tf, eight.tf, nine.tf, zero.tosf, one.tosf, two.tosf, three.tosf, four.tosf, five.tosf, six.tosf, seven.tosf, eight.tosf, nine.tosf, uni2080, uni2081, uni2082, uni2083, uni2084, uni2085, uni2086, uni2087, uni2088, uni2089, zero.dnom, one.dnom, two.dnom, three.dnom, four.dnom, five.dnom, six.dnom, seven.dnom, eight.dnom, nine.dnom, zero.numr, one.numr, two.numr, three.numr, four.numr, five.numr, six.numr, seven.numr, eight.numr, nine.numr, uni2070, uni00B9, uni00B2, uni00B3, uni2074, uni2075, uni2076, uni2077, uni2078, uni2079, fraction, onehalf, uni2153, uni2154, onequarter, threequarters, oneeighth, threeeighths, fiveeighths, seveneighths, period, comma, colon, semicolon, ellipsis, exclam, exclamdown, question, questiondown, periodcentered, bullet, asterisk, numbersign, slash, backslash, periodcentered.CAT, periodcentered.loclCAT.case, period.tf, comma.tf, colon.tf, semicolon.tf, periodcentered.tf, numbersign.tf, slash.tf, parenleft, parenright, braceleft, braceright, bracketleft, bracketright, hyphen, uni00AD, endash, emdash, figuredash, uni2015, uni2010, underscore, underscore.tf, quotesinglbase, quotedblbase, quotedblleft, quotedblright, quoteleft, quoteright, guillemotleft, guillemotright, guilsinglleft, guilsinglright, quotedbl, quotesingle, quotedbl.tf, quotesingle.tf, parenleft.sc, parenright.sc, braceleft.sc, braceright.sc, bracketleft.sc, bracketright.sc, uni2007, uni200A, uni2008, space, uni00A0, uni2009, uni200B, CR, uni20B5, cent, colonmonetary, currency, dollar, dong, Euro, florin, franc, uni20B2, uni20AD, lira, uni20BA, uni20BC, uni20A6, uni20B1, uni20BD, uni20B9, sterling, uni20BF, uni20A9, yen, uni20BF.tf, uni20B5.tf, cent.tf, colonmonetary.tf, currency.tf, dollar.tf, dong.tf, Euro.tf, florin.tf, franc.tf, uni20B2.tf, uni20AD.tf, lira.tf, uni20BA.tf, uni20BC.tf, uni20A6.tf, peseta.tf, uni20B1.tf, uni20BD.tf, uni20B9.tf, sterling.tf, uni20A9.tf, yen.tf, uni2219, uni2215, plus, minus, multiply, divide, equal, notequal, greater, less, greaterequal, lessequal, plusminus, approxequal, asciitilde, logicalnot, asciicircum, infinity, integral, uni2126, uni2206, product, summation, radical, uni00B5, partialdiff, percent, perthousand, uni2219.osf, plus.osf, minus.osf, multiply.osf, divide.osf, equal.osf, notequal.osf, greater.osf, less.osf, greaterequal.osf, lessequal.osf, plusminus.osf, approxequal.osf, asciitilde.osf, logicalnot.osf, asciicircum.osf, infinity.osf, uni2219.tf, uni2215.tf, plus.tf, minus.tf, multiply.tf, divide.tf, equal.tf, notequal.tf, greater.tf, less.tf, greaterequal.tf, lessequal.tf, plusminus.tf, approxequal.tf, asciitilde.tf, logicalnot.tf, asciicircum.tf, infinity.tf, integral.tf, uni2126.tf, uni2206.tf, product.tf, summation.tf, radical.tf, uni00B5.tf, partialdiff.tf, percent.tf, perthousand.tf, uni2219.tosf, uni2215.tosf, plus.tosf, minus.tosf, multiply.tosf, divide.tosf, equal.tosf, notequal.tosf, greater.tosf, less.tosf, greaterequal.tosf, lessequal.tosf, plusminus.tosf, approxequal.tosf, asciitilde.tosf, logicalnot.tosf, asciicircum.tosf, infinity.tosf, arrowup, arrowright, arrowdown, arrowleft, lozenge, lozenge.osf, lozenge.tf, lozenge.tosf, at, ampersand, paragraph, section, copyright, registered, trademark, degree, minute, second, bar, brokenbar, dagger, uni2113, daggerdbl, uni2116, estimated, uni2120, degree.tf, bar.tf, brokenbar.tf, ampersand.sc, uni02BC, uni02BB, uni02C9, uni02CB, uni02BF, uni02BE, uni02CA, uni02CC, uni02C8, uni0308, uni03080301, uni03080304, uni0307, uni03070304, gravecomb, acutecomb, uni03010307, uni030B, uni030C.alt, uni0302, uni030C, uni030C0307, uni0306, uni030A, uni030A0301, tildecomb, uni03030308, tildecomb_acutecomb, uni03030304, uni0304, uni03040308, uni03040300, uni03040301, hookabovecomb, uni030F, uni0311, uni0312, uni031B, dotbelowcomb, uni0324, uni0326, uni0327, uni0328, uni032E, uni0331, acute, breve, caron, cedilla, circumflex, dieresis, dotaccent, grave, hungarumlaut, macron, ogonek, ring, tilde, uni0326.alt, caron.alt, uni0308.case, uni03080301.case, uni03080304.case, uni0307.case, uni03070304.case, gravecomb.case, acutecomb.case, uni03010307.case, uni030B.case, uni030C.alt.case, uni0302.case, uni030C.case, uni030C0307.case, uni0306.case, uni030A.case, uni030A0301.case, tildecomb.case, uni03030308.case, tildecomb_acutecomb.case, uni03030304.case, uni0304.case, uni03040308.case, uni03040300.case, uni03040301.case, hookabovecomb.case, uni030F.case, uni0311.case, uni0312.case, dotbelowcomb.case, uni0324.case, uni0326.case, uni0327.case, uni0328.case, uni032E.case, uni0331.case, uni0308.sc, uni03080301.sc, uni03080304.sc, uni0307.sc, uni03070304.sc, gravecomb.sc, acutecomb.sc, uni03010307.sc, uni030B.sc, uni030C.alt.sc, uni0302.sc, uni030C.sc, uni030C0307.sc, uni0306.sc, uni030A.sc, tildecomb.sc, uni03030308.sc, tildecomb_acutecomb.sc, uni03030304.sc, uni0304.sc, uni03040308.sc, uni03040300.sc, uni03040301.sc, hookabovecomb.sc, uni030F.sc, uni0311.sc, uni0312.sc, dotbelowcomb.sc, uni0324.sc, uni0326.sc, uni0327.sc, uni0328.sc, uni032E.sc, uni0331.sc, uni0335.sc, uni0337.sc, uni030A0301.case.sc, uni0337, uni0335.D, uni0335.case, uni0336.case, uni0337.case, uni0335.d, uni0335.dsc, uni0335.h, uni0336.hsc, uni0335.t, uni03060301, uni03060300, uni03060309, uni03060303, uni03020301, uni03020300, uni03020309, uni03020303, uni03060301.case, uni03060300.case, uni03060309.case, uni03060303.case, uni03020301.case, uni03020300.case, uni03020309.case, uni03020303.case, uni03060301.sc, uni03060300.sc, uni03060309.sc, uni03060303.sc, uni03020301.sc, uni03020300.sc, uni03020309.sc, uni03020303.sc, slashcomb, slashcomb.case, slashcomb.sc, notdef [code: should-be-monospaced]
-* :warning: **WARN** Double-width and/or zero-width glyphs were detected. These glyphs should be set to the same width as all others and then add GPOS single pos lookups that zeros/doubles the widths as needed: uni200B, uni0308, uni03080301, uni0307, gravecomb, acutecomb, uni03010307, uni030B, uni030C.alt, uni0302, uni030C, uni0306, uni030A, uni030A0301, tildecomb, uni03030308, tildecomb_acutecomb, uni03030304, uni0304, uni03040300, uni03040301, hookabovecomb, uni030F, uni0311, uni0312, uni031B, dotbelowcomb, uni0324, uni0326, uni0327, uni0328, uni032E, uni0331, uni0326.alt, uni0308.case, uni03080301.case, uni0307.case, gravecomb.case, acutecomb.case, uni03010307.case, uni030B.case, uni030C.alt.case, uni0302.case, uni030C.case, uni0306.case, uni030A.case, uni030A0301.case, tildecomb.case, uni03030308.case, tildecomb_acutecomb.case, uni03030304.case, uni0304.case, uni03040300.case, uni03040301.case, hookabovecomb.case, uni030F.case, uni0311.case, uni0312.case, dotbelowcomb.case, uni0324.case, uni0326.case, uni0327.case, uni0328.case, uni032E.case, uni0331.case, uni0308.sc, uni03080301.sc, uni0307.sc, gravecomb.sc, acutecomb.sc, uni03010307.sc, uni030B.sc, uni030C.alt.sc, uni0302.sc, uni030C.sc, uni0306.sc, uni030A.sc, tildecomb.sc, uni03030308.sc, tildecomb_acutecomb.sc, uni03030304.sc, uni0304.sc, uni03040300.sc, uni03040301.sc, hookabovecomb.sc, uni030F.sc, uni0311.sc, uni0312.sc, dotbelowcomb.sc, uni0324.sc, uni0326.sc, uni0327.sc, uni0328.sc, uni032E.sc, uni0331.sc, uni0335.sc, uni0337.sc, uni030A0301.case.sc, uni0337, uni0335.D, uni0335.case, uni0336.case, uni0337.case, uni0335.d, uni0335.dsc, uni0335.h, uni0336.hsc, uni0335.t, uni03060301, uni03060300, uni03060309, uni03060303, uni03020301, uni03020300, uni03020309, uni03020303, uni03060301.case, uni03060300.case, uni03060309.case, uni03060303.case, uni03020301.case, uni03020300.case, uni03020309.case, uni03020303.case, uni03060301.sc, uni03060300.sc, uni03060309.sc, uni03060303.sc, uni03020301.sc, uni03020300.sc, uni03020309.sc, uni03020303.sc [code: variable-monospaced]
+* :warning: **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Encode Sans Semi Expanded Thin' / SUBFAMILY_NAME = 'Regular'
 
 </details>
 <details>
@@ -346,17 +303,164 @@ Failed to sanitize file!
 
 </details>
 <details>
-<summary>:zzz: <b>SKIP:</b> Fonts have equal numbers of glyphs?</summary>
+<summary>:zzz: <b>SKIP:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
 
-* [com.google.fonts/check/011](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/011)
-* :zzz: **SKIP** Unfulfilled Conditions: stylenames_are_canonical
+* [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/092)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
+
+* [com.google.fonts/check/094](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/094)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
+
+* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/095)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?</summary>
+
+* [com.google.fonts/check/096](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/096)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.filename and font.post_script_name fields have equivalent values?</summary>
+
+* [com.google.fonts/check/097](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/097)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/098)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/099)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.filename field contains font name in right format?</summary>
+
+* [com.google.fonts/check/100](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/100)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/101](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/101)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Copyright notices match canonical pattern?</summary>
+
+* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Copyright notice on METADATA.pb should not contain 'Reserved Font Name'.</summary>
+
+* [com.google.fonts/check/103](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/103)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Copyright notice shouldn't exceed 500 chars.</summary>
+
+* [com.google.fonts/check/104](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/104)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Filename is set canonically?</summary>
+
+* [com.google.fonts/check/105](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/105)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata, canonical_filename
 
 </details>
 <details>
 <summary>:zzz: <b>SKIP:</b> METADATA.pb font.style "italic" matches font internals?</summary>
 
 * [com.google.fonts/check/106](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/106)
-* :zzz: **SKIP** This check only applies to italic fonts.
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.style "normal" matches font internals?</summary>
+
+* [com.google.fonts/check/107](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/107)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
+
+* [com.google.fonts/check/108](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/108)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Check if fontname is not camel cased.</summary>
+
+* [com.google.fonts/check/109](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/109)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Check font name is the same as family name.</summary>
+
+* [com.google.fonts/check/110](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/110)
+* :zzz: **SKIP** Unfulfilled Conditions: family_metadata, font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Check that font weight has a canonical value.</summary>
+
+* [com.google.fonts/check/111](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/111)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
+
+* [com.google.fonts/check/112](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/112)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb weight matches postScriptName.</summary>
+
+* [com.google.fonts/check/113](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/113)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> METADATA.pb: Font styles are named canonically?</summary>
+
+* [com.google.fonts/check/115](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/115)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -388,6 +492,13 @@ Failed to sanitize file!
 
 </details>
 <details>
+<summary>:zzz: <b>SKIP:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/155)
+* :zzz: **SKIP** Unfulfilled Conditions: font_metadata
+
+</details>
+<details>
 <summary>:zzz: <b>SKIP:</b> FontForge validation outputs error messages?</summary>
 
 * [com.google.fonts/check/038](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/038)
@@ -406,6 +517,13 @@ Failed to sanitize file!
 
 * [com.adobe.fonts/check/postscript_name_cff_vs_name](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/postscript_name_cff_vs_name)
 * :zzz: **SKIP** Unfulfilled Conditions: is_cff
+
+</details>
+<details>
+<summary>:zzz: <b>SKIP:</b> Monospace font has hhea.advanceWidthMax equal to each glyph's advanceWidth?</summary>
+
+* [com.google.fonts/check/079](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/079)
+* :zzz: **SKIP** Font is not monospaced.
 
 </details>
 <details>
@@ -487,15 +605,8 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [loca, gasp, GPOS, fpgm, cvt , prep, DSIG, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, GSUB, prep, loca, gasp, cvt , DSIG, GPOS]
 * :bread: **PASS** Font contains all required tables.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Fonts have equal glyph names?</summary>
-
-* [com.google.fonts/check/012](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/012)
-* :bread: **PASS** All font files have identical glyph names.
 
 </details>
 <details>
@@ -576,113 +687,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
-
-* [com.google.fonts/check/092](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/092)
-* :bread: **PASS** Family name "Encode Sans SemiExpanded" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/093](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/093)
-* :bread: **PASS** Postscript name "EncodeSansSemiExpd-Thin" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
-
-* [com.google.fonts/check/095](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/095)
-* :bread: **PASS** OK: Family name "Encode Sans SemiExpanded" is identical in METADATA.pb and on the TTF file.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/098](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/098)
-* :bread: **PASS** METADATA.pb font.name field contains font name in right format.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/099](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/099)
-* :bread: **PASS** METADATA.pb font.full_name field contains font name in right format. ('Encode Sans SemiExpanded' in 'Encode Sans SemiExpanded Thin')
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.filename field contains font name in right format?</summary>
-
-* [com.google.fonts/check/100](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/100)
-* :bread: **PASS** METADATA.pb filename field contains font name in right format.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> Copyright notices match canonical pattern?</summary>
-
-* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
-* :bread: **PASS** METADATA.pb: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
-* :bread: **PASS** Name table entry: Copyright field 'Copyright 2018 The Encode Project Authors (https://github.com/thundernixon/Encode-Sans), with Reserved Font Name 'Encode Sans'.' matches canonical pattern.
-* :bread: **PASS** All copyright notice strings are good.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Copyright notice shouldn't exceed 500 chars.</summary>
-
-* [com.google.fonts/check/104](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/104)
-* :bread: **PASS** Copyright notice string is shorter than 500 chars.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Filename is set canonically?</summary>
-
-* [com.google.fonts/check/105](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/105)
-* :bread: **PASS** Filename in METADATA.pb is set canonically.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb font.style "normal" matches font internals?</summary>
-
-* [com.google.fonts/check/107](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/107)
-* :bread: **PASS** METADATA.pb font.style "normal" matches font internals.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Check if fontname is not camel cased.</summary>
-
-* [com.google.fonts/check/109](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/109)
-* :bread: **PASS** Font name is not camel-cased.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Check font name is the same as family name.</summary>
-
-* [com.google.fonts/check/110](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/110)
-* :bread: **PASS** Font name is the same as family name.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Check that font weight has a canonical value.</summary>
-
-* [com.google.fonts/check/111](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/111)
-* :bread: **PASS** Font weight has a canonical value.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb weight matches postScriptName.</summary>
-
-* [com.google.fonts/check/113](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/113)
-* :bread: **PASS** Weight value matches postScriptName.
-
-</details>
-<details>
-<summary>:bread: <b>PASS:</b> METADATA.pb: Font styles are named canonically?</summary>
-
-* [com.google.fonts/check/115](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/115)
-* :bread: **PASS** Font styles are named canonically.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
 
 * [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/116)
@@ -714,13 +718,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>:bread: <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/155](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/155)
-* :bread: **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
-
-</details>
-<details>
 <summary>:bread: <b>PASS:</b> Font has all mandatory 'name' table entries ?</summary>
 
 * [com.google.fonts/check/156](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/156)
@@ -728,10 +725,24 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check name table: FONT_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/157](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/157)
+* :bread: **PASS** FONT_FAMILY_NAME entries are all good.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/158](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/158)
 * :bread: **PASS** FONT_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. </summary>
+
+* [com.google.fonts/check/161](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/161)
+* :bread: **PASS** TYPOGRAPHIC_FAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -924,6 +935,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Check if OS/2 fsSelection matches head macStyle bold and italic bits.</summary>
+
+* [com.adobe.fonts/check/fsselection_matches_macstyle](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/fsselection_matches_macstyle)
+* :bread: **PASS** The OS/2.fsSelection and head.macStyle bold and italic settings match.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Font has correct post table version (2 for TTF, 3 for OTF)?</summary>
 
 * [com.google.fonts/check/015](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/015)
@@ -1056,5 +1074,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 15 | 7 | 18 | 6 | 97 |
-| 0% | 10% | 5% | 13% | 4% | 68% |
+| 0 | 6 | 4 | 53 | 6 | 77 |
+| 0% | 4% | 3% | 36% | 4% | 53% |

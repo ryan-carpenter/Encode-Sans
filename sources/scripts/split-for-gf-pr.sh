@@ -3,8 +3,8 @@
 # This script copies the latest builds to the google fonts dir in order to run QA checks and prep for a PR
 #
 # USAGE: 
-# call this script from the root of your encode repo, with the absolute path your your google/fonts repo:
-# `move-check <your_username>/<path>/fonts`
+# call this script from the root of your encode repo, with the absolute path your local google/fonts repo:
+# `<script_path>/split-for-gf-pr.sh /Users/<username>/type-repos/google-font-repos/fonts`
 
 set -e
 source venv/bin/activate
@@ -13,7 +13,7 @@ gFontsDir=$1
 
 if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
     echo 'Add absolute path to your Google Fonts Git directory, like:'
-    echo 'move-check /Users/username/type-repos/google-font-repos/fonts'
+    echo '<script_path>/split-for-gf-pr.sh /Users/<username>/type-repos/google-font-repos/fonts'
     exit 2
 fi
 

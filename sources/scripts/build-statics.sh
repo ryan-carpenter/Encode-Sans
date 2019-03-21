@@ -1,5 +1,5 @@
 # print each line as it executes. Add -e to stop on the first error, for debugging. Don't leave -e, however, as it stops after the first fontbakery run.
-set -x
+# set -x1
 
 ############################################
 ################# set vars #################
@@ -227,7 +227,7 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
 
     cp ${file} ${newPath}
         
-    fontbakeFile $newPath $fontbakePath
+    # fontbakeFile $newPath $fontbakePath
 fi 
 done
 
