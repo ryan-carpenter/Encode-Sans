@@ -41,7 +41,7 @@ hintedFile=$hintedDir/${fontFile/"VF"/"VF-autohint-xht_0-stem_qsq"}
 echo $hintedFile
 ttfautohint-vf -I $vf $hintedFile  --increase-x-height 0 --stem-width-mode qsq
 
-# trying stem width mode without changin --increase-x-height
+# trying stem width mode without changing --increase-x-height
 
 hintedFile=$hintedDir/${fontFile/"VF"/"VF-autohint-stem_nnn"}
 echo $hintedFile
