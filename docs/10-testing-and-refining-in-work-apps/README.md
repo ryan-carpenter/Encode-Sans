@@ -1,5 +1,8 @@
 # Testing in software and refining fonts
 
+Note: part of this work resulted in abbreviating style names so they could fit in the horizontal width of the MS Word font menu. For this, I made [a proposal for a standardization of style name abbreviations](https://github.com/googlefonts/fontbakery/issues/2254#issuecomment-447434261).
+
+
 In MS Word and Apple Pages Font instances were arranging first by weight, then by width. This was a very unhelpful arrangement. So, I'm seeing whether changing the NAME table patch might correct this. I'm switching names from a format of `ExtraLight SemiCondensed` to `SemiCondensed ExtraLight`. This might also make sense to change in the GlyphsApp source. 
 
 Changing just the font's NAME table does help organize things better in Apple Pages, but doesn't work how I'd like in MS Word.
