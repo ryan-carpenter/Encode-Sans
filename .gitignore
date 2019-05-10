@@ -10,3 +10,4 @@ autohinted/*.*
 gf-encode/*
 virtualenv/*
 venv/*
+venv
