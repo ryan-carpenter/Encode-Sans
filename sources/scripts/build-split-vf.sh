@@ -111,7 +111,7 @@ done
 for file in variable_ttf/*; do 
 if [ -f "$file" ]; then 
     hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint-vf -I $file $hintedFile  --increase-x-height 9 --stem-width-mode nnn
+    ttfautohint-vf -I $file $hintedFile --stem-width-mode nnn --increase-x-height 18 --hinting-range-max=18
 
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}

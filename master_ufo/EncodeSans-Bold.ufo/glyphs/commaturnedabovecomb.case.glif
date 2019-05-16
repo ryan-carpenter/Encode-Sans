@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb.case" format="2">
+  <anchor x="600" y="1520" name="_top"/>
+  <anchor x="600" y="2070" name="top"/>
+  <outline>
+    <contour>
+      <point x="599.989" y="1569.68" type="curve" smooth="yes"/>
+      <point x="761.347" y="1569.68"/>
+      <point x="828.467" y="1619.744"/>
+      <point x="828.467" y="1703.875" type="curve" smooth="yes"/>
+      <point x="828.467" y="1785.992"/>
+      <point x="766.371" y="1838.061"/>
+      <point x="600" y="1838.061" type="curve" smooth="yes"/>
+      <point x="571.957" y="1838.061" type="line"/>
+      <point x="655.169" y="1759.939" type="line"/>
+      <point x="655.169" y="1834.008"/>
+      <point x="673.201" y="1889.022"/>
+      <point x="726.269" y="1984.082" type="curve"/>
+      <point x="463.666" y="1984.082" type="line"/>
+      <point x="410.598" y="1924.088"/>
+      <point x="371.533" y="1827.012"/>
+      <point x="371.533" y="1745.923" type="curve" smooth="yes"/>
+      <point x="371.533" y="1634.78"/>
+      <point x="438.648" y="1569.68"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1200</integer>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

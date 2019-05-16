@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek" format="2">
+  <advance width="1176.57642"/>
+  <unicode hex="0105"/>
+  <anchor x="585" y="0" name="bottom"/>
+  <anchor x="1086" y="0" name="ogonek"/>
+  <anchor x="585" y="1200" name="top"/>
+  <outline>
+    <contour>
+      <point x="416.004" y="-22.016" type="curve" smooth="yes"/>
+      <point x="528.945" y="-22.016"/>
+      <point x="627.874" y="11.918"/>
+      <point x="689.852" y="100.907" type="curve"/>
+      <point x="707.881" y="100.907" type="line"/>
+      <point x="762.016" y="-20.066" type="line"/>
+      <point x="1085.756" y="0" type="line"/>
+      <point x="1085.756" y="609.602" type="line" smooth="yes"/>
+      <point x="1085.756" y="989.934"/>
+      <point x="921.671" y="1118.059"/>
+      <point x="524.185" y="1118.059" type="curve" smooth="yes"/>
+      <point x="408.138" y="1118.059"/>
+      <point x="262.041" y="1103.064"/>
+      <point x="143.939" y="1073.067" type="curve"/>
+      <point x="143.939" y="759.403" type="line"/>
+      <point x="239.915" y="786.374"/>
+      <point x="356.957" y="800.376"/>
+      <point x="442.963" y="800.376" type="curve" smooth="yes"/>
+      <point x="619.939" y="800.376"/>
+      <point x="670.784" y="756.408"/>
+      <point x="670.784" y="638.696" type="curve" smooth="yes"/>
+      <point x="670.784" y="292.204" type="line"/>
+      <point x="636.939" y="272.461"/>
+      <point x="597.158" y="266.583"/>
+      <point x="563.398" y="266.583" type="curve" smooth="yes"/>
+      <point x="497.661" y="266.583"/>
+      <point x="460.778" y="297.453"/>
+      <point x="460.778" y="350.206" type="curve" smooth="yes"/>
+      <point x="460.778" y="406.988"/>
+      <point x="497.652" y="441.882"/>
+      <point x="586.341" y="446.829" type="curve" smooth="yes"/>
+      <point x="775.976" y="456.745" type="line"/>
+      <point x="727.852" y="680.175" type="line"/>
+      <point x="539.212" y="670.258" type="line" smooth="yes"/>
+      <point x="188.936" y="651.292"/>
+      <point x="43.814" y="525.213"/>
+      <point x="43.814" y="309.114" type="curve" smooth="yes"/>
+      <point x="43.814" y="116.085"/>
+      <point x="178.854" y="-22.016"/>
+    </contour>
+    <component base="ogonekcomb" xOffset="485.756"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

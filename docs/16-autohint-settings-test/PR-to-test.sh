@@ -31,6 +31,7 @@ for ttf in $testFonts; do
     git checkout master
     git pull origin master
     git reset --hard
+    git clean -f -d
     # checkout fresh branch
     git checkout -B $testName
     # clear out any lingering, untracked files

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perthousand" format="2">
+  <advance width="2425"/>
+  <unicode hex="2030"/>
+  <outline>
+    <contour>
+      <point x="2004" y="-18" type="curve" smooth="yes"/>
+      <point x="2183" y="-18"/>
+      <point x="2309" y="104"/>
+      <point x="2309" y="442" type="curve" smooth="yes"/>
+      <point x="2309" y="780"/>
+      <point x="2184" y="902"/>
+      <point x="2004" y="902" type="curve" smooth="yes"/>
+      <point x="1824" y="902"/>
+      <point x="1699" y="780"/>
+      <point x="1699" y="442" type="curve" smooth="yes"/>
+      <point x="1699" y="104"/>
+      <point x="1825" y="-18"/>
+    </contour>
+    <contour>
+      <point x="2004" y="45" type="curve" smooth="yes"/>
+      <point x="1863" y="45"/>
+      <point x="1766" y="145"/>
+      <point x="1766" y="444" type="curve" smooth="yes"/>
+      <point x="1766" y="741"/>
+      <point x="1863" y="839"/>
+      <point x="2004" y="839" type="curve" smooth="yes"/>
+      <point x="2145" y="839"/>
+      <point x="2242" y="741"/>
+      <point x="2242" y="440" type="curve" smooth="yes"/>
+      <point x="2242" y="141"/>
+      <point x="2145" y="45"/>
+    </contour>
+    <component base="percent"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

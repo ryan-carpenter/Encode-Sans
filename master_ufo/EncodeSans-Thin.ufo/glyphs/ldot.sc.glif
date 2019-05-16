@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot.sc" format="2">
+  <advance width="918"/>
+  <anchor x="548" y="0" name="bottom"/>
+  <anchor x="603" y="1190" name="caronalt"/>
+  <anchor x="658" y="628" name="periodcentered"/>
+  <anchor x="226" y="626" name="slash"/>
+  <anchor x="226" y="1230" name="top"/>
+  <outline>
+    <contour>
+      <point x="192" y="0" type="line"/>
+      <point x="903" y="0" type="line"/>
+      <point x="903" y="64" type="line"/>
+      <point x="260" y="64" type="line"/>
+      <point x="260" y="1190" type="line"/>
+      <point x="192" y="1190" type="line"/>
+    </contour>
+    <contour>
+      <point x="658" y="564" type="curve" smooth="yes"/>
+      <point x="694" y="564"/>
+      <point x="720" y="588"/>
+      <point x="720" y="626" type="curve" smooth="yes"/>
+      <point x="720" y="664"/>
+      <point x="694" y="690"/>
+      <point x="658" y="690" type="curve" smooth="yes"/>
+      <point x="622" y="690"/>
+      <point x="596" y="664"/>
+      <point x="596" y="626" type="curve" smooth="yes"/>
+      <point x="596" y="588"/>
+      <point x="622" y="564"/>
+    </contour>
+  </outline>
+</glyph>

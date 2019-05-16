@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide.tosf" format="2">
+  <advance width="1320.61115"/>
+  <outline>
+    <contour>
+      <point x="198.017" y="404.666" type="line"/>
+      <point x="1122.594" y="404.666" type="line"/>
+      <point x="1122.594" y="695.281" type="line"/>
+      <point x="198.017" y="695.281" type="line"/>
+    </contour>
+    <contour>
+      <point x="660.306" y="-18.495" type="curve" smooth="yes"/>
+      <point x="806.624" y="-18.495"/>
+      <point x="896.794" y="65.664"/>
+      <point x="896.794" y="175.856" type="curve" smooth="yes"/>
+      <point x="896.794" y="286.048"/>
+      <point x="810.634" y="370.202"/>
+      <point x="660.306" y="370.202" type="curve" smooth="yes"/>
+      <point x="509.977" y="370.202"/>
+      <point x="423.817" y="290.059"/>
+      <point x="423.817" y="175.856" type="curve" smooth="yes"/>
+      <point x="423.817" y="61.654"/>
+      <point x="513.987" y="-18.495"/>
+    </contour>
+    <contour>
+      <point x="660.306" y="729.744" type="curve" smooth="yes"/>
+      <point x="806.624" y="729.744"/>
+      <point x="896.794" y="813.904"/>
+      <point x="896.794" y="924.096" type="curve" smooth="yes"/>
+      <point x="896.794" y="1034.288"/>
+      <point x="810.634" y="1118.442"/>
+      <point x="660.306" y="1118.442" type="curve" smooth="yes"/>
+      <point x="509.977" y="1118.442"/>
+      <point x="423.817" y="1038.298"/>
+      <point x="423.817" y="924.096" type="curve" smooth="yes"/>
+      <point x="423.817" y="809.893"/>
+      <point x="513.987" y="729.744"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

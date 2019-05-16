@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="racute.sc" format="2">
+  <advance width="1147"/>
+  <anchor x="598" y="0" name="bottom"/>
+  <anchor x="548" y="1498" name="top"/>
+  <outline>
+    <component base="r.sc"/>
+    <component base="acutecomb.sc" xOffset="-52" yOffset="-290"/>
+  </outline>
+</glyph>

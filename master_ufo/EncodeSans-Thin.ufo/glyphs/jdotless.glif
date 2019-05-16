@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jdotless" format="2">
+  <advance width="408"/>
+  <unicode hex="0237"/>
+  <anchor x="204" y="1206" name="top"/>
+  <outline>
+    <contour>
+      <point x="28" y="-460" type="line"/>
+      <point x="173" y="-262"/>
+      <point x="238" y="-88"/>
+      <point x="238" y="173" type="curve" smooth="yes"/>
+      <point x="238" y="1080" type="line"/>
+      <point x="170" y="1080" type="line"/>
+      <point x="170" y="166" type="line" smooth="yes"/>
+      <point x="170" y="-74"/>
+      <point x="112" y="-242"/>
+      <point x="-21" y="-425" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

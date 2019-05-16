@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_j" format="2">
+  <advance width="1482"/>
+  <anchor x="864" y="0" name="caret_1"/>
+  <anchor x="1166" y="1656" name="top"/>
+  <outline>
+    <component base="f.short"/>
+    <component base="j" xOffset="861"/>
+  </outline>
+</glyph>

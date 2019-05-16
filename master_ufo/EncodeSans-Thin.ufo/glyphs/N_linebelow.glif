@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nlinebelow" format="2">
+  <advance width="1427"/>
+  <unicode hex="1E48"/>
+  <anchor x="714" y="-360" name="bottom"/>
+  <anchor x="714" y="1520" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="macronbelowcomb.case" xOffset="114"/>
+  </outline>
+</glyph>
