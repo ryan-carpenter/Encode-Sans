@@ -45,7 +45,7 @@ pip install --upgrade -r requirements.txt
 
 If you run into issues installing some of the dependencies (such as Pillow), it may help to separately install the packages with individual commands, such as `pip install Pillow==5.4.1`.
 
-**Installing XMLstarlet:** The build scripts use XMLstarlet to manipulate font data (such as name table info). This is not necessarily the tool I would recommend for future projects – probably, this manipulation could and should be done purely with FontTools. However, to run these build scripts, you will need to download XMLstarlet from https://sourceforge.net/projects/xmlstar/files/.
+**Installing XMLstarlet:** The build scripts use XMLstarlet to manipulate font data (such as name table info). This is not necessarily the tool I would recommend for future projects – probably, this manipulation could and should be done purely with FontTools. However, to run these build scripts, you will need to download XMLstarlet. It's simplest to use Homebrew to do so: https://formulae.brew.sh/formula/xmlstarlet.
 
 **Installing TTFautohint:** You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `venv/bin` within this project.
 
