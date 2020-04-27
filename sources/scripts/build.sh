@@ -8,17 +8,17 @@ while [ ! $# -eq 0 ]
         --statics | -s)
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
         ;;
-        --full | -f)
-            source $(dirname ${BASH_SOURCE[0]})/build-full.sh
+        --variable | -v)
+            source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
         ;;
         --all | -a)
             # statics
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
-            # full VF
-            source $(dirname ${BASH_SOURCE[0]})/build-full.sh
+            # variable
+            source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
         ;;
         *)
-            echo "Please use argument --statics, --normal, or --full, or --all to build some or all of the font files"
+            echo "Please use argument --statics, --normal, or --variable, or --all to build some or all of the font files"
     esac
     shift
 done
