@@ -8,13 +8,6 @@ while [ ! $# -eq 0 ]
         --statics | -s)
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
         ;;
-        --split | -sp)
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -c
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -sc
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -n
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -se
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -e
-        ;;
         --full | -f)
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
         ;;
@@ -23,16 +16,9 @@ while [ ! $# -eq 0 ]
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
             # full VF
             source $(dirname ${BASH_SOURCE[0]})/build-full.sh
-            # all split VFs
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -c
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -sc
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -n
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -se
-            source $(dirname ${BASH_SOURCE[0]})/build-split-vf.sh -e
-
         ;;
         *)
-            echo "Please use argument -statics, --normal, or --full, or --all to build some or all of the font files"
+            echo "Please use argument --statics, --normal, or --full, or --all to build some or all of the font files"
     esac
     shift
 done
