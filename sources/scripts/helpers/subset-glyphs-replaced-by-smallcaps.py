@@ -1,25 +1,23 @@
 """
 Usage: on the command line or in a shell script, use:
 
-python get-smallcap-subset-glyphnames.py FONTNAME.ttf
+python <path>/subset-glyphs-replaced-by-smallcaps.py FONTNAME.ttf --remove "fi fl"
+
+(--remove removes additional glyphs that don't have smallcap versions but are not needed in smallcap font)
 
 This script:
 
 1. uses ttFont to get list glyph names
 2. finds all lowercase counterparts to smallcaps glyphs
-3. outputs a list of all glyphnames, minus lowercase counterparts
-
-The output list can then be used in pyftsubset to subset the old lowercase out of the font.
+3. uses pyftsubset to subset font removing lowercase counterparts
 
 """
 
-# set this if different
-smallCapSuffix = "sc"
-
 import argparse
 from fontTools.ttLib import TTFont
+from fontTools import subset
 
-def getNewGlyphSet(font_path, removeNames):
+def getNewGlyphSet(font_path, removeNames, smallCapSuffix):
 
 	ttfont = TTFont(font_path)
 
@@ -32,7 +30,8 @@ def getNewGlyphSet(font_path, removeNames):
 	newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps and name not in removeNames]
 	# newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps]
 
-	print(" ".join(newGlyphNames))
+	return " ".join(newGlyphNames)
+
 
 if __name__ == "__main__":
 	import argparse
@@ -41,13 +40,17 @@ if __name__ == "__main__":
 	parser.add_argument("fontPath",
 						help="The path to an otf or ttf file")
 	parser.add_argument("-r", "--remove",
+						default="",
 						help="Glyph names to exclude from the final glyphset")
+	parser.add_argument("-s", "--suffix",
+						default="sc",
+						help="Suffix used to denote smallcaps glyphs. Default is 'sc'.")
 		
 	args = parser.parse_args()
 	font_path = args.fontPath
 	removeNames = args.remove
+	suffix = args.suffix
 
-	print(removeNames)
+	newGlyphSet = getNewGlyphSet(font_path, removeNames, suffix)
 
-
-	getNewGlyphSet(font_path, removeNames)
+	subset.main([font_path, "--glyphs=%s" % newGlyphSet, "--name-IDs='*'", "--glyph-names", "--notdef-outline"])

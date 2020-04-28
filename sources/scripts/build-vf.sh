@@ -3,7 +3,7 @@
 ### macOS build script for Encode Sans variable. See repo README for usage details.
 
 # print each line as it executes. Add -e to stop on the first error, for debugging
-set -xe
+set -e
 
 #--------------------------------------------#
 #----------------- set vars -----------------#
@@ -76,36 +76,17 @@ subsetSmallCaps()
     FILE=$1
     SC_FILE=$2
 
-    echo making ${smallCapFontName}.ttf
-
+    # make file with smallcaps frozen in
     python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_FILE
 
-    # ttx $FILE
-
-    # ttxPath=${FILE/".ttf"/".ttx"}
-
-    #get glyph names, minus smcp glyphs
-    # subsetGlyphNames=`python sources/scripts/helpers/get-smallcap-subset-glyphnames.py $ttxPath`
-    subsetGlyphNames=`python sources/scripts/helpers/get-smallcap-subset-glyphnames.py $FILE`
-
-    # echo $subsetGlyphNames
-    echo "subsetting smallcap font"
-
-    echo "pyftsubset ${SC_FILE} ${subsetGlyphNames} --glyph-names"
-
-    # subsetting with subsetGlyphNames list
-    pyftsubset --name-IDs='*' --glyphs="$subsetGlyphNames" $SC_FILE  --glyph-names
+    # subset with pyftsubset to remove replaced lowercase, also remove unecessary ligatures
+    python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $SC_FILE -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
 
     # remove feature-frozen font & simplifying name of subset font
 
-    subsetSmallCapFontName=${SC_FILE/"VF"/"VF.subset"}
+    # rm -rf $SC_FILE
 
-    rm -rf $SC_FILE
-
-    mv ${subsetSmallCapFontName} $SC_FILE
-
-    # removes temp ttx file
-    rm -rf $ttxPath
+    mv ${SC_FILE/"VF"/"VF.subset"} $SC_FILE
 }
 
 # subsetSmallCaps variable_ttf/${VFname}.ttf variable_ttf/${smallCapFontName}.ttf
