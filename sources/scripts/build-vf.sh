@@ -66,31 +66,18 @@ fi
 # --------------------------------------------------------------
 # SmallCap subsetting
 
-# smallCapFontName, e..g 'SignikaSC-VF'
-smallCapFontName=${VFname/"-VF"/"SC-VF"}
-ttfPath="variable_ttf/${VFname}.ttf"
-echo $ttfPath
+TTFPath="variable_ttf/${VFname}.ttf"
+smallCapTTFPath="variable_ttf/${VFname/-VF/SC-VF}.ttf"
 
-subsetSmallCaps()
-{
-    FILE=$1
-    SC_FILE=$2
+# make file with smallcaps frozen in
+python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $TTFPath $smallCapTTFPath
 
-    # make file with smallcaps frozen in
-    python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $FILE $SC_FILE
+# subset with pyftsubset to remove replaced lowercase, also remove unecessary ligatures
+python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
 
-    # subset with pyftsubset to remove replaced lowercase, also remove unecessary ligatures
-    python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $SC_FILE -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
+# remove feature-frozen font & simplifying name of subset font
+mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath
 
-    # remove feature-frozen font & simplifying name of subset font
-
-    # rm -rf $SC_FILE
-
-    mv ${SC_FILE/"VF"/"VF.subset"} $SC_FILE
-}
-
-# subsetSmallCaps variable_ttf/${VFname}.ttf variable_ttf/${smallCapFontName}.ttf
-subsetSmallCaps $ttfPath variable_ttf/${smallCapFontName}.ttf
 
 # --------------------------------------------------------------
 # OpenType table fixes
