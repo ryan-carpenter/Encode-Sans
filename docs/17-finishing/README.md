@@ -4,16 +4,14 @@ It's been a long time (more than a year) since this variable font upgrade was st
 
 Goals:
 - PR as a single variable font, removing the script setup to split fonts by widths in preprocessing (this can just be done with the FontTools Instancer)
-- Simplify build. E.g. probably implment designspace fixes directly to primary Glyphs source, and remove that step from build.
-- Pass as many FontBakery checks as possible
-- Set `name` table as well as possible 
+- Simplify build
+  - [x] implement designspace fixes directly to primary Glyphs source, and remove that step from build.
+  - [x] fix `notdef` – currently this is not building into the proper `.notdef` glyph
 - Set up a proper STAT table with statmake
+- Set `name` table as well as possible 
 - Smallcaps separated into a separate family & PR
-- Static fonts autohinted and put into `static` subfolder for PR
-- fix `notdef` – currently this is not building into the proper `.notdef` glyph
-
-
-Dz ǅ ǲ Dz
+- Static fonts autohinted and put into `static` subfolder for PR (Maybe? This requirement is in dispute recently...)
+- Pass as many FontBakery checks as possible
 
 
 ### Smallcap fixes

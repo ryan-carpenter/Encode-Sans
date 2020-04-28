@@ -9,7 +9,7 @@ set -e
 #----------------- set vars -----------------#
 
 glyphsSource="sources/Encode-Sans.glyphs"
-finalLocation="fonts/encodesans/full_vf"
+finalLocation="fonts/encodesans"
 
 ## if the Glyphs source has a non-rectangular master/instance arrangement, this fixes it (WIP)
 fixGlyphsDesignspace=true
@@ -17,51 +17,20 @@ fixGlyphsDesignspace=true
 #----------------- set vars -----------------#
 #--------------------------------------------#
 
-# if varfont folder exists, clean it up
-if [[ -d "variable_ttf" ]]; then
-  rm -rf variable_ttf
-fi
-
 # --------------------------------------------------------------
 # Sets up names
-
-## make temp glyphs filename with "-build" suffix
-tempGlyphsSource=${glyphsSource/".glyphs"/"-Build.glyphs"}
 
 # get font name from glyphs source
 VFname=`python sources/scripts/helpers/get-font-name.py ${glyphsSource}`
 # checking that the name has been pulled out of the source file
 echo "VF Name: ${VFname}"
 
-# --------------------------------------------------------------
-# Fix non-rectangular designspace
-
-## copy Glyphs file into temp file
-cp $glyphsSource $tempGlyphsSource
-
-if [ $fixGlyphsDesignspace == true ]
-then
-    ## call the designspace fixing script
-    python sources/scripts/helpers/fix-designspace.py $tempGlyphsSource
-else
-    echo "Not morphing designspace."
-fi
 
 # --------------------------------------------------------------
 # Generate Variable Font
 
 ## call fontmake to make a varfont
-fontmake -o variable -g $tempGlyphsSource
-
-if [ $keepDesignspace == true ]
-then
-    echo "designspace in master_ufo folder"
-else
-    rm -rf master_ufo
-fi
-
-## clean up temp glyphs file
-# rm -rf $tempGlyphsSource
+fontmake -o variable -g $glyphsSource
 
 # --------------------------------------------------------------
 # SmallCap subsetting
