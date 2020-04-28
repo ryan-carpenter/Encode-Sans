@@ -103,7 +103,7 @@ for idx,master in enumerate(font.masters):
 # wghtMid = 130.0
 # wghtMidNew = minWdthMinWght + ((wghtMid - minWdthMinWght) / (minWdthMaxWght - minWdthMinWght)) * (maxWdthMaxWght - minWdthMinWght)
 
-widthDict = {0.0 : 70.0, 250.0 : 85.0, 500.0 : 100.0, 750.0 : 115.0, 1000.0 : 130.0}
+widthDict = {0.0 : 75.0, 250.0 : 87.5, 500.0 : 100.0, 750.0 : 112.5, 1000.0 : 125.0} # follows usWidthClass "% of normal" values
 
 
 for instance in font.instances:
