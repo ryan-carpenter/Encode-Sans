@@ -8,3 +8,4 @@ fs
 fontbakery>=0.7.0
 protobuf>=3.7.0
 gftools
+statmake>=0.2.2

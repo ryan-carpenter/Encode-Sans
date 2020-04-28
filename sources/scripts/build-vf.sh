@@ -21,8 +21,8 @@ fontmake -o variable -g $glyphsSource --output-path $finalLocation/$VFname
 # --------------------------------------------------------------
 # SmallCap subsetting
 
-TTFPath="variable_ttf/${VFname}"
-smallCapTTFPath="variable_ttf/${VFname/-VF/SC-VF}"
+TTFPath="$finalLocation/${VFname}"
+smallCapTTFPath="$finalLocation/${VFname/-VF/SC-VF}"
 
 echo $TTFPath
 echo $smallCapTTFPath
@@ -40,9 +40,12 @@ mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath
 # # --------------------------------------------------------------
 # # OpenType table fixes
 
-vfs=$(ls variable_ttf/*.ttf)
+vfs=$(ls $finalLocation/*.ttf)
 for vf in $vfs; do
-    # # TODO: STAT fixes
+
+    # add STAT table to font
+    python sources/scripts/helpers/add-stat-table.py $vf
+
     # other table fixes
     gftools fix-dsig -f $vf
     gftools fix-gasp --autofix $vf
@@ -61,7 +64,7 @@ done
 # Sort into final folder
 
 # TODO: sort into encodesans vs encodesanssc
-vfs=$(ls variable_ttf/*.ttf)
+vfs=$(ls $finalLocation/*.ttf)
 for vf in $vfs; do
     cp $vf $finalLocation/$(basename $vf)
 done
