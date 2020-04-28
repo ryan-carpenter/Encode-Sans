@@ -1,55 +1,34 @@
 """
 Usage: on the command line or in a shell script, use:
 
-python get-smallcap-subset-glyphnames.py FONTNAME.ttx
+python get-smallcap-subset-glyphnames.py FONTNAME.ttf
 
 This script:
 
-1. parses TTX to get list glyph names
+1. uses ttFont to get list glyph names
 2. finds all lowercase counterparts to smallcaps glyphs
 3. outputs a list of all glyphnames, minus lowercase counterparts
 
 The output list can then be used in pyftsubset to subset the old lowercase out of the font.
 
-(be sure to use a TTX file)
 """
 
 # set this if different
 smallCapSuffix = "sc"
 
 import sys
-import xml.etree.ElementTree as ET
+from fontTools.ttLib import TTFont
 
-ttxFile = sys.argv[-1]
+font_path = sys.argv[1]
 
-tree = ET.parse(ttxFile)
-root = tree.getroot()
+ttfont = TTFont(font_path)
 
-# sets up list that pyftsubset will leave in the font
-glyphsInFont = []
+glyphNames = ttfont.getGlyphOrder()
 
-# use XMLstarlet to part TTX xml and find all glyph names to add to list
-for hmtx in root.findall('hmtx'):
-    for mtx in hmtx.findall('mtx'):
-        glyphName = mtx.get('name')
-        glyphsInFont.append(glyphName)
+smallcaps = [name for name in ttfont.getGlyphOrder() if smallCapSuffix in name]
 
-# sets up list that pyftsubset will remove
-glyphsToRemove = []
+glyphsReplacedBySmallcaps = [name.replace(smallCapSuffix,'') for name in smallcaps if name in glyphNames]
 
-for index, glyphName in enumerate(glyphsInFont):
-    if f'.{smallCapSuffix}' in glyphName:
-        # gets root name of any small cap glyph (this is its lowercase counterpart)
-        rootName = glyphName.replace(f'.{smallCapSuffix}', '')
+newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps]
 
-        # adds the lowercase name to a list to be removed
-        if rootName in glyphsInFont:
-            glyphsToRemove.append(rootName)
-
-# removes the former small cap glyphs from the font
-for glyphName in glyphsToRemove[::-1]:
-    glyphsInFont.remove(glyphName)
-
-# print space-separated list
-for glyphName in set(glyphsInFont):
-    print(glyphName, " ", end="")
+print(" ".join(newGlyphNames))

@@ -7,4 +7,4 @@ urllib3==1.24.1
 fs
 fontbakery>=0.7.0
 protobuf>=3.7.0
-git+https://github.com/googlefonts/gftools
+gftools
