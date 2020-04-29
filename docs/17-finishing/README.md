@@ -46,3 +46,12 @@ k.sc=kgreenlandic.sc
 Moving away from split-width families allows the static build to be vastly simplified.
 
 I'm also moving away from editing naming with TTX + XMLstarlet, as FontTools ttFont is a much simpler and faster way to deal with this. 
+
+
+## PRing to Google Fonts
+
+I'm copying and adapting the `supdate-gfonts-repo.sh` I've used in previous projects (e.g. [in Libre Caslon Text](https://github.com/thundernixon/Libre-Caslon/blob/5221b4fa50c27c8720c6fdbb94aaeab7a007b404/sources/update-gfonts-repo.sh)), which is extremely helpful in streamlining an accurate process to update a font folder and PR to Google Fonts.
+
+- [x] open PR for normal family: https://github.com/google/fonts/pull/2438
+- [ ] open PR for smallcap family
+  - [ ] The `SC` version seems to be missing critical name IDs. Investigate and correct.
