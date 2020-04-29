@@ -40,3 +40,9 @@ L+j.sc=uni01C8.sc
 N+j.sc=uni01CB.sc 
 k.sc=kgreenlandic.sc
 ```
+
+## Simplifying static build
+
+Moving away from split-width families allows the static build to be vastly simplified.
+
+I'm also moving away from editing naming with TTX + XMLstarlet, as FontTools ttFont is a much simpler and faster way to deal with this. 
