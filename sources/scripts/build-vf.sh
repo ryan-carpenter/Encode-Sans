@@ -9,23 +9,21 @@ set -e
 #----------------- set vars -----------------#
 
 glyphsSource="sources/Encode-Sans.glyphs"
-finalLocation="fonts"
 VFname="EncodeSans-VF.ttf"
+
+# auto-derived vars
+
+TTFPath="fonts/${VFname}"
+smallCapTTFPath="fonts/${VFname/-VF/SC-VF}"
 
 
 # --------------------------------------------------------------
 # Generate Variable Font
 
-fontmake -o variable -g $glyphsSource --output-path $finalLocation/$VFname
+fontmake -o variable -g $glyphsSource --output-path fonts/$VFname
 
 # --------------------------------------------------------------
 # SmallCap subsetting
-
-TTFPath="$finalLocation/${VFname}"
-smallCapTTFPath="$finalLocation/${VFname/-VF/SC-VF}"
-
-echo $TTFPath
-echo $smallCapTTFPath
 
 # make file with smallcaps frozen in
 python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $TTFPath $smallCapTTFPath
@@ -40,7 +38,7 @@ mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath
 # # --------------------------------------------------------------
 # # OpenType table fixes
 
-vfs=$(ls $finalLocation/*.ttf)
+vfs=$(ls fonts/*.ttf)
 for vf in $vfs; do
 
     # add STAT table to font
@@ -63,8 +61,8 @@ done
 # --------------------------------------------------------------
 # Sort into final folder
 
-# TODO: sort into encodesans vs encodesanssc
-vfs=$(ls $finalLocation/*.ttf)
-for vf in $vfs; do
-    cp $vf $finalLocation/$(basename $vf)
-done
+mkdir -p fonts/EncodeSans
+mkdir -p fonts/EncodeSansSC
+
+mv $TTFPath         "fonts/EncodeSans/EncodeSans[wdth,wght].ttf"
+mv $smallCapTTFPath "fonts/EncodeSansSC/EncodeSansSC[wdth,wght].ttf"
