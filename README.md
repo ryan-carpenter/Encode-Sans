@@ -45,9 +45,7 @@ pip install --upgrade -r requirements.txt
 
 If you run into issues installing some of the dependencies (such as Pillow), it may help to separately install the packages with individual commands, such as `pip install Pillow==5.4.1`.
 
-**Installing XMLstarlet:** The build scripts use XMLstarlet to manipulate font data (such as name table info). This is not necessarily the tool I would recommend for future projects – probably, this manipulation could and should be done purely with FontTools. However, to run these build scripts, you will need to download XMLstarlet. It's simplest to use Homebrew to do so: https://formulae.brew.sh/formula/xmlstarlet.
-
-**Installing TTFautohint:** You will also need to download this build of [TTFautohint-vf](https://groups.google.com/forum/#!searchin/googlefonts-discuss/ttfautohint%7Csort:date/googlefonts-discuss/WJX1lrzcwVs/SIzaEvntAgAJ), and place the file directly into the new `venv/bin` within this project.
+**Installing TTFautohint (for static builds only):** Download the latest version of TTFautohint from https://sourceforge.net/projects/freetype/files/ttfautohint/, unzip the file (e.g. `ttfautohint-1.8.3-tty-osx.tar.gz`), and place the unix executable file directly into the new `venv/bin` within this project.
 
 
 ## Step 2: Give permissions to build scripts
@@ -67,57 +65,19 @@ The `-R` applies your permission to each of the shell scripts in the directory, 
 You can then build sources by running shell scripts in `sources/scripts/`.
 
 ```
-sources/scripts/build.sh <flag>
+sources/scripts/build.sh <optionalflag>
 ```
 
 Add one of the are the following flags to build the fonts:
 
 `--statics` or `-s` to build the static TTF instances (there are 45, so it takes awhile)
 
-`--split` or `-sp` to build the split variable fonts (split into 5 width families, each with a variable weight axis).
+`--variable` or `-v` to build the variable font
 
-`--full` or `-f` to build the one full variable font, with weight & width axes
-
-`--all` or `-a` to build all of the fonts and take a coffee break.
-
-### Building Split VFs
-
-If you want to build only a specific "split width" variable font, you can build this with:
-
-```
-sources/scripts/build-split-vf.sh <flag>
-```
-
-`--condensed` or `-c` to build the Condensed split VF (and its smallcap sibling)
-
-`--semicondensed` or `-sc` to build the SemiCondensed split VF (and its smallcap sibling)
-
-`--normal` or `-n` to build the normal-width split VF (and its smallcap sibling)
-
-`--semiexpanded` or `-se` to build the SemiExpanded split VF (and its smallcap sibling)
-
-`--expanded` or `-e` to build the Expanded split VF (and its smallcap sibling)
-
-(Thanks to [@mjlagattuta](https://github.com/mjlagattuta)) for coming up with the way to add flags, and to [@jonalmeida](https://github.com/jonalmeida) for writing [such a good blog post about it](https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/)).
-
-# Build steps after edits to primary source
-
-This project has a "primary" source file which has received design updates, refinements, and QA. However, at present, the Google Fonts library requires weight-only variable fonts (also called "normal" or "split" variable fonts in this repo). To fulfill this, a script is used to derive a normal-width-only Glyphs file from the primary source, from which the width-only variable font is built.
-
-Due to [current limitations in remote scripting for GlyphsApp](https://forum.glyphsapp.com/t/instance-as-master-through-core-api/10502/12), the additional GlyphsApp source must be generated using a Python script in GlyphsApp, rather than something triggered in the build process itself. So, if you wish for edits to the design to cascade into the final outputs, you must use a partially-manual build process, wherein a few processing steps are done to make "build-ready" sources. These steps are as follows:
-
-1. Open your Glyphs Scripts folder in a terminal window and add this repo's source-splitting script as a symlink with `ln -s YOUR_PATH/sources/scripts/helpers/split-encode-vf-glyphs_script.py`
-
-2. Open the main source (`sources/Encode-Sans.glyphs`) in Glyphs. Run the _"Split-up Weight-VF Sources, Encode Sans"_ script.
-
-The GlyphsApp source will be split into several build-ready, single-axis sources.
+Without a flag, it will build both.
 
 # Variable font upgrade project documentation
 
 Notes were taken throughout the variable font upgrade project and added to the [docs](/docs) directory. I tend to take notes while working anyway, in order to think through problems and record solutions for later reference. In this project, I have included these in the repo so that others might find references to solve similar problems, especially because variable font-making processes are relatively new, and there is a general scarcity of online knowledge on font mastering. Because they were often made alongside work, the notes can at times be a bit disjointed. Hopefully they are still helpful to others! 
 
 If you have any questions about the project or the notes, feel free to [file an issue](/issues) or to reach out to Stephen Nixon via Twitter ([@thundernixon](https://twitter.com/thundernixon)) or other social media (typically also @thundernixon).
-
-# Further work-in-progress in `wip` branch
-
-There are a few details currently still being cleared up and improved. While this is happening, this work will take place in the `wip` branch, and the latest font outputs will be moved into the `master` branch as they are created.
