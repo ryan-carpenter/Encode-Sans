@@ -35,8 +35,8 @@ python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapT
 mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath
 
 
-# # --------------------------------------------------------------
-# # OpenType table fixes
+# --------------------------------------------------------------
+# OpenType table fixes
 
 vfs=$(ls fonts/*.ttf)
 for vf in $vfs; do

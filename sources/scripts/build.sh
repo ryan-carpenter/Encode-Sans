@@ -16,6 +16,7 @@ while [ ! $# -eq 0 ]
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
             # variable
             source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
+        ;;
     esac
     shift
 done
