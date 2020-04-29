@@ -41,6 +41,18 @@ N+j.sc=uni01CB.sc
 k.sc=kgreenlandic.sc
 ```
 
+### Smallcap subsetter is removing name IDs
+
+- [ ] The `SC` version seems to be missing critical name IDs. Investigate and correct.
+
+Currently, the smallcap subsetter isn't correctly pass the `--name-ids='*'` argument to pyftsubset. This needs to be corrected.
+
+```python
+subset.main([font_path, "--name-IDs='*'", "--glyph-names", "--notdef-outline", "--glyphs=%s" % newGlyphSet]) # doesn't work
+subset.main([font_path, "--name-IDs=*", "--glyph-names", "--notdef-outline", "--glyphs=%s" % newGlyphSet]) # does work
+```
+
+
 ## Simplifying static build
 
 Moving away from split-width families allows the static build to be vastly simplified.
@@ -54,4 +66,3 @@ I'm copying and adapting the `supdate-gfonts-repo.sh` I've used in previous proj
 
 - [x] open PR for normal family: https://github.com/google/fonts/pull/2438
 - [ ] open PR for smallcap family
-  - [ ] The `SC` version seems to be missing critical name IDs. Investigate and correct.

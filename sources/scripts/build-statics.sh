@@ -11,13 +11,10 @@ set -e
 glyphsSource="sources/Encode-Sans.glyphs"
 
 
---------------------------------------------------------------
-Generate Static Fonts
+# --------------------------------------------------------------
+# Generate Static Fonts
 
-fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
-
-# OR to just make one static font as a test of the build script, use:
-fontmake -g $glyphsSource -i "*SemiExpanded Light.*" --output ttf --overlaps-backend booleanOperations
+# fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
 
 
 # --------------------------------------------------------------
@@ -86,12 +83,9 @@ mkdir -p fonts/EncodeSans/static
 mkdir -p fonts/EncodeSansSC/static
 
 for file in instance_ttf/*; do 
-    case $file in
-        *"SC.ttf")
-            mv $file fonts/EncodeSansSC/static/$(basename $file)
-        ;;
-        *)
-            mv $file fonts/EncodeSans/static/$(basename $file)
-        ;;
-    esac
+    if [[ $file == *"SC.ttf" ]]; then 
+        mv $file fonts/EncodeSansSC/static/$(basename $file)
+    else
+        mv $file fonts/EncodeSans/static/$(basename $file)
+    fi
 done

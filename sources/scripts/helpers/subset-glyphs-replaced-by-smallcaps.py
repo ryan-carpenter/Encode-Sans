@@ -53,4 +53,4 @@ if __name__ == "__main__":
 
 	newGlyphSet = getNewGlyphSet(font_path, removeNames, suffix)
 
-	subset.main([font_path, "--glyphs=%s" % newGlyphSet, "--name-IDs='*'", "--glyph-names", "--notdef-outline"])
+	subset.main([font_path, "--name-IDs=*", "--glyph-names", "--notdef-outline", "--glyphs=%s" % newGlyphSet])
