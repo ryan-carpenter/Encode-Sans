@@ -11,14 +11,11 @@ while [ ! $# -eq 0 ]
         --variable | -v)
             source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
         ;;
-        --all | -a)
+        *)
             # statics
             source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
             # variable
             source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
-        ;;
-        *)
-            echo "Please use argument --statics, --normal, or --variable, or --all to build some or all of the font files"
     esac
     shift
 done
