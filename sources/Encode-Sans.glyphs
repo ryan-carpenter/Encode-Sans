@@ -263,6 +263,22 @@ sub nine.osf by nine;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.osf by bulletoperator;
 sub plus.osf by plus;
 sub minus.osf by minus;
@@ -311,6 +327,22 @@ sub nine.tf by nine;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub zero.tosf by zero.osf;
 sub one.tosf by one.osf;
 sub two.tosf by two.osf;
@@ -321,6 +353,22 @@ sub six.tosf by six.osf;
 sub seven.tosf by seven.osf;
 sub eight.tosf by eight.osf;
 sub nine.tosf by nine.osf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -422,6 +470,22 @@ sub uni20BF.tf by uni20BF;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.tosf by bulletoperator.osf;
 sub plus.tosf by plus.osf;
 sub minus.tosf by minus.osf;
@@ -470,6 +534,22 @@ sub nine by nine.tf;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub zero.osf by zero.tosf;
 sub one.osf by one.tosf;
 sub two.osf by two.tosf;
@@ -480,6 +560,22 @@ sub six.osf by six.tosf;
 sub seven.osf by seven.tosf;
 sub eight.osf by eight.tosf;
 sub nine.osf by nine.tosf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -581,6 +677,22 @@ sub uni20BF by uni20BF.tf;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.osf by bulletoperator.tosf;
 sub plus.osf by plus.tosf;
 sub minus.osf by minus.tosf;
@@ -629,6 +741,22 @@ sub nine.tf by nine.tosf;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub zero by zero.osf;
 sub one by one.osf;
 sub two by two.osf;
@@ -639,6 +767,22 @@ sub six by six.osf;
 sub seven by seven.osf;
 sub eight by eight.osf;
 sub nine by nine.osf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -674,6 +818,22 @@ sub logicalnot.tf by logicalnot.tosf;
 sub infinity.tf by infinity.tosf;
 sub lozenge.tf by lozenge.tosf;
 sub asciicircum.tf by asciicircum.tosf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -738,10 +898,42 @@ code = "lookup ccmp_Other_1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -812,6 +1004,22 @@ lookup ccmp_Other_2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # lookup ccmp_Other_4 {
 # 	lookupflag 0;
 # 	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
@@ -850,6 +1058,22 @@ lookup ccmp_Other_2 {
 # 	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
 # 	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;
 # } ccmp_Other_4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -909,6 +1133,22 @@ lookup ccmp_Other_2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # lookup ccmp_latn_2 {
 # 	lookupflag 0;
 # 	sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -936,6 +1176,22 @@ lookup ccmp_Other_2 {
 # 	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
 # 	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;
 # } ccmp_latn_2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1665,10 +1921,6 @@ Axis = Width;
 Location = 75;
 }
 );
-},
-{
-name = weightClass;
-value = 100;
 }
 );
 descender = -440;
@@ -1797,10 +2049,6 @@ Axis = Width;
 Location = 75;
 }
 );
-},
-{
-name = weightClass;
-value = 900;
 }
 );
 descender = -440;
@@ -1915,10 +2163,6 @@ Axis = Width;
 Location = "125";
 }
 );
-},
-{
-name = weightClass;
-value = 100;
 }
 );
 descender = -440;
@@ -2028,10 +2272,6 @@ Axis = Width;
 Location = 125;
 }
 );
-},
-{
-name = weightClass;
-value = 900;
 }
 );
 descender = -440;
@@ -230260,10 +230500,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 100;
 }
 );
 interpolationWeight = 34;
@@ -230280,10 +230516,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 200;
 }
 );
 interpolationWeight = 46;
@@ -230301,10 +230533,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 300;
 }
 );
 interpolationWeight = 62;
@@ -230322,10 +230550,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 400;
 }
 );
 interpolationWeight = 85;
@@ -230342,10 +230566,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 500;
 }
 );
 interpolationWeight = 112;
@@ -230363,10 +230583,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 600;
 }
 );
 interpolationWeight = 142;
@@ -230384,10 +230600,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 700;
 }
 );
 interpolationWeight = 173;
@@ -230406,10 +230618,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 800;
 }
 );
 interpolationWeight = 205;
@@ -230427,10 +230635,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Condensed";
-},
-{
-name = weightClass;
-value = 900;
 }
 );
 interpolationWeight = 232;
@@ -230447,10 +230651,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 100;
 }
 );
 interpolationWeight = 34;
@@ -230468,10 +230668,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 200;
 }
 );
 interpolationWeight = 46;
@@ -230491,10 +230687,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 300;
 }
 );
 interpolationWeight = 62;
@@ -230514,10 +230706,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 400;
 }
 );
 interpolationWeight = 85;
@@ -230536,10 +230724,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 500;
 }
 );
 interpolationWeight = 112;
@@ -230559,10 +230743,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 600;
 }
 );
 interpolationWeight = 142;
@@ -230582,10 +230762,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 700;
 }
 );
 interpolationWeight = 173;
@@ -230606,10 +230782,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 800;
 }
 );
 interpolationWeight = 205;
@@ -230629,10 +230801,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiCondensed";
-},
-{
-name = weightClass;
-value = 900;
 }
 );
 interpolationWeight = 232;
@@ -230646,12 +230814,6 @@ weightClass = Black;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 100;
-}
-);
 interpolationWeight = 34;
 instanceInterpolations = {
 "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580" = 0.5;
@@ -230661,12 +230823,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 200;
-}
-);
 interpolationWeight = 46;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.0303;
@@ -230678,12 +230834,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 300;
-}
-);
 interpolationWeight = 62;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.07071;
@@ -230695,12 +230845,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 400;
-}
-);
 interpolationWeight = 85;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.12879;
@@ -230711,12 +230855,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 500;
-}
-);
 interpolationWeight = 112;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.19697;
@@ -230728,12 +230866,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 600;
-}
-);
 interpolationWeight = 142;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.27273;
@@ -230745,12 +230877,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 700;
-}
-);
 interpolationWeight = 173;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.35101;
@@ -230763,12 +230889,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 800;
-}
-);
 interpolationWeight = 205;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.43182;
@@ -230780,12 +230900,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 900;
-}
-);
 interpolationWeight = 232;
 instanceInterpolations = {
 "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF" = 0.5;
@@ -230799,10 +230913,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 100;
 }
 );
 interpolationWeight = 34;
@@ -230820,10 +230930,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 200;
 }
 );
 interpolationWeight = 46;
@@ -230843,10 +230949,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 300;
 }
 );
 interpolationWeight = 62;
@@ -230866,10 +230968,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 400;
 }
 );
 interpolationWeight = 85;
@@ -230888,10 +230986,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 500;
 }
 );
 interpolationWeight = 112;
@@ -230911,10 +231005,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 600;
 }
 );
 interpolationWeight = 142;
@@ -230934,10 +231024,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 700;
 }
 );
 interpolationWeight = 173;
@@ -230958,10 +231044,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 800;
 }
 );
 interpolationWeight = 205;
@@ -230981,10 +231063,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans SemiExpanded";
-},
-{
-name = weightClass;
-value = 900;
 }
 );
 interpolationWeight = 232;
@@ -231002,10 +231080,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 100;
 }
 );
 interpolationWeight = 34;
@@ -231022,10 +231096,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 200;
 }
 );
 interpolationWeight = 46;
@@ -231043,10 +231113,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 300;
 }
 );
 interpolationWeight = 62;
@@ -231064,10 +231130,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 400;
 }
 );
 interpolationWeight = 85;
@@ -231084,10 +231146,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 500;
 }
 );
 interpolationWeight = 112;
@@ -231105,10 +231163,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 600;
 }
 );
 interpolationWeight = 142;
@@ -231126,10 +231180,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 700;
 }
 );
 interpolationWeight = 173;
@@ -231148,10 +231198,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 800;
 }
 );
 interpolationWeight = 205;
@@ -231169,10 +231215,6 @@ customParameters = (
 {
 name = familyName;
 value = "Encode Sans Expanded";
-},
-{
-name = weightClass;
-value = 900;
 }
 );
 interpolationWeight = 232;
