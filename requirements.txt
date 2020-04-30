@@ -1,11 +1,11 @@
 fonttools[ufo,woff,lxml] --install-option="--with-zopfli"
-fontmake
-Pillow==5.4.1
+fontmake==2.1.0
+pillow==7.0.0
 idna==2.8
 requests==2.21.0
 urllib3==1.24.1
 fs
 fontbakery>=0.7.0
 protobuf>=3.7.0
-gftools
+gftools==0.2.0
 statmake>=0.2.2
