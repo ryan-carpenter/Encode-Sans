@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.41">
+
+  <fvar>
+
+    <!-- Weight -->
+    <Axis>
+      <AxisTag>wght</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>100.0</MinValue>
+      <DefaultValue>100.0</DefaultValue>
+      <MaxValue>900.0</MaxValue>
+      <AxisNameID>256</AxisNameID>
+    </Axis>
+
+    <!-- Width -->
+    <Axis>
+      <AxisTag>wdth</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>75.0</MinValue>
+      <DefaultValue>75.0</DefaultValue>
+      <MaxValue>125.0</MaxValue>
+      <AxisNameID>257</AxisNameID>
+    </Axis>
+
+    <!-- Condensed Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="258">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="259">
+      <coord axis="wght" value="148.48485"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="260">
+      <coord axis="wght" value="213.1313"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="261">
+      <coord axis="wght" value="306.0606"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="262">
+      <coord axis="wght" value="415.1515"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="263">
+      <coord axis="wght" value="536.36363"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="264">
+      <coord axis="wght" value="661.61615"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="265">
+      <coord axis="wght" value="790.90909"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- Condensed Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="266">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="wdth" value="75.0"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="267">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="268">
+      <coord axis="wght" value="148.48485"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="269">
+      <coord axis="wght" value="213.1313"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="270">
+      <coord axis="wght" value="306.0606"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="271">
+      <coord axis="wght" value="415.1515"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="272">
+      <coord axis="wght" value="536.36363"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="273">
+      <coord axis="wght" value="661.61615"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="274">
+      <coord axis="wght" value="790.90909"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- SemiCondensed Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="275">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="wdth" value="87.5"/>
+    </NamedInstance>
+
+    <!-- Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="276">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="277">
+      <coord axis="wght" value="148.48485"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="278">
+      <coord axis="wght" value="213.1313"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="279">
+      <coord axis="wght" value="306.0606"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="280">
+      <coord axis="wght" value="415.1515"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="281">
+      <coord axis="wght" value="536.36363"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="282">
+      <coord axis="wght" value="661.61615"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="283">
+      <coord axis="wght" value="790.90909"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="284">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="wdth" value="100.0"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="285">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="286">
+      <coord axis="wght" value="148.48485"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="287">
+      <coord axis="wght" value="213.1313"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="288">
+      <coord axis="wght" value="306.0606"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="289">
+      <coord axis="wght" value="415.1515"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="290">
+      <coord axis="wght" value="536.36363"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="291">
+      <coord axis="wght" value="661.61615"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="292">
+      <coord axis="wght" value="790.90909"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- SemiExpanded Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="293">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="wdth" value="112.5"/>
+    </NamedInstance>
+
+    <!-- Expanded Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="294">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded ExtraLight -->
+    <NamedInstance flags="0x0" subfamilyNameID="295">
+      <coord axis="wght" value="148.48485"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="296">
+      <coord axis="wght" value="213.1313"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="297">
+      <coord axis="wght" value="306.0606"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="298">
+      <coord axis="wght" value="415.1515"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="299">
+      <coord axis="wght" value="536.36363"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="300">
+      <coord axis="wght" value="661.61615"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="301">
+      <coord axis="wght" value="790.90909"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+
+    <!-- Expanded Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="302">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="wdth" value="125.0"/>
+    </NamedInstance>
+  </fvar>
+
+</ttFont>

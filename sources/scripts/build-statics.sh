@@ -14,7 +14,7 @@ glyphsSource="sources/Encode-Sans.glyphs"
 # --------------------------------------------------------------
 # Generate Static Fonts
 
-# fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
+fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
 
 
 # --------------------------------------------------------------
