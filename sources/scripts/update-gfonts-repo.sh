@@ -20,6 +20,7 @@ gFontsDir="/Users/stephennixon/type-repos/google-font-repos/fonts" # absolute pa
 
 category="SAN_SERIF"
 designer="Impallari Type, Andres Torresi, Jacques Le Bailly"
+defaultWeight="100"
 
 
 if [[ $1 = "smallcaps" || $1 =  "sc" ]] ; then
@@ -81,6 +82,7 @@ gftools add-font ofl/$gFontsSubDir # do this the first time, then edit as needed
 # update these to be accurate if needed
 sed -i "" "s/SANS_SERIF/$category/g" ofl/$gFontsSubDir/METADATA.pb
 sed -i "" "s/UNKNOWN/$designer/g" ofl/$gFontsSubDir/METADATA.pb
+sed -i "" "s/weight: 400/weight: $defaultWeight/g" ofl/$gFontsSubDir/METADATA.pb
 
 cp $projectDir/OFL.txt ofl/$gFontsSubDir/OFL.txt
 

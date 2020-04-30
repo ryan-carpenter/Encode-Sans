@@ -1,7 +1,8 @@
 {
 .appVersion = "1312";
 DisplayStrings = (
-"/brevecomb_gravecomb/abrevegrave/brevecomb_hookabovecomb/abrevehookabove/brevecomb_tildecomb/abrevetilde/circumflexcomb_acutecomb/acircumflexacute/circumflexcomb_gravecomb/acircumflexgrave/circumflexcomb_hookabovecomb/acircumflexhookabove/circumflexcomb_tildecomb/acircumflextilde"
+"/brevecomb_gravecomb/abrevegrave/brevecomb_hookabovecomb/abrevehookabove/brevecomb_tildecomb/abrevetilde/circumflexcomb_acutecomb/acircumflexacute/circumflexcomb_gravecomb/acircumflexgrave/circumflexcomb_hookabovecomb/acircumflexhookabove/circumflexcomb_tildecomb/acircumflextilde",
+"/macroncomb.case/dieresiscomb.case/macroncomb_dieresiscomb.case"
 );
 classes = (
 {
@@ -298,6 +299,70 @@ sub nine.osf by nine;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.osf by bulletoperator;
 sub plus.osf by plus;
 sub minus.osf by minus;
@@ -394,6 +459,70 @@ sub nine.tf by nine;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub zero.tosf by zero.osf;
 sub one.tosf by one.osf;
 sub two.tosf by two.osf;
@@ -404,6 +533,70 @@ sub six.tosf by six.osf;
 sub seven.tosf by seven.osf;
 sub eight.tosf by eight.osf;
 sub nine.tosf by nine.osf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -601,6 +794,70 @@ sub uni20BF.tf by uni20BF;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.tosf by bulletoperator.osf;
 sub plus.tosf by plus.osf;
 sub minus.tosf by minus.osf;
@@ -697,6 +954,70 @@ sub nine by nine.tf;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub zero.osf by zero.tosf;
 sub one.osf by one.tosf;
 sub two.osf by two.tosf;
@@ -707,6 +1028,70 @@ sub six.osf by six.tosf;
 sub seven.osf by seven.tosf;
 sub eight.osf by eight.tosf;
 sub nine.osf by nine.tosf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -904,6 +1289,70 @@ sub uni20BF by uni20BF.tf;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.osf by bulletoperator.tosf;
 sub plus.osf by plus.tosf;
 sub minus.osf by minus.tosf;
@@ -936,6 +1385,70 @@ sub six.tf by six.tosf;
 sub seven.tf by seven.tosf;
 sub eight.tf by eight.tosf;
 sub nine.tf by nine.tosf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1074,6 +1587,70 @@ sub nine by nine.osf;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sub bulletoperator.tf by bulletoperator.tosf;
 sub divisionslash.tf by divisionslash.tosf;
 sub plus.tf by plus.tosf;
@@ -1093,6 +1670,70 @@ sub logicalnot.tf by logicalnot.tosf;
 sub infinity.tf by infinity.tosf;
 sub lozenge.tf by lozenge.tosf;
 sub asciicircum.tf by asciicircum.tosf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1253,10 +1894,138 @@ code = "lookup ccmp_Other_1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1423,6 +2192,70 @@ lookup ccmp_Other_2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # lookup ccmp_Other_4 {
 # 	lookupflag 0;
 # 	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
@@ -1461,6 +2294,70 @@ lookup ccmp_Other_2 {
 # 	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
 # 	sub tildecomb.sc macroncomb.sc by tildecomb_macroncomb.sc;
 # } ccmp_Other_4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1616,6 +2513,70 @@ lookup ccmp_Other_2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # lookup ccmp_latn_2 {
 # 	lookupflag 0;
 # 	sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -1643,6 +2604,70 @@ lookup ccmp_Other_2 {
 # 	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;
 # 	sub circumflexcomb.sc tildecomb.sc by circumflexcomb_tildecomb.sc;
 # } ccmp_latn_2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -215359,6 +216384,7 @@ layerId = "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF";
 width = 1200;
 }
 );
+changeCount = 2;
 },
 {
 color = 2;

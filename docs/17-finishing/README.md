@@ -43,7 +43,7 @@ k.sc=kgreenlandic.sc
 
 ### Smallcap subsetter is removing name IDs
 
-- [ ] The `SC` version seems to be missing critical name IDs. Investigate and correct.
+- [x] The `SC` version seems to be missing critical name IDs. Investigate and correct.
 
 Currently, the smallcap subsetter isn't correctly pass the `--name-ids='*'` argument to pyftsubset. This needs to be corrected.
 
@@ -59,10 +59,20 @@ Moving away from split-width families allows the static build to be vastly simpl
 
 I'm also moving away from editing naming with TTX + XMLstarlet, as FontTools ttFont is a much simpler and faster way to deal with this. 
 
+## Fixing usWeightClass
+
+This required fewer parameters in the masters, and is something being resolved by glyphsLib & GlyphsApp.
+
+## Fixing Vietnamese accent alignment
+
+- [x] These are wildly off, and I'm not 100% sure how they got that way. I will go through and fix them. (Luckily this was an extremely quick fix)
+
+![offcenter anchors in accent](assets/2020-04-30-15-45-14.png)
+
 
 ## PRing to Google Fonts
 
 I'm copying and adapting the `supdate-gfonts-repo.sh` I've used in previous projects (e.g. [in Libre Caslon Text](https://github.com/thundernixon/Libre-Caslon/blob/5221b4fa50c27c8720c6fdbb94aaeab7a007b404/sources/update-gfonts-repo.sh)), which is extremely helpful in streamlining an accurate process to update a font folder and PR to Google Fonts.
 
 - [x] open PR for normal family: https://github.com/google/fonts/pull/2438
-- [ ] open PR for smallcap family
+- [x] open PR for smallcap family
