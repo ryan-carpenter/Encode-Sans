@@ -11,12 +11,13 @@ while [ ! $# -eq 0 ]
         --variable | -v)
             source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
         ;;
-        *)
-            # statics
-            source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
-            # variable
-            source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
-        ;;
     esac
     shift
 done
+
+if [ -z $1 ]; then
+    # statics
+    source $(dirname ${BASH_SOURCE[0]})/build-statics.sh
+    # variable
+    source $(dirname ${BASH_SOURCE[0]})/build-vf.sh
+fi

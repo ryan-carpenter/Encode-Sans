@@ -11,6 +11,33 @@ font_path = sys.argv[1]
 
 STAT = {
     "axes": [
+                {
+            "name": "Width",
+            "tag": "wdth",
+            "locations": [
+                {
+                    "name": "Condensed",
+                    "value": 75
+                },
+                {
+                    "name": "SemiCondensed",
+                    "value": 87.5
+                },
+                {
+                    "name": "Normal",
+                    "value": 100,
+                    "flags": ["ElidableAxisValueName"]
+                },
+                {
+                    "name": "SemiExpanded",
+                    "value": 112.5
+                },
+                {
+                    "name": "Expanded",
+                    "value": 125
+                }
+            ]
+        },
         {
             "name": "Weight",
             "tag": "wght",
@@ -53,33 +80,6 @@ STAT = {
                     "name": "Black",
                     "value": 900
                     }
-            ]
-        },
-        {
-            "name": "Width",
-            "tag": "wdth",
-            "locations": [
-                {
-                    "name": "Condensed",
-                    "value": 75
-                },
-                {
-                    "name": "SemiCondensed",
-                    "value": 87.5
-                },
-                {
-                    "name": "Normal",
-                    "value": 100,
-                    "flags": ["ElidableAxisValueName"]
-                },
-                {
-                    "name": "SemiExpanded",
-                    "value": 112.5
-                },
-                {
-                    "name": "Expanded",
-                    "value": 125
-                }
             ]
         }
     ]
