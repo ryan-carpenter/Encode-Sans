@@ -1,9 +1,9 @@
 {
-.appVersion = "1312";
+.appVersion = "1339";
 DisplayStrings = (
 "/brevecomb_gravecomb/abrevegrave/brevecomb_hookabovecomb/abrevehookabove/brevecomb_tildecomb/abrevetilde/circumflexcomb_acutecomb/acircumflexacute/circumflexcomb_gravecomb/acircumflexgrave/circumflexcomb_hookabovecomb/acircumflexhookabove/circumflexcomb_tildecomb/acircumflextilde",
 "/commaaccentcomb/lcommaaccent",
-"/apostrophemod/napostrophe/napostrophe.sc/commaturnedmod/firsttonechinese/fourthtonechinese/ringhalfleft/ringhalfright/secondtonechinese/verticallinelowmod/verticallinemod/dieresiscomb/dieresiscomb_acutecomb/dieresiscomb_macroncomb/dotaccentcomb/dotaccentcomb_macroncomb/gravecomb/acutecomb/acutecomb_dotaccentcomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/caroncomb_dotaccentcomb/brevecomb/ringcomb/ringcomb_acutecomb/tildecomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb/macroncomb_dieresiscomb/macroncomb_gravecomb/macroncomb_acutecomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb ç/ccedillaacute/ecedillabreve/scedilla/tcedilla ¸/ogonekcomb/aogonek/iogonek/uogonek/ogonek/brevebelowcomb/macronbelowcomb ¨/dotaccent `´/hungarumlaut/circumflex/caron/breve/ring/tilde ¯¸/ogonek"
+"/idotless"
 );
 classes = (
 {
@@ -110,35 +110,41 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "script latn;
-language NLD;
-sub I J by I_J.loclNLD;
-sub i j by i_j.loclNLD;
-sub iacute j by iacute_j.loclNLD;
-sub Iacute J by Iacute_J.loclNLD;
-language CAT;
-sub  l' periodcentered' l by ldot;
-sub  L' periodcentered' L by Ldot;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language KAZ;
-sub i by idotaccent;
-language TAT;
-sub i by idotaccent;
-language TRK;
-sub i by idotaccent;
-language CRT;
-sub i by idotaccent;
-language AZE;
-sub i by idotaccent;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	language CRT;
+	language KAZ;
+	language TAT;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language NLD;
+	sub I J by I_J.loclNLD;
+	sub i j by i_j.loclNLD;
+	sub iacute j by iacute_j.loclNLD;
+	sub Iacute J by Iacute_J.loclNLD;
+} locl_latn_2;
+
+lookup locl_latn_3 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_3;
 ";
 name = locl;
 },
@@ -92489,6 +92495,127 @@ width = 736;
 );
 leftKerningGroup = h.sc;
 rightKerningGroup = h.sc;
+},
+{
+glyphname = idotless.sc;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{200, 0}";
+},
+{
+name = ogonek;
+position = "{234, 0}";
+},
+{
+name = top;
+position = "{200, 1230}";
+}
+);
+layerId = "ECFF4977-BDCC-4836-B4AC-1801CF0EB460";
+paths = (
+{
+closed = 1;
+nodes = (
+"234 0 LINE",
+"234 1190 LINE",
+"166 1190 LINE",
+"166 0 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{286, 0}";
+},
+{
+name = ogonek;
+position = "{480, 0}";
+},
+{
+name = top;
+position = "{286, 1230}";
+}
+);
+layerId = "C8FFBC04-9D7C-494A-A42D-BACB8E26599D";
+paths = (
+{
+closed = 1;
+nodes = (
+"480 0 LINE",
+"480 1190 LINE",
+"90 1190 LINE",
+"90 0 LINE"
+);
+}
+);
+width = 570;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{252, 0}";
+},
+{
+name = ogonek;
+position = "{286, 0}";
+},
+{
+name = top;
+position = "{252, 1230}";
+}
+);
+layerId = "E28BEEB5-BD92-4E7A-B4EA-FC5E5BBBF580";
+paths = (
+{
+closed = 1;
+nodes = (
+"286 0 LINE",
+"286 1190 LINE",
+"218 1190 LINE",
+"218 0 LINE"
+);
+}
+);
+width = 504;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{366, 0}";
+},
+{
+name = ogonek;
+position = "{604, 0}";
+},
+{
+name = top;
+position = "{368, 1230}";
+}
+);
+layerId = "1E90A949-97C4-49F5-AA9A-AF35B6FD63CF";
+paths = (
+{
+closed = 1;
+nodes = (
+"604 0 LINE",
+"604 1190 LINE",
+"132 1190 LINE",
+"132 0 LINE"
+);
+}
+);
+width = 736;
+}
+);
 },
 {
 glyphname = iacute.sc;
