@@ -29,7 +29,7 @@ fontmake -o variable -g $glyphsSource --output-path fonts/$VFname
 python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $TTFPath $smallCapTTFPath
 
 # subset with pyftsubset to remove replaced lowercase, also remove unecessary ligatures
-python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
+python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -k "less" -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
 
 # overwrite frozen font with frozen+subset font
 mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath

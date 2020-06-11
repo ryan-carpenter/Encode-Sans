@@ -17,7 +17,7 @@ import argparse
 from fontTools.ttLib import TTFont
 from fontTools import subset
 
-def getNewGlyphSet(font_path, removeNames, smallCapSuffix):
+def getNewGlyphSet(font_path, removeNames, keepNames, smallCapSuffix):
 
 	ttfont = TTFont(font_path)
 
@@ -27,8 +27,15 @@ def getNewGlyphSet(font_path, removeNames, smallCapSuffix):
 
 	glyphsReplacedBySmallcaps = [name.replace(f'.{smallCapSuffix}','') for name in smallcaps if name in glyphNames]
 
-	newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps and name not in removeNames]
+	print("----------------------------------------")
+	print("glyphsReplacedBySmallcaps")
+	print(glyphsReplacedBySmallcaps)
+
+	newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps and name not in removeNames] + [name for name in keepNames]
 	# newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps]
+	print("----------------------------------------")
+	print("newGlyphNames")
+	print(newGlyphNames)
 
 	return " ".join(newGlyphNames)
 
@@ -42,15 +49,19 @@ if __name__ == "__main__":
 	parser.add_argument("-r", "--remove",
 						default="",
 						help="Glyph names to exclude from the final glyphset")
+	parser.add_argument("-k", "--keep",
+						default="",
+						help="Glyph names to specifically include in the final glyphset, in case they are being dropped")
 	parser.add_argument("-s", "--suffix",
 						default="sc",
 						help="Suffix used to denote smallcaps glyphs. Default is 'sc'.")
 		
 	args = parser.parse_args()
 	font_path = args.fontPath
-	removeNames = args.remove
+	removeNames = args.remove.split(" ")
+	keepNames = args.keep.split(" ")
 	suffix = args.suffix
 
-	newGlyphSet = getNewGlyphSet(font_path, removeNames, suffix)
+	newGlyphSet = getNewGlyphSet(font_path, removeNames, keepNames, suffix)
 
 	subset.main([font_path, "--name-IDs=*", "--glyph-names", "--notdef-outline", "--glyphs=%s" % newGlyphSet])
