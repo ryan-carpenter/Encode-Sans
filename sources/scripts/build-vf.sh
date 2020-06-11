@@ -34,6 +34,9 @@ python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapT
 # overwrite frozen font with frozen+subset font
 mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath
 
+# add unicode to dotlessi.sc (pyftfreeze is missing this one)
+python sources/scripts/helpers/add-unicode-to-dotlessi_sc.py $smallCapTTFPath
+
 # update OS/2 xAvgCharWidth for new glyph set
 python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
 

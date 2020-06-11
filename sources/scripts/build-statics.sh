@@ -36,6 +36,9 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
 
     # update OS/2 xAvgCharWidth for new glyph set
     python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
+
+    # add unicode to dotlessi.sc (pyftfreeze is missing this one)
+    python sources/scripts/helpers/add-unicode-to-dotlessi_sc.py $smallCapTTFPath
 fi
 done
 
