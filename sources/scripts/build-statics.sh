@@ -33,7 +33,10 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
 
     # overwrite frozen font with frozen+subset font
     mv ${smallCapTTFPath/"SC.ttf"/"SC.subset.ttf"} $smallCapTTFPath
-fi 
+
+    # update OS/2 xAvgCharWidth for new glyph set
+    python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
+fi
 done
 
 
