@@ -27,15 +27,7 @@ def getNewGlyphSet(font_path, removeNames, keepNames, smallCapSuffix):
 
 	glyphsReplacedBySmallcaps = [name.replace(f'.{smallCapSuffix}','') for name in smallcaps if name in glyphNames]
 
-	print("----------------------------------------")
-	print("glyphsReplacedBySmallcaps")
-	print(glyphsReplacedBySmallcaps)
-
 	newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps and name not in removeNames] + [name for name in keepNames]
-	# newGlyphNames = [name for name in glyphNames if name not in glyphsReplacedBySmallcaps]
-	print("----------------------------------------")
-	print("newGlyphNames")
-	print(newGlyphNames)
 
 	return " ".join(newGlyphNames)
 
