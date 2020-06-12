@@ -42,6 +42,11 @@ python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
 
 
 # --------------------------------------------------------------
+# Font name table fixes
+
+python sources/scripts/helpers/fix-SC-names.py $smallCapTTFPath
+
+# --------------------------------------------------------------
 # OpenType table fixes
 
 vfs=$(ls fonts/*.ttf)

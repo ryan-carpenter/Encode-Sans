@@ -10,16 +10,17 @@ def keepDotlessi(font_path):
     ttfont = TTFont(font_path)
 
     for table in ttfont['cmap'].tables:
-        table.cmap[131] = "dotlessi.sc"
+        table.cmap[305] = "dotlessi.sc"
 
     ttfont.save(font_path)
+
 
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("fontPath",
                         help="The path to an otf or ttf file")
-        
+
     args = parser.parse_args()
     font_path = args.fontPath
 

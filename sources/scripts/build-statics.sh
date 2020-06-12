@@ -15,6 +15,7 @@ glyphsSource="sources/Encode-Sans.glyphs"
 # Generate Static Fonts
 
 fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
+# fontmake -g $glyphsSource --output ttf -i ".* SemiCondensed ExtraBold.*" --overlaps-backend booleanOperations # to test just one style
 
 
 # --------------------------------------------------------------
@@ -23,7 +24,7 @@ fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanO
 for file in instance_ttf/*; do 
 if [[ -f "$file" && $file == *".ttf" ]]; then 
 
-    smallCapTTFPath="${file/.ttf/SC.ttf}"
+    smallCapTTFPath="${file/Sans-/SansSC-}"
 
     # make file with smallcaps frozen in
     python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $file $smallCapTTFPath
@@ -32,13 +33,13 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
 
     # overwrite frozen font with frozen+subset font
-    mv ${smallCapTTFPath/"SC.ttf"/"SC.subset.ttf"} $smallCapTTFPath
-
-    # update OS/2 xAvgCharWidth for new glyph set
-    python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
+    mv ${smallCapTTFPath/".ttf"/".subset.ttf"} $smallCapTTFPath
 
     # add unicode to dotlessi.sc (pyftfreeze is missing this one)
     python sources/scripts/helpers/add-unicode-to-dotlessi_sc.py $smallCapTTFPath
+
+    # update OS/2 xAvgCharWidth for new glyph set
+    python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
 fi
 done
 
@@ -48,7 +49,7 @@ done
 
 for file in instance_ttf/*; do 
 if [[ -f "$file" && $file == *".ttf" ]]; then
-    python sources/scripts/helpers/shorten-nameID-4-6.py $file
+    python sources/scripts/helpers/fix-SC-names.py $file
 fi
 done
 
@@ -89,7 +90,7 @@ mkdir -p fonts/EncodeSans/static
 mkdir -p fonts/EncodeSansSC/static
 
 for file in instance_ttf/*; do 
-    if [[ $file == *"SC.ttf" ]]; then 
+    if [[ $file == *"SansSC-"* ]]; then 
         mv $file fonts/EncodeSansSC/static/$(basename $file)
     else
         mv $file fonts/EncodeSans/static/$(basename $file)

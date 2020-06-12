@@ -233378,12 +233378,6 @@ width = 1666;
 );
 instances = (
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 34;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233394,12 +233388,6 @@ weightClass = Thin;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 46;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233411,12 +233399,6 @@ weightClass = ExtraLight;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 62;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233428,12 +233410,6 @@ weightClass = Light;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 85;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233444,12 +233420,6 @@ name = "Condensed Regular";
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 112;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233461,12 +233431,6 @@ weightClass = Medium;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 142;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233478,12 +233442,6 @@ weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 173;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233496,12 +233454,6 @@ weightClass = Bold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 205;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233513,12 +233465,6 @@ weightClass = ExtraBold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Condensed";
-}
-);
 interpolationWeight = 232;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -233529,12 +233475,6 @@ weightClass = Black;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 34;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233546,12 +233486,6 @@ weightClass = Thin;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 46;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233565,12 +233499,6 @@ weightClass = ExtraLight;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 62;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233584,12 +233512,6 @@ weightClass = Light;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 85;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233602,12 +233524,6 @@ name = "SemiCondensed Regular";
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 112;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233621,12 +233537,6 @@ weightClass = Medium;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 142;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233640,12 +233550,6 @@ weightClass = SemiBold;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 173;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233660,12 +233564,6 @@ weightClass = Bold;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 205;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233679,12 +233577,6 @@ weightClass = ExtraBold;
 widthClass = SemiCondensed;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiCondensed";
-}
-);
 interpolationWeight = 232;
 interpolationWidth = 87.5;
 instanceInterpolations = {
@@ -233791,12 +233683,6 @@ name = Black;
 weightClass = Black;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 34;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233808,12 +233694,6 @@ weightClass = Thin;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 46;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233827,12 +233707,6 @@ weightClass = ExtraLight;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 62;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233846,12 +233720,6 @@ weightClass = Light;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 85;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233864,12 +233732,6 @@ name = "SemiExpanded Regular";
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 112;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233883,12 +233745,6 @@ weightClass = Medium;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 142;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233902,12 +233758,6 @@ weightClass = SemiBold;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 173;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233922,12 +233772,6 @@ weightClass = Bold;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 205;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233941,12 +233785,6 @@ weightClass = ExtraBold;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans SemiExpanded";
-}
-);
 interpolationWeight = 232;
 interpolationWidth = 112.5;
 instanceInterpolations = {
@@ -233958,12 +233796,6 @@ weightClass = Black;
 widthClass = SemiExpanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 34;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -233974,12 +233806,6 @@ weightClass = Thin;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 46;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -233991,12 +233817,6 @@ weightClass = ExtraLight;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 62;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -234008,12 +233828,6 @@ weightClass = Light;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 85;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -234024,12 +233838,6 @@ name = "Expanded Regular";
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 112;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -234041,12 +233849,6 @@ weightClass = Medium;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 142;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -234058,12 +233860,6 @@ weightClass = SemiBold;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 173;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -234076,12 +233872,6 @@ weightClass = Bold;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 205;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -234093,12 +233883,6 @@ weightClass = ExtraBold;
 widthClass = Expanded;
 },
 {
-customParameters = (
-{
-name = familyName;
-value = "Encode Sans Expanded";
-}
-);
 interpolationWeight = 232;
 interpolationWidth = 125;
 instanceInterpolations = {
@@ -242731,5 +242515,5 @@ subs1 = (
 };
 };
 versionMajor = 3;
-versionMinor = 0;
+versionMinor = 1;
 }
