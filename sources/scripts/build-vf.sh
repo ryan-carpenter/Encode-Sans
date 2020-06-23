@@ -26,25 +26,25 @@ fontmake -o variable -g $glyphsSource --output-path fonts/$VFname
 # SmallCap subsetting
 
 # make file with smallcaps frozen in
-python sources/scripts/helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $TTFPath $smallCapTTFPath
+python sources/scripts/build-helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $TTFPath $smallCapTTFPath
 
 # subset with pyftsubset to remove replaced lowercase, also remove unecessary ligatures
-python sources/scripts/helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -k "less" -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
+python sources/scripts/build-helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -k "less" -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
 
 # overwrite frozen font with frozen+subset font
 mv ${smallCapTTFPath/"VF"/"VF.subset"} $smallCapTTFPath
 
 # add unicode to dotlessi.sc (pyftfreeze is missing this one)
-python sources/scripts/helpers/add-unicode-to-dotlessi_sc.py $smallCapTTFPath
+python sources/scripts/build-helpers/add-unicode-to-dotlessi_sc.py $smallCapTTFPath
 
 # update OS/2 xAvgCharWidth for new glyph set
-python sources/scripts/helpers/set-x_avg_char_width.py $smallCapTTFPath
+python sources/scripts/build-helpers/set-x_avg_char_width.py $smallCapTTFPath
 
 
 # --------------------------------------------------------------
 # Font name table fixes
 
-python sources/scripts/helpers/fix-SC-names.py $smallCapTTFPath
+python sources/scripts/build-helpers/fix-SC-names.py $smallCapTTFPath
 
 # --------------------------------------------------------------
 # OpenType table fixes
@@ -53,7 +53,7 @@ vfs=$(ls fonts/*.ttf)
 for vf in $vfs; do
 
     # add STAT table to font
-    python sources/scripts/helpers/add-stat-table.py $vf
+    python sources/scripts/build-helpers/add-stat-table.py $vf
 
     # other table fixes
     gftools fix-dsig -f $vf
