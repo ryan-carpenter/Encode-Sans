@@ -34,7 +34,7 @@ path = sys.argv[-1]
 
 print('------------------------------------------------------------------------------------------')
 print('------------------------------------------------------------------------------------------')
-print('fixing SC nameIDs 1, 3, 4, & 6 in ' + path)
+print('abbreviating name lengths in nameIDs 1, 3, 4, & 6 in ' + path)
 print('------------------------------------------------------------------------------------------')
 print('------------------------------------------------------------------------------------------')
 
@@ -88,7 +88,6 @@ def abbreviateNames(path):
     # name 4
     name4 = getFontNameID(font, 4)
     newName4 = abbreviate(name4)
-    newName4 = newName4.replace(" SC","").replace("Encode Sans", "Encode Sans SC")
     if "Regular" not in name6:
         newName4 = newName4.replace(" Regular","") # remove "Regular" in font name if not in postscript name (and therefore the style is not a Regular)
     setFontNameID(font, 4, newName4)
@@ -96,7 +95,6 @@ def abbreviateNames(path):
     # name 3
     name3 = getFontNameID(font, 3)
     newName3 = abbreviate(name3)
-    newName3 = newName3.replace("-", "SC-")
     # if "fvar" in font.keys():
     #     newName3 = newName3 + "Regular"
     setFontNameID(font, 3, newName3)
@@ -104,7 +102,6 @@ def abbreviateNames(path):
     # name 1
     name1 = getFontNameID(font, 1)
     newName1 = abbreviate(name1)
-    newName1 = newName1.replace(" SC","").replace("Encode Sans", "Encode Sans SC")
     setFontNameID(font, 1, newName1)
 
     print("Font saved with abbreviated names!")

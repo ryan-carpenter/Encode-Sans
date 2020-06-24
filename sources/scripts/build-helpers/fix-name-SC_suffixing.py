@@ -66,30 +66,32 @@ def abbreviateNames(path):
 
     font = TTFont(path)
 
+    # name 16
+    name16 = getFontNameID(font, 16)
+    if name16 != 'None':
+        newName16 = name16 + ' SC'
+        setFontNameID(font, 16, newName16)
+
     # name 6
     name6 = getFontNameID(font, 6)
-    # newName6 = abbreviate(name6)
-    # setFontNameID(font, 6, newName6)
+    newName6 = name6.replace("-", "SC-")
+    setFontNameID(font, 6, newName6)
 
     # name 4
     name4 = getFontNameID(font, 4)
-    newName4 = newName4.replace(" SC","").replace("Encode Sans", "Encode Sans SC")
+    newName4 = name4.replace(" SC","").replace("Encode Sans", "Encode Sans SC")
     if "Regular" not in name6:
         newName4 = newName4.replace(" Regular","") # remove "Regular" in font name if not in postscript name (and therefore the style is not a Regular)
     setFontNameID(font, 4, newName4)
 
     # name 3
     name3 = getFontNameID(font, 3)
-    # newName3 = abbreviate(name3)
-    newName3 = newName3.replace("-", "SC-")
-    # if "fvar" in font.keys():
-    #     newName3 = newName3 + "Regular"
+    newName3 = name3.replace("-", "SC-")
     setFontNameID(font, 3, newName3)
 
     # name 1
     name1 = getFontNameID(font, 1)
-    # newName1 = abbreviate(name1)
-    newName1 = newName1.replace(" SC","").replace("Encode Sans", "Encode Sans SC")
+    newName1 = name1.replace(" SC","").replace("Encode Sans", "Encode Sans SC")
     setFontNameID(font, 1, newName1)
 
     print("Font saved with abbreviated names!")

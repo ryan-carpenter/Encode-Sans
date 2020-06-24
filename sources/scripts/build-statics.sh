@@ -10,12 +10,18 @@ set -e
 
 glyphsSource="sources/Encode-Sans.glyphs"
 
+# --------------------------------------------------------------
+# Clean out old builds
+
+rm -rf fonts/EncodeSans/static
+rm -rf fonts/EncodeSansSC/static
 
 # --------------------------------------------------------------
 # Generate Static Fonts
 
-# fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
-fontmake -g $glyphsSource --output ttf -i ".* SemiCondensed ExtraBold.*" --overlaps-backend booleanOperations # to test just one style
+fontmake -g $glyphsSource --output ttf --interpolate --overlaps-backend booleanOperations
+# fontmake -g $glyphsSource --output ttf -i ".* SemiCondensed ExtraBold.*" --overlaps-backend booleanOperations # to test just one style
+# fontmake -g $glyphsSource --output ttf -i ".* Regular.*" --overlaps-backend booleanOperations # to test just regular styles
 
 
 # --------------------------------------------------------------
@@ -27,7 +33,10 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     smallCapTTFPath="${file/Sans-/SansSC-}"
 
     # make file with smallcaps frozen in
-    python sources/scripts/build-helpers/pyftfeatfreeze.py -f 'smcp' -S -U SC $file $smallCapTTFPath
+    python sources/scripts/build-helpers/pyftfeatfreeze.py -f 'smcp' $file $smallCapTTFPath
+
+    # fix name suffixing because pyftfreeze doesn’t do it properly
+    python sources/scripts/build-helpers/fix-name-SC_suffixing.py $smallCapTTFPath
 
     # subset with pyftsubset to remove replaced lowercase, also remove unecessary ligatures
     python sources/scripts/build-helpers/subset-glyphs-replaced-by-smallcaps.py $smallCapTTFPath -r "fi f_i f_j f_l fl dotlessi uni0237 o.comb f.short"
@@ -41,7 +50,6 @@ if [[ -f "$file" && $file == *".ttf" ]]; then
     # update OS/2 xAvgCharWidth for new glyph set
     python sources/scripts/build-helpers/set-x_avg_char_width.py $smallCapTTFPath
 
-    python sources/scripts/build-helpers/fix-name-SC_suffixing.py $file
 fi
 done
 
