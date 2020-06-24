@@ -3,6 +3,7 @@ venv
 node_modules
 
 variable_ttf
+instance_ttf
 instance_ufo
 master_ufo
 .vscode
